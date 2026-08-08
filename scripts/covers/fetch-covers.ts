@@ -29,6 +29,9 @@ const REPOS: Record<string, string> = {
   gamecube: "Nintendo_-_GameCube",
   gb: "Nintendo_-_Game_Boy",
   gbc: "Nintendo_-_Game_Boy_Color",
+  snes: "Nintendo_-_Super_Nintendo_Entertainment_System",
+  xbox360: "Microsoft_-_Xbox_360",
+  // xboxone : pas de repo libretro
   // switch : pas de repo libretro — icônes via titledb (voir scripts/catalog/fetch-switch.ts)
 };
 
@@ -164,20 +167,32 @@ async function main(): Promise<void> {
         missing.push({ id: g.id, title: g.canonicalTitle });
         continue;
       }
-      try {
-        await download(repo, match.raw, dest);
-        // réduction + conversion JPEG (macOS sips) — ~60 Ko par jaquette
+      // essaie chaque URL (GitHub raw puis CDN) et VALIDE la conversion sips —
+      // un pointeur LFS téléchargé en 200 est détecté par l'échec de sips.
+      const urls = [
+        `https://raw.githubusercontent.com/libretro-thumbnails/${repo}/master/Named_Boxarts/${encodeURIComponent(match.raw)}`,
+        `http://thumbnails.libretro.com/${encodeURIComponent(repo.replace(/_/g, " "))}/Named_Boxarts/${encodeURIComponent(match.raw)}`,
+      ];
+      let done = false;
+      let lastErr = "";
+      for (const url of urls) {
         try {
+          const res = await fetch(url);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
           execSync(`sips -Z 400 "${dest}" >/dev/null 2>&1`);
           execSync(`sips -s format jpeg -s formatOptions 78 "${dest}" --out "${finalJpg}" >/dev/null 2>&1`);
-          fs.rmSync(dest);
-        } catch {
-          /* sips indisponible : on garde le PNG original */
+          if (!fs.existsSync(finalJpg)) throw new Error("conversion sips échouée");
+          done = true;
+          break;
+        } catch (e) {
+          lastErr = e instanceof Error ? e.message : String(e);
+        } finally {
+          fs.rmSync(dest, { force: true });
         }
-        matched.push(g.id);
-      } catch (e) {
-        missing.push({ id: g.id, title: `${g.canonicalTitle} (échec: ${e instanceof Error ? e.message : e})` });
       }
+      if (done) matched.push(g.id);
+      else missing.push({ id: g.id, title: `${g.canonicalTitle} (échec: ${lastErr})` });
     }
   }
 

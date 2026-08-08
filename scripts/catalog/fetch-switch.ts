@@ -76,6 +76,8 @@ async function main(): Promise<void> {
         if (v.name) {
           const n = normalizeTitle(v.name);
           if (n && !iconByName.has(n)) iconByName.set(n, v.iconUrl);
+          const compact = n.replace(/\s/g, "");
+          if (compact && !iconByName.has(compact)) iconByName.set(compact, v.iconUrl);
         }
       }
     } catch (e) {
@@ -87,9 +89,17 @@ async function main(): Promise<void> {
   // dédup par titre normalisé, agrégation des régions, premier titleid avec icône
   const byNorm = new Map<string, { title: string; regions: Set<string>; titleIds: string[] }>();
   for (const rel of releases) {
-    const name = tag(rel, "name")
+    const rawName = tag(rel, "name")
       .replace(/&amp;/g, "&").replace(/&apos;/g, "'").replace(/&quot;/g, '"')
       .replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+    if (!rawName || /KIOSK|\(Demo\)/i.test(rawName)) continue;
+    // nettoyage nswdb : blocs [Rev …], (revNNN), *…*, double nom "Scarlet / Karmesin"
+    const name = rawName
+      .replace(/\s*\[[^\]]*\]/g, "")
+      .replace(/\s*\((?:rev|v)[\w. ]*\)/gi, "")
+      .replace(/\s*\*[^*]*\*/g, "")
+      .split(" / ")[0]!
+      .trim();
     if (!name) continue;
     const norm = normalizeTitle(name);
     if (!norm) continue;
@@ -125,7 +135,10 @@ async function main(): Promise<void> {
       ...(q ? { q } : {}),
     };
     entries.push(entry);
-    const iconUrl = v.titleIds.map((id) => iconByTitleId.get(id)).find(Boolean) ?? iconByName.get(norm);
+    const iconUrl =
+      v.titleIds.map((id) => iconByTitleId.get(id)).find(Boolean) ??
+      iconByName.get(norm) ??
+      iconByName.get(norm.replace(/\s/g, "")); // "lets go" vs "let s go"
     if (iconUrl) tasks.push({ entry, iconUrl });
   }
   entries.sort((a, b) => a.t.localeCompare(b.t, "fr"));

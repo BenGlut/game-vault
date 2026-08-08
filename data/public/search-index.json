@@ -1946,11 +1946,13 @@
     "id": "game_ds_mario-vs-donkey-kong-mini-land-mayhem",
     "t": "Mario vs. Donkey Kong : Mini-Land Mayhem!",
     "n": "mario vs donkey kong mini land mayhem",
-    "a": [],
+    "a": [
+      "Mario vs. Donkey Kong: Mini-Land Mayhem"
+    ],
     "f": "Mario vs. Donkey Kong",
     "p": "ds",
     "r": "PAL-EU",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_ds_the-legend-of-spyro-dawn-of-the-dragon",
@@ -1960,17 +1962,19 @@
     "f": "Spyro",
     "p": "ds",
     "r": "PAL-EU",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_high-school-musical-reves-de-star",
     "t": "High School Musical : Rêves de star !",
     "n": "high school musical reves de star",
-    "a": [],
+    "a": [
+      "High School Musical: Makin' the Cut"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_ds_cars-2",
@@ -1980,17 +1984,19 @@
     "f": "Cars",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_dora-friends-pet-shelter",
     "t": "Dora & Friends : Pet Shelter",
     "n": "dora friends pet shelter",
-    "a": [],
+    "a": [
+      "Dora and Friends"
+    ],
     "f": "Dora",
     "p": "ds",
     "r": "PAL-EU",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gamecube_gun",
@@ -2000,17 +2006,19 @@
     "f": null,
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gamecube_bob-l-eponge-silence-on-tourne",
     "t": "Bob l'éponge : Silence on tourne !",
     "n": "bob l eponge silence on tourne",
-    "a": [],
+    "a": [
+      "SpongeBob SquarePants: Lights, Camera, Pants!"
+    ],
     "f": null,
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gamecube_tiger-woods-pga-tour-06",
@@ -2020,17 +2028,19 @@
     "f": null,
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gamecube_goldeneye-au-service-du-mal",
     "t": "GoldenEye : Au service du mal",
     "n": "goldeneye au service du mal",
-    "a": [],
+    "a": [
+      "GoldenEye: Rogue Agent"
+    ],
     "f": null,
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_snes_super-mario-kart",
@@ -2040,7 +2050,7 @@
     "f": "Mario Kart",
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_snes_super-mario-all-stars",
@@ -2050,7 +2060,7 @@
     "f": "Super Mario",
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_snes_wario-s-woods",
@@ -2060,17 +2070,19 @@
     "f": "Wario",
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_snes_unirally",
     "t": "Unirally",
     "n": "unirally",
-    "a": [],
+    "a": [
+      "Uniracers"
+    ],
     "f": null,
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_snes_aladdin",
@@ -2080,7 +2092,7 @@
     "f": null,
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_snes_street-fighter-ii-turbo",
@@ -2090,29 +2102,32 @@
     "f": "Street Fighter",
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_snes_dragon-ball-z",
     "t": "Dragon Ball Z",
     "n": "dragon ball z",
     "a": [
-      "Super Butouden"
+      "Super Butouden",
+      "Dragon Ball Z: Super Butouden"
     ],
     "f": "Dragon Ball",
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_snes_dragon-ball-z-ultime-menace",
     "t": "Dragon Ball Z : Ultime Menace",
     "n": "dragon ball z ultime menace",
-    "a": [],
+    "a": [
+      "Dragon Ball Z: Super Butouden 3"
+    ],
     "f": "Dragon Ball",
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_snes_super-soccer",
@@ -2122,7 +2137,7 @@
     "f": null,
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_snes_dino-dini-s-soccer",
@@ -2132,7 +2147,7 @@
     "f": null,
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_snes_super-pinball-behind-the-mask",
@@ -2142,57 +2157,68 @@
     "f": null,
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gb_pokemon-version-rouge",
     "t": "Pokémon Version Rouge",
     "n": "pokemon version rouge",
-    "a": [],
+    "a": [
+      "Pokemon Red Version"
+    ],
     "f": "Pokémon",
     "p": "gb",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gb_pokemon-version-bleue",
     "t": "Pokémon Version Bleue",
     "n": "pokemon version bleue",
-    "a": [],
+    "a": [
+      "Pokemon Blue Version"
+    ],
     "f": "Pokémon",
     "p": "gb",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gb_pokemon-version-jaune",
     "t": "Pokémon Version Jaune",
     "n": "pokemon version jaune",
-    "a": [],
+    "a": [
+      "Pokemon Yellow Version Special Pikachu Edition",
+      "Pokemon Yellow"
+    ],
     "f": "Pokémon",
     "p": "gb",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gbc_pokemon-version-or",
     "t": "Pokémon Version Or",
     "n": "pokemon version or",
-    "a": [],
+    "a": [
+      "Pokemon Gold Version"
+    ],
     "f": "Pokémon",
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gbc_pokemon-version-argent",
     "t": "Pokémon Version Argent",
     "n": "pokemon version argent",
-    "a": [],
+    "a": [
+      "Pokemon Silver Version"
+    ],
     "f": "Pokémon",
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gbc_donkey-kong-country",
@@ -2202,7 +2228,7 @@
     "f": "Donkey Kong",
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gbc_rayman",
@@ -2212,7 +2238,7 @@
     "f": "Rayman",
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gbc_aladdin",
@@ -2222,17 +2248,19 @@
     "f": null,
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gbc_le-roi-lion-la-formidable-aventure-de-simba",
     "t": "Le Roi Lion : La Formidable Aventure de Simba",
     "n": "le roi lion la formidable aventure de simba",
-    "a": [],
+    "a": [
+      "The Lion King: Simba's Mighty Adventure"
+    ],
     "f": null,
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gb_casper",
@@ -2242,37 +2270,43 @@
     "f": null,
     "p": "gb",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gb_asterix",
     "t": "Astérix",
     "n": "asterix",
-    "a": [],
+    "a": [
+      "Asterix"
+    ],
     "f": "Astérix",
     "p": "gb",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gbc_sabrina-the-animated-series-zapped",
     "t": "Sabrina The Animated Series: Zapped!",
     "n": "sabrina the animated series zapped",
-    "a": [],
+    "a": [
+      "Sabrina: Zapped!"
+    ],
     "f": null,
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gbc_the-new-addams-family-series",
     "t": "The New Addams Family Series",
     "n": "the new addams family series",
-    "a": [],
+    "a": [
+      "The New Addams Family"
+    ],
     "f": null,
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gbc_shrek-fairy-tale-freakdown",
@@ -2282,7 +2316,7 @@
     "f": null,
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gbc_yu-gi-oh-dark-duel-stories",
@@ -2292,7 +2326,7 @@
     "f": null,
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gbc_lucky-luke",
@@ -2302,7 +2336,7 @@
     "f": null,
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gbc_worms-armageddon",
@@ -2312,47 +2346,55 @@
     "f": "Worms",
     "p": "gbc",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gba_pokemon-version-rubis",
     "t": "Pokémon Version Rubis",
     "n": "pokemon version rubis",
-    "a": [],
+    "a": [
+      "Pokemon Ruby Version"
+    ],
     "f": "Pokémon",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gba_pokemon-version-saphir",
     "t": "Pokémon Version Saphir",
     "n": "pokemon version saphir",
-    "a": [],
+    "a": [
+      "Pokemon Sapphire Version"
+    ],
     "f": "Pokémon",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gba_pokemon-version-emeraude",
     "t": "Pokémon Version Émeraude",
     "n": "pokemon version emeraude",
-    "a": [],
+    "a": [
+      "Pokemon Emerald Version"
+    ],
     "f": "Pokémon",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gba_pokemon-version-vert-feuille",
     "t": "Pokémon Version Vert Feuille",
     "n": "pokemon version vert feuille",
-    "a": [],
+    "a": [
+      "Pokemon LeafGreen Version"
+    ],
     "f": "Pokémon",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gba_super-mario-world-super-mario-advance-2",
@@ -2362,7 +2404,7 @@
     "f": "Super Mario",
     "p": "gba",
     "r": "PAL-EU",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gba_super-mario-advance-4-super-mario-bros-3",
@@ -2372,7 +2414,7 @@
     "f": "Super Mario",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_gba_final-fantasy-tactics-advance",
@@ -2382,17 +2424,19 @@
     "f": "Final Fantasy",
     "p": "gba",
     "r": "PAL-EU",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_gba_dragon-ball-z-l-heritage-de-goku",
     "t": "Dragon Ball Z : L'Héritage de Goku",
     "n": "dragon ball z l heritage de goku",
-    "a": [],
+    "a": [
+      "Dragon Ball Z: The Legacy of Goku"
+    ],
     "f": "Dragon Ball",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_rayman-advance",
@@ -2402,17 +2446,19 @@
     "f": "Rayman",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gba_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
     "t": "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     "n": "le monde de narnia le lion la sorciere blanche et l armoire magique",
-    "a": [],
+    "a": [
+      "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe"
+    ],
     "f": null,
     "p": "gba",
     "r": "PAL-EU",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_tony-hawk-s-american-sk8land",
@@ -2422,7 +2468,7 @@
     "f": null,
     "p": "gba",
     "r": "PAL-EU",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gba_tekken-advance",
@@ -2432,7 +2478,7 @@
     "f": "Tekken",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gba_mario-party-advance",
@@ -2442,7 +2488,7 @@
     "f": "Mario Party",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_ice-age",
@@ -2452,7 +2498,7 @@
     "f": null,
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_action-man-robot-atak",
@@ -2462,17 +2508,19 @@
     "f": null,
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gba_majesco-s-rec-room-challenge",
     "t": "Majesco's Rec Room Challenge",
     "n": "majesco s rec room challenge",
-    "a": [],
+    "a": [
+      "Rec Room Challenge"
+    ],
     "f": null,
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gba_mission-impossible-operation-surma",
@@ -2482,17 +2530,19 @@
     "f": null,
     "p": "gba",
     "r": "PAL-EU",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_les-sims-2",
     "t": "Les Sims 2",
     "n": "les sims 2",
-    "a": [],
+    "a": [
+      "The Sims 2"
+    ],
     "f": "Les Sims",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gba_tang-tang",
@@ -2502,17 +2552,19 @@
     "f": null,
     "p": "gba",
     "r": "PAL-EU",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gba_spyro-adventure",
     "t": "Spyro Adventure",
     "n": "spyro adventure",
-    "a": [],
+    "a": [
+      "Spyro: Attack of the Rhynocs"
+    ],
     "f": "Spyro",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_switch_the-legend-of-zelda-tears-of-the-kingdom",
@@ -2522,7 +2574,7 @@
     "f": "The Legend of Zelda",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_the-legend-of-zelda-breath-of-the-wild",
@@ -2532,7 +2584,7 @@
     "f": "The Legend of Zelda",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_the-legend-of-zelda-link-s-awakening",
@@ -2542,97 +2594,115 @@
     "f": "The Legend of Zelda",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_pokemon-epee",
     "t": "Pokémon Épée",
     "n": "pokemon epee",
-    "a": [],
+    "a": [
+      "Pokemon Sword"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokemon-bouclier",
     "t": "Pokémon Bouclier",
     "n": "pokemon bouclier",
-    "a": [],
+    "a": [
+      "Pokemon Shield"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokemon-ecarlate",
     "t": "Pokémon Écarlate",
     "n": "pokemon ecarlate",
-    "a": [],
+    "a": [
+      "Pokemon Scarlet"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokemon-violet",
     "t": "Pokémon Violet",
     "n": "pokemon violet",
-    "a": [],
+    "a": [
+      "Pokemon Violet"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokemon-diamant-etincelant",
     "t": "Pokémon Diamant Étincelant",
     "n": "pokemon diamant etincelant",
-    "a": [],
+    "a": [
+      "Pokemon Brilliant Diamond"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokemon-perle-scintillante",
     "t": "Pokémon Perle Scintillante",
     "n": "pokemon perle scintillante",
-    "a": [],
+    "a": [
+      "Pokemon Shining Pearl"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokemon-let-s-go-pikachu",
     "t": "Pokémon : Let's Go, Pikachu",
     "n": "pokemon let s go pikachu",
-    "a": [],
+    "a": [
+      "Pokemon: Let's Go, Pikachu!"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokemon-let-s-go-evoli",
     "t": "Pokémon : Let's Go, Évoli",
     "n": "pokemon let s go evoli",
-    "a": [],
+    "a": [
+      "Pokemon: Let's Go, Eevee!"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_legendes-pokemon-arceus",
     "t": "Légendes Pokémon : Arceus",
     "n": "legendes pokemon arceus",
-    "a": [],
+    "a": [
+      "Pokemon Legends: Arceus"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_new-pokemon-snap",
@@ -2642,7 +2712,7 @@
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokken-tournament-dx",
@@ -2652,17 +2722,19 @@
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_pokemon-donjon-mystere-equipe-de-secours-dx",
     "t": "Pokémon Donjon Mystère : Équipe de Secours DX",
     "n": "pokemon donjon mystere equipe de secours dx",
-    "a": [],
+    "a": [
+      "Pokemon Mystery Dungeon: Rescue Team DX"
+    ],
     "f": "Pokémon",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_super-mario-3d-world-bowser-s-fury",
@@ -2672,7 +2744,7 @@
     "f": "Super Mario",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_mario-kart-8-deluxe",
@@ -2682,7 +2754,7 @@
     "f": "Mario Kart",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_super-smash-bros-ultimate",
@@ -2692,7 +2764,7 @@
     "f": "Super Smash Bros.",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_mario-party-superstars",
@@ -2702,7 +2774,7 @@
     "f": "Mario Party",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_ring-fit-adventure",
@@ -2712,7 +2784,7 @@
     "f": null,
     "p": "switch",
     "r": "PAL-EU",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_deponia",
@@ -2722,7 +2794,7 @@
     "f": null,
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_diablo-iii-eternal-collection",
@@ -2732,7 +2804,7 @@
     "f": "Diablo",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_octopath-traveler-ii",
@@ -2742,7 +2814,7 @@
     "f": null,
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_collection-of-mana",
@@ -2752,7 +2824,7 @@
     "f": "Mana",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_legend-of-mana",
@@ -2762,17 +2834,19 @@
     "f": "Mana",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_ni-no-kuni-la-vengeance-de-la-sorciere-celeste",
     "t": "Ni no Kuni : La Vengeance de la Sorcière Céleste",
     "n": "ni no kuni la vengeance de la sorciere celeste",
-    "a": [],
+    "a": [
+      "Ni no Kuni: Wrath of the White Witch"
+    ],
     "f": null,
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_teenage-mutant-ninja-turtles-shredder-s-revenge",
@@ -2782,7 +2856,7 @@
     "f": null,
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_street-fighter-30th-anniversary-collection",
@@ -2792,7 +2866,7 @@
     "f": "Street Fighter",
     "p": "switch",
     "r": "NTSC-U",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_klonoa-phantasy-reverie-series",
@@ -2802,7 +2876,7 @@
     "f": null,
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_super-bomberman-r",
@@ -2812,7 +2886,7 @@
     "f": "Bomberman",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_switch_dragon-ball-the-breakers-special-edition",
@@ -2822,7 +2896,7 @@
     "f": "Dragon Ball",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_switch_leisure-suit-larry-wet-dreams-dry-twice",
@@ -2832,37 +2906,43 @@
     "f": null,
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_switch_pat-patrouille-a-la-rescousse-d-adventure-city",
     "t": "Pat' Patrouille : À la rescousse d'Adventure City",
     "n": "pat patrouille a la rescousse d adventure city",
-    "a": [],
+    "a": [
+      "PAW Patrol The Movie: Adventure City Calls"
+    ],
     "f": "Pat' Patrouille",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_switch_pat-patrouille-mighty-pups-sauve-la-grande-vallee",
     "t": "Pat' Patrouille : Mighty Pups Sauve la Grande Vallée",
     "n": "pat patrouille mighty pups sauve la grande vallee",
-    "a": [],
+    "a": [
+      "PAW Patrol Mighty Pups Save Adventure Bay"
+    ],
     "f": "Pat' Patrouille",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_switch_pat-patrouille-en-mission",
     "t": "Pat' Patrouille en Mission !",
     "n": "pat patrouille en mission",
-    "a": [],
+    "a": [
+      "PAW Patrol: On a Roll"
+    ],
     "f": "Pat' Patrouille",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_xboxone_destiny",
@@ -2872,7 +2952,7 @@
     "f": null,
     "p": "xboxone",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_xbox360_star-ocean-the-last-hope",
@@ -2882,6 +2962,6 @@
     "f": null,
     "p": "xbox360",
     "r": "PAL-EU",
-    "q": null
+    "q": "B"
   }
 ]

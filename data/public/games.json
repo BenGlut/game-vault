@@ -3871,7 +3871,9 @@
     "id": "game_ds_mario-vs-donkey-kong-mini-land-mayhem",
     "canonicalTitle": "Mario vs. Donkey Kong : Mini-Land Mayhem!",
     "normalizedTitle": "mario vs donkey kong mini land mayhem",
-    "aliases": [],
+    "aliases": [
+      "Mario vs. Donkey Kong: Mini-Land Mayhem"
+    ],
     "franchise": "Mario vs. Donkey Kong",
     "platformId": "ds",
     "region": "PAL-EU",
@@ -3885,7 +3887,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -3906,14 +3908,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
     "id": "game_ds_high-school-musical-reves-de-star",
     "canonicalTitle": "High School Musical : Rêves de star !",
     "normalizedTitle": "high school musical reves de star",
-    "aliases": [],
+    "aliases": [
+      "High School Musical: Makin' the Cut"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3927,7 +3931,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
@@ -3948,14 +3952,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
     "id": "game_ds_dora-friends-pet-shelter",
     "canonicalTitle": "Dora & Friends : Pet Shelter",
     "normalizedTitle": "dora friends pet shelter",
-    "aliases": [],
+    "aliases": [
+      "Dora and Friends"
+    ],
     "franchise": "Dora",
     "platformId": "ds",
     "region": "PAL-EU",
@@ -3969,7 +3975,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
@@ -3990,14 +3996,16 @@
     "edition": null,
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_gamecube_bob-l-eponge-silence-on-tourne",
     "canonicalTitle": "Bob l'éponge : Silence on tourne !",
     "normalizedTitle": "bob l eponge silence on tourne",
-    "aliases": [],
+    "aliases": [
+      "SpongeBob SquarePants: Lights, Camera, Pants!"
+    ],
     "franchise": null,
     "platformId": "gamecube",
     "region": "PAL-FR",
@@ -4011,7 +4019,7 @@
     "edition": null,
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4032,14 +4040,16 @@
     "edition": null,
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_gamecube_goldeneye-au-service-du-mal",
     "canonicalTitle": "GoldenEye : Au service du mal",
     "normalizedTitle": "goldeneye au service du mal",
-    "aliases": [],
+    "aliases": [
+      "GoldenEye: Rogue Agent"
+    ],
     "franchise": null,
     "platformId": "gamecube",
     "region": "PAL-FR",
@@ -4053,7 +4063,7 @@
     "edition": null,
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4074,7 +4084,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -4095,7 +4105,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -4116,14 +4126,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_snes_unirally",
     "canonicalTitle": "Unirally",
     "normalizedTitle": "unirally",
-    "aliases": [],
+    "aliases": [
+      "Uniracers"
+    ],
     "franchise": null,
     "platformId": "snes",
     "region": "PAL-FR",
@@ -4137,7 +4149,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -4158,7 +4170,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -4179,7 +4191,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -4187,7 +4199,8 @@
     "canonicalTitle": "Dragon Ball Z",
     "normalizedTitle": "dragon ball z",
     "aliases": [
-      "Super Butouden"
+      "Super Butouden",
+      "Dragon Ball Z: Super Butouden"
     ],
     "franchise": "Dragon Ball",
     "platformId": "snes",
@@ -4202,14 +4215,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
     "id": "game_snes_dragon-ball-z-ultime-menace",
     "canonicalTitle": "Dragon Ball Z : Ultime Menace",
     "normalizedTitle": "dragon ball z ultime menace",
-    "aliases": [],
+    "aliases": [
+      "Dragon Ball Z: Super Butouden 3"
+    ],
     "franchise": "Dragon Ball",
     "platformId": "snes",
     "region": "PAL-FR",
@@ -4223,7 +4238,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4244,7 +4259,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4265,7 +4280,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4286,14 +4301,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
     "id": "game_gb_pokemon-version-rouge",
     "canonicalTitle": "Pokémon Version Rouge",
     "normalizedTitle": "pokemon version rouge",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Red Version"
+    ],
     "franchise": "Pokémon",
     "platformId": "gb",
     "region": "PAL-FR",
@@ -4307,14 +4324,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
     "id": "game_gb_pokemon-version-bleue",
     "canonicalTitle": "Pokémon Version Bleue",
     "normalizedTitle": "pokemon version bleue",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Blue Version"
+    ],
     "franchise": "Pokémon",
     "platformId": "gb",
     "region": "PAL-FR",
@@ -4328,14 +4347,17 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
     "id": "game_gb_pokemon-version-jaune",
     "canonicalTitle": "Pokémon Version Jaune",
     "normalizedTitle": "pokemon version jaune",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Yellow Version Special Pikachu Edition",
+      "Pokemon Yellow"
+    ],
     "franchise": "Pokémon",
     "platformId": "gb",
     "region": "PAL-FR",
@@ -4349,14 +4371,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
     "id": "game_gbc_pokemon-version-or",
     "canonicalTitle": "Pokémon Version Or",
     "normalizedTitle": "pokemon version or",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Gold Version"
+    ],
     "franchise": "Pokémon",
     "platformId": "gbc",
     "region": "PAL-FR",
@@ -4370,14 +4394,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
     "id": "game_gbc_pokemon-version-argent",
     "canonicalTitle": "Pokémon Version Argent",
     "normalizedTitle": "pokemon version argent",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Silver Version"
+    ],
     "franchise": "Pokémon",
     "platformId": "gbc",
     "region": "PAL-FR",
@@ -4391,7 +4417,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -4412,7 +4438,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -4433,7 +4459,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4454,14 +4480,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
     "id": "game_gbc_le-roi-lion-la-formidable-aventure-de-simba",
     "canonicalTitle": "Le Roi Lion : La Formidable Aventure de Simba",
     "normalizedTitle": "le roi lion la formidable aventure de simba",
-    "aliases": [],
+    "aliases": [
+      "The Lion King: Simba's Mighty Adventure"
+    ],
     "franchise": null,
     "platformId": "gbc",
     "region": "PAL-FR",
@@ -4475,7 +4503,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4496,14 +4524,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
     "id": "game_gb_asterix",
     "canonicalTitle": "Astérix",
     "normalizedTitle": "asterix",
-    "aliases": [],
+    "aliases": [
+      "Asterix"
+    ],
     "franchise": "Astérix",
     "platformId": "gb",
     "region": "PAL-FR",
@@ -4517,14 +4547,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
     "id": "game_gbc_sabrina-the-animated-series-zapped",
     "canonicalTitle": "Sabrina The Animated Series: Zapped!",
     "normalizedTitle": "sabrina the animated series zapped",
-    "aliases": [],
+    "aliases": [
+      "Sabrina: Zapped!"
+    ],
     "franchise": null,
     "platformId": "gbc",
     "region": "PAL-FR",
@@ -4538,14 +4570,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
     "id": "game_gbc_the-new-addams-family-series",
     "canonicalTitle": "The New Addams Family Series",
     "normalizedTitle": "the new addams family series",
-    "aliases": [],
+    "aliases": [
+      "The New Addams Family"
+    ],
     "franchise": null,
     "platformId": "gbc",
     "region": "PAL-FR",
@@ -4559,7 +4593,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
@@ -4580,7 +4614,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
@@ -4601,7 +4635,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4622,7 +4656,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4643,14 +4677,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_gba_pokemon-version-rubis",
     "canonicalTitle": "Pokémon Version Rubis",
     "normalizedTitle": "pokemon version rubis",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Ruby Version"
+    ],
     "franchise": "Pokémon",
     "platformId": "gba",
     "region": "PAL-FR",
@@ -4664,14 +4700,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
     "id": "game_gba_pokemon-version-saphir",
     "canonicalTitle": "Pokémon Version Saphir",
     "normalizedTitle": "pokemon version saphir",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Sapphire Version"
+    ],
     "franchise": "Pokémon",
     "platformId": "gba",
     "region": "PAL-FR",
@@ -4685,14 +4723,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
     "id": "game_gba_pokemon-version-emeraude",
     "canonicalTitle": "Pokémon Version Émeraude",
     "normalizedTitle": "pokemon version emeraude",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Emerald Version"
+    ],
     "franchise": "Pokémon",
     "platformId": "gba",
     "region": "PAL-FR",
@@ -4706,14 +4746,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
     "id": "game_gba_pokemon-version-vert-feuille",
     "canonicalTitle": "Pokémon Version Vert Feuille",
     "normalizedTitle": "pokemon version vert feuille",
-    "aliases": [],
+    "aliases": [
+      "Pokemon LeafGreen Version"
+    ],
     "franchise": "Pokémon",
     "platformId": "gba",
     "region": "PAL-FR",
@@ -4727,7 +4769,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -4748,7 +4790,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -4769,7 +4811,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -4790,14 +4832,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
     "id": "game_gba_dragon-ball-z-l-heritage-de-goku",
     "canonicalTitle": "Dragon Ball Z : L'Héritage de Goku",
     "normalizedTitle": "dragon ball z l heritage de goku",
-    "aliases": [],
+    "aliases": [
+      "Dragon Ball Z: The Legacy of Goku"
+    ],
     "franchise": "Dragon Ball",
     "platformId": "gba",
     "region": "PAL-FR",
@@ -4811,7 +4855,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4832,14 +4876,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_gba_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
     "canonicalTitle": "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     "normalizedTitle": "le monde de narnia le lion la sorciere blanche et l armoire magique",
-    "aliases": [],
+    "aliases": [
+      "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe"
+    ],
     "franchise": null,
     "platformId": "gba",
     "region": "PAL-EU",
@@ -4853,7 +4899,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4874,7 +4920,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -4895,7 +4941,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -4916,7 +4962,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4937,7 +4983,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -4958,14 +5004,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
     "id": "game_gba_majesco-s-rec-room-challenge",
     "canonicalTitle": "Majesco's Rec Room Challenge",
     "normalizedTitle": "majesco s rec room challenge",
-    "aliases": [],
+    "aliases": [
+      "Rec Room Challenge"
+    ],
     "franchise": null,
     "platformId": "gba",
     "region": "PAL-FR",
@@ -4979,7 +5027,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
@@ -5000,14 +5048,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
     "id": "game_gba_les-sims-2",
     "canonicalTitle": "Les Sims 2",
     "normalizedTitle": "les sims 2",
-    "aliases": [],
+    "aliases": [
+      "The Sims 2"
+    ],
     "franchise": "Les Sims",
     "platformId": "gba",
     "region": "PAL-FR",
@@ -5021,7 +5071,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -5042,14 +5092,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
     "id": "game_gba_spyro-adventure",
     "canonicalTitle": "Spyro Adventure",
     "normalizedTitle": "spyro adventure",
-    "aliases": [],
+    "aliases": [
+      "Spyro: Attack of the Rhynocs"
+    ],
     "franchise": "Spyro",
     "platformId": "gba",
     "region": "PAL-FR",
@@ -5063,7 +5115,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -5084,7 +5136,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -5105,7 +5157,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -5126,14 +5178,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-epee",
     "canonicalTitle": "Pokémon Épée",
     "normalizedTitle": "pokemon epee",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Sword"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5147,14 +5201,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-bouclier",
     "canonicalTitle": "Pokémon Bouclier",
     "normalizedTitle": "pokemon bouclier",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Shield"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5168,14 +5224,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-ecarlate",
     "canonicalTitle": "Pokémon Écarlate",
     "normalizedTitle": "pokemon ecarlate",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Scarlet"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5189,14 +5247,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-violet",
     "canonicalTitle": "Pokémon Violet",
     "normalizedTitle": "pokemon violet",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Violet"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5210,14 +5270,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-diamant-etincelant",
     "canonicalTitle": "Pokémon Diamant Étincelant",
     "normalizedTitle": "pokemon diamant etincelant",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Brilliant Diamond"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5231,14 +5293,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-perle-scintillante",
     "canonicalTitle": "Pokémon Perle Scintillante",
     "normalizedTitle": "pokemon perle scintillante",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Shining Pearl"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5252,14 +5316,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-let-s-go-pikachu",
     "canonicalTitle": "Pokémon : Let's Go, Pikachu",
     "normalizedTitle": "pokemon let s go pikachu",
-    "aliases": [],
+    "aliases": [
+      "Pokemon: Let's Go, Pikachu!"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5273,14 +5339,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-let-s-go-evoli",
     "canonicalTitle": "Pokémon : Let's Go, Évoli",
     "normalizedTitle": "pokemon let s go evoli",
-    "aliases": [],
+    "aliases": [
+      "Pokemon: Let's Go, Eevee!"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5294,14 +5362,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_legendes-pokemon-arceus",
     "canonicalTitle": "Légendes Pokémon : Arceus",
     "normalizedTitle": "legendes pokemon arceus",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Legends: Arceus"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5315,7 +5385,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5336,7 +5406,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -5357,14 +5427,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_pokemon-donjon-mystere-equipe-de-secours-dx",
     "canonicalTitle": "Pokémon Donjon Mystère : Équipe de Secours DX",
     "normalizedTitle": "pokemon donjon mystere equipe de secours dx",
-    "aliases": [],
+    "aliases": [
+      "Pokemon Mystery Dungeon: Rescue Team DX"
+    ],
     "franchise": "Pokémon",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5378,7 +5450,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -5399,7 +5471,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5420,7 +5492,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -5441,7 +5513,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -5462,7 +5534,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5483,7 +5555,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5504,7 +5576,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -5525,7 +5597,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5546,7 +5618,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5567,7 +5639,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5588,14 +5660,16 @@
     "edition": null,
     "mediaType": "code_in_box",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
     "id": "game_switch_ni-no-kuni-la-vengeance-de-la-sorciere-celeste",
     "canonicalTitle": "Ni no Kuni : La Vengeance de la Sorcière Céleste",
     "normalizedTitle": "ni no kuni la vengeance de la sorciere celeste",
-    "aliases": [],
+    "aliases": [
+      "Ni no Kuni: Wrath of the White Witch"
+    ],
     "franchise": null,
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5609,7 +5683,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5630,7 +5704,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "A",
     "buyPriority": null
   },
   {
@@ -5651,7 +5725,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -5672,7 +5746,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -5693,7 +5767,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -5714,7 +5788,7 @@
     "edition": null,
     "mediaType": "code_in_box",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
@@ -5735,14 +5809,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "C",
     "buyPriority": null
   },
   {
     "id": "game_switch_pat-patrouille-a-la-rescousse-d-adventure-city",
     "canonicalTitle": "Pat' Patrouille : À la rescousse d'Adventure City",
     "normalizedTitle": "pat patrouille a la rescousse d adventure city",
-    "aliases": [],
+    "aliases": [
+      "PAW Patrol The Movie: Adventure City Calls"
+    ],
     "franchise": "Pat' Patrouille",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5756,14 +5832,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
     "id": "game_switch_pat-patrouille-mighty-pups-sauve-la-grande-vallee",
     "canonicalTitle": "Pat' Patrouille : Mighty Pups Sauve la Grande Vallée",
     "normalizedTitle": "pat patrouille mighty pups sauve la grande vallee",
-    "aliases": [],
+    "aliases": [
+      "PAW Patrol Mighty Pups Save Adventure Bay"
+    ],
     "franchise": "Pat' Patrouille",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5777,14 +5855,16 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
     "id": "game_switch_pat-patrouille-en-mission",
     "canonicalTitle": "Pat' Patrouille en Mission !",
     "normalizedTitle": "pat patrouille en mission",
-    "aliases": [],
+    "aliases": [
+      "PAW Patrol: On a Roll"
+    ],
     "franchise": "Pat' Patrouille",
     "platformId": "switch",
     "region": "PAL-FR",
@@ -5798,7 +5878,7 @@
     "edition": null,
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "D",
     "buyPriority": null
   },
   {
@@ -5819,7 +5899,7 @@
     "edition": null,
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   },
   {
@@ -5840,7 +5920,7 @@
     "edition": null,
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "B",
     "buyPriority": null
   }
 ]

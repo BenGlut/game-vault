@@ -1348,5 +1348,15 @@
     "at": "2026-08-08T20:27:16.581Z",
     "command": "set-status",
     "message": "set inv_3ds_poochy-yoshi-s-woolly-world -> owned"
+  },
+  {
+    "at": "2026-08-08T21:02:14.153Z",
+    "command": "rate-batch",
+    "message": "rate 94 games from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/audit94-ratings.json"
+  },
+  {
+    "at": "2026-08-08T21:02:14.813Z",
+    "command": "price-batch",
+    "message": "188 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/audit94-prices.json"
   }
 ]

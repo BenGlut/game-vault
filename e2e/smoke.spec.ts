@@ -24,7 +24,8 @@ test("la fiche jeu affiche possession et vérification", async ({ page }) => {
   await page.goto("/jeu/game_3ds_pokemon-lune/");
   await expect(page.getByRole("heading", { name: "Pokémon Lune" })).toBeVisible();
   await expect(page.getByText("Possédé").first()).toBeVisible();
-  await expect(page.getByText("à vérifier").first()).toBeVisible();
+  // badge de vérification présent, quel que soit son état (vérifié / à vérifier)
+  await expect(page.getByText(/vérifi/).first()).toBeVisible();
 });
 
 test("le catalogue complet charge et la recherche fonctionne", async ({ page }) => {

@@ -83,3 +83,9 @@
   Rescue), Switch 1 404 icônes via 12 régions titledb
 
 ## Removed
+- Enrichissement post-audit mobile (inventaire du téléphone intact) : 94 jeux
+  notés S-D + alias EN + 188 cotes loose/CIB ; jaquettes de collection 266/269
+  (SNES/X360 ajoutés à fetch-covers, conversion sips validée par URL — les
+  pointeurs LFS passent au CDN, 4 PNG corrompus réparés) ; catalogue Switch
+  re-parsé (noms nswdb nettoyés : rev/kiosk/bilingues) → 3 470 jeux uniques,
+  2 690 icônes ; 6 jaquettes Switch récupérées une à une via titledb/copies
