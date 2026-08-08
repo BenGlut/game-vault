@@ -1135,7 +1135,10 @@
     "id": "game_ds_mission-safari",
     "t": "Mission Safari",
     "n": "mission safari",
-    "a": [],
+    "a": [
+      "Go, Diego, Go! Safari Rescue",
+      "Go Diego Mission Safari"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1488,7 +1491,9 @@
     "id": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
     "t": "The Legend of Zelda: Majora's Mask 3D",
     "n": "the legend of zelda majora s mask 3d",
-    "a": [],
+    "a": [
+      "Zelda MM3D"
+    ],
     "f": null,
     "p": "3ds",
     "r": "PAL-FR",
@@ -1538,7 +1543,9 @@
     "id": "game_3ds_shin-megami-tensei-iv",
     "t": "Shin Megami Tensei IV",
     "n": "shin megami tensei iv",
-    "a": [],
+    "a": [
+      "SMT IV"
+    ],
     "f": null,
     "p": "3ds",
     "r": "PAL-FR",
@@ -1578,7 +1585,9 @@
     "id": "game_ds_new-super-mario-bros",
     "t": "New Super Mario Bros.",
     "n": "new super mario bros",
-    "a": [],
+    "a": [
+      "NSMB"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1588,7 +1597,10 @@
     "id": "game_ds_dragon-quest-ix-les-sentinelles-du-firmament",
     "t": "Dragon Quest IX : Les Sentinelles du Firmament",
     "n": "dragon quest ix les sentinelles du firmament",
-    "a": [],
+    "a": [
+      "Dragon Quest IX: Sentinels of the Starry Skies",
+      "DQ9"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1618,7 +1630,9 @@
     "id": "game_ds_professeur-layton-et-la-boite-de-pandore",
     "t": "Professeur Layton et la Boîte de Pandore",
     "n": "professeur layton et la boite de pandore",
-    "a": [],
+    "a": [
+      "Professor Layton and Pandora's Box"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1628,7 +1642,9 @@
     "id": "game_ds_professeur-layton-et-le-destin-perdu",
     "t": "Professeur Layton et le Destin Perdu",
     "n": "professeur layton et le destin perdu",
-    "a": [],
+    "a": [
+      "Professor Layton and the Lost Future"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1648,7 +1664,9 @@
     "id": "game_ds_ghost-trick-detective-fantome",
     "t": "Ghost Trick : Détective Fantôme",
     "n": "ghost trick detective fantome",
-    "a": [],
+    "a": [
+      "Ghost Trick: Phantom Detective"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1658,7 +1676,9 @@
     "id": "game_ds_the-world-ends-with-you",
     "t": "The World Ends With You",
     "n": "the world ends with you",
-    "a": [],
+    "a": [
+      "TWEWY"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1698,7 +1718,9 @@
     "id": "game_ds_rhythm-paradise",
     "t": "Rhythm Paradise",
     "n": "rhythm paradise",
-    "a": [],
+    "a": [
+      "Rhythm Heaven"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1708,7 +1730,9 @@
     "id": "game_ds_golden-sun-obscure-aurore",
     "t": "Golden Sun : Obscure Aurore",
     "n": "golden sun obscure aurore",
-    "a": [],
+    "a": [
+      "Golden Sun: Dark Dawn"
+    ],
     "f": null,
     "p": "ds",
     "r": "PAL-FR",
@@ -1808,7 +1832,9 @@
     "id": "game_n64_lylat-wars",
     "t": "Lylat Wars",
     "n": "lylat wars",
-    "a": [],
+    "a": [
+      "Star Fox 64"
+    ],
     "f": null,
     "p": "n64",
     "r": "PAL-FR",
@@ -1878,7 +1904,9 @@
     "id": "game_gamecube_paper-mario-la-porte-millenaire",
     "t": "Paper Mario : La Porte Millénaire",
     "n": "paper mario la porte millenaire",
-    "a": [],
+    "a": [
+      "Paper Mario: The Thousand-Year Door"
+    ],
     "f": null,
     "p": "gamecube",
     "r": "PAL-FR",

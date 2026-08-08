@@ -48,6 +48,12 @@
   (badge Wishlist distinct du badge Possédé — bug corrigé) ; lien « voir la
   fiche » sur le jeu sélectionné de l'Estimateur
 
+- Catalogue Nintendo Switch : 3 638 cartouches physiques (base nswdb) + 1 388
+  icônes officielles locales (titledb FR/US/GB/JP, matching titleid puis nom),
+  icône SVG Joy-Con, 30 incontournables notés — `scripts/catalog/fetch-switch.ts`
+- Badge Possédé/Wishlist du catalogue fiabilisé : matching 3 niveaux calculé au
+  build (127 possédés + 39 wishlist détectés) — `src/lib/catalog-match.ts`
+
 ## Changed
 - Filtres persistés dans l'URL (Collection et Catalogue) : deep-link + retour
   arrière sans perdre les sélections — `CollectionExplorer.tsx`, `CatalogClient.tsx`
@@ -62,7 +68,12 @@
   (`scripts/serve-out.mjs`) — liens de la page Plateformes réparés
 - e2e adaptés : les boutons de filtre sont légitimes, l'invariant lecture seule
   vérifie désormais l'absence de formulaires et de contrôles d'édition
+- La Collection n'affiche plus les jeux uniquement en wishlist — ils vivent
+  sur les pages Wishlist/Recommandations (`src/app/collection/page.tsx`)
 
 ## Removed
-- (fix) La Collection n'affiche plus les jeux uniquement en wishlist — ils vivent
-  sur les pages Wishlist/Recommandations (`src/app/collection/page.tsx`)
+- Jaquettes manquantes récupérées : fallback CDN thumbnails.libretro.com pour les
+  pointeurs LFS corrompus (21→1 sur le catalogue), collection à 100 % (175/175 —
+  alias wishlist réparés après un bug d'expansion zsh, « Bien-être du visage »
+  retrouvé dans le repo DSi, « Mission Safari » identifié = Go, Diego! Safari
+  Rescue), Switch 1 404 icônes via 12 régions titledb

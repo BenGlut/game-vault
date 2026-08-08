@@ -45,6 +45,7 @@ const PLATFORM_LABELS: Record<string, string> = {
   "3ds": "Nintendo 3DS",
   n64: "Nintendo 64",
   gamecube: "GameCube",
+  switch: "Switch",
 };
 
 /**
@@ -69,8 +70,8 @@ export default function CatalogClient({
 
   /** plateforme d'une entrée, déduite de son id (`gba-slug`, `gamecube-slug`…). */
   const platformOf = (e: CatalogEntry): string => e.id.slice(0, e.id.indexOf("-"));
-  const linkFor = (e: CatalogEntry): CatalogGameLink | undefined =>
-    links[`${platformOf(e)}:${e.n}`];
+  // links est indexé par id d'entrée catalogue (matching 3 niveaux fait au build)
+  const linkFor = (e: CatalogEntry): CatalogGameLink | undefined => links[e.id];
 
   // filtres depuis l'URL au montage (retour arrière = sélections restaurées)
   useEffect(() => {
@@ -89,7 +90,7 @@ export default function CatalogClient({
   // reflète chaque sélection dans l'URL
   useEffect(() => {
     const params = new URLSearchParams();
-    if (platform !== "ds") params.set("plateforme", platform);
+    if (platform) params.set("plateforme", platform);
     if (query) params.set("q", query);
     if (possession) params.set("possession", possession);
     if (region) params.set("region", region);
@@ -137,11 +138,11 @@ export default function CatalogClient({
     const q = norm(query);
     const qWords = q.split(" ").filter(Boolean);
     return entries.filter((e) => {
-      const isOwned = links[`${platform}:${e.n}`]?.owned ?? false;
+      const isOwned = links[e.id]?.owned ?? false;
       if (possession === "owned" && !isOwned) return false;
       if (possession === "missing" && isOwned) return false;
       if (region && !e.r.includes(region)) return false;
-      const tier = links[`${platform}:${e.n}`]?.quality ?? e.q ?? null;
+      const tier = links[e.id]?.quality ?? e.q ?? null;
       if (quality && tier !== quality) return false;
       if (qWords.length && !qWords.every((w) => e.n.includes(w))) return false;
       return true;

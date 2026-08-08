@@ -263,13 +263,14 @@ function main(): void {
       case "rate-batch": {
         const file = optStr(options, "file");
         if (!file) throw new Error('usage: pnpm vault rate-batch --file ratings.json  (format: [{"game":"game_…","quality":"A","priority":"haute"}])');
-        const specs = JSON.parse(fs.readFileSync(file, "utf8")) as { game: string; quality?: string; priority?: string }[];
+        const specs = JSON.parse(fs.readFileSync(file, "utf8")) as { game: string; quality?: string; priority?: string; aliases?: string[] }[];
         runMutation("rate-batch", yes, `rate ${specs.length} games from ${file}`, (v) => {
           const rated: string[] = [];
           for (const spec of specs) {
             const game = v.games.find((g) => g.id === spec.game) ?? findGame(v, spec.game);
             if (spec.quality) game.qualityTier = QualityTierSchema.parse(spec.quality);
             if (spec.priority) game.buyPriority = spec.priority === "aucune" ? null : BuyPrioritySchema.parse(spec.priority);
+            if (spec.aliases) game.aliases = [...new Set([...game.aliases, ...spec.aliases])];
             rated.push(game.id);
           }
           return { result: { rated: rated.length }, affectedIds: { "games.json": rated } };

@@ -33,6 +33,7 @@ const REPOS: Record<string, string> = {
   gamecube: "Nintendo_-_GameCube",
   gb: "Nintendo_-_Game_Boy",
   gbc: "Nintendo_-_Game_Boy_Color",
+  // switch : pas de repo libretro — géré par fetch-switch.ts (nswdb + titledb)
 };
 
 const REGION_TAGS = [
@@ -101,18 +102,25 @@ async function downloadCover(repo: string, remoteName: string, platformId: strin
   const finalJpg = path.join(dir, `${slug}.jpg`);
   if (fs.existsSync(finalJpg)) return true;
   const tmpPng = path.join(dir, `${slug}.tmp.png`);
-  try {
-    const url = `https://raw.githubusercontent.com/libretro-thumbnails/${repo}/master/Named_Boxarts/${encodeURIComponent(remoteName)}`;
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    fs.writeFileSync(tmpPng, Buffer.from(await res.arrayBuffer()));
-    await execFileP("sips", ["-Z", "160", "-s", "format", "jpeg", "-s", "formatOptions", "72", tmpPng, "--out", finalJpg]);
-    return true;
-  } catch {
-    return false;
-  } finally {
-    fs.rmSync(tmpPng, { force: true });
+  // GitHub raw d'abord ; certains fichiers y sont des pointeurs LFS corrompus,
+  // le CDN thumbnails.libretro.com sert alors la vraie image.
+  const urls = [
+    `https://raw.githubusercontent.com/libretro-thumbnails/${repo}/master/Named_Boxarts/${encodeURIComponent(remoteName)}`,
+    `http://thumbnails.libretro.com/${encodeURIComponent(repo.replace(/_/g, " "))}/Named_Boxarts/${encodeURIComponent(remoteName)}`,
+  ];
+  for (const url of urls) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      fs.writeFileSync(tmpPng, Buffer.from(await res.arrayBuffer()));
+      await execFileP("sips", ["-Z", "160", "-s", "format", "jpeg", "-s", "formatOptions", "72", tmpPng, "--out", finalJpg]);
+      fs.rmSync(tmpPng, { force: true });
+      return true;
+    } catch {
+      fs.rmSync(tmpPng, { force: true });
+    }
   }
+  return false;
 }
 
 /** Pool de téléchargements concurrents. */

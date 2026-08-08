@@ -1,28 +1,18 @@
-import { getGameRows, BASE_PATH, POSSESSION } from "@/lib/data";
+import { getGameRows, BASE_PATH } from "@/lib/data";
+import { buildEntryLinks } from "@/lib/catalog-match";
 import { PageTitle } from "@/components/ui";
-import CatalogClient, { type CatalogGameLink } from "@/components/CatalogClient";
-import { normalizeTitle } from "@/lib/normalize";
+import CatalogClient from "@/components/CatalogClient";
 
 export default function CatalogPage() {
-  // plateforme:titre-normalisé (canonique + alias) → fiche jeu + statut réel
-  const links: Record<string, CatalogGameLink> = {};
-  for (const row of getGameRows()) {
-    const owned = row.items.some((i) => POSSESSION.includes(i.status));
-    const wishlist = row.items.some((i) => i.status === "wishlist");
-    const keys = [
-      `${row.game.platformId}:${row.game.normalizedTitle}`,
-      ...row.game.aliases.map((a) => `${row.game.platformId}:${normalizeTitle(a)}`),
-    ];
-    for (const key of keys)
-      links[key] = { id: row.game.id, owned, wishlist, quality: row.game.qualityTier };
-  }
+  // mapping entrée-catalogue → jeu de la base (possédé/wishlist), matching 3 niveaux au build
+  const entryLinks = buildEntryLinks(getGameRows());
   return (
     <div>
       <PageTitle
         title="Catalogue"
-        sub="Tous les jeux jamais sortis sur 5 consoles Nintendo — recherche et comparaison avec la collection"
+        sub="Tous les jeux jamais sortis sur 8 consoles Nintendo — recherche et comparaison avec la collection"
       />
-      <CatalogClient basePath={BASE_PATH} links={links} />
+      <CatalogClient basePath={BASE_PATH} links={entryLinks} />
     </div>
   );
 }

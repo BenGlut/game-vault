@@ -128,6 +128,25 @@ export function GbcIcon(props: ConsoleIconProps) {
   );
 }
 
+/** Nintendo Switch — écran central et deux Joy-Con détachables. */
+export function SwitchIcon(props: ConsoleIconProps) {
+  return (
+    <svg {...svgProps(props)}>
+      <rect x="20" y="10" width="28" height="28" rx="2" />
+      <rect x="23.5" y="14" width="21" height="20" rx="1" strokeWidth="1.6" />
+      <path d="M18 10h-3a6 6 0 0 0-6 6v16a6 6 0 0 0 6 6h3Z" />
+      <path d="M50 10h3a6 6 0 0 1 6 6v16a6 6 0 0 1-6 6h-3Z" />
+      <circle cx="14" cy="18" r="2.2" />
+      <circle cx="54" cy="30" r="2.2" />
+      <path d="M12.5 28.5h3m-1.5-1.5v3" strokeWidth="1.6" />
+      <circle cx="54" cy="16.5" r="1" fill="currentColor" stroke="none" />
+      <circle cx="51.5" cy="19" r="1" fill="currentColor" stroke="none" />
+      <circle cx="56.5" cy="19" r="1" fill="currentColor" stroke="none" />
+      <circle cx="54" cy="21.5" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
 export const CONSOLE_ICONS: Record<string, (p: ConsoleIconProps) => React.JSX.Element> = {
   gb: GbIcon,
   gbc: GbcIcon,
@@ -136,4 +155,5 @@ export const CONSOLE_ICONS: Record<string, (p: ConsoleIconProps) => React.JSX.El
   gba: GbaIcon,
   n64: N64Icon,
   gamecube: GameCubeIcon,
+  switch: SwitchIcon,
 };

@@ -2246,7 +2246,10 @@
     "id": "game_ds_mission-safari",
     "canonicalTitle": "Mission Safari",
     "normalizedTitle": "mission safari",
-    "aliases": [],
+    "aliases": [
+      "Go, Diego, Go! Safari Rescue",
+      "Go Diego Mission Safari"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -2940,7 +2943,9 @@
     "id": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
     "canonicalTitle": "The Legend of Zelda: Majora's Mask 3D",
     "normalizedTitle": "the legend of zelda majora s mask 3d",
-    "aliases": [],
+    "aliases": [
+      "Zelda MM3D"
+    ],
     "franchise": null,
     "platformId": "3ds",
     "region": "PAL-FR",
@@ -3045,7 +3050,9 @@
     "id": "game_3ds_shin-megami-tensei-iv",
     "canonicalTitle": "Shin Megami Tensei IV",
     "normalizedTitle": "shin megami tensei iv",
-    "aliases": [],
+    "aliases": [
+      "SMT IV"
+    ],
     "franchise": null,
     "platformId": "3ds",
     "region": "PAL-FR",
@@ -3129,7 +3136,9 @@
     "id": "game_ds_new-super-mario-bros",
     "canonicalTitle": "New Super Mario Bros.",
     "normalizedTitle": "new super mario bros",
-    "aliases": [],
+    "aliases": [
+      "NSMB"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3150,7 +3159,10 @@
     "id": "game_ds_dragon-quest-ix-les-sentinelles-du-firmament",
     "canonicalTitle": "Dragon Quest IX : Les Sentinelles du Firmament",
     "normalizedTitle": "dragon quest ix les sentinelles du firmament",
-    "aliases": [],
+    "aliases": [
+      "Dragon Quest IX: Sentinels of the Starry Skies",
+      "DQ9"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3213,7 +3225,9 @@
     "id": "game_ds_professeur-layton-et-la-boite-de-pandore",
     "canonicalTitle": "Professeur Layton et la Boîte de Pandore",
     "normalizedTitle": "professeur layton et la boite de pandore",
-    "aliases": [],
+    "aliases": [
+      "Professor Layton and Pandora's Box"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3234,7 +3248,9 @@
     "id": "game_ds_professeur-layton-et-le-destin-perdu",
     "canonicalTitle": "Professeur Layton et le Destin Perdu",
     "normalizedTitle": "professeur layton et le destin perdu",
-    "aliases": [],
+    "aliases": [
+      "Professor Layton and the Lost Future"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3276,7 +3292,9 @@
     "id": "game_ds_ghost-trick-detective-fantome",
     "canonicalTitle": "Ghost Trick : Détective Fantôme",
     "normalizedTitle": "ghost trick detective fantome",
-    "aliases": [],
+    "aliases": [
+      "Ghost Trick: Phantom Detective"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3297,7 +3315,9 @@
     "id": "game_ds_the-world-ends-with-you",
     "canonicalTitle": "The World Ends With You",
     "normalizedTitle": "the world ends with you",
-    "aliases": [],
+    "aliases": [
+      "TWEWY"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3381,7 +3401,9 @@
     "id": "game_ds_rhythm-paradise",
     "canonicalTitle": "Rhythm Paradise",
     "normalizedTitle": "rhythm paradise",
-    "aliases": [],
+    "aliases": [
+      "Rhythm Heaven"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3402,7 +3424,9 @@
     "id": "game_ds_golden-sun-obscure-aurore",
     "canonicalTitle": "Golden Sun : Obscure Aurore",
     "normalizedTitle": "golden sun obscure aurore",
-    "aliases": [],
+    "aliases": [
+      "Golden Sun: Dark Dawn"
+    ],
     "franchise": null,
     "platformId": "ds",
     "region": "PAL-FR",
@@ -3612,7 +3636,9 @@
     "id": "game_n64_lylat-wars",
     "canonicalTitle": "Lylat Wars",
     "normalizedTitle": "lylat wars",
-    "aliases": [],
+    "aliases": [
+      "Star Fox 64"
+    ],
     "franchise": null,
     "platformId": "n64",
     "region": "PAL-FR",
@@ -3759,7 +3785,9 @@
     "id": "game_gamecube_paper-mario-la-porte-millenaire",
     "canonicalTitle": "Paper Mario : La Porte Millénaire",
     "normalizedTitle": "paper mario la porte millenaire",
-    "aliases": [],
+    "aliases": [
+      "Paper Mario: The Thousand-Year Door"
+    ],
     "franchise": null,
     "platformId": "gamecube",
     "region": "PAL-FR",

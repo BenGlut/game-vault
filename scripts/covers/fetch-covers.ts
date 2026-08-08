@@ -29,6 +29,7 @@ const REPOS: Record<string, string> = {
   gamecube: "Nintendo_-_GameCube",
   gb: "Nintendo_-_Game_Boy",
   gbc: "Nintendo_-_Game_Boy_Color",
+  // switch : pas de repo libretro — icônes via titledb (voir scripts/catalog/fetch-switch.ts)
 };
 
 interface RemoteEntry {
@@ -118,10 +119,23 @@ function pickMatch(candidates: string[], entries: RemoteEntry[]): RemoteEntry | 
 }
 
 async function download(repo: string, remoteName: string, dest: string): Promise<void> {
-  const url = `https://raw.githubusercontent.com/libretro-thumbnails/${repo}/master/Named_Boxarts/${encodeURIComponent(remoteName)}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`HTTP ${res.status} pour ${url}`);
-  fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
+  // GitHub raw, puis CDN libretro (certains fichiers GitHub sont des pointeurs LFS)
+  const urls = [
+    `https://raw.githubusercontent.com/libretro-thumbnails/${repo}/master/Named_Boxarts/${encodeURIComponent(remoteName)}`,
+    `http://thumbnails.libretro.com/${encodeURIComponent(repo.replace(/_/g, " "))}/Named_Boxarts/${encodeURIComponent(remoteName)}`,
+  ];
+  let lastErr: unknown;
+  for (const url of urls) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status} pour ${url}`);
+      fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
+      return;
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+  throw lastErr;
 }
 
 async function main(): Promise<void> {
