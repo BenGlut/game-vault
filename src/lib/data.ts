@@ -60,6 +60,8 @@ export interface SearchDoc {
   a: string[];
   f: string | null;
   p: string;
+  r?: string;
+  q?: string | null;
 }
 
 export interface GameRow {

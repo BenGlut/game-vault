@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import Fuse from "fuse.js";
 import type { SearchDoc } from "@/lib/data";
 import type { GameQuotes, Quote } from "@/lib/schema";
@@ -26,9 +27,11 @@ function euro(n: number): string {
 export default function DealEstimator({
   docs,
   quotes,
+  covers = {},
 }: {
   docs: SearchDoc[];
   quotes: Record<string, GameQuotes>;
+  covers?: Record<string, string>;
 }) {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<SearchDoc | null>(null);
@@ -85,15 +88,82 @@ export default function DealEstimator({
                 key={s.item.id}
                 type="button"
                 onClick={() => setSelected(s.item)}
-                className="block w-full px-4 py-2 text-left text-sm hover:bg-surface"
+                className="flex w-full items-center gap-3 px-3 py-2 text-left text-sm hover:bg-surface"
               >
-                {s.item.t}
-                <span className="ml-2 font-mono text-xs uppercase text-muted">{s.item.p}</span>
+                {covers[s.item.id] ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={covers[s.item.id]}
+                    alt=""
+                    loading="lazy"
+                    className="h-12 w-10 shrink-0 rounded object-cover"
+                  />
+                ) : (
+                  <div className="flex h-12 w-10 shrink-0 items-center justify-center rounded bg-surface text-xs text-muted">
+                    ?
+                  </div>
+                )}
+                <span className="min-w-0 truncate">{s.item.t}</span>
+                <span className="ml-auto shrink-0 font-mono text-xs uppercase text-muted">
+                  {s.item.p}
+                </span>
               </button>
             ))}
           </div>
         ) : null}
       </div>
+
+      {selected ? (
+        <div className="mt-4 flex items-center gap-4 rounded-xl border border-accent/40 bg-surface p-4">
+          {covers[selected.id] ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={covers[selected.id]}
+              alt={`Jaquette de ${selected.t}`}
+              className="w-20 shrink-0 rounded-lg border border-border shadow-lg"
+            />
+          ) : (
+            <div className="flex h-24 w-20 shrink-0 items-center justify-center rounded-lg bg-surface-2 text-xs text-muted">
+              pas de jaquette
+            </div>
+          )}
+          <div className="min-w-0">
+            <div className="flex items-center gap-2">
+              <span className="truncate text-lg font-semibold">{selected.t}</span>
+              {selected.q ? (
+                <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded bg-accent-soft font-mono text-xs font-bold text-accent">
+                  {selected.q}
+                </span>
+              ) : null}
+            </div>
+            <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-muted">
+              <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono uppercase">
+                {selected.p}
+              </span>
+              {selected.r ? <span>{selected.r}</span> : null}
+              {selected.f ? <span>{selected.f}</span> : null}
+            </div>
+            {selected.a.length ? (
+              <div className="mt-1 truncate text-xs text-muted">alias : {selected.a.join(", ")}</div>
+            ) : null}
+            <div className="mt-2 flex gap-4 text-xs">
+              <Link href={`/jeu/${selected.id}/`} className="text-accent underline">
+                voir la fiche
+              </Link>
+              <button
+                type="button"
+                onClick={() => {
+                  setSelected(null);
+                  setQuery("");
+                }}
+                className="text-muted underline hover:text-text"
+              >
+                changer de jeu
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
 
       <div className="mt-4 flex gap-2">
         {(

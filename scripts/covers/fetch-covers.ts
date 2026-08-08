@@ -24,6 +24,11 @@ const OUT_DIR = path.join(ROOT, "public", "covers");
 const REPOS: Record<string, string> = {
   "3ds": "Nintendo_-_Nintendo_3DS",
   ds: "Nintendo_-_Nintendo_DS",
+  gba: "Nintendo_-_Game_Boy_Advance",
+  n64: "Nintendo_-_Nintendo_64",
+  gamecube: "Nintendo_-_GameCube",
+  gb: "Nintendo_-_Game_Boy",
+  gbc: "Nintendo_-_Game_Boy_Color",
 };
 
 interface RemoteEntry {

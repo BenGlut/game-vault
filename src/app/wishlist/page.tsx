@@ -1,5 +1,6 @@
 import { getGameRows } from "@/lib/data";
-import { PageTitle, GameLink } from "@/components/ui";
+import { PageTitle } from "@/components/ui";
+import WishlistClient from "@/components/WishlistClient";
 
 export default function WishlistPage() {
   const rows = getGameRows().filter((r) => r.items.some((i) => i.status === "wishlist"));
@@ -15,11 +16,7 @@ export default function WishlistPage() {
           </div>
         </div>
       ) : (
-        <div className="space-y-2">
-          {rows.map((r) => (
-            <GameLink key={r.game.id} row={r} />
-          ))}
-        </div>
+        <WishlistClient rows={rows} />
       )}
     </div>
   );

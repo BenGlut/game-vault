@@ -5,7 +5,9 @@
     "n": "animal crossing new leaf welcome amiibo",
     "a": [],
     "f": "Animal Crossing",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_captain-toad-treasure-tracker",
@@ -13,7 +15,9 @@
     "n": "captain toad treasure tracker",
     "a": [],
     "f": "Super Mario",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_cars-2",
@@ -21,7 +25,9 @@
     "n": "cars 2",
     "a": [],
     "f": "Cars",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_detective-pikachu",
@@ -31,7 +37,9 @@
       "Detective Pikachu"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_disney-magical-world-2",
@@ -39,7 +47,9 @@
     "n": "disney magical world 2",
     "a": [],
     "f": "Disney",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_donkey-kong-country-returns-3d",
@@ -47,7 +57,9 @@
     "n": "donkey kong country returns 3d",
     "a": [],
     "f": "Donkey Kong",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_dragon-ball-fusions",
@@ -55,7 +67,9 @@
     "n": "dragon ball fusions",
     "a": [],
     "f": "Dragon Ball",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_dragon-ball-z-extreme-butoden",
@@ -63,7 +77,9 @@
     "n": "dragon ball z extreme butoden",
     "a": [],
     "f": "Dragon Ball",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_dragon-quest-vii-la-quete-des-vestiges-du-monde",
@@ -75,7 +91,9 @@
       "DQ7"
     ],
     "f": "Dragon Quest",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_dragons-2",
@@ -85,7 +103,9 @@
       "How to Train Your Dragon 2"
     ],
     "f": "Dragons",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_ever-oasis",
@@ -93,7 +113,9 @@
     "n": "ever oasis",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_farming-simulator-18",
@@ -101,7 +123,9 @@
     "n": "farming simulator 18",
     "a": [],
     "f": "Farming Simulator",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_fire-emblem-echoes-shadows-of-valentia",
@@ -109,7 +133,9 @@
     "n": "fire emblem echoes shadows of valentia",
     "a": [],
     "f": "Fire Emblem",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_fire-emblem-fates-conquete",
@@ -119,7 +145,9 @@
       "Fire Emblem Fates: Conquest"
     ],
     "f": "Fire Emblem",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_fire-emblem-warriors",
@@ -127,7 +155,9 @@
     "n": "fire emblem warriors",
     "a": [],
     "f": "Fire Emblem",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_fossil-fighters-frontier",
@@ -135,7 +165,9 @@
     "n": "fossil fighters frontier",
     "a": [],
     "f": "Fossil Fighters",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_kirby-battle-royale",
@@ -143,7 +175,9 @@
     "n": "kirby battle royale",
     "a": [],
     "f": "Kirby",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_kirby-planet-robobot",
@@ -151,7 +185,9 @@
     "n": "kirby planet robobot",
     "a": [],
     "f": "Kirby",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_kirby-triple-deluxe",
@@ -159,7 +195,9 @@
     "n": "kirby triple deluxe",
     "a": [],
     "f": "Kirby",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_lbx-little-battlers-experience",
@@ -170,7 +208,9 @@
       "Danball Senki"
     ],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_lego-batman-3-au-dela-de-gotham",
@@ -180,7 +220,9 @@
       "LEGO Batman 3: Beyond Gotham"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_lego-city-undercover-the-chase-begins",
@@ -188,7 +230,9 @@
     "n": "lego city undercover the chase begins",
     "a": [],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_lego-chima-le-voyage-de-laval",
@@ -198,7 +242,9 @@
       "LEGO Legends of Chima: Laval's Journey"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_lego-le-hobbit",
@@ -208,7 +254,9 @@
       "LEGO The Hobbit"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_lego-le-seigneur-des-anneaux",
@@ -218,7 +266,9 @@
       "LEGO The Lord of the Rings"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_lego-marvel-super-heroes-l-univers-en-peril",
@@ -228,7 +278,9 @@
       "LEGO Marvel Super Heroes: Universe in Peril"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_lego-ninjago-l-ombre-de-ronin",
@@ -238,7 +290,9 @@
       "LEGO Ninjago: Shadow of Ronin"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_lego-ninjago-nindroids",
@@ -248,7 +302,9 @@
       "LEGO Ninjago: Nindroids"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_lego-star-wars-iii",
@@ -258,7 +314,9 @@
       "LEGO Star Wars III: The Clone Wars"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_lego-star-wars-le-reveil-de-la-force",
@@ -268,7 +326,9 @@
       "LEGO Star Wars: The Force Awakens"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_la-grande-aventure-lego-le-jeu-video",
@@ -278,7 +338,9 @@
       "The LEGO Movie Videogame"
     ],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_luigi-s-mansion",
@@ -286,7 +348,9 @@
     "n": "luigi s mansion",
     "a": [],
     "f": "Luigi's Mansion",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_luigi-s-mansion-2",
@@ -296,7 +360,9 @@
       "Luigi's Mansion: Dark Moon"
     ],
     "f": "Luigi's Mansion",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_mario-luigi-dream-team-bros",
@@ -306,7 +372,9 @@
       "Mario & Luigi: Dream Team"
     ],
     "f": "Mario & Luigi",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_mario-luigi-paper-jam-bros",
@@ -316,7 +384,9 @@
       "Mario & Luigi: Paper Jam"
     ],
     "f": "Mario & Luigi",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_mario-luigi-superstar-saga-les-sbires-de-bowser",
@@ -326,7 +396,9 @@
       "Mario & Luigi: Superstar Saga + Bowser's Minions"
     ],
     "f": "Mario & Luigi",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_mario-kart-7",
@@ -334,7 +406,9 @@
     "n": "mario kart 7",
     "a": [],
     "f": "Mario Kart",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_mario-party-island-tour",
@@ -342,7 +416,9 @@
     "n": "mario party island tour",
     "a": [],
     "f": "Mario Party",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_mario-party-star-rush",
@@ -350,7 +426,9 @@
     "n": "mario party star rush",
     "a": [],
     "f": "Mario Party",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
@@ -360,7 +438,9 @@
       "Mario & Sonic at the London 2012 Olympic Games"
     ],
     "f": "Mario & Sonic",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_mario-tennis-open",
@@ -368,7 +448,9 @@
     "n": "mario tennis open",
     "a": [],
     "f": "Mario Tennis",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_miitopia",
@@ -376,7 +458,9 @@
     "n": "miitopia",
     "a": [],
     "f": "Mii",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_monster-hunter-3-ultimate",
@@ -384,7 +468,9 @@
     "n": "monster hunter 3 ultimate",
     "a": [],
     "f": "Monster Hunter",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_monster-hunter-generations",
@@ -392,7 +478,9 @@
     "n": "monster hunter generations",
     "a": [],
     "f": "Monster Hunter",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_new-super-mario-bros-2",
@@ -400,7 +488,9 @@
     "n": "new super mario bros 2",
     "a": [],
     "f": "Super Mario",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_nintendogs-cats",
@@ -408,7 +498,9 @@
     "n": "nintendogs cats",
     "a": [],
     "f": "Nintendogs",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_paper-mario-sticker-star",
@@ -416,7 +508,9 @@
     "n": "paper mario sticker star",
     "a": [],
     "f": "Paper Mario",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_planes",
@@ -424,7 +518,9 @@
     "n": "planes",
     "a": [],
     "f": "Disney",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_pokemon-donjon-mystere-les-portes-de-l-infini",
@@ -434,7 +530,9 @@
       "Pokémon Mystery Dungeon: Gates to Infinity"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_pokemon-mega-donjon-mystere",
@@ -444,7 +542,9 @@
       "Pokémon Super Mystery Dungeon"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_pokemon-rumble-world",
@@ -452,7 +552,9 @@
     "n": "pokemon rumble world",
     "a": [],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_pokemon-rubis-omega",
@@ -462,7 +564,9 @@
       "Pokémon Omega Ruby"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_pokemon-saphir-alpha",
@@ -472,7 +576,9 @@
       "Pokémon Alpha Sapphire"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_pokemon-soleil",
@@ -482,7 +588,9 @@
       "Pokémon Sun"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_pokemon-ultra-soleil",
@@ -492,7 +600,9 @@
       "Pokémon Ultra Sun"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_pokemon-lune",
@@ -502,7 +612,9 @@
       "Pokémon Moon"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_pokemon-ultra-lune",
@@ -512,7 +624,9 @@
       "Pokémon Ultra Moon"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_pokemon-x",
@@ -520,7 +634,9 @@
     "n": "pokemon x",
     "a": [],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_pokemon-y",
@@ -528,7 +644,9 @@
     "n": "pokemon y",
     "a": [],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_super-pokemon-rumble",
@@ -538,7 +656,9 @@
       "Pokémon Rumble Blast"
     ],
     "f": "Pokémon",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_rayman-les-lapins-cretins-pack-famille",
@@ -548,7 +668,9 @@
       "Rayman and Rabbids Family Pack"
     ],
     "f": "Rayman",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_sonic-boom-le-cristal-brise",
@@ -558,7 +680,9 @@
       "Sonic Boom: Shattered Crystal"
     ],
     "f": "Sonic",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_star-fox-64-3d",
@@ -568,7 +692,9 @@
       "Lylat Wars"
     ],
     "f": "Star Fox",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_super-mario-3d-land",
@@ -576,7 +702,9 @@
     "n": "super mario 3d land",
     "a": [],
     "f": "Super Mario",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_super-mario-maker-for-nintendo-3ds",
@@ -586,7 +714,9 @@
       "Mario Maker"
     ],
     "f": "Super Mario",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_super-smash-bros-for-nintendo-3ds",
@@ -596,7 +726,9 @@
       "Smash 3DS"
     ],
     "f": "Super Smash Bros.",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_the-legend-of-zelda-a-link-between-worlds",
@@ -606,7 +738,9 @@
       "Zelda ALBW"
     ],
     "f": "The Legend of Zelda",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_the-legend-of-zelda-ocarina-of-time-3d",
@@ -616,7 +750,9 @@
       "Zelda OoT 3D"
     ],
     "f": "The Legend of Zelda",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_the-legend-of-zelda-tri-force-heroes",
@@ -624,7 +760,9 @@
     "n": "the legend of zelda tri force heroes",
     "a": [],
     "f": "The Legend of Zelda",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_wrc",
@@ -634,7 +772,9 @@
       "WRC: FIA World Rally Championship"
     ],
     "f": "WRC",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_yo-kai-watch-2-esprits-farceurs",
@@ -644,7 +784,9 @@
       "Yo-kai Watch 2: Bony Spirits"
     ],
     "f": "Yo-kai Watch",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_yo-kai-watch-2-fantomes-bouffis",
@@ -654,7 +796,9 @@
       "Yo-kai Watch 2: Fleshy Souls"
     ],
     "f": "Yo-kai Watch",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_yo-kai-watch-blasters-l-escadron-du-chien-blanc",
@@ -664,7 +808,9 @@
       "Yo-kai Watch Blasters: White Dog Squad"
     ],
     "f": "Yo-kai Watch",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_yoshi-s-new-island",
@@ -672,7 +818,9 @@
     "n": "yoshi s new island",
     "a": [],
     "f": "Yoshi",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_arthur-et-les-minimoys",
@@ -682,7 +830,9 @@
       "Arthur and the Invisibles"
     ],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_asterix-obelix-xxl-2-mission-wifix",
@@ -692,7 +842,9 @@
       "Asterix & Obelix XXL 2: Mission Wifix"
     ],
     "f": "Astérix",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_bien-etre-du-visage",
@@ -702,7 +854,9 @@
       "Face Training"
     ],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_bratz-forever-diamondz",
@@ -710,7 +864,9 @@
     "n": "bratz forever diamondz",
     "a": [],
     "f": "Bratz",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_cars",
@@ -718,7 +874,9 @@
     "n": "cars",
     "a": [],
     "f": "Cars",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_cars-race-o-rama",
@@ -726,7 +884,9 @@
     "n": "cars race o rama",
     "a": [],
     "f": "Cars",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_children-of-mana",
@@ -736,7 +896,9 @@
       "Seiken Densetsu DS"
     ],
     "f": "Mana",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_clochette-et-la-pierre-de-lune",
@@ -746,7 +908,9 @@
       "Tinker Bell and the Lost Treasure"
     ],
     "f": "Disney Fairies",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_clochette-et-l-expedition-feerique",
@@ -756,7 +920,9 @@
       "Tinker Bell and the Great Fairy Rescue"
     ],
     "f": "Disney Fairies",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_dance-floor",
@@ -764,7 +930,9 @@
     "n": "dance floor",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_dora-cuisine",
@@ -774,7 +942,9 @@
       "Dora's Cooking Club"
     ],
     "f": "Dora l'exploratrice",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_dora-et-sauvons-les-animaux",
@@ -784,7 +954,9 @@
       "Dora Saves the Snow Princess"
     ],
     "f": "Dora l'exploratrice",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_dragon-ball-z-supersonic-warriors-2",
@@ -792,7 +964,9 @@
     "n": "dragon ball z supersonic warriors 2",
     "a": [],
     "f": "Dragon Ball",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_final-fantasy-iii",
@@ -803,7 +977,9 @@
       "FFIII"
     ],
     "f": "Final Fantasy",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_final-fantasy-crystal-chronicles-echoes-of-time",
@@ -811,7 +987,9 @@
     "n": "final fantasy crystal chronicles echoes of time",
     "a": [],
     "f": "Final Fantasy",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_final-fantasy-tactics-a2",
@@ -821,7 +999,9 @@
       "Final Fantasy Tactics A2: Grimoire of the Rift"
     ],
     "f": "Final Fantasy",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_fort-boyard",
@@ -829,7 +1009,9 @@
     "n": "fort boyard",
     "a": [],
     "f": "Fort Boyard",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_goldeneye-007",
@@ -837,7 +1019,9 @@
     "n": "goldeneye 007",
     "a": [],
     "f": "James Bond",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_high-school-musical-3",
@@ -847,7 +1031,9 @@
       "High School Musical 3: Senior Year"
     ],
     "f": "High School Musical",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_lego-batman-2-dc-super-heroes",
@@ -857,7 +1043,9 @@
       "LEGO Batman 2: DC Super Heroes"
     ],
     "f": "LEGO",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_lego-harry-potter-annees-1-4",
@@ -867,7 +1055,9 @@
       "LEGO Harry Potter: Years 1-4"
     ],
     "f": "LEGO",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_lecons-de-cuisine",
@@ -877,7 +1067,9 @@
       "Cooking Guide: Can't Decide What to Eat?"
     ],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_les-chevaliers-de-baphomet-director-s-cut",
@@ -887,7 +1079,9 @@
       "Broken Sword: Shadow of the Templars - Director's Cut"
     ],
     "f": "Les Chevaliers de Baphomet",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_les-rebelles-de-la-foret",
@@ -897,7 +1091,9 @@
       "Open Season"
     ],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_ma-pause-yoga",
@@ -907,7 +1103,9 @@
       "Let's Yoga"
     ],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_mario-luigi-voyage-au-centre-de-bowser",
@@ -917,7 +1115,9 @@
       "Mario & Luigi: Bowser's Inside Story"
     ],
     "f": "Mario & Luigi",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_mario-vs-donkey-kong-2-la-marche-des-mini",
@@ -927,7 +1127,9 @@
       "Mario vs. Donkey Kong 2: March of the Minis"
     ],
     "f": "Mario vs. Donkey Kong",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_mission-safari",
@@ -935,7 +1137,9 @@
     "n": "mission safari",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_nancy-drew-the-deadly-secret-of-olde-world-park",
@@ -943,7 +1147,9 @@
     "n": "nancy drew the deadly secret of olde world park",
     "a": [],
     "f": "Nancy Drew",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_plus-belle-la-vie-le-secret-du-dr-livia",
@@ -951,7 +1157,9 @@
     "n": "plus belle la vie le secret du dr livia",
     "a": [],
     "f": "Plus Belle la Vie",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_pokemon-version-argent-soulsilver",
@@ -962,7 +1170,9 @@
       "Pokémon SoulSilver"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_pokemon-version-blanche",
@@ -973,7 +1183,9 @@
       "Pokémon White"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_pokemon-version-diamant",
@@ -984,7 +1196,9 @@
       "Pokémon Diamond"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_pokemon-version-noire",
@@ -995,7 +1209,9 @@
       "Pokémon Black"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_pokemon-version-noire-2",
@@ -1006,7 +1222,9 @@
       "Pokémon Black 2"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_pokemon-version-or-heartgold",
@@ -1017,7 +1235,9 @@
       "Pokémon HeartGold"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_pokemon-version-perle",
@@ -1028,7 +1248,9 @@
       "Pokémon Pearl"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_pokemon-version-platine",
@@ -1039,7 +1261,9 @@
       "Pokémon Platinum"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_pokemon-donjon-mystere-equipe-de-secours-bleue",
@@ -1049,7 +1273,9 @@
       "Pokémon Mystery Dungeon: Blue Rescue Team"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_pokemon-donjon-mystere-explorateurs-de-l-ombre",
@@ -1059,7 +1285,9 @@
       "Pokémon Mystery Dungeon: Explorers of Darkness"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_pokemon-donjon-mystere-explorateurs-du-temps",
@@ -1069,7 +1297,9 @@
       "Pokémon Mystery Dungeon: Explorers of Time"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_pokemon-link",
@@ -1079,7 +1309,9 @@
       "Pokémon Trozei!"
     ],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_pokemon-ranger",
@@ -1087,7 +1319,9 @@
     "n": "pokemon ranger",
     "a": [],
     "f": "Pokémon",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_populous-ds",
@@ -1095,7 +1329,9 @@
     "n": "populous ds",
     "a": [],
     "f": "Populous",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_programme-d-entrainement-cerebral",
@@ -1106,7 +1342,9 @@
       "Brain Age"
     ],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_professeur-layton-et-l-etrange-village",
@@ -1116,7 +1354,9 @@
       "Professor Layton and the Curious Village"
     ],
     "f": "Professeur Layton",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_runaway-a-twist-of-fate",
@@ -1124,7 +1364,9 @@
     "n": "runaway a twist of fate",
     "a": [],
     "f": "Runaway",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_runaway-the-dream-of-the-turtle",
@@ -1132,7 +1374,9 @@
     "n": "runaway the dream of the turtle",
     "a": [],
     "f": "Runaway",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_simcity-ds",
@@ -1140,7 +1384,9 @@
     "n": "simcity ds",
     "a": [],
     "f": "SimCity",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_sonic-chronicles-la-confrerie-des-tenebres",
@@ -1150,7 +1396,9 @@
       "Sonic Chronicles: The Dark Brotherhood"
     ],
     "f": "Sonic",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_spyro-shadow-legacy",
@@ -1158,7 +1406,9 @@
     "n": "spyro shadow legacy",
     "a": [],
     "f": "Spyro",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_star-wars-the-clone-wars-l-alliance-jedi",
@@ -1168,7 +1418,9 @@
       "Star Wars: The Clone Wars - Jedi Alliance"
     ],
     "f": "Star Wars",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_ds_super-mario-64-ds",
@@ -1176,7 +1428,9 @@
     "n": "super mario 64 ds",
     "a": [],
     "f": "Super Mario",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_totally-spies-2-undercover",
@@ -1184,7 +1438,9 @@
     "n": "totally spies 2 undercover",
     "a": [],
     "f": "Totally Spies",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   },
   {
     "id": "game_ds_worms-open-warfare",
@@ -1192,7 +1448,9 @@
     "n": "worms open warfare",
     "a": [],
     "f": "Worms",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_worms-open-warfare-2",
@@ -1200,7 +1458,9 @@
     "n": "worms open warfare 2",
     "a": [],
     "f": "Worms",
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_mario-party-the-top-100",
@@ -1210,7 +1470,9 @@
       "Mario Party the Top 100"
     ],
     "f": "Mario Party",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
   },
   {
     "id": "game_3ds_lego-jurassic-world",
@@ -1218,7 +1480,9 @@
     "n": "lego jurassic world",
     "a": [],
     "f": "LEGO",
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
@@ -1226,7 +1490,9 @@
     "n": "the legend of zelda majora s mask 3d",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_fire-emblem-awakening",
@@ -1234,7 +1500,9 @@
     "n": "fire emblem awakening",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_metroid-samus-returns",
@@ -1242,7 +1510,9 @@
     "n": "metroid samus returns",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_3ds_kid-icarus-uprising",
@@ -1250,7 +1520,9 @@
     "n": "kid icarus uprising",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_bravely-default",
@@ -1258,7 +1530,9 @@
     "n": "bravely default",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_shin-megami-tensei-iv",
@@ -1266,7 +1540,9 @@
     "n": "shin megami tensei iv",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_3ds_poochy-yoshi-s-woolly-world",
@@ -1274,7 +1550,9 @@
     "n": "poochy yoshi s woolly world",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_3ds_animal-crossing-happy-home-designer",
@@ -1282,7 +1560,9 @@
     "n": "animal crossing happy home designer",
     "a": [],
     "f": null,
-    "p": "3ds"
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "B"
   },
   {
     "id": "game_ds_mario-kart-ds",
@@ -1290,7 +1570,9 @@
     "n": "mario kart ds",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_new-super-mario-bros",
@@ -1298,7 +1580,9 @@
     "n": "new super mario bros",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_dragon-quest-ix-les-sentinelles-du-firmament",
@@ -1306,7 +1590,9 @@
     "n": "dragon quest ix les sentinelles du firmament",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_the-legend-of-zelda-phantom-hourglass",
@@ -1314,7 +1600,9 @@
     "n": "the legend of zelda phantom hourglass",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_the-legend-of-zelda-spirit-tracks",
@@ -1322,7 +1610,9 @@
     "n": "the legend of zelda spirit tracks",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_professeur-layton-et-la-boite-de-pandore",
@@ -1330,7 +1620,9 @@
     "n": "professeur layton et la boite de pandore",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_professeur-layton-et-le-destin-perdu",
@@ -1338,7 +1630,9 @@
     "n": "professeur layton et le destin perdu",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_chrono-trigger",
@@ -1346,7 +1640,9 @@
     "n": "chrono trigger",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_ghost-trick-detective-fantome",
@@ -1354,7 +1650,9 @@
     "n": "ghost trick detective fantome",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
   },
   {
     "id": "game_ds_the-world-ends-with-you",
@@ -1362,7 +1660,9 @@
     "n": "the world ends with you",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_castlevania-dawn-of-sorrow",
@@ -1370,7 +1670,9 @@
     "n": "castlevania dawn of sorrow",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_advance-wars-dual-strike",
@@ -1378,7 +1680,9 @@
     "n": "advance wars dual strike",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_kirby-super-star-ultra",
@@ -1386,7 +1690,9 @@
     "n": "kirby super star ultra",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_rhythm-paradise",
@@ -1394,7 +1700,9 @@
     "n": "rhythm paradise",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
   },
   {
     "id": "game_ds_golden-sun-obscure-aurore",
@@ -1402,6 +1710,208 @@
     "n": "golden sun obscure aurore",
     "a": [],
     "f": null,
-    "p": "ds"
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
+  },
+  {
+    "id": "game_n64_super-mario-64",
+    "t": "Super Mario 64",
+    "n": "super mario 64",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_the-legend-of-zelda-ocarina-of-time",
+    "t": "The Legend of Zelda: Ocarina of Time",
+    "n": "the legend of zelda ocarina of time",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_mario-kart-64",
+    "t": "Mario Kart 64",
+    "n": "mario kart 64",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_the-legend-of-zelda-majora-s-mask",
+    "t": "The Legend of Zelda: Majora's Mask",
+    "n": "the legend of zelda majora s mask",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_banjo-kazooie",
+    "t": "Banjo-Kazooie",
+    "n": "banjo kazooie",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_super-smash-bros",
+    "t": "Super Smash Bros.",
+    "n": "super smash bros",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_goldeneye-007",
+    "t": "GoldenEye 007",
+    "n": "goldeneye 007",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_paper-mario",
+    "t": "Paper Mario",
+    "n": "paper mario",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_diddy-kong-racing",
+    "t": "Diddy Kong Racing",
+    "n": "diddy kong racing",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_n64_lylat-wars",
+    "t": "Lylat Wars",
+    "n": "lylat wars",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_gamecube_the-legend-of-zelda-the-wind-waker",
+    "t": "The Legend of Zelda: The Wind Waker",
+    "n": "the legend of zelda the wind waker",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_super-mario-sunshine",
+    "t": "Super Mario Sunshine",
+    "n": "super mario sunshine",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_super-smash-bros-melee",
+    "t": "Super Smash Bros. Melee",
+    "n": "super smash bros melee",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_mario-kart-double-dash",
+    "t": "Mario Kart: Double Dash!!",
+    "n": "mario kart double dash",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_gamecube_metroid-prime",
+    "t": "Metroid Prime",
+    "n": "metroid prime",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_luigi-s-mansion",
+    "t": "Luigi's Mansion",
+    "n": "luigi s mansion",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_gamecube_paper-mario-la-porte-millenaire",
+    "t": "Paper Mario : La Porte Millénaire",
+    "n": "paper mario la porte millenaire",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_pikmin",
+    "t": "Pikmin",
+    "n": "pikmin",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_gamecube_f-zero-gx",
+    "t": "F-Zero GX",
+    "n": "f zero gx",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_resident-evil-4",
+    "t": "Resident Evil 4",
+    "n": "resident evil 4",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
   }
 ]

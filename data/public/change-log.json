@@ -168,5 +168,115 @@
     "at": "2026-08-08T02:12:29.001Z",
     "command": "add-game",
     "message": "add game Golden Sun : Obscure Aurore (ds)"
+  },
+  {
+    "at": "2026-08-08T03:24:23.851Z",
+    "command": "price-batch",
+    "message": "46 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/prices-recos.json"
+  },
+  {
+    "at": "2026-08-08T03:58:24.402Z",
+    "command": "add-game",
+    "message": "add game Super Mario 64 (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:25.193Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Ocarina of Time (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:26.085Z",
+    "command": "add-game",
+    "message": "add game Mario Kart 64 (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:26.773Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Majora's Mask (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:27.400Z",
+    "command": "add-game",
+    "message": "add game Banjo-Kazooie (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:28.101Z",
+    "command": "add-game",
+    "message": "add game Super Smash Bros. (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:28.825Z",
+    "command": "add-game",
+    "message": "add game GoldenEye 007 (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:29.723Z",
+    "command": "add-game",
+    "message": "add game Paper Mario (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:30.875Z",
+    "command": "add-game",
+    "message": "add game Diddy Kong Racing (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:31.649Z",
+    "command": "add-game",
+    "message": "add game Lylat Wars (n64)"
+  },
+  {
+    "at": "2026-08-08T03:58:32.451Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: The Wind Waker (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:33.340Z",
+    "command": "add-game",
+    "message": "add game Super Mario Sunshine (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:33.910Z",
+    "command": "add-game",
+    "message": "add game Super Smash Bros. Melee (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:34.477Z",
+    "command": "add-game",
+    "message": "add game Mario Kart: Double Dash!! (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:35.080Z",
+    "command": "add-game",
+    "message": "add game Metroid Prime (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:35.678Z",
+    "command": "add-game",
+    "message": "add game Luigi's Mansion (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:36.257Z",
+    "command": "add-game",
+    "message": "add game Paper Mario : La Porte Millénaire (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:36.916Z",
+    "command": "add-game",
+    "message": "add game Pikmin (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:37.691Z",
+    "command": "add-game",
+    "message": "add game F-Zero GX (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:38.430Z",
+    "command": "add-game",
+    "message": "add game Resident Evil 4 (gamecube)"
+  },
+  {
+    "at": "2026-08-08T03:58:59.977Z",
+    "command": "price-batch",
+    "message": "40 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/prices-retro.json"
   }
 ]

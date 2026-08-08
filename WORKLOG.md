@@ -1,45 +1,66 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
-- Catalogue de référence complet DS + 3DS (listes No-Intro via libretro-thumbnails)
-  pour la recherche : script `scripts/catalog/fetch-catalog.ts` (dédup par titre
-  normalisé, inversion d'article, agrégation des régions, téléchargement de TOUTES
-  les jaquettes en miniatures 160px JPEG, reprise auto) → `public/catalog/*.json`
-  + `public/catalog-covers/*.jpg`
-- Page `/catalogue` (`src/app/catalogue/page.tsx`, `src/components/CatalogClient.tsx`) :
-  recherche dans tous les jeux sortis, filtre possédé/manquant, badge « Possédé »
-  par correspondance titre normalisé + alias ; lien nav ajouté — `src/app/layout.tsx`
-- Support EAN : `pnpm vault add-game --ean …` (stocké dans `externalIds.ean`) et
-  affichage sur la fiche jeu — `scripts/vault/index.ts`, `src/app/jeu/[id]/page.tsx`
+- Catalogue de référence complet No-Intro pour la recherche, 7 consoles Nintendo
+  (GB, GBC, GBA, DS, 3DS, N64, GameCube — 14 907 jeux, 14 884 jaquettes locales 160px) :
+  script `scripts/catalog/fetch-catalog.ts` (dédup par titre normalisé, inversion
+  d'article, agrégation des régions, reprise auto) → `public/catalog/*.json` +
+  `public/catalog-covers/<plateforme>/*.jpg`
+- Page `/catalogue` : recherche dans tous les jeux sortis, filtres
+  possédé/manquant et région, badge « Possédé » par titre normalisé + alias,
+  sélecteur de consoles en cartes illustrées SVG (`src/app/catalogue/page.tsx`,
+  `src/components/CatalogClient.tsx`, `src/components/ConsoleIcons.tsx`)
 - Estimateur de bonnes affaires : cotes par variante avec boîte (cib) / cartouche
-  seule (loose) sur les observations de prix (`src/lib/schema.ts`), moteur de
-  verdict 5 niveaux Très bon plan→Mauvais deal (`src/lib/deal.ts`), commandes
-  `pnpm vault add-price --variant cib|loose` et `pnpm vault deal --game … --price …
-  --state cib|loose` (`scripts/vault/index.ts`, `scripts/vault/lib/quotes.ts`),
-  export public `quotes.json` (`scripts/vault/lib/publish.ts`), page `/estimateur`
-  mobile-first (`src/app/estimateur/page.tsx`, `src/components/DealEstimator.tsx`),
-  cotes CIB/loose sur la fiche jeu — 9 tests ajoutés (`tests/deal.test.ts`,
-  `tests/cli.test.ts`)
-
+  seule (loose), moteur de verdict 5 niveaux (`src/lib/deal.ts`), commandes
+  `add-price --variant`, `deal`, `price-batch` (`scripts/vault/`), export
+  `quotes.json`, page `/estimateur` mobile-first avec jaquettes dans les
+  suggestions et fiche visuelle du jeu sélectionné (`src/components/DealEstimator.tsx`)
+  — 9 tests ajoutés
 - Notation des jeux : `qualityTier` S/A/B/C/D et `buyPriority` haute/moyenne/basse
-  sur Game (`src/lib/schema.ts`), commandes `pnpm vault rate`, `rate-batch --file`,
-  `price-batch --file` et options `--quality/--priority/--wishlist` sur add-game
-  (`scripts/vault/index.ts`) ; les 132 jeux de la collection notés (source
-  consensus critique) et cotés loose+CIB (source estimation-agent, 264 observations)
-- Page `/recommandations` : wishlist priorisée haute/moyenne/basse triée par
-  qualité avec cotes — 23 recommandations d'achat DS/3DS ajoutées en wishlist
-  (`src/app/recommandations/page.tsx`) ; badges QualityBadge/PriorityBadge
-  (`src/components/ui.tsx`), filtre qualité sur la Collection, champs sur la fiche
+  (`src/lib/schema.ts`), commandes `rate` / `rate-batch`, options
+  `--quality/--priority/--wishlist` sur add-game ; 132 jeux notés (consensus
+  critique) et cotés loose+CIB (264 observations, source estimation-agent)
+- Page `/recommandations` : wishlist priorisée triée par qualité avec cotes —
+  23 recommandations d'achat DS/3DS ; badges QualityBadge/PriorityBadge, filtre
+  qualité sur la Collection, champs qualité/priorité sur la fiche jeu
 - Jaquettes dans les résultats de la page Recherche
-  (`src/app/recherche/page.tsx`, `src/components/SearchClient.tsx`)
-- Filtre par région sur la page Catalogue (`src/components/CatalogClient.tsx`)
-- Catalogue étendu à la Game Boy Advance (`scripts/catalog/fetch-catalog.ts`)
+- Support EAN : `add-game --ean` (externalIds) + affichage fiche jeu
+- Favicon SVG (manette dorée sur fond sombre, assorti au logo) — `src/app/icon.svg`
+- Wishlist filtrable par plateforme (boutons consoles + compteurs, priorité et
+  qualité affichées, filtre en URL) — `src/components/WishlistClient.tsx`
+- 20 recommandations N64/GameCube en wishlist avec qualité, priorité et cotes
+  loose/CIB (40 observations) + jaquettes ; couverture jaquettes de collection
+  étendue aux 7 consoles — `scripts/covers/fetch-covers.ts`
+- Catalogue : bouton « Toutes » (recherche multi-plateformes sur ~15 000 jeux,
+  tag plateforme par carte), filtre qualité S-D, case qualité sur CHAQUE jeu
+  (lettre connue ou « ? » — jamais inventée), toutes les entrées cliquables
+  (fiche si dans la base, sinon carte détaillée en modale) —
+  `src/components/CatalogClient.tsx`
+- Toutes les consoles dans le filtre de la Collection (compteur par plateforme,
+  consoles vides grisées en attente de photos) ; badges qualité dans le Catalogue
+  (note exacte pour les jeux de la base + carte curée de ~120 incontournables S/A
+  GB/GBC/GBA/N64/GC — `scripts/catalog/quality-map.json`)
+- Mini-estimateur intégré à CHAQUE fiche jeu (état + prix → verdict inline,
+  `src/components/MiniEstimator.tsx`) ; cotes ajoutées aux 23 recommandations
+  (46 observations) — toutes les fiches ont une cote active
+- Boutons consoles illustrés pour filtrer la Collection par plateforme
+- Entrées du Catalogue cliquables vers la fiche quand le jeu est dans la base
+  (badge Wishlist distinct du badge Possédé — bug corrigé) ; lien « voir la
+  fiche » sur le jeu sélectionné de l'Estimateur
 
 ## Changed
-- Jaquettes du catalogue rangées par plateforme : `public/catalog-covers/ds/…` et
-  `public/catalog-covers/3ds/…` — `scripts/catalog/fetch-catalog.ts`,
-  `src/components/CatalogClient.tsx`
+- Filtres persistés dans l'URL (Collection et Catalogue) : deep-link + retour
+  arrière sans perdre les sélections — `CollectionExplorer.tsx`, `CatalogClient.tsx`
+- Index de recherche publié enrichi (région, qualité) — `scripts/vault/lib/publish.ts`
+- Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- Jaquettes du catalogue : fallback sur les variantes régionales quand le fichier
+  libretro préféré est corrompu (pointeur LFS) — 103 échecs N64/GC/GBA réduits à 21
+  (`scripts/catalog/fetch-catalog.ts`)
+- Serveur statique local : `/collection?x=y` sans slash final renvoyait 404
+  (`scripts/serve-out.mjs`) — liens de la page Plateformes réparés
+- e2e adaptés : les boutons de filtre sont légitimes, l'invariant lecture seule
+  vérifie désormais l'absence de formulaires et de contrôles d'édition
 
 ## Removed

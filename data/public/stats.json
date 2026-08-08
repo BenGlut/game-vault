@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-08T02:14:17.069Z",
-  "totalGames": 155,
+  "generatedAt": "2026-08-08T03:59:54.404Z",
+  "totalGames": 175,
   "ownedItems": 130,
   "byStatus": {
     "owned": 130,
@@ -8,6 +8,8 @@
     "wishlist": 0
   },
   "byPlatform": {
+    "n64": 10,
+    "gamecube": 10,
     "ds": 71,
     "3ds": 84
   },

@@ -89,6 +89,8 @@ export function buildPublicExport(v: Vault): Record<string, unknown> {
     a: g.aliases,
     f: g.franchise,
     p: g.platformId,
+    r: g.region,
+    q: g.qualityTier,
   }));
 
   return {

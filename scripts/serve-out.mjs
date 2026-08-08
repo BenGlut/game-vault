@@ -20,6 +20,8 @@ http
   .createServer((req, res) => {
     let file = path.join(root, decodeURIComponent(new URL(req.url, "http://x").pathname));
     if (file.endsWith("/")) file += "index.html";
+    // /collection (sans slash) → out/collection/index.html, comme GitHub Pages
+    if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file = path.join(file, "index.html");
     if (!fs.existsSync(file) && fs.existsSync(file + "/index.html")) file += "/index.html";
     if (!fs.existsSync(file) || !fs.statSync(file).isFile()) {
       const notFound = path.join(root, "404.html");

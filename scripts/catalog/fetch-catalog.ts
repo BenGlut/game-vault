@@ -29,6 +29,10 @@ const REPOS: Record<string, string> = {
   "3ds": "Nintendo_-_Nintendo_3DS",
   ds: "Nintendo_-_Nintendo_DS",
   gba: "Nintendo_-_Game_Boy_Advance",
+  n64: "Nintendo_-_Nintendo_64",
+  gamecube: "Nintendo_-_GameCube",
+  gb: "Nintendo_-_Game_Boy",
+  gbc: "Nintendo_-_Game_Boy_Color",
 };
 
 const REGION_TAGS = [
@@ -61,7 +65,12 @@ interface CatalogEntry {
   n: string; // titre normalisé (recherche)
   r: string[]; // régions connues
   img: boolean;
+  q?: string; // qualité curée (S/A) — quality-map.json
 }
+
+const QUALITY_MAP = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "quality-map.json"), "utf8"),
+) as Record<string, Record<string, string>>;
 
 /** "Legend of Zelda, The - Phantom Hourglass" → "The Legend of Zelda - Phantom Hourglass" */
 function displayTitle(base: string): string {
@@ -126,7 +135,7 @@ async function main(): Promise<void> {
   for (const [platformId, repo] of Object.entries(REPOS)) {
     const files = listBoxarts(repo);
     // dédup par titre normalisé — garde le meilleur fichier (région préférée) et agrège les régions
-    const byNorm = new Map<string, { best: { raw: string; score: number }; title: string; regions: Set<string> }>();
+    const byNorm = new Map<string, { candidates: { raw: string; score: number }[]; title: string; bestScore: number; regions: Set<string> }>();
     for (const f of files) {
       const disp = displayTitle(f.base);
       const norm = normalizeTitle(disp);
@@ -134,11 +143,12 @@ async function main(): Promise<void> {
       const score = regionScore(f.raw);
       const existing = byNorm.get(norm);
       if (!existing) {
-        byNorm.set(norm, { best: { raw: f.raw, score }, title: disp, regions: new Set(regionsOf(f.raw)) });
+        byNorm.set(norm, { candidates: [{ raw: f.raw, score }], title: disp, bestScore: score, regions: new Set(regionsOf(f.raw)) });
       } else {
         for (const r of regionsOf(f.raw)) existing.regions.add(r);
-        if (score > existing.best.score) {
-          existing.best = { raw: f.raw, score };
+        existing.candidates.push({ raw: f.raw, score });
+        if (score > existing.bestScore) {
+          existing.bestScore = score;
           existing.title = disp;
         }
       }
@@ -150,18 +160,28 @@ async function main(): Promise<void> {
       let slug = norm.replace(/\s+/g, "-").slice(0, 80);
       while (seen.has(slug)) slug += "-x";
       seen.add(slug);
-      entries.push({ id: `${platformId}-${slug}`, t: v.title, n: norm, r: [...v.regions].sort(), img: false });
+      const q = QUALITY_MAP[platformId]?.[norm];
+      entries.push({ id: `${platformId}-${slug}`, t: v.title, n: norm, r: [...v.regions].sort(), img: false, ...(q ? { q } : {}) });
     }
     entries.sort((a, b) => a.t.localeCompare(b.t, "fr"));
 
-    // téléchargement de TOUTES les jaquettes (concurrence 12, reprise auto)
+    // téléchargement de TOUTES les jaquettes (concurrence 12, reprise auto).
+    // Certains fichiers libretro sont corrompus : on essaie chaque variante
+    // régionale (score décroissant) jusqu'à la première valide.
     let done = 0;
     let failed = 0;
-    const tasks = entries.map((e) => ({ e, raw: byNorm.get(e.n)!.best.raw }));
-    await pool(tasks, 12, async ({ e, raw }) => {
-      const ok = await downloadCover(repo, raw, platformId, e.id.slice(platformId.length + 1));
-      if (ok) e.img = true;
-      else failed++;
+    const tasks = entries.map((e) => ({
+      e,
+      raws: [...byNorm.get(e.n)!.candidates].sort((a, b) => b.score - a.score).map((c) => c.raw),
+    }));
+    await pool(tasks, 12, async ({ e, raws }) => {
+      for (const raw of raws) {
+        if (await downloadCover(repo, raw, platformId, e.id.slice(platformId.length + 1))) {
+          e.img = true;
+          break;
+        }
+      }
+      if (!e.img) failed++;
       done++;
       if (done % 500 === 0) console.error(`${platformId}: ${done}/${entries.length}…`);
     });

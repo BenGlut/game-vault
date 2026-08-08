@@ -14,6 +14,7 @@ import {
 } from "@/lib/data";
 import { PageTitle, StatusBadge, ReviewBadge, QualityBadge, PriorityBadge } from "@/components/ui";
 import { CheckCircleIcon, XIcon, PackageIcon, StarIcon } from "@/components/icons";
+import MiniEstimator from "@/components/MiniEstimator";
 
 export function generateStaticParams() {
   return getGames().map((g) => ({ id: g.id }));
@@ -165,7 +166,13 @@ export default async function GamePage({ params }: { params: Promise<{ id: strin
           ) : null}
           {(() => {
             const q = getQuotes()[game.id];
-            if (!q?.cib && !q?.loose) return null;
+            if (!q?.cib && !q?.loose)
+              return (
+                <p className="mt-5 text-xs text-muted">
+                  Pas encore de cote pour ce jeu —{" "}
+                  <code className="font-mono">pnpm vault add-price</code> pour en ajouter une.
+                </p>
+              );
             return (
               <div className="mt-5">
                 <h3 className="mb-2 text-sm font-semibold uppercase text-muted">
@@ -195,8 +202,14 @@ export default async function GamePage({ params }: { params: Promise<{ id: strin
                     </span>
                   </div>
                 ) : null}
-                <p className="text-xs text-muted">
-                  Verdict rapide sur la page <Link href="/estimateur/" className="text-accent underline">Estimateur</Link>.
+                <MiniEstimator quotes={q} />
+                <p className="mt-2 text-xs text-muted">
+                  Source : {(q.cib ?? q.loose)?.source} ({(q.cib ?? q.loose)?.observedAt}) — version
+                  complète sur la page{" "}
+                  <Link href="/estimateur/" className="text-accent underline">
+                    Estimateur
+                  </Link>
+                  .
                 </p>
               </div>
             );

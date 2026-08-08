@@ -1,4 +1,4 @@
-import { getGameRows } from "@/lib/data";
+import { getGameRows, getPlatforms } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import CollectionExplorer from "@/components/CollectionExplorer";
 
@@ -7,7 +7,7 @@ export default function CollectionPage() {
   return (
     <div>
       <PageTitle title="Collection" sub="Tous les jeux référencés, filtrables" />
-      <CollectionExplorer rows={rows} />
+      <CollectionExplorer rows={rows} allPlatforms={getPlatforms()} />
     </div>
   );
 }

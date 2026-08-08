@@ -2,6 +2,8 @@
 
 import { useMemo, useState, useEffect } from "react";
 import Link from "next/link";
+import { CONSOLE_ICONS } from "@/components/ConsoleIcons";
+import { GamepadIcon } from "@/components/icons";
 import type { Game, Platform } from "@/lib/schema";
 import type { PublicInventoryItem } from "@/lib/data";
 
@@ -45,7 +47,13 @@ function norm(s: string): string {
     .trim();
 }
 
-export default function CollectionExplorer({ rows }: { rows: Row[] }) {
+export default function CollectionExplorer({
+  rows,
+  allPlatforms = [],
+}: {
+  rows: Row[];
+  allPlatforms?: Platform[];
+}) {
   const [query, setQuery] = useState("");
   const [platform, setPlatform] = useState("");
   const [status, setStatus] = useState("");
@@ -54,21 +62,49 @@ export default function CollectionExplorer({ rows }: { rows: Row[] }) {
   const [region, setRegion] = useState("");
   const [quality, setQuality] = useState("");
 
-  // lit les filtres depuis l'URL (?plateforme=3ds&verif=needs_review)
+  // lit les filtres depuis l'URL au montage (retour arrière = sélections restaurées)
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const p = params.get("plateforme");
-    const v = params.get("verif");
-    const s = params.get("statut");
-    if (p) setPlatform(p);
-    if (v) setVerif(v);
-    if (s) setStatus(s);
+    const read = (key: string, set: (v: string) => void) => {
+      const v = params.get(key);
+      if (v) set(v);
+    };
+    read("q", setQuery);
+    read("plateforme", setPlatform);
+    read("statut", setStatus);
+    read("franchise", setFranchise);
+    read("region", setRegion);
+    read("verif", setVerif);
+    read("qualite", setQuality);
   }, []);
 
-  const platforms = useMemo(
-    () => [...new Set(rows.map((r) => r.game.platformId))].sort(),
-    [rows],
-  );
+  // reflète chaque sélection dans l'URL (deep-link + historique navigateur)
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (query) params.set("q", query);
+    if (platform) params.set("plateforme", platform);
+    if (status) params.set("statut", status);
+    if (franchise) params.set("franchise", franchise);
+    if (region) params.set("region", region);
+    if (verif) params.set("verif", verif);
+    if (quality) params.set("qualite", quality);
+    const qs = params.toString();
+    window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
+  }, [query, platform, status, franchise, region, verif, quality]);
+
+  // toutes les consoles, celles avec des jeux d'abord (les autres attendent leurs photos)
+  const platforms = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const r of rows) counts.set(r.game.platformId, (counts.get(r.game.platformId) ?? 0) + 1);
+    const all = allPlatforms.length
+      ? allPlatforms
+      : [...new Set(rows.map((r) => r.game.platformId))].map(
+          (id) => ({ id, shortName: id.toUpperCase(), name: id, brand: "", mediaTypes: [] }) as unknown as Platform,
+        );
+    return [...all]
+      .map((p) => ({ p, count: counts.get(p.id) ?? 0 }))
+      .sort((a, b) => b.count - a.count || a.p.shortName.localeCompare(b.p.shortName));
+  }, [rows, allPlatforms]);
   const franchises = useMemo(
     () => [...new Set(rows.map((r) => r.game.franchise).filter(Boolean) as string[])].sort(),
     [rows],
@@ -106,6 +142,44 @@ export default function CollectionExplorer({ rows }: { rows: Row[] }) {
 
   return (
     <div>
+      <div className="mb-3 flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={() => setPlatform("")}
+          aria-pressed={platform === ""}
+          className={`flex items-center gap-2 rounded-xl border px-4 py-2.5 text-sm transition ${
+            platform === ""
+              ? "border-accent bg-accent-soft text-accent"
+              : "border-border bg-surface text-muted hover:border-accent/40 hover:text-text"
+          }`}
+        >
+          Toutes
+        </button>
+        {platforms.map(({ p, count }) => {
+          const Icon = CONSOLE_ICONS[p.id];
+          const active = platform === p.id;
+          return (
+            <button
+              key={p.id}
+              type="button"
+              onClick={() => setPlatform(active ? "" : p.id)}
+              aria-pressed={active}
+              title={p.name}
+              className={`flex items-center gap-2 rounded-xl border px-3 py-2 text-sm transition ${
+                active
+                  ? "border-accent bg-accent-soft text-accent"
+                  : count
+                    ? "border-border bg-surface text-muted hover:border-accent/40 hover:text-text"
+                    : "border-border bg-surface text-muted opacity-50 hover:opacity-90"
+              }`}
+            >
+              {Icon ? <Icon size={26} /> : <GamepadIcon size={16} />}
+              {p.shortName}
+              {count ? <span className="font-mono text-xs text-accent">{count}</span> : null}
+            </button>
+          );
+        })}
+      </div>
       <div className="mb-4 flex flex-wrap gap-2">
         <input
           type="search"
@@ -114,14 +188,6 @@ export default function CollectionExplorer({ rows }: { rows: Row[] }) {
           onChange={(e) => setQuery(e.target.value)}
           className={`${select} w-full md:w-72`}
         />
-        <select value={platform} onChange={(e) => setPlatform(e.target.value)} className={select}>
-          <option value="">Toutes plateformes</option>
-          {platforms.map((p) => (
-            <option key={p} value={p}>
-              {p.toUpperCase()}
-            </option>
-          ))}
-        </select>
         <select value={status} onChange={(e) => setStatus(e.target.value)} className={select}>
           <option value="">Tous statuts</option>
           {statuses.map((s) => (
