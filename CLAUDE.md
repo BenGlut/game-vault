@@ -23,6 +23,12 @@ changelog). Commands and rules: `README.md`, `docs/data-model.md`, skills in
 No absolute paths in committed files. Sibling-repo location, credentials notes and
 per-machine detail live in `LOCAL.md`.
 
+**Cloud/mobile sessions (claude.ai/code):** there is no `LOCAL.md`. Before any
+`pnpm vault` command, clone the private data repo next to this one:
+`git clone https://github.com/benglut/game-vault-data ../game-vault-data`
+(the session's GitHub auth has access). Then follow the standard workflow —
+including the no-push-without-explicit-order rule.
+
 ## 3. Token & time efficiency
 
 - Search for the symbol, read only the needed range; never read a big file top-down.
