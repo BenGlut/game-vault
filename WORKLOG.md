@@ -53,6 +53,11 @@
   icône SVG Joy-Con, 30 incontournables notés — `scripts/catalog/fetch-switch.ts`
 - Badge Possédé/Wishlist du catalogue fiabilisé : matching 3 niveaux calculé au
   build (127 possédés + 39 wishlist détectés) — `src/lib/catalog-match.ts`
+- Audit photo complet de la collection physique (35 photos) : 94 jeux ajoutés
+  (5 DS/3DS, 4 GameCube, 11 SNES, 17 GB/GBC, 20 GBA, 35 Switch, 2 Xbox — bases
+  269 jeux / 273 lignes), 22 quantités corrigées (doublons ×2/×3 vérifiés),
+  2 wishlist→owned (New Super Mario Bros. DS, Poochy & Yoshi's Woolly World) ;
+  export public data/public régénéré
 
 ## Changed
 - Filtres persistés dans l'URL (Collection et Catalogue) : deep-link + retour

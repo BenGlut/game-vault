@@ -1,18 +1,25 @@
 {
-  "generatedAt": "2026-08-08T17:08:59.357Z",
-  "totalGames": 175,
-  "ownedItems": 130,
+  "generatedAt": "2026-08-08T20:27:57.757Z",
+  "totalGames": 269,
+  "ownedItems": 255,
   "byStatus": {
-    "owned": 130,
+    "owned": 255,
     "shipped": 6,
     "wishlist": 0
   },
   "byPlatform": {
+    "snes": 11,
     "n64": 10,
-    "gamecube": 10,
-    "ds": 71,
-    "3ds": 84
+    "gamecube": 14,
+    "switch": 35,
+    "gb": 5,
+    "gbc": 12,
+    "gba": 20,
+    "ds": 76,
+    "3ds": 84,
+    "xbox360": 1,
+    "xboxone": 1
   },
-  "needsReview": 136,
-  "estimateTotal": 3075
+  "needsReview": 114,
+  "estimateTotal": 3715
 }

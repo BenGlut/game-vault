@@ -288,5 +288,1065 @@
     "at": "2026-08-08T17:08:58.446Z",
     "command": "rate-batch",
     "message": "rate 2 games from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/repair-aliases2.json"
+  },
+  {
+    "at": "2026-08-08T20:21:34.143Z",
+    "command": "add-game",
+    "message": "add game Mario vs. Donkey Kong : Mini-Land Mayhem! (ds)"
+  },
+  {
+    "at": "2026-08-08T20:21:35.639Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_mario-vs-donkey-kong-mini-land-mayhem"
+  },
+  {
+    "at": "2026-08-08T20:21:37.202Z",
+    "command": "add-game",
+    "message": "add game The Legend of Spyro: Dawn of the Dragon (ds)"
+  },
+  {
+    "at": "2026-08-08T20:21:38.864Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_the-legend-of-spyro-dawn-of-the-dragon"
+  },
+  {
+    "at": "2026-08-08T20:21:40.440Z",
+    "command": "add-game",
+    "message": "add game High School Musical : Rêves de star ! (ds)"
+  },
+  {
+    "at": "2026-08-08T20:21:41.998Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_high-school-musical-reves-de-star"
+  },
+  {
+    "at": "2026-08-08T20:21:43.636Z",
+    "command": "add-game",
+    "message": "add game Cars 2 (ds)"
+  },
+  {
+    "at": "2026-08-08T20:21:45.198Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_cars-2"
+  },
+  {
+    "at": "2026-08-08T20:21:46.720Z",
+    "command": "add-game",
+    "message": "add game Dora & Friends : Pet Shelter (ds)"
+  },
+  {
+    "at": "2026-08-08T20:21:48.309Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_dora-friends-pet-shelter"
+  },
+  {
+    "at": "2026-08-08T20:21:49.838Z",
+    "command": "add-game",
+    "message": "add game GUN (gamecube)"
+  },
+  {
+    "at": "2026-08-08T20:21:51.347Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_gun"
+  },
+  {
+    "at": "2026-08-08T20:21:52.836Z",
+    "command": "add-game",
+    "message": "add game Bob l'éponge : Silence on tourne ! (gamecube)"
+  },
+  {
+    "at": "2026-08-08T20:21:54.337Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_bob-l-eponge-silence-on-tourne"
+  },
+  {
+    "at": "2026-08-08T20:21:55.804Z",
+    "command": "add-game",
+    "message": "add game Tiger Woods PGA Tour 06 (gamecube)"
+  },
+  {
+    "at": "2026-08-08T20:21:57.243Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_tiger-woods-pga-tour-06"
+  },
+  {
+    "at": "2026-08-08T20:21:58.763Z",
+    "command": "add-game",
+    "message": "add game GoldenEye : Au service du mal (gamecube)"
+  },
+  {
+    "at": "2026-08-08T20:22:00.214Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_goldeneye-au-service-du-mal"
+  },
+  {
+    "at": "2026-08-08T20:22:01.678Z",
+    "command": "add-game",
+    "message": "add game Super Mario Kart (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:03.121Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_super-mario-kart"
+  },
+  {
+    "at": "2026-08-08T20:22:04.646Z",
+    "command": "add-game",
+    "message": "add game Super Mario All-Stars (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:06.080Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_super-mario-all-stars"
+  },
+  {
+    "at": "2026-08-08T20:22:07.526Z",
+    "command": "add-game",
+    "message": "add game Wario's Woods (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:09.016Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_wario-s-woods"
+  },
+  {
+    "at": "2026-08-08T20:22:10.467Z",
+    "command": "add-game",
+    "message": "add game Unirally (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:11.922Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_unirally"
+  },
+  {
+    "at": "2026-08-08T20:22:13.425Z",
+    "command": "add-game",
+    "message": "add game Aladdin (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:14.852Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_aladdin"
+  },
+  {
+    "at": "2026-08-08T20:22:16.297Z",
+    "command": "add-game",
+    "message": "add game Street Fighter II Turbo (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:17.743Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_street-fighter-ii-turbo"
+  },
+  {
+    "at": "2026-08-08T20:22:19.251Z",
+    "command": "add-game",
+    "message": "add game Dragon Ball Z (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:20.840Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_dragon-ball-z"
+  },
+  {
+    "at": "2026-08-08T20:22:22.440Z",
+    "command": "add-game",
+    "message": "add game Dragon Ball Z : Ultime Menace (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:24.150Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_dragon-ball-z-ultime-menace"
+  },
+  {
+    "at": "2026-08-08T20:22:25.762Z",
+    "command": "add-game",
+    "message": "add game Super Soccer (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:27.298Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_super-soccer"
+  },
+  {
+    "at": "2026-08-08T20:22:29.056Z",
+    "command": "add-game",
+    "message": "add game Dino Dini's Soccer (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:31.007Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_dino-dini-s-soccer"
+  },
+  {
+    "at": "2026-08-08T20:22:32.851Z",
+    "command": "add-game",
+    "message": "add game Super Pinball: Behind the Mask (snes)"
+  },
+  {
+    "at": "2026-08-08T20:22:34.627Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_snes_super-pinball-behind-the-mask"
+  },
+  {
+    "at": "2026-08-08T20:22:36.349Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Rouge (gb)"
+  },
+  {
+    "at": "2026-08-08T20:22:37.982Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gb_pokemon-version-rouge"
+  },
+  {
+    "at": "2026-08-08T20:22:39.944Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Bleue (gb)"
+  },
+  {
+    "at": "2026-08-08T20:22:41.956Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gb_pokemon-version-bleue"
+  },
+  {
+    "at": "2026-08-08T20:22:43.703Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Jaune (gb)"
+  },
+  {
+    "at": "2026-08-08T20:22:45.249Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gb_pokemon-version-jaune"
+  },
+  {
+    "at": "2026-08-08T20:22:46.747Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Or (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:22:48.406Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_pokemon-version-or"
+  },
+  {
+    "at": "2026-08-08T20:22:49.968Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Argent (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:22:51.527Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_pokemon-version-argent"
+  },
+  {
+    "at": "2026-08-08T20:22:53.223Z",
+    "command": "add-game",
+    "message": "add game Donkey Kong Country (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:22:55.068Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_donkey-kong-country"
+  },
+  {
+    "at": "2026-08-08T20:22:56.956Z",
+    "command": "add-game",
+    "message": "add game Rayman (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:22:58.795Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_rayman"
+  },
+  {
+    "at": "2026-08-08T20:23:00.359Z",
+    "command": "add-game",
+    "message": "add game Aladdin (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:23:01.913Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_aladdin"
+  },
+  {
+    "at": "2026-08-08T20:23:03.541Z",
+    "command": "add-game",
+    "message": "add game Le Roi Lion : La Formidable Aventure de Simba (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:23:05.063Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_le-roi-lion-la-formidable-aventure-de-simba"
+  },
+  {
+    "at": "2026-08-08T20:23:06.579Z",
+    "command": "add-game",
+    "message": "add game Casper (gb)"
+  },
+  {
+    "at": "2026-08-08T20:23:08.055Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gb_casper"
+  },
+  {
+    "at": "2026-08-08T20:23:09.523Z",
+    "command": "add-game",
+    "message": "add game Astérix (gb)"
+  },
+  {
+    "at": "2026-08-08T20:23:10.927Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gb_asterix"
+  },
+  {
+    "at": "2026-08-08T20:23:12.400Z",
+    "command": "add-game",
+    "message": "add game Sabrina The Animated Series: Zapped! (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:23:13.827Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_sabrina-the-animated-series-zapped"
+  },
+  {
+    "at": "2026-08-08T20:23:15.330Z",
+    "command": "add-game",
+    "message": "add game The New Addams Family Series (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:23:16.783Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_the-new-addams-family-series"
+  },
+  {
+    "at": "2026-08-08T20:23:18.330Z",
+    "command": "add-game",
+    "message": "add game Shrek: Fairy Tale Freakdown (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:23:19.819Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_shrek-fairy-tale-freakdown"
+  },
+  {
+    "at": "2026-08-08T20:23:21.281Z",
+    "command": "add-game",
+    "message": "add game Yu-Gi-Oh! Dark Duel Stories (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:23:22.760Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_yu-gi-oh-dark-duel-stories"
+  },
+  {
+    "at": "2026-08-08T20:23:24.255Z",
+    "command": "add-game",
+    "message": "add game Lucky Luke (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:23:25.704Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_lucky-luke"
+  },
+  {
+    "at": "2026-08-08T20:23:27.220Z",
+    "command": "add-game",
+    "message": "add game Worms Armageddon (gbc)"
+  },
+  {
+    "at": "2026-08-08T20:23:28.703Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gbc_worms-armageddon"
+  },
+  {
+    "at": "2026-08-08T20:23:30.280Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Rubis (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:31.759Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_pokemon-version-rubis"
+  },
+  {
+    "at": "2026-08-08T20:23:33.381Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Saphir (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:34.903Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_pokemon-version-saphir"
+  },
+  {
+    "at": "2026-08-08T20:23:36.551Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Émeraude (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:38.075Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_pokemon-version-emeraude"
+  },
+  {
+    "at": "2026-08-08T20:23:39.669Z",
+    "command": "add-game",
+    "message": "add game Pokémon Version Vert Feuille (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:41.282Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_pokemon-version-vert-feuille"
+  },
+  {
+    "at": "2026-08-08T20:23:42.835Z",
+    "command": "add-game",
+    "message": "add game Super Mario World: Super Mario Advance 2 (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:44.466Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_super-mario-world-super-mario-advance-2"
+  },
+  {
+    "at": "2026-08-08T20:23:46.141Z",
+    "command": "add-game",
+    "message": "add game Super Mario Advance 4: Super Mario Bros. 3 (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:47.761Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_super-mario-advance-4-super-mario-bros-3"
+  },
+  {
+    "at": "2026-08-08T20:23:49.349Z",
+    "command": "add-game",
+    "message": "add game Final Fantasy Tactics Advance (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:50.833Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_final-fantasy-tactics-advance"
+  },
+  {
+    "at": "2026-08-08T20:23:52.302Z",
+    "command": "add-game",
+    "message": "add game Dragon Ball Z : L'Héritage de Goku (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:53.786Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_dragon-ball-z-l-heritage-de-goku"
+  },
+  {
+    "at": "2026-08-08T20:23:55.370Z",
+    "command": "add-game",
+    "message": "add game Rayman Advance (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:56.827Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_rayman-advance"
+  },
+  {
+    "at": "2026-08-08T20:23:58.298Z",
+    "command": "add-game",
+    "message": "add game Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique (gba)"
+  },
+  {
+    "at": "2026-08-08T20:23:59.771Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique"
+  },
+  {
+    "at": "2026-08-08T20:24:01.246Z",
+    "command": "add-game",
+    "message": "add game Tony Hawk's American Sk8land (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:02.817Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_tony-hawk-s-american-sk8land"
+  },
+  {
+    "at": "2026-08-08T20:24:04.455Z",
+    "command": "add-game",
+    "message": "add game Tekken Advance (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:06.011Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_tekken-advance"
+  },
+  {
+    "at": "2026-08-08T20:24:07.596Z",
+    "command": "add-game",
+    "message": "add game Mario Party Advance (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:09.142Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_mario-party-advance"
+  },
+  {
+    "at": "2026-08-08T20:24:10.617Z",
+    "command": "add-game",
+    "message": "add game Ice Age (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:12.245Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_ice-age"
+  },
+  {
+    "at": "2026-08-08T20:24:13.721Z",
+    "command": "add-game",
+    "message": "add game Action Man: Robot Atak (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:15.188Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_action-man-robot-atak"
+  },
+  {
+    "at": "2026-08-08T20:24:16.790Z",
+    "command": "add-game",
+    "message": "add game Majesco's Rec Room Challenge (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:18.351Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_majesco-s-rec-room-challenge"
+  },
+  {
+    "at": "2026-08-08T20:24:19.884Z",
+    "command": "add-game",
+    "message": "add game Mission: Impossible — Operation Surma (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:21.471Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_mission-impossible-operation-surma"
+  },
+  {
+    "at": "2026-08-08T20:24:23.086Z",
+    "command": "add-game",
+    "message": "add game Les Sims 2 (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:24.633Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_les-sims-2"
+  },
+  {
+    "at": "2026-08-08T20:24:26.368Z",
+    "command": "add-game",
+    "message": "add game Tang Tang (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:28.142Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_tang-tang"
+  },
+  {
+    "at": "2026-08-08T20:24:29.754Z",
+    "command": "add-game",
+    "message": "add game Spyro Adventure (gba)"
+  },
+  {
+    "at": "2026-08-08T20:24:31.305Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_spyro-adventure"
+  },
+  {
+    "at": "2026-08-08T20:24:32.843Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Tears of the Kingdom (switch)"
+  },
+  {
+    "at": "2026-08-08T20:24:34.328Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_the-legend-of-zelda-tears-of-the-kingdom"
+  },
+  {
+    "at": "2026-08-08T20:24:35.849Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Breath of the Wild (switch)"
+  },
+  {
+    "at": "2026-08-08T20:24:39.042Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_the-legend-of-zelda-breath-of-the-wild"
+  },
+  {
+    "at": "2026-08-08T20:24:41.600Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Link's Awakening (switch)"
+  },
+  {
+    "at": "2026-08-08T20:24:43.431Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_the-legend-of-zelda-link-s-awakening"
+  },
+  {
+    "at": "2026-08-08T20:24:45.186Z",
+    "command": "add-game",
+    "message": "add game Pokémon Épée (switch)"
+  },
+  {
+    "at": "2026-08-08T20:24:46.766Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-epee"
+  },
+  {
+    "at": "2026-08-08T20:24:48.414Z",
+    "command": "add-game",
+    "message": "add game Pokémon Bouclier (switch)"
+  },
+  {
+    "at": "2026-08-08T20:24:50.207Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-bouclier"
+  },
+  {
+    "at": "2026-08-08T20:24:51.750Z",
+    "command": "add-game",
+    "message": "add game Pokémon Écarlate (switch)"
+  },
+  {
+    "at": "2026-08-08T20:24:53.254Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-ecarlate"
+  },
+  {
+    "at": "2026-08-08T20:24:54.747Z",
+    "command": "add-game",
+    "message": "add game Pokémon Violet (switch)"
+  },
+  {
+    "at": "2026-08-08T20:24:56.349Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-violet"
+  },
+  {
+    "at": "2026-08-08T20:24:57.874Z",
+    "command": "add-game",
+    "message": "add game Pokémon Diamant Étincelant (switch)"
+  },
+  {
+    "at": "2026-08-08T20:24:59.505Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-diamant-etincelant"
+  },
+  {
+    "at": "2026-08-08T20:25:01.087Z",
+    "command": "add-game",
+    "message": "add game Pokémon Perle Scintillante (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:02.584Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-perle-scintillante"
+  },
+  {
+    "at": "2026-08-08T20:25:04.072Z",
+    "command": "add-game",
+    "message": "add game Pokémon : Let's Go, Pikachu (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:05.553Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-let-s-go-pikachu"
+  },
+  {
+    "at": "2026-08-08T20:25:07.098Z",
+    "command": "add-game",
+    "message": "add game Pokémon : Let's Go, Évoli (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:08.837Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-let-s-go-evoli"
+  },
+  {
+    "at": "2026-08-08T20:25:10.435Z",
+    "command": "add-game",
+    "message": "add game Légendes Pokémon : Arceus (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:12.040Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_legendes-pokemon-arceus"
+  },
+  {
+    "at": "2026-08-08T20:25:13.727Z",
+    "command": "add-game",
+    "message": "add game New Pokémon Snap (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:15.393Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_new-pokemon-snap"
+  },
+  {
+    "at": "2026-08-08T20:25:16.979Z",
+    "command": "add-game",
+    "message": "add game Pokkén Tournament DX (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:18.589Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokken-tournament-dx"
+  },
+  {
+    "at": "2026-08-08T20:25:20.193Z",
+    "command": "add-game",
+    "message": "add game Pokémon Donjon Mystère : Équipe de Secours DX (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:21.827Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pokemon-donjon-mystere-equipe-de-secours-dx"
+  },
+  {
+    "at": "2026-08-08T20:25:23.432Z",
+    "command": "add-game",
+    "message": "add game Super Mario 3D World + Bowser's Fury (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:25.216Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_super-mario-3d-world-bowser-s-fury"
+  },
+  {
+    "at": "2026-08-08T20:25:26.734Z",
+    "command": "add-game",
+    "message": "add game Mario Kart 8 Deluxe (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:28.270Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_mario-kart-8-deluxe"
+  },
+  {
+    "at": "2026-08-08T20:25:29.898Z",
+    "command": "add-game",
+    "message": "add game Super Smash Bros. Ultimate (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:31.513Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_super-smash-bros-ultimate"
+  },
+  {
+    "at": "2026-08-08T20:25:32.997Z",
+    "command": "add-game",
+    "message": "add game Mario Party Superstars (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:34.444Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_mario-party-superstars"
+  },
+  {
+    "at": "2026-08-08T20:25:36.099Z",
+    "command": "add-game",
+    "message": "add game Ring Fit Adventure (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:37.857Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_ring-fit-adventure"
+  },
+  {
+    "at": "2026-08-08T20:25:39.418Z",
+    "command": "add-game",
+    "message": "add game Deponia (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:41.067Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_deponia"
+  },
+  {
+    "at": "2026-08-08T20:25:42.745Z",
+    "command": "add-game",
+    "message": "add game Diablo III: Eternal Collection (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:44.362Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_diablo-iii-eternal-collection"
+  },
+  {
+    "at": "2026-08-08T20:25:46.166Z",
+    "command": "add-game",
+    "message": "add game Octopath Traveler II (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:47.820Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_octopath-traveler-ii"
+  },
+  {
+    "at": "2026-08-08T20:25:49.413Z",
+    "command": "add-game",
+    "message": "add game Collection of Mana (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:51.153Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_collection-of-mana"
+  },
+  {
+    "at": "2026-08-08T20:25:54.607Z",
+    "command": "add-game",
+    "message": "add game Legend of Mana (switch)"
+  },
+  {
+    "at": "2026-08-08T20:25:56.901Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_legend-of-mana"
+  },
+  {
+    "at": "2026-08-08T20:25:58.640Z",
+    "command": "add-game",
+    "message": "add game Ni no Kuni : La Vengeance de la Sorcière Céleste (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:00.313Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_ni-no-kuni-la-vengeance-de-la-sorciere-celeste"
+  },
+  {
+    "at": "2026-08-08T20:26:02.031Z",
+    "command": "add-game",
+    "message": "add game Teenage Mutant Ninja Turtles: Shredder's Revenge (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:03.693Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_teenage-mutant-ninja-turtles-shredder-s-revenge"
+  },
+  {
+    "at": "2026-08-08T20:26:05.414Z",
+    "command": "add-game",
+    "message": "add game Street Fighter 30th Anniversary Collection (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:07.289Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_street-fighter-30th-anniversary-collection"
+  },
+  {
+    "at": "2026-08-08T20:26:09.355Z",
+    "command": "add-game",
+    "message": "add game Klonoa Phantasy Reverie Series (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:11.480Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_klonoa-phantasy-reverie-series"
+  },
+  {
+    "at": "2026-08-08T20:26:13.331Z",
+    "command": "add-game",
+    "message": "add game Super Bomberman R (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:15.016Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_super-bomberman-r"
+  },
+  {
+    "at": "2026-08-08T20:26:16.757Z",
+    "command": "add-game",
+    "message": "add game Dragon Ball: The Breakers — Special Edition (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:18.494Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_dragon-ball-the-breakers-special-edition"
+  },
+  {
+    "at": "2026-08-08T20:26:20.114Z",
+    "command": "add-game",
+    "message": "add game Leisure Suit Larry: Wet Dreams Dry Twice (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:21.678Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_leisure-suit-larry-wet-dreams-dry-twice"
+  },
+  {
+    "at": "2026-08-08T20:26:23.269Z",
+    "command": "add-game",
+    "message": "add game Pat' Patrouille : À la rescousse d'Adventure City (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:24.916Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pat-patrouille-a-la-rescousse-d-adventure-city"
+  },
+  {
+    "at": "2026-08-08T20:26:26.546Z",
+    "command": "add-game",
+    "message": "add game Pat' Patrouille : Mighty Pups Sauve la Grande Vallée (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:28.092Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pat-patrouille-mighty-pups-sauve-la-grande-vallee"
+  },
+  {
+    "at": "2026-08-08T20:26:29.635Z",
+    "command": "add-game",
+    "message": "add game Pat' Patrouille en Mission ! (switch)"
+  },
+  {
+    "at": "2026-08-08T20:26:31.157Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_pat-patrouille-en-mission"
+  },
+  {
+    "at": "2026-08-08T20:26:32.629Z",
+    "command": "add-game",
+    "message": "add game Destiny (xboxone)"
+  },
+  {
+    "at": "2026-08-08T20:26:34.169Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_xboxone_destiny"
+  },
+  {
+    "at": "2026-08-08T20:26:35.732Z",
+    "command": "add-game",
+    "message": "add game Star Ocean: The Last Hope (xbox360)"
+  },
+  {
+    "at": "2026-08-08T20:26:37.267Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_xbox360_star-ocean-the-last-hope"
+  },
+  {
+    "at": "2026-08-08T20:26:38.752Z",
+    "command": "set-status",
+    "message": "set inv_3ds_luigi-s-mansion-2 -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:40.317Z",
+    "command": "set-status",
+    "message": "set inv_3ds_super-smash-bros-for-nintendo-3ds -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:41.921Z",
+    "command": "set-status",
+    "message": "set inv_3ds_mario-party-island-tour -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:43.657Z",
+    "command": "set-status",
+    "message": "set inv_3ds_mario-luigi-dream-team-bros -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:45.704Z",
+    "command": "set-status",
+    "message": "set inv_3ds_yoshi-s-new-island -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:47.366Z",
+    "command": "set-status",
+    "message": "set inv_3ds_pokemon-lune -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:49.143Z",
+    "command": "set-status",
+    "message": "set inv_ds_mario-vs-donkey-kong-2-la-marche-des-mini -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:51.077Z",
+    "command": "set-status",
+    "message": "set inv_ds_dragon-ball-z-supersonic-warriors-2 -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:52.930Z",
+    "command": "set-status",
+    "message": "set inv_ds_pokemon-ranger -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:54.589Z",
+    "command": "set-status",
+    "message": "set inv_ds_pokemon-link -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:56.230Z",
+    "command": "set-status",
+    "message": "set inv_ds_pokemon-version-noire -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:57.884Z",
+    "command": "set-status",
+    "message": "set inv_ds_totally-spies-2-undercover -> owned"
+  },
+  {
+    "at": "2026-08-08T20:26:59.429Z",
+    "command": "set-status",
+    "message": "set inv_ds_les-rebelles-de-la-foret -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:01.050Z",
+    "command": "set-status",
+    "message": "set inv_ds_asterix-obelix-xxl-2-mission-wifix -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:02.630Z",
+    "command": "set-status",
+    "message": "set inv_3ds_planes -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:04.122Z",
+    "command": "set-status",
+    "message": "set inv_3ds_pokemon-ultra-lune -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:05.641Z",
+    "command": "set-status",
+    "message": "set inv_3ds_pokemon-donjon-mystere-les-portes-de-l-infini -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:07.151Z",
+    "command": "set-status",
+    "message": "set inv_3ds_super-pokemon-rumble -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:08.676Z",
+    "command": "set-status",
+    "message": "set inv_3ds_captain-toad-treasure-tracker -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:10.261Z",
+    "command": "set-status",
+    "message": "set inv_3ds_rayman-les-lapins-cretins-pack-famille -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:11.813Z",
+    "command": "set-status",
+    "message": "set inv_3ds_nintendogs-cats -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:13.424Z",
+    "command": "set-status",
+    "message": "set inv_3ds_the-legend-of-zelda-ocarina-of-time-3d -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:15.052Z",
+    "command": "set-status",
+    "message": "set inv_ds_new-super-mario-bros -> owned"
+  },
+  {
+    "at": "2026-08-08T20:27:16.581Z",
+    "command": "set-status",
+    "message": "set inv_3ds_poochy-yoshi-s-woolly-world -> owned"
   }
 ]
