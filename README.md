@@ -1,5 +1,7 @@
 # 🕹 GameVault
 
+**Site : https://benglut.github.io/game-vault/**
+
 Gestionnaire personnel de collection de jeux vidéo multi-marques et multi-plateformes,
 piloté par un agent IA. Interface web **strictement en lecture seule** ; toutes les
 mutations passent par la CLI `pnpm vault`.
