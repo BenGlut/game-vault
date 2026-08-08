@@ -64,3 +64,5 @@
   vérifie désormais l'absence de formulaires et de contrôles d'édition
 
 ## Removed
+- (fix) La Collection n'affiche plus les jeux uniquement en wishlist — ils vivent
+  sur les pages Wishlist/Recommandations (`src/app/collection/page.tsx`)
