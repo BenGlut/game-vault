@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-08-08T00:31:24.019Z",
+  "totalGames": 130,
+  "ownedItems": 130,
+  "byStatus": {
+    "owned": 130
+  },
+  "byPlatform": {
+    "ds": 56,
+    "3ds": 74
+  },
+  "needsReview": 130,
+  "estimateTotal": 0
+}

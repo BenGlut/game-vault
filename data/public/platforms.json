@@ -1,0 +1,314 @@
+[
+  {
+    "id": "nes",
+    "name": "Nintendo Entertainment System",
+    "shortName": "NES",
+    "brand": "Nintendo",
+    "generation": 3,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "snes",
+    "name": "Super Nintendo",
+    "shortName": "SNES",
+    "brand": "Nintendo",
+    "generation": 4,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "n64",
+    "name": "Nintendo 64",
+    "shortName": "N64",
+    "brand": "Nintendo",
+    "generation": 5,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "gamecube",
+    "name": "Nintendo GameCube",
+    "shortName": "NGC",
+    "brand": "Nintendo",
+    "generation": 6,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "wii",
+    "name": "Nintendo Wii",
+    "shortName": "Wii",
+    "brand": "Nintendo",
+    "generation": 7,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "wiiu",
+    "name": "Nintendo Wii U",
+    "shortName": "Wii U",
+    "brand": "Nintendo",
+    "generation": 8,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "switch",
+    "name": "Nintendo Switch",
+    "shortName": "Switch",
+    "brand": "Nintendo",
+    "generation": 8,
+    "mediaTypes": [
+      "cartridge",
+      "code_in_box"
+    ]
+  },
+  {
+    "id": "gb",
+    "name": "Game Boy",
+    "shortName": "GB",
+    "brand": "Nintendo",
+    "generation": 4,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "gbc",
+    "name": "Game Boy Color",
+    "shortName": "GBC",
+    "brand": "Nintendo",
+    "generation": 5,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "gba",
+    "name": "Game Boy Advance",
+    "shortName": "GBA",
+    "brand": "Nintendo",
+    "generation": 6,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "ds",
+    "name": "Nintendo DS",
+    "shortName": "DS",
+    "brand": "Nintendo",
+    "generation": 7,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "3ds",
+    "name": "Nintendo 3DS",
+    "shortName": "3DS",
+    "brand": "Nintendo",
+    "generation": 8,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "ps1",
+    "name": "PlayStation",
+    "shortName": "PS1",
+    "brand": "Sony",
+    "generation": 5,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "ps2",
+    "name": "PlayStation 2",
+    "shortName": "PS2",
+    "brand": "Sony",
+    "generation": 6,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "ps3",
+    "name": "PlayStation 3",
+    "shortName": "PS3",
+    "brand": "Sony",
+    "generation": 7,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "ps4",
+    "name": "PlayStation 4",
+    "shortName": "PS4",
+    "brand": "Sony",
+    "generation": 8,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "ps5",
+    "name": "PlayStation 5",
+    "shortName": "PS5",
+    "brand": "Sony",
+    "generation": 9,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "psp",
+    "name": "PlayStation Portable",
+    "shortName": "PSP",
+    "brand": "Sony",
+    "generation": 7,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "psvita",
+    "name": "PlayStation Vita",
+    "shortName": "PS Vita",
+    "brand": "Sony",
+    "generation": 8,
+    "mediaTypes": [
+      "card"
+    ]
+  },
+  {
+    "id": "xbox",
+    "name": "Xbox",
+    "shortName": "Xbox",
+    "brand": "Microsoft",
+    "generation": 6,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "xbox360",
+    "name": "Xbox 360",
+    "shortName": "X360",
+    "brand": "Microsoft",
+    "generation": 7,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "xboxone",
+    "name": "Xbox One",
+    "shortName": "XONE",
+    "brand": "Microsoft",
+    "generation": 8,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "xboxseries",
+    "name": "Xbox Series X|S",
+    "shortName": "XSX",
+    "brand": "Microsoft",
+    "generation": 9,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "master-system",
+    "name": "Sega Master System",
+    "shortName": "SMS",
+    "brand": "Sega",
+    "generation": 3,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "megadrive",
+    "name": "Sega Mega Drive",
+    "shortName": "MD",
+    "brand": "Sega",
+    "generation": 4,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "Sega Saturn",
+    "shortName": "Saturn",
+    "brand": "Sega",
+    "generation": 5,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "dreamcast",
+    "name": "Sega Dreamcast",
+    "shortName": "DC",
+    "brand": "Sega",
+    "generation": 6,
+    "mediaTypes": [
+      "disc"
+    ]
+  },
+  {
+    "id": "game-gear",
+    "name": "Sega Game Gear",
+    "shortName": "GG",
+    "brand": "Sega",
+    "generation": 4,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "atari2600",
+    "name": "Atari 2600",
+    "shortName": "2600",
+    "brand": "Atari",
+    "generation": 2,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "neogeo",
+    "name": "Neo Geo AES",
+    "shortName": "AES",
+    "brand": "SNK",
+    "generation": 4,
+    "mediaTypes": [
+      "cartridge"
+    ]
+  },
+  {
+    "id": "pc",
+    "name": "PC",
+    "shortName": "PC",
+    "brand": "PC",
+    "mediaTypes": [
+      "disc",
+      "code_in_box",
+      "digital"
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+#!/bin/sh
+# Hook pre-commit GameVault — installé via : git config core.hooksPath .githooks
+set -e
+node scripts/check-drift.mjs

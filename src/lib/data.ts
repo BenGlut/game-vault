@@ -1,0 +1,166 @@
+import fs from "node:fs";
+import path from "node:path";
+import type { Game, Platform } from "./schema";
+
+/**
+ * Lecture (build-time) de l'export public filtré — data/public/.
+ * L'interface est strictement en lecture seule : aucune écriture ici.
+ */
+
+export interface PublicInventoryItem {
+  id: string;
+  gameId: string;
+  status: string;
+  quantity: number;
+  condition?: string;
+  completeness?: string;
+  purchasePrice: { amount: number; currency: string } | null;
+  currentEstimate: { low: number; median: number; high: number; currency: string; source: string; observedAt: string } | null;
+  verificationStatus: string;
+  quantityNeedsReview: boolean;
+  acquiredAt: string | null;
+  orderId: string | null;
+  updatedAt: string;
+}
+
+export interface PublicOrder {
+  id: string;
+  marketplace: string;
+  status: string;
+  itemCount: number;
+  gameIds: string[];
+  orderedAt: string;
+  shippedAt: string | null;
+  receivedAt: string | null;
+  cancelledAt: string | null;
+  refundedAt: string | null;
+  totalPaid: number | null;
+}
+
+export interface PublicStats {
+  generatedAt: string;
+  totalGames: number;
+  ownedItems: number;
+  byStatus: Record<string, number>;
+  byPlatform: Record<string, number>;
+  needsReview: number;
+  estimateTotal: number | null;
+}
+
+export interface ChangeLogPublicEntry {
+  at: string;
+  command: string;
+  message: string;
+}
+
+export interface SearchDoc {
+  id: string;
+  t: string;
+  n: string;
+  a: string[];
+  f: string | null;
+  p: string;
+}
+
+export interface GameRow {
+  game: Game;
+  items: PublicInventoryItem[];
+  platform: Platform | undefined;
+  coverUrl: string | null;
+}
+
+/** Préfixe de chemin (GitHub Pages sert le site sous /game-vault). */
+export const BASE_PATH = process.env.GITHUB_PAGES === "true" ? "/game-vault" : "";
+
+/** URL de la jaquette si elle existe dans public/covers/, sinon null. */
+export function coverUrl(gameId: string): string | null {
+  const file = path.join(process.cwd(), "public", "covers", `${gameId}.jpg`);
+  return fs.existsSync(file) ? `${BASE_PATH}/covers/${gameId}.jpg` : null;
+}
+
+const dataDir = path.join(process.cwd(), "data", "public");
+
+function readJson<T>(name: string): T {
+  return JSON.parse(fs.readFileSync(path.join(dataDir, name), "utf8")) as T;
+}
+
+export function getGames(): Game[] {
+  return readJson<Game[]>("games.json");
+}
+export function getInventory(): PublicInventoryItem[] {
+  return readJson<PublicInventoryItem[]>("inventory.json");
+}
+export function getOrders(): PublicOrder[] {
+  return readJson<PublicOrder[]>("orders.json");
+}
+export function getPlatforms(): Platform[] {
+  return readJson<Platform[]>("platforms.json");
+}
+export function getStats(): PublicStats {
+  return readJson<PublicStats>("stats.json");
+}
+export function getChangeLog(): ChangeLogPublicEntry[] {
+  return readJson<ChangeLogPublicEntry[]>("change-log.json");
+}
+export function getSearchIndex(): SearchDoc[] {
+  return readJson<SearchDoc[]>("search-index.json");
+}
+
+export function getGameRows(): GameRow[] {
+  const games = getGames();
+  const inventory = getInventory();
+  const platforms = getPlatforms();
+  const byGame = new Map<string, PublicInventoryItem[]>();
+  for (const i of inventory) {
+    const arr = byGame.get(i.gameId) ?? [];
+    arr.push(i);
+    byGame.set(i.gameId, arr);
+  }
+  return games
+    .map((game) => ({
+      game,
+      items: byGame.get(game.id) ?? [],
+      platform: platforms.find((p) => p.id === game.platformId),
+      coverUrl: coverUrl(game.id),
+    }))
+    .sort((a, b) => a.game.canonicalTitle.localeCompare(b.game.canonicalTitle, "fr"));
+}
+
+export const POSSESSION = ["owned", "received", "duplicate"];
+
+export const STATUS_LABELS: Record<string, string> = {
+  owned: "Possédé",
+  ordered: "Commandé",
+  shipped: "Expédié",
+  received: "Reçu",
+  wishlist: "Wishlist",
+  duplicate: "Doublon",
+  sold: "Vendu",
+  cancelled: "Annulé",
+  refunded: "Remboursé",
+};
+
+export const CONDITION_LABELS: Record<string, string> = {
+  new: "Neuf",
+  like_new: "Comme neuf",
+  very_good: "Très bon",
+  good: "Bon",
+  acceptable: "Acceptable",
+  poor: "Abîmé",
+  unknown: "Non renseigné",
+};
+
+export const COMPLETENESS_LABELS: Record<string, string> = {
+  CIB: "Complet (CIB)",
+  loose: "Loose",
+  no_manual: "Sans notice",
+  box_only: "Boîte seule",
+  sealed: "Sous blister",
+  code_in_box: "Code in box",
+  unknown: "Non renseigné",
+};
+
+export function euro(n: number | null | undefined): string {
+  if (n === null || n === undefined) return "—";
+  return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(n);
+}

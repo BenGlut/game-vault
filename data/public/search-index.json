@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "game_3ds_animal-crossing-new-leaf-welcome-amiibo",
+    "t": "Animal Crossing: New Leaf - Welcome amiibo",
+    "n": "animal crossing new leaf welcome amiibo",
+    "a": [],
+    "f": "Animal Crossing",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_captain-toad-treasure-tracker",
+    "t": "Captain Toad: Treasure Tracker",
+    "n": "captain toad treasure tracker",
+    "a": [],
+    "f": "Super Mario",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_cars-2",
+    "t": "Cars 2",
+    "n": "cars 2",
+    "a": [],
+    "f": "Cars",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_detective-pikachu",
+    "t": "Détective Pikachu",
+    "n": "detective pikachu",
+    "a": [
+      "Detective Pikachu"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_disney-magical-world-2",
+    "t": "Disney Magical World 2",
+    "n": "disney magical world 2",
+    "a": [],
+    "f": "Disney",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_donkey-kong-country-returns-3d",
+    "t": "Donkey Kong Country Returns 3D",
+    "n": "donkey kong country returns 3d",
+    "a": [],
+    "f": "Donkey Kong",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_dragon-ball-fusions",
+    "t": "Dragon Ball Fusions",
+    "n": "dragon ball fusions",
+    "a": [],
+    "f": "Dragon Ball",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_dragon-ball-z-extreme-butoden",
+    "t": "Dragon Ball Z: Extreme Butoden",
+    "n": "dragon ball z extreme butoden",
+    "a": [],
+    "f": "Dragon Ball",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_dragon-quest-vii-la-quete-des-vestiges-du-monde",
+    "t": "Dragon Quest VII : La Quête des vestiges du monde",
+    "n": "dragon quest vii la quete des vestiges du monde",
+    "a": [
+      "Dragon Quest VII: Fragments of the Forgotten Past",
+      "DQ VII",
+      "DQ7"
+    ],
+    "f": "Dragon Quest",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_dragons-2",
+    "t": "Dragons 2",
+    "n": "dragons 2",
+    "a": [
+      "How to Train Your Dragon 2"
+    ],
+    "f": "Dragons",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_ever-oasis",
+    "t": "Ever Oasis",
+    "n": "ever oasis",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_farming-simulator-18",
+    "t": "Farming Simulator 18",
+    "n": "farming simulator 18",
+    "a": [],
+    "f": "Farming Simulator",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_fire-emblem-echoes-shadows-of-valentia",
+    "t": "Fire Emblem Echoes: Shadows of Valentia",
+    "n": "fire emblem echoes shadows of valentia",
+    "a": [],
+    "f": "Fire Emblem",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_fire-emblem-fates-conquete",
+    "t": "Fire Emblem Fates: Conquête",
+    "n": "fire emblem fates conquete",
+    "a": [
+      "Fire Emblem Fates: Conquest"
+    ],
+    "f": "Fire Emblem",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_fire-emblem-warriors",
+    "t": "Fire Emblem Warriors",
+    "n": "fire emblem warriors",
+    "a": [],
+    "f": "Fire Emblem",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_fossil-fighters-frontier",
+    "t": "Fossil Fighters: Frontier",
+    "n": "fossil fighters frontier",
+    "a": [],
+    "f": "Fossil Fighters",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_kirby-battle-royale",
+    "t": "Kirby Battle Royale",
+    "n": "kirby battle royale",
+    "a": [],
+    "f": "Kirby",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_kirby-planet-robobot",
+    "t": "Kirby Planet Robobot",
+    "n": "kirby planet robobot",
+    "a": [],
+    "f": "Kirby",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_kirby-triple-deluxe",
+    "t": "Kirby Triple Deluxe",
+    "n": "kirby triple deluxe",
+    "a": [],
+    "f": "Kirby",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lbx-little-battlers-experience",
+    "t": "LBX: Little Battlers eXperience",
+    "n": "lbx little battlers experience",
+    "a": [
+      "Little Battlers Experience",
+      "Danball Senki"
+    ],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-batman-3-au-dela-de-gotham",
+    "t": "LEGO Batman 3 : Au-delà de Gotham",
+    "n": "lego batman 3 au dela de gotham",
+    "a": [
+      "LEGO Batman 3: Beyond Gotham"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-city-undercover-the-chase-begins",
+    "t": "LEGO City Undercover: The Chase Begins",
+    "n": "lego city undercover the chase begins",
+    "a": [],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-chima-le-voyage-de-laval",
+    "t": "LEGO Chima : Le Voyage de Laval",
+    "n": "lego chima le voyage de laval",
+    "a": [
+      "LEGO Legends of Chima: Laval's Journey"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-le-hobbit",
+    "t": "LEGO Le Hobbit",
+    "n": "lego le hobbit",
+    "a": [
+      "LEGO The Hobbit"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-le-seigneur-des-anneaux",
+    "t": "LEGO Le Seigneur des Anneaux",
+    "n": "lego le seigneur des anneaux",
+    "a": [
+      "LEGO The Lord of the Rings"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-marvel-super-heroes-l-univers-en-peril",
+    "t": "LEGO Marvel Super Heroes : L'Univers en péril",
+    "n": "lego marvel super heroes l univers en peril",
+    "a": [
+      "LEGO Marvel Super Heroes: Universe in Peril"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-ninjago-l-ombre-de-ronin",
+    "t": "LEGO Ninjago : L'Ombre de Ronin",
+    "n": "lego ninjago l ombre de ronin",
+    "a": [
+      "LEGO Ninjago: Shadow of Ronin"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-ninjago-nindroids",
+    "t": "LEGO Ninjago : Nindroids",
+    "n": "lego ninjago nindroids",
+    "a": [
+      "LEGO Ninjago: Nindroids"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-star-wars-iii",
+    "t": "LEGO Star Wars III",
+    "n": "lego star wars iii",
+    "a": [
+      "LEGO Star Wars III: The Clone Wars"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-star-wars-le-reveil-de-la-force",
+    "t": "LEGO Star Wars : Le Réveil de la Force",
+    "n": "lego star wars le reveil de la force",
+    "a": [
+      "LEGO Star Wars: The Force Awakens"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_la-grande-aventure-lego-le-jeu-video",
+    "t": "La Grande Aventure LEGO : Le Jeu Vidéo",
+    "n": "la grande aventure lego le jeu video",
+    "a": [
+      "The LEGO Movie Videogame"
+    ],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_luigi-s-mansion",
+    "t": "Luigi's Mansion",
+    "n": "luigi s mansion",
+    "a": [],
+    "f": "Luigi's Mansion",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_luigi-s-mansion-2",
+    "t": "Luigi's Mansion 2",
+    "n": "luigi s mansion 2",
+    "a": [
+      "Luigi's Mansion: Dark Moon"
+    ],
+    "f": "Luigi's Mansion",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_mario-luigi-dream-team-bros",
+    "t": "Mario & Luigi: Dream Team Bros.",
+    "n": "mario luigi dream team bros",
+    "a": [
+      "Mario & Luigi: Dream Team"
+    ],
+    "f": "Mario & Luigi",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_mario-luigi-paper-jam-bros",
+    "t": "Mario & Luigi: Paper Jam Bros.",
+    "n": "mario luigi paper jam bros",
+    "a": [
+      "Mario & Luigi: Paper Jam"
+    ],
+    "f": "Mario & Luigi",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_mario-luigi-superstar-saga-les-sbires-de-bowser",
+    "t": "Mario & Luigi: Superstar Saga + Les Sbires de Bowser",
+    "n": "mario luigi superstar saga les sbires de bowser",
+    "a": [
+      "Mario & Luigi: Superstar Saga + Bowser's Minions"
+    ],
+    "f": "Mario & Luigi",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_mario-kart-7",
+    "t": "Mario Kart 7",
+    "n": "mario kart 7",
+    "a": [],
+    "f": "Mario Kart",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_mario-party-island-tour",
+    "t": "Mario Party: Island Tour",
+    "n": "mario party island tour",
+    "a": [],
+    "f": "Mario Party",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_mario-party-star-rush",
+    "t": "Mario Party: Star Rush",
+    "n": "mario party star rush",
+    "a": [],
+    "f": "Mario Party",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
+    "t": "Mario & Sonic aux Jeux Olympiques de Londres 2012",
+    "n": "mario sonic aux jeux olympiques de londres 2012",
+    "a": [
+      "Mario & Sonic at the London 2012 Olympic Games"
+    ],
+    "f": "Mario & Sonic",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_mario-tennis-open",
+    "t": "Mario Tennis Open",
+    "n": "mario tennis open",
+    "a": [],
+    "f": "Mario Tennis",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_miitopia",
+    "t": "Miitopia",
+    "n": "miitopia",
+    "a": [],
+    "f": "Mii",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_monster-hunter-3-ultimate",
+    "t": "Monster Hunter 3 Ultimate",
+    "n": "monster hunter 3 ultimate",
+    "a": [],
+    "f": "Monster Hunter",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_monster-hunter-generations",
+    "t": "Monster Hunter Generations",
+    "n": "monster hunter generations",
+    "a": [],
+    "f": "Monster Hunter",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_new-super-mario-bros-2",
+    "t": "New Super Mario Bros. 2",
+    "n": "new super mario bros 2",
+    "a": [],
+    "f": "Super Mario",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_nintendogs-cats",
+    "t": "Nintendogs + Cats",
+    "n": "nintendogs cats",
+    "a": [],
+    "f": "Nintendogs",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_paper-mario-sticker-star",
+    "t": "Paper Mario: Sticker Star",
+    "n": "paper mario sticker star",
+    "a": [],
+    "f": "Paper Mario",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_planes",
+    "t": "Planes",
+    "n": "planes",
+    "a": [],
+    "f": "Disney",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-donjon-mystere-les-portes-de-l-infini",
+    "t": "Pokémon Donjon Mystère : Les Portes de l'Infini",
+    "n": "pokemon donjon mystere les portes de l infini",
+    "a": [
+      "Pokémon Mystery Dungeon: Gates to Infinity"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-mega-donjon-mystere",
+    "t": "Pokémon Méga Donjon Mystère",
+    "n": "pokemon mega donjon mystere",
+    "a": [
+      "Pokémon Super Mystery Dungeon"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-rumble-world",
+    "t": "Pokémon Rumble World",
+    "n": "pokemon rumble world",
+    "a": [],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-rubis-omega",
+    "t": "Pokémon Rubis Oméga",
+    "n": "pokemon rubis omega",
+    "a": [
+      "Pokémon Omega Ruby"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-saphir-alpha",
+    "t": "Pokémon Saphir Alpha",
+    "n": "pokemon saphir alpha",
+    "a": [
+      "Pokémon Alpha Sapphire"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-soleil",
+    "t": "Pokémon Soleil",
+    "n": "pokemon soleil",
+    "a": [
+      "Pokémon Sun"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-ultra-soleil",
+    "t": "Pokémon Ultra-Soleil",
+    "n": "pokemon ultra soleil",
+    "a": [
+      "Pokémon Ultra Sun"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-lune",
+    "t": "Pokémon Lune",
+    "n": "pokemon lune",
+    "a": [
+      "Pokémon Moon"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-ultra-lune",
+    "t": "Pokémon Ultra-Lune",
+    "n": "pokemon ultra lune",
+    "a": [
+      "Pokémon Ultra Moon"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-x",
+    "t": "Pokémon X",
+    "n": "pokemon x",
+    "a": [],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_pokemon-y",
+    "t": "Pokémon Y",
+    "n": "pokemon y",
+    "a": [],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_super-pokemon-rumble",
+    "t": "Super Pokémon Rumble",
+    "n": "super pokemon rumble",
+    "a": [
+      "Pokémon Rumble Blast"
+    ],
+    "f": "Pokémon",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_rayman-les-lapins-cretins-pack-famille",
+    "t": "Rayman + Les Lapins Crétins : Pack Famille",
+    "n": "rayman les lapins cretins pack famille",
+    "a": [
+      "Rayman and Rabbids Family Pack"
+    ],
+    "f": "Rayman",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_sonic-boom-le-cristal-brise",
+    "t": "Sonic Boom : Le Cristal Brisé",
+    "n": "sonic boom le cristal brise",
+    "a": [
+      "Sonic Boom: Shattered Crystal"
+    ],
+    "f": "Sonic",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_star-fox-64-3d",
+    "t": "Star Fox 64 3D",
+    "n": "star fox 64 3d",
+    "a": [
+      "Lylat Wars"
+    ],
+    "f": "Star Fox",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_super-mario-3d-land",
+    "t": "Super Mario 3D Land",
+    "n": "super mario 3d land",
+    "a": [],
+    "f": "Super Mario",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_super-mario-maker-for-nintendo-3ds",
+    "t": "Super Mario Maker for Nintendo 3DS",
+    "n": "super mario maker for nintendo 3ds",
+    "a": [
+      "Mario Maker"
+    ],
+    "f": "Super Mario",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_super-smash-bros-for-nintendo-3ds",
+    "t": "Super Smash Bros. for Nintendo 3DS",
+    "n": "super smash bros for nintendo 3ds",
+    "a": [
+      "Smash 3DS"
+    ],
+    "f": "Super Smash Bros.",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_the-legend-of-zelda-a-link-between-worlds",
+    "t": "The Legend of Zelda: A Link Between Worlds",
+    "n": "the legend of zelda a link between worlds",
+    "a": [
+      "Zelda ALBW"
+    ],
+    "f": "The Legend of Zelda",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_the-legend-of-zelda-ocarina-of-time-3d",
+    "t": "The Legend of Zelda: Ocarina of Time 3D",
+    "n": "the legend of zelda ocarina of time 3d",
+    "a": [
+      "Zelda OoT 3D"
+    ],
+    "f": "The Legend of Zelda",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_the-legend-of-zelda-tri-force-heroes",
+    "t": "The Legend of Zelda: Tri Force Heroes",
+    "n": "the legend of zelda tri force heroes",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_wrc",
+    "t": "WRC",
+    "n": "wrc",
+    "a": [
+      "WRC: FIA World Rally Championship"
+    ],
+    "f": "WRC",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_yo-kai-watch-2-esprits-farceurs",
+    "t": "Yo-kai Watch 2 : Esprits Farceurs",
+    "n": "yo kai watch 2 esprits farceurs",
+    "a": [
+      "Yo-kai Watch 2: Bony Spirits"
+    ],
+    "f": "Yo-kai Watch",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_yo-kai-watch-2-fantomes-bouffis",
+    "t": "Yo-kai Watch 2 : Fantômes Bouffis",
+    "n": "yo kai watch 2 fantomes bouffis",
+    "a": [
+      "Yo-kai Watch 2: Fleshy Souls"
+    ],
+    "f": "Yo-kai Watch",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_yo-kai-watch-blasters-l-escadron-du-chien-blanc",
+    "t": "Yo-kai Watch Blasters : L'Escadron du Chien Blanc",
+    "n": "yo kai watch blasters l escadron du chien blanc",
+    "a": [
+      "Yo-kai Watch Blasters: White Dog Squad"
+    ],
+    "f": "Yo-kai Watch",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_yoshi-s-new-island",
+    "t": "Yoshi's New Island",
+    "n": "yoshi s new island",
+    "a": [],
+    "f": "Yoshi",
+    "p": "3ds"
+  },
+  {
+    "id": "game_ds_arthur-et-les-minimoys",
+    "t": "Arthur et les Minimoys",
+    "n": "arthur et les minimoys",
+    "a": [
+      "Arthur and the Invisibles"
+    ],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_asterix-obelix-xxl-2-mission-wifix",
+    "t": "Astérix & Obélix XXL 2 : Mission Wifix",
+    "n": "asterix obelix xxl 2 mission wifix",
+    "a": [
+      "Asterix & Obelix XXL 2: Mission Wifix"
+    ],
+    "f": "Astérix",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_bien-etre-du-visage",
+    "t": "Bien-être du visage",
+    "n": "bien etre du visage",
+    "a": [
+      "Face Training"
+    ],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_bratz-forever-diamondz",
+    "t": "Bratz: Forever Diamondz",
+    "n": "bratz forever diamondz",
+    "a": [],
+    "f": "Bratz",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_cars",
+    "t": "Cars",
+    "n": "cars",
+    "a": [],
+    "f": "Cars",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_cars-race-o-rama",
+    "t": "Cars Race-O-Rama",
+    "n": "cars race o rama",
+    "a": [],
+    "f": "Cars",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_children-of-mana",
+    "t": "Children of Mana",
+    "n": "children of mana",
+    "a": [
+      "Seiken Densetsu DS"
+    ],
+    "f": "Mana",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_clochette-et-la-pierre-de-lune",
+    "t": "Clochette et la Pierre de Lune",
+    "n": "clochette et la pierre de lune",
+    "a": [
+      "Tinker Bell and the Lost Treasure"
+    ],
+    "f": "Disney Fairies",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_clochette-et-l-expedition-feerique",
+    "t": "Clochette et l'Expédition Féerique",
+    "n": "clochette et l expedition feerique",
+    "a": [
+      "Tinker Bell and the Great Fairy Rescue"
+    ],
+    "f": "Disney Fairies",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_dance-floor",
+    "t": "Dance Floor",
+    "n": "dance floor",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_dora-cuisine",
+    "t": "Dora Cuisine",
+    "n": "dora cuisine",
+    "a": [
+      "Dora's Cooking Club"
+    ],
+    "f": "Dora l'exploratrice",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_dora-et-sauvons-les-animaux",
+    "t": "Dora et Sauvons les animaux",
+    "n": "dora et sauvons les animaux",
+    "a": [
+      "Dora Saves the Snow Princess"
+    ],
+    "f": "Dora l'exploratrice",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_dragon-ball-z-supersonic-warriors-2",
+    "t": "Dragon Ball Z: Supersonic Warriors 2",
+    "n": "dragon ball z supersonic warriors 2",
+    "a": [],
+    "f": "Dragon Ball",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_final-fantasy-iii",
+    "t": "Final Fantasy III",
+    "n": "final fantasy iii",
+    "a": [
+      "FF3",
+      "FFIII"
+    ],
+    "f": "Final Fantasy",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_final-fantasy-crystal-chronicles-echoes-of-time",
+    "t": "Final Fantasy Crystal Chronicles: Echoes of Time",
+    "n": "final fantasy crystal chronicles echoes of time",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_final-fantasy-tactics-a2",
+    "t": "Final Fantasy Tactics A2",
+    "n": "final fantasy tactics a2",
+    "a": [
+      "Final Fantasy Tactics A2: Grimoire of the Rift"
+    ],
+    "f": "Final Fantasy",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_fort-boyard",
+    "t": "Fort Boyard",
+    "n": "fort boyard",
+    "a": [],
+    "f": "Fort Boyard",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_goldeneye-007",
+    "t": "GoldenEye 007",
+    "n": "goldeneye 007",
+    "a": [],
+    "f": "James Bond",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_high-school-musical-3",
+    "t": "High School Musical 3",
+    "n": "high school musical 3",
+    "a": [
+      "High School Musical 3: Senior Year"
+    ],
+    "f": "High School Musical",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_lego-batman-2-dc-super-heroes",
+    "t": "LEGO Batman 2 : DC Super Heroes",
+    "n": "lego batman 2 dc super heroes",
+    "a": [
+      "LEGO Batman 2: DC Super Heroes"
+    ],
+    "f": "LEGO",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_lego-harry-potter-annees-1-4",
+    "t": "LEGO Harry Potter : Années 1-4",
+    "n": "lego harry potter annees 1 4",
+    "a": [
+      "LEGO Harry Potter: Years 1-4"
+    ],
+    "f": "LEGO",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_lecons-de-cuisine",
+    "t": "Leçons de cuisine",
+    "n": "lecons de cuisine",
+    "a": [
+      "Cooking Guide: Can't Decide What to Eat?"
+    ],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_les-chevaliers-de-baphomet-director-s-cut",
+    "t": "Les Chevaliers de Baphomet: Director's Cut",
+    "n": "les chevaliers de baphomet director s cut",
+    "a": [
+      "Broken Sword: Shadow of the Templars - Director's Cut"
+    ],
+    "f": "Les Chevaliers de Baphomet",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_les-rebelles-de-la-foret",
+    "t": "Les Rebelles de la Forêt",
+    "n": "les rebelles de la foret",
+    "a": [
+      "Open Season"
+    ],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_ma-pause-yoga",
+    "t": "Ma Pause Yoga",
+    "n": "ma pause yoga",
+    "a": [
+      "Let's Yoga"
+    ],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_mario-luigi-voyage-au-centre-de-bowser",
+    "t": "Mario & Luigi : Voyage au centre de Bowser",
+    "n": "mario luigi voyage au centre de bowser",
+    "a": [
+      "Mario & Luigi: Bowser's Inside Story"
+    ],
+    "f": "Mario & Luigi",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_mario-vs-donkey-kong-2-la-marche-des-mini",
+    "t": "Mario vs. Donkey Kong 2 : La Marche des Mini",
+    "n": "mario vs donkey kong 2 la marche des mini",
+    "a": [
+      "Mario vs. Donkey Kong 2: March of the Minis"
+    ],
+    "f": "Mario vs. Donkey Kong",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_mission-safari",
+    "t": "Mission Safari",
+    "n": "mission safari",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_nancy-drew-the-deadly-secret-of-olde-world-park",
+    "t": "Nancy Drew: The Deadly Secret of Olde World Park",
+    "n": "nancy drew the deadly secret of olde world park",
+    "a": [],
+    "f": "Nancy Drew",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_plus-belle-la-vie-le-secret-du-dr-livia",
+    "t": "Plus Belle la Vie : Le Secret du Dr Livia",
+    "n": "plus belle la vie le secret du dr livia",
+    "a": [],
+    "f": "Plus Belle la Vie",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-version-argent-soulsilver",
+    "t": "Pokémon Version Argent SoulSilver",
+    "n": "pokemon version argent soulsilver",
+    "a": [
+      "Pokémon SoulSilver Version",
+      "Pokémon SoulSilver"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-version-blanche",
+    "t": "Pokémon Version Blanche",
+    "n": "pokemon version blanche",
+    "a": [
+      "Pokémon White Version",
+      "Pokémon White"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-version-diamant",
+    "t": "Pokémon Version Diamant",
+    "n": "pokemon version diamant",
+    "a": [
+      "Pokémon Diamond Version",
+      "Pokémon Diamond"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-version-noire",
+    "t": "Pokémon Version Noire",
+    "n": "pokemon version noire",
+    "a": [
+      "Pokémon Black Version",
+      "Pokémon Black"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-version-noire-2",
+    "t": "Pokémon Version Noire 2",
+    "n": "pokemon version noire 2",
+    "a": [
+      "Pokémon Black Version 2",
+      "Pokémon Black 2"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-version-or-heartgold",
+    "t": "Pokémon Version Or HeartGold",
+    "n": "pokemon version or heartgold",
+    "a": [
+      "Pokémon HeartGold Version",
+      "Pokémon HeartGold"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-version-perle",
+    "t": "Pokémon Version Perle",
+    "n": "pokemon version perle",
+    "a": [
+      "Pokémon Pearl Version",
+      "Pokémon Pearl"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-version-platine",
+    "t": "Pokémon Version Platine",
+    "n": "pokemon version platine",
+    "a": [
+      "Pokémon Platinum Version",
+      "Pokémon Platinum"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-donjon-mystere-equipe-de-secours-bleue",
+    "t": "Pokémon Donjon Mystère : Équipe de Secours Bleue",
+    "n": "pokemon donjon mystere equipe de secours bleue",
+    "a": [
+      "Pokémon Mystery Dungeon: Blue Rescue Team"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-donjon-mystere-explorateurs-de-l-ombre",
+    "t": "Pokémon Donjon Mystère : Explorateurs de l'Ombre",
+    "n": "pokemon donjon mystere explorateurs de l ombre",
+    "a": [
+      "Pokémon Mystery Dungeon: Explorers of Darkness"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-donjon-mystere-explorateurs-du-temps",
+    "t": "Pokémon Donjon Mystère : Explorateurs du Temps",
+    "n": "pokemon donjon mystere explorateurs du temps",
+    "a": [
+      "Pokémon Mystery Dungeon: Explorers of Time"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-link",
+    "t": "Pokémon Link!",
+    "n": "pokemon link",
+    "a": [
+      "Pokémon Trozei!"
+    ],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_pokemon-ranger",
+    "t": "Pokémon Ranger",
+    "n": "pokemon ranger",
+    "a": [],
+    "f": "Pokémon",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_populous-ds",
+    "t": "Populous DS",
+    "n": "populous ds",
+    "a": [],
+    "f": "Populous",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_programme-d-entrainement-cerebral",
+    "t": "Programme d'entraînement cérébral",
+    "n": "programme d entrainement cerebral",
+    "a": [
+      "Dr Kawashima's Brain Training",
+      "Brain Age"
+    ],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_professeur-layton-et-l-etrange-village",
+    "t": "Professeur Layton et l'Étrange Village",
+    "n": "professeur layton et l etrange village",
+    "a": [
+      "Professor Layton and the Curious Village"
+    ],
+    "f": "Professeur Layton",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_runaway-a-twist-of-fate",
+    "t": "Runaway: A Twist of Fate",
+    "n": "runaway a twist of fate",
+    "a": [],
+    "f": "Runaway",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_runaway-the-dream-of-the-turtle",
+    "t": "Runaway: The Dream of the Turtle",
+    "n": "runaway the dream of the turtle",
+    "a": [],
+    "f": "Runaway",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_simcity-ds",
+    "t": "SimCity DS",
+    "n": "simcity ds",
+    "a": [],
+    "f": "SimCity",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_sonic-chronicles-la-confrerie-des-tenebres",
+    "t": "Sonic Chronicles : La Confrérie des Ténèbres",
+    "n": "sonic chronicles la confrerie des tenebres",
+    "a": [
+      "Sonic Chronicles: The Dark Brotherhood"
+    ],
+    "f": "Sonic",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_spyro-shadow-legacy",
+    "t": "Spyro: Shadow Legacy",
+    "n": "spyro shadow legacy",
+    "a": [],
+    "f": "Spyro",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_star-wars-the-clone-wars-l-alliance-jedi",
+    "t": "Star Wars: The Clone Wars - L'Alliance Jedi",
+    "n": "star wars the clone wars l alliance jedi",
+    "a": [
+      "Star Wars: The Clone Wars - Jedi Alliance"
+    ],
+    "f": "Star Wars",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_super-mario-64-ds",
+    "t": "Super Mario 64 DS",
+    "n": "super mario 64 ds",
+    "a": [],
+    "f": "Super Mario",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_totally-spies-2-undercover",
+    "t": "Totally Spies! 2: Undercover",
+    "n": "totally spies 2 undercover",
+    "a": [],
+    "f": "Totally Spies",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_worms-open-warfare",
+    "t": "Worms: Open Warfare",
+    "n": "worms open warfare",
+    "a": [],
+    "f": "Worms",
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_worms-open-warfare-2",
+    "t": "Worms: Open Warfare 2",
+    "n": "worms open warfare 2",
+    "a": [],
+    "f": "Worms",
+    "p": "ds"
+  }
+]

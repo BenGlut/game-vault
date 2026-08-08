@@ -1,0 +1,2635 @@
+[
+  {
+    "id": "game_3ds_animal-crossing-new-leaf-welcome-amiibo",
+    "canonicalTitle": "Animal Crossing: New Leaf - Welcome amiibo",
+    "normalizedTitle": "animal crossing new leaf welcome amiibo",
+    "aliases": [],
+    "franchise": "Animal Crossing",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_captain-toad-treasure-tracker",
+    "canonicalTitle": "Captain Toad: Treasure Tracker",
+    "normalizedTitle": "captain toad treasure tracker",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_cars-2",
+    "canonicalTitle": "Cars 2",
+    "normalizedTitle": "cars 2",
+    "aliases": [],
+    "franchise": "Cars",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_detective-pikachu",
+    "canonicalTitle": "Détective Pikachu",
+    "normalizedTitle": "detective pikachu",
+    "aliases": [
+      "Detective Pikachu"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_disney-magical-world-2",
+    "canonicalTitle": "Disney Magical World 2",
+    "normalizedTitle": "disney magical world 2",
+    "aliases": [],
+    "franchise": "Disney",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_donkey-kong-country-returns-3d",
+    "canonicalTitle": "Donkey Kong Country Returns 3D",
+    "normalizedTitle": "donkey kong country returns 3d",
+    "aliases": [],
+    "franchise": "Donkey Kong",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_dragon-ball-fusions",
+    "canonicalTitle": "Dragon Ball Fusions",
+    "normalizedTitle": "dragon ball fusions",
+    "aliases": [],
+    "franchise": "Dragon Ball",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_dragon-ball-z-extreme-butoden",
+    "canonicalTitle": "Dragon Ball Z: Extreme Butoden",
+    "normalizedTitle": "dragon ball z extreme butoden",
+    "aliases": [],
+    "franchise": "Dragon Ball",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_dragon-quest-vii-la-quete-des-vestiges-du-monde",
+    "canonicalTitle": "Dragon Quest VII : La Quête des vestiges du monde",
+    "normalizedTitle": "dragon quest vii la quete des vestiges du monde",
+    "aliases": [
+      "Dragon Quest VII: Fragments of the Forgotten Past",
+      "DQ VII",
+      "DQ7"
+    ],
+    "franchise": "Dragon Quest",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_dragons-2",
+    "canonicalTitle": "Dragons 2",
+    "normalizedTitle": "dragons 2",
+    "aliases": [
+      "How to Train Your Dragon 2"
+    ],
+    "franchise": "Dragons",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_ever-oasis",
+    "canonicalTitle": "Ever Oasis",
+    "normalizedTitle": "ever oasis",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_farming-simulator-18",
+    "canonicalTitle": "Farming Simulator 18",
+    "normalizedTitle": "farming simulator 18",
+    "aliases": [],
+    "franchise": "Farming Simulator",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_fire-emblem-echoes-shadows-of-valentia",
+    "canonicalTitle": "Fire Emblem Echoes: Shadows of Valentia",
+    "normalizedTitle": "fire emblem echoes shadows of valentia",
+    "aliases": [],
+    "franchise": "Fire Emblem",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_fire-emblem-fates-conquete",
+    "canonicalTitle": "Fire Emblem Fates: Conquête",
+    "normalizedTitle": "fire emblem fates conquete",
+    "aliases": [
+      "Fire Emblem Fates: Conquest"
+    ],
+    "franchise": "Fire Emblem",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_fire-emblem-warriors",
+    "canonicalTitle": "Fire Emblem Warriors",
+    "normalizedTitle": "fire emblem warriors",
+    "aliases": [],
+    "franchise": "Fire Emblem",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_fossil-fighters-frontier",
+    "canonicalTitle": "Fossil Fighters: Frontier",
+    "normalizedTitle": "fossil fighters frontier",
+    "aliases": [],
+    "franchise": "Fossil Fighters",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_kirby-battle-royale",
+    "canonicalTitle": "Kirby Battle Royale",
+    "normalizedTitle": "kirby battle royale",
+    "aliases": [],
+    "franchise": "Kirby",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_kirby-planet-robobot",
+    "canonicalTitle": "Kirby Planet Robobot",
+    "normalizedTitle": "kirby planet robobot",
+    "aliases": [],
+    "franchise": "Kirby",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_kirby-triple-deluxe",
+    "canonicalTitle": "Kirby Triple Deluxe",
+    "normalizedTitle": "kirby triple deluxe",
+    "aliases": [],
+    "franchise": "Kirby",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lbx-little-battlers-experience",
+    "canonicalTitle": "LBX: Little Battlers eXperience",
+    "normalizedTitle": "lbx little battlers experience",
+    "aliases": [
+      "Little Battlers Experience",
+      "Danball Senki"
+    ],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-batman-3-au-dela-de-gotham",
+    "canonicalTitle": "LEGO Batman 3 : Au-delà de Gotham",
+    "normalizedTitle": "lego batman 3 au dela de gotham",
+    "aliases": [
+      "LEGO Batman 3: Beyond Gotham"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-city-undercover-the-chase-begins",
+    "canonicalTitle": "LEGO City Undercover: The Chase Begins",
+    "normalizedTitle": "lego city undercover the chase begins",
+    "aliases": [],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-chima-le-voyage-de-laval",
+    "canonicalTitle": "LEGO Chima : Le Voyage de Laval",
+    "normalizedTitle": "lego chima le voyage de laval",
+    "aliases": [
+      "LEGO Legends of Chima: Laval's Journey"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-le-hobbit",
+    "canonicalTitle": "LEGO Le Hobbit",
+    "normalizedTitle": "lego le hobbit",
+    "aliases": [
+      "LEGO The Hobbit"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-le-seigneur-des-anneaux",
+    "canonicalTitle": "LEGO Le Seigneur des Anneaux",
+    "normalizedTitle": "lego le seigneur des anneaux",
+    "aliases": [
+      "LEGO The Lord of the Rings"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-marvel-super-heroes-l-univers-en-peril",
+    "canonicalTitle": "LEGO Marvel Super Heroes : L'Univers en péril",
+    "normalizedTitle": "lego marvel super heroes l univers en peril",
+    "aliases": [
+      "LEGO Marvel Super Heroes: Universe in Peril"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-ninjago-l-ombre-de-ronin",
+    "canonicalTitle": "LEGO Ninjago : L'Ombre de Ronin",
+    "normalizedTitle": "lego ninjago l ombre de ronin",
+    "aliases": [
+      "LEGO Ninjago: Shadow of Ronin"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-ninjago-nindroids",
+    "canonicalTitle": "LEGO Ninjago : Nindroids",
+    "normalizedTitle": "lego ninjago nindroids",
+    "aliases": [
+      "LEGO Ninjago: Nindroids"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-star-wars-iii",
+    "canonicalTitle": "LEGO Star Wars III",
+    "normalizedTitle": "lego star wars iii",
+    "aliases": [
+      "LEGO Star Wars III: The Clone Wars"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_lego-star-wars-le-reveil-de-la-force",
+    "canonicalTitle": "LEGO Star Wars : Le Réveil de la Force",
+    "normalizedTitle": "lego star wars le reveil de la force",
+    "aliases": [
+      "LEGO Star Wars: The Force Awakens"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_la-grande-aventure-lego-le-jeu-video",
+    "canonicalTitle": "La Grande Aventure LEGO : Le Jeu Vidéo",
+    "normalizedTitle": "la grande aventure lego le jeu video",
+    "aliases": [
+      "The LEGO Movie Videogame"
+    ],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_luigi-s-mansion",
+    "canonicalTitle": "Luigi's Mansion",
+    "normalizedTitle": "luigi s mansion",
+    "aliases": [],
+    "franchise": "Luigi's Mansion",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_luigi-s-mansion-2",
+    "canonicalTitle": "Luigi's Mansion 2",
+    "normalizedTitle": "luigi s mansion 2",
+    "aliases": [
+      "Luigi's Mansion: Dark Moon"
+    ],
+    "franchise": "Luigi's Mansion",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_mario-luigi-dream-team-bros",
+    "canonicalTitle": "Mario & Luigi: Dream Team Bros.",
+    "normalizedTitle": "mario luigi dream team bros",
+    "aliases": [
+      "Mario & Luigi: Dream Team"
+    ],
+    "franchise": "Mario & Luigi",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_mario-luigi-paper-jam-bros",
+    "canonicalTitle": "Mario & Luigi: Paper Jam Bros.",
+    "normalizedTitle": "mario luigi paper jam bros",
+    "aliases": [
+      "Mario & Luigi: Paper Jam"
+    ],
+    "franchise": "Mario & Luigi",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_mario-luigi-superstar-saga-les-sbires-de-bowser",
+    "canonicalTitle": "Mario & Luigi: Superstar Saga + Les Sbires de Bowser",
+    "normalizedTitle": "mario luigi superstar saga les sbires de bowser",
+    "aliases": [
+      "Mario & Luigi: Superstar Saga + Bowser's Minions"
+    ],
+    "franchise": "Mario & Luigi",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_mario-kart-7",
+    "canonicalTitle": "Mario Kart 7",
+    "normalizedTitle": "mario kart 7",
+    "aliases": [],
+    "franchise": "Mario Kart",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_mario-party-island-tour",
+    "canonicalTitle": "Mario Party: Island Tour",
+    "normalizedTitle": "mario party island tour",
+    "aliases": [],
+    "franchise": "Mario Party",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_mario-party-star-rush",
+    "canonicalTitle": "Mario Party: Star Rush",
+    "normalizedTitle": "mario party star rush",
+    "aliases": [],
+    "franchise": "Mario Party",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
+    "canonicalTitle": "Mario & Sonic aux Jeux Olympiques de Londres 2012",
+    "normalizedTitle": "mario sonic aux jeux olympiques de londres 2012",
+    "aliases": [
+      "Mario & Sonic at the London 2012 Olympic Games"
+    ],
+    "franchise": "Mario & Sonic",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_mario-tennis-open",
+    "canonicalTitle": "Mario Tennis Open",
+    "normalizedTitle": "mario tennis open",
+    "aliases": [],
+    "franchise": "Mario Tennis",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_miitopia",
+    "canonicalTitle": "Miitopia",
+    "normalizedTitle": "miitopia",
+    "aliases": [],
+    "franchise": "Mii",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_monster-hunter-3-ultimate",
+    "canonicalTitle": "Monster Hunter 3 Ultimate",
+    "normalizedTitle": "monster hunter 3 ultimate",
+    "aliases": [],
+    "franchise": "Monster Hunter",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_monster-hunter-generations",
+    "canonicalTitle": "Monster Hunter Generations",
+    "normalizedTitle": "monster hunter generations",
+    "aliases": [],
+    "franchise": "Monster Hunter",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_new-super-mario-bros-2",
+    "canonicalTitle": "New Super Mario Bros. 2",
+    "normalizedTitle": "new super mario bros 2",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_nintendogs-cats",
+    "canonicalTitle": "Nintendogs + Cats",
+    "normalizedTitle": "nintendogs cats",
+    "aliases": [],
+    "franchise": "Nintendogs",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_paper-mario-sticker-star",
+    "canonicalTitle": "Paper Mario: Sticker Star",
+    "normalizedTitle": "paper mario sticker star",
+    "aliases": [],
+    "franchise": "Paper Mario",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_planes",
+    "canonicalTitle": "Planes",
+    "normalizedTitle": "planes",
+    "aliases": [],
+    "franchise": "Disney",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-donjon-mystere-les-portes-de-l-infini",
+    "canonicalTitle": "Pokémon Donjon Mystère : Les Portes de l'Infini",
+    "normalizedTitle": "pokemon donjon mystere les portes de l infini",
+    "aliases": [
+      "Pokémon Mystery Dungeon: Gates to Infinity"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-mega-donjon-mystere",
+    "canonicalTitle": "Pokémon Méga Donjon Mystère",
+    "normalizedTitle": "pokemon mega donjon mystere",
+    "aliases": [
+      "Pokémon Super Mystery Dungeon"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-rumble-world",
+    "canonicalTitle": "Pokémon Rumble World",
+    "normalizedTitle": "pokemon rumble world",
+    "aliases": [],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-rubis-omega",
+    "canonicalTitle": "Pokémon Rubis Oméga",
+    "normalizedTitle": "pokemon rubis omega",
+    "aliases": [
+      "Pokémon Omega Ruby"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-saphir-alpha",
+    "canonicalTitle": "Pokémon Saphir Alpha",
+    "normalizedTitle": "pokemon saphir alpha",
+    "aliases": [
+      "Pokémon Alpha Sapphire"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-soleil",
+    "canonicalTitle": "Pokémon Soleil",
+    "normalizedTitle": "pokemon soleil",
+    "aliases": [
+      "Pokémon Sun"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-ultra-soleil",
+    "canonicalTitle": "Pokémon Ultra-Soleil",
+    "normalizedTitle": "pokemon ultra soleil",
+    "aliases": [
+      "Pokémon Ultra Sun"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-lune",
+    "canonicalTitle": "Pokémon Lune",
+    "normalizedTitle": "pokemon lune",
+    "aliases": [
+      "Pokémon Moon"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-ultra-lune",
+    "canonicalTitle": "Pokémon Ultra-Lune",
+    "normalizedTitle": "pokemon ultra lune",
+    "aliases": [
+      "Pokémon Ultra Moon"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-x",
+    "canonicalTitle": "Pokémon X",
+    "normalizedTitle": "pokemon x",
+    "aliases": [],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_pokemon-y",
+    "canonicalTitle": "Pokémon Y",
+    "normalizedTitle": "pokemon y",
+    "aliases": [],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_super-pokemon-rumble",
+    "canonicalTitle": "Super Pokémon Rumble",
+    "normalizedTitle": "super pokemon rumble",
+    "aliases": [
+      "Pokémon Rumble Blast"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_rayman-les-lapins-cretins-pack-famille",
+    "canonicalTitle": "Rayman + Les Lapins Crétins : Pack Famille",
+    "normalizedTitle": "rayman les lapins cretins pack famille",
+    "aliases": [
+      "Rayman and Rabbids Family Pack"
+    ],
+    "franchise": "Rayman",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_sonic-boom-le-cristal-brise",
+    "canonicalTitle": "Sonic Boom : Le Cristal Brisé",
+    "normalizedTitle": "sonic boom le cristal brise",
+    "aliases": [
+      "Sonic Boom: Shattered Crystal"
+    ],
+    "franchise": "Sonic",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_star-fox-64-3d",
+    "canonicalTitle": "Star Fox 64 3D",
+    "normalizedTitle": "star fox 64 3d",
+    "aliases": [
+      "Lylat Wars"
+    ],
+    "franchise": "Star Fox",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_super-mario-3d-land",
+    "canonicalTitle": "Super Mario 3D Land",
+    "normalizedTitle": "super mario 3d land",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_super-mario-maker-for-nintendo-3ds",
+    "canonicalTitle": "Super Mario Maker for Nintendo 3DS",
+    "normalizedTitle": "super mario maker for nintendo 3ds",
+    "aliases": [
+      "Mario Maker"
+    ],
+    "franchise": "Super Mario",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_super-smash-bros-for-nintendo-3ds",
+    "canonicalTitle": "Super Smash Bros. for Nintendo 3DS",
+    "normalizedTitle": "super smash bros for nintendo 3ds",
+    "aliases": [
+      "Smash 3DS"
+    ],
+    "franchise": "Super Smash Bros.",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_the-legend-of-zelda-a-link-between-worlds",
+    "canonicalTitle": "The Legend of Zelda: A Link Between Worlds",
+    "normalizedTitle": "the legend of zelda a link between worlds",
+    "aliases": [
+      "Zelda ALBW"
+    ],
+    "franchise": "The Legend of Zelda",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_the-legend-of-zelda-ocarina-of-time-3d",
+    "canonicalTitle": "The Legend of Zelda: Ocarina of Time 3D",
+    "normalizedTitle": "the legend of zelda ocarina of time 3d",
+    "aliases": [
+      "Zelda OoT 3D"
+    ],
+    "franchise": "The Legend of Zelda",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_the-legend-of-zelda-tri-force-heroes",
+    "canonicalTitle": "The Legend of Zelda: Tri Force Heroes",
+    "normalizedTitle": "the legend of zelda tri force heroes",
+    "aliases": [],
+    "franchise": "The Legend of Zelda",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_wrc",
+    "canonicalTitle": "WRC",
+    "normalizedTitle": "wrc",
+    "aliases": [
+      "WRC: FIA World Rally Championship"
+    ],
+    "franchise": "WRC",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_yo-kai-watch-2-esprits-farceurs",
+    "canonicalTitle": "Yo-kai Watch 2 : Esprits Farceurs",
+    "normalizedTitle": "yo kai watch 2 esprits farceurs",
+    "aliases": [
+      "Yo-kai Watch 2: Bony Spirits"
+    ],
+    "franchise": "Yo-kai Watch",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_yo-kai-watch-2-fantomes-bouffis",
+    "canonicalTitle": "Yo-kai Watch 2 : Fantômes Bouffis",
+    "normalizedTitle": "yo kai watch 2 fantomes bouffis",
+    "aliases": [
+      "Yo-kai Watch 2: Fleshy Souls"
+    ],
+    "franchise": "Yo-kai Watch",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_yo-kai-watch-blasters-l-escadron-du-chien-blanc",
+    "canonicalTitle": "Yo-kai Watch Blasters : L'Escadron du Chien Blanc",
+    "normalizedTitle": "yo kai watch blasters l escadron du chien blanc",
+    "aliases": [
+      "Yo-kai Watch Blasters: White Dog Squad"
+    ],
+    "franchise": "Yo-kai Watch",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_3ds_yoshi-s-new-island",
+    "canonicalTitle": "Yoshi's New Island",
+    "normalizedTitle": "yoshi s new island",
+    "aliases": [],
+    "franchise": "Yoshi",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_arthur-et-les-minimoys",
+    "canonicalTitle": "Arthur et les Minimoys",
+    "normalizedTitle": "arthur et les minimoys",
+    "aliases": [
+      "Arthur and the Invisibles"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_asterix-obelix-xxl-2-mission-wifix",
+    "canonicalTitle": "Astérix & Obélix XXL 2 : Mission Wifix",
+    "normalizedTitle": "asterix obelix xxl 2 mission wifix",
+    "aliases": [
+      "Asterix & Obelix XXL 2: Mission Wifix"
+    ],
+    "franchise": "Astérix",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_bien-etre-du-visage",
+    "canonicalTitle": "Bien-être du visage",
+    "normalizedTitle": "bien etre du visage",
+    "aliases": [
+      "Face Training"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_bratz-forever-diamondz",
+    "canonicalTitle": "Bratz: Forever Diamondz",
+    "normalizedTitle": "bratz forever diamondz",
+    "aliases": [],
+    "franchise": "Bratz",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_cars",
+    "canonicalTitle": "Cars",
+    "normalizedTitle": "cars",
+    "aliases": [],
+    "franchise": "Cars",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_cars-race-o-rama",
+    "canonicalTitle": "Cars Race-O-Rama",
+    "normalizedTitle": "cars race o rama",
+    "aliases": [],
+    "franchise": "Cars",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_children-of-mana",
+    "canonicalTitle": "Children of Mana",
+    "normalizedTitle": "children of mana",
+    "aliases": [
+      "Seiken Densetsu DS"
+    ],
+    "franchise": "Mana",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_clochette-et-la-pierre-de-lune",
+    "canonicalTitle": "Clochette et la Pierre de Lune",
+    "normalizedTitle": "clochette et la pierre de lune",
+    "aliases": [
+      "Tinker Bell and the Lost Treasure"
+    ],
+    "franchise": "Disney Fairies",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_clochette-et-l-expedition-feerique",
+    "canonicalTitle": "Clochette et l'Expédition Féerique",
+    "normalizedTitle": "clochette et l expedition feerique",
+    "aliases": [
+      "Tinker Bell and the Great Fairy Rescue"
+    ],
+    "franchise": "Disney Fairies",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_dance-floor",
+    "canonicalTitle": "Dance Floor",
+    "normalizedTitle": "dance floor",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_dora-cuisine",
+    "canonicalTitle": "Dora Cuisine",
+    "normalizedTitle": "dora cuisine",
+    "aliases": [
+      "Dora's Cooking Club"
+    ],
+    "franchise": "Dora l'exploratrice",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_dora-et-sauvons-les-animaux",
+    "canonicalTitle": "Dora et Sauvons les animaux",
+    "normalizedTitle": "dora et sauvons les animaux",
+    "aliases": [
+      "Dora Saves the Snow Princess"
+    ],
+    "franchise": "Dora l'exploratrice",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_dragon-ball-z-supersonic-warriors-2",
+    "canonicalTitle": "Dragon Ball Z: Supersonic Warriors 2",
+    "normalizedTitle": "dragon ball z supersonic warriors 2",
+    "aliases": [],
+    "franchise": "Dragon Ball",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_final-fantasy-iii",
+    "canonicalTitle": "Final Fantasy III",
+    "normalizedTitle": "final fantasy iii",
+    "aliases": [
+      "FF3",
+      "FFIII"
+    ],
+    "franchise": "Final Fantasy",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_final-fantasy-crystal-chronicles-echoes-of-time",
+    "canonicalTitle": "Final Fantasy Crystal Chronicles: Echoes of Time",
+    "normalizedTitle": "final fantasy crystal chronicles echoes of time",
+    "aliases": [],
+    "franchise": "Final Fantasy",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_final-fantasy-tactics-a2",
+    "canonicalTitle": "Final Fantasy Tactics A2",
+    "normalizedTitle": "final fantasy tactics a2",
+    "aliases": [
+      "Final Fantasy Tactics A2: Grimoire of the Rift"
+    ],
+    "franchise": "Final Fantasy",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_fort-boyard",
+    "canonicalTitle": "Fort Boyard",
+    "normalizedTitle": "fort boyard",
+    "aliases": [],
+    "franchise": "Fort Boyard",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_goldeneye-007",
+    "canonicalTitle": "GoldenEye 007",
+    "normalizedTitle": "goldeneye 007",
+    "aliases": [],
+    "franchise": "James Bond",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_high-school-musical-3",
+    "canonicalTitle": "High School Musical 3",
+    "normalizedTitle": "high school musical 3",
+    "aliases": [
+      "High School Musical 3: Senior Year"
+    ],
+    "franchise": "High School Musical",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_lego-batman-2-dc-super-heroes",
+    "canonicalTitle": "LEGO Batman 2 : DC Super Heroes",
+    "normalizedTitle": "lego batman 2 dc super heroes",
+    "aliases": [
+      "LEGO Batman 2: DC Super Heroes"
+    ],
+    "franchise": "LEGO",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_lego-harry-potter-annees-1-4",
+    "canonicalTitle": "LEGO Harry Potter : Années 1-4",
+    "normalizedTitle": "lego harry potter annees 1 4",
+    "aliases": [
+      "LEGO Harry Potter: Years 1-4"
+    ],
+    "franchise": "LEGO",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_lecons-de-cuisine",
+    "canonicalTitle": "Leçons de cuisine",
+    "normalizedTitle": "lecons de cuisine",
+    "aliases": [
+      "Cooking Guide: Can't Decide What to Eat?"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_les-chevaliers-de-baphomet-director-s-cut",
+    "canonicalTitle": "Les Chevaliers de Baphomet: Director's Cut",
+    "normalizedTitle": "les chevaliers de baphomet director s cut",
+    "aliases": [
+      "Broken Sword: Shadow of the Templars - Director's Cut"
+    ],
+    "franchise": "Les Chevaliers de Baphomet",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_les-rebelles-de-la-foret",
+    "canonicalTitle": "Les Rebelles de la Forêt",
+    "normalizedTitle": "les rebelles de la foret",
+    "aliases": [
+      "Open Season"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_ma-pause-yoga",
+    "canonicalTitle": "Ma Pause Yoga",
+    "normalizedTitle": "ma pause yoga",
+    "aliases": [
+      "Let's Yoga"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_mario-luigi-voyage-au-centre-de-bowser",
+    "canonicalTitle": "Mario & Luigi : Voyage au centre de Bowser",
+    "normalizedTitle": "mario luigi voyage au centre de bowser",
+    "aliases": [
+      "Mario & Luigi: Bowser's Inside Story"
+    ],
+    "franchise": "Mario & Luigi",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_mario-vs-donkey-kong-2-la-marche-des-mini",
+    "canonicalTitle": "Mario vs. Donkey Kong 2 : La Marche des Mini",
+    "normalizedTitle": "mario vs donkey kong 2 la marche des mini",
+    "aliases": [
+      "Mario vs. Donkey Kong 2: March of the Minis"
+    ],
+    "franchise": "Mario vs. Donkey Kong",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_mission-safari",
+    "canonicalTitle": "Mission Safari",
+    "normalizedTitle": "mission safari",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_nancy-drew-the-deadly-secret-of-olde-world-park",
+    "canonicalTitle": "Nancy Drew: The Deadly Secret of Olde World Park",
+    "normalizedTitle": "nancy drew the deadly secret of olde world park",
+    "aliases": [],
+    "franchise": "Nancy Drew",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_plus-belle-la-vie-le-secret-du-dr-livia",
+    "canonicalTitle": "Plus Belle la Vie : Le Secret du Dr Livia",
+    "normalizedTitle": "plus belle la vie le secret du dr livia",
+    "aliases": [],
+    "franchise": "Plus Belle la Vie",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-version-argent-soulsilver",
+    "canonicalTitle": "Pokémon Version Argent SoulSilver",
+    "normalizedTitle": "pokemon version argent soulsilver",
+    "aliases": [
+      "Pokémon SoulSilver Version",
+      "Pokémon SoulSilver"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-version-blanche",
+    "canonicalTitle": "Pokémon Version Blanche",
+    "normalizedTitle": "pokemon version blanche",
+    "aliases": [
+      "Pokémon White Version",
+      "Pokémon White"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-version-diamant",
+    "canonicalTitle": "Pokémon Version Diamant",
+    "normalizedTitle": "pokemon version diamant",
+    "aliases": [
+      "Pokémon Diamond Version",
+      "Pokémon Diamond"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-version-noire",
+    "canonicalTitle": "Pokémon Version Noire",
+    "normalizedTitle": "pokemon version noire",
+    "aliases": [
+      "Pokémon Black Version",
+      "Pokémon Black"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-version-noire-2",
+    "canonicalTitle": "Pokémon Version Noire 2",
+    "normalizedTitle": "pokemon version noire 2",
+    "aliases": [
+      "Pokémon Black Version 2",
+      "Pokémon Black 2"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-version-or-heartgold",
+    "canonicalTitle": "Pokémon Version Or HeartGold",
+    "normalizedTitle": "pokemon version or heartgold",
+    "aliases": [
+      "Pokémon HeartGold Version",
+      "Pokémon HeartGold"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-version-perle",
+    "canonicalTitle": "Pokémon Version Perle",
+    "normalizedTitle": "pokemon version perle",
+    "aliases": [
+      "Pokémon Pearl Version",
+      "Pokémon Pearl"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-version-platine",
+    "canonicalTitle": "Pokémon Version Platine",
+    "normalizedTitle": "pokemon version platine",
+    "aliases": [
+      "Pokémon Platinum Version",
+      "Pokémon Platinum"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-donjon-mystere-equipe-de-secours-bleue",
+    "canonicalTitle": "Pokémon Donjon Mystère : Équipe de Secours Bleue",
+    "normalizedTitle": "pokemon donjon mystere equipe de secours bleue",
+    "aliases": [
+      "Pokémon Mystery Dungeon: Blue Rescue Team"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-donjon-mystere-explorateurs-de-l-ombre",
+    "canonicalTitle": "Pokémon Donjon Mystère : Explorateurs de l'Ombre",
+    "normalizedTitle": "pokemon donjon mystere explorateurs de l ombre",
+    "aliases": [
+      "Pokémon Mystery Dungeon: Explorers of Darkness"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-donjon-mystere-explorateurs-du-temps",
+    "canonicalTitle": "Pokémon Donjon Mystère : Explorateurs du Temps",
+    "normalizedTitle": "pokemon donjon mystere explorateurs du temps",
+    "aliases": [
+      "Pokémon Mystery Dungeon: Explorers of Time"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-link",
+    "canonicalTitle": "Pokémon Link!",
+    "normalizedTitle": "pokemon link",
+    "aliases": [
+      "Pokémon Trozei!"
+    ],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_pokemon-ranger",
+    "canonicalTitle": "Pokémon Ranger",
+    "normalizedTitle": "pokemon ranger",
+    "aliases": [],
+    "franchise": "Pokémon",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_populous-ds",
+    "canonicalTitle": "Populous DS",
+    "normalizedTitle": "populous ds",
+    "aliases": [],
+    "franchise": "Populous",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_programme-d-entrainement-cerebral",
+    "canonicalTitle": "Programme d'entraînement cérébral",
+    "normalizedTitle": "programme d entrainement cerebral",
+    "aliases": [
+      "Dr Kawashima's Brain Training",
+      "Brain Age"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_professeur-layton-et-l-etrange-village",
+    "canonicalTitle": "Professeur Layton et l'Étrange Village",
+    "normalizedTitle": "professeur layton et l etrange village",
+    "aliases": [
+      "Professor Layton and the Curious Village"
+    ],
+    "franchise": "Professeur Layton",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_runaway-a-twist-of-fate",
+    "canonicalTitle": "Runaway: A Twist of Fate",
+    "normalizedTitle": "runaway a twist of fate",
+    "aliases": [],
+    "franchise": "Runaway",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_runaway-the-dream-of-the-turtle",
+    "canonicalTitle": "Runaway: The Dream of the Turtle",
+    "normalizedTitle": "runaway the dream of the turtle",
+    "aliases": [],
+    "franchise": "Runaway",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_simcity-ds",
+    "canonicalTitle": "SimCity DS",
+    "normalizedTitle": "simcity ds",
+    "aliases": [],
+    "franchise": "SimCity",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_sonic-chronicles-la-confrerie-des-tenebres",
+    "canonicalTitle": "Sonic Chronicles : La Confrérie des Ténèbres",
+    "normalizedTitle": "sonic chronicles la confrerie des tenebres",
+    "aliases": [
+      "Sonic Chronicles: The Dark Brotherhood"
+    ],
+    "franchise": "Sonic",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_spyro-shadow-legacy",
+    "canonicalTitle": "Spyro: Shadow Legacy",
+    "normalizedTitle": "spyro shadow legacy",
+    "aliases": [],
+    "franchise": "Spyro",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_star-wars-the-clone-wars-l-alliance-jedi",
+    "canonicalTitle": "Star Wars: The Clone Wars - L'Alliance Jedi",
+    "normalizedTitle": "star wars the clone wars l alliance jedi",
+    "aliases": [
+      "Star Wars: The Clone Wars - Jedi Alliance"
+    ],
+    "franchise": "Star Wars",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_super-mario-64-ds",
+    "canonicalTitle": "Super Mario 64 DS",
+    "normalizedTitle": "super mario 64 ds",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_totally-spies-2-undercover",
+    "canonicalTitle": "Totally Spies! 2: Undercover",
+    "normalizedTitle": "totally spies 2 undercover",
+    "aliases": [],
+    "franchise": "Totally Spies",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_worms-open-warfare",
+    "canonicalTitle": "Worms: Open Warfare",
+    "normalizedTitle": "worms open warfare",
+    "aliases": [],
+    "franchise": "Worms",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  },
+  {
+    "id": "game_ds_worms-open-warfare-2",
+    "canonicalTitle": "Worms: Open Warfare 2",
+    "normalizedTitle": "worms open warfare 2",
+    "aliases": [],
+    "franchise": "Worms",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {}
+  }
+]
