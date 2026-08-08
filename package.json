@@ -1,6 +1,6 @@
 {
   "name": "game-vault",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "GameVault — gestionnaire personnel de collection de jeux vidéo (interface publique en lecture seule)",
   "packageManager": "pnpm@11.20.0",

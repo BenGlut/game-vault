@@ -52,6 +52,7 @@ export default function CollectionExplorer({ rows }: { rows: Row[] }) {
   const [franchise, setFranchise] = useState("");
   const [verif, setVerif] = useState("");
   const [region, setRegion] = useState("");
+  const [quality, setQuality] = useState("");
 
   // lit les filtres depuis l'URL (?plateforme=3ds&verif=needs_review)
   useEffect(() => {
@@ -89,6 +90,7 @@ export default function CollectionExplorer({ rows }: { rows: Row[] }) {
         return false;
       if (verif === "verified" && !r.items.some((i) => i.verificationStatus === "verified"))
         return false;
+      if (quality && r.game.qualityTier !== quality) return false;
       if (q) {
         const hay = [r.game.normalizedTitle, ...r.game.aliases.map(norm), norm(r.game.franchise ?? "")].join(" | ");
         for (const word of q.split(" ")) {
@@ -97,7 +99,7 @@ export default function CollectionExplorer({ rows }: { rows: Row[] }) {
       }
       return true;
     });
-  }, [rows, query, platform, status, franchise, verif, region]);
+  }, [rows, query, platform, status, franchise, verif, region, quality]);
 
   const select =
     "rounded-lg border border-border bg-surface px-3 py-2 text-sm text-text focus:border-accent focus:outline-none";
@@ -149,6 +151,14 @@ export default function CollectionExplorer({ rows }: { rows: Row[] }) {
           <option value="verified">Vérifiés</option>
           <option value="needs_review">À vérifier</option>
         </select>
+        <select value={quality} onChange={(e) => setQuality(e.target.value)} className={select}>
+          <option value="">Qualité (toutes)</option>
+          <option value="S">S — incontournable</option>
+          <option value="A">A — excellent</option>
+          <option value="B">B — bon</option>
+          <option value="C">C — moyen</option>
+          <option value="D">D — faible</option>
+        </select>
       </div>
 
       <p className="mb-3 text-sm text-muted">
@@ -177,7 +187,24 @@ export default function CollectionExplorer({ rows }: { rows: Row[] }) {
                 </div>
               )}
               <div className="min-w-0">
-                <div className="truncate font-medium">{r.game.canonicalTitle}</div>
+                <div className="flex items-center gap-2">
+                  <span className="truncate font-medium">{r.game.canonicalTitle}</span>
+                  {r.game.qualityTier ? (
+                    <span
+                      className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded font-mono text-xs font-bold ${
+                        {
+                          S: "bg-[#f5b64225] text-[#f5b642]",
+                          A: "bg-[#4ade8020] text-[#4ade80]",
+                          B: "bg-[#60a5fa20] text-[#60a5fa]",
+                          C: "bg-[#8a93a820] text-[#8a93a8]",
+                          D: "bg-[#f8717120] text-[#f87171]",
+                        }[r.game.qualityTier] ?? ""
+                      }`}
+                    >
+                      {r.game.qualityTier}
+                    </span>
+                  ) : null}
+                </div>
                 <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted">
                   <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono">
                     {r.platform?.shortName ?? r.game.platformId}

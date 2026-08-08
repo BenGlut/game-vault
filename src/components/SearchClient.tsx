@@ -18,7 +18,13 @@ function norm(s: string): string {
  * Recherche tolérante : fautes mineures, accents, FR/EN, abréviations, franchise.
  * Ex.: "pokemon lune", "Pokemon Moon", "DQ VII", "luigi mansion", "bowser ds".
  */
-export default function SearchClient({ docs }: { docs: SearchDoc[] }) {
+export default function SearchClient({
+  docs,
+  covers = {},
+}: {
+  docs: SearchDoc[];
+  covers?: Record<string, string>;
+}) {
   const [query, setQuery] = useState("");
 
   const fuse = useMemo(
@@ -70,14 +76,29 @@ export default function SearchClient({ docs }: { docs: SearchDoc[] }) {
             href={`/jeu/${h.item.id}/`}
             className="flex items-center justify-between rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent/40 hover:bg-surface-2"
           >
-            <div>
-              <div className="font-medium">{h.item.t}</div>
-              <div className="mt-0.5 flex gap-2 text-xs text-muted">
-                <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono uppercase">
-                  {h.item.p}
-                </span>
-                {h.item.f ? <span>{h.item.f}</span> : null}
-                {h.item.a.length ? <span className="truncate">alias : {h.item.a.join(", ")}</span> : null}
+            <div className="flex min-w-0 items-center gap-3">
+              {covers[h.item.id] ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={covers[h.item.id]}
+                  alt=""
+                  loading="lazy"
+                  className="h-14 w-12 shrink-0 rounded object-cover"
+                />
+              ) : (
+                <div className="flex h-14 w-12 shrink-0 items-center justify-center rounded bg-surface-2 text-xs text-muted">
+                  ?
+                </div>
+              )}
+              <div className="min-w-0">
+                <div className="truncate font-medium">{h.item.t}</div>
+                <div className="mt-0.5 flex gap-2 text-xs text-muted">
+                  <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono uppercase">
+                    {h.item.p}
+                  </span>
+                  {h.item.f ? <span>{h.item.f}</span> : null}
+                  {h.item.a.length ? <span className="truncate">alias : {h.item.a.join(", ")}</span> : null}
+                </div>
               </div>
             </div>
             <span className="shrink-0 font-mono text-xs text-muted">

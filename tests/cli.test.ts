@@ -129,7 +129,7 @@ describe("cycle de commande (règles n°4 et n°5)", () => {
 });
 
 describe("vault add-price", () => {
-  it("enregistre une observation datée et met à jour la cote", () => {
+  it("enregistre une observation datée et met à jour la cote (variant any)", () => {
     const r = vault([
       "add-price",
       "--game",
@@ -149,5 +149,29 @@ describe("vault add-price", () => {
     const item = inv.find((i: { gameId: string }) => i.gameId === "game_3ds_pokemon-lune");
     expect(item.currentEstimate.median).toBe(32);
     expect(item.currentEstimate.source).toBe("ebay-sold");
+  });
+
+  it("stocke des cotes distinctes avec et sans boîte", () => {
+    vault(["add-price", "--game", "game_3ds_pokemon-lune", "--variant", "cib", "--low", "40", "--median", "50", "--high", "70", "--source", "ebay-sold", "--yes"]);
+    vault(["add-price", "--game", "game_3ds_pokemon-lune", "--variant", "loose", "--low", "22", "--median", "28", "--high", "38", "--source", "ebay-sold", "--yes"]);
+    const obs = JSON.parse(fs.readFileSync(path.join(scratch, "data/price-observations.json"), "utf8"));
+    const variants = obs.filter((o: { gameId: string }) => o.gameId === "game_3ds_pokemon-lune").map((o: { variant: string }) => o.variant);
+    expect(variants).toContain("cib");
+    expect(variants).toContain("loose");
+  });
+});
+
+describe("vault deal", () => {
+  it("rend un verdict selon l'état boîte/loose", () => {
+    const cib = vault(["deal", "--game", "game_3ds_pokemon-lune", "--price", "35", "--state", "cib"]);
+    expect(cib.ok).toBe(true);
+    expect((cib.result as { verdict: string }).verdict).toBe("tres_bon_plan"); // 35 ≤ basse CIB (40)
+    const loose = vault(["deal", "--game", "game_3ds_pokemon-lune", "--price", "35", "--state", "loose"]);
+    expect((loose.result as { verdict: string }).verdict).toBe("un_peu_cher"); // 35 ≤ haute loose (38)
+  });
+  it("échoue proprement sans cote", () => {
+    const r = vault(["deal", "--game", "game_ds_fort-boyard", "--price", "10"], true);
+    expect(r.ok).toBe(false);
+    expect(String(r.error)).toContain("Aucune cote");
   });
 });

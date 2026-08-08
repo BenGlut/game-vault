@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "order_msjq50c0",
+    "marketplace": "vinted",
+    "status": "shipped",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_kirby-planet-robobot"
+    ],
+    "orderedAt": "2026-08-04",
+    "shippedAt": "2026-08-07",
+    "receivedAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": null
+  },
+  {
+    "id": "order_msjq5bvw",
+    "marketplace": "vinted",
+    "status": "shipped",
+    "itemCount": 5,
+    "gameIds": [
+      "game_3ds_mario-party-the-top-100",
+      "game_3ds_mario-party-the-top-100",
+      "game_3ds_lego-ninjago-l-ombre-de-ronin",
+      "game_3ds_lego-jurassic-world",
+      "game_3ds_super-mario-maker-for-nintendo-3ds"
+    ],
+    "orderedAt": "2026-08-07",
+    "shippedAt": "2026-08-07",
+    "receivedAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": null
+  }
+]

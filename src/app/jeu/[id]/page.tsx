@@ -7,11 +7,12 @@ import {
   getPlatforms,
   euro,
   coverUrl,
+  getQuotes,
   CONDITION_LABELS,
   COMPLETENESS_LABELS,
   POSSESSION,
 } from "@/lib/data";
-import { PageTitle, StatusBadge, ReviewBadge } from "@/components/ui";
+import { PageTitle, StatusBadge, ReviewBadge, QualityBadge, PriorityBadge } from "@/components/ui";
 import { CheckCircleIcon, XIcon, PackageIcon, StarIcon } from "@/components/icons";
 
 export function generateStaticParams() {
@@ -142,6 +143,12 @@ export default async function GamePage({ params }: { params: Promise<{ id: strin
           <Field label="Identifiant">
             <code className="font-mono text-xs">{game.id}</code>
           </Field>
+          <Field label="Qualité">
+            {game.qualityTier ? <QualityBadge tier={game.qualityTier} /> : "—"}
+          </Field>
+          <Field label="Priorité d'achat">
+            {game.buyPriority ? <PriorityBadge priority={game.buyPriority} /> : "—"}
+          </Field>
           <Field label="Plateforme">{platform?.name ?? game.platformId}</Field>
           <Field label="Région">{game.region}</Field>
           <Field label="Langues">{game.languages.join(", ")}</Field>
@@ -151,6 +158,49 @@ export default async function GamePage({ params }: { params: Promise<{ id: strin
           <Field label="Année">{game.releaseYear ?? "—"}</Field>
           <Field label="Édition">{game.edition ?? "—"}</Field>
           <Field label="Support">{game.mediaType}</Field>
+          {game.externalIds.ean ? (
+            <Field label="EAN">
+              <code className="font-mono text-xs">{game.externalIds.ean}</code>
+            </Field>
+          ) : null}
+          {(() => {
+            const q = getQuotes()[game.id];
+            if (!q?.cib && !q?.loose) return null;
+            return (
+              <div className="mt-5">
+                <h3 className="mb-2 text-sm font-semibold uppercase text-muted">
+                  Cotes (basse / médiane / haute)
+                </h3>
+                {q.cib ? (
+                  <div className="mb-2 flex items-center justify-between rounded-lg bg-surface-2 px-3 py-2 text-sm">
+                    <span>Avec boîte (CIB)</span>
+                    <span className="font-mono">
+                      {euro(q.cib.low)} / <span className="text-accent">{euro(q.cib.median)}</span> /{" "}
+                      {euro(q.cib.high)}
+                      <span className="ml-2 text-xs text-muted">
+                        ({q.cib.source}, {q.cib.observedAt})
+                      </span>
+                    </span>
+                  </div>
+                ) : null}
+                {q.loose ? (
+                  <div className="mb-2 flex items-center justify-between rounded-lg bg-surface-2 px-3 py-2 text-sm">
+                    <span>Cartouche seule</span>
+                    <span className="font-mono">
+                      {euro(q.loose.low)} / <span className="text-accent">{euro(q.loose.median)}</span>{" "}
+                      / {euro(q.loose.high)}
+                      <span className="ml-2 text-xs text-muted">
+                        ({q.loose.source}, {q.loose.observedAt})
+                      </span>
+                    </span>
+                  </div>
+                ) : null}
+                <p className="text-xs text-muted">
+                  Verdict rapide sur la page <Link href="/estimateur/" className="text-accent underline">Estimateur</Link>.
+                </p>
+              </div>
+            );
+          })()}
           {game.aliases.length ? (
             <div className="mt-3">
               <div className="text-xs uppercase tracking-wide text-muted">Alias</div>

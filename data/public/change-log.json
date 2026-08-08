@@ -3,5 +3,170 @@
     "at": "2026-08-08T00:16:02.955Z",
     "command": "seed",
     "message": "Seed initial: 74 jeux 3DS + 56 jeux DS, tous en needs_review, 8 quantités à vérifier"
+  },
+  {
+    "at": "2026-08-08T01:56:49.801Z",
+    "command": "add-game",
+    "message": "add game Mario Party: The Top 100 (3ds)"
+  },
+  {
+    "at": "2026-08-08T01:56:50.424Z",
+    "command": "add-game",
+    "message": "add game LEGO Jurassic World (3ds)"
+  },
+  {
+    "at": "2026-08-08T01:57:56.602Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-08T01:58:10.559Z",
+    "command": "ship-order",
+    "message": "ship-order order_msjq50c0"
+  },
+  {
+    "at": "2026-08-08T01:58:11.581Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-08T01:58:25.001Z",
+    "command": "ship-order",
+    "message": "ship-order order_msjq5bvw"
+  },
+  {
+    "at": "2026-08-08T01:58:25.574Z",
+    "command": "set-status",
+    "message": "set inv_3ds_mario-party-the-top-100 -> shipped"
+  },
+  {
+    "at": "2026-08-08T01:58:26.148Z",
+    "command": "set-status",
+    "message": "set inv_3ds_mario-party-the-top-100-2 -> shipped"
+  },
+  {
+    "at": "2026-08-08T02:11:48.066Z",
+    "command": "rate-batch",
+    "message": "rate 132 games from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/ratings.json"
+  },
+  {
+    "at": "2026-08-08T02:11:48.634Z",
+    "command": "price-batch",
+    "message": "264 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/prices.json"
+  },
+  {
+    "at": "2026-08-08T02:12:15.340Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Majora's Mask 3D (3ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:15.984Z",
+    "command": "add-game",
+    "message": "add game Fire Emblem: Awakening (3ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:16.580Z",
+    "command": "add-game",
+    "message": "add game Metroid: Samus Returns (3ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:17.157Z",
+    "command": "add-game",
+    "message": "add game Kid Icarus: Uprising (3ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:17.781Z",
+    "command": "add-game",
+    "message": "add game Bravely Default (3ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:18.323Z",
+    "command": "add-game",
+    "message": "add game Shin Megami Tensei IV (3ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:19.028Z",
+    "command": "add-game",
+    "message": "add game Poochy & Yoshi's Woolly World (3ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:19.607Z",
+    "command": "add-game",
+    "message": "add game Animal Crossing: Happy Home Designer (3ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:20.265Z",
+    "command": "add-game",
+    "message": "add game Mario Kart DS (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:20.848Z",
+    "command": "add-game",
+    "message": "add game New Super Mario Bros. (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:21.582Z",
+    "command": "add-game",
+    "message": "add game Dragon Quest IX : Les Sentinelles du Firmament (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:22.204Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Phantom Hourglass (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:22.770Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Spirit Tracks (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:23.363Z",
+    "command": "add-game",
+    "message": "add game Professeur Layton et la Boîte de Pandore (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:24.239Z",
+    "command": "add-game",
+    "message": "add game Professeur Layton et le Destin Perdu (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:24.793Z",
+    "command": "add-game",
+    "message": "add game Chrono Trigger (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:25.350Z",
+    "command": "add-game",
+    "message": "add game Ghost Trick : Détective Fantôme (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:25.897Z",
+    "command": "add-game",
+    "message": "add game The World Ends With You (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:26.447Z",
+    "command": "add-game",
+    "message": "add game Castlevania: Dawn of Sorrow (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:27.274Z",
+    "command": "add-game",
+    "message": "add game Advance Wars: Dual Strike (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:27.888Z",
+    "command": "add-game",
+    "message": "add game Kirby Super Star Ultra (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:28.450Z",
+    "command": "add-game",
+    "message": "add game Rhythm Paradise (ds)"
+  },
+  {
+    "at": "2026-08-08T02:12:29.001Z",
+    "command": "add-game",
+    "message": "add game Golden Sun : Obscure Aurore (ds)"
   }
 ]

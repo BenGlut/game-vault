@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { REPO_ROOT, type Vault } from "./store";
-import { POSSESSION_STATUSES } from "../../../src/lib/schema";
+import { POSSESSION_STATUSES, type GameQuotes } from "../../../src/lib/schema";
+import { latestQuotes } from "./quotes";
 
 /**
  * Export public filtré (repo privé = source de vérité, export = données filtrées).
@@ -72,6 +73,15 @@ export function buildPublicExport(v: Vault): Record<string, unknown> {
     estimateTotal: p.estimates ? Math.round(estimateTotal * 100) / 100 : null,
   };
 
+  // cotes publiées par jeu (variante cib/loose) — pour l'estimateur de bonnes affaires
+  const quotes: Record<string, GameQuotes> = {};
+  if (p.estimates) {
+    for (const g of v.games) {
+      const q = latestQuotes(v, g.id);
+      if (q.cib || q.loose) quotes[g.id] = q;
+    }
+  }
+
   const searchIndex = v.games.map((g) => ({
     id: g.id,
     t: g.canonicalTitle,
@@ -89,6 +99,7 @@ export function buildPublicExport(v: Vault): Record<string, unknown> {
     "change-log.json": changeLog,
     "stats.json": stats,
     "search-index.json": searchIndex,
+    "quotes.json": quotes,
   };
 }
 

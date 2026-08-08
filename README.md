@@ -40,7 +40,8 @@ backup automatique, entrée changelog, écriture atomique, sortie JSON.
 pnpm test        # 29 tests Vitest (schémas, CLI, anti-fuite du publish)
 pnpm e2e         # 5 tests Playwright (build statique)
 pnpm build       # export statique Next.js (out/)
-pnpm exec tsx scripts/covers/fetch-covers.ts   # jaquettes libretro-thumbnails
+pnpm exec tsx scripts/covers/fetch-covers.ts    # jaquettes de la collection
+pnpm exec tsx scripts/catalog/fetch-catalog.ts  # catalogue complet DS/3DS + toutes les jaquettes
 ```
 
 ## Règles d'intégrité

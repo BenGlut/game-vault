@@ -230,6 +230,8 @@ function buildGames(list: SeedGame[], platformId: string): Game[] {
     edition: null,
     mediaType: "cartridge" as const,
     externalIds: {},
+    qualityTier: null,
+    buyPriority: null,
   }));
 }
 

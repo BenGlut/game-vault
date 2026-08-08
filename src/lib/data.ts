@@ -106,6 +106,11 @@ export function getSearchIndex(): SearchDoc[] {
   return readJson<SearchDoc[]>("search-index.json");
 }
 
+export function getQuotes(): Record<string, import("./schema").GameQuotes> {
+  const file = path.join(dataDir, "quotes.json");
+  return fs.existsSync(file) ? (JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, import("./schema").GameQuotes>) : {};
+}
+
 export function getGameRows(): GameRow[] {
   const games = getGames();
   const inventory = getInventory();

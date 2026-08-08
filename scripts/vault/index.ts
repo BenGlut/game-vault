@@ -6,6 +6,7 @@
  *
  * Usage: pnpm vault <commande> [options]
  */
+import fs from "node:fs";
 import Fuse from "fuse.js";
 import {
   loadVault,
@@ -28,11 +29,16 @@ import {
   MediaTypeSchema,
   ConditionSchema,
   CompletenessSchema,
+  QuoteVariantSchema,
+  QualityTierSchema,
+  BuyPrioritySchema,
   POSSESSION_STATUSES,
   type Game,
   type InventoryItem,
   type Order,
 } from "../../src/lib/schema";
+import { evaluateDeal } from "../../src/lib/deal";
+import { latestQuotes } from "./lib/quotes";
 
 interface CliResult {
   ok: boolean;
@@ -181,7 +187,7 @@ function main(): void {
       case "add-game": {
         const title = optStr(options, "title");
         const platform = optStr(options, "platform");
-        if (!title || !platform) throw new Error("usage: pnpm vault add-game --title ... --platform ds|3ds|... [--region PAL-FR] [--media cartridge] [--franchise ...] [--aliases 'a|b'] [--edition ...] [--year 2015]");
+        if (!title || !platform) throw new Error("usage: pnpm vault add-game --title ... --platform ds|3ds|... [--region PAL-FR] [--media cartridge] [--franchise ...] [--aliases 'a|b'] [--edition ...] [--year 2015] [--ean 0045496…]");
         runMutation("add-game", yes, `add game ${title} (${platform})`, (v) => {
           if (!v.platforms.some((p) => p.id === platform)) throw new Error(`Plateforme inconnue: ${platform}`);
           const id = makeGameId(platform, title);
@@ -206,10 +212,67 @@ function main(): void {
             genres: optStr(options, "genres")?.split(",").filter(Boolean) ?? [],
             edition: optStr(options, "edition") ?? null,
             mediaType: MediaTypeSchema.parse(optStr(options, "media") ?? "cartridge"),
-            externalIds: {},
+            externalIds: optStr(options, "ean") ? { ean: optStr(options, "ean")! } : {},
+            qualityTier: optStr(options, "quality") ? QualityTierSchema.parse(optStr(options, "quality")) : null,
+            buyPriority: optStr(options, "priority") ? BuyPrioritySchema.parse(optStr(options, "priority")) : null,
           };
           v.games.push(game);
-          return { result: game, affectedIds: { "games.json": [id] } };
+          const invIds: string[] = [];
+          // --wishlist : crée directement l'item wishlist dans la même mutation
+          if (optBool(options, "wishlist")) {
+            v.inventory.push({
+              id: id.replace(/^game_/, "inv_"),
+              gameId: id,
+              status: "wishlist",
+              quantity: 0,
+              condition: "unknown",
+              completeness: "unknown",
+              purchasePrice: null,
+              currentEstimate: null,
+              verificationStatus: "verified", // pas un objet physique : rien à vérifier
+              quantityNeedsReview: false,
+              evidenceIds: [],
+              orderId: null,
+              privateNotes: null,
+              acquiredAt: null,
+              createdAt: nowIso(),
+              updatedAt: nowIso(),
+            });
+            invIds.push(id.replace(/^game_/, "inv_"));
+          }
+          return { result: game, affectedIds: { "games.json": [id], ...(invIds.length ? { "inventory.json": invIds } : {}) } };
+        });
+        break;
+      }
+
+      case "rate": {
+        const gameRef = optStr(options, "game");
+        if (!gameRef) throw new Error("usage: pnpm vault rate --game <id|titre> [--quality S|A|B|C|D] [--priority haute|moyenne|basse|aucune]");
+        runMutation("rate", yes, `rate ${gameRef}`, (v) => {
+          const game = v.games.find((g) => g.id === gameRef) ?? findGame(v, gameRef);
+          const quality = optStr(options, "quality");
+          const priority = optStr(options, "priority");
+          if (!quality && !priority) throw new Error("Fournir --quality et/ou --priority");
+          if (quality) game.qualityTier = QualityTierSchema.parse(quality);
+          if (priority) game.buyPriority = priority === "aucune" ? null : BuyPrioritySchema.parse(priority);
+          return { result: game, affectedIds: { "games.json": [game.id] } };
+        });
+        break;
+      }
+
+      case "rate-batch": {
+        const file = optStr(options, "file");
+        if (!file) throw new Error('usage: pnpm vault rate-batch --file ratings.json  (format: [{"game":"game_…","quality":"A","priority":"haute"}])');
+        const specs = JSON.parse(fs.readFileSync(file, "utf8")) as { game: string; quality?: string; priority?: string }[];
+        runMutation("rate-batch", yes, `rate ${specs.length} games from ${file}`, (v) => {
+          const rated: string[] = [];
+          for (const spec of specs) {
+            const game = v.games.find((g) => g.id === spec.game) ?? findGame(v, spec.game);
+            if (spec.quality) game.qualityTier = QualityTierSchema.parse(spec.quality);
+            if (spec.priority) game.buyPriority = spec.priority === "aucune" ? null : BuyPrioritySchema.parse(spec.priority);
+            rated.push(game.id);
+          }
+          return { result: { rated: rated.length }, affectedIds: { "games.json": rated } };
         });
         break;
       }
@@ -434,9 +497,10 @@ function main(): void {
         const gameRef = optStr(options, "game");
         const source = optStr(options, "source");
         if (!gameRef || !source)
-          throw new Error("usage: pnpm vault add-price --game <id|titre> --source ebay|manual|... [--low 20] [--median 25] [--high 30] [--url ...] [--date YYYY-MM-DD]");
+          throw new Error("usage: pnpm vault add-price --game <id|titre> --source ebay|manual|... [--variant cib|loose|any] [--low 20] [--median 25] [--high 30] [--url ...] [--date YYYY-MM-DD]");
         runMutation("add-price", yes, `price observation for ${gameRef}`, (v) => {
           const game = findGame(v, gameRef);
+          const variant = QuoteVariantSchema.parse(optStr(options, "variant") ?? "any");
           const low = optNum(options, "low") ?? null;
           const median = optNum(options, "median") ?? null;
           const high = optNum(options, "high") ?? null;
@@ -444,6 +508,7 @@ function main(): void {
           const obs = {
             id: `price_${Date.now().toString(36)}_${game.id.slice(5, 20)}`,
             gameId: game.id,
+            variant,
             low,
             median,
             high,
@@ -454,10 +519,17 @@ function main(): void {
             notes: optStr(options, "notes") ?? null,
           };
           v.priceObservations.push(obs);
+          // met à jour l'estimation des items dont la complétude correspond à la variante
+          const CIB_LIKE = ["CIB", "sealed", "no_manual", "box_only"];
           const invIds: string[] = [];
           if (median !== null || (low !== null && high !== null)) {
             const med = median ?? (low! + high!) / 2;
             for (const i of v.inventory.filter((x) => x.gameId === game.id)) {
+              const matches =
+                variant === "any" ||
+                (variant === "cib" && CIB_LIKE.includes(i.completeness)) ||
+                (variant === "loose" && i.completeness === "loose");
+              if (!matches) continue;
               i.currentEstimate = {
                 low: low ?? med,
                 median: med,
@@ -471,6 +543,89 @@ function main(): void {
             }
           }
           return { result: obs, affectedIds: { "price-observations.json": [obs.id], "inventory.json": invIds } };
+        });
+        break;
+      }
+
+      case "price-batch": {
+        const file = optStr(options, "file");
+        if (!file)
+          throw new Error('usage: pnpm vault price-batch --file prices.json  (format: [{"game":"game_…","variant":"cib|loose","low":10,"median":15,"high":22,"source":"…"}])');
+        const specs = JSON.parse(fs.readFileSync(file, "utf8")) as {
+          game: string; variant: string; low: number; median: number; high: number; source: string; date?: string;
+        }[];
+        runMutation("price-batch", yes, `${specs.length} price observations from ${file}`, (v) => {
+          const CIB_LIKE = ["CIB", "sealed", "no_manual", "box_only"];
+          const obsIds: string[] = [];
+          const invIds: string[] = [];
+          let n = 0;
+          for (const spec of specs) {
+            const game = v.games.find((g) => g.id === spec.game) ?? findGame(v, spec.game);
+            const variant = QuoteVariantSchema.parse(spec.variant);
+            if (!(spec.low <= spec.median && spec.median <= spec.high))
+              throw new Error(`${spec.game} (${variant}): tranches incohérentes ${spec.low}/${spec.median}/${spec.high}`);
+            const obs = {
+              id: `price_${Date.now().toString(36)}${(n++).toString(36)}_${game.id.slice(5, 20)}`,
+              gameId: game.id,
+              variant,
+              low: spec.low,
+              median: spec.median,
+              high: spec.high,
+              currency: "EUR",
+              source: spec.source,
+              url: null,
+              observedAt: spec.date ?? today(),
+              notes: null,
+            };
+            v.priceObservations.push(obs);
+            obsIds.push(obs.id);
+            for (const i of v.inventory.filter((x) => x.gameId === game.id)) {
+              const matches =
+                variant === "any" ||
+                (variant === "cib" && (CIB_LIKE.includes(i.completeness) || i.completeness === "unknown")) ||
+                (variant === "loose" && i.completeness === "loose");
+              if (!matches) continue;
+              i.currentEstimate = {
+                low: spec.low, median: spec.median, high: spec.high,
+                currency: "EUR", source: spec.source, observedAt: obs.observedAt,
+              };
+              i.updatedAt = nowIso();
+              invIds.push(i.id);
+            }
+          }
+          return {
+            result: { observations: obsIds.length, itemsUpdated: invIds.length },
+            affectedIds: { "price-observations.json": obsIds, "inventory.json": [...new Set(invIds)] },
+          };
+        });
+        break;
+      }
+
+      case "deal": {
+        const gameRef = optStr(options, "game");
+        const price = optNum(options, "price");
+        if (!gameRef || price === undefined)
+          throw new Error("usage: pnpm vault deal --game <id|titre> --price 15 [--state cib|loose]");
+        const v = loadVault();
+        const game = findGame(v, gameRef);
+        const state = optStr(options, "state") === "loose" ? "loose" : "cib";
+        const quotes = latestQuotes(v, game.id);
+        const quote = quotes[state] ?? quotes[state === "cib" ? "loose" : "cib"];
+        if (!quote)
+          emit({
+            ok: false,
+            command: "deal",
+            error: `Aucune cote pour ${game.canonicalTitle} — ajouter d'abord: pnpm vault add-price --game ${game.id} --variant ${state} --low … --median … --high … --source …`,
+          });
+        emit({
+          ok: true,
+          command: "deal",
+          result: {
+            game: game.canonicalTitle,
+            state,
+            price,
+            ...evaluateDeal(price, quote!),
+          },
         });
         break;
       }

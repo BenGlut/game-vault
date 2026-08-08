@@ -1201,5 +1201,207 @@
     "a": [],
     "f": "Worms",
     "p": "ds"
+  },
+  {
+    "id": "game_3ds_mario-party-the-top-100",
+    "t": "Mario Party: The Top 100",
+    "n": "mario party the top 100",
+    "a": [
+      "Mario Party the Top 100"
+    ],
+    "f": "Mario Party",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_lego-jurassic-world",
+    "t": "LEGO Jurassic World",
+    "n": "lego jurassic world",
+    "a": [],
+    "f": "LEGO",
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
+    "t": "The Legend of Zelda: Majora's Mask 3D",
+    "n": "the legend of zelda majora s mask 3d",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_fire-emblem-awakening",
+    "t": "Fire Emblem: Awakening",
+    "n": "fire emblem awakening",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_metroid-samus-returns",
+    "t": "Metroid: Samus Returns",
+    "n": "metroid samus returns",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_kid-icarus-uprising",
+    "t": "Kid Icarus: Uprising",
+    "n": "kid icarus uprising",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_bravely-default",
+    "t": "Bravely Default",
+    "n": "bravely default",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_shin-megami-tensei-iv",
+    "t": "Shin Megami Tensei IV",
+    "n": "shin megami tensei iv",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_poochy-yoshi-s-woolly-world",
+    "t": "Poochy & Yoshi's Woolly World",
+    "n": "poochy yoshi s woolly world",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_3ds_animal-crossing-happy-home-designer",
+    "t": "Animal Crossing: Happy Home Designer",
+    "n": "animal crossing happy home designer",
+    "a": [],
+    "f": null,
+    "p": "3ds"
+  },
+  {
+    "id": "game_ds_mario-kart-ds",
+    "t": "Mario Kart DS",
+    "n": "mario kart ds",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_new-super-mario-bros",
+    "t": "New Super Mario Bros.",
+    "n": "new super mario bros",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_dragon-quest-ix-les-sentinelles-du-firmament",
+    "t": "Dragon Quest IX : Les Sentinelles du Firmament",
+    "n": "dragon quest ix les sentinelles du firmament",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_the-legend-of-zelda-phantom-hourglass",
+    "t": "The Legend of Zelda: Phantom Hourglass",
+    "n": "the legend of zelda phantom hourglass",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_the-legend-of-zelda-spirit-tracks",
+    "t": "The Legend of Zelda: Spirit Tracks",
+    "n": "the legend of zelda spirit tracks",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_professeur-layton-et-la-boite-de-pandore",
+    "t": "Professeur Layton et la Boîte de Pandore",
+    "n": "professeur layton et la boite de pandore",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_professeur-layton-et-le-destin-perdu",
+    "t": "Professeur Layton et le Destin Perdu",
+    "n": "professeur layton et le destin perdu",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_chrono-trigger",
+    "t": "Chrono Trigger",
+    "n": "chrono trigger",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_ghost-trick-detective-fantome",
+    "t": "Ghost Trick : Détective Fantôme",
+    "n": "ghost trick detective fantome",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_the-world-ends-with-you",
+    "t": "The World Ends With You",
+    "n": "the world ends with you",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_castlevania-dawn-of-sorrow",
+    "t": "Castlevania: Dawn of Sorrow",
+    "n": "castlevania dawn of sorrow",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_advance-wars-dual-strike",
+    "t": "Advance Wars: Dual Strike",
+    "n": "advance wars dual strike",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_kirby-super-star-ultra",
+    "t": "Kirby Super Star Ultra",
+    "n": "kirby super star ultra",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_rhythm-paradise",
+    "t": "Rhythm Paradise",
+    "n": "rhythm paradise",
+    "a": [],
+    "f": null,
+    "p": "ds"
+  },
+  {
+    "id": "game_ds_golden-sun-obscure-aurore",
+    "t": "Golden Sun : Obscure Aurore",
+    "n": "golden sun obscure aurore",
+    "a": [],
+    "f": null,
+    "p": "ds"
   }
 ]

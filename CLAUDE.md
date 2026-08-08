@@ -113,7 +113,9 @@ src/components/…         ui.tsx (badges/cards), icons.tsx (SVG), *Explorer/Sea
 scripts/vault/           the CLI — index.ts (commands), lib/store.ts (atomic IO,
                          diff, backups, integrity), lib/publish.ts (filtered export)
 scripts/seed/            initial bootstrap (idempotent, --force to regen)
-scripts/covers/          libretro-thumbnails fetch + 3-tier title matching
+scripts/covers/          libretro-thumbnails fetch + 3-tier title matching (collection)
+scripts/catalog/         full No-Intro DS/3DS reference catalog + ALL covers (160px,
+                         stored locally in public/catalog-covers/ — user order)
 data/public/             committed filtered export — the ONLY data the site sees
 .agents/skills/          8 task-scoped skills (load only when needed)
 ```

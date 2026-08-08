@@ -1,14 +1,16 @@
 {
-  "generatedAt": "2026-08-08T00:31:24.019Z",
-  "totalGames": 130,
+  "generatedAt": "2026-08-08T02:14:17.069Z",
+  "totalGames": 155,
   "ownedItems": 130,
   "byStatus": {
-    "owned": 130
+    "owned": 130,
+    "shipped": 6,
+    "wishlist": 0
   },
   "byPlatform": {
-    "ds": 56,
-    "3ds": 74
+    "ds": 71,
+    "3ds": 84
   },
-  "needsReview": 130,
-  "estimateTotal": 0
+  "needsReview": 136,
+  "estimateTotal": 3075
 }

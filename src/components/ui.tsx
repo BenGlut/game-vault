@@ -39,6 +39,43 @@ export function ReviewBadge({ verificationStatus }: { verificationStatus: string
   );
 }
 
+const TIER_COLORS: Record<string, string> = {
+  S: "bg-[#f5b64225] text-[#f5b642] border border-[#f5b64260]",
+  A: "bg-[#4ade8020] text-[#4ade80]",
+  B: "bg-[#60a5fa20] text-[#60a5fa]",
+  C: "bg-[#8a93a820] text-[#8a93a8]",
+  D: "bg-[#f8717120] text-[#f87171]",
+};
+
+/** Badge de niveau de qualité (S incontournable … D faible). */
+export function QualityBadge({ tier }: { tier: string | null }) {
+  if (!tier) return null;
+  return (
+    <span
+      className={`inline-flex h-5 w-5 items-center justify-center rounded font-mono text-xs font-bold ${TIER_COLORS[tier] ?? ""}`}
+      title={`Qualité ${tier}`}
+    >
+      {tier}
+    </span>
+  );
+}
+
+const PRIORITY_STYLES: Record<string, string> = {
+  haute: "bg-[#f8717120] text-[#f87171]",
+  moyenne: "bg-[#f5b64220] text-[#f5b642]",
+  basse: "bg-[#8a93a820] text-[#8a93a8]",
+};
+
+/** Badge de priorité d'achat (wishlist / recommandations). */
+export function PriorityBadge({ priority }: { priority: string | null }) {
+  if (!priority) return null;
+  return (
+    <span className={`inline-block rounded-full px-2 py-0.5 text-xs font-medium ${PRIORITY_STYLES[priority] ?? ""}`}>
+      priorité {priority}
+    </span>
+  );
+}
+
 export function StatCard({ label, value, sub }: { label: string; value: string; sub?: string }) {
   return (
     <div className="rounded-xl border border-border bg-surface p-4">
@@ -79,7 +116,10 @@ export function GameLink({ row }: { row: GameRow }) {
           </div>
         )}
         <div className="min-w-0">
-          <div className="truncate font-medium">{row.game.canonicalTitle}</div>
+          <div className="flex items-center gap-2">
+            <span className="truncate font-medium">{row.game.canonicalTitle}</span>
+            <QualityBadge tier={row.game.qualityTier} />
+          </div>
           <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted">
             <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono">
               {row.platform?.shortName ?? row.game.platformId}

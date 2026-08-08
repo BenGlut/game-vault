@@ -52,6 +52,14 @@ export const MediaTypeSchema = z.enum(MEDIA_TYPES);
 export const VERIFICATION_STATUSES = ["verified", "needs_review"] as const;
 export const VerificationStatusSchema = z.enum(VERIFICATION_STATUSES);
 
+/** Niveau de qualité du jeu (consensus critique) : S = incontournable … D = faible. */
+export const QUALITY_TIERS = ["S", "A", "B", "C", "D"] as const;
+export const QualityTierSchema = z.enum(QUALITY_TIERS);
+
+/** Priorité d'achat (surtout pour la wishlist / recommandations). */
+export const BUY_PRIORITIES = ["haute", "moyenne", "basse"] as const;
+export const BuyPrioritySchema = z.enum(BUY_PRIORITIES);
+
 export const MARKETPLACES = [
   "vinted",
   "leboncoin",
@@ -108,6 +116,8 @@ export const GameSchema = z.object({
   edition: z.string().nullable().default(null),
   mediaType: MediaTypeSchema.default("cartridge"),
   externalIds: z.record(z.string(), z.string()).default({}),
+  qualityTier: QualityTierSchema.nullable().default(null),
+  buyPriority: BuyPrioritySchema.nullable().default(null),
 });
 
 export const InventoryItemSchema = z.object({
@@ -181,9 +191,14 @@ export const ListingSchema = z.object({
   privateNotes: z.string().nullable().default(null),
 });
 
+/** Variante de cote : avec boîte (cib), sans boîte (loose), ou indifférencié (any). */
+export const QUOTE_VARIANTS = ["cib", "loose", "any"] as const;
+export const QuoteVariantSchema = z.enum(QUOTE_VARIANTS);
+
 export const PriceObservationSchema = z.object({
   id: z.string().regex(/^price_[a-z0-9_-]+$/),
   gameId: z.string(),
+  variant: QuoteVariantSchema.default("any"),
   low: z.number().nonnegative().nullable().default(null),
   median: z.number().nonnegative().nullable().default(null),
   high: z.number().nonnegative().nullable().default(null),
@@ -257,6 +272,20 @@ export type OrderItem = z.infer<typeof OrderItemSchema>;
 export type Seller = z.infer<typeof SellerSchema>;
 export type Listing = z.infer<typeof ListingSchema>;
 export type PriceObservation = z.infer<typeof PriceObservationSchema>;
+export type QuoteVariant = z.infer<typeof QuoteVariantSchema>;
+export type QualityTier = z.infer<typeof QualityTierSchema>;
+export type BuyPriority = z.infer<typeof BuyPrioritySchema>;
+
+/** Cote publiée d'un jeu pour une variante donnée. */
+export interface Quote {
+  low: number;
+  median: number;
+  high: number;
+  currency: string;
+  source: string;
+  observedAt: string;
+}
+export type GameQuotes = Partial<Record<"cib" | "loose", Quote>>;
 export type Evidence = z.infer<typeof EvidenceSchema>;
 export type ChangeLogEntry = z.infer<typeof ChangeLogEntrySchema>;
 export type PublishConfig = z.infer<typeof PublishConfigSchema>;

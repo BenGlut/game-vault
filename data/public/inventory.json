@@ -7,12 +7,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_captain-toad-treasure-tracker",
@@ -22,12 +29,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_cars-2",
@@ -37,12 +51,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 6,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_detective-pikachu",
@@ -52,12 +73,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 25,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_disney-magical-world-2",
@@ -67,12 +95,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_donkey-kong-country-returns-3d",
@@ -82,12 +117,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_dragon-ball-fusions",
@@ -97,12 +139,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_dragon-ball-z-extreme-butoden",
@@ -112,12 +161,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_dragon-quest-vii-la-quete-des-vestiges-du-monde",
@@ -127,12 +183,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 30,
+      "median": 45,
+      "high": 65,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_dragons-2",
@@ -142,12 +205,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_ever-oasis",
@@ -157,12 +227,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 22,
+      "median": 32,
+      "high": 45,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_farming-simulator-18",
@@ -172,12 +249,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_fire-emblem-echoes-shadows-of-valentia",
@@ -187,12 +271,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 28,
+      "median": 38,
+      "high": 55,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_fire-emblem-fates-conquete",
@@ -202,12 +293,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_fire-emblem-warriors",
@@ -217,12 +315,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_fossil-fighters-frontier",
@@ -232,12 +337,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_kirby-battle-royale",
@@ -247,12 +359,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_kirby-planet-robobot",
@@ -262,12 +381,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 28,
+      "median": 38,
+      "high": 52,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_kirby-triple-deluxe",
@@ -277,12 +403,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 20,
+      "median": 28,
+      "high": 38,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lbx-little-battlers-experience",
@@ -292,12 +425,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 10,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-batman-3-au-dela-de-gotham",
@@ -307,12 +447,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-city-undercover-the-chase-begins",
@@ -322,12 +469,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-chima-le-voyage-de-laval",
@@ -337,12 +491,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-le-hobbit",
@@ -352,12 +513,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-le-seigneur-des-anneaux",
@@ -367,12 +535,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-marvel-super-heroes-l-univers-en-peril",
@@ -382,12 +557,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 11,
+      "high": 16,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-ninjago-l-ombre-de-ronin",
@@ -397,12 +579,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-ninjago-nindroids",
@@ -412,12 +601,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-star-wars-iii",
@@ -427,12 +623,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_lego-star-wars-le-reveil-de-la-force",
@@ -442,12 +645,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 9,
+      "median": 13,
+      "high": 19,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_la-grande-aventure-lego-le-jeu-video",
@@ -457,12 +667,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_luigi-s-mansion",
@@ -472,12 +689,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 22,
+      "median": 30,
+      "high": 42,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_luigi-s-mansion-2",
@@ -487,12 +711,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_mario-luigi-dream-team-bros",
@@ -502,12 +733,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_mario-luigi-paper-jam-bros",
@@ -517,12 +755,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_mario-luigi-superstar-saga-les-sbires-de-bowser",
@@ -532,12 +777,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 22,
+      "median": 32,
+      "high": 45,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_mario-kart-7",
@@ -547,12 +799,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_mario-party-island-tour",
@@ -562,12 +821,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_mario-party-star-rush",
@@ -577,12 +843,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 14,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
@@ -592,12 +865,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_mario-tennis-open",
@@ -607,12 +887,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 9,
+      "median": 13,
+      "high": 19,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_miitopia",
@@ -622,12 +909,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 18,
+      "median": 26,
+      "high": 36,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_monster-hunter-3-ultimate",
@@ -637,12 +931,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 9,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_monster-hunter-generations",
@@ -652,12 +953,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_new-super-mario-bros-2",
@@ -667,12 +975,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 14,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_nintendogs-cats",
@@ -682,12 +997,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 10,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_paper-mario-sticker-star",
@@ -697,12 +1019,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_planes",
@@ -712,12 +1041,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-donjon-mystere-les-portes-de-l-infini",
@@ -727,12 +1063,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-mega-donjon-mystere",
@@ -742,12 +1085,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 18,
+      "median": 26,
+      "high": 38,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-rumble-world",
@@ -757,12 +1107,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 9,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-rubis-omega",
@@ -772,12 +1129,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 32,
+      "median": 42,
+      "high": 58,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-saphir-alpha",
@@ -787,12 +1151,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 32,
+      "median": 42,
+      "high": 58,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-soleil",
@@ -802,12 +1173,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 22,
+      "median": 30,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-ultra-soleil",
@@ -817,12 +1195,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 28,
+      "median": 38,
+      "high": 52,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-lune",
@@ -832,12 +1217,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 22,
+      "median": 30,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-ultra-lune",
@@ -847,12 +1239,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 28,
+      "median": 38,
+      "high": 52,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-x",
@@ -862,12 +1261,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 25,
+      "median": 35,
+      "high": 48,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_pokemon-y",
@@ -877,12 +1283,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 25,
+      "median": 35,
+      "high": 48,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_super-pokemon-rumble",
@@ -892,12 +1305,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 9,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_rayman-les-lapins-cretins-pack-famille",
@@ -907,12 +1327,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_sonic-boom-le-cristal-brise",
@@ -922,12 +1349,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_star-fox-64-3d",
@@ -937,12 +1371,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 17,
+      "median": 24,
+      "high": 33,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_super-mario-3d-land",
@@ -952,12 +1393,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.625Z"
   },
   {
     "id": "inv_3ds_super-mario-maker-for-nintendo-3ds",
@@ -967,12 +1415,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_super-smash-bros-for-nintendo-3ds",
@@ -982,12 +1437,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_the-legend-of-zelda-a-link-between-worlds",
@@ -997,12 +1459,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 22,
+      "median": 30,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_the-legend-of-zelda-ocarina-of-time-3d",
@@ -1012,12 +1481,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_the-legend-of-zelda-tri-force-heroes",
@@ -1027,12 +1503,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_wrc",
@@ -1042,12 +1525,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_yo-kai-watch-2-esprits-farceurs",
@@ -1057,12 +1547,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_yo-kai-watch-2-fantomes-bouffis",
@@ -1072,12 +1569,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_yo-kai-watch-blasters-l-escadron-du-chien-blanc",
@@ -1087,12 +1591,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_3ds_yoshi-s-new-island",
@@ -1102,12 +1613,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_arthur-et-les-minimoys",
@@ -1117,12 +1635,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 4,
+      "median": 7,
+      "high": 11,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_asterix-obelix-xxl-2-mission-wifix",
@@ -1132,12 +1657,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_bien-etre-du-visage",
@@ -1147,12 +1679,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_bratz-forever-diamondz",
@@ -1162,12 +1701,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_cars",
@@ -1177,12 +1723,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 4,
+      "median": 7,
+      "high": 11,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_cars-race-o-rama",
@@ -1192,12 +1745,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 5,
+      "median": 8,
+      "high": 13,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_children-of-mana",
@@ -1207,12 +1767,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_clochette-et-la-pierre-de-lune",
@@ -1222,12 +1789,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_clochette-et-l-expedition-feerique",
@@ -1237,12 +1811,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_dance-floor",
@@ -1252,12 +1833,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_dora-cuisine",
@@ -1267,12 +1855,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_dora-et-sauvons-les-animaux",
@@ -1282,12 +1877,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_dragon-ball-z-supersonic-warriors-2",
@@ -1297,12 +1899,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 18,
+      "median": 26,
+      "high": 38,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_final-fantasy-iii",
@@ -1312,12 +1921,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_final-fantasy-crystal-chronicles-echoes-of-time",
@@ -1327,12 +1943,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_final-fantasy-tactics-a2",
@@ -1342,12 +1965,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_fort-boyard",
@@ -1357,12 +1987,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_goldeneye-007",
@@ -1372,12 +2009,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_high-school-musical-3",
@@ -1387,12 +2031,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_lego-batman-2-dc-super-heroes",
@@ -1402,12 +2053,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_lego-harry-potter-annees-1-4",
@@ -1417,12 +2075,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_lecons-de-cuisine",
@@ -1432,12 +2097,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 4,
+      "median": 6,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_les-chevaliers-de-baphomet-director-s-cut",
@@ -1447,12 +2119,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_les-rebelles-de-la-foret",
@@ -1462,12 +2141,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 4,
+      "median": 7,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_ma-pause-yoga",
@@ -1477,12 +2163,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_mario-luigi-voyage-au-centre-de-bowser",
@@ -1492,12 +2185,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_mario-vs-donkey-kong-2-la-marche-des-mini",
@@ -1507,12 +2207,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_mission-safari",
@@ -1522,12 +2229,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_nancy-drew-the-deadly-secret-of-olde-world-park",
@@ -1537,12 +2251,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 5,
+      "median": 8,
+      "high": 13,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_plus-belle-la-vie-le-secret-du-dr-livia",
@@ -1552,12 +2273,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-version-argent-soulsilver",
@@ -1567,12 +2295,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 140,
+      "median": 180,
+      "high": 250,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-version-blanche",
@@ -1582,12 +2317,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 60,
+      "median": 80,
+      "high": 110,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-version-diamant",
@@ -1597,12 +2339,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-version-noire",
@@ -1612,12 +2361,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 60,
+      "median": 80,
+      "high": 110,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-version-noire-2",
@@ -1627,12 +2383,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 100,
+      "median": 140,
+      "high": 190,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-version-or-heartgold",
@@ -1642,12 +2405,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 140,
+      "median": 180,
+      "high": 250,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-version-perle",
@@ -1657,12 +2427,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-version-platine",
@@ -1672,12 +2449,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 90,
+      "median": 120,
+      "high": 170,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-donjon-mystere-equipe-de-secours-bleue",
@@ -1687,12 +2471,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-donjon-mystere-explorateurs-de-l-ombre",
@@ -1702,12 +2493,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 25,
+      "median": 35,
+      "high": 50,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-donjon-mystere-explorateurs-du-temps",
@@ -1717,12 +2515,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 25,
+      "median": 35,
+      "high": 50,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-link",
@@ -1732,12 +2537,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_pokemon-ranger",
@@ -1747,12 +2559,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 16,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_populous-ds",
@@ -1762,12 +2581,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_programme-d-entrainement-cerebral",
@@ -1777,12 +2603,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 3,
+      "median": 5,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-l-etrange-village",
@@ -1792,12 +2625,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 7,
+      "median": 11,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_runaway-a-twist-of-fate",
@@ -1807,12 +2647,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 13,
+      "high": 19,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_runaway-the-dream-of-the-turtle",
@@ -1822,12 +2669,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 13,
+      "high": 19,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_simcity-ds",
@@ -1837,12 +2691,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_sonic-chronicles-la-confrerie-des-tenebres",
@@ -1852,12 +2713,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 9,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_spyro-shadow-legacy",
@@ -1867,12 +2735,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_star-wars-the-clone-wars-l-alliance-jedi",
@@ -1882,12 +2757,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_super-mario-64-ds",
@@ -1897,12 +2779,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.626Z"
   },
   {
     "id": "inv_ds_totally-spies-2-undercover",
@@ -1912,12 +2801,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 4,
+      "median": 7,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.627Z"
   },
   {
     "id": "inv_ds_worms-open-warfare",
@@ -1927,12 +2823,19 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 6,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.627Z"
   },
   {
     "id": "inv_ds_worms-open-warfare-2",
@@ -1942,11 +2845,495 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
-    "currentEstimate": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": null,
-    "updatedAt": "2026-08-08T00:16:02.949Z"
+    "updatedAt": "2026-08-08T02:11:48.627Z"
+  },
+  {
+    "id": "inv_3ds_kirby-planet-robobot-2",
+    "gameId": "game_3ds_kirby-planet-robobot",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 28,
+      "median": 38,
+      "high": 52,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msjq50c0",
+    "updatedAt": "2026-08-08T02:11:48.625Z"
+  },
+  {
+    "id": "inv_3ds_mario-party-the-top-100",
+    "gameId": "game_3ds_mario-party-the-top-100",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "CIB",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msjq5bvw",
+    "updatedAt": "2026-08-08T02:11:48.625Z"
+  },
+  {
+    "id": "inv_3ds_mario-party-the-top-100-2",
+    "gameId": "game_3ds_mario-party-the-top-100",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "loose",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msjq5bvw",
+    "updatedAt": "2026-08-08T02:11:48.625Z"
+  },
+  {
+    "id": "inv_3ds_lego-ninjago-l-ombre-de-ronin-2",
+    "gameId": "game_3ds_lego-ninjago-l-ombre-de-ronin",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msjq5bvw",
+    "updatedAt": "2026-08-08T02:11:48.625Z"
+  },
+  {
+    "id": "inv_3ds_lego-jurassic-world",
+    "gameId": "game_3ds_lego-jurassic-world",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msjq5bvw",
+    "updatedAt": "2026-08-08T02:11:48.625Z"
+  },
+  {
+    "id": "inv_3ds_super-mario-maker-for-nintendo-3ds-2",
+    "gameId": "game_3ds_super-mario-maker-for-nintendo-3ds",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msjq5bvw",
+    "updatedAt": "2026-08-08T02:11:48.626Z"
+  },
+  {
+    "id": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d",
+    "gameId": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:15.330Z"
+  },
+  {
+    "id": "inv_3ds_fire-emblem-awakening",
+    "gameId": "game_3ds_fire-emblem-awakening",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:15.974Z"
+  },
+  {
+    "id": "inv_3ds_metroid-samus-returns",
+    "gameId": "game_3ds_metroid-samus-returns",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:16.572Z"
+  },
+  {
+    "id": "inv_3ds_kid-icarus-uprising",
+    "gameId": "game_3ds_kid-icarus-uprising",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:17.147Z"
+  },
+  {
+    "id": "inv_3ds_bravely-default",
+    "gameId": "game_3ds_bravely-default",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:17.772Z"
+  },
+  {
+    "id": "inv_3ds_shin-megami-tensei-iv",
+    "gameId": "game_3ds_shin-megami-tensei-iv",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:18.316Z"
+  },
+  {
+    "id": "inv_3ds_poochy-yoshi-s-woolly-world",
+    "gameId": "game_3ds_poochy-yoshi-s-woolly-world",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:19.021Z"
+  },
+  {
+    "id": "inv_3ds_animal-crossing-happy-home-designer",
+    "gameId": "game_3ds_animal-crossing-happy-home-designer",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:19.596Z"
+  },
+  {
+    "id": "inv_ds_mario-kart-ds",
+    "gameId": "game_ds_mario-kart-ds",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:20.257Z"
+  },
+  {
+    "id": "inv_ds_new-super-mario-bros",
+    "gameId": "game_ds_new-super-mario-bros",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:20.840Z"
+  },
+  {
+    "id": "inv_ds_dragon-quest-ix-les-sentinelles-du-firmament",
+    "gameId": "game_ds_dragon-quest-ix-les-sentinelles-du-firmament",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:21.573Z"
+  },
+  {
+    "id": "inv_ds_the-legend-of-zelda-phantom-hourglass",
+    "gameId": "game_ds_the-legend-of-zelda-phantom-hourglass",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:22.195Z"
+  },
+  {
+    "id": "inv_ds_the-legend-of-zelda-spirit-tracks",
+    "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:22.760Z"
+  },
+  {
+    "id": "inv_ds_professeur-layton-et-la-boite-de-pandore",
+    "gameId": "game_ds_professeur-layton-et-la-boite-de-pandore",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:23.353Z"
+  },
+  {
+    "id": "inv_ds_professeur-layton-et-le-destin-perdu",
+    "gameId": "game_ds_professeur-layton-et-le-destin-perdu",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:24.230Z"
+  },
+  {
+    "id": "inv_ds_chrono-trigger",
+    "gameId": "game_ds_chrono-trigger",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:24.782Z"
+  },
+  {
+    "id": "inv_ds_ghost-trick-detective-fantome",
+    "gameId": "game_ds_ghost-trick-detective-fantome",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:25.341Z"
+  },
+  {
+    "id": "inv_ds_the-world-ends-with-you",
+    "gameId": "game_ds_the-world-ends-with-you",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:25.888Z"
+  },
+  {
+    "id": "inv_ds_castlevania-dawn-of-sorrow",
+    "gameId": "game_ds_castlevania-dawn-of-sorrow",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:26.440Z"
+  },
+  {
+    "id": "inv_ds_advance-wars-dual-strike",
+    "gameId": "game_ds_advance-wars-dual-strike",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:27.263Z"
+  },
+  {
+    "id": "inv_ds_kirby-super-star-ultra",
+    "gameId": "game_ds_kirby-super-star-ultra",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:27.878Z"
+  },
+  {
+    "id": "inv_ds_rhythm-paradise",
+    "gameId": "game_ds_rhythm-paradise",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:28.442Z"
+  },
+  {
+    "id": "inv_ds_golden-sun-obscure-aurore",
+    "gameId": "game_ds_golden-sun-obscure-aurore",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-08T02:12:28.994Z"
   }
 ]

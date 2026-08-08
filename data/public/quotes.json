@@ -1,0 +1,2378 @@
+{
+  "game_3ds_animal-crossing-new-leaf-welcome-amiibo": {
+    "cib": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 25,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_captain-toad-treasure-tracker": {
+    "cib": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 25,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_cars-2": {
+    "cib": {
+      "low": 6,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 3,
+      "median": 5,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_detective-pikachu": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 25,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_disney-magical-world-2": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_donkey-kong-country-returns-3d": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_dragon-ball-fusions": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_dragon-ball-z-extreme-butoden": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_dragon-quest-vii-la-quete-des-vestiges-du-monde": {
+    "cib": {
+      "low": 30,
+      "median": 45,
+      "high": 65,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 20,
+      "median": 30,
+      "high": 45,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_dragons-2": {
+    "cib": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_ever-oasis": {
+    "cib": {
+      "low": 22,
+      "median": 32,
+      "high": 45,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_farming-simulator-18": {
+    "cib": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_fire-emblem-echoes-shadows-of-valentia": {
+    "cib": {
+      "low": 28,
+      "median": 38,
+      "high": 55,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_fire-emblem-fates-conquete": {
+    "cib": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_fire-emblem-warriors": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_fossil-fighters-frontier": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_kirby-battle-royale": {
+    "cib": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 25,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_kirby-planet-robobot": {
+    "cib": {
+      "low": 28,
+      "median": 38,
+      "high": 52,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_kirby-triple-deluxe": {
+    "cib": {
+      "low": 20,
+      "median": 28,
+      "high": 38,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lbx-little-battlers-experience": {
+    "cib": {
+      "low": 10,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-batman-3-au-dela-de-gotham": {
+    "cib": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-city-undercover-the-chase-begins": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-chima-le-voyage-de-laval": {
+    "cib": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-le-hobbit": {
+    "cib": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-le-seigneur-des-anneaux": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-marvel-super-heroes-l-univers-en-peril": {
+    "cib": {
+      "low": 8,
+      "median": 11,
+      "high": 16,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 7,
+      "high": 11,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-ninjago-l-ombre-de-ronin": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-ninjago-nindroids": {
+    "cib": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-star-wars-iii": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-star-wars-le-reveil-de-la-force": {
+    "cib": {
+      "low": 9,
+      "median": 13,
+      "high": 19,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 13,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_la-grande-aventure-lego-le-jeu-video": {
+    "cib": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_luigi-s-mansion": {
+    "cib": {
+      "low": 22,
+      "median": 30,
+      "high": 42,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_luigi-s-mansion-2": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-luigi-dream-team-bros": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-luigi-paper-jam-bros": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-luigi-superstar-saga-les-sbires-de-bowser": {
+    "cib": {
+      "low": 22,
+      "median": 32,
+      "high": 45,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-kart-7": {
+    "cib": {
+      "low": 15,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-party-island-tour": {
+    "cib": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-party-star-rush": {
+    "cib": {
+      "low": 14,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-tennis-open": {
+    "cib": {
+      "low": 9,
+      "median": 13,
+      "high": 19,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_miitopia": {
+    "cib": {
+      "low": 18,
+      "median": 26,
+      "high": 36,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_monster-hunter-3-ultimate": {
+    "cib": {
+      "low": 9,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_monster-hunter-generations": {
+    "cib": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_new-super-mario-bros-2": {
+    "cib": {
+      "low": 14,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_nintendogs-cats": {
+    "cib": {
+      "low": 10,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_paper-mario-sticker-star": {
+    "cib": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_planes": {
+    "cib": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-donjon-mystere-les-portes-de-l-infini": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-mega-donjon-mystere": {
+    "cib": {
+      "low": 18,
+      "median": 26,
+      "high": 38,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-rumble-world": {
+    "cib": {
+      "low": 9,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-rubis-omega": {
+    "cib": {
+      "low": 32,
+      "median": 42,
+      "high": 58,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 22,
+      "median": 30,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-saphir-alpha": {
+    "cib": {
+      "low": 32,
+      "median": 42,
+      "high": 58,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 22,
+      "median": 30,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-soleil": {
+    "cib": {
+      "low": 22,
+      "median": 30,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 15,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-ultra-soleil": {
+    "cib": {
+      "low": 28,
+      "median": 38,
+      "high": 52,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-lune": {
+    "cib": {
+      "low": 22,
+      "median": 30,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 15,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-ultra-lune": {
+    "cib": {
+      "low": 28,
+      "median": 38,
+      "high": 52,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-x": {
+    "cib": {
+      "low": 25,
+      "median": 35,
+      "high": 48,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 18,
+      "median": 25,
+      "high": 33,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_pokemon-y": {
+    "cib": {
+      "low": 25,
+      "median": 35,
+      "high": 48,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 18,
+      "median": 25,
+      "high": 33,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_super-pokemon-rumble": {
+    "cib": {
+      "low": 9,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_rayman-les-lapins-cretins-pack-famille": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_sonic-boom-le-cristal-brise": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_star-fox-64-3d": {
+    "cib": {
+      "low": 17,
+      "median": 24,
+      "high": 33,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_super-mario-3d-land": {
+    "cib": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_super-mario-maker-for-nintendo-3ds": {
+    "cib": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_super-smash-bros-for-nintendo-3ds": {
+    "cib": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_the-legend-of-zelda-a-link-between-worlds": {
+    "cib": {
+      "low": 22,
+      "median": 30,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 15,
+      "median": 20,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_the-legend-of-zelda-ocarina-of-time-3d": {
+    "cib": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_the-legend-of-zelda-tri-force-heroes": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_wrc": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_yo-kai-watch-2-esprits-farceurs": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_yo-kai-watch-2-fantomes-bouffis": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_yo-kai-watch-blasters-l-escadron-du-chien-blanc": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_yoshi-s-new-island": {
+    "cib": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_arthur-et-les-minimoys": {
+    "cib": {
+      "low": 4,
+      "median": 7,
+      "high": 11,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 4,
+      "high": 7,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_asterix-obelix-xxl-2-mission-wifix": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_bien-etre-du-visage": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 6,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_bratz-forever-diamondz": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 6,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_cars": {
+    "cib": {
+      "low": 4,
+      "median": 7,
+      "high": 11,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 4,
+      "high": 7,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_cars-race-o-rama": {
+    "cib": {
+      "low": 5,
+      "median": 8,
+      "high": 13,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_children-of-mana": {
+    "cib": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_clochette-et-la-pierre-de-lune": {
+    "cib": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_clochette-et-l-expedition-feerique": {
+    "cib": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_dance-floor": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 5,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_dora-cuisine": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 5,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_dora-et-sauvons-les-animaux": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 5,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_dragon-ball-z-supersonic-warriors-2": {
+    "cib": {
+      "low": 18,
+      "median": 26,
+      "high": 38,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 25,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_final-fantasy-iii": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_final-fantasy-crystal-chronicles-echoes-of-time": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_final-fantasy-tactics-a2": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_fort-boyard": {
+    "cib": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 4,
+      "high": 6,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_goldeneye-007": {
+    "cib": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_high-school-musical-3": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 5,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_lego-batman-2-dc-super-heroes": {
+    "cib": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_lego-harry-potter-annees-1-4": {
+    "cib": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_lecons-de-cuisine": {
+    "cib": {
+      "low": 4,
+      "median": 6,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 6,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_les-chevaliers-de-baphomet-director-s-cut": {
+    "cib": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_les-rebelles-de-la-foret": {
+    "cib": {
+      "low": 4,
+      "median": 7,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 4,
+      "high": 7,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_ma-pause-yoga": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 5,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_mario-luigi-voyage-au-centre-de-bowser": {
+    "cib": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_mario-vs-donkey-kong-2-la-marche-des-mini": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_mission-safari": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 6,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_nancy-drew-the-deadly-secret-of-olde-world-park": {
+    "cib": {
+      "low": 5,
+      "median": 8,
+      "high": 13,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 3,
+      "median": 5,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_plus-belle-la-vie-le-secret-du-dr-livia": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 5,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-version-argent-soulsilver": {
+    "cib": {
+      "low": 140,
+      "median": 180,
+      "high": 250,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 60,
+      "median": 80,
+      "high": 110,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-version-blanche": {
+    "cib": {
+      "low": 60,
+      "median": 80,
+      "high": 110,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 35,
+      "median": 48,
+      "high": 65,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-version-diamant": {
+    "cib": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 25,
+      "median": 35,
+      "high": 48,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-version-noire": {
+    "cib": {
+      "low": 60,
+      "median": 80,
+      "high": 110,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 35,
+      "median": 48,
+      "high": 65,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-version-noire-2": {
+    "cib": {
+      "low": 100,
+      "median": 140,
+      "high": 190,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 55,
+      "median": 75,
+      "high": 100,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-version-or-heartgold": {
+    "cib": {
+      "low": 140,
+      "median": 180,
+      "high": 250,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 60,
+      "median": 80,
+      "high": 110,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-version-perle": {
+    "cib": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 25,
+      "median": 35,
+      "high": 48,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-version-platine": {
+    "cib": {
+      "low": 90,
+      "median": 120,
+      "high": 170,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-donjon-mystere-equipe-de-secours-bleue": {
+    "cib": {
+      "low": 20,
+      "median": 28,
+      "high": 40,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-donjon-mystere-explorateurs-de-l-ombre": {
+    "cib": {
+      "low": 25,
+      "median": 35,
+      "high": 50,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-donjon-mystere-explorateurs-du-temps": {
+    "cib": {
+      "low": 25,
+      "median": 35,
+      "high": 50,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 15,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-link": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 26,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_pokemon-ranger": {
+    "cib": {
+      "low": 16,
+      "median": 22,
+      "high": 32,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_populous-ds": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_programme-d-entrainement-cerebral": {
+    "cib": {
+      "low": 3,
+      "median": 5,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 3,
+      "high": 6,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_professeur-layton-et-l-etrange-village": {
+    "cib": {
+      "low": 7,
+      "median": 11,
+      "high": 17,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 7,
+      "high": 11,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_runaway-a-twist-of-fate": {
+    "cib": {
+      "low": 8,
+      "median": 13,
+      "high": 19,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 13,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_runaway-the-dream-of-the-turtle": {
+    "cib": {
+      "low": 8,
+      "median": 13,
+      "high": 19,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 13,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_simcity-ds": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_sonic-chronicles-la-confrerie-des-tenebres": {
+    "cib": {
+      "low": 9,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 9,
+      "high": 14,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_spyro-shadow-legacy": {
+    "cib": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 6,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_star-wars-the-clone-wars-l-alliance-jedi": {
+    "cib": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 3,
+      "median": 5,
+      "high": 8,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_super-mario-64-ds": {
+    "cib": {
+      "low": 18,
+      "median": 25,
+      "high": 35,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 12,
+      "median": 17,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_totally-spies-2-undercover": {
+    "cib": {
+      "low": 4,
+      "median": 7,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 2,
+      "median": 4,
+      "high": 7,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_worms-open-warfare": {
+    "cib": {
+      "low": 6,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 10,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_ds_worms-open-warfare-2": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_mario-party-the-top-100": {
+    "cib": {
+      "low": 15,
+      "median": 22,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  },
+  "game_3ds_lego-jurassic-world": {
+    "cib": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-08"
+    }
+  }
+}

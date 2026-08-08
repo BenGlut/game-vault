@@ -27,6 +27,13 @@ test("la fiche jeu affiche possession et vérification", async ({ page }) => {
   await expect(page.getByText("à vérifier").first()).toBeVisible();
 });
 
+test("le catalogue complet charge et la recherche fonctionne", async ({ page }) => {
+  await page.goto("/catalogue/");
+  await expect(page.getByText("sur", { exact: false }).first()).toBeVisible({ timeout: 10_000 });
+  await page.getByRole("searchbox").fill("pokemon platinum");
+  await expect(page.getByText("Pokemon - Platinum", { exact: false }).first()).toBeVisible();
+});
+
 test("aucun bouton d'édition sur l'interface publique", async ({ page }) => {
   for (const url of ["/", "/collection/", "/jeu/game_3ds_pokemon-lune/"]) {
     await page.goto(url);
