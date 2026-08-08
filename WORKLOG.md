@@ -71,9 +71,10 @@
 - La Collection n'affiche plus les jeux uniquement en wishlist — ils vivent
   sur les pages Wishlist/Recommandations (`src/app/collection/page.tsx`)
 
-## Removed
 - Jaquettes manquantes récupérées : fallback CDN thumbnails.libretro.com pour les
   pointeurs LFS corrompus (21→1 sur le catalogue), collection à 100 % (175/175 —
   alias wishlist réparés après un bug d'expansion zsh, « Bien-être du visage »
   retrouvé dans le repo DSi, « Mission Safari » identifié = Go, Diego! Safari
   Rescue), Switch 1 404 icônes via 12 régions titledb
+
+## Removed
