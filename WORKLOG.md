@@ -128,3 +128,7 @@
   dessous, rien à côté), exemplaires, cotes + mini-estimateur, commandes liées,
   métadonnées du jeu, alias et EAN ; plus de voile sombre — la grille reste
   visible et cliquable pour enchaîner d'une jaquette à l'autre
+- Page Commandes : jaquettes des jeux de chaque commande (grille compacte) et
+  panneau latéral disponible, total et dates en en-tête
+- Icônes de navigation dessinées en composants React inline (12 icônes, style
+  Lucide MIT) — aucune dépendance ni fichier externe, couleur héritée du thème

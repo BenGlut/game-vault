@@ -83,3 +83,117 @@ export function AlertIcon(props: IconProps) {
     </svg>
   );
 }
+
+/* --- icônes de navigation (dessinées ici, aucun fichier ni CDN externe) --- */
+
+export function DashboardIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <rect x="3" y="3" width="7" height="9" rx="1" />
+      <rect x="14" y="3" width="7" height="5" rx="1" />
+      <rect x="14" y="12" width="7" height="9" rx="1" />
+      <rect x="3" y="16" width="7" height="5" rx="1" />
+    </svg>
+  );
+}
+
+export function LibraryIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M4 3h3v18H4zM10 3h3v18h-3z" />
+      <path d="m16.5 4.5 3.2.9c.5.2.8.7.7 1.2l-3.7 13.6c-.1.5-.7.8-1.2.7l-1.4-.4" />
+    </svg>
+  );
+}
+
+export function SearchIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.6-3.6" />
+    </svg>
+  );
+}
+
+export function CatalogIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <path d="M3 9h18M8 4v16" />
+      <path d="M12 13h5m-5 3h3" strokeWidth="1.6" />
+    </svg>
+  );
+}
+
+export function TagIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M3 12V5a2 2 0 0 1 2-2h7l9 9-9 9z" />
+      <circle cx="7.5" cy="7.5" r="1.4" />
+    </svg>
+  );
+}
+
+export function CartIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <circle cx="9" cy="20" r="1.4" />
+      <circle cx="18" cy="20" r="1.4" />
+      <path d="M2 3h2.2l2.3 12.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 7H5.4" />
+    </svg>
+  );
+}
+
+export function SparkIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M12 3v4M12 17v4M3 12h4M17 12h4" />
+      <path d="M12 8.5 13.4 11l2.6 1-2.6 1-1.4 2.5L10.6 13 8 12l2.6-1z" />
+    </svg>
+  );
+}
+
+export function LayersIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="m12 3 9 5-9 5-9-5z" />
+      <path d="m3 13 9 5 9-5" />
+      <path d="m3 17 9 4 9-4" strokeWidth="1.6" />
+    </svg>
+  );
+}
+
+export function CoinIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <ellipse cx="12" cy="6.5" rx="8" ry="3.2" />
+      <path d="M4 6.5v11c0 1.8 3.6 3.2 8 3.2s8-1.4 8-3.2v-11" />
+      <path d="M4 12c0 1.8 3.6 3.2 8 3.2s8-1.4 8-3.2" strokeWidth="1.6" />
+    </svg>
+  );
+}
+
+export function HistoryIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M3 12a9 9 0 1 0 2.6-6.4" />
+      <path d="M3 4v4h4" />
+      <path d="M12 7.5V12l3 1.8" />
+    </svg>
+  );
+}
+
+export const NAV_ICONS: Record<string, (p: IconProps) => React.JSX.Element> = {
+  "/": DashboardIcon,
+  "/collection": LibraryIcon,
+  "/recherche": SearchIcon,
+  "/catalogue": CatalogIcon,
+  "/estimateur": TagIcon,
+  "/commandes": CartIcon,
+  "/wishlist": StarIcon,
+  "/recommandations": SparkIcon,
+  "/doublons": LayersIcon,
+  "/plateformes": GamepadIcon,
+  "/valeur": CoinIcon,
+  "/historique": HistoryIcon,
+};

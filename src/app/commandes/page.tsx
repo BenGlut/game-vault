@@ -1,10 +1,18 @@
-import { getOrders, getGames, euro, STATUS_LABELS } from "@/lib/data";
+import {
+  getOrders,
+  getGameRows,
+  getQuotes,
+  getOrdersByGame,
+  euro,
+  type GameRow,
+} from "@/lib/data";
 import { PageTitle, StatusBadge } from "@/components/ui";
-import Link from "next/link";
+import { GameCard } from "@/components/GameCard";
+import { GameDrawerProvider } from "@/components/GameDrawer";
 
 export default function OrdersPage() {
   const orders = getOrders().sort((a, b) => b.orderedAt.localeCompare(a.orderedAt));
-  const games = new Map(getGames().map((g) => [g.id, g]));
+  const rows = new Map<string, GameRow>(getGameRows().map((r) => [r.game.id, r]));
 
   return (
     <div>
@@ -20,53 +28,64 @@ export default function OrdersPage() {
           </div>
         </div>
       ) : (
-        <div className="space-y-3">
-          {orders.map((o) => (
-            <div key={o.id} className="rounded-xl border border-border bg-surface p-4">
-              <div className="flex flex-wrap items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
-                  <StatusBadge status={o.status} />
-                  <span className="text-sm capitalize text-muted">{o.marketplace}</span>
-                </div>
-                <div className="text-right text-xs text-muted">
-                  <div>
-                    Commandé le {o.orderedAt}
-                    {o.fulfilledAt ? ` — expédié le ${o.fulfilledAt}` : ""}
-                    {o.deliveredAt ? ` — reçu le ${o.deliveredAt}` : ""}
-                    {o.cancelledAt ? ` — annulé le ${o.cancelledAt}` : ""}
-                    {o.refundedAt ? ` — remboursé le ${o.refundedAt}` : ""}
-                  </div>
-                  {o.estimatedDeliveryAt && !o.deliveredAt ? (
-                    <div className="mt-0.5 text-accent">
-                      livraison estimée le {o.estimatedDeliveryAt}
-                    </div>
-                  ) : null}
-                </div>
-              </div>
-              <div className="mt-3 space-y-1">
-                {o.gameIds.map((gid) => {
-                  const g = games.get(gid);
-                  return g ? (
-                    <Link key={gid} href={`/jeu/${gid}/`} className="block text-sm hover:text-accent">
-                      • {g.canonicalTitle}
-                    </Link>
-                  ) : (
-                    <span key={gid} className="block text-sm text-muted">
-                      • {gid}
+        <GameDrawerProvider quotes={getQuotes()} orders={getOrdersByGame()}>
+          <div className="space-y-5">
+            {orders.map((o) => (
+              <section key={o.id} className="rounded-2xl border border-border bg-surface p-4">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <StatusBadge status={o.status} />
+                    <span className="text-sm capitalize text-muted">{o.marketplace}</span>
+                    <span className="text-xs text-muted">
+                      {o.itemCount} article{o.itemCount > 1 ? "s" : ""}
                     </span>
-                  );
-                })}
-              </div>
-              {o.totalPaid !== null ? (
-                <div className="mt-2 text-sm text-muted">Total payé : {euro(o.totalPaid)}</div>
-              ) : null}
-            </div>
-          ))}
-        </div>
+                    {o.totalPaid !== null ? (
+                      <span className="font-mono text-sm text-accent">{euro(o.totalPaid)}</span>
+                    ) : null}
+                  </div>
+                  <div className="text-right text-xs text-muted">
+                    <div>
+                      Commandé le {o.orderedAt}
+                      {o.fulfilledAt ? ` — expédié le ${o.fulfilledAt}` : ""}
+                      {o.deliveredAt ? ` — reçu le ${o.deliveredAt}` : ""}
+                      {o.cancelledAt ? ` — annulé le ${o.cancelledAt}` : ""}
+                      {o.refundedAt ? ` — remboursé le ${o.refundedAt}` : ""}
+                    </div>
+                    {o.estimatedDeliveryAt && !o.deliveredAt ? (
+                      <div className="mt-0.5 text-accent">
+                        livraison estimée le {o.estimatedDeliveryAt}
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+
+                {/* jaquettes des jeux de la commande */}
+                <div className="mt-4 grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
+                  {o.gameIds.map((gid, idx) => {
+                    const row = rows.get(gid);
+                    return row ? (
+                      <GameCard
+                        key={`${gid}-${idx}`}
+                        game={row.game}
+                        platform={row.platform}
+                        coverUrl={row.coverUrl}
+                        items={row.items}
+                      />
+                    ) : (
+                      <div
+                        key={`${gid}-${idx}`}
+                        className="flex aspect-[3/4] items-center justify-center rounded-lg bg-surface-2 p-2 text-center text-[11px] text-muted"
+                      >
+                        {gid}
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            ))}
+          </div>
+        </GameDrawerProvider>
       )}
-      <p className="mt-6 text-xs text-muted">
-        Statuts possibles : {Object.values(STATUS_LABELS).slice(0, 4).join(", ")}…
-      </p>
     </div>
   );
 }

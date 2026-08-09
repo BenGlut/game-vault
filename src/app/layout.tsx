@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { GamepadIcon } from "@/components/icons";
+import { GamepadIcon, NAV_ICONS } from "@/components/icons";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -37,15 +37,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="mt-1 block text-xs text-muted">Lecture seule</span>
             </Link>
             <nav className="space-y-1">
-              {NAV.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="block rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface-2 hover:text-text"
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {NAV.map((item) => {
+                const Icon = NAV_ICONS[item.href];
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface-2 hover:text-text"
+                  >
+                    {Icon ? <Icon size={17} className="shrink-0 opacity-80" /> : null}
+                    {item.label}
+                  </Link>
+                );
+              })}
             </nav>
           </aside>
           <div className="min-w-0 flex-1">
@@ -55,11 +59,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Game<span className="text-accent">Vault</span>
               </Link>
               <nav className="flex gap-3 overflow-x-auto text-xs">
-                {NAV.slice(1, 5).map((i) => (
-                  <Link key={i.href} href={i.href} className="text-muted hover:text-text">
-                    {i.label}
-                  </Link>
-                ))}
+                {NAV.slice(1, 6).map((i) => {
+                  const Icon = NAV_ICONS[i.href];
+                  return (
+                    <Link
+                      key={i.href}
+                      href={i.href}
+                      className="flex flex-col items-center gap-0.5 text-muted transition hover:text-text"
+                    >
+                      {Icon ? <Icon size={18} /> : null}
+                      {i.label}
+                    </Link>
+                  );
+                })}
               </nav>
             </header>
             <main className="px-4 py-6 md:px-8">{children}</main>
