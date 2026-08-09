@@ -1,13 +1,13 @@
 # Skill : gestion des commandes
 
-Cycle : ordered → shipped → received | cancelled | refunded. `ordered` ≠ `owned`, toujours.
+Cycle : ordered → fulfilled → delivered | cancelled | refunded. `ordered` ≠ `owned`, toujours.
 
 ```bash
 pnpm vault add-order --marketplace vinted|leboncoin|ebay|… \
   --items "game_id:prix,game_id" --total 40 --shipping 3.5 \
   --protection 1.9 --discount 2 --seller "pseudo" --reference "REF" --yes
-pnpm vault ship-order    --order order_xxx --yes
-pnpm vault receive-order --order order_xxx --yes   # items → received + verified + acquiredAt
+pnpm vault fulfill-order --order order_xxx --yes [--eta 2026-08-14]
+pnpm vault deliver-order --order order_xxx --yes  # items → delivered + verified + acquiredAt
 pnpm vault cancel-order  --order order_xxx --yes   # items → cancelled, JAMAIS supprimés
 pnpm vault refund-order  --order order_xxx --yes
 ```

@@ -286,9 +286,10 @@ function main(): void {
           const status = InventoryStatusSchema.parse(optStr(options, "status") ?? "owned");
           const existing = v.inventory.filter((i) => i.gameId === game.id);
           const warnings: string[] = [];
-          if (existing.length && !optBool(options, "force")) {
-            throw new Error(
-              `Item(s) déjà présent(s) pour ${game.id}: ${existing.map((i) => `${i.id} (${i.status} x${i.quantity})`).join(", ")} — augmenter la quantité via set-status/--force, ou marquer un doublon explicite`,
+          // modèle ERP : chaque exemplaire physique = une nouvelle entrée de stock
+          if (existing.length) {
+            warnings.push(
+              `${existing.length} entrée(s) déjà en stock pour ${game.id}: ${existing.map((i) => `${i.id} (${i.status})`).join(", ")} — nouvelle entrée créée (exemplaire distinct)`,
             );
           }
           const suffix = existing.length ? `-${existing.length + 1}` : "";
@@ -297,7 +298,7 @@ function main(): void {
             id: game.id.replace(/^game_/, "inv_") + suffix,
             gameId: game.id,
             status,
-            quantity: optNum(options, "quantity") ?? 1,
+            quantity: status === "wishlist" ? 0 : 1, // ERP : 1 article = 1 entree
             condition: ConditionSchema.parse(optStr(options, "condition") ?? "unknown"),
             completeness: CompletenessSchema.parse(optStr(options, "completeness") ?? "unknown"),
             purchasePrice:
@@ -341,7 +342,13 @@ function main(): void {
           }
           item.status = newStatus;
           const q = optNum(options, "quantity");
-          if (q !== undefined) item.quantity = q;
+          if (q !== undefined) {
+            if (q > 1)
+              throw new Error(
+                "Modèle ERP : 1 article = 1 entrée de stock. Pour un exemplaire supplémentaire, utiliser add-inventory (nouvelle entrée avec ses propres données d'achat).",
+              );
+            item.quantity = q;
+          }
           const cond = optStr(options, "condition");
           if (cond) item.condition = ConditionSchema.parse(cond);
           const comp = optStr(options, "completeness");
@@ -429,8 +436,9 @@ function main(): void {
             totalPaid: optNum(options, "total") ?? null,
             currency: "EUR",
             orderedAt: optStr(options, "date") ?? today(),
-            shippedAt: null,
-            receivedAt: null,
+            fulfilledAt: null,
+            deliveredAt: null,
+            estimatedDeliveryAt: optStr(options, "eta") ?? null,
             cancelledAt: null,
             refundedAt: null,
             listingIds: [],
@@ -496,37 +504,43 @@ function main(): void {
         break;
       }
 
-      case "ship-order":
-      case "receive-order":
+      case "fulfill-order":
+      case "ship-order": // alias historique
+      case "deliver-order":
+      case "receive-order": // alias historique
       case "cancel-order":
       case "refund-order": {
         const orderRef = optStr(options, "order") ?? positionals[0];
-        if (!orderRef) throw new Error(`usage: pnpm vault ${command} --order <id> [--date YYYY-MM-DD]`);
+        if (!orderRef) throw new Error(`usage: pnpm vault ${command} --order <id> [--date YYYY-MM-DD] [--eta YYYY-MM-DD]`);
         const date = optStr(options, "date") ?? today();
+        const isFulfill = command === "fulfill-order" || command === "ship-order";
+        const isDeliver = command === "deliver-order" || command === "receive-order";
         runMutation(command, yes, `${command} ${orderRef}`, (v) => {
           const order = findOrder(v, orderRef);
           const invIds: string[] = [];
           const linked = v.inventory.filter((i) => i.orderId === order.id);
           const warnings: string[] = [];
-          if (command === "ship-order") {
+          const eta = optStr(options, "eta");
+          if (eta) order.estimatedDeliveryAt = eta;
+          if (isFulfill) {
             if (order.status !== "ordered") warnings.push(`commande au statut ${order.status}, attendu ordered`);
-            order.status = "shipped";
-            order.shippedAt = date;
-            for (const i of linked) { i.status = "shipped"; i.updatedAt = nowIso(); invIds.push(i.id); }
-          } else if (command === "receive-order") {
-            if (!["ordered", "shipped"].includes(order.status))
+            order.status = "fulfilled";
+            order.fulfilledAt = date;
+            for (const i of linked) { i.status = "fulfilled"; i.updatedAt = nowIso(); invIds.push(i.id); }
+          } else if (isDeliver) {
+            if (!["ordered", "fulfilled"].includes(order.status))
               throw new Error(`Impossible de recevoir une commande au statut ${order.status}`);
-            order.status = "received";
-            order.receivedAt = date;
+            order.status = "delivered";
+            order.deliveredAt = date;
             for (const i of linked) {
-              i.status = "received";
+              i.status = "delivered";
               i.acquiredAt = date;
               i.verificationStatus = "verified"; // vu physiquement à la réception
               i.updatedAt = nowIso();
               invIds.push(i.id);
             }
           } else if (command === "cancel-order") {
-            if (["received"].includes(order.status)) throw new Error("Commande déjà reçue — utiliser refund-order si remboursée");
+            if (["delivered"].includes(order.status)) throw new Error("Commande déjà reçue — utiliser refund-order si remboursée");
             order.status = "cancelled";
             order.cancelledAt = date;
             for (const i of linked) {

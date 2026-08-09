@@ -1473,5 +1473,10 @@
     "at": "2026-08-09T15:18:30.269Z",
     "command": "price-batch",
     "message": "12 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/lot-val.json"
+  },
+  {
+    "at": "2026-08-09T16:13:57.719Z",
+    "command": "migrate-erp",
+    "message": "Migration ERP : statuts fulfilled/delivered + estimatedDeliveryAt ; 29 exemplaires éclatés en entrées individuelles"
   }
 ]

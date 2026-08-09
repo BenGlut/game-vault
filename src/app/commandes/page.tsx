@@ -28,11 +28,19 @@ export default function OrdersPage() {
                   <StatusBadge status={o.status} />
                   <span className="text-sm capitalize text-muted">{o.marketplace}</span>
                 </div>
-                <div className="text-xs text-muted">
-                  Commandé le {o.orderedAt}
-                  {o.receivedAt ? ` — reçu le ${o.receivedAt}` : ""}
-                  {o.cancelledAt ? ` — annulé le ${o.cancelledAt}` : ""}
-                  {o.refundedAt ? ` — remboursé le ${o.refundedAt}` : ""}
+                <div className="text-right text-xs text-muted">
+                  <div>
+                    Commandé le {o.orderedAt}
+                    {o.fulfilledAt ? ` — expédié le ${o.fulfilledAt}` : ""}
+                    {o.deliveredAt ? ` — reçu le ${o.deliveredAt}` : ""}
+                    {o.cancelledAt ? ` — annulé le ${o.cancelledAt}` : ""}
+                    {o.refundedAt ? ` — remboursé le ${o.refundedAt}` : ""}
+                  </div>
+                  {o.estimatedDeliveryAt && !o.deliveredAt ? (
+                    <div className="mt-0.5 text-accent">
+                      livraison estimée le {o.estimatedDeliveryAt}
+                    </div>
+                  ) : null}
                 </div>
               </div>
               <div className="mt-3 space-y-1">

@@ -16,11 +16,29 @@ Schémas exécutables : [`src/lib/schema.ts`](../src/lib/schema.ts) (Zod, source
 | `evidence.json` | preuves (photos, reçus, messages) |
 | `change-log.json` | journal de toutes les mutations |
 
-## Statuts d'inventaire
+## Modèle ERP : 1 article = 1 entrée de stock
 
-`owned` · `ordered` · `shipped` · `received` · `wishlist` · `duplicate` · `sold` · `cancelled` · `refunded`
+`inventory.json` est un **stock d'articles physiques**, pas un compteur : deux
+exemplaires du même jeu = **deux entrées distinctes**, chacune avec ses propres
+données d'achat (prix payé, commande d'origine, état, complétude, preuves).
+`quantity` vaut donc toujours 1 (0 pour la wishlist : aucun objet possédé) et le
+schéma refuse toute valeur supérieure.
 
-Possession réelle = `owned`, `received`, `duplicate` (constante `POSSESSION_STATUSES`).
+- `games.json` = la **référence produit** (le titre, une fois)
+- `inventory.json` = les **articles** (chaque exemplaire, avec son historique)
+- Un exemplaire supplémentaire s'ajoute avec `add-inventory` (id suffixé `-2`, `-3`…)
+
+## Statuts
+
+Inventaire : `owned` · `ordered` · `fulfilled` · `delivered` · `wishlist` ·
+`duplicate` · `sold` · `cancelled` · `refunded`
+
+Commandes : `ordered` → `fulfilled` (expédié) → `delivered` (reçu), ou
+`cancelled` / `refunded`. Dates dédiées : `orderedAt`, `fulfilledAt`,
+`deliveredAt`, `cancelledAt`, `refundedAt`, plus **`estimatedDeliveryAt`**
+(date de livraison annoncée par le vendeur, jamais dans les notes).
+
+Possession réelle = `owned`, `delivered`, `duplicate` (constante `POSSESSION_STATUSES`).
 
 ## Règles d'intégrité (appliquées par la CLI)
 

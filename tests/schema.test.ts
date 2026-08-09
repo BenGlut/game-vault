@@ -76,8 +76,54 @@ describe("InventoryItemSchema", () => {
 describe("règles de possession", () => {
   it("ordered n'est jamais un statut de possession (règle n°4)", () => {
     expect(POSSESSION_STATUSES).not.toContain("ordered");
+    expect(POSSESSION_STATUSES).not.toContain("fulfilled");
     expect(POSSESSION_STATUSES).not.toContain("cancelled");
     expect(POSSESSION_STATUSES).toContain("owned");
+    expect(POSSESSION_STATUSES).toContain("delivered");
+  });
+});
+
+describe("modèle ERP : 1 article = 1 entrée de stock", () => {
+  const base = {
+    id: "inv_ds_mario-kart-ds",
+    gameId: "game_ds_mario-kart-ds",
+    status: "owned",
+    condition: "very_good",
+    completeness: "CIB",
+    purchasePrice: null,
+    currentEstimate: null,
+    verificationStatus: "verified",
+    quantityNeedsReview: false,
+    evidenceIds: [],
+    orderId: null,
+    privateNotes: null,
+    acquiredAt: null,
+    createdAt: "2026-08-09T10:00:00.000Z",
+    updatedAt: "2026-08-09T10:00:00.000Z",
+  };
+  it("accepte quantity 1 (un exemplaire) et 0 (wishlist)", () => {
+    expect(InventoryItemSchema.safeParse({ ...base, quantity: 1 }).success).toBe(true);
+    expect(InventoryItemSchema.safeParse({ ...base, quantity: 0, status: "wishlist" }).success).toBe(true);
+  });
+  it("refuse quantity > 1 — un second exemplaire = une seconde entrée", () => {
+    expect(InventoryItemSchema.safeParse({ ...base, quantity: 2 }).success).toBe(false);
+  });
+});
+
+describe("cycle de commande simplifié", () => {
+  it("les statuts de commande sont ordered/fulfilled/delivered/cancelled/refunded", () => {
+    const order = {
+      id: "order_x1",
+      marketplace: "vinted",
+      status: "fulfilled",
+      items: [{ gameId: "game_ds_mario-kart-ds", quantity: 1 }],
+      currency: "EUR",
+      orderedAt: "2026-08-09",
+      fulfilledAt: "2026-08-09",
+      estimatedDeliveryAt: "2026-08-14",
+    };
+    expect(OrderSchema.safeParse(order).success).toBe(true);
+    expect(OrderSchema.safeParse({ ...order, status: "shipped" }).success).toBe(false);
   });
 });
 

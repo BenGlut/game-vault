@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-09T15:19:41.507Z",
+  "generatedAt": "2026-08-09T17:20:05.774Z",
   "totalGames": 276,
   "ownedItems": 255,
   "byStatus": {
     "owned": 255,
-    "shipped": 12,
+    "fulfilled": 12,
     "wishlist": 0,
     "ordered": 1
   },

@@ -96,3 +96,15 @@
 - Commande `update-order` : total/port/protection/vendeur/référence + répartition
   des prix par item (met à jour order.items et purchasePrice de l'inventaire),
   arrondi centimes — `scripts/vault/index.ts`
+
+## Changed (v2 modèle ERP)
+- Statuts simplifiés : `shipped`→`fulfilled`, `received`→`delivered` (commandes et
+  inventaire), dates `fulfilledAt`/`deliveredAt` + nouveau champ
+  `estimatedDeliveryAt` (livraison annoncée, sortie des notes) — commandes CLI
+  `fulfill-order` / `deliver-order` avec `--eta` (anciens noms conservés en alias)
+- Modèle ERP « 1 article = 1 entrée de stock » : `quantity` limité à 0|1, les 29
+  exemplaires en quantité multiple éclatés en entrées individuelles (280→309),
+  chacune avec ses propres données d'achat ; `add-inventory` crée désormais une
+  nouvelle entrée au lieu de refuser, `set-status --quantity 2` est rejeté
+  (`scripts/seed/migrate-erp.ts`, `src/lib/schema.ts`, `scripts/vault/index.ts`)
+- Page Commandes : dates d'expédition et livraison estimée affichées

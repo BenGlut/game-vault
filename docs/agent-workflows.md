@@ -16,7 +16,7 @@ pnpm build                                         # 6. vérifier que le site bu
 
 ```bash
 pnpm vault search "titre"                          # retrouver la commande/l'item
-pnpm vault receive-order --order order_xxx --yes   # items → received + verified
+pnpm vault deliver-order --order order_xxx --yes  # items → delivered + verified
 ```
 
 ## Nouvel achat Vinted/Leboncoin

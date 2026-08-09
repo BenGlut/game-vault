@@ -37,7 +37,7 @@ export default async function GamePage({ params }: { params: Promise<{ id: strin
   const items = getInventory().filter((i) => i.gameId === game.id);
   const orders = getOrders().filter((o) => o.gameIds.includes(game.id));
   const owned = items.some((i) => POSSESSION.includes(i.status));
-  const ordered = items.some((i) => ["ordered", "shipped"].includes(i.status));
+  const ordered = items.some((i) => ["ordered", "fulfilled"].includes(i.status));
   const wishlisted = items.some((i) => i.status === "wishlist");
   const totalQty = items
     .filter((i) => POSSESSION.includes(i.status))

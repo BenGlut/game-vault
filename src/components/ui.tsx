@@ -5,9 +5,9 @@ import { CheckCircleIcon, AlertIcon } from "@/components/icons";
 
 const STATUS_COLORS: Record<string, string> = {
   owned: "bg-[#4ade8020] text-[#4ade80]",
-  received: "bg-[#4ade8020] text-[#4ade80]",
+  delivered: "bg-[#4ade8020] text-[#4ade80]",
   ordered: "bg-[#60a5fa20] text-[#60a5fa]",
-  shipped: "bg-[#60a5fa20] text-[#93c5fd]",
+  fulfilled: "bg-[#60a5fa20] text-[#93c5fd]",
   wishlist: "bg-[#c084fc20] text-[#c084fc]",
   duplicate: "bg-[#f5b64220] text-[#f5b642]",
   sold: "bg-[#8a93a820] text-[#8a93a8]",

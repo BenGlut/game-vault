@@ -10,9 +10,9 @@ export const RegionSchema = z.enum(REGIONS);
 
 export const INVENTORY_STATUSES = [
   "owned",
-  "ordered",
-  "shipped",
-  "received",
+  "ordered", // commandé
+  "fulfilled", // expédié par le vendeur
+  "delivered", // reçu
   "wishlist",
   "duplicate",
   "sold",
@@ -21,7 +21,7 @@ export const INVENTORY_STATUSES = [
 ] as const;
 export const InventoryStatusSchema = z.enum(INVENTORY_STATUSES);
 
-export const ORDER_STATUSES = ["ordered", "shipped", "received", "cancelled", "refunded"] as const;
+export const ORDER_STATUSES = ["ordered", "fulfilled", "delivered", "cancelled", "refunded"] as const;
 export const OrderStatusSchema = z.enum(ORDER_STATUSES);
 
 export const CONDITIONS = [
@@ -124,7 +124,8 @@ export const InventoryItemSchema = z.object({
   id: z.string().regex(/^inv_[a-z0-9_-]+$/),
   gameId: z.string(),
   status: InventoryStatusSchema,
-  quantity: z.number().int().min(0),
+  // modèle ERP : 1 article physique = 1 entrée de stock (0 = wishlist, pas d'objet)
+  quantity: z.number().int().min(0).max(1),
   condition: ConditionSchema.default("unknown"),
   completeness: CompletenessSchema.default("unknown"),
   purchasePrice: MoneySchema.nullable().default(null),
@@ -160,8 +161,9 @@ export const OrderSchema = z.object({
   totalPaid: z.number().nonnegative().nullable().default(null),
   currency: z.string().length(3).default("EUR"),
   orderedAt: IsoDate,
-  shippedAt: IsoDate.nullable().default(null),
-  receivedAt: IsoDate.nullable().default(null),
+  fulfilledAt: IsoDate.nullable().default(null),
+  deliveredAt: IsoDate.nullable().default(null),
+  estimatedDeliveryAt: IsoDate.nullable().default(null),
   cancelledAt: IsoDate.nullable().default(null),
   refundedAt: IsoDate.nullable().default(null),
   listingIds: z.array(z.string()).default([]),
@@ -291,4 +293,4 @@ export type ChangeLogEntry = z.infer<typeof ChangeLogEntrySchema>;
 export type PublishConfig = z.infer<typeof PublishConfigSchema>;
 
 /** Statuts considérés comme "physiquement possédé". Règle n°4 : ordered ≠ owned. */
-export const POSSESSION_STATUSES: readonly InventoryStatus[] = ["owned", "received", "duplicate"];
+export const POSSESSION_STATUSES: readonly InventoryStatus[] = ["owned", "delivered", "duplicate"];

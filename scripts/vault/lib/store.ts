@@ -183,7 +183,7 @@ export function integrityIssues(v: Vault): string[] {
     for (const item of o.items) {
       if (!gameIds.has(item.gameId)) issues.push(`${o.id}: jeu inconnu ${item.gameId}`);
     }
-    if (o.status === "received" && !o.receivedAt) issues.push(`${o.id}: received sans receivedAt`);
+    if (o.status === "delivered" && !o.deliveredAt) issues.push(`${o.id}: delivered sans deliveredAt`);
     if (o.status === "cancelled" && !o.cancelledAt) issues.push(`${o.id}: cancelled sans cancelledAt`);
   }
   for (const p of v.priceObservations) {

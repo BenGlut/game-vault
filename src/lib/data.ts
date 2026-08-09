@@ -30,8 +30,9 @@ export interface PublicOrder {
   itemCount: number;
   gameIds: string[];
   orderedAt: string;
-  shippedAt: string | null;
-  receivedAt: string | null;
+  fulfilledAt: string | null;
+  deliveredAt: string | null;
+  estimatedDeliveryAt: string | null;
   cancelledAt: string | null;
   refundedAt: string | null;
   totalPaid: number | null;
@@ -133,13 +134,13 @@ export function getGameRows(): GameRow[] {
     .sort((a, b) => a.game.canonicalTitle.localeCompare(b.game.canonicalTitle, "fr"));
 }
 
-export const POSSESSION = ["owned", "received", "duplicate"];
+export const POSSESSION = ["owned", "delivered", "duplicate"];
 
 export const STATUS_LABELS: Record<string, string> = {
   owned: "Possédé",
   ordered: "Commandé",
-  shipped: "Expédié",
-  received: "Reçu",
+  fulfilled: "Expédié",
+  delivered: "Reçu",
   wishlist: "Wishlist",
   duplicate: "Doublon",
   sold: "Vendu",
