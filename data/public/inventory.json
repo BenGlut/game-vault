@@ -3170,7 +3170,7 @@
   {
     "id": "inv_ds_mario-kart-ds",
     "gameId": "game_ds_mario-kart-ds",
-    "status": "ordered",
+    "status": "shipped",
     "quantity": 0,
     "condition": "very_good",
     "completeness": "CIB",
@@ -3187,7 +3187,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msl51ugw",
-    "updatedAt": "2026-08-09T15:13:35.010Z"
+    "updatedAt": "2026-08-09T15:14:43.627Z"
   },
   {
     "id": "inv_ds_new-super-mario-bros",
@@ -3280,7 +3280,7 @@
   {
     "id": "inv_ds_professeur-layton-et-la-boite-de-pandore",
     "gameId": "game_ds_professeur-layton-et-la-boite-de-pandore",
-    "status": "ordered",
+    "status": "shipped",
     "quantity": 0,
     "condition": "very_good",
     "completeness": "CIB",
@@ -3297,7 +3297,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msl51ugw",
-    "updatedAt": "2026-08-09T15:13:04.937Z"
+    "updatedAt": "2026-08-09T15:14:43.628Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-le-destin-perdu",

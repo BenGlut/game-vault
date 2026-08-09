@@ -36,14 +36,14 @@
   {
     "id": "order_msl51ugw",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "shipped",
     "itemCount": 2,
     "gameIds": [
       "game_ds_professeur-layton-et-la-boite-de-pandore",
       "game_ds_mario-kart-ds"
     ],
     "orderedAt": "2026-08-09",
-    "shippedAt": null,
+    "shippedAt": "2026-08-09",
     "receivedAt": null,
     "cancelledAt": null,
     "refundedAt": null,
