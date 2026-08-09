@@ -4,7 +4,9 @@ import { useMemo, useState, useEffect } from "react";
 import Link from "next/link";
 import { CONSOLE_ICONS } from "@/components/ConsoleIcons";
 import { GamepadIcon } from "@/components/icons";
+import { GameCard, GameGrid, TIER_COLORS, STATUS_COLORS } from "@/components/GameCard";
 import type { Game, Platform } from "@/lib/schema";
+import { STATUS_LABELS } from "@/lib/labels";
 import type { PublicInventoryItem } from "@/lib/data";
 
 interface Row {
@@ -13,30 +15,6 @@ interface Row {
   platform: Platform | undefined;
   coverUrl: string | null;
 }
-
-const STATUS_LABELS: Record<string, string> = {
-  owned: "Possédé",
-  ordered: "Commandé",
-  fulfilled: "Expédié",
-  delivered: "Reçu",
-  wishlist: "Wishlist",
-  duplicate: "Doublon",
-  sold: "Vendu",
-  cancelled: "Annulé",
-  refunded: "Remboursé",
-};
-
-const STATUS_COLORS: Record<string, string> = {
-  owned: "bg-[#4ade8020] text-[#4ade80]",
-  delivered: "bg-[#4ade8020] text-[#4ade80]",
-  ordered: "bg-[#60a5fa20] text-[#60a5fa]",
-  fulfilled: "bg-[#60a5fa20] text-[#93c5fd]",
-  wishlist: "bg-[#c084fc20] text-[#c084fc]",
-  duplicate: "bg-[#f5b64220] text-[#f5b642]",
-  sold: "bg-[#8a93a820] text-[#8a93a8]",
-  cancelled: "bg-[#f8717120] text-[#f87171]",
-  refunded: "bg-[#f8717120] text-[#fca5a5]",
-};
 
 function norm(s: string): string {
   return s
@@ -61,6 +39,8 @@ export default function CollectionExplorer({
   const [verif, setVerif] = useState("");
   const [region, setRegion] = useState("");
   const [quality, setQuality] = useState("");
+  const [view, setView] = useState<"grid" | "list">("grid");
+  const [allPlatformsShown, setAllPlatformsShown] = useState(false);
 
   // lit les filtres depuis l'URL au montage (retour arrière = sélections restaurées)
   useEffect(() => {
@@ -155,7 +135,9 @@ export default function CollectionExplorer({
         >
           Toutes
         </button>
-        {platforms.map(({ p, count }) => {
+        {platforms
+          .filter(({ count }) => allPlatformsShown || count > 0)
+          .map(({ p, count }) => {
           const Icon = CONSOLE_ICONS[p.id];
           const active = platform === p.id;
           return (
@@ -177,8 +159,19 @@ export default function CollectionExplorer({
               {p.shortName}
               {count ? <span className="font-mono text-xs text-accent">{count}</span> : null}
             </button>
-          );
-        })}
+            );
+          })}
+        {platforms.some(({ count }) => count === 0) ? (
+          <button
+            type="button"
+            onClick={() => setAllPlatformsShown((v) => !v)}
+            className="rounded-xl border border-dashed border-border px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-text"
+          >
+            {allPlatformsShown
+              ? "− masquer les consoles vides"
+              : `+ ${platforms.filter(({ count }) => count === 0).length} consoles vides`}
+          </button>
+        ) : null}
       </div>
       <div className="mb-4 flex flex-wrap gap-2">
         <input
@@ -227,82 +220,109 @@ export default function CollectionExplorer({
         </select>
       </div>
 
-      <p className="mb-3 text-sm text-muted">
-        {filtered.length} jeu{filtered.length > 1 ? "x" : ""} — lecture seule
-      </p>
+      <div className="mb-4 flex items-center justify-between">
+        <p className="text-sm text-muted">
+          <span className="font-semibold text-text">{filtered.length}</span> jeu
+          {filtered.length > 1 ? "x" : ""}
+        </p>
+        <div className="flex overflow-hidden rounded-lg border border-border">
+          {(
+            [
+              ["grid", "Grille"],
+              ["list", "Liste"],
+            ] as const
+          ).map(([v, label]) => (
+            <button
+              key={v}
+              type="button"
+              onClick={() => setView(v)}
+              className={`px-3 py-1.5 text-xs transition ${
+                view === v ? "bg-accent-soft text-accent" : "bg-surface text-muted hover:text-text"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
 
-      <div className="space-y-2">
-        {filtered.map((r) => (
-          <Link
-            key={r.game.id}
-            href={`/jeu/${r.game.id}/`}
-            className="flex items-center justify-between gap-3 rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent/40 hover:bg-surface-2"
-          >
-            <div className="flex min-w-0 items-center gap-3">
-              {r.coverUrl ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={r.coverUrl}
-                  alt=""
-                  loading="lazy"
-                  className="h-14 w-12 shrink-0 rounded object-cover"
-                />
-              ) : (
-                <div className="flex h-14 w-12 shrink-0 items-center justify-center rounded bg-surface-2 text-xs text-muted">
-                  ?
-                </div>
-              )}
-              <div className="min-w-0">
-                <div className="flex items-center gap-2">
-                  <span className="truncate font-medium">{r.game.canonicalTitle}</span>
-                  {r.game.qualityTier ? (
-                    <span
-                      className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded font-mono text-xs font-bold ${
-                        {
-                          S: "bg-[#f5b64225] text-[#f5b642]",
-                          A: "bg-[#4ade8020] text-[#4ade80]",
-                          B: "bg-[#60a5fa20] text-[#60a5fa]",
-                          C: "bg-[#8a93a820] text-[#8a93a8]",
-                          D: "bg-[#f8717120] text-[#f87171]",
-                        }[r.game.qualityTier] ?? ""
-                      }`}
-                    >
-                      {r.game.qualityTier}
+      {filtered.length === 0 ? (
+        <div className="rounded-2xl border border-border bg-surface px-4 py-16 text-center text-muted">
+          Aucun jeu ne correspond à ces filtres.
+        </div>
+      ) : view === "grid" ? (
+        <GameGrid>
+          {filtered.map((r) => (
+            <GameCard
+              key={r.game.id}
+              game={r.game}
+              platform={r.platform}
+              coverUrl={r.coverUrl}
+              items={r.items}
+              footer={
+                r.items.some((i) => i.quantityNeedsReview)
+                  ? "quantité à confirmer"
+                  : (r.game.franchise ?? r.game.region)
+              }
+            />
+          ))}
+        </GameGrid>
+      ) : (
+        <div className="space-y-1.5">
+          {filtered.map((r) => (
+            <Link
+              key={r.game.id}
+              href={`/jeu/${r.game.id}/`}
+              className="flex items-center justify-between gap-3 rounded-xl border border-border bg-surface px-3 py-2.5 transition hover:border-accent/40 hover:bg-surface-2"
+            >
+              <div className="flex min-w-0 items-center gap-3">
+                {r.coverUrl ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={r.coverUrl}
+                    alt=""
+                    loading="lazy"
+                    className="h-16 w-12 shrink-0 rounded-md object-cover shadow-lg"
+                  />
+                ) : (
+                  <div className="flex h-16 w-12 shrink-0 items-center justify-center rounded-md bg-surface-2 text-xs text-muted">
+                    ?
+                  </div>
+                )}
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2">
+                    <span className="truncate font-medium">{r.game.canonicalTitle}</span>
+                    {r.game.qualityTier ? (
+                      <span
+                        className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded font-mono text-xs font-bold ${TIER_COLORS[r.game.qualityTier] ?? ""}`}
+                      >
+                        {r.game.qualityTier}
+                      </span>
+                    ) : null}
+                  </div>
+                  <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted">
+                    <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono">
+                      {r.platform?.shortName ?? r.game.platformId}
                     </span>
-                  ) : null}
-                </div>
-                <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted">
-                  <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono">
-                    {r.platform?.shortName ?? r.game.platformId}
-                  </span>
-                  {r.game.franchise ? <span>{r.game.franchise}</span> : null}
-                  <span>{r.game.region}</span>
-                  {r.items.some((i) => i.quantityNeedsReview) ? (
-                    <span className="text-accent">quantité à confirmer</span>
-                  ) : null}
+                    {r.game.franchise ? <span>{r.game.franchise}</span> : null}
+                    <span>{r.game.region}</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="flex shrink-0 items-center gap-2">
-              {r.items.map((i) => (
-                <span key={i.id} className="flex items-center gap-1">
-                  <span
-                    className={`inline-block rounded-full px-2 py-0.5 text-xs font-medium ${STATUS_COLORS[i.status] ?? "bg-surface-2 text-muted"}`}
-                  >
-                    {STATUS_LABELS[i.status] ?? i.status}
-                  </span>
-                  {i.quantity > 1 ? <span className="text-xs text-accent">×{i.quantity}</span> : null}
+              <div className="flex shrink-0 items-center gap-2">
+                {r.items.length > 1 ? (
+                  <span className="text-xs font-semibold text-accent">×{r.items.length}</span>
+                ) : null}
+                <span
+                  className={`rounded-full px-2 py-0.5 text-xs font-medium ring-1 ring-inset ${STATUS_COLORS[r.items[0]?.status ?? ""] ?? "bg-surface-2 text-muted ring-border"}`}
+                >
+                  {STATUS_LABELS[r.items[0]?.status ?? ""] ?? "—"}
                 </span>
-              ))}
-            </div>
-          </Link>
-        ))}
-        {filtered.length === 0 ? (
-          <div className="rounded-lg border border-border bg-surface px-4 py-8 text-center text-muted">
-            Aucun jeu ne correspond à ces filtres.
-          </div>
-        ) : null}
-      </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

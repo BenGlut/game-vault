@@ -108,3 +108,14 @@
   nouvelle entrée au lieu de refuser, `set-status --quantity 2` est rejeté
   (`scripts/seed/migrate-erp.ts`, `src/lib/schema.ts`, `scripts/vault/index.ts`)
 - Page Commandes : dates d'expédition et livraison estimée affichées
+
+## Changed (refonte UI)
+- Interface repensée autour des jaquettes : composant `GameCard` poster (ratio 3/4,
+  survol avec élévation et zoom, badges qualité/statut/plateforme superposés) et
+  `GameGrid` responsive 2→6 colonnes — Collection (avec bascule Grille/Liste),
+  Wishlist et Recommandations (`src/components/GameCard.tsx`)
+- Fiche jeu immersive : bandeau plein écran avec jaquette floutée en fond,
+  grande jaquette nette, titre en dégradé et badges (`src/app/jeu/[id]/page.tsx`)
+- Thème plus contrasté (fond profond, halo d'accent, ombres portées) et
+  `src/lib/labels.ts` (module pur) pour partager les libellés côté client
+- Sélecteur de consoles : les plateformes vides sont repliées derrière un bouton

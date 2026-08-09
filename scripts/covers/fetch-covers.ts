@@ -121,25 +121,6 @@ function pickMatch(candidates: string[], entries: RemoteEntry[]): RemoteEntry | 
   return null;
 }
 
-async function download(repo: string, remoteName: string, dest: string): Promise<void> {
-  // GitHub raw, puis CDN libretro (certains fichiers GitHub sont des pointeurs LFS)
-  const urls = [
-    `https://raw.githubusercontent.com/libretro-thumbnails/${repo}/master/Named_Boxarts/${encodeURIComponent(remoteName)}`,
-    `http://thumbnails.libretro.com/${encodeURIComponent(repo.replace(/_/g, " "))}/Named_Boxarts/${encodeURIComponent(remoteName)}`,
-  ];
-  let lastErr: unknown;
-  for (const url of urls) {
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status} pour ${url}`);
-      fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
-      return;
-    } catch (e) {
-      lastErr = e;
-    }
-  }
-  throw lastErr;
-}
 
 async function main(): Promise<void> {
   const games = JSON.parse(

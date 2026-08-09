@@ -87,7 +87,7 @@
   {
     "id": "order_msly2w9z",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "cancelled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_captain-toad-treasure-tracker"
@@ -96,7 +96,7 @@
     "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
-    "cancelledAt": null,
+    "cancelledAt": "2026-08-09",
     "refundedAt": null,
     "totalPaid": null
   },

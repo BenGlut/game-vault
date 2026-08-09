@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { getGameRows, getQuotes, euro, type GameRow } from "@/lib/data";
-import { PageTitle, QualityBadge } from "@/components/ui";
+import { PageTitle } from "@/components/ui";
+import { GameCard, GameGrid } from "@/components/GameCard";
 
 const PRIORITY_ORDER = ["haute", "moyenne", "basse"] as const;
 const PRIORITY_TITLES: Record<string, string> = {
@@ -12,46 +12,15 @@ const TIER_ORDER: Record<string, number> = { S: 0, A: 1, B: 2, C: 3, D: 4 };
 
 function RecommendationCard({ row }: { row: GameRow }) {
   const quotes = getQuotes()[row.game.id];
+  const price = quotes?.cib?.median ?? quotes?.loose?.median;
   return (
-    <Link
-      href={`/jeu/${row.game.id}/`}
-      className="flex items-center gap-3 rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent/40 hover:bg-surface-2"
-    >
-      {row.coverUrl ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={row.coverUrl} alt="" loading="lazy" className="h-16 w-14 shrink-0 rounded object-cover" />
-      ) : (
-        <div className="flex h-16 w-14 shrink-0 items-center justify-center rounded bg-surface-2 text-xs text-muted">
-          ?
-        </div>
-      )}
-      <div className="min-w-0 flex-1">
-        <div className="flex items-center gap-2">
-          <span className="truncate font-medium">{row.game.canonicalTitle}</span>
-          <QualityBadge tier={row.game.qualityTier} />
-        </div>
-        <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted">
-          <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono">
-            {row.platform?.shortName ?? row.game.platformId}
-          </span>
-          {row.game.franchise ? <span>{row.game.franchise}</span> : null}
-        </div>
-      </div>
-      <div className="shrink-0 text-right text-xs text-muted">
-        {quotes?.cib ? (
-          <div>
-            CIB <span className="font-mono text-accent">{euro(quotes.cib.median)}</span>
-          </div>
-        ) : null}
-        {quotes?.loose ? (
-          <div>
-            loose <span className="font-mono">{euro(quotes.loose.median)}</span>
-          </div>
-        ) : (
-          !quotes?.cib && <div>cote à saisir</div>
-        )}
-      </div>
-    </Link>
+    <GameCard
+      game={row.game}
+      platform={row.platform}
+      coverUrl={row.coverUrl}
+      items={row.items}
+      footer={price ? `cote ${euro(price)}${quotes?.cib ? " en boîte" : " loose"}` : "cote à saisir"}
+    />
   );
 }
 
@@ -84,11 +53,11 @@ export default function RecommendationsPage() {
               <h2 className="mb-3 text-lg font-semibold">
                 {PRIORITY_TITLES[priority]} <span className="text-sm text-muted">({rows.length})</span>
               </h2>
-              <div className="grid gap-2 lg:grid-cols-2">
+              <GameGrid>
                 {rows.map((r) => (
                   <RecommendationCard key={r.game.id} row={r} />
                 ))}
-              </div>
+              </GameGrid>
             </section>
           );
         })

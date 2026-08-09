@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import type { Game, Platform } from "@/lib/schema";
 import { CONSOLE_ICONS } from "@/components/ConsoleIcons";
+import { GameCard, GameGrid } from "@/components/GameCard";
 
 interface Item {
   id: string;
@@ -16,14 +16,6 @@ interface GameRow {
   platform: Platform | undefined;
   coverUrl: string | null;
 }
-
-const TIER_COLORS: Record<string, string> = {
-  S: "bg-[#f5b64225] text-[#f5b642]",
-  A: "bg-[#4ade8020] text-[#4ade80]",
-  B: "bg-[#60a5fa20] text-[#60a5fa]",
-  C: "bg-[#8a93a820] text-[#8a93a8]",
-  D: "bg-[#f8717120] text-[#f87171]",
-};
 
 const PRIORITY_STYLES: Record<string, string> = {
   haute: "bg-[#f8717120] text-[#f87171]",
@@ -100,46 +92,27 @@ export default function WishlistClient({ rows }: { rows: GameRow[] }) {
       <p className="mb-3 text-sm text-muted">
         {filtered.length} jeu{filtered.length > 1 ? "x" : ""} en wishlist
       </p>
-      <div className="space-y-2">
+      <GameGrid>
         {filtered.map((r) => (
-          <Link
+          <GameCard
             key={r.game.id}
-            href={`/jeu/${r.game.id}/`}
-            className="flex items-center justify-between gap-3 rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent/40 hover:bg-surface-2"
-          >
-            <div className="flex min-w-0 items-center gap-3">
-              {r.coverUrl ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={r.coverUrl} alt="" loading="lazy" className="h-14 w-12 shrink-0 rounded object-cover" />
-              ) : (
-                <div className="flex h-14 w-12 shrink-0 items-center justify-center rounded bg-surface-2 text-xs text-muted">
-                  ?
-                </div>
-              )}
-              <div className="min-w-0">
-                <div className="flex items-center gap-2">
-                  <span className="truncate font-medium">{r.game.canonicalTitle}</span>
-                  {r.game.qualityTier ? (
-                    <span className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded font-mono text-xs font-bold ${TIER_COLORS[r.game.qualityTier] ?? ""}`}>
-                      {r.game.qualityTier}
-                    </span>
-                  ) : null}
-                </div>
-                <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted">
-                  <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono">
-                    {r.platform?.shortName ?? r.game.platformId}
-                  </span>
-                  {r.game.franchise ? <span>{r.game.franchise}</span> : null}
-                </div>
-              </div>
-            </div>
-            {r.game.buyPriority ? (
-              <span className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${PRIORITY_STYLES[r.game.buyPriority] ?? ""}`}>
-                priorité {r.game.buyPriority}
-              </span>
-            ) : null}
-          </Link>
+            game={r.game}
+            platform={r.platform}
+            coverUrl={r.coverUrl}
+            items={r.items}
+            badge={
+              r.game.buyPriority ? (
+                <span
+                  className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide backdrop-blur-sm ${PRIORITY_STYLES[r.game.buyPriority] ?? ""}`}
+                >
+                  {r.game.buyPriority}
+                </span>
+              ) : undefined
+            }
+          />
         ))}
+      </GameGrid>
+      <div>
         {filtered.length === 0 ? (
           <div className="rounded-lg border border-border bg-surface px-4 py-8 text-center text-muted">
             Rien pour cette plateforme.

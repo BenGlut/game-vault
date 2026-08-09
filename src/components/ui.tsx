@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { GameRow } from "@/lib/data";
-import { STATUS_LABELS } from "@/lib/data";
+import { STATUS_LABELS } from "@/lib/labels";
 import { CheckCircleIcon, AlertIcon } from "@/components/icons";
 
 const STATUS_COLORS: Record<string, string> = {

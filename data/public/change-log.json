@@ -1478,5 +1478,10 @@
     "at": "2026-08-09T16:13:57.719Z",
     "command": "migrate-erp",
     "message": "Migration ERP : statuts fulfilled/delivered + estimatedDeliveryAt ; 29 exemplaires éclatés en entrées individuelles"
+  },
+  {
+    "at": "2026-08-09T17:49:11.357Z",
+    "command": "cancel-order",
+    "message": "cancel-order order_msly2w9z"
   }
 ]

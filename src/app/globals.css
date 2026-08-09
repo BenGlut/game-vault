@@ -1,28 +1,36 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #0b0e14;
-  --surface: #131722;
-  --surface-2: #1a2030;
-  --border: #232b3d;
-  --text: #e6e9f0;
+  --bg: #08090d;
+  --bg-elev: #0d0f16;
+  --surface: #12141d;
+  --surface-2: #191d29;
+  --border: #232838;
+  --border-strong: #2f364a;
+  --text: #eef1f7;
   --muted: #8a93a8;
   --accent: #f5b642;
-  --accent-soft: #f5b64220;
+  --accent-2: #ff8a3d;
+  --accent-soft: #f5b64218;
   --green: #4ade80;
   --red: #f87171;
   --blue: #60a5fa;
   --purple: #c084fc;
+  --shadow-card: 0 10px 30px -12px rgb(0 0 0 / 0.8);
+  --shadow-hover: 0 22px 45px -18px rgb(245 182 66 / 0.35);
 }
 
 @theme inline {
   --color-bg: var(--bg);
+  --color-bg-elev: var(--bg-elev);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
   --color-text: var(--text);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
   --color-accent-soft: var(--accent-soft);
   --color-ok: var(--green);
   --color-ko: var(--red);
@@ -33,6 +41,7 @@
 html {
   background: var(--bg);
   color: var(--text);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -44,4 +53,64 @@ body {
     Roboto,
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  /* halo discret en haut de page */
+  background-image: radial-gradient(120% 60% at 50% -10%, #f5b6420f 0%, transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Titre à dégradé, réservé aux en-têtes de page */
+.title-gradient {
+  background: linear-gradient(100deg, var(--text) 20%, var(--accent) 130%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Carte poster : la jaquette est l'élément principal */
+.poster {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 0.9rem;
+  background: var(--surface-2);
+  box-shadow: var(--shadow-card);
+  transition:
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.25s ease,
+    border-color 0.2s ease;
+  border: 1px solid var(--border);
+}
+.poster img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.group:hover .poster {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.group:hover .poster img {
+  transform: scale(1.06);
+}
+
+/* Voile bas de jaquette pour lire les badges */
+.poster-veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgb(8 9 13 / 0.92) 0%, rgb(8 9 13 / 0.35) 35%, transparent 65%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .poster,
+  .poster img {
+    transition: none;
+  }
+  .group:hover .poster {
+    transform: none;
+  }
+  .group:hover .poster img {
+    transform: none;
+  }
 }

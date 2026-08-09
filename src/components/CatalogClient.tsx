@@ -147,7 +147,7 @@ export default function CatalogClient({
       if (qWords.length && !qWords.every((w) => e.n.includes(w))) return false;
       return true;
     });
-  }, [entries, query, possession, links, platform, region, quality]);
+  }, [entries, query, possession, links, region, quality]);
 
   const shown = filtered.slice(0, 200);
   const select =

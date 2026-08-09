@@ -12,7 +12,7 @@ import {
   COMPLETENESS_LABELS,
   POSSESSION,
 } from "@/lib/data";
-import { PageTitle, StatusBadge, ReviewBadge, QualityBadge, PriorityBadge } from "@/components/ui";
+import { StatusBadge, ReviewBadge, QualityBadge, PriorityBadge } from "@/components/ui";
 import { CheckCircleIcon, XIcon, PackageIcon, StarIcon } from "@/components/icons";
 import MiniEstimator from "@/components/MiniEstimator";
 
@@ -43,24 +43,70 @@ export default async function GamePage({ params }: { params: Promise<{ id: strin
     .filter((i) => POSSESSION.includes(i.status))
     .reduce((n, i) => n + i.quantity, 0);
 
+  const cover = coverUrl(game.id);
+
   return (
     <div>
-      <Link href="/collection/" className="text-sm text-muted hover:text-accent">
-        ← Collection
-      </Link>
-      <div className="mt-2 flex items-start gap-5">
-        {coverUrl(game.id) ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={coverUrl(game.id)!}
-            alt={`Jaquette de ${game.canonicalTitle}`}
-            className="w-28 shrink-0 rounded-lg border border-border shadow-lg md:w-36"
-          />
+      {/* bandeau immersif : jaquette floutée en fond + grande jaquette nette */}
+      <div className="relative -mx-4 mb-8 overflow-hidden md:-mx-8">
+        {cover ? (
+          <div className="absolute inset-0">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={cover}
+              alt=""
+              aria-hidden
+              className="h-full w-full scale-110 object-cover opacity-25 blur-2xl"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/85 to-bg/40" />
+          </div>
         ) : null}
-        <PageTitle
-          title={game.canonicalTitle}
-          sub={`${platform?.name ?? game.platformId} — ${game.region}${game.franchise ? ` — ${game.franchise}` : ""}`}
-        />
+
+        <div className="relative px-4 pb-6 pt-4 md:px-8">
+          <Link href="/collection/" className="text-sm text-muted transition hover:text-accent">
+            ← Collection
+          </Link>
+          <div className="mt-4 flex flex-col gap-5 sm:flex-row sm:items-end">
+            {cover ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={cover}
+                alt={`Jaquette de ${game.canonicalTitle}`}
+                className="w-36 shrink-0 rounded-xl border border-border-strong shadow-[0_18px_40px_-12px_rgba(0,0,0,0.9)] sm:w-44"
+              />
+            ) : (
+              <div className="flex aspect-[3/4] w-36 shrink-0 items-center justify-center rounded-xl border border-border bg-surface-2 px-3 text-center text-xs text-muted sm:w-44">
+                pas de jaquette
+              </div>
+            )}
+            <div className="min-w-0 pb-1">
+              <div className="mb-2 flex flex-wrap items-center gap-2">
+                {game.qualityTier ? <QualityBadge tier={game.qualityTier} /> : null}
+                {items.map((i) => (
+                  <StatusBadge key={i.id} status={i.status} />
+                ))}
+                {game.buyPriority ? <PriorityBadge priority={game.buyPriority} /> : null}
+              </div>
+              <h1 className="title-gradient text-3xl font-bold leading-tight tracking-tight md:text-4xl">
+                {game.canonicalTitle}
+              </h1>
+              <p className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted">
+                <span className="rounded bg-surface-2 px-2 py-0.5 font-mono text-xs uppercase">
+                  {platform?.shortName ?? game.platformId}
+                </span>
+                <span>{platform?.name ?? game.platformId}</span>
+                <span aria-hidden>·</span>
+                <span>{game.region}</span>
+                {game.franchise ? (
+                  <>
+                    <span aria-hidden>·</span>
+                    <span>{game.franchise}</span>
+                  </>
+                ) : null}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">
