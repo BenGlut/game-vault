@@ -3214,7 +3214,7 @@
   {
     "id": "inv_ds_dragon-quest-ix-les-sentinelles-du-firmament",
     "gameId": "game_ds_dragon-quest-ix-les-sentinelles-du-firmament",
-    "status": "wishlist",
+    "status": "shipped",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3230,8 +3230,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-08T03:24:23.840Z"
+    "orderId": "order_msly29ix",
+    "updatedAt": "2026-08-09T15:15:45.780Z"
   },
   {
     "id": "inv_ds_the-legend-of-zelda-phantom-hourglass",
@@ -5346,5 +5346,159 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-08-08T20:26:37.254Z"
+  },
+  {
+    "id": "inv_switch_captain-toad-treasure-tracker",
+    "gameId": "game_switch_captain-toad-treasure-tracker",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 16,
+      "median": 21,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msly2w9z",
+    "updatedAt": "2026-08-09T15:16:05.717Z"
+  },
+  {
+    "id": "inv_ds_valkyrie-profile-covenant-of-the-plume",
+    "gameId": "game_ds_valkyrie-profile-covenant-of-the-plume",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 75,
+      "median": 100,
+      "high": 140,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msly4quw",
+    "updatedAt": "2026-08-09T15:18:30.257Z"
+  },
+  {
+    "id": "inv_ds_dragon-quest-monsters-joker",
+    "gameId": "game_ds_dragon-quest-monsters-joker",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 15,
+      "median": 20,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msly4quw",
+    "updatedAt": "2026-08-09T15:18:30.257Z"
+  },
+  {
+    "id": "inv_ds_mario-party-ds",
+    "gameId": "game_ds_mario-party-ds",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 10,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msly4quw",
+    "updatedAt": "2026-08-09T15:18:30.257Z"
+  },
+  {
+    "id": "inv_ds_star-wars-battlefront-elite-squadron",
+    "gameId": "game_ds_star-wars-battlefront-elite-squadron",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 16,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msly4quw",
+    "updatedAt": "2026-08-09T15:18:30.257Z"
+  },
+  {
+    "id": "inv_ds_lego-battles",
+    "gameId": "game_ds_lego-battles",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 8,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msly4quw",
+    "updatedAt": "2026-08-09T15:18:30.257Z"
+  },
+  {
+    "id": "inv_ds_spectrobes",
+    "gameId": "game_ds_spectrobes",
+    "status": "shipped",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 6,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msly4quw",
+    "updatedAt": "2026-08-09T15:18:30.257Z"
   }
 ]

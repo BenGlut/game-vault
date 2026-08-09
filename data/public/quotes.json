@@ -4840,5 +4840,131 @@
       "source": "estimation-agent",
       "observedAt": "2026-08-08"
     }
+  },
+  "game_switch_captain-toad-treasure-tracker": {
+    "cib": {
+      "low": 16,
+      "median": 21,
+      "high": 28,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "loose": {
+      "low": 14,
+      "median": 18,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    }
+  },
+  "game_ds_star-wars-battlefront-elite-squadron": {
+    "cib": {
+      "low": 12,
+      "median": 16,
+      "high": 24,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "loose": {
+      "low": 8,
+      "median": 12,
+      "high": 18,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    }
+  },
+  "game_ds_mario-party-ds": {
+    "cib": {
+      "low": 10,
+      "median": 14,
+      "high": 20,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "loose": {
+      "low": 7,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    }
+  },
+  "game_ds_valkyrie-profile-covenant-of-the-plume": {
+    "cib": {
+      "low": 75,
+      "median": 100,
+      "high": 140,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "loose": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    }
+  },
+  "game_ds_spectrobes": {
+    "cib": {
+      "low": 6,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "loose": {
+      "low": 4,
+      "median": 6,
+      "high": 9,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    }
+  },
+  "game_ds_dragon-quest-monsters-joker": {
+    "cib": {
+      "low": 15,
+      "median": 20,
+      "high": 30,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "loose": {
+      "low": 10,
+      "median": 15,
+      "high": 22,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    }
+  },
+  "game_ds_lego-battles": {
+    "cib": {
+      "low": 8,
+      "median": 10,
+      "high": 15,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    },
+    "loose": {
+      "low": 5,
+      "median": 8,
+      "high": 12,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-09"
+    }
   }
 }

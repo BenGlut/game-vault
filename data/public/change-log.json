@@ -1403,5 +1403,75 @@
     "at": "2026-08-09T15:14:43.639Z",
     "command": "ship-order",
     "message": "ship-order order_msl51ugw"
+  },
+  {
+    "at": "2026-08-09T15:15:17.830Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-09T15:15:45.796Z",
+    "command": "ship-order",
+    "message": "ship-order order_msly29ix"
+  },
+  {
+    "at": "2026-08-09T15:15:46.607Z",
+    "command": "add-game",
+    "message": "add game Captain Toad: Treasure Tracker (switch)"
+  },
+  {
+    "at": "2026-08-09T15:15:47.315Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-09T15:16:05.726Z",
+    "command": "price-batch",
+    "message": "2 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/toad.json"
+  },
+  {
+    "at": "2026-08-09T15:17:08.592Z",
+    "command": "add-game",
+    "message": "add game Star Wars Battlefront: Elite Squadron (ds)"
+  },
+  {
+    "at": "2026-08-09T15:17:09.517Z",
+    "command": "add-game",
+    "message": "add game Mario Party DS (ds)"
+  },
+  {
+    "at": "2026-08-09T15:17:10.339Z",
+    "command": "add-game",
+    "message": "add game Valkyrie Profile: Covenant of the Plume (ds)"
+  },
+  {
+    "at": "2026-08-09T15:17:11.225Z",
+    "command": "add-game",
+    "message": "add game Spectrobes (ds)"
+  },
+  {
+    "at": "2026-08-09T15:17:12.046Z",
+    "command": "add-game",
+    "message": "add game Dragon Quest Monsters: Joker (ds)"
+  },
+  {
+    "at": "2026-08-09T15:17:12.832Z",
+    "command": "add-game",
+    "message": "add game LEGO Battles (ds)"
+  },
+  {
+    "at": "2026-08-09T15:17:13.608Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-09T15:18:29.509Z",
+    "command": "ship-order",
+    "message": "ship-order order_msly4quw"
+  },
+  {
+    "at": "2026-08-09T15:18:30.269Z",
+    "command": "price-batch",
+    "message": "12 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/lot-val.json"
   }
 ]

@@ -5922,5 +5922,152 @@
     "externalIds": {},
     "qualityTier": "B",
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_captain-toad-treasure-tracker",
+    "canonicalTitle": "Captain Toad: Treasure Tracker",
+    "normalizedTitle": "captain toad treasure tracker",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "A",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_star-wars-battlefront-elite-squadron",
+    "canonicalTitle": "Star Wars Battlefront: Elite Squadron",
+    "normalizedTitle": "star wars battlefront elite squadron",
+    "aliases": [],
+    "franchise": "Star Wars",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "C",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_mario-party-ds",
+    "canonicalTitle": "Mario Party DS",
+    "normalizedTitle": "mario party ds",
+    "aliases": [],
+    "franchise": "Mario Party",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "B",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_valkyrie-profile-covenant-of-the-plume",
+    "canonicalTitle": "Valkyrie Profile: Covenant of the Plume",
+    "normalizedTitle": "valkyrie profile covenant of the plume",
+    "aliases": [],
+    "franchise": "Valkyrie Profile",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "A",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_spectrobes",
+    "canonicalTitle": "Spectrobes",
+    "normalizedTitle": "spectrobes",
+    "aliases": [],
+    "franchise": "Spectrobes",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "C",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_dragon-quest-monsters-joker",
+    "canonicalTitle": "Dragon Quest Monsters: Joker",
+    "normalizedTitle": "dragon quest monsters joker",
+    "aliases": [],
+    "franchise": "Dragon Quest",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "B",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_lego-battles",
+    "canonicalTitle": "LEGO Battles",
+    "normalizedTitle": "lego battles",
+    "aliases": [],
+    "franchise": "LEGO",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "C",
+    "buyPriority": null
   }
 ]

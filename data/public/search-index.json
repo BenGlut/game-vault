@@ -2963,5 +2963,75 @@
     "p": "xbox360",
     "r": "PAL-EU",
     "q": "B"
+  },
+  {
+    "id": "game_switch_captain-toad-treasure-tracker",
+    "t": "Captain Toad: Treasure Tracker",
+    "n": "captain toad treasure tracker",
+    "a": [],
+    "f": "Super Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_ds_star-wars-battlefront-elite-squadron",
+    "t": "Star Wars Battlefront: Elite Squadron",
+    "n": "star wars battlefront elite squadron",
+    "a": [],
+    "f": "Star Wars",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
+  },
+  {
+    "id": "game_ds_mario-party-ds",
+    "t": "Mario Party DS",
+    "n": "mario party ds",
+    "a": [],
+    "f": "Mario Party",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
+  },
+  {
+    "id": "game_ds_valkyrie-profile-covenant-of-the-plume",
+    "t": "Valkyrie Profile: Covenant of the Plume",
+    "n": "valkyrie profile covenant of the plume",
+    "a": [],
+    "f": "Valkyrie Profile",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_ds_spectrobes",
+    "t": "Spectrobes",
+    "n": "spectrobes",
+    "a": [],
+    "f": "Spectrobes",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
+  },
+  {
+    "id": "game_ds_dragon-quest-monsters-joker",
+    "t": "Dragon Quest Monsters: Joker",
+    "n": "dragon quest monsters joker",
+    "a": [],
+    "f": "Dragon Quest",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
+  },
+  {
+    "id": "game_ds_lego-battles",
+    "t": "LEGO Battles",
+    "n": "lego battles",
+    "a": [],
+    "f": "LEGO",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
   }
 ]
