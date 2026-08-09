@@ -1,4 +1,4 @@
-import { getGameRows, getPlatforms, getQuotes } from "@/lib/data";
+import { getGameRows, getPlatforms, getQuotes, getOrdersByGame } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import CollectionExplorer from "@/components/CollectionExplorer";
 import { GameDrawerProvider } from "@/components/GameDrawer";
@@ -15,7 +15,7 @@ export default function CollectionPage() {
         title="Collection"
         sub="Les jeux que tu possèdes ou as commandés — la wishlist a sa propre page"
       />
-      <GameDrawerProvider quotes={getQuotes()}>
+      <GameDrawerProvider quotes={getQuotes()} orders={getOrdersByGame()}>
         <CollectionExplorer rows={rows} allPlatforms={getPlatforms()} />
       </GameDrawerProvider>
     </div>

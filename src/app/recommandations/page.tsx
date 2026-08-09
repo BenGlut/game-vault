@@ -1,4 +1,4 @@
-import { getGameRows, getQuotes, euro, type GameRow } from "@/lib/data";
+import { getGameRows, getQuotes, getOrdersByGame, euro, type GameRow } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import { GameCard, GameGrid } from "@/components/GameCard";
 import { GameDrawerProvider } from "@/components/GameDrawer";
@@ -64,7 +64,7 @@ export default function RecommendationsPage() {
     .sort((a, b) => b.rows.length - a.rows.length || a.name.localeCompare(b.name, "fr"));
 
   return (
-    <GameDrawerProvider quotes={getQuotes()}>
+    <GameDrawerProvider quotes={getQuotes()} orders={getOrdersByGame()}>
       <PageTitle
         title="Recommandations d'achat"
         sub="Jeux à viser, groupés par console puis par priorité et qualité — vérifie le prix sur l'Estimateur avant d'acheter"

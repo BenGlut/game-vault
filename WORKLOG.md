@@ -124,3 +124,7 @@
   Échap/clic extérieur pour fermer, ctrl/cmd-clic garde la navigation classique) ;
   branché sur Collection, Wishlist et Recommandations
 - Recommandations groupées par console (compteurs de priorité par section)
+- Panneau latéral = fiche complète : jaquette en grand format centrée (titre en
+  dessous, rien à côté), exemplaires, cotes + mini-estimateur, commandes liées,
+  métadonnées du jeu, alias et EAN ; plus de voile sombre — la grille reste
+  visible et cliquable pour enchaîner d'une jaquette à l'autre

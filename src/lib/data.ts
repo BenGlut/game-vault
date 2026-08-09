@@ -142,3 +142,12 @@ export function getGameRows(): GameRow[] {
     .sort((a, b) => a.game.canonicalTitle.localeCompare(b.game.canonicalTitle, "fr"));
 }
 
+
+/** Commandes publiques regroupées par identifiant de jeu (pour le panneau latéral). */
+export function getOrdersByGame(): Record<string, PublicOrder[]> {
+  const byGame: Record<string, PublicOrder[]> = {};
+  for (const o of getOrders()) {
+    for (const gid of o.gameIds) (byGame[gid] ??= []).push(o);
+  }
+  return byGame;
+}

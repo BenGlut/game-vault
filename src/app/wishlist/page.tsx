@@ -1,4 +1,4 @@
-import { getGameRows, getQuotes } from "@/lib/data";
+import { getGameRows, getQuotes, getOrdersByGame } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import WishlistClient from "@/components/WishlistClient";
 import { GameDrawerProvider } from "@/components/GameDrawer";
@@ -17,7 +17,7 @@ export default function WishlistPage() {
           </div>
         </div>
       ) : (
-        <GameDrawerProvider quotes={getQuotes()}>
+        <GameDrawerProvider quotes={getQuotes()} orders={getOrdersByGame()}>
           <WishlistClient rows={rows} />
         </GameDrawerProvider>
       )}
