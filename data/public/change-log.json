@@ -1358,5 +1358,20 @@
     "at": "2026-08-08T21:02:14.813Z",
     "command": "price-batch",
     "message": "188 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/audit94-prices.json"
+  },
+  {
+    "at": "2026-08-09T01:43:09.455Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-09T01:44:47.814Z",
+    "command": "set-status",
+    "message": "set inv_ds_professeur-layton-et-la-boite-de-pandore -> ordered"
+  },
+  {
+    "at": "2026-08-09T01:44:48.696Z",
+    "command": "set-status",
+    "message": "set inv_ds_mario-kart-ds -> ordered"
   }
 ]
