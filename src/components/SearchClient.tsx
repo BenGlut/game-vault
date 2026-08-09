@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import Fuse from "fuse.js";
 import type { SearchDoc } from "@/lib/data";
+import { searchDocs } from "@/lib/fuzzy";
 
 function norm(s: string): string {
   return s
@@ -47,17 +48,19 @@ export default function SearchClient({
   const results = useMemo(() => {
     const q = norm(query);
     if (!q) return [];
-    // astuce : si le dernier mot est une plateforme (ds, 3ds…), filtre dessus
+    // astuce : si le dernier mot est une plateforme (ds, 3ds, gba…), filtre dessus
     const words = q.split(" ");
     const last = words[words.length - 1];
-    const platformFilter = ["ds", "3ds", "switch", "wii", "gba", "ps1", "ps2"].includes(last ?? "")
+    const platformFilter = [
+      "ds", "3ds", "switch", "gba", "gb", "gbc", "n64", "gamecube", "snes",
+    ].includes(last ?? "")
       ? last
       : null;
     const textQuery = platformFilter ? words.slice(0, -1).join(" ") : q;
-    let hits = fuse.search(textQuery || q);
+    let hits = searchDocs(docs, fuse, textQuery || q, 40);
     if (platformFilter) hits = hits.filter((h) => h.item.p === platformFilter);
     return hits.slice(0, 20);
-  }, [fuse, query]);
+  }, [fuse, docs, query]);
 
   return (
     <div>
@@ -102,7 +105,7 @@ export default function SearchClient({
               </div>
             </div>
             <span className="shrink-0 font-mono text-xs text-muted">
-              {Math.round((1 - (h.score ?? 0)) * 100)}%
+              {Math.round(h.score * 100)}%
             </span>
           </Link>
         ))}

@@ -89,3 +89,7 @@
   pointeurs LFS passent au CDN, 4 PNG corrompus réparés) ; catalogue Switch
   re-parsé (noms nswdb nettoyés : rev/kiosk/bilingues) → 3 470 jeux uniques,
   2 690 icônes ; 6 jaquettes Switch récupérées une à une via titledb/copies
+- Recherche : les correspondances exactes par mots entiers passent devant le
+  fuzzy (« pokemon rouge » → Version Rouge en 1er) — `src/lib/fuzzy.ts` partagé
+  Recherche + Estimateur, suffixes plateforme étendus (gb/gbc/n64/gamecube/snes),
+  4 tests ajoutés

@@ -6,6 +6,7 @@ import Fuse from "fuse.js";
 import type { SearchDoc } from "@/lib/data";
 import type { GameQuotes, Quote } from "@/lib/schema";
 import { evaluateDeal, VERDICT_COLORS } from "@/lib/deal";
+import { searchDocs } from "@/lib/fuzzy";
 
 function norm(s: string): string {
   return s
@@ -55,8 +56,8 @@ export default function DealEstimator({
   const suggestions = useMemo(() => {
     const q = norm(query);
     if (!q || selected) return [];
-    return fuse.search(q).slice(0, 6);
-  }, [fuse, query, selected]);
+    return searchDocs(docs, fuse, q, 6);
+  }, [fuse, docs, query, selected]);
 
   const quote: Quote | undefined = selected ? quotes[selected.id]?.[state] : undefined;
   const fallbackQuote: Quote | undefined = selected
