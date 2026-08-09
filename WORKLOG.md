@@ -132,3 +132,11 @@
   panneau latéral disponible, total et dates en en-tête
 - Icônes de navigation dessinées en composants React inline (12 icônes, style
   Lucide MIT) — aucune dépendance ni fichier externe, couleur héritée du thème
+- Dashboard refait en tableau de bord : 4 tuiles cliquables (jeux possédés,
+  valeur estimée vs dépensé, en transit, wishlist), commandes en attente avec
+  livraison estimée, « à chasser en priorité » et « pièces les plus valorisées »
+  en jaquettes, répartition par plateforme en barres, bloc « à faire »
+  (à vérifier / doublons / sans cote / estimateur), derniers arrivés, historique
+- Commandes : prix par article et total (le prix d'un article inclut sa part de
+  port et de frais — garde-fou d'intégrité dans `store.ts`, publication des prix
+  activée dans publish.config.json), badge de statut retiré des jaquettes

@@ -23,7 +23,7 @@ beforeAll(() => {
     [
       "exec", "tsx", "scripts/vault/index.ts",
       "add-order", "--marketplace", "vinted",
-      "--items", "game_3ds_pokemon-x:12",
+      "--items", "game_3ds_pokemon-x:16.5",
       "--total", "16.5", "--seller", "vendeur-secret", "--reference", "REF-PRIVEE-123",
       "--notes", "note tres privee", "--yes",
     ],

@@ -184,6 +184,14 @@ export function integrityIssues(v: Vault): string[] {
       if (!gameIds.has(item.gameId)) issues.push(`${o.id}: jeu inconnu ${item.gameId}`);
     }
     if (o.status === "delivered" && !o.deliveredAt) issues.push(`${o.id}: delivered sans deliveredAt`);
+    // le prix d'un article inclut sa part de port et de frais : la somme doit faire le total
+    if (o.totalPaid !== null && o.items.every((it) => it.unitPrice !== null)) {
+      const sum = o.items.reduce((s, it) => s + (it.unitPrice ?? 0), 0);
+      if (Math.abs(sum - o.totalPaid) > 0.01)
+        issues.push(
+          `${o.id}: somme des prix d'articles ${sum.toFixed(2)} ≠ total payé ${o.totalPaid.toFixed(2)} (le prix article doit inclure port et frais)`,
+        );
+    }
     if (o.status === "cancelled" && !o.cancelledAt) issues.push(`${o.id}: cancelled sans cancelledAt`);
   }
   for (const p of v.priceObservations) {

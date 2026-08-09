@@ -2,8 +2,8 @@ import { test, expect } from "@playwright/test";
 
 test("le dashboard affiche les stats", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByText("Jeux référencés", { exact: false })).toBeVisible();
-  await expect(page.getByRole("heading", { name: "Dashboard" })).toBeVisible();
+  await expect(page.getByText("Jeux possédés").first()).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Tableau de bord" })).toBeVisible();
 });
 
 test("la collection liste les jeux et filtre par plateforme", async ({ page }) => {

@@ -3482,7 +3482,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 30.1,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 28,
       "median": 38,
@@ -3495,7 +3499,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msjq50c0",
-    "updatedAt": "2026-08-08T02:11:48.625Z"
+    "updatedAt": "2026-08-09T20:04:38.673Z"
   },
   {
     "id": "inv_3ds_mario-party-the-top-100",
@@ -3504,7 +3508,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "CIB",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 7,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 15,
       "median": 22,
@@ -3526,7 +3534,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "loose",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 4.8,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 10,
       "median": 15,
@@ -3548,7 +3560,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 3.8,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 8,
       "median": 12,
@@ -3570,7 +3586,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 3.8,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 8,
       "median": 12,
@@ -3592,7 +3612,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 5.45,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 12,
       "median": 17,
@@ -3636,7 +3660,11 @@
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 35.19,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 25,
       "median": 35,
@@ -3790,7 +3818,11 @@
     "quantity": 0,
     "condition": "very_good",
     "completeness": "CIB",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 15.94,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 14,
       "median": 20,
@@ -3900,7 +3932,11 @@
     "quantity": 0,
     "condition": "very_good",
     "completeness": "CIB",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 9.55,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 8,
       "median": 12,
@@ -5985,7 +6021,10 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 16.29,
+      "currency": "EUR"
+    },
     "currentEstimate": {
       "low": 16,
       "median": 21,
@@ -6007,7 +6046,10 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 70.3,
+      "currency": "EUR"
+    },
     "currentEstimate": {
       "low": 75,
       "median": 100,
@@ -6029,7 +6071,10 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 14.05,
+      "currency": "EUR"
+    },
     "currentEstimate": {
       "low": 15,
       "median": 20,
@@ -6051,7 +6096,10 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 9.85,
+      "currency": "EUR"
+    },
     "currentEstimate": {
       "low": 10,
       "median": 14,
@@ -6073,7 +6121,10 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 8.45,
+      "currency": "EUR"
+    },
     "currentEstimate": {
       "low": 12,
       "median": 16,
@@ -6095,7 +6146,10 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 7.05,
+      "currency": "EUR"
+    },
     "currentEstimate": {
       "low": 8,
       "median": 10,
@@ -6117,7 +6171,10 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 5.6,
+      "currency": "EUR"
+    },
     "currentEstimate": {
       "low": 6,
       "median": 8,

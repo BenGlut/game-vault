@@ -63,6 +63,7 @@ export default function OrdersPage() {
                 <div className="mt-4 grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
                   {o.gameIds.map((gid, idx) => {
                     const row = rows.get(gid);
+                    const price = o.items?.[idx]?.unitPrice ?? null;
                     return row ? (
                       <GameCard
                         key={`${gid}-${idx}`}
@@ -70,6 +71,14 @@ export default function OrdersPage() {
                         platform={row.platform}
                         coverUrl={row.coverUrl}
                         items={row.items}
+                        showStatus={false}
+                        footer={
+                          price !== null ? (
+                            <span className="font-mono text-accent">{euro(price)}</span>
+                          ) : (
+                            "prix à répartir"
+                          )
+                        }
                       />
                     ) : (
                       <div

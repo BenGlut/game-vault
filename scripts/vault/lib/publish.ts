@@ -35,6 +35,11 @@ export function buildPublicExport(v: Vault): Record<string, unknown> {
     status: o.status,
     itemCount: o.items.reduce((n, it) => n + it.quantity, 0),
     gameIds: o.items.map((it) => it.gameId),
+    items: o.items.map((it) => ({
+      gameId: it.gameId,
+      inventoryId: it.inventoryId,
+      unitPrice: p.purchase_price ? it.unitPrice : null,
+    })),
     orderedAt: o.orderedAt,
     fulfilledAt: o.fulfilledAt,
     deliveredAt: o.deliveredAt,

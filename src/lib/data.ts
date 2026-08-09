@@ -37,6 +37,7 @@ export interface PublicOrder {
   status: string;
   itemCount: number;
   gameIds: string[];
+  items: { gameId: string; inventoryId: string | null; unitPrice: number | null }[];
   orderedAt: string;
   fulfilledAt: string | null;
   deliveredAt: string | null;

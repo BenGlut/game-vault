@@ -48,6 +48,7 @@ export function GameCard({
   items = [],
   badge,
   footer,
+  showStatus = true,
 }: {
   game: Game;
   platform?: Platform;
@@ -57,6 +58,8 @@ export function GameCard({
   badge?: React.ReactNode;
   /** ligne libre sous le titre (cote, prix…) */
   footer?: React.ReactNode;
+  /** masquer la pastille de statut (ex. commandes : le statut est celui de la commande) */
+  showStatus?: boolean;
 }) {
   const copies = items.length;
   const status = items[0]?.status;
@@ -101,7 +104,7 @@ export function GameCard({
         {/* bas : statut + plateforme */}
         <div className="absolute inset-x-0 bottom-0 p-2.5">
           <div className="flex flex-wrap items-center gap-1.5">
-            {status ? (
+            {showStatus && status ? (
               <span
                 className={`rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ring-inset backdrop-blur-sm ${STATUS_COLORS[status] ?? "bg-surface-2 text-muted ring-border"}`}
               >

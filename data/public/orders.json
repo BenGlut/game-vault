@@ -7,13 +7,20 @@
     "gameIds": [
       "game_3ds_kirby-planet-robobot"
     ],
+    "items": [
+      {
+        "gameId": "game_3ds_kirby-planet-robobot",
+        "inventoryId": "inv_3ds_kirby-planet-robobot-2",
+        "unitPrice": 30.1
+      }
+    ],
     "orderedAt": "2026-08-04",
     "fulfilledAt": "2026-08-07",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": null
+    "totalPaid": 30.1
   },
   {
     "id": "order_msjq5bvw",
@@ -27,13 +34,40 @@
       "game_3ds_lego-jurassic-world",
       "game_3ds_super-mario-maker-for-nintendo-3ds"
     ],
+    "items": [
+      {
+        "gameId": "game_3ds_mario-party-the-top-100",
+        "inventoryId": "inv_3ds_mario-party-the-top-100",
+        "unitPrice": 7
+      },
+      {
+        "gameId": "game_3ds_mario-party-the-top-100",
+        "inventoryId": "inv_3ds_mario-party-the-top-100-2",
+        "unitPrice": 4.8
+      },
+      {
+        "gameId": "game_3ds_lego-ninjago-l-ombre-de-ronin",
+        "inventoryId": "inv_3ds_lego-ninjago-l-ombre-de-ronin-2",
+        "unitPrice": 3.8
+      },
+      {
+        "gameId": "game_3ds_lego-jurassic-world",
+        "inventoryId": "inv_3ds_lego-jurassic-world",
+        "unitPrice": 3.8
+      },
+      {
+        "gameId": "game_3ds_super-mario-maker-for-nintendo-3ds",
+        "inventoryId": "inv_3ds_super-mario-maker-for-nintendo-3ds-2",
+        "unitPrice": 5.45
+      }
+    ],
     "orderedAt": "2026-08-07",
     "fulfilledAt": "2026-08-07",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": null
+    "totalPaid": 24.85
   },
   {
     "id": "order_msl51ugw",
@@ -44,13 +78,25 @@
       "game_ds_professeur-layton-et-la-boite-de-pandore",
       "game_ds_mario-kart-ds"
     ],
+    "items": [
+      {
+        "gameId": "game_ds_professeur-layton-et-la-boite-de-pandore",
+        "inventoryId": "inv_ds_professeur-layton-et-la-boite-de-pandore",
+        "unitPrice": 9.55
+      },
+      {
+        "gameId": "game_ds_mario-kart-ds",
+        "inventoryId": "inv_ds_mario-kart-ds",
+        "unitPrice": 15.94
+      }
+    ],
     "orderedAt": "2026-08-09",
     "fulfilledAt": "2026-08-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": null
+    "totalPaid": 25.49
   },
   {
     "id": "order_msl7d7y3",
@@ -60,13 +106,20 @@
     "gameIds": [
       "game_3ds_fire-emblem-awakening"
     ],
+    "items": [
+      {
+        "gameId": "game_3ds_fire-emblem-awakening",
+        "inventoryId": "inv_3ds_fire-emblem-awakening",
+        "unitPrice": 35.19
+      }
+    ],
     "orderedAt": "2026-08-09",
     "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": null
+    "totalPaid": 35.19
   },
   {
     "id": "order_msly29ix",
@@ -76,13 +129,20 @@
     "gameIds": [
       "game_ds_dragon-quest-ix-les-sentinelles-du-firmament"
     ],
+    "items": [
+      {
+        "gameId": "game_ds_dragon-quest-ix-les-sentinelles-du-firmament",
+        "inventoryId": "inv_ds_dragon-quest-ix-les-sentinelles-du-firmament",
+        "unitPrice": 29.94
+      }
+    ],
     "orderedAt": "2026-08-09",
     "fulfilledAt": "2026-08-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": null
+    "totalPaid": 29.94
   },
   {
     "id": "order_msly2w9z",
@@ -92,13 +152,20 @@
     "gameIds": [
       "game_switch_captain-toad-treasure-tracker"
     ],
+    "items": [
+      {
+        "gameId": "game_switch_captain-toad-treasure-tracker",
+        "inventoryId": "inv_switch_captain-toad-treasure-tracker",
+        "unitPrice": 16.29
+      }
+    ],
     "orderedAt": "2026-08-09",
     "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": "2026-08-09",
     "refundedAt": null,
-    "totalPaid": null
+    "totalPaid": 16.29
   },
   {
     "id": "order_msly4quw",
@@ -113,12 +180,44 @@
       "game_ds_lego-battles",
       "game_ds_spectrobes"
     ],
+    "items": [
+      {
+        "gameId": "game_ds_valkyrie-profile-covenant-of-the-plume",
+        "inventoryId": "inv_ds_valkyrie-profile-covenant-of-the-plume",
+        "unitPrice": 70.3
+      },
+      {
+        "gameId": "game_ds_dragon-quest-monsters-joker",
+        "inventoryId": "inv_ds_dragon-quest-monsters-joker",
+        "unitPrice": 14.05
+      },
+      {
+        "gameId": "game_ds_mario-party-ds",
+        "inventoryId": "inv_ds_mario-party-ds",
+        "unitPrice": 9.85
+      },
+      {
+        "gameId": "game_ds_star-wars-battlefront-elite-squadron",
+        "inventoryId": "inv_ds_star-wars-battlefront-elite-squadron",
+        "unitPrice": 8.45
+      },
+      {
+        "gameId": "game_ds_lego-battles",
+        "inventoryId": "inv_ds_lego-battles",
+        "unitPrice": 7.05
+      },
+      {
+        "gameId": "game_ds_spectrobes",
+        "inventoryId": "inv_ds_spectrobes",
+        "unitPrice": 5.6
+      }
+    ],
     "orderedAt": "2026-08-09",
     "fulfilledAt": "2026-08-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": null
+    "totalPaid": 115.3
   }
 ]
