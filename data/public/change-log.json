@@ -1503,5 +1503,25 @@
     "at": "2026-08-09T23:03:53.214Z",
     "command": "rate",
     "message": "rate game_switch_captain-toad-treasure-tracker"
+  },
+  {
+    "at": "2026-08-09T23:06:25.777Z",
+    "command": "set-status",
+    "message": "set inv_switch_captain-toad-treasure-tracker-2 -> wishlist"
+  },
+  {
+    "at": "2026-08-09T23:06:26.649Z",
+    "command": "set-status",
+    "message": "set inv_switch_captain-toad-treasure-tracker-3 -> wishlist"
+  },
+  {
+    "at": "2026-08-09T23:48:41.843Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-09T23:48:56.940Z",
+    "command": "set-status",
+    "message": "set inv_ds_golden-sun-obscure-aurore -> ordered"
   }
 ]

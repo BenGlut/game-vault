@@ -219,5 +219,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 115.3
+  },
+  {
+    "id": "order_msmgei1t",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_golden-sun-obscure-aurore"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_golden-sun-obscure-aurore",
+        "inventoryId": "inv_ds_golden-sun-obscure-aurore",
+        "unitPrice": 32.2
+      }
+    ],
+    "orderedAt": "2026-08-10",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 32.2
   }
 ]

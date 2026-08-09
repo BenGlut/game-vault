@@ -356,6 +356,8 @@ function main(): void {
           const verified = optStr(options, "verified");
           if (verified !== undefined) item.verificationStatus = verified === "true" ? "verified" : "needs_review";
           if (optStr(options, "quantity-reviewed") === "true") item.quantityNeedsReview = false;
+          const notes = optStr(options, "notes");
+          if (notes) item.privateNotes = notes;
           item.updatedAt = nowIso();
           return { result: item, warnings, affectedIds: { "inventory.json": [item.id] } };
         });
