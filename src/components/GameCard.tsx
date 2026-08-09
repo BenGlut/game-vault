@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import type { Game, Platform } from "@/lib/schema";
 import { STATUS_LABELS } from "@/lib/labels";
+import { useGameDrawer } from "@/components/GameDrawer";
 
 export const TIER_COLORS: Record<string, string> = {
   S: "bg-[#f5b642] text-black",
@@ -25,7 +28,12 @@ export const STATUS_COLORS: Record<string, string> = {
 export interface CardItem {
   id: string;
   status: string;
+  quantity?: number;
+  condition?: string;
+  completeness?: string;
   verificationStatus?: string;
+  acquiredAt?: string | null;
+  currentEstimate?: { low: number; median: number; high: number } | null;
 }
 
 /**
@@ -52,9 +60,18 @@ export function GameCard({
 }) {
   const copies = items.length;
   const status = items[0]?.status;
+  const drawer = useGameDrawer();
 
   return (
-    <Link href={`/jeu/${game.id}/`} className="group block">
+    <Link
+      href={`/jeu/${game.id}/`}
+      className="group block"
+      onClick={(e) => {
+        // clic simple → panneau latéral ; ctrl/cmd/molette gardent la navigation
+        if (!drawer.enabled || e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+        e.preventDefault();
+        drawer.open({ game, platform, coverUrl, items });
+      }}>
       <div className="poster">
         {coverUrl ? (
           // eslint-disable-next-line @next/next/no-img-element

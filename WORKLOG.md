@@ -119,3 +119,8 @@
 - Thème plus contrasté (fond profond, halo d'accent, ombres portées) et
   `src/lib/labels.ts` (module pur) pour partager les libellés côté client
 - Sélecteur de consoles : les plateformes vides sont repliées derrière un bouton
+- Panneau latéral (`src/components/GameDrawer.tsx`) : un clic sur une carte fait
+  glisser la fiche depuis la droite sans quitter la page (filtres conservés,
+  Échap/clic extérieur pour fermer, ctrl/cmd-clic garde la navigation classique) ;
+  branché sur Collection, Wishlist et Recommandations
+- Recommandations groupées par console (compteurs de priorité par section)

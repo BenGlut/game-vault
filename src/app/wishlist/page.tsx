@@ -1,6 +1,7 @@
-import { getGameRows } from "@/lib/data";
+import { getGameRows, getQuotes } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import WishlistClient from "@/components/WishlistClient";
+import { GameDrawerProvider } from "@/components/GameDrawer";
 
 export default function WishlistPage() {
   const rows = getGameRows().filter((r) => r.items.some((i) => i.status === "wishlist"));
@@ -16,7 +17,9 @@ export default function WishlistPage() {
           </div>
         </div>
       ) : (
-        <WishlistClient rows={rows} />
+        <GameDrawerProvider quotes={getQuotes()}>
+          <WishlistClient rows={rows} />
+        </GameDrawerProvider>
       )}
     </div>
   );
