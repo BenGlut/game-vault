@@ -5942,7 +5942,7 @@
     "mediaType": "cartridge",
     "externalIds": {},
     "qualityTier": "A",
-    "buyPriority": null
+    "buyPriority": "moyenne"
   },
   {
     "id": "game_ds_star-wars-battlefront-elite-squadron",

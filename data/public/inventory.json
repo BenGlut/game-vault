@@ -6188,5 +6188,35 @@
     "acquiredAt": null,
     "orderId": "order_msly4quw",
     "updatedAt": "2026-08-09T15:18:30.257Z"
+  },
+  {
+    "id": "inv_switch_captain-toad-treasure-tracker-2",
+    "gameId": "game_switch_captain-toad-treasure-tracker",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-09T23:03:51.214Z"
+  },
+  {
+    "id": "inv_switch_captain-toad-treasure-tracker-3",
+    "gameId": "game_switch_captain-toad-treasure-tracker",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-09T23:03:52.315Z"
   }
 ]
