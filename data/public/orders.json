@@ -48,5 +48,20 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": null
+  },
+  {
+    "id": "order_msl7d7y3",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_fire-emblem-awakening"
+    ],
+    "orderedAt": "2026-08-09",
+    "shippedAt": null,
+    "receivedAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": null
   }
 ]
