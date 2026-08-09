@@ -446,6 +446,56 @@ function main(): void {
         break;
       }
 
+      case "update-order": {
+        const orderRef = optStr(options, "order");
+        if (!orderRef)
+          throw new Error('usage: pnpm vault update-order --order <id> [--total 24.85] [--shipping X] [--protection X] [--discount X] [--reference R] [--items "inv_id:prix,inv_id:prix"]');
+        runMutation("update-order", yes, `update ${orderRef}`, (v) => {
+          const order = findOrder(v, orderRef);
+          const invIds: string[] = [];
+          const total = optNum(options, "total");
+          if (total !== undefined) order.totalPaid = total;
+          const shipping = optNum(options, "shipping");
+          if (shipping !== undefined) order.shippingCost = shipping;
+          const protection = optNum(options, "protection");
+          if (protection !== undefined) order.buyerProtection = protection;
+          const discount = optNum(options, "discount");
+          if (discount !== undefined) order.lotDiscount = discount;
+          const ref = optStr(options, "reference");
+          if (ref) order.reference = ref;
+          const sellerName = optStr(options, "seller");
+          if (sellerName) {
+            const existing = v.sellers.find((s) => s.name === sellerName && s.marketplace === order.marketplace);
+            if (existing) order.sellerId = existing.id;
+            else {
+              const sellerId = `seller_${normalizeTitle(sellerName).replace(/\s+/g, "-")}`;
+              v.sellers.push({ id: sellerId, name: sellerName, marketplace: order.marketplace, profileUrl: null, rating: null, privateNotes: null });
+              order.sellerId = sellerId;
+            }
+          }
+          const itemsSpec = optStr(options, "items");
+          if (itemsSpec) {
+            for (const spec of itemsSpec.split(",")) {
+              const [invId, priceStr] = spec.trim().split(":");
+              const price = Number(priceStr);
+              if (!invId || Number.isNaN(price)) throw new Error(`item invalide: ${spec}`);
+              const orderItem = order.items.find((it) => it.inventoryId === invId);
+              if (!orderItem) throw new Error(`${invId} n'appartient pas à la commande ${order.id}`);
+              orderItem.unitPrice = price;
+              const inv = v.inventory.find((i) => i.id === invId);
+              if (inv) {
+                inv.purchasePrice = { amount: price, currency: "EUR", includesShipping: true };
+                inv.updatedAt = nowIso();
+                invIds.push(inv.id);
+              }
+            }
+            order.itemsTotal = Math.round(order.items.reduce((s, it) => s + (it.unitPrice ?? 0), 0) * 100) / 100;
+          }
+          return { result: order, affectedIds: { "orders.json": [order.id], "inventory.json": invIds } };
+        });
+        break;
+      }
+
       case "ship-order":
       case "receive-order":
       case "cancel-order":

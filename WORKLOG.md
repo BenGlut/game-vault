@@ -93,3 +93,6 @@
   fuzzy (« pokemon rouge » → Version Rouge en 1er) — `src/lib/fuzzy.ts` partagé
   Recherche + Estimateur, suffixes plateforme étendus (gb/gbc/n64/gamecube/snes),
   4 tests ajoutés
+- Commande `update-order` : total/port/protection/vendeur/référence + répartition
+  des prix par item (met à jour order.items et purchasePrice de l'inventaire),
+  arrondi centimes — `scripts/vault/index.ts`
