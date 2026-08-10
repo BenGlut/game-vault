@@ -53,8 +53,13 @@ export function buildEntryLinks(rows: GameRow[]): Record<string, CatalogGameLink
       if (!sorted.has(key)) sorted.set(key, e.id);
     }
 
+    // Le drapeau « sorti en boîte » de l'eShop est européen : un titre acheté en
+    // import peut être physique alors que le catalogue FR le dit dématérialisé.
+    // Un jeu de la base est donc confronté aux deux catalogues de sa console.
+    const basePlatformId = platformId.replace(/-digital$/, "");
+
     for (const row of rows) {
-      if (row.game.platformId !== platformId) continue;
+      if (row.game.platformId !== basePlatformId) continue;
       const link: CatalogGameLink = {
         id: row.game.id,
         owned: row.items.some((i) => POSSESSION.includes(i.status)),

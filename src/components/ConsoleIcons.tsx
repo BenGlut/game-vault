@@ -147,6 +147,38 @@ export function SwitchIcon(props: ConsoleIconProps) {
   );
 }
 
+/** Nintendo Switch 2 — plus large, Joy-Con aimantés (rail visible). */
+export function Switch2Icon(props: ConsoleIconProps) {
+  return (
+    <svg {...svgProps(props)}>
+      <rect x="17" y="9" width="34" height="30" rx="2" />
+      <rect x="20.5" y="12.5" width="27" height="23" rx="1" strokeWidth="1.6" />
+      <path d="M15 9h-3a5 5 0 0 0-5 5v20a5 5 0 0 0 5 5h3Z" />
+      <path d="M53 9h3a5 5 0 0 1 5 5v20a5 5 0 0 1-5 5h-3Z" />
+      <path d="M15 13v22M53 13v22" strokeWidth="1.4" />
+      <circle cx="11" cy="17" r="2" />
+      <circle cx="57" cy="31" r="2" />
+      <path d="M9.5 28.5h3m-1.5-1.5v3" strokeWidth="1.5" />
+      <circle cx="57" cy="17" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+/** Switch dématérialisée — même console, flèche de téléchargement sur l'écran. */
+export function SwitchDigitalIcon(props: ConsoleIconProps) {
+  return (
+    <svg {...svgProps(props)}>
+      <rect x="20" y="10" width="28" height="28" rx="2" />
+      <path d="M18 10h-3a6 6 0 0 0-6 6v16a6 6 0 0 0 6 6h3Z" />
+      <path d="M50 10h3a6 6 0 0 1 6 6v16a6 6 0 0 1-6 6h-3Z" />
+      <circle cx="14" cy="18" r="2.2" />
+      <circle cx="54" cy="30" r="2.2" />
+      <path d="M34 16v13m-5-5 5 5 5-5" strokeWidth="2.4" />
+      <path d="M26 32.5h16" strokeWidth="2.4" />
+    </svg>
+  );
+}
+
 export const CONSOLE_ICONS: Record<string, (p: ConsoleIconProps) => React.JSX.Element> = {
   gb: GbIcon,
   gbc: GbcIcon,
@@ -156,4 +188,6 @@ export const CONSOLE_ICONS: Record<string, (p: ConsoleIconProps) => React.JSX.El
   n64: N64Icon,
   gamecube: GameCubeIcon,
   switch: SwitchIcon,
+  "switch-digital": SwitchDigitalIcon,
+  switch2: Switch2Icon,
 };

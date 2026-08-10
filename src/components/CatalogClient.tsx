@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import { CONSOLE_ICONS } from "@/components/ConsoleIcons";
+import { useGameDrawer } from "@/components/GameDrawer";
+import type { Game } from "@/lib/schema";
+import type { GameRow } from "@/lib/data";
 import { expandAbbreviations } from "@/lib/abbreviations";
 
 export interface CatalogGameLink {
@@ -47,6 +49,19 @@ const PLATFORM_LABELS: Record<string, string> = {
   n64: "Nintendo 64",
   gamecube: "GameCube",
   switch: "Switch",
+  "switch-digital": "Switch digital",
+  switch2: "Switch 2",
+};
+
+/** ids de plateforme, du plus long au plus court (préfixes imbriqués) */
+const PLATFORM_IDS = Object.keys(PLATFORM_LABELS).sort((a, b) => b.length - a.length);
+
+/** code court affiché sur la jaquette (« SWITCH-DIGITAL » déborderait) */
+const PLATFORM_CODES: Record<string, string> = {
+  gamecube: "NGC",
+  switch: "SWITCH",
+  "switch-digital": "SW DIGITAL",
+  switch2: "SWITCH 2",
 };
 
 /**
@@ -56,9 +71,11 @@ const PLATFORM_LABELS: Record<string, string> = {
 export default function CatalogClient({
   basePath,
   links,
+  rows,
 }: {
   basePath: string;
   links: Record<string, CatalogGameLink>;
+  rows: Record<string, GameRow>;
 }) {
   const [platform, setPlatform] = useState<string>(""); // "" = toutes les plateformes
   const [entries, setEntries] = useState<CatalogEntry[] | null>(null);
@@ -67,10 +84,66 @@ export default function CatalogClient({
   const [region, setRegion] = useState("");
   const [quality, setQuality] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const [detail, setDetail] = useState<CatalogEntry | null>(null);
+  const drawer = useGameDrawer();
 
-  /** plateforme d'une entrée, déduite de son id (`gba-slug`, `gamecube-slug`…). */
-  const platformOf = (e: CatalogEntry): string => e.id.slice(0, e.id.indexOf("-"));
+  /** ouvre le panneau : fiche complète de la base si connue, sinon fiche catalogue minimale */
+  const openDrawer = (e: CatalogEntry, link?: CatalogGameLink) => {
+    const platformId = platformOf(e);
+    const row = link ? rows[link.id] : undefined;
+    if (row) {
+      // strictement le même panneau que dans la collection ; la jaquette du
+      // catalogue sert de repli quand la collection n'en a pas.
+      drawer.open({
+        ...row,
+        coverUrl:
+          row.coverUrl ??
+          (e.img
+            ? `${basePath}/catalog-covers/${platformId}/${e.id.slice(platformId.length + 1)}.jpg`
+            : null),
+      });
+      return;
+    }
+    drawer.open({
+      game: {
+        id: link?.id ?? e.id,
+        canonicalTitle: e.t,
+        normalizedTitle: e.n,
+        aliases: [],
+        franchise: null,
+        platformId,
+        region: (e.r[0] === "France" ? "PAL-FR" : "PAL-EU") as Game["region"],
+        languages: [],
+        publisher: null,
+        developer: null,
+        releaseYear: null,
+        genres: [],
+        edition: null,
+        mediaType: platformId.endsWith("-digital") ? "digital" : "cartridge",
+        externalIds: {},
+        qualityTier: (link?.quality ?? e.q ?? null) as Game["qualityTier"],
+        buyPriority: null,
+      },
+      platform: {
+        id: platformId,
+        name: PLATFORM_LABELS[platformId] ?? platformId,
+        shortName: platformId.toUpperCase(),
+        brand: "Nintendo",
+        mediaTypes: ["cartridge"],
+      } as never,
+      coverUrl: e.img
+        ? `${basePath}/catalog-covers/${platformId}/${e.id.slice(platformId.length + 1)}.jpg`
+        : null,
+      items: [],
+      catalogOnly: !link,
+    });
+  };
+
+  /**
+   * Plateforme d'une entrée, déduite de son id (`gba-slug`, `switch-digital-slug`…).
+   * Le préfixe le plus long gagne : `switch-digital` avant `switch`.
+   */
+  const platformOf = (e: CatalogEntry): string =>
+    PLATFORM_IDS.find((id) => e.id.startsWith(`${id}-`)) ?? e.id.slice(0, e.id.indexOf("-"));
   // links est indexé par id d'entrée catalogue (matching 3 niveaux fait au build)
   const linkFor = (e: CatalogEntry): CatalogGameLink | undefined => links[e.id];
 
@@ -157,7 +230,7 @@ export default function CatalogClient({
 
   return (
     <div>
-      <div className="mb-4 grid grid-cols-3 gap-3 sm:grid-cols-4 lg:grid-cols-8">
+      <div className="mb-4 grid grid-cols-3 gap-3 sm:grid-cols-4 lg:grid-cols-6">
         <button
           type="button"
           onClick={() => setPlatform("")}
@@ -200,7 +273,11 @@ export default function CatalogClient({
           onChange={(e) => setQuery(e.target.value)}
           className={`${select} w-full md:w-80`}
         />
-        <select value={possession} onChange={(e) => setPossession(e.target.value)} className={select}>
+        <select
+          value={possession}
+          onChange={(e) => setPossession(e.target.value)}
+          className={select}
+        >
           <option value="">Tous</option>
           <option value="owned">Dans ma collection</option>
           <option value="missing">Pas dans ma collection</option>
@@ -235,7 +312,9 @@ export default function CatalogClient({
         <>
           <p className="mb-3 text-sm text-muted">
             {filtered.length} jeu{filtered.length > 1 ? "x" : ""} sur {entries.length} référencés
-            {shown.length < filtered.length ? ` — ${shown.length} affichés, affiner la recherche` : ""}
+            {shown.length < filtered.length
+              ? ` — ${shown.length} affichés, affiner la recherche`
+              : ""}
           </p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
             {shown.map((e) => {
@@ -261,7 +340,9 @@ export default function CatalogClient({
                     <div className="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-2">
                       <span
                         className={`flex h-6 w-6 items-center justify-center rounded-md font-mono text-xs font-bold shadow-lg ${
-                          tier ? (TIER_COLORS[tier] ?? "") : "bg-black/50 text-white/70 backdrop-blur-sm"
+                          tier
+                            ? (TIER_COLORS[tier] ?? "")
+                            : "bg-black/50 text-white/70 backdrop-blur-sm"
                         }`}
                         title={tier ? `Qualité ${tier}` : "Qualité non notée"}
                       >
@@ -283,27 +364,26 @@ export default function CatalogClient({
                         {e.r.join(", ") || "région inconnue"}
                       </span>
                       <span className="ml-auto shrink-0 rounded bg-black/50 px-1.5 py-0.5 font-mono text-[10px] uppercase text-white/80 backdrop-blur-sm">
-                        {platformOf(e)}
+                        {PLATFORM_CODES[platformOf(e)] ?? platformOf(e)}
                       </span>
                     </div>
                   </div>
                   <div className="mt-2 px-0.5">
-                    <div className="truncate text-sm font-medium transition group-hover:text-accent" title={e.t}>
+                    <div
+                      className="truncate text-sm font-medium transition group-hover:text-accent"
+                      title={e.t}
+                    >
                       {e.t}
                     </div>
                   </div>
                 </>
               );
-              // base (possédé/wishlist) → fiche complète ; sinon → carte détaillée
-              return link ? (
-                <Link key={e.id} href={`/jeu/${link.id}/`} className="group block text-left">
-                  {inner}
-                </Link>
-              ) : (
+              // toujours le panneau latéral : on garde ses filtres et on enchaîne
+              return (
                 <button
                   key={e.id}
                   type="button"
-                  onClick={() => setDetail(e)}
+                  onClick={() => openDrawer(e, link)}
                   className="group block w-full text-left"
                 >
                   {inner}
@@ -314,68 +394,9 @@ export default function CatalogClient({
         </>
       )}
       <p className="mt-6 text-xs text-muted">
-        Source : listes No-Intro (libretro-thumbnails). Le catalogue est une référence de
-        recherche — l&apos;ajout à la collection passe toujours par la CLI.
+        Source : listes No-Intro (libretro-thumbnails). Le catalogue est une référence de recherche
+        — l&apos;ajout à la collection passe toujours par la CLI.
       </p>
-
-      {detail ? (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
-          onClick={() => setDetail(null)}
-          onKeyDown={(e) => e.key === "Escape" && setDetail(null)}
-          role="dialog"
-          aria-modal="true"
-        >
-          <div
-            className="w-full max-w-md rounded-2xl border border-border bg-surface p-5 shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="flex items-start gap-4">
-              {detail.img ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={`${basePath}/catalog-covers/${platformOf(detail)}/${detail.id.slice(platformOf(detail).length + 1)}.jpg`}
-                  alt={`Jaquette de ${detail.t}`}
-                  className="w-28 shrink-0 rounded-lg border border-border shadow-lg"
-                />
-              ) : (
-                <div className="flex h-36 w-28 shrink-0 items-center justify-center rounded-lg bg-surface-2 text-xs text-muted">
-                  pas de jaquette
-                </div>
-              )}
-              <div className="min-w-0">
-                <div className="flex items-center gap-2">
-                  <h3 className="text-lg font-semibold">{detail.t}</h3>
-                  {detail.q ? (
-                    <span
-                      className={`inline-flex h-6 w-6 shrink-0 items-center justify-center rounded font-mono text-sm font-bold ${TIER_COLORS[detail.q] ?? ""}`}
-                    >
-                      {detail.q}
-                    </span>
-                  ) : null}
-                </div>
-                <div className="mt-1 text-sm text-muted">
-                  {PLATFORM_LABELS[platformOf(detail)] ?? platformOf(detail)}
-                </div>
-                <div className="mt-1 text-xs text-muted">
-                  Régions : {detail.r.join(", ") || "inconnues"}
-                </div>
-                <div className="mt-3 rounded-lg bg-surface-2 px-3 py-2 text-xs text-muted">
-                  Pas dans la collection ni la wishlist. Pour l&apos;ajouter, demander à
-                  l&apos;agent (CLI <code className="font-mono">pnpm vault</code>).
-                </div>
-              </div>
-            </div>
-            <button
-              type="button"
-              onClick={() => setDetail(null)}
-              className="mt-4 w-full rounded-lg border border-border bg-surface-2 py-2 text-sm text-muted transition hover:text-text"
-            >
-              Fermer
-            </button>
-          </div>
-        </div>
-      ) : null}
     </div>
   );
 }

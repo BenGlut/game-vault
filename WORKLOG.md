@@ -165,3 +165,26 @@
   et résumés en une ligne, chaque exemplaire renvoie vers sa commande d'origine
 - Carte poster : quantité déplacée en haut à droite (elle masquait la jaquette),
   et elle ne compte plus les exemplaires annulés
+- Catalogue Nintendo Switch et Switch 2 depuis l'API de l'eShop européen :
+  19 398 titres en français avec vraies jaquettes de boîte (19 396 images locales
+  160px), remplace la base nswdb et ses icônes carrées —
+  `scripts/catalog/fetch-eshop-catalog.ts`
+- Sorties en boîte et dématérialisées séparées en catalogues distincts pour la
+  Switch : 1 396 jeux vendus en boîte d'un côté, 17 502 exclusivités
+  dématérialisées de l'autre (icône SVG dédiée, code « SW DIGITAL » sur la
+  jaquette) ; l'eShop ne renseignant pas ce critère pour la Switch 2, ses
+  500 titres restent réunis plutôt que d'inventer un découpage
+- Switch 2 comme console à part entière (icône SVG, plateforme `switch2` dans le
+  seed de référence) ; le Catalogue compte 10 sélecteurs
+- Badge Possédé/Wishlist confronté aux deux catalogues d'une même console : un
+  jeu acheté en import reste reconnu même si l'eShop FR le dit dématérialisé
+  (36 des 37 jeux Switch de la base reliés) — `src/lib/catalog-match.ts`
+- Catalogue : le panneau latéral remplace la mini-fenêtre — clic sur n'importe
+  quel jeu, exactement la fiche de la Collection quand le titre est dans la base
+  (exemplaires, cotes, estimateur, lien pleine page), fiche catalogue simplifiée
+  sinon ; la navigation dans la grille reste possible panneau ouvert
+  (`src/app/catalogue/page.tsx`, `src/components/CatalogClient.tsx`,
+  `src/components/GameDrawer.tsx`)
+- Panneau latéral à structure fixe : Exemplaire, Cotes, Commandes et Fiche du jeu
+  sont toujours affichés, avec « — » ou une ligne d'explication quand la donnée
+  manque, au lieu de sections qui disparaissaient d'un jeu à l'autre

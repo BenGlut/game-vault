@@ -34,6 +34,7 @@ const PLATFORMS: Platform[] = [
   { id: "wii", name: "Nintendo Wii", shortName: "Wii", brand: "Nintendo", generation: 7, mediaTypes: ["disc"] },
   { id: "wiiu", name: "Nintendo Wii U", shortName: "Wii U", brand: "Nintendo", generation: 8, mediaTypes: ["disc"] },
   { id: "switch", name: "Nintendo Switch", shortName: "Switch", brand: "Nintendo", generation: 8, mediaTypes: ["cartridge", "code_in_box"] },
+  { id: "switch2", name: "Nintendo Switch 2", shortName: "Switch 2", brand: "Nintendo", generation: 9, mediaTypes: ["cartridge", "code_in_box"] },
   { id: "gb", name: "Game Boy", shortName: "GB", brand: "Nintendo", generation: 4, mediaTypes: ["cartridge"] },
   { id: "gbc", name: "Game Boy Color", shortName: "GBC", brand: "Nintendo", generation: 5, mediaTypes: ["cartridge"] },
   { id: "gba", name: "Game Boy Advance", shortName: "GBA", brand: "Nintendo", generation: 6, mediaTypes: ["cartridge"] },
