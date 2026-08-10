@@ -4966,5 +4966,23 @@
       "source": "estimation-agent",
       "observedAt": "2026-08-09"
     }
+  },
+  "game_switch_super-mario-3d-all-stars": {
+    "cib": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-10"
+    },
+    "loose": {
+      "low": 40,
+      "median": 52,
+      "high": 70,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-10"
+    }
   }
 }

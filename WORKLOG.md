@@ -145,3 +145,12 @@
 - Abréviations de collectionneurs reconnues dans les recherches (`src/lib/abbreviations.ts`) :
   « DQM 2 » trouve Dragon Quest Monsters Joker 2, « BOTW », « FFTA », « NSMB »,
   « SMT »… — actif sur le Catalogue et la Recherche, 1 test ajouté
+- Skill `vinted-sync` : synchronisation des commandes via l'API JSON interne de
+  Vinted depuis un onglet Chrome authentifié (7× moins de tokens qu'une capture,
+  et seule méthode qui révèle le contenu réel des lots) ; limites explicites —
+  jamais d'achat ni d'offre, l'engagement financier reste humain
+  (`.agents/skills/vinted-sync/SKILL.md`, référencé dans CLAUDE.md et AGENTS.md)
+- Commandes resynchronisées sur les totaux Vinted réels (port et frais inclus) :
+  Kirby 30,10→33,89, Golden Sun 32,20→35,19, lot gabrieltrichard69 24,85→28,63,
+  lot val215121 réparti au prorata des prix réels (Valkyrie 52,85…) ; 2 commandes
+  manquantes ajoutées (Mario 3D All-Stars ×2 : ltim13560 56,19 et loulou280208 48,05)

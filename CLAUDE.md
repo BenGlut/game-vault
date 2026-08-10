@@ -96,6 +96,11 @@ When it fires: fix the doc/data, never bypass.
 - No secrets in either repo; `gh auth` locally, GitHub Secrets in CI.
 - Verify your own work (tests + drift checker) before reporting done; report
   failures faithfully.
+- **Vinted**: sync orders through the internal JSON API from an authenticated
+  Chrome tab (see `.agents/skills/vinted-sync/SKILL.md`) — never screenshots,
+  they cost 7× more tokens and hide lot contents. Reading, searching and
+  favouriting are fine; **never click Buy or Make an offer** — an accepted offer
+  charges the saved card, so the financial commitment stays with benglut.
 
 ## 9. UI/UX defaults
 

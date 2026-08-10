@@ -3033,5 +3033,18 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": "C"
+  },
+  {
+    "id": "game_switch_super-mario-3d-all-stars",
+    "t": "Super Mario 3D All-Stars",
+    "n": "super mario 3d all stars",
+    "a": [
+      "Mario 3D All Stars",
+      "Super Mario 3D All Stars"
+    ],
+    "f": "Super Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "A"
   }
 ]

@@ -30,6 +30,7 @@ seule source de vérité, ne pas dupliquer ici). Rappel des non-négociables :
 | `.agents/skills/photo-import/SKILL.md` | importer des photos d'étagère |
 | `.agents/skills/data-validation/SKILL.md` | validation et intégrité |
 | `.agents/skills/release-deploy/SKILL.md` | publier et déployer |
+| `.agents/skills/vinted-sync/SKILL.md` | synchroniser les commandes Vinted, chasser les bonnes affaires |
 
 ## Workflow git standard
 

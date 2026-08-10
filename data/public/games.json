@@ -6069,5 +6069,29 @@
     "externalIds": {},
     "qualityTier": "C",
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_super-mario-3d-all-stars",
+    "canonicalTitle": "Super Mario 3D All-Stars",
+    "normalizedTitle": "super mario 3d all stars",
+    "aliases": [
+      "Mario 3D All Stars",
+      "Super Mario 3D All Stars"
+    ],
+    "franchise": "Super Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "A",
+    "buyPriority": null
   }
 ]

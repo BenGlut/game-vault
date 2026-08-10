@@ -11,7 +11,7 @@
       {
         "gameId": "game_3ds_kirby-planet-robobot",
         "inventoryId": "inv_3ds_kirby-planet-robobot-2",
-        "unitPrice": 30.1
+        "unitPrice": 33.89
       }
     ],
     "orderedAt": "2026-08-04",
@@ -20,7 +20,7 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 30.1
+    "totalPaid": 33.89
   },
   {
     "id": "order_msjq5bvw",
@@ -38,27 +38,27 @@
       {
         "gameId": "game_3ds_mario-party-the-top-100",
         "inventoryId": "inv_3ds_mario-party-the-top-100",
-        "unitPrice": 7
+        "unitPrice": 8.07
       },
       {
         "gameId": "game_3ds_mario-party-the-top-100",
         "inventoryId": "inv_3ds_mario-party-the-top-100-2",
-        "unitPrice": 4.8
+        "unitPrice": 5.53
       },
       {
         "gameId": "game_3ds_lego-ninjago-l-ombre-de-ronin",
         "inventoryId": "inv_3ds_lego-ninjago-l-ombre-de-ronin-2",
-        "unitPrice": 3.8
+        "unitPrice": 4.38
       },
       {
         "gameId": "game_3ds_lego-jurassic-world",
         "inventoryId": "inv_3ds_lego-jurassic-world",
-        "unitPrice": 3.8
+        "unitPrice": 4.38
       },
       {
         "gameId": "game_3ds_super-mario-maker-for-nintendo-3ds",
         "inventoryId": "inv_3ds_super-mario-maker-for-nintendo-3ds-2",
-        "unitPrice": 5.45
+        "unitPrice": 6.27
       }
     ],
     "orderedAt": "2026-08-07",
@@ -67,7 +67,7 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 24.85
+    "totalPaid": 28.63
   },
   {
     "id": "order_msl51ugw",
@@ -184,32 +184,32 @@
       {
         "gameId": "game_ds_valkyrie-profile-covenant-of-the-plume",
         "inventoryId": "inv_ds_valkyrie-profile-covenant-of-the-plume",
-        "unitPrice": 70.3
+        "unitPrice": 52.85
       },
       {
         "gameId": "game_ds_dragon-quest-monsters-joker",
         "inventoryId": "inv_ds_dragon-quest-monsters-joker",
-        "unitPrice": 14.05
+        "unitPrice": 23.06
       },
       {
         "gameId": "game_ds_mario-party-ds",
         "inventoryId": "inv_ds_mario-party-ds",
-        "unitPrice": 9.85
+        "unitPrice": 13.93
       },
       {
         "gameId": "game_ds_star-wars-battlefront-elite-squadron",
         "inventoryId": "inv_ds_star-wars-battlefront-elite-squadron",
-        "unitPrice": 8.45
+        "unitPrice": 9.13
       },
       {
         "gameId": "game_ds_lego-battles",
         "inventoryId": "inv_ds_lego-battles",
-        "unitPrice": 7.05
+        "unitPrice": 7.2
       },
       {
         "gameId": "game_ds_spectrobes",
         "inventoryId": "inv_ds_spectrobes",
-        "unitPrice": 5.6
+        "unitPrice": 9.13
       }
     ],
     "orderedAt": "2026-08-09",
@@ -232,7 +232,7 @@
       {
         "gameId": "game_ds_golden-sun-obscure-aurore",
         "inventoryId": "inv_ds_golden-sun-obscure-aurore",
-        "unitPrice": 32.2
+        "unitPrice": 35.19
       }
     ],
     "orderedAt": "2026-08-10",
@@ -241,6 +241,52 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 32.2
+    "totalPaid": 35.19
+  },
+  {
+    "id": "order_msmi1c6b",
+    "marketplace": "vinted",
+    "status": "fulfilled",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_super-mario-3d-all-stars"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_super-mario-3d-all-stars",
+        "inventoryId": "inv_switch_super-mario-3d-all-stars",
+        "unitPrice": 56.19
+      }
+    ],
+    "orderedAt": "2026-08-09",
+    "fulfilledAt": "2026-08-09",
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 56.19
+  },
+  {
+    "id": "order_msmi1nvb",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_super-mario-3d-all-stars"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_super-mario-3d-all-stars",
+        "inventoryId": "inv_switch_super-mario-3d-all-stars-3",
+        "unitPrice": 48.05
+      }
+    ],
+    "orderedAt": "2026-08-09",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 48.05
   }
 ]

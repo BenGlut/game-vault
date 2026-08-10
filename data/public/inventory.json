@@ -3483,7 +3483,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 30.1,
+      "amount": 33.89,
       "currency": "EUR",
       "includesShipping": true
     },
@@ -3499,7 +3499,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msjq50c0",
-    "updatedAt": "2026-08-09T20:04:38.673Z"
+    "updatedAt": "2026-08-10T00:34:09.890Z"
   },
   {
     "id": "inv_3ds_mario-party-the-top-100",
@@ -3509,7 +3509,7 @@
     "condition": "unknown",
     "completeness": "CIB",
     "purchasePrice": {
-      "amount": 7,
+      "amount": 8.07,
       "currency": "EUR",
       "includesShipping": true
     },
@@ -3525,7 +3525,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-09T15:12:33.372Z"
+    "updatedAt": "2026-08-10T00:34:11.411Z"
   },
   {
     "id": "inv_3ds_mario-party-the-top-100-2",
@@ -3535,7 +3535,7 @@
     "condition": "unknown",
     "completeness": "loose",
     "purchasePrice": {
-      "amount": 4.8,
+      "amount": 5.53,
       "currency": "EUR",
       "includesShipping": true
     },
@@ -3551,7 +3551,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-09T15:12:33.377Z"
+    "updatedAt": "2026-08-10T00:34:11.412Z"
   },
   {
     "id": "inv_3ds_lego-ninjago-l-ombre-de-ronin-2",
@@ -3561,7 +3561,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 3.8,
+      "amount": 4.38,
       "currency": "EUR",
       "includesShipping": true
     },
@@ -3577,7 +3577,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-09T15:12:33.377Z"
+    "updatedAt": "2026-08-10T00:34:11.412Z"
   },
   {
     "id": "inv_3ds_lego-jurassic-world",
@@ -3587,7 +3587,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 3.8,
+      "amount": 4.38,
       "currency": "EUR",
       "includesShipping": true
     },
@@ -3603,7 +3603,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-09T15:12:33.377Z"
+    "updatedAt": "2026-08-10T00:34:11.412Z"
   },
   {
     "id": "inv_3ds_super-mario-maker-for-nintendo-3ds-2",
@@ -3613,7 +3613,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 5.45,
+      "amount": 6.27,
       "currency": "EUR",
       "includesShipping": true
     },
@@ -3629,7 +3629,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-09T15:12:33.377Z"
+    "updatedAt": "2026-08-10T00:34:11.412Z"
   },
   {
     "id": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d",
@@ -4134,7 +4134,11 @@
     "quantity": 0,
     "condition": "very_good",
     "completeness": "CIB",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 35.19,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 20,
       "median": 28,
@@ -4147,7 +4151,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msmgei1t",
-    "updatedAt": "2026-08-09T23:48:56.924Z"
+    "updatedAt": "2026-08-10T00:34:10.663Z"
   },
   {
     "id": "inv_n64_super-mario-64",
@@ -6047,8 +6051,9 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 70.3,
-      "currency": "EUR"
+      "amount": 52.85,
+      "currency": "EUR",
+      "includesShipping": true
     },
     "currentEstimate": {
       "low": 75,
@@ -6062,7 +6067,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-09T15:18:30.257Z"
+    "updatedAt": "2026-08-10T00:36:32.912Z"
   },
   {
     "id": "inv_ds_dragon-quest-monsters-joker",
@@ -6072,8 +6077,9 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 14.05,
-      "currency": "EUR"
+      "amount": 23.06,
+      "currency": "EUR",
+      "includesShipping": true
     },
     "currentEstimate": {
       "low": 15,
@@ -6087,7 +6093,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-09T15:18:30.257Z"
+    "updatedAt": "2026-08-10T00:36:32.913Z"
   },
   {
     "id": "inv_ds_mario-party-ds",
@@ -6097,8 +6103,9 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 9.85,
-      "currency": "EUR"
+      "amount": 13.93,
+      "currency": "EUR",
+      "includesShipping": true
     },
     "currentEstimate": {
       "low": 10,
@@ -6112,7 +6119,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-09T15:18:30.257Z"
+    "updatedAt": "2026-08-10T00:36:32.913Z"
   },
   {
     "id": "inv_ds_star-wars-battlefront-elite-squadron",
@@ -6122,8 +6129,9 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 8.45,
-      "currency": "EUR"
+      "amount": 9.13,
+      "currency": "EUR",
+      "includesShipping": true
     },
     "currentEstimate": {
       "low": 12,
@@ -6137,7 +6145,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-09T15:18:30.257Z"
+    "updatedAt": "2026-08-10T00:36:32.913Z"
   },
   {
     "id": "inv_ds_lego-battles",
@@ -6147,8 +6155,9 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 7.05,
-      "currency": "EUR"
+      "amount": 7.2,
+      "currency": "EUR",
+      "includesShipping": true
     },
     "currentEstimate": {
       "low": 8,
@@ -6162,7 +6171,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-09T15:18:30.257Z"
+    "updatedAt": "2026-08-10T00:36:32.913Z"
   },
   {
     "id": "inv_ds_spectrobes",
@@ -6172,8 +6181,9 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 5.6,
-      "currency": "EUR"
+      "amount": 9.13,
+      "currency": "EUR",
+      "includesShipping": true
     },
     "currentEstimate": {
       "low": 6,
@@ -6187,7 +6197,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-09T15:18:30.257Z"
+    "updatedAt": "2026-08-10T00:36:32.913Z"
   },
   {
     "id": "inv_switch_captain-toad-treasure-tracker-2",
@@ -6218,5 +6228,77 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-08-09T23:06:26.634Z"
+  },
+  {
+    "id": "inv_switch_super-mario-3d-all-stars",
+    "gameId": "game_switch_super-mario-3d-all-stars",
+    "status": "fulfilled",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 56.19,
+      "currency": "EUR"
+    },
+    "currentEstimate": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-10"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msmi1c6b",
+    "updatedAt": "2026-08-10T00:35:10.837Z"
+  },
+  {
+    "id": "inv_switch_super-mario-3d-all-stars-2",
+    "gameId": "game_switch_super-mario-3d-all-stars",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-10"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-10T00:35:10.837Z"
+  },
+  {
+    "id": "inv_switch_super-mario-3d-all-stars-3",
+    "gameId": "game_switch_super-mario-3d-all-stars",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 48.05,
+      "currency": "EUR"
+    },
+    "currentEstimate": {
+      "low": 45,
+      "median": 60,
+      "high": 85,
+      "currency": "EUR",
+      "source": "estimation-agent",
+      "observedAt": "2026-08-10"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msmi1nvb",
+    "updatedAt": "2026-08-10T00:35:10.837Z"
   }
 ]
