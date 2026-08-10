@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { CONSOLE_ICONS } from "@/components/ConsoleIcons";
+import { expandAbbreviations } from "@/lib/abbreviations";
 
 export interface CatalogGameLink {
   id: string;
@@ -135,7 +136,8 @@ export default function CatalogClient({
 
   const filtered = useMemo(() => {
     if (!entries) return [];
-    const q = norm(query);
+    // « dqm 2 » doit trouver « Dragon Quest Monsters - Joker 2 »
+    const q = expandAbbreviations(norm(query));
     const qWords = q.split(" ").filter(Boolean);
     return entries.filter((e) => {
       const isOwned = links[e.id]?.owned ?? false;

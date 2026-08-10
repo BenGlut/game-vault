@@ -1,5 +1,6 @@
 import type Fuse from "fuse.js";
 import type { SearchDoc } from "./data";
+import { expandAbbreviations } from "./abbreviations";
 
 function norm(s: string): string {
   return s
@@ -30,7 +31,7 @@ export function searchDocs(
   query: string,
   limit: number,
 ): { item: SearchDoc; score: number }[] {
-  const q = norm(query);
+  const q = expandAbbreviations(norm(query));
   if (!q) return [];
   const qWords = q.split(" ").filter(Boolean);
 

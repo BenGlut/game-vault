@@ -142,3 +142,6 @@
   activée dans publish.config.json), badge de statut retiré des jaquettes
 - Catalogue en grille de posters (mêmes grandes jaquettes que la Collection),
   badges qualité/possession superposés — `src/components/CatalogClient.tsx`
+- Abréviations de collectionneurs reconnues dans les recherches (`src/lib/abbreviations.ts`) :
+  « DQM 2 » trouve Dragon Quest Monsters Joker 2, « BOTW », « FFTA », « NSMB »,
+  « SMT »… — actif sur le Catalogue et la Recherche, 1 test ajouté

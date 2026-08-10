@@ -38,3 +38,14 @@ describe("searchDocs — correspondance exacte par mots avant le fuzzy", () => {
     expect(searchDocs(docs, fuse, "pokemon shield", 5)[0]?.item.id).toBe("sw-bouclier");
   });
 });
+
+describe("abréviations de collectionneurs", () => {
+  it("« dqm » retrouve Dragon Quest Monsters", () => {
+    const docs2 = [
+      { id: "ds-dqm", t: "Dragon Quest Monsters: Joker", n: "dragon quest monsters joker", a: [], f: "Dragon Quest", p: "ds" },
+      { id: "ds-dq9", t: "Dragon Quest IX", n: "dragon quest ix", a: [], f: "Dragon Quest", p: "ds" },
+    ];
+    const f2 = new Fuse(docs2, { keys: ["n", "a", "t"], threshold: 0.38, ignoreLocation: true, includeScore: true });
+    expect(searchDocs(docs2, f2, "dqm joker", 5)[0]?.item.id).toBe("ds-dqm");
+  });
+});
