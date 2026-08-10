@@ -235,73 +235,66 @@ export default function CatalogClient({
             {filtered.length} jeu{filtered.length > 1 ? "x" : ""} sur {entries.length} référencés
             {shown.length < filtered.length ? ` — ${shown.length} affichés, affiner la recherche` : ""}
           </p>
-          <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
             {shown.map((e) => {
               const link = linkFor(e);
+              const tier = link?.quality ?? e.q;
               const inner = (
                 <>
-                  {e.img ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={`${basePath}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`}
-                      alt=""
-                      loading="lazy"
-                      className="h-14 w-12 shrink-0 rounded object-cover"
-                    />
-                  ) : (
-                    <div className="flex h-14 w-12 shrink-0 items-center justify-center rounded bg-surface-2 text-xs text-muted">
-                      ?
-                    </div>
-                  )}
-                  <div className="min-w-0">
-                    <div className="flex items-center gap-1.5">
-                      <span className="truncate text-sm font-medium" title={e.t}>
+                  <div className="poster">
+                    {e.img ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={`${basePath}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`}
+                        alt={`Jaquette de ${e.t}`}
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center bg-surface-2 px-2 text-center text-xs text-muted">
                         {e.t}
+                      </div>
+                    )}
+                    <div className="poster-veil" />
+
+                    <div className="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-2">
+                      <span
+                        className={`flex h-6 w-6 items-center justify-center rounded-md font-mono text-xs font-bold shadow-lg ${
+                          tier ? (TIER_COLORS[tier] ?? "") : "bg-black/50 text-white/70 backdrop-blur-sm"
+                        }`}
+                        title={tier ? `Qualité ${tier}` : "Qualité non notée"}
+                      >
+                        {tier ?? "?"}
                       </span>
-                      {(() => {
-                        const tier = link?.quality ?? e.q;
-                        return (
-                          <span
-                            className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded font-mono text-xs font-bold ${
-                              tier ? (TIER_COLORS[tier] ?? "") : "bg-surface-2 text-muted"
-                            }`}
-                            title={tier ? `Qualité ${tier}` : "Qualité non notée"}
-                          >
-                            {tier ?? "?"}
-                          </span>
-                        );
-                      })()}
-                    </div>
-                    <div className="mt-0.5 flex flex-wrap items-center gap-1 text-xs text-muted">
                       {link?.owned ? (
-                        <span className="rounded-full bg-[#4ade8020] px-1.5 py-0.5 text-[#4ade80]">
+                        <span className="rounded-full bg-[#4ade8030] px-2 py-0.5 text-[10px] font-semibold text-[#4ade80] ring-1 ring-inset ring-[#4ade8050] backdrop-blur-sm">
                           Possédé
                         </span>
                       ) : link?.wishlist ? (
-                        <span className="rounded-full bg-[#c084fc20] px-1.5 py-0.5 text-[#c084fc]">
+                        <span className="rounded-full bg-[#c084fc30] px-2 py-0.5 text-[10px] font-semibold text-[#c084fc] ring-1 ring-inset ring-[#c084fc50] backdrop-blur-sm">
                           Wishlist
                         </span>
                       ) : null}
-                      {!platform ? (
-                        <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono uppercase">
-                          {platformOf(e)}
-                        </span>
-                      ) : null}
-                      <span className="truncate">{e.r.join(", ") || "région inconnue"}</span>
+                    </div>
+
+                    <div className="absolute inset-x-0 bottom-0 flex items-center gap-1.5 p-2">
+                      <span className="truncate text-[11px] text-white/70">
+                        {e.r.join(", ") || "région inconnue"}
+                      </span>
+                      <span className="ml-auto shrink-0 rounded bg-black/50 px-1.5 py-0.5 font-mono text-[10px] uppercase text-white/80 backdrop-blur-sm">
+                        {platformOf(e)}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="mt-2 px-0.5">
+                    <div className="truncate text-sm font-medium transition group-hover:text-accent" title={e.t}>
+                      {e.t}
                     </div>
                   </div>
                 </>
               );
-              const cardClass = `flex items-center gap-3 rounded-lg border px-3 py-2 ${
-                link?.owned ? "border-[#4ade8040] bg-[#4ade800a]" : "border-border bg-surface"
-              }`;
               // base (possédé/wishlist) → fiche complète ; sinon → carte détaillée
               return link ? (
-                <Link
-                  key={e.id}
-                  href={`/jeu/${link.id}/`}
-                  className={`${cardClass} transition hover:border-accent/40`}
-                >
+                <Link key={e.id} href={`/jeu/${link.id}/`} className="group block text-left">
                   {inner}
                 </Link>
               ) : (
@@ -309,7 +302,7 @@ export default function CatalogClient({
                   key={e.id}
                   type="button"
                   onClick={() => setDetail(e)}
-                  className={`${cardClass} w-full text-left transition hover:border-accent/40`}
+                  className="group block w-full text-left"
                 >
                   {inner}
                 </button>

@@ -140,3 +140,5 @@
 - Commandes : prix par article et total (le prix d'un article inclut sa part de
   port et de frais — garde-fou d'intégrité dans `store.ts`, publication des prix
   activée dans publish.config.json), badge de statut retiré des jaquettes
+- Catalogue en grille de posters (mêmes grandes jaquettes que la Collection),
+  badges qualité/possession superposés — `src/components/CatalogClient.tsx`
