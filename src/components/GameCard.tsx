@@ -33,6 +33,7 @@ export interface CardItem {
   completeness?: string;
   verificationStatus?: string;
   acquiredAt?: string | null;
+  orderId?: string | null;
   currentEstimate?: { low: number; median: number; high: number } | null;
 }
 
@@ -61,8 +62,11 @@ export function GameCard({
   /** masquer la pastille de statut (ex. commandes : le statut est celui de la commande) */
   showStatus?: boolean;
 }) {
-  const copies = items.length;
-  const status = items[0]?.status;
+  // les exemplaires annulés/remboursés ne comptent pas dans le stock affiché
+  const live = items.filter((i) => !["cancelled", "refunded"].includes(i.status));
+  const shown = live.length ? live : items;
+  const copies = live.length;
+  const status = shown[0]?.status;
   const drawer = useGameDrawer();
 
   return (
@@ -98,7 +102,14 @@ export function GameCard({
           ) : (
             <span />
           )}
-          {badge}
+          <div className="flex items-center gap-1.5">
+            {copies > 1 ? (
+              <span className="rounded-md bg-[#f5b642] px-1.5 py-0.5 text-[11px] font-bold text-black shadow-lg">
+                ×{copies}
+              </span>
+            ) : null}
+            {badge}
+          </div>
         </div>
 
         {/* bas : statut + plateforme */}
@@ -109,11 +120,6 @@ export function GameCard({
                 className={`rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ring-inset backdrop-blur-sm ${STATUS_COLORS[status] ?? "bg-surface-2 text-muted ring-border"}`}
               >
                 {STATUS_LABELS[status] ?? status}
-              </span>
-            ) : null}
-            {copies > 1 ? (
-              <span className="rounded-full bg-[#f5b64230] px-2 py-0.5 text-[11px] font-semibold text-accent ring-1 ring-inset ring-[#f5b64250] backdrop-blur-sm">
-                ×{copies}
               </span>
             ) : null}
             <span className="ml-auto rounded bg-black/50 px-1.5 py-0.5 font-mono text-[10px] uppercase text-white/80 backdrop-blur-sm">

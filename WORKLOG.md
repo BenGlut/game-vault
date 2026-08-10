@@ -154,3 +154,14 @@
   Kirby 30,10→33,89, Golden Sun 32,20→35,19, lot gabrieltrichard69 24,85→28,63,
   lot val215121 réparti au prorata des prix réels (Valkyrie 52,85…) ; 2 commandes
   manquantes ajoutées (Mario 3D All-Stars ×2 : ltim13560 56,19 et loulou280208 48,05)
+- Vraies jaquettes de boîte Switch (packshots FR de l'eShop européen) au lieu des
+  icônes carrées du menu console — `scripts/covers/fetch-switch-boxart.ts`
+  (filtre `system_type:nintendoswitch` : sans lui, la version 3DS d'un même titre
+  gagnait) ; 37/37 récupérées
+- `scripts/covers/sync-from-catalog.ts` : complète les jaquettes manquantes depuis
+  le catalogue déjà téléchargé, à lancer après tout `add-game`
+- Panneau latéral : un badge par statut distinct avec compteur (fini les doublons
+  « Wishlist Wishlist »), exemplaires annulés/remboursés sortis du stock affiché
+  et résumés en une ligne, chaque exemplaire renvoie vers sa commande d'origine
+- Carte poster : quantité déplacée en haut à droite (elle masquait la jaquette),
+  et elle ne compte plus les exemplaires annulés

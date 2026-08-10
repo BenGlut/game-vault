@@ -14,6 +14,7 @@ export interface DrawerOrder {
   orderedAt: string;
   deliveredAt: string | null;
   estimatedDeliveryAt: string | null;
+  totalPaid: number | null;
 }
 
 export interface DrawerItem {
@@ -24,6 +25,7 @@ export interface DrawerItem {
   completeness?: string;
   verificationStatus?: string;
   acquiredAt?: string | null;
+  orderId?: string | null;
   currentEstimate?: { low: number; median: number; high: number } | null;
 }
 
@@ -85,6 +87,10 @@ export function GameDrawerProvider({
 
   const q = row ? quotes[row.game.id] : undefined;
   const owned = row?.items.filter((i) => POSSESSION.includes(i.status)) ?? [];
+  // une commande annulée ou remboursée n'est pas du stock : on l'archive
+  const ARCHIVED = ["cancelled", "refunded"];
+  const active = row?.items.filter((i) => !ARCHIVED.includes(i.status)) ?? [];
+  const archived = row?.items.filter((i) => ARCHIVED.includes(i.status)) ?? [];
 
   return (
     <Ctx.Provider value={{ open, enabled: true }}>
@@ -150,14 +156,19 @@ export function GameDrawerProvider({
                         {row.game.qualityTier}
                       </span>
                     ) : null}
-                    {row.items.map((i) => (
-                      <span
-                        key={i.id}
-                        className={`rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ring-inset ${STATUS_COLORS[i.status] ?? "bg-surface-2 text-muted ring-border"}`}
-                      >
-                        {STATUS_LABELS[i.status] ?? i.status}
-                      </span>
-                    ))}
+                    {/* un badge par statut distinct, avec le nombre s'il y en a plusieurs */}
+                    {[...new Set(row.items.map((i) => i.status))].map((st) => {
+                      const n = row.items.filter((i) => i.status === st).length;
+                      return (
+                        <span
+                          key={st}
+                          className={`rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ring-inset ${STATUS_COLORS[st] ?? "bg-surface-2 text-muted ring-border"}`}
+                        >
+                          {STATUS_LABELS[st] ?? st}
+                          {n > 1 ? ` ×${n}` : ""}
+                        </span>
+                      );
+                    })}
                   </div>
                   <h2 className="text-xl font-bold leading-tight">{row.game.canonicalTitle}</h2>
                   <p className="mt-1.5 text-xs text-muted">
@@ -172,10 +183,10 @@ export function GameDrawerProvider({
               {/* exemplaires : le modèle ERP donne une ligne par article */}
               <section>
                 <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">
-                  {row.items.length > 1 ? `${row.items.length} exemplaires` : "Exemplaire"}
+                  {active.length > 1 ? `${active.length} exemplaires` : "Exemplaire"}
                 </h3>
                 <div className="space-y-2">
-                  {row.items.map((i) => (
+                  {active.map((i) => (
                     <div key={i.id} className="rounded-xl border border-border bg-surface p-3 text-sm">
                       <div className="flex items-center justify-between">
                         <span
@@ -199,10 +210,40 @@ export function GameDrawerProvider({
                           </>
                         ) : null}
                       </dl>
+                      {(() => {
+                        // remonter à la commande d'origine de cet exemplaire précis
+                        const o = i.orderId
+                          ? orders[row.game.id]?.find((x) => x.id === i.orderId)
+                          : undefined;
+                        if (!o) return null;
+                        return (
+                          <Link
+                            href={`/commandes/#${o.id}`}
+                            className="mt-2 flex items-center justify-between rounded-lg bg-surface-2 px-2.5 py-1.5 text-xs transition hover:bg-accent-soft hover:text-accent"
+                          >
+                            <span className="capitalize">
+                              {o.marketplace} · {o.orderedAt}
+                            </span>
+                            <span className="flex items-center gap-1.5">
+                              {o.totalPaid !== null ? (
+                                <span className="font-mono">{euro(o.totalPaid)}</span>
+                              ) : null}
+                              <span aria-hidden>→</span>
+                            </span>
+                          </Link>
+                        );
+                      })()}
                     </div>
                   ))}
-                  {row.items.length === 0 ? (
+                  {active.length === 0 ? (
                     <p className="text-sm text-muted">Aucun exemplaire en stock.</p>
+                  ) : null}
+                  {archived.length ? (
+                    <p className="pt-1 text-[11px] text-muted">
+                      {archived.length} exemplaire{archived.length > 1 ? "s" : ""} annulé
+                      {archived.length > 1 ? "s" : ""} ou remboursé{archived.length > 1 ? "s" : ""},
+                      conservé{archived.length > 1 ? "s" : ""} dans l&apos;historique des commandes.
+                    </p>
                   ) : null}
                 </div>
               </section>

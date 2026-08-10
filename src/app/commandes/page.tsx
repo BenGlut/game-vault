@@ -31,7 +31,11 @@ export default function OrdersPage() {
         <GameDrawerProvider quotes={getQuotes()} orders={getOrdersByGame()}>
           <div className="space-y-5">
             {orders.map((o) => (
-              <section key={o.id} className="rounded-2xl border border-border bg-surface p-4">
+              <section
+                key={o.id}
+                id={o.id}
+                className="scroll-mt-24 rounded-2xl border border-border bg-surface p-4 target:border-accent"
+              >
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <div className="flex items-center gap-2">
                     <StatusBadge status={o.status} />

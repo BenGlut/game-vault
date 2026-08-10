@@ -41,7 +41,7 @@ describe("searchDocs — correspondance exacte par mots avant le fuzzy", () => {
 
 describe("abréviations de collectionneurs", () => {
   it("« dqm » retrouve Dragon Quest Monsters", () => {
-    const docs2 = [
+    const docs2: SearchDoc[] = [
       { id: "ds-dqm", t: "Dragon Quest Monsters: Joker", n: "dragon quest monsters joker", a: [], f: "Dragon Quest", p: "ds" },
       { id: "ds-dq9", t: "Dragon Quest IX", n: "dragon quest ix", a: [], f: "Dragon Quest", p: "ds" },
     ];
