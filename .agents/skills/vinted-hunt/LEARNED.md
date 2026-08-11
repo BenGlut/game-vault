@@ -78,3 +78,10 @@ clic et d'envoi de message devenus faux.*
 - 2026-08-11 — Une affaire reelle peut etre un DOUBLON : Kid Icarus a -25 % en boite,
   mais deja commande au meme prix ailleurs. Verifier l'inventaire (`pnpm vault search`)
   AVANT de traiter une remise comme une opportunite — sinon on rachete ce qu'on attend.
+- 2026-08-11 — Une remise sur lot ACTIVE ne suffit pas : chez ledenicheur09 (5 % a 3,
+  15 % a 5) le dressing ne contenait qu'un seul jeu voulu. Refaire le calcul a chaque
+  fois — remise gagnee sur la cible contre cout du remplissage — au lieu de conclure du
+  seul fait que la remise existe. Ici : 2,25 EUR gagnes pour 12 EUR depenses.
+- 2026-08-11 — Sur les titres GameCube, le bas du classement de prix est presque
+  toujours espagnol ou japonais (« juego », « sin manual », « version japonesa ») ou une
+  notice seule. Lire la description des trois moins chers AVANT d'annoncer un plancher.

@@ -595,3 +595,22 @@ Keep 60 days; beyond that, compact.
   · DEUX FAILLES DE FILTRE trouvees et corrigees dans la ronde : `^notice` ne voyait pas
     « ds notice advance wars », et `japon` ne voyait pas « gamecube jp ». Les deux likes
     parasites ont ete retires.
+- 2026-08-11 — ronde 45. Aucune commande nouvelle, base inchangee (13 commandes, 0 anomalie).
+  · KID ICARUS UPRISING chez ledenicheur09 (item 8561229115) : offre vendeur a 15 EUR
+    ACTIVE, 19,50 rendu contre 25,96 de cote CIB = -25 %, vendu AVEC BOITE. benglut le
+    veut malgre le doublon avec l'exemplaire lucietesolat : message de confirmation
+    envoye, bouton « Acheter » disponible, le paiement lui revient.
+    LOT ETUDIE ET ECARTE : sa remise est pourtant active (5 % a 3 articles, 15 % a 5),
+    mais son dressing est du PS3/PS2, de la RAM et des boites vides — rien de la
+    wishlist. Atteindre 5 articles coute ~12 EUR de remplissage pour 2,25 EUR de remise
+    sur le jeu : le test « remise gagnee > cout du remplissage » echoue nettement.
+  · REJETS avec motif :
+    xantaus Phantom Hourglass 22 EUR : 26,85 rendu contre 20,91 de cote CIB = +28 %.
+    eenpieterjan Luigi's Mansion GameCube 35 EUR : 40,50 rendu contre 32,61 = +24 %.
+    laurathr04 Luigi's Mansion 3 26 EUR : +24 %, et on a la piste a 10 EUR ouverte.
+    archiyo Advance Wars Dual Strike 17 EUR : 21,60 rendu contre 20,31 = +6 %, pas un deal.
+    giulio__00 Advance Wars : message en italien, version ITA presumee.
+    Mario Kart Double Dash — les trois moins chers sont tous disqualifies :
+    7195919405 a 5,90 « Notice j'ai seule » ; 9605966982 a 11 EUR version espagnole ;
+    9605802675 a 15 EUR « version japonesa ». Likes retires.
+  · LIKES : 56 nets sur Mario Kart Double Dash (60 moins 4 parasites).
