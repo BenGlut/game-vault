@@ -28,7 +28,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 12.21,
+      "currency": "EUR",
+      "includesShipping": false
+    },
     "currentEstimate": {
       "low": 10.79,
       "median": 12.93,
@@ -39,8 +43,8 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
-    "orderId": null,
+    "acquiredAt": "2026-07-26",
+    "orderId": "order_maxoul0511_07",
     "updatedAt": "2026-08-10T08:42:32.708Z"
   },
   {
@@ -710,7 +714,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 25.45,
+      "currency": "EUR",
+      "includesShipping": false
+    },
     "currentEstimate": {
       "low": 32.24,
       "median": 35.56,
@@ -721,8 +729,8 @@
     },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
-    "orderId": null,
+    "acquiredAt": "2026-07-26",
+    "orderId": "order_maxoul0511_07",
     "updatedAt": "2026-08-10T08:42:32.712Z"
   },
   {
@@ -7313,5 +7321,23 @@
     "acquiredAt": null,
     "orderId": "order_msolka8w",
     "updatedAt": "2026-08-11T11:48:42.088Z"
+  },
+  {
+    "id": "inv_3ds_kid-icarus-uprising-2",
+    "gameId": "game_3ds_kid-icarus-uprising",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 16.45,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msp5gpav",
+    "updatedAt": "2026-08-11T21:05:47.293Z"
   }
 ]

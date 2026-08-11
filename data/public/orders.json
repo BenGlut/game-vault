@@ -422,5 +422,57 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 39.03
+  },
+  {
+    "id": "order_maxoul0511_07",
+    "marketplace": "vinted",
+    "status": "delivered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_3ds_luigi-s-mansion",
+      "game_3ds_captain-toad-treasure-tracker"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_luigi-s-mansion",
+        "inventoryId": "inv_3ds_luigi-s-mansion",
+        "unitPrice": 25.45
+      },
+      {
+        "gameId": "game_3ds_captain-toad-treasure-tracker",
+        "inventoryId": "inv_3ds_captain-toad-treasure-tracker",
+        "unitPrice": 12.21
+      }
+    ],
+    "orderedAt": "2026-07-22",
+    "fulfilledAt": "2026-07-22",
+    "deliveredAt": "2026-07-26",
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 37.66
+  },
+  {
+    "id": "order_msp5gpav",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_kid-icarus-uprising"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_kid-icarus-uprising",
+        "inventoryId": "inv_3ds_kid-icarus-uprising-2",
+        "unitPrice": 16.45
+      }
+    ],
+    "orderedAt": "2026-08-11",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 16.45
   }
 ]

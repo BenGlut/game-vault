@@ -77,3 +77,8 @@ promu dans `SKILL.md`.*
   rendu Vinted (ni protection ni port en retrait magasin), article garanti en boîte.
   Extraction `.product-grid .product-tile`, écarter les liens `criteo.com` (publicités
   glissées dans la grille) ; le nom du jeu se lit dans le slug, le titre est vide au DOM.
+- 2026-08-11 — Le jour ou un titre est acquis, purger ses favoris dans la foulee : 28
+  coeurs Kid Icarus retires apres l'achat. Sinon les vendeurs continuent d'envoyer des
+  remises sur un jeu deja possede, et la liste cesse de vouloir dire quelque chose.
+- 2026-08-11 — « caja » seul (sans « sin ») designe une BOITE espagnole vendue vide.
+  Filtrer `\bcaja\b` au meme titre que `boite seule`.

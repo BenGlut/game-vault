@@ -711,3 +711,22 @@ Keep 60 days; beyond that, compact.
   · ENTRETIEN : LEARNED.md recompacte de 120 a 79 lignes (26 lecons) — les quatre lecons « faille de
     filtre » fusionnees en une seule, les trois « mots etrangers » en une, et la regle de
     l'import japonais deja promue dans SKILL.md a la ronde 49.
+- 2026-08-11 — ronde 51. ACHAT VALIDE PAR BENGLUT : Kid Icarus Uprising chez
+  ledenicheur09, offre 15,00 + 1,45 de protection = 16,45 EUR (transaction 21486069595).
+  Enregistre en base -> nouvelle ligne inv_3ds_kid-icarus-uprising-2 (2e exemplaire).
+  C'EST UN DOUBLON assume : le premier arrive de chez lucietesolat a 19,31 EUR. Les deux
+  sont sous la cote CIB de 25,96 ; celui de ledenicheur09 est annonce avec boite ET
+  notice, celui de lucietesolat sans les cartes AR. Garder le meilleur, revendre l'autre.
+  · 5e LIVRAISON detectee et RATTACHEE : commande maxoul0511 du 22/07 (transaction
+    21080251433, statut 450), absente de la base comme celle de lucas_klein. Luigi's
+    Mansion 3DS + Captain Toad 3DS, 37,66 EUR repartis 25,45 / 12,21, rattaches aux
+    exemplaires deja `owned`. Vendeur seller_maxoul0511 cree. Base : 16 commandes.
+  · REJETS avec motif :
+    marekgracz Smash Bros Melee GameCube COMPLET (2 notices, disque sans rayure) 45 EUR :
+    51,00 rendu contre 25,93 de cote CIB = +97 %, et vendeur etranger.
+    joerivh92 « Smash Bros Melee Manual » 9 EUR : notice seule.
+    bbrayou Super Mario 64 28 EUR : deja rejete ronde 50 (+105 %).
+    Super Mario Sunshine : « caja para super mario sunshine » = BOITE SEULE espagnole ;
+    l'autre a -15 % est le japonais deja rejete ronde 41. Les deux likes retires.
+  · LIKES : 58 nets sur Super Mario Sunshine (60 moins 2).
+  · NETTOYAGE : 28 favoris Kid Icarus retires, le besoin est couvert (2 exemplaires).
