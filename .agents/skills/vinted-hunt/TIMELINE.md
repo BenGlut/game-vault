@@ -809,3 +809,14 @@ Keep 60 days; beyond that, compact.
     cumulees. NON ENVOYEE : pas de fil existant avec bellon49, la creation de fil par API
     renvoie 403, et ni le bouton « Message » ni « Voir le lot » ne repondent sans onglet
     au premier plan. Lien du lot et texte du message remis a benglut pour un clic.
+  · DRESSING bellon49 passe en entier (70 articles, 24 jeux) : hors des 5 DS, tout est
+    Xbox 360 / PSP / Wii, donc hors perimetre de la collection.
+    Okamiden 105,70 EUR : ABSENT de la base et interessant, mais cote 62,63 CIB en PAL
+    -> +69 %. Rejete. Entrainement cerebral : deja owned.
+    ATTENTION DOUBLON signale a benglut : le Layton Boite de Pandore est deja commande
+    chez manu69chris (order_msl51ugw, statut ordered, non recu).
+  · Lot a trois prepare a sa demande (Zelda PH + les deux Layton) : 70 EUR affiches
+    contre 33,38 EUR de cotes cumulees. Offre proposee : 30 EUR.
+  · Flower Sun and Rain DS, question de benglut : cote PAL 48,00 CIB / 25,98 loose,
+    titre peu courant. Jeu culte Suda51 mais clivant (accueil critique dans les 60/100),
+    piece de collection plus que jeu a finir.
