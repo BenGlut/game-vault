@@ -819,4 +819,5 @@ Keep 60 days; beyond that, compact.
     contre 33,38 EUR de cotes cumulees. Offre proposee : 30 EUR.
   · Flower Sun and Rain DS, question de benglut : cote PAL 48,00 CIB / 25,98 loose,
     titre peu courant. Jeu culte Suda51 mais clivant (accueil critique dans les 60/100),
-    piece de collection plus que jeu a finir.
+    piece de collection plus que jeu a finir. ECARTE sur decision de benglut : ne plus
+    le proposer ni l ajouter a la wishlist.
