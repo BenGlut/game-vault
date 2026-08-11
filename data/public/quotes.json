@@ -2629,20 +2629,20 @@
   },
   "game_ds_professeur-layton-et-le-destin-perdu": {
     "cib": {
-      "low": 4.45,
-      "median": 5.29,
+      "low": 8.14,
+      "median": 8.14,
       "high": 8.14,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     },
     "loose": {
-      "low": 3.25,
-      "median": 3.79,
+      "low": 6.61,
+      "median": 6.61,
       "high": 6.61,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     }
   },
   "game_ds_chrono-trigger": {
@@ -2665,20 +2665,20 @@
   },
   "game_ds_ghost-trick-detective-fantome": {
     "cib": {
-      "low": 32.38,
-      "median": 35.44,
-      "high": 38.71,
+      "low": 35.02,
+      "median": 35.02,
+      "high": 35.02,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     },
     "loose": {
-      "low": 20.34,
-      "median": 25.63,
-      "high": 30.52,
+      "low": 22.79,
+      "median": 22.79,
+      "high": 22.79,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     }
   },
   "game_ds_the-world-ends-with-you": {
@@ -2701,20 +2701,20 @@
   },
   "game_ds_castlevania-dawn-of-sorrow": {
     "cib": {
-      "low": 28.33,
-      "median": 32.21,
-      "high": 37.24,
+      "low": 31.01,
+      "median": 31.01,
+      "high": 31.01,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     },
     "loose": {
       "low": 16.36,
-      "median": 26.36,
-      "high": 28.54,
+      "median": 16.36,
+      "high": 16.36,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     }
   },
   "game_ds_advance-wars-dual-strike": {

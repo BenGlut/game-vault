@@ -783,3 +783,23 @@ Keep 60 days; beyond that, compact.
     soit 2,4x ; mais PAL loose 29,31 contre 23,65 US, soit +24 % seulement. Ce n'est pas
     la demande mondiale qui monte, c'est la BOITE europeenne qui est rare (petit tirage
     PAL jamais reedite). Repere d'echelle : Mario Kart DS complet PAL = 12,86 EUR.
+- 2026-08-11 — ronde 54. Aucun mouvement : 18 transactions inchangees, base 16 commandes,
+  0 anomalie, aucun message vendeur nouveau.
+  · REGLE PRECISEE par benglut et corrigee dans SKILL.md : boite FR exigee, SAUF si elle
+    n'existe pas, et les boites multilingues PAL contenant le francais sont acceptees
+    (a enregistrer en PAL-EU). J'avais trop durci la regle a la ronde 53.
+  · AUDIT DES COTES apres l'erreur Kirby : le rapport mediane/bas de bande a ete calcule
+    sur les 15 titres DS/3DS de la wishlist. Il va de 1,04 a 1,61 — la derive n'est PAS
+    systemique. Les bandes CIB collent au comptant (Castlevania 31,01 releve contre 32,21
+    en base, Ghost Trick 35,02 contre 35,44) ; ce sont quelques bandes LOOSE qui sont
+    flatteuses (Castlevania 1,61, Bravely Default 1,50, Metroid Samus Returns 1,30).
+  · Castlevania Dawn of Sorrow 9244615557 reevalue au comptant : 34,20 rendu contre
+    31,01 de cote CIB du jour = +10 % (et sans manuel). REJETE au prix demande. Offre
+    non posee, le modal exige toujours un onglet au premier plan.
+  · VENDEUR bellon49, trois annonces soumises par benglut, TOUTES REJETEES :
+    Layton Destin Perdu 15 EUR = 19,50 rendu contre 8,14 de cote CIB du jour = +140 %.
+    Layton Boite de Pandore 15 EUR = 19,50 rendu contre 4,33 = +350 %.
+    Zelda Phantom Hourglass 42,70 EUR = 45,75 rendu contre 20,91 = +119 %.
+    Ce vendeur est a 2 a 4,5x le marche sur tout son dressing (Okamiden a 105,70 EUR).
+    Like retire sur le Layton Destin Perdu.
+  · Cotes du jour ajoutees : Castlevania, Ghost Trick, Layton Destin Perdu.

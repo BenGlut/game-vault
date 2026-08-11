@@ -310,11 +310,19 @@ of the noise in one step.
 No offer without looking at the photos, via `computer{action:"zoom"}` on the useful
 area — front, spine, back, cart label.
 
-**1. A French box is REQUIRED, not preferred** (benglut, 2026-08-11: « je ne prends que
-des versions boîte FR »). A loose cartridge, an empty box, an import or a foreign-language
-edition is refused whatever the discount — do not surface it, do not like it. The only
-exception stays the title that never shipped in French, checked against the local
-catalogue before claiming it. Evidence, most to least reliable:
+**1. A boxed copy playable in French is REQUIRED, not preferred** (benglut, 2026-08-11:
+« je ne prends que des versions boîte FR », précisé le même jour : « sauf si la boîte FR
+n'existe pas, et les boîtes multilingues avec le FR c'est okai »). So:
+
+- **French box** — ideal.
+- **Multilingual PAL box carrying French** (`EUR`/`EUU`, French on the back, French in the
+  game) — accepted, it is the same product. Record it as `PAL-EU`, never `PAL-FR`.
+- **No French box was ever printed** — accepted, but check the title against the local
+  catalogue before claiming it.
+- **Loose cartridge, empty box, import, foreign-only edition** — refused whatever the
+  discount. Do not surface it, do not like it.
+
+Evidence, most to least reliable:
 
 - **product code** on back or spine, `-FRA` suffix (`NTR-`, `CTR-`, `DOL-`, `AGB-`,
   `NUS-XXXX-FRA`). `UKV` English, `NOE` German, `HOL` Dutch, `EUR`/`EUU` multilingual.

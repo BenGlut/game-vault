@@ -107,3 +107,11 @@ promu dans `SKILL.md`.*
 - 2026-08-11 — Diagnostiquer une cote elevee en comparant PAL et US sur PriceCharting :
   si l'ecart porte sur le CIB et pas sur le loose, c'est la boite qui est rare (petit
   tirage PAL), pas le jeu. Utile pour expliquer un prix et pour savoir ou chercher.
+- 2026-08-11 — Verifier la cote AU COMPTANT avant de valider une piste proposee par
+  benglut : sur trois annonces qu'il jugeait interessantes, les ecarts reels etaient
+  +140 %, +350 % et +119 %. Les series tres courantes (Layton) valent 4 a 8 EUR complet
+  en PAL, ce qui rend n'importe quel prix a 15 EUR absurde — mais rien dans l'annonce ne
+  le dit.
+- 2026-08-11 — Quand un vendeur est cher sur UN article, verifier son dressing entier :
+  bellon49 etait a 2-4,5x le marche sur les cinq. Un seul appel wardrobe evite trois
+  evaluations inutiles.
