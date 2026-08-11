@@ -614,3 +614,21 @@ Keep 60 days; beyond that, compact.
     7195919405 a 5,90 « Notice j'ai seule » ; 9605966982 a 11 EUR version espagnole ;
     9605802675 a 15 EUR « version japonesa ». Likes retires.
   · LIKES : 56 nets sur Mario Kart Double Dash (60 moins 4 parasites).
+- 2026-08-11 — ronde 46. DEUX COMMANDES LIVREES ET TERMINEES, passees en `delivered` :
+  order_msl7d7y3 Fire Emblem Awakening (kevin85500, 35,19 EUR) et order_msly29ix
+  Dragon Quest IX (antoine.allavene, 29,94 EUR). Statut Vinted 450 « Termine »,
+  evaluation deja laissee par benglut. Base : 13 commandes, 0 anomalie.
+  · Kid Icarus a 15 EUR chez ledenicheur09 : offre toujours active, pas encore achetee.
+  · REJETS avec motif :
+    lilinayaa03 Luigi's Mansion 3, descendue de 26 a 23 EUR apres ma contre-offre :
+    27,90 rendu contre 24,97 de cote CIB = +12 %, toujours au-dessus, et la piste a
+    10 EUR reste ouverte. jeremie5962 LM3 24 EUR : +16 %.
+    zaibakair « Free loader + Luigi mansion » 50 EUR : +72 % ; son Luigi mansion seul
+    a 30 EUR : +8 %, pas un deal. pourquoimoa Ghost Trick 79 EUR : +145 %.
+    jean-baptistepapini Phantom Hourglass 17 EUR : 21,60 rendu contre 20,91 = +3 %,
+    c'est le prix du marche, pas une affaire.
+    Super Mario 64 : le meilleur exemplaire authentique est a +30 % sur la cote loose —
+    l'ecart structurel N64 se confirme une fois de plus.
+    Wind Waker : le « moins cher » a 15,51 EUR rendu (-33 %) est une CARTE VIP NINTENDO
+    GRATTEE, titre identique a celui du jeu, revelee seulement par la description.
+  · LIKES : 71 nets — Super Mario 64 17, Wind Waker 56 moins 2 cartes VIP retirees.

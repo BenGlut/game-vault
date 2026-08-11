@@ -85,3 +85,10 @@ clic et d'envoi de message devenus faux.*
 - 2026-08-11 — Sur les titres GameCube, le bas du classement de prix est presque
   toujours espagnol ou japonais (« juego », « sin manual », « version japonesa ») ou une
   notice seule. Lire la description des trois moins chers AVANT d'annoncer un plancher.
+- 2026-08-11 — Le statut fiable d'une commande est `transaction.status` (450 = terminee)
+  et les `status_message` du fil (« Livree », « Termine ! »), pas `status_title` qui est
+  vide. C'est la seule facon d'attraper une livraison pour lancer `receive-order`.
+- 2026-08-11 — Une « carte VIP Nintendo » se vend sous le titre EXACT du jeu, sans aucun
+  indice hors description — elle est apparue en tete du classement prix sur Wind Waker
+  a -33 %. Ajouter carte/vip/card au filtre, et se rappeler que sur un titre recherche
+  le premier du classement doit toujours passer par la description avant d'etre annonce.
