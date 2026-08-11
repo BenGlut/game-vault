@@ -576,3 +576,22 @@ Keep 60 days; beyond that, compact.
     React puis fleche (c'est `/conversations/<id>/replies`). Ajout du modal d'offre qui
     exige l'onglet actif, du piege « protection incluse » et des suites/derives a exclure.
     LEARNED.md compacte de 208 a 74 lignes (27 lecons).
+- 2026-08-11 — ronde 44. Aucune commande nouvelle, base inchangee (13 commandes, 0 anomalie).
+  Luigi's Mansion 3 a 10 EUR chez oli72300 (9633725677) toujours disponible.
+  · 8 sollicitations vendeurs, toutes REJETEES avec motif :
+    amaury038 Phantom Hourglass 32 EUR : 37,35 rendu contre cote CIB 20,91 = +79 %.
+    maxime60m Phantom Hourglass « complet » 36 EUR : +99 %.
+    antoinegirard4232 Majora's Mask 3D 89,90 EUR port offert : +154 %.
+    pghosted Kirby Super Star Ultra 55 EUR : « Sin caja, en espanol » — sans boite ET
+    espagnol. gioretrogames29 Kirby 120 EUR : version allemande, deja rejete ronde 42.
+    yurgle Bravely Default 21 EUR : 25,80 rendu contre 20,64 de cote CIB = +25 %.
+    piyotan : « NEO The World Ends With You », autre jeu, like deja retire ronde 42.
+    ledenicheur09 Kid Icarus Uprising 15 EUR : 19,50 rendu contre 25,96 de cote CIB,
+    soit -25 % ET vendu avec boite — SEULE vraie affaire du lot, mais DOUBLON : on a
+    deja le meme jeu commande a 19,31 EUR chez lucietesolat. Rejete pour cette raison.
+  · LIKES : 103 nets — Advance Wars Dual Strike 51 (moins 1), Luigi's Mansion GameCube
+    54 (moins 1). Aucune affaire sur ces deux titres : le meilleur Advance Wars hors
+    notice est a +4 %, le meilleur Luigi's Mansion GameCube authentique a +15 %.
+  · DEUX FAILLES DE FILTRE trouvees et corrigees dans la ronde : `^notice` ne voyait pas
+    « ds notice advance wars », et `japon` ne voyait pas « gamecube jp ». Les deux likes
+    parasites ont ete retires.

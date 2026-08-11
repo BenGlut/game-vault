@@ -72,3 +72,9 @@ clic et d'envoi de message devenus faux.*
 - 2026-08-11 — Deux cartouches Zelda pour 8 €, ou un titre recherché à moitié prix avec
   une description d'une ligne : c'est le profil du lot repro. Prix anormalement bas +
   description vide = refus, sauf preuve d'authenticité au sens du standard.
+- 2026-08-11 — Les motifs de filtre ancres en debut de titre ratent la moitie des cas :
+  « ds notice advance wars » echappe a `^notice`, « gamecube jp » a `japon`. Ancrer sur
+  le MOT (`\bnotice\b`, `\bjp\b`, `\bmanuel\b`), jamais sur le debut de chaine.
+- 2026-08-11 — Une affaire reelle peut etre un DOUBLON : Kid Icarus a -25 % en boite,
+  mais deja commande au meme prix ailleurs. Verifier l'inventaire (`pnpm vault search`)
+  AVANT de traiter une remise comme une opportunite — sinon on rachete ce qu'on attend.
