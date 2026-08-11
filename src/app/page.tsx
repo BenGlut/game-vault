@@ -141,8 +141,8 @@ export default function Dashboard() {
         <StatTile
           href="/commandes"
           label="En transit"
-          value={String(inTransit.length)}
-          sub={`${inTransit.reduce((n, o) => n + o.itemCount, 0)} articles attendus`}
+          value={euro(inTransit.reduce((n, o) => n + (o.totalPaid ?? 0), 0))}
+          sub={`${inTransit.length} commandes, ${inTransit.reduce((n, o) => n + o.itemCount, 0)} articles`}
         />
         <StatTile
           href="/wishlist"
@@ -156,6 +156,11 @@ export default function Dashboard() {
       {inTransit.length > 0 ? (
         <section className="mt-8">
           <SectionHeader title="Commandes en attente" href="/commandes" cta="Toutes les commandes" />
+          <p className="-mt-2 mb-3 text-xs text-muted">
+            {euro(inTransit.reduce((n, o) => n + (o.totalPaid ?? 0), 0))} immobilisés —{" "}
+            {inTransit.filter((o) => o.status === "fulfilled").length} en acheminement,{" "}
+            {inTransit.filter((o) => o.status === "ordered").length} encore chez le vendeur
+          </p>
           <div className="space-y-2">
             {inTransit.map((o) => (
               <Link
@@ -175,6 +180,10 @@ export default function Dashboard() {
                 <span className="text-sm capitalize">{o.marketplace}</span>
                 <span className="text-sm text-muted">
                   {o.itemCount} article{o.itemCount > 1 ? "s" : ""}
+                </span>
+                <span className="hidden text-xs text-muted sm:inline">
+                  commandé le {o.orderedAt}
+                  {o.fulfilledAt ? ` · expédié le ${o.fulfilledAt}` : ""}
                 </span>
                 <div className="ml-auto flex items-center gap-3 text-xs text-muted">
                   {o.estimatedDeliveryAt ? (

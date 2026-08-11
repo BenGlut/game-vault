@@ -66,6 +66,13 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- Prix d'achat de Super Mario 3D All-Stars corrigé : le lot à 48,05 € contenait
+  quatre articles textile en plus du jeu, celui-ci reçoit 41,07 € au prorata des
+  valeurs affichées au lieu du total
+- Statuts de trois commandes ramenés à `ordered` : « bordereau envoyé au vendeur »
+  chez Vinted signifie que l'étiquette est éditée, pas que le colis est parti
+- `update-order --status` : rectifier un statut lu trop vite chez le marchand, les
+  commandes n'allant sinon que vers l'avant
 - Jaquettes du catalogue : fallback sur les variantes régionales quand le fichier
   libretro préféré est corrompu (pointeur LFS) — 103 échecs N64/GC/GBA réduits à 21
   (`scripts/catalog/fetch-catalog.ts`)
@@ -188,3 +195,42 @@
 - Panneau latéral à structure fixe : Exemplaire, Cotes, Commandes et Fiche du jeu
   sont toujours affichés, avec « — » ou une ligne d'explication quand la donnée
   manque, au lieu de sections qui disparaissaient d'un jeu à l'autre
+- Cotes de marché réelles pour 260 jeux (GB, GBC, GBA, DS, 3DS, N64, GameCube,
+  Switch) : relevés PAL de PriceCharting convertis en euros, fourchette
+  basse/médiane/haute calculée sur les quantiles des 24 derniers mois d'historique
+  du site plutôt que sur une amplitude arbitraire — 520 observations, source
+  `pricecharting-pal` ; remplace les estimations de l'agent d'estimation
+- Panneau latéral : bloc « Ailleurs » avec une recherche Vinted pré-remplie
+  (titre + console, ponctuation retirée) et un lien vers la fiche MobyGames
+  (titre anglais pris dans les alias, la base étant anglophone)
+- Skill `vinted-hunt` : ronde Vinted autonome (commandes → base, messagerie,
+  chasse aux lots, likes, négociation) — plafonds d'offre, interdit sur le paiement,
+  contrôle de la version française (code produit `-FRA`, langue du jeu, état sur
+  photo). Rédigé en anglais pour le coût de relecture, messages vendeurs en français.
+  Trois fichiers : la règle (`SKILL.md`), le brouillon de leçons (`LEARNED.md`,
+  promu dans la règle après trois occurrences) et la mémoire des actions
+  (`TIMELINE.md`, lue en début de ronde pour ne pas refaire deux fois le même
+  travail). L'économie de tokens fait partie du travail : expériences mesurées,
+  résultats consignés, et toute promotion réécrit au lieu d'ajouter
+- Wishlist étendue aux incontournables absents de la collection : 19 titres notés S
+  ajoutés en priorité haute (Pokémon Game Boy et GBA, Zelda Oracle et Minish Cap,
+  Metroid Fusion et Zero Mission, Banjo-Kazooie, Conker, Perfect Dark, Paper Mario
+  La Porte Millénaire, Twilight Princess…) — la base passe à 300 jeux, 56 en wishlist
+- `remove-inventory` : supprimer une ligne d'inventaire erronée, avec refus par défaut
+  si elle est rattachée à une commande ou déjà possédée (`--force` pour outrepasser)
+- Vue Commandes : bandeau de synthèse des commandes non reçues — nombre, valeur
+  immobilisée, articles attendus, et répartition expédiées / encore chez le vendeur
+- Dashboard : la tuile « En transit » affiche désormais la valeur immobilisée plutôt
+  qu'un simple compte, et le bloc des commandes en attente rappelle le total et les
+  dates de commande et d'expédition
+- Tactique du lot d'appoint documentée dans le skill : la remise vendeur portant sur
+  tout le panier, ajouter quelques articles à 1-3 € franchit le palier et fait
+  baisser le jeu visé — avec le test « remise gagnée > coût de l'appoint » et
+  l'obligation de ne compter que la quote-part du jeu dans la base
+- Wishlist : ajout de `Super Mario Galaxy + Super Mario Galaxy 2` (Switch) ; cotes
+  PriceCharting PAL relevées pour Luigi's Mansion 3 (CIB 24,97 € / loose 21,53 €)
+  et Super Mario Odyssey (CIB 27,12 € / loose 25,62 €)
+- Skill `vinted-hunt` : la pose d'un favori passe par le clic DOM sur la grille
+  catalogue, jamais par l'API — `user_favourites/toggle` répond « Ok » mais ne sait
+  que retirer. Piège de filtrage documenté : le `title` d'une carte contient le
+  suffixe « … € protection incluse », qui faisait rejeter des annonces valides

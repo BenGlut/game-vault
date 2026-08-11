@@ -51,6 +51,23 @@ interface DrawerCtx {
 
 const Ctx = createContext<DrawerCtx>({ open: () => {}, enabled: false });
 
+/** Requête propre pour un moteur de recherche : ni ponctuation, ni espaces doubles. */
+function searchText(s: string): string {
+  return s
+    .replace(/[:–—_/]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * Titre à envoyer aux bases anglophones : MobyGames connaît « Golden Sun: Dark Dawn »,
+ * pas « Obscure Aurore ». Le premier alias sans accent fait l'affaire.
+ */
+function englishTitle(game: Game): string {
+  const ascii = game.aliases.find((a) => !/[À-ÿ]/.test(a) && a !== game.canonicalTitle);
+  return ascii ?? game.canonicalTitle;
+}
+
 /** Permet aux cartes d'ouvrir le panneau ; sans provider, elles restent de simples liens. */
 export function useGameDrawer(): DrawerCtx {
   return useContext(Ctx);
@@ -397,6 +414,35 @@ export function GameDrawerProvider({
                 <p className="mt-2 text-[11px] text-muted">
                   <code className="font-mono">{row.game.id}</code>
                 </p>
+              </section>
+
+              {/* liens externes : trouver une annonce, se renseigner sur le jeu */}
+              <section>
+                <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">
+                  Ailleurs
+                </h3>
+                <div className="grid grid-cols-2 gap-2">
+                  <a
+                    href={`https://www.vinted.fr/catalog?search_text=${encodeURIComponent(
+                      searchText(`${row.game.canonicalTitle} ${row.platform?.shortName ?? ""}`),
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg border border-border bg-surface px-3 py-2 text-center text-xs transition hover:border-accent/40 hover:text-accent"
+                  >
+                    Chercher sur Vinted ↗
+                  </a>
+                  <a
+                    href={`https://www.mobygames.com/search/?q=${encodeURIComponent(
+                      searchText(englishTitle(row.game)),
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg border border-border bg-surface px-3 py-2 text-center text-xs transition hover:border-accent/40 hover:text-accent"
+                  >
+                    Fiche et notes ↗
+                  </a>
+                </div>
               </section>
 
               {row.catalogOnly ? (

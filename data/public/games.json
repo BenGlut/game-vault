@@ -6093,5 +6093,539 @@
     "externalIds": {},
     "qualityTier": "A",
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_lego-harry-potter-collection",
+    "canonicalTitle": "LEGO Harry Potter Collection",
+    "normalizedTitle": "lego harry potter collection",
+    "aliases": [
+      "LEGO Harry Potter Collection",
+      "Lego Harry Potter Years 1-7"
+    ],
+    "franchise": "LEGO",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_dragon-ball-fighterz",
+    "canonicalTitle": "Dragon Ball FighterZ",
+    "normalizedTitle": "dragon ball fighterz",
+    "aliases": [],
+    "franchise": "Dragon Ball",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_sonic-colours-ultimate",
+    "canonicalTitle": "Sonic Colours: Ultimate",
+    "normalizedTitle": "sonic colours ultimate",
+    "aliases": [
+      "Sonic Colors Ultimate"
+    ],
+    "franchise": "Sonic",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_super-mario-odyssey",
+    "canonicalTitle": "Super Mario Odyssey",
+    "normalizedTitle": "super mario odyssey",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_switch_luigi-s-mansion-3",
+    "canonicalTitle": "Luigi's Mansion 3",
+    "normalizedTitle": "luigi s mansion 3",
+    "aliases": [],
+    "franchise": "Luigi's Mansion",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gamecube_metroid-prime-2-echoes",
+    "canonicalTitle": "Metroid Prime 2: Echoes",
+    "normalizedTitle": "metroid prime 2 echoes",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gamecube",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gamecube_paper-mario-the-thousand-year-door",
+    "canonicalTitle": "Paper Mario: The Thousand-Year Door",
+    "normalizedTitle": "paper mario the thousand year door",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gamecube",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gamecube_pikmin-2",
+    "canonicalTitle": "Pikmin 2",
+    "normalizedTitle": "pikmin 2",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gamecube",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gamecube_tales-of-symphonia",
+    "canonicalTitle": "Tales of Symphonia",
+    "normalizedTitle": "tales of symphonia",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gamecube",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gamecube_the-legend-of-zelda-twilight-princess",
+    "canonicalTitle": "The Legend of Zelda: Twilight Princess",
+    "normalizedTitle": "the legend of zelda twilight princess",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gamecube",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gb_donkey-kong",
+    "canonicalTitle": "Donkey Kong",
+    "normalizedTitle": "donkey kong",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gb",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gb_super-mario-land-2-6-golden-coins",
+    "canonicalTitle": "Super Mario Land 2: 6 Golden Coins",
+    "normalizedTitle": "super mario land 2 6 golden coins",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gb",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gb_tetris",
+    "canonicalTitle": "Tetris",
+    "normalizedTitle": "tetris",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gb",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gb_the-legend-of-zelda-link-s-awakening",
+    "canonicalTitle": "The Legend of Zelda: Link's Awakening",
+    "normalizedTitle": "the legend of zelda link s awakening",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gb",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gba_advance-wars",
+    "canonicalTitle": "Advance Wars",
+    "normalizedTitle": "advance wars",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gba_castlevania-aria-of-sorrow",
+    "canonicalTitle": "Castlevania: Aria of Sorrow",
+    "normalizedTitle": "castlevania aria of sorrow",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gba_golden-sun",
+    "canonicalTitle": "Golden Sun",
+    "normalizedTitle": "golden sun",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gba_mario-luigi-superstar-saga",
+    "canonicalTitle": "Mario & Luigi: Superstar Saga",
+    "normalizedTitle": "mario luigi superstar saga",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gba_metroid-zero-mission",
+    "canonicalTitle": "Metroid: Zero Mission",
+    "normalizedTitle": "metroid zero mission",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gba_metroid-fusion",
+    "canonicalTitle": "Metroid Fusion",
+    "normalizedTitle": "metroid fusion",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gba_pokemon-version-rouge-feu",
+    "canonicalTitle": "Pokémon Version Rouge Feu",
+    "normalizedTitle": "pokemon version rouge feu",
+    "aliases": [
+      "Pokemon: FireRed Version"
+    ],
+    "franchise": null,
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gba_the-legend-of-zelda-the-minish-cap",
+    "canonicalTitle": "The Legend of Zelda: The Minish Cap",
+    "normalizedTitle": "the legend of zelda the minish cap",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_gbc_pokemon-version-cristal",
+    "canonicalTitle": "Pokémon Version Cristal",
+    "normalizedTitle": "pokemon version cristal",
+    "aliases": [
+      "Pokemon: Crystal Version"
+    ],
+    "franchise": null,
+    "platformId": "gbc",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_n64_perfect-dark",
+    "canonicalTitle": "Perfect Dark",
+    "normalizedTitle": "perfect dark",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "n64",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_switch_super-mario-galaxy-super-mario-galaxy-2",
+    "canonicalTitle": "Super Mario Galaxy + Super Mario Galaxy 2",
+    "normalizedTitle": "super mario galaxy super mario galaxy 2",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

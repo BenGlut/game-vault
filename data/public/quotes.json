@@ -1,1496 +1,1496 @@
 {
   "game_3ds_animal-crossing-new-leaf-welcome-amiibo": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 10.81,
+      "median": 16.31,
+      "high": 18.15,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 25,
+      "low": 10.63,
+      "median": 14.93,
+      "high": 16.28,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_captain-toad-treasure-tracker": {
     "cib": {
-      "low": 18,
-      "median": 25,
-      "high": 35,
+      "low": 10.79,
+      "median": 12.93,
+      "high": 15.75,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 25,
+      "low": 9.3,
+      "median": 10.78,
+      "high": 11.84,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_cars-2": {
     "cib": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 4.89,
+      "median": 5.21,
+      "high": 5.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 9,
+      "low": 4.29,
+      "median": 4.29,
+      "high": 4.4,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_detective-pikachu": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 25,
+      "low": 14.39,
+      "median": 16.12,
+      "high": 17.26,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 8.25,
+      "median": 11.29,
+      "high": 13.82,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_disney-magical-world-2": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 9,
+      "median": 9.59,
+      "high": 11.44,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 7.25,
+      "median": 8.63,
+      "high": 9.24,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_donkey-kong-country-returns-3d": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 8.81,
+      "median": 9.76,
+      "high": 10.62,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 20,
+      "low": 7.46,
+      "median": 8.22,
+      "high": 9.23,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_dragon-ball-fusions": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 23.73,
+      "median": 26.15,
+      "high": 34.16,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 16.44,
+      "median": 19.14,
+      "high": 23.73,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_dragon-ball-z-extreme-butoden": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 28,
+      "low": 13.74,
+      "median": 21.36,
+      "high": 25.13,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 13.74,
+      "median": 16.09,
+      "high": 20.17,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_dragon-quest-vii-la-quete-des-vestiges-du-monde": {
     "cib": {
-      "low": 30,
-      "median": 45,
-      "high": 65,
+      "low": 20.72,
+      "median": 24.48,
+      "high": 27.06,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 20,
-      "median": 30,
-      "high": 45,
+      "low": 17.21,
+      "median": 21.66,
+      "high": 24.48,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_dragons-2": {
     "cib": {
-      "low": 7,
-      "median": 10,
-      "high": 15,
+      "low": 4.68,
+      "median": 5.44,
+      "high": 6.98,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 3.93,
+      "median": 4.12,
+      "high": 4.87,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_ever-oasis": {
     "cib": {
-      "low": 22,
-      "median": 32,
-      "high": 45,
+      "low": 21.2,
+      "median": 22.81,
+      "high": 25.87,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 13.27,
+      "median": 19.41,
+      "high": 22.16,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_farming-simulator-18": {
     "cib": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 11.83,
+      "median": 13.98,
+      "high": 14.58,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 9.74,
+      "median": 10.33,
+      "high": 10.97,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_fire-emblem-echoes-shadows-of-valentia": {
     "cib": {
-      "low": 28,
-      "median": 38,
-      "high": 55,
+      "low": 24.9,
+      "median": 27.51,
+      "high": 30.08,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 18,
-      "median": 25,
-      "high": 35,
+      "low": 19.59,
+      "median": 24.99,
+      "high": 26.15,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_fire-emblem-fates-conquete": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 22.64,
+      "median": 26.06,
+      "high": 27.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 28,
+      "low": 19.47,
+      "median": 22.62,
+      "high": 23.12,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_fire-emblem-warriors": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 9.37,
+      "median": 10.23,
+      "high": 11.58,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 6.19,
+      "median": 7.67,
+      "high": 9.36,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_fossil-fighters-frontier": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 9.19,
+      "median": 10.52,
+      "high": 12.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 7.07,
+      "median": 8.29,
+      "high": 10.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_kirby-battle-royale": {
     "cib": {
-      "low": 18,
-      "median": 25,
-      "high": 35,
+      "low": 10.75,
+      "median": 11.8,
+      "high": 13.41,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 25,
+      "low": 9.15,
+      "median": 10.59,
+      "high": 11.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_kirby-planet-robobot": {
     "cib": {
-      "low": 28,
-      "median": 38,
-      "high": 52,
+      "low": 29.38,
+      "median": 31.38,
+      "high": 34.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 18,
-      "median": 25,
-      "high": 35,
+      "low": 26.27,
+      "median": 28.72,
+      "high": 29.3,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_kirby-triple-deluxe": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 38,
+      "low": 13.47,
+      "median": 15,
+      "high": 18.2,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 10.83,
+      "median": 12.81,
+      "high": 14.74,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lbx-little-battlers-experience": {
     "cib": {
-      "low": 10,
-      "median": 14,
-      "high": 20,
+      "low": 11.27,
+      "median": 12.84,
+      "high": 14.2,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 8.27,
+      "median": 10.55,
+      "high": 11.48,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-batman-3-au-dela-de-gotham": {
     "cib": {
-      "low": 7,
-      "median": 10,
-      "high": 15,
+      "low": 4.65,
+      "median": 5.54,
+      "high": 6.09,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 4.04,
+      "median": 4.37,
+      "high": 5.02,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-city-undercover-the-chase-begins": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 2.9,
+      "median": 3.31,
+      "high": 4,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 1.99,
+      "median": 2.9,
+      "high": 3.57,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-chima-le-voyage-de-laval": {
     "cib": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 3.12,
+      "median": 3.71,
+      "high": 4.36,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 2.86,
+      "median": 2.89,
+      "high": 3.25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-le-hobbit": {
     "cib": {
-      "low": 7,
-      "median": 10,
-      "high": 15,
+      "low": 5.71,
+      "median": 6.36,
+      "high": 7.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 4.77,
+      "median": 5.73,
+      "high": 6.32,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-le-seigneur-des-anneaux": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 7.77,
+      "median": 8.29,
+      "high": 8.94,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 5.91,
+      "median": 6.23,
+      "high": 7.99,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-marvel-super-heroes-l-univers-en-peril": {
     "cib": {
-      "low": 8,
-      "median": 11,
-      "high": 16,
+      "low": 3.47,
+      "median": 3.76,
+      "high": 4.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 7,
-      "high": 11,
+      "low": 2.55,
+      "median": 3.19,
+      "high": 3.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-ninjago-l-ombre-de-ronin": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 5.77,
+      "median": 6.06,
+      "high": 6.6,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 4.86,
+      "median": 5.5,
+      "high": 5.7,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-ninjago-nindroids": {
     "cib": {
-      "low": 7,
-      "median": 10,
-      "high": 15,
+      "low": 3.95,
+      "median": 5.11,
+      "high": 6.02,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 2.99,
+      "median": 3.53,
+      "high": 5.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-star-wars-iii": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 5.42,
+      "median": 6.43,
+      "high": 6.62,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 4.54,
+      "median": 4.69,
+      "high": 5.41,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-star-wars-le-reveil-de-la-force": {
     "cib": {
-      "low": 9,
-      "median": 13,
-      "high": 19,
+      "low": 4.86,
+      "median": 5.57,
+      "high": 6.98,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 13,
+      "low": 3.43,
+      "median": 4.02,
+      "high": 4.67,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_la-grande-aventure-lego-le-jeu-video": {
     "cib": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 3.35,
+      "median": 3.98,
+      "high": 4.2,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 2.85,
+      "median": 3.2,
+      "high": 3.6,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_luigi-s-mansion": {
     "cib": {
-      "low": 22,
-      "median": 30,
-      "high": 42,
+      "low": 32.24,
+      "median": 35.56,
+      "high": 43.07,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 24.66,
+      "median": 30.53,
+      "high": 35.96,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_luigi-s-mansion-2": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 6.77,
+      "median": 8.11,
+      "high": 9.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 5.31,
+      "median": 7,
+      "high": 7.85,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-luigi-dream-team-bros": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 9.36,
+      "median": 10.34,
+      "high": 11.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 6.92,
+      "median": 9.17,
+      "high": 9.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-luigi-paper-jam-bros": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 12.84,
+      "median": 14.39,
+      "high": 20.36,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 11.74,
+      "median": 12.85,
+      "high": 13.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-luigi-superstar-saga-les-sbires-de-bowser": {
     "cib": {
-      "low": 22,
-      "median": 32,
-      "high": 45,
+      "low": 30.2,
+      "median": 36.93,
+      "high": 41.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 24.94,
+      "median": 25.03,
+      "high": 31.2,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-kart-7": {
     "cib": {
-      "low": 15,
-      "median": 20,
-      "high": 28,
+      "low": 8.01,
+      "median": 9.4,
+      "high": 10.53,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 20,
+      "low": 6,
+      "median": 7.7,
+      "high": 8.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-party-island-tour": {
     "cib": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 6.77,
+      "median": 8.13,
+      "high": 9.53,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 5.37,
+      "median": 6.12,
+      "high": 7,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-party-star-rush": {
     "cib": {
-      "low": 14,
-      "median": 20,
-      "high": 28,
+      "low": 10.26,
+      "median": 11.21,
+      "high": 12.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 14,
-      "high": 20,
+      "low": 7.95,
+      "median": 10.04,
+      "high": 10.9,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 5.7,
+      "median": 6.85,
+      "high": 8.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 5.16,
+      "median": 5.7,
+      "high": 7.89,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-tennis-open": {
     "cib": {
-      "low": 9,
-      "median": 13,
-      "high": 19,
+      "low": 5.76,
+      "median": 6.51,
+      "high": 7.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 4.9,
+      "median": 5.37,
+      "high": 5.8,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_miitopia": {
     "cib": {
-      "low": 18,
-      "median": 26,
-      "high": 36,
+      "low": 6.18,
+      "median": 7.37,
+      "high": 8.58,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 5.33,
+      "median": 6.3,
+      "high": 7.12,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_monster-hunter-3-ultimate": {
     "cib": {
-      "low": 9,
-      "median": 14,
-      "high": 20,
+      "low": 11.99,
+      "median": 16.89,
+      "high": 21.06,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 10.05,
+      "median": 11.35,
+      "high": 14.16,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_monster-hunter-generations": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 7.22,
+      "median": 8.88,
+      "high": 9.69,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 7,
-      "median": 10,
-      "high": 15,
+      "low": 6.42,
+      "median": 7.09,
+      "high": 8.37,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_new-super-mario-bros-2": {
     "cib": {
-      "low": 14,
-      "median": 20,
-      "high": 28,
+      "low": 9.37,
+      "median": 10.04,
+      "high": 11.18,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 14,
-      "high": 20,
+      "low": 6.18,
+      "median": 8.49,
+      "high": 9.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_nintendogs-cats": {
     "cib": {
-      "low": 10,
-      "median": 14,
-      "high": 20,
+      "low": 6.41,
+      "median": 7.36,
+      "high": 9.57,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 4.99,
+      "median": 5.93,
+      "high": 6.93,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_paper-mario-sticker-star": {
     "cib": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 8.61,
+      "median": 9.49,
+      "high": 10.2,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 4.94,
+      "median": 7.97,
+      "high": 9.07,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_planes": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 3.29,
+      "median": 4.22,
+      "high": 5.11,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 2.73,
+      "median": 3.7,
+      "high": 3.95,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-donjon-mystere-les-portes-de-l-infini": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 17.27,
+      "median": 21.16,
+      "high": 23.9,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 16.06,
+      "median": 17.5,
+      "high": 19.37,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-mega-donjon-mystere": {
     "cib": {
-      "low": 18,
-      "median": 26,
-      "high": 38,
+      "low": 23.37,
+      "median": 25.31,
+      "high": 26.57,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 17.13,
+      "median": 21.59,
+      "high": 23.56,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-rumble-world": {
     "cib": {
-      "low": 9,
-      "median": 14,
-      "high": 20,
+      "low": 20.95,
+      "median": 24.75,
+      "high": 28.94,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 14.55,
+      "median": 20.26,
+      "high": 21.59,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-rubis-omega": {
     "cib": {
-      "low": 32,
-      "median": 42,
-      "high": 58,
+      "low": 36.24,
+      "median": 39.85,
+      "high": 43.4,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 22,
-      "median": 30,
-      "high": 40,
+      "low": 31.84,
+      "median": 33.71,
+      "high": 36.88,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-saphir-alpha": {
     "cib": {
-      "low": 32,
-      "median": 42,
-      "high": 58,
+      "low": 39.36,
+      "median": 41.31,
+      "high": 46.62,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 22,
-      "median": 30,
-      "high": 40,
+      "low": 31.33,
+      "median": 32.2,
+      "high": 40.97,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-soleil": {
     "cib": {
-      "low": 22,
-      "median": 30,
-      "high": 40,
+      "low": 15.33,
+      "median": 17.2,
+      "high": 19.4,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 20,
-      "high": 28,
+      "low": 13.25,
+      "median": 15.09,
+      "high": 16.44,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-ultra-soleil": {
     "cib": {
-      "low": 28,
-      "median": 38,
-      "high": 52,
+      "low": 37.69,
+      "median": 40.86,
+      "high": 51.69,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 18,
-      "median": 25,
-      "high": 35,
+      "low": 29.99,
+      "median": 35.09,
+      "high": 45.27,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-lune": {
     "cib": {
-      "low": 22,
-      "median": 30,
-      "high": 40,
+      "low": 16.24,
+      "median": 17.04,
+      "high": 20.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 20,
-      "high": 28,
+      "low": 13.43,
+      "median": 15.24,
+      "high": 16.92,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-ultra-lune": {
     "cib": {
-      "low": 28,
-      "median": 38,
-      "high": 52,
+      "low": 37.87,
+      "median": 40.71,
+      "high": 45.8,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 18,
-      "median": 25,
-      "high": 35,
+      "low": 31.04,
+      "median": 33.73,
+      "high": 40.66,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-x": {
     "cib": {
-      "low": 25,
-      "median": 35,
-      "high": 48,
+      "low": 28.66,
+      "median": 32.98,
+      "high": 35.12,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 18,
-      "median": 25,
-      "high": 33,
+      "low": 24.74,
+      "median": 27.27,
+      "high": 28.82,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_pokemon-y": {
     "cib": {
-      "low": 25,
-      "median": 35,
-      "high": 48,
+      "low": 29.98,
+      "median": 32.28,
+      "high": 36.01,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 18,
-      "median": 25,
-      "high": 33,
+      "low": 23.76,
+      "median": 26.15,
+      "high": 29.62,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_super-pokemon-rumble": {
     "cib": {
-      "low": 9,
-      "median": 14,
-      "high": 20,
+      "low": 11.32,
+      "median": 13.15,
+      "high": 15.76,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 8.1,
+      "median": 9.3,
+      "high": 10.52,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_rayman-les-lapins-cretins-pack-famille": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 7.11,
+      "median": 7.29,
+      "high": 9.65,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 5.89,
+      "median": 7,
+      "high": 7.18,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_sonic-boom-le-cristal-brise": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 11.45,
+      "median": 12.91,
+      "high": 15,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 7.44,
+      "median": 9.04,
+      "high": 9.84,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_star-fox-64-3d": {
     "cib": {
-      "low": 17,
-      "median": 24,
-      "high": 33,
+      "low": 9.25,
+      "median": 10.55,
+      "high": 18.63,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 6.42,
+      "median": 8.3,
+      "high": 18.57,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_super-mario-3d-land": {
     "cib": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 5.18,
+      "median": 6.12,
+      "high": 8.07,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 3.8,
+      "median": 5.11,
+      "high": 7.41,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_super-mario-maker-for-nintendo-3ds": {
     "cib": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 6.08,
+      "median": 6.4,
+      "high": 7.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 4.14,
+      "median": 5.19,
+      "high": 6.18,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_super-smash-bros-for-nintendo-3ds": {
     "cib": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 7.15,
+      "median": 7.92,
+      "high": 9.23,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 6.02,
+      "median": 7.08,
+      "high": 7.84,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_the-legend-of-zelda-a-link-between-worlds": {
     "cib": {
-      "low": 22,
-      "median": 30,
-      "high": 40,
+      "low": 14.11,
+      "median": 16.33,
+      "high": 17.96,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 20,
-      "high": 28,
+      "low": 9.74,
+      "median": 12.19,
+      "high": 13.11,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_the-legend-of-zelda-ocarina-of-time-3d": {
     "cib": {
-      "low": 18,
-      "median": 25,
-      "high": 35,
+      "low": 15.64,
+      "median": 17.28,
+      "high": 20.2,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 12.87,
+      "median": 14.41,
+      "high": 17.85,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_the-legend-of-zelda-tri-force-heroes": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 9.11,
+      "median": 10.43,
+      "high": 11.29,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 7.13,
+      "median": 9.29,
+      "high": 10.54,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_wrc": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 17.23,
+      "median": 24.29,
+      "high": 29.9,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 3.94,
+      "median": 6.3,
+      "high": 8.72,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_yo-kai-watch-2-esprits-farceurs": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 11.83,
+      "median": 13.3,
+      "high": 14.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 10.91,
+      "median": 11.67,
+      "high": 12.82,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_yo-kai-watch-2-fantomes-bouffis": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 12.8,
+      "median": 15.14,
+      "high": 16.7,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 7.65,
+      "median": 11.7,
+      "high": 16.56,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_yo-kai-watch-blasters-l-escadron-du-chien-blanc": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 45.37,
+      "median": 56.82,
+      "high": 69.5,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 33.87,
+      "median": 44.41,
+      "high": 47.89,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_yoshi-s-new-island": {
     "cib": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 6.15,
+      "median": 7.35,
+      "high": 9.69,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 4.73,
+      "median": 5.96,
+      "high": 6.97,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_arthur-et-les-minimoys": {
     "cib": {
-      "low": 4,
-      "median": 7,
-      "high": 11,
+      "low": 5.06,
+      "median": 5.93,
+      "high": 6.41,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 4,
-      "high": 7,
+      "low": 3.12,
+      "median": 3.57,
+      "high": 4.19,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_asterix-obelix-xxl-2-mission-wifix": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 28,
+      "low": 3.7,
+      "median": 4.64,
+      "high": 4.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 1.01,
+      "median": 3.7,
+      "high": 3.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_bien-etre-du-visage": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 9,
+      "low": 4.75,
+      "median": 6.56,
+      "high": 10.18,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 6,
+      "low": 2.58,
+      "median": 2.58,
+      "high": 5.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_bratz-forever-diamondz": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 4.36,
+      "median": 5.59,
+      "high": 8.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 6,
+      "low": 3.75,
+      "median": 4.36,
+      "high": 6.19,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_cars": {
     "cib": {
-      "low": 4,
-      "median": 7,
-      "high": 11,
+      "low": 4.45,
+      "median": 4.84,
+      "high": 5.53,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 4,
-      "high": 7,
+      "low": 3.39,
+      "median": 4.39,
+      "high": 4.68,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_cars-race-o-rama": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 13,
+      "low": 4.84,
+      "median": 5.94,
+      "high": 6.74,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 3.57,
+      "median": 3.86,
+      "high": 4.02,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_children-of-mana": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 15.28,
+      "median": 16.36,
+      "high": 19.74,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 28,
+      "low": 11.28,
+      "median": 13.66,
+      "high": 16.89,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_clochette-et-la-pierre-de-lune": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 6.27,
+      "median": 7.73,
+      "high": 8.92,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 4.82,
+      "median": 6.05,
+      "high": 7.24,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_clochette-et-l-expedition-feerique": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 6.38,
+      "median": 6.8,
+      "high": 8.06,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 4.61,
+      "median": 6.3,
+      "high": 7.65,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_dance-floor": {
@@ -1513,344 +1513,344 @@
   },
   "game_ds_dora-cuisine": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 5.14,
+      "median": 6.22,
+      "high": 6.92,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 5,
+      "low": 3.34,
+      "median": 3.69,
+      "high": 4.05,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_dora-et-sauvons-les-animaux": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 4.06,
+      "median": 4.15,
+      "high": 4.43,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 5,
+      "low": 3.38,
+      "median": 3.79,
+      "high": 4.39,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_dragon-ball-z-supersonic-warriors-2": {
     "cib": {
-      "low": 18,
-      "median": 26,
-      "high": 38,
+      "low": 13.07,
+      "median": 15.33,
+      "high": 17.68,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 25,
+      "low": 9.62,
+      "median": 12.07,
+      "high": 14.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_final-fantasy-iii": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 8.66,
+      "median": 9.7,
+      "high": 14.25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 6.09,
+      "median": 7.11,
+      "high": 7.43,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_final-fantasy-crystal-chronicles-echoes-of-time": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 18.64,
+      "median": 20.7,
+      "high": 22.77,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 11.17,
+      "median": 11.87,
+      "high": 12.78,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_final-fantasy-tactics-a2": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 37.22,
+      "median": 39.45,
+      "high": 46.75,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 21.51,
+      "median": 29.1,
+      "high": 31.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_fort-boyard": {
     "cib": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 6.27,
+      "median": 7.56,
+      "high": 8.01,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 4,
-      "high": 6,
+      "low": 4.48,
+      "median": 5.37,
+      "high": 5.72,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_goldeneye-007": {
     "cib": {
-      "low": 7,
-      "median": 10,
-      "high": 15,
+      "low": 12.32,
+      "median": 14.09,
+      "high": 16.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 10.4,
+      "median": 10.73,
+      "high": 11.62,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_high-school-musical-3": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 2.22,
+      "median": 2.41,
+      "high": 2.88,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
       "low": 2,
-      "median": 3,
-      "high": 5,
+      "median": 2.11,
+      "high": 2.26,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_lego-batman-2-dc-super-heroes": {
     "cib": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 4.6,
+      "median": 5.55,
+      "high": 6.52,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 3.84,
+      "median": 5.15,
+      "high": 5.65,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_lego-harry-potter-annees-1-4": {
     "cib": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 4.69,
+      "median": 5.41,
+      "high": 6.43,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 2.99,
+      "median": 4.43,
+      "high": 5.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_lecons-de-cuisine": {
     "cib": {
-      "low": 4,
-      "median": 6,
-      "high": 9,
+      "low": 2.14,
+      "median": 2.16,
+      "high": 2.87,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 6,
+      "low": 1.66,
+      "median": 1.87,
+      "high": 2.15,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_les-chevaliers-de-baphomet-director-s-cut": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 5.91,
+      "median": 6.28,
+      "high": 8.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 4.34,
+      "median": 4.99,
+      "high": 5.93,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_les-rebelles-de-la-foret": {
     "cib": {
-      "low": 4,
-      "median": 7,
-      "high": 10,
+      "low": 3.9,
+      "median": 4.38,
+      "high": 5.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 4,
-      "high": 7,
+      "low": 2.72,
+      "median": 3.56,
+      "high": 4.68,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_ma-pause-yoga": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 2.32,
+      "median": 6.87,
+      "high": 7.31,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 5,
+      "low": 1.34,
+      "median": 3.08,
+      "high": 5.07,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_mario-luigi-voyage-au-centre-de-bowser": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 13.92,
+      "median": 16.52,
+      "high": 21.71,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 11.19,
+      "median": 13.29,
+      "high": 16.36,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_mario-vs-donkey-kong-2-la-marche-des-mini": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 8.52,
+      "median": 10.33,
+      "high": 12.46,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 6.07,
+      "median": 7.04,
+      "high": 7.9,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_mission-safari": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 9,
+      "low": 4.02,
+      "median": 4.77,
+      "high": 4.85,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 6,
+      "low": 3.39,
+      "median": 3.52,
+      "high": 3.91,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_nancy-drew-the-deadly-secret-of-olde-world-park": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 13,
+      "low": 10.72,
+      "median": 12.07,
+      "high": 13.05,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 9,
+      "low": 8.46,
+      "median": 9.61,
+      "high": 10.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_plus-belle-la-vie-le-secret-du-dr-livia": {
@@ -1873,1352 +1873,1352 @@
   },
   "game_ds_pokemon-version-argent-soulsilver": {
     "cib": {
-      "low": 140,
-      "median": 180,
-      "high": 250,
+      "low": 92.4,
+      "median": 100.76,
+      "high": 112.33,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 60,
-      "median": 80,
-      "high": 110,
+      "low": 66.05,
+      "median": 74.01,
+      "high": 89.67,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-version-blanche": {
     "cib": {
-      "low": 60,
-      "median": 80,
-      "high": 110,
+      "low": 48.36,
+      "median": 54.87,
+      "high": 58.46,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 48,
-      "high": 65,
+      "low": 37,
+      "median": 40.44,
+      "high": 47.72,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-version-diamant": {
     "cib": {
-      "low": 45,
-      "median": 60,
-      "high": 85,
+      "low": 29.95,
+      "median": 34.73,
+      "high": 44.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 35,
-      "high": 48,
+      "low": 17.79,
+      "median": 20.74,
+      "high": 27.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-version-noire": {
     "cib": {
-      "low": 60,
-      "median": 80,
-      "high": 110,
+      "low": 51.6,
+      "median": 59.14,
+      "high": 63.13,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 48,
-      "high": 65,
+      "low": 37.51,
+      "median": 41.96,
+      "high": 46.88,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-version-noire-2": {
     "cib": {
-      "low": 100,
-      "median": 140,
-      "high": 190,
+      "low": 94.07,
+      "median": 100.26,
+      "high": 105.81,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 55,
-      "median": 75,
-      "high": 100,
+      "low": 68.39,
+      "median": 76.4,
+      "high": 91.27,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-version-or-heartgold": {
     "cib": {
-      "low": 140,
-      "median": 180,
-      "high": 250,
+      "low": 102.97,
+      "median": 110.46,
+      "high": 127.25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 60,
-      "median": 80,
-      "high": 110,
+      "low": 68.43,
+      "median": 74.13,
+      "high": 96.56,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-version-perle": {
     "cib": {
-      "low": 45,
-      "median": 60,
-      "high": 85,
+      "low": 28.92,
+      "median": 32.85,
+      "high": 36.95,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 35,
-      "high": 48,
+      "low": 17.73,
+      "median": 20.45,
+      "high": 28.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-version-platine": {
     "cib": {
-      "low": 90,
-      "median": 120,
-      "high": 170,
+      "low": 87.2,
+      "median": 96.9,
+      "high": 105.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 45,
-      "median": 60,
-      "high": 85,
+      "low": 39.17,
+      "median": 47.99,
+      "high": 63.96,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-donjon-mystere-equipe-de-secours-bleue": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 11.42,
+      "median": 13.82,
+      "high": 16.22,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 6.34,
+      "median": 7.97,
+      "high": 9.73,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-donjon-mystere-explorateurs-de-l-ombre": {
     "cib": {
-      "low": 25,
-      "median": 35,
-      "high": 50,
+      "low": 15.09,
+      "median": 17.64,
+      "high": 29.75,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 10.84,
+      "median": 11.55,
+      "high": 17.6,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-donjon-mystere-explorateurs-du-temps": {
     "cib": {
-      "low": 25,
-      "median": 35,
-      "high": 50,
+      "low": 15.75,
+      "median": 17.57,
+      "high": 20.36,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 9.26,
+      "median": 11.6,
+      "high": 13,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-link": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 15.54,
+      "median": 17.33,
+      "high": 20.17,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 7.31,
+      "median": 8.1,
+      "high": 11.16,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_pokemon-ranger": {
     "cib": {
-      "low": 16,
-      "median": 22,
-      "high": 32,
+      "low": 21.32,
+      "median": 25.07,
+      "high": 27.77,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 11.62,
+      "median": 12.77,
+      "high": 15.67,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_populous-ds": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 8.84,
+      "median": 10.58,
+      "high": 11.65,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 5.45,
+      "median": 5.45,
+      "high": 7.48,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_programme-d-entrainement-cerebral": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 9,
+      "low": 2.77,
+      "median": 3.24,
+      "high": 4.27,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 6,
+      "low": 1.82,
+      "median": 2.7,
+      "high": 3.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_professeur-layton-et-l-etrange-village": {
     "cib": {
-      "low": 7,
-      "median": 11,
-      "high": 17,
+      "low": 3.35,
+      "median": 4.37,
+      "high": 5.11,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 7,
-      "high": 11,
+      "low": 2.28,
+      "median": 3.29,
+      "high": 4.26,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_runaway-a-twist-of-fate": {
     "cib": {
-      "low": 8,
-      "median": 13,
-      "high": 19,
+      "low": 5.91,
+      "median": 7.41,
+      "high": 8.13,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 13,
+      "low": 3.85,
+      "median": 6.67,
+      "high": 6.67,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_runaway-the-dream-of-the-turtle": {
     "cib": {
-      "low": 8,
-      "median": 13,
-      "high": 19,
+      "low": 2.28,
+      "median": 5.23,
+      "high": 23.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 13,
+      "low": 1.59,
+      "median": 3.57,
+      "high": 5.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_simcity-ds": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 4.16,
+      "median": 4.92,
+      "high": 5.6,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 3.37,
+      "median": 4.02,
+      "high": 4.26,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_sonic-chronicles-la-confrerie-des-tenebres": {
     "cib": {
-      "low": 9,
-      "median": 14,
-      "high": 20,
+      "low": 9.89,
+      "median": 10.99,
+      "high": 11.97,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 7.25,
+      "median": 9.23,
+      "high": 10.29,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_spyro-shadow-legacy": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 5.89,
+      "median": 6.86,
+      "high": 7.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 3.25,
+      "median": 4.84,
+      "high": 5.01,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_star-wars-the-clone-wars-l-alliance-jedi": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 5.81,
+      "median": 6.45,
+      "high": 7.06,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 4.79,
+      "median": 5.34,
+      "high": 6.98,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_super-mario-64-ds": {
     "cib": {
-      "low": 18,
-      "median": 25,
-      "high": 35,
+      "low": 12.55,
+      "median": 13.81,
+      "high": 15.5,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 9.11,
+      "median": 9.65,
+      "high": 11.13,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_totally-spies-2-undercover": {
     "cib": {
-      "low": 4,
-      "median": 7,
-      "high": 10,
+      "low": 7.5,
+      "median": 7.5,
+      "high": 17.5,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 4,
-      "high": 7,
+      "low": 6.21,
+      "median": 7.34,
+      "high": 8.05,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_worms-open-warfare": {
     "cib": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 3.81,
+      "median": 4.3,
+      "high": 5.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 3.37,
+      "median": 3.6,
+      "high": 4.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_worms-open-warfare-2": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 4.2,
+      "median": 4.82,
+      "high": 5.46,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 2.75,
+      "median": 3.33,
+      "high": 4.75,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_mario-party-the-top-100": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 14.09,
+      "median": 16.26,
+      "high": 17.38,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 11.26,
+      "median": 13.76,
+      "high": 14.95,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_lego-jurassic-world": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 3.94,
+      "median": 4.48,
+      "high": 5.19,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 3.35,
+      "median": 3.82,
+      "high": 4.33,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_the-legend-of-zelda-majora-s-mask-3d": {
     "cib": {
-      "low": 30,
-      "median": 40,
-      "high": 55,
+      "low": 33.96,
+      "median": 37.45,
+      "high": 41.08,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 20,
-      "median": 28,
-      "high": 38,
+      "low": 27.92,
+      "median": 30.22,
+      "high": 33.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_fire-emblem-awakening": {
     "cib": {
-      "low": 25,
-      "median": 35,
-      "high": 48,
+      "low": 23.97,
+      "median": 27.17,
+      "high": 30.02,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 19.72,
+      "median": 21.88,
+      "high": 26.13,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_metroid-samus-returns": {
     "cib": {
-      "low": 30,
-      "median": 42,
-      "high": 58,
+      "low": 35.31,
+      "median": 36.86,
+      "high": 38.97,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 25.32,
+      "median": 32.85,
+      "high": 34.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_kid-icarus-uprising": {
     "cib": {
-      "low": 30,
-      "median": 45,
-      "high": 65,
+      "low": 24.12,
+      "median": 25.96,
+      "high": 28.97,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 17.32,
+      "median": 20.53,
+      "high": 22.07,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_bravely-default": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 12.94,
+      "median": 20.64,
+      "high": 23.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 11.59,
+      "median": 17.37,
+      "high": 20.09,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_shin-megami-tensei-iv": {
     "cib": {
-      "low": 30,
-      "median": 45,
-      "high": 65,
+      "low": 108.09,
+      "median": 123.33,
+      "high": 132.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 25,
-      "high": 38,
+      "low": 74.01,
+      "median": 79.13,
+      "high": 80.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_poochy-yoshi-s-woolly-world": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 21.22,
+      "median": 23.93,
+      "high": 25.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 18.97,
+      "median": 21.13,
+      "high": 23.58,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_3ds_animal-crossing-happy-home-designer": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 5.85,
+      "median": 7.03,
+      "high": 10.84,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 4.89,
+      "median": 5.51,
+      "high": 6.85,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_mario-kart-ds": {
     "cib": {
-      "low": 14,
-      "median": 20,
-      "high": 28,
+      "low": 9.95,
+      "median": 11.65,
+      "high": 13.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 7.84,
+      "median": 8.59,
+      "high": 9.83,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_new-super-mario-bros": {
     "cib": {
-      "low": 14,
-      "median": 20,
-      "high": 28,
+      "low": 11.08,
+      "median": 11.75,
+      "high": 13.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 17,
+      "low": 5.68,
+      "median": 9.33,
+      "high": 10.47,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_dragon-quest-ix-les-sentinelles-du-firmament": {
     "cib": {
-      "low": 28,
-      "median": 40,
-      "high": 55,
+      "low": 15.52,
+      "median": 17.07,
+      "high": 20.06,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 11.62,
+      "median": 13.36,
+      "high": 15.44,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_the-legend-of-zelda-phantom-hourglass": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 17.56,
+      "median": 20.91,
+      "high": 25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 10.64,
+      "median": 12.42,
+      "high": 13.44,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_the-legend-of-zelda-spirit-tracks": {
     "cib": {
-      "low": 24,
-      "median": 34,
-      "high": 48,
+      "low": 27.26,
+      "median": 31.43,
+      "high": 36.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 19.09,
+      "median": 21.43,
+      "high": 24.61,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_professeur-layton-et-la-boite-de-pandore": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 4.33,
+      "median": 4.33,
+      "high": 5.92,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 3.09,
+      "median": 3.09,
+      "high": 4.33,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_professeur-layton-et-le-destin-perdu": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 4.45,
+      "median": 5.29,
+      "high": 8.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 3.25,
+      "median": 3.79,
+      "high": 6.61,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_chrono-trigger": {
     "cib": {
-      "low": 80,
-      "median": 110,
-      "high": 150,
+      "low": 82.07,
+      "median": 90.82,
+      "high": 98.2,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 45,
-      "median": 60,
-      "high": 85,
+      "low": 51.22,
+      "median": 58.55,
+      "high": 64.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_ghost-trick-detective-fantome": {
     "cib": {
-      "low": 55,
-      "median": 75,
-      "high": 105,
+      "low": 32.38,
+      "median": 35.44,
+      "high": 38.71,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 30,
-      "median": 45,
-      "high": 65,
+      "low": 20.34,
+      "median": 25.63,
+      "high": 30.52,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_the-world-ends-with-you": {
     "cib": {
-      "low": 25,
-      "median": 35,
-      "high": 50,
+      "low": 37.29,
+      "median": 43.28,
+      "high": 49.93,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 20.21,
+      "median": 22.78,
+      "high": 30,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_castlevania-dawn-of-sorrow": {
     "cib": {
-      "low": 45,
-      "median": 65,
-      "high": 90,
+      "low": 28.33,
+      "median": 32.21,
+      "high": 37.24,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 35,
-      "high": 50,
+      "low": 16.36,
+      "median": 26.36,
+      "high": 28.54,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_advance-wars-dual-strike": {
     "cib": {
-      "low": 35,
-      "median": 50,
-      "high": 70,
+      "low": 17.54,
+      "median": 20.31,
+      "high": 23.44,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 20,
-      "median": 30,
-      "high": 42,
+      "low": 11.13,
+      "median": 13.79,
+      "high": 16.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_kirby-super-star-ultra": {
     "cib": {
-      "low": 25,
-      "median": 35,
-      "high": 48,
+      "low": 73.87,
+      "median": 86.31,
+      "high": 100.74,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 29.31,
+      "median": 56.27,
+      "high": 60.69,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_rhythm-paradise": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 14.67,
+      "median": 15.59,
+      "high": 19.8,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 9.35,
+      "median": 12.2,
+      "high": 14.1,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_golden-sun-obscure-aurore": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 22.31,
+      "median": 28.44,
+      "high": 31.95,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 17.99,
+      "median": 19.96,
+      "high": 21.68,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_super-mario-64": {
     "cib": {
-      "low": 60,
-      "median": 85,
-      "high": 120,
+      "low": 36.93,
+      "median": 44.63,
+      "high": 52.86,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 35,
-      "high": 50,
+      "low": 13.48,
+      "median": 16.14,
+      "high": 17.66,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_the-legend-of-zelda-ocarina-of-time": {
     "cib": {
-      "low": 70,
-      "median": 95,
-      "high": 140,
+      "low": 50.39,
+      "median": 58.75,
+      "high": 76.02,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 30,
-      "median": 40,
-      "high": 55,
+      "low": 17.64,
+      "median": 19.57,
+      "high": 26.98,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_mario-kart-64": {
     "cib": {
-      "low": 55,
-      "median": 75,
-      "high": 110,
+      "low": 48.35,
+      "median": 51.98,
+      "high": 58.68,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 45,
+      "low": 21.07,
+      "median": 25.69,
+      "high": 28.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_the-legend-of-zelda-majora-s-mask": {
     "cib": {
-      "low": 90,
-      "median": 120,
-      "high": 170,
+      "low": 103.43,
+      "median": 114.06,
+      "high": 128.84,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 40,
-      "median": 55,
-      "high": 75,
+      "low": 40.14,
+      "median": 46.01,
+      "high": 49.32,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_banjo-kazooie": {
     "cib": {
-      "low": 65,
-      "median": 90,
-      "high": 130,
+      "low": 32.85,
+      "median": 38.25,
+      "high": 42.92,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 30,
-      "median": 40,
-      "high": 55,
+      "low": 10.18,
+      "median": 12.07,
+      "high": 13.45,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_super-smash-bros": {
     "cib": {
-      "low": 70,
-      "median": 95,
-      "high": 140,
+      "low": 68.64,
+      "median": 79.31,
+      "high": 86.22,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 30,
-      "median": 40,
-      "high": 55,
+      "low": 27.66,
+      "median": 30.75,
+      "high": 33.86,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_goldeneye-007": {
     "cib": {
-      "low": 50,
-      "median": 70,
-      "high": 100,
+      "low": 34.12,
+      "median": 38.55,
+      "high": 45.38,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 8.84,
+      "median": 10.16,
+      "high": 11.3,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_paper-mario": {
     "cib": {
-      "low": 130,
-      "median": 170,
-      "high": 240,
+      "low": 252.36,
+      "median": 289.89,
+      "high": 330.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 60,
-      "median": 80,
-      "high": 110,
+      "low": 91.72,
+      "median": 99.93,
+      "high": 119.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_diddy-kong-racing": {
     "cib": {
-      "low": 35,
-      "median": 50,
-      "high": 70,
+      "low": 32.37,
+      "median": 35.99,
+      "high": 40.48,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 11.37,
+      "median": 13.6,
+      "high": 14.88,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_n64_lylat-wars": {
     "cib": {
-      "low": 40,
-      "median": 55,
-      "high": 80,
+      "low": 39.87,
+      "median": 44.1,
+      "high": 51.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 7.25,
+      "median": 8.55,
+      "high": 11.25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_the-legend-of-zelda-the-wind-waker": {
     "cib": {
-      "low": 55,
-      "median": 75,
-      "high": 105,
+      "low": 38,
+      "median": 42.23,
+      "high": 49.47,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 45,
-      "high": 60,
+      "low": 21.81,
+      "median": 23.12,
+      "high": 26.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_super-mario-sunshine": {
     "cib": {
-      "low": 40,
-      "median": 55,
-      "high": 75,
+      "low": 19.27,
+      "median": 20.87,
+      "high": 23.26,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 35,
-      "high": 48,
+      "low": 13.59,
+      "median": 14.81,
+      "high": 17.37,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_super-smash-bros-melee": {
     "cib": {
-      "low": 55,
-      "median": 75,
-      "high": 100,
+      "low": 23.57,
+      "median": 25.93,
+      "high": 29,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 45,
-      "high": 60,
+      "low": 17.7,
+      "median": 21.08,
+      "high": 22.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_mario-kart-double-dash": {
     "cib": {
-      "low": 60,
-      "median": 80,
-      "high": 110,
+      "low": 23.98,
+      "median": 26.52,
+      "high": 30.67,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 45,
-      "high": 60,
+      "low": 18.77,
+      "median": 22.45,
+      "high": 23.65,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_metroid-prime": {
     "cib": {
-      "low": 30,
-      "median": 40,
-      "high": 55,
+      "low": 14.99,
+      "median": 16.72,
+      "high": 18.73,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 12.4,
+      "median": 15.54,
+      "high": 16.4,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_luigi-s-mansion": {
     "cib": {
-      "low": 45,
-      "median": 60,
-      "high": 85,
+      "low": 29.67,
+      "median": 32.61,
+      "high": 39.4,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 45,
+      "low": 22.73,
+      "median": 24.98,
+      "high": 28.75,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_paper-mario-la-porte-millenaire": {
     "cib": {
-      "low": 100,
-      "median": 135,
-      "high": 190,
+      "low": 57.28,
+      "median": 64.33,
+      "high": 71.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 60,
-      "median": 80,
-      "high": 110,
+      "low": 46.14,
+      "median": 50.93,
+      "high": 60.75,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_pikmin": {
     "cib": {
-      "low": 45,
-      "median": 60,
-      "high": 85,
+      "low": 13.86,
+      "median": 14.66,
+      "high": 17.22,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 35,
-      "high": 48,
+      "low": 12.38,
+      "median": 12.5,
+      "high": 14.19,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_f-zero-gx": {
     "cib": {
-      "low": 50,
-      "median": 70,
-      "high": 100,
+      "low": 36.04,
+      "median": 39.74,
+      "high": 43.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 35,
-      "high": 50,
+      "low": 28.06,
+      "median": 29.13,
+      "high": 36.81,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_resident-evil-4": {
     "cib": {
-      "low": 30,
-      "median": 42,
-      "high": 60,
+      "low": 16.31,
+      "median": 18.96,
+      "high": 23.26,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 32,
+      "low": 12.32,
+      "median": 16.06,
+      "high": 17.9,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_mario-vs-donkey-kong-mini-land-mayhem": {
     "cib": {
-      "low": 10,
-      "median": 14,
-      "high": 20,
+      "low": 6.91,
+      "median": 8.25,
+      "high": 9.72,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 5.71,
+      "median": 6.14,
+      "high": 7.08,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_the-legend-of-spyro-dawn-of-the-dragon": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 8.26,
+      "median": 10.4,
+      "high": 11.1,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 5.27,
+      "median": 6.97,
+      "high": 10.03,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_high-school-musical-reves-de-star": {
     "cib": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 3.76,
+      "median": 3.76,
+      "high": 4.2,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 3,
-      "high": 5,
+      "low": 1.49,
+      "median": 1.5,
+      "high": 1.52,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_cars-2": {
     "cib": {
-      "low": 4,
-      "median": 7,
-      "high": 11,
+      "low": 3.22,
+      "median": 4.52,
+      "high": 5.88,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 2,
-      "median": 4,
-      "high": 7,
+      "low": 3.01,
+      "median": 3.49,
+      "high": 4.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_dora-friends-pet-shelter": {
@@ -3241,74 +3241,74 @@
   },
   "game_gamecube_gun": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 5.69,
+      "median": 5.69,
+      "high": 5.69,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 4.14,
+      "median": 4.14,
+      "high": 4.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_bob-l-eponge-silence-on-tourne": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 17.66,
+      "median": 20.3,
+      "high": 21.21,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 12.1,
+      "median": 12.33,
+      "high": 12.58,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_tiger-woods-pga-tour-06": {
     "cib": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 9.32,
+      "median": 9.67,
+      "high": 13.66,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 4.71,
+      "median": 6.27,
+      "high": 6.31,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gamecube_goldeneye-au-service-du-mal": {
     "cib": {
-      "low": 7,
-      "median": 10,
-      "high": 15,
+      "low": 8.15,
+      "median": 8.34,
+      "high": 10.36,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 5.86,
+      "median": 7.49,
+      "high": 8.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_snes_super-mario-kart": {
@@ -3511,578 +3511,578 @@
   },
   "game_gb_pokemon-version-rouge": {
     "cib": {
-      "low": 110,
-      "median": 150,
-      "high": 220,
+      "low": 124.14,
+      "median": 147.52,
+      "high": 202.02,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 50,
-      "high": 70,
+      "low": 25.79,
+      "median": 29.62,
+      "high": 37.3,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gb_pokemon-version-bleue": {
     "cib": {
-      "low": 110,
-      "median": 150,
-      "high": 220,
+      "low": 109.5,
+      "median": 142.35,
+      "high": 163.7,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 50,
-      "high": 70,
+      "low": 22.94,
+      "median": 27.04,
+      "high": 34.25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gb_pokemon-version-jaune": {
     "cib": {
-      "low": 120,
-      "median": 160,
-      "high": 230,
+      "low": 149.77,
+      "median": 177.67,
+      "high": 194.29,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 40,
-      "median": 55,
-      "high": 80,
+      "low": 26.38,
+      "median": 31.03,
+      "high": 36.39,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_pokemon-version-or": {
     "cib": {
-      "low": 110,
-      "median": 150,
-      "high": 210,
+      "low": 136.71,
+      "median": 162.34,
+      "high": 175.23,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 40,
-      "median": 55,
-      "high": 75,
+      "low": 28.35,
+      "median": 31.42,
+      "high": 33.96,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_pokemon-version-argent": {
     "cib": {
-      "low": 110,
-      "median": 150,
-      "high": 210,
+      "low": 139.69,
+      "median": 154.28,
+      "high": 209.84,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 40,
-      "median": 55,
-      "high": 75,
+      "low": 26.23,
+      "median": 29.6,
+      "high": 32.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_donkey-kong-country": {
     "cib": {
-      "low": 16,
-      "median": 22,
-      "high": 32,
+      "low": 30.02,
+      "median": 44.17,
+      "high": 55.66,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 11.93,
+      "median": 13.69,
+      "high": 14.8,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_rayman": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 17.34,
+      "median": 23.59,
+      "high": 25.46,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 5.99,
+      "median": 7.1,
+      "high": 9.17,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_aladdin": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 21.28,
+      "median": 22.67,
+      "high": 34.27,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 7.66,
+      "median": 9.71,
+      "high": 10.96,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_le-roi-lion-la-formidable-aventure-de-simba": {
     "cib": {
-      "low": 10,
-      "median": 14,
-      "high": 20,
+      "low": 23.17,
+      "median": 24.69,
+      "high": 33.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 9,
-      "high": 14,
+      "low": 5.74,
+      "median": 9.5,
+      "high": 9.52,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gb_casper": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 42.15,
+      "median": 53.34,
+      "high": 66.81,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 7.77,
+      "median": 9.17,
+      "high": 10.65,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gb_asterix": {
     "cib": {
-      "low": 14,
-      "median": 20,
-      "high": 30,
+      "low": 26.44,
+      "median": 47.04,
+      "high": 62.47,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 5.85,
+      "median": 7.03,
+      "high": 9.67,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_sabrina-the-animated-series-zapped": {
     "cib": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 20.45,
+      "median": 26.44,
+      "high": 29.5,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 5.5,
+      "median": 6.06,
+      "high": 7.17,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_the-new-addams-family-series": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 35.29,
+      "median": 41.13,
+      "high": 61.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 28.8,
+      "median": 32.88,
+      "high": 32.88,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_shrek-fairy-tale-freakdown": {
     "cib": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 13.36,
+      "median": 16.73,
+      "high": 20.31,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 10,
+      "low": 4.17,
+      "median": 4.79,
+      "high": 5.25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_yu-gi-oh-dark-duel-stories": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 36.23,
+      "median": 36.23,
+      "high": 42.27,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 4.21,
+      "median": 6.93,
+      "high": 13.03,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_lucky-luke": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 25.11,
+      "median": 27.73,
+      "high": 33.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 6.72,
+      "median": 9.7,
+      "high": 12.97,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gbc_worms-armageddon": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 21.73,
+      "median": 38.53,
+      "high": 42.4,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 6,
-      "median": 10,
-      "high": 15,
+      "low": 10.23,
+      "median": 10.87,
+      "high": 12.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_pokemon-version-rubis": {
     "cib": {
-      "low": 90,
-      "median": 120,
-      "high": 170,
+      "low": 115.61,
+      "median": 139.04,
+      "high": 154.91,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 40,
-      "median": 55,
-      "high": 75,
+      "low": 32.52,
+      "median": 37.07,
+      "high": 41.47,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_pokemon-version-saphir": {
     "cib": {
-      "low": 90,
-      "median": 120,
-      "high": 170,
+      "low": 119.87,
+      "median": 150.58,
+      "high": 197.44,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 40,
-      "median": 55,
-      "high": 75,
+      "low": 33.29,
+      "median": 39.7,
+      "high": 45.32,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_pokemon-version-emeraude": {
     "cib": {
-      "low": 180,
-      "median": 240,
-      "high": 330,
+      "low": 259.3,
+      "median": 311.05,
+      "high": 372.11,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 80,
-      "median": 110,
-      "high": 150,
+      "low": 103.01,
+      "median": 115.76,
+      "high": 129.05,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_pokemon-version-vert-feuille": {
     "cib": {
-      "low": 130,
-      "median": 170,
-      "high": 240,
+      "low": 195.61,
+      "median": 217.59,
+      "high": 261.74,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 60,
-      "median": 80,
-      "high": 110,
+      "low": 62.98,
+      "median": 68.38,
+      "high": 73.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_super-mario-world-super-mario-advance-2": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 35.49,
+      "median": 40.22,
+      "high": 44.96,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 17,
-      "high": 25,
+      "low": 10.64,
+      "median": 12.97,
+      "high": 15.67,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_super-mario-advance-4-super-mario-bros-3": {
     "cib": {
-      "low": 20,
-      "median": 28,
-      "high": 40,
+      "low": 35.86,
+      "median": 50.62,
+      "high": 61.93,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 17,
-      "high": 25,
+      "low": 13.09,
+      "median": 14.37,
+      "high": 15.28,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_final-fantasy-tactics-advance": {
     "cib": {
-      "low": 18,
-      "median": 25,
-      "high": 36,
+      "low": 41.54,
+      "median": 47.45,
+      "high": 56.04,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 12.52,
+      "median": 17.37,
+      "high": 22.29,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_dragon-ball-z-l-heritage-de-goku": {
     "cib": {
-      "low": 14,
-      "median": 20,
-      "high": 30,
+      "low": 37.23,
+      "median": 58.76,
+      "high": 59.43,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 9.81,
+      "median": 10.9,
+      "high": 12.75,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_rayman-advance": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 13.6,
+      "median": 15.15,
+      "high": 16.32,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 3.38,
+      "median": 4.71,
+      "high": 5.77,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 6.46,
+      "median": 7.66,
+      "high": 10.1,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 1.29,
+      "median": 1.93,
+      "high": 4.36,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_tony-hawk-s-american-sk8land": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 9.89,
+      "median": 16.85,
+      "high": 23.74,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 4.81,
+      "median": 6.45,
+      "high": 10.58,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_tekken-advance": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 43.13,
+      "median": 48.22,
+      "high": 60.44,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 11.55,
+      "median": 13.19,
+      "high": 14.25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_mario-party-advance": {
     "cib": {
-      "low": 16,
-      "median": 22,
-      "high": 32,
+      "low": 43.03,
+      "median": 50.64,
+      "high": 81.05,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 10.22,
+      "median": 13.96,
+      "high": 16.76,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_ice-age": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 9.07,
+      "median": 13.44,
+      "high": 17.13,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 3.22,
+      "median": 3.64,
+      "high": 4.08,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_action-man-robot-atak": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 13,
+      "low": 26.12,
+      "median": 34.7,
+      "high": 50.78,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 14.22,
+      "median": 15.45,
+      "high": 18.03,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_majesco-s-rec-room-challenge": {
@@ -4105,704 +4105,704 @@
   },
   "game_gba_mission-impossible-operation-surma": {
     "cib": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 9.3,
+      "median": 11.28,
+      "high": 11.72,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 3,
-      "median": 5,
-      "high": 8,
+      "low": 3.69,
+      "median": 4.93,
+      "high": 5.54,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_les-sims-2": {
     "cib": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 11.1,
+      "median": 13.32,
+      "high": 14.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 4.51,
+      "median": 8.43,
+      "high": 10.7,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_tang-tang": {
     "cib": {
-      "low": 7,
-      "median": 11,
-      "high": 16,
+      "low": 7.5,
+      "median": 10.21,
+      "high": 10.98,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 7,
-      "high": 11,
+      "low": 3.88,
+      "median": 4.27,
+      "high": 4.58,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_gba_spyro-adventure": {
     "cib": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 21.42,
+      "median": 23.78,
+      "high": 25.92,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 4.85,
+      "median": 5.75,
+      "high": 8.48,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_the-legend-of-zelda-tears-of-the-kingdom": {
     "cib": {
-      "low": 40,
-      "median": 52,
-      "high": 66,
+      "low": 32.91,
+      "median": 34.62,
+      "high": 36.12,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 45,
-      "high": 58,
+      "low": 31.06,
+      "median": 33.02,
+      "high": 35.55,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_the-legend-of-zelda-breath-of-the-wild": {
     "cib": {
-      "low": 38,
-      "median": 48,
-      "high": 62,
+      "low": 30.2,
+      "median": 31.42,
+      "high": 33.45,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 32,
-      "median": 40,
-      "high": 52,
+      "low": 26.86,
+      "median": 28.38,
+      "high": 29.94,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_the-legend-of-zelda-link-s-awakening": {
     "cib": {
-      "low": 32,
-      "median": 42,
-      "high": 54,
+      "low": 29.73,
+      "median": 31.78,
+      "high": 34.57,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 28,
-      "median": 36,
-      "high": 46,
+      "low": 27.13,
+      "median": 27.99,
+      "high": 30.57,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-epee": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 25.38,
+      "median": 26.74,
+      "high": 27.66,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 23.25,
+      "median": 24.34,
+      "high": 26.37,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-bouclier": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 25,
+      "median": 28.19,
+      "high": 29.9,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 21.73,
+      "median": 24.85,
+      "high": 26.8,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-ecarlate": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 26.42,
+      "median": 29.7,
+      "high": 31.69,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 22.51,
+      "median": 27.45,
+      "high": 28.59,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-violet": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 26.01,
+      "median": 28.87,
+      "high": 30.35,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 24.37,
+      "median": 27.64,
+      "high": 29.14,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-diamant-etincelant": {
     "cib": {
-      "low": 26,
-      "median": 34,
-      "high": 44,
+      "low": 28.42,
+      "median": 29.65,
+      "high": 30.72,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 22,
-      "median": 28,
-      "high": 38,
+      "low": 25.13,
+      "median": 27.47,
+      "high": 28.69,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-perle-scintillante": {
     "cib": {
-      "low": 26,
-      "median": 34,
-      "high": 44,
+      "low": 27.13,
+      "median": 28.9,
+      "high": 30.45,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 22,
-      "median": 28,
-      "high": 38,
+      "low": 24.64,
+      "median": 26.91,
+      "high": 28.43,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-let-s-go-pikachu": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 28.96,
+      "median": 31.53,
+      "high": 34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
       "low": 25,
-      "median": 32,
-      "high": 42,
+      "median": 26.96,
+      "high": 30.33,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-let-s-go-evoli": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 30.91,
+      "median": 34.52,
+      "high": 36.57,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 28.55,
+      "median": 30.48,
+      "high": 32.46,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_legendes-pokemon-arceus": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 32.16,
+      "median": 33.21,
+      "high": 34.19,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 28.65,
+      "median": 30.94,
+      "high": 32.44,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_new-pokemon-snap": {
     "cib": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 25.77,
+      "median": 26.91,
+      "high": 32.03,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 20,
-      "median": 27,
-      "high": 36,
+      "low": 22.5,
+      "median": 23.52,
+      "high": 25.84,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokken-tournament-dx": {
     "cib": {
-      "low": 26,
-      "median": 34,
-      "high": 44,
+      "low": 20.4,
+      "median": 25.98,
+      "high": 28.21,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 22,
-      "median": 28,
-      "high": 38,
+      "low": 19.79,
+      "median": 23.97,
+      "high": 25.09,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pokemon-donjon-mystere-equipe-de-secours-dx": {
     "cib": {
-      "low": 26,
-      "median": 34,
-      "high": 44,
+      "low": 30.67,
+      "median": 33.23,
+      "high": 35.25,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 22,
-      "median": 28,
-      "high": 38,
+      "low": 26.77,
+      "median": 30.19,
+      "high": 32.43,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_super-mario-3d-world-bowser-s-fury": {
     "cib": {
-      "low": 34,
-      "median": 42,
-      "high": 54,
+      "low": 27.23,
+      "median": 29.51,
+      "high": 32.02,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 30,
-      "median": 38,
-      "high": 48,
+      "low": 22.68,
+      "median": 27.68,
+      "high": 29.59,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_mario-kart-8-deluxe": {
     "cib": {
-      "low": 32,
-      "median": 40,
-      "high": 52,
+      "low": 27.78,
+      "median": 29.77,
+      "high": 31.34,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 28,
-      "median": 35,
-      "high": 45,
+      "low": 24.1,
+      "median": 26.74,
+      "high": 28.13,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_super-smash-bros-ultimate": {
     "cib": {
-      "low": 40,
-      "median": 50,
-      "high": 64,
+      "low": 30.05,
+      "median": 31.63,
+      "high": 34.07,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 35,
-      "median": 45,
-      "high": 58,
+      "low": 27.42,
+      "median": 28.69,
+      "high": 30.29,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_mario-party-superstars": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 27.38,
+      "median": 29.14,
+      "high": 32.6,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 24.95,
+      "median": 26.64,
+      "high": 28.7,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_ring-fit-adventure": {
     "cib": {
-      "low": 35,
-      "median": 45,
-      "high": 60,
+      "low": 15.71,
+      "median": 21.67,
+      "high": 23.64,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 30,
-      "median": 40,
-      "high": 55,
+      "low": 10.64,
+      "median": 14.84,
+      "high": 17.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_deponia": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 18.6,
+      "median": 18.6,
+      "high": 18.6,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 15.16,
+      "median": 15.83,
+      "high": 16.17,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_diablo-iii-eternal-collection": {
     "cib": {
-      "low": 22,
-      "median": 30,
-      "high": 40,
+      "low": 18.17,
+      "median": 18.92,
+      "high": 21.67,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 18,
-      "median": 25,
-      "high": 34,
+      "low": 14.12,
+      "median": 17.27,
+      "high": 17.89,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_octopath-traveler-ii": {
     "cib": {
-      "low": 30,
-      "median": 38,
-      "high": 50,
+      "low": 25.77,
+      "median": 27.81,
+      "high": 30.68,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 25,
-      "median": 32,
-      "high": 42,
+      "low": 25.37,
+      "median": 26.17,
+      "high": 28.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_collection-of-mana": {
     "cib": {
-      "low": 25,
-      "median": 34,
-      "high": 46,
+      "low": 20.16,
+      "median": 21.46,
+      "high": 21.46,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 20,
-      "median": 28,
-      "high": 38,
+      "low": 15.81,
+      "median": 18.28,
+      "high": 19.79,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_legend-of-mana": {
     "cib": {
-      "low": 18,
-      "median": 26,
-      "high": 36,
+      "low": 16.23,
+      "median": 16.24,
+      "high": 16.27,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 14.06,
+      "median": 14.07,
+      "high": 14.1,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_ni-no-kuni-la-vengeance-de-la-sorciere-celeste": {
     "cib": {
-      "low": 18,
-      "median": 26,
-      "high": 36,
+      "low": 24.3,
+      "median": 26.09,
+      "high": 29.16,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 20.37,
+      "median": 23.64,
+      "high": 24.18,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_teenage-mutant-ninja-turtles-shredder-s-revenge": {
     "cib": {
-      "low": 22,
-      "median": 30,
-      "high": 40,
+      "low": 19.53,
+      "median": 20.52,
+      "high": 23.72,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 18,
-      "median": 25,
-      "high": 34,
+      "low": 17.61,
+      "median": 19.35,
+      "high": 21.11,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_street-fighter-30th-anniversary-collection": {
     "cib": {
-      "low": 18,
-      "median": 26,
-      "high": 36,
+      "low": 19.34,
+      "median": 22.1,
+      "high": 23.91,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 17.66,
+      "median": 19.8,
+      "high": 23,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_klonoa-phantasy-reverie-series": {
     "cib": {
-      "low": 18,
-      "median": 26,
-      "high": 36,
+      "low": 16.53,
+      "median": 19.34,
+      "high": 24.65,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 12.78,
+      "median": 15.83,
+      "high": 15.86,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_super-bomberman-r": {
     "cib": {
-      "low": 13,
-      "median": 18,
-      "high": 26,
+      "low": 15.38,
+      "median": 17.59,
+      "high": 18.52,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 15.03,
+      "median": 15.98,
+      "high": 16.68,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_dragon-ball-the-breakers-special-edition": {
     "cib": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 12.59,
+      "median": 12.59,
+      "high": 12.59,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 6.73,
+      "median": 10.96,
+      "high": 11.73,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_leisure-suit-larry-wet-dreams-dry-twice": {
     "cib": {
-      "low": 15,
-      "median": 22,
-      "high": 30,
+      "low": 16.72,
+      "median": 18.66,
+      "high": 25.96,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 18,
-      "high": 26,
+      "low": 12.39,
+      "median": 15.46,
+      "high": 18.01,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pat-patrouille-a-la-rescousse-d-adventure-city": {
     "cib": {
-      "low": 15,
-      "median": 20,
-      "high": 28,
+      "low": 8.65,
+      "median": 11.87,
+      "high": 13.42,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 8.56,
+      "median": 8.63,
+      "high": 9.24,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pat-patrouille-mighty-pups-sauve-la-grande-vallee": {
     "cib": {
-      "low": 15,
-      "median": 20,
-      "high": 28,
+      "low": 11.71,
+      "median": 12.76,
+      "high": 14.55,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 12,
-      "median": 17,
-      "high": 24,
+      "low": 10.69,
+      "median": 11.37,
+      "high": 12.49,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_pat-patrouille-en-mission": {
     "cib": {
-      "low": 13,
-      "median": 18,
-      "high": 26,
+      "low": 8.53,
+      "median": 10.96,
+      "high": 12.73,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 8.09,
+      "median": 9.77,
+      "high": 11.92,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-08"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_xboxone_destiny": {
@@ -4843,145 +4843,289 @@
   },
   "game_switch_captain-toad-treasure-tracker": {
     "cib": {
-      "low": 16,
-      "median": 21,
-      "high": 28,
+      "low": 19.85,
+      "median": 22.3,
+      "high": 25.27,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 14,
-      "median": 18,
-      "high": 24,
+      "low": 17.67,
+      "median": 20.88,
+      "high": 23.02,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_star-wars-battlefront-elite-squadron": {
     "cib": {
-      "low": 12,
-      "median": 16,
-      "high": 24,
+      "low": 7.83,
+      "median": 8.82,
+      "high": 12.63,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 8,
-      "median": 12,
-      "high": 18,
+      "low": 6.97,
+      "median": 7.71,
+      "high": 8.73,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_mario-party-ds": {
     "cib": {
-      "low": 10,
-      "median": 14,
-      "high": 20,
+      "low": 10.28,
+      "median": 11.84,
+      "high": 13.12,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 7,
-      "median": 10,
-      "high": 15,
+      "low": 8.15,
+      "median": 10.37,
+      "high": 12.39,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_valkyrie-profile-covenant-of-the-plume": {
     "cib": {
-      "low": 75,
-      "median": 100,
-      "high": 140,
+      "low": 31.91,
+      "median": 37.74,
+      "high": 39.54,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 45,
-      "median": 60,
-      "high": 85,
+      "low": 16.63,
+      "median": 20.46,
+      "high": 25.71,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_spectrobes": {
     "cib": {
-      "low": 6,
-      "median": 8,
-      "high": 12,
+      "low": 4.86,
+      "median": 5.5,
+      "high": 5.87,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 4,
-      "median": 6,
-      "high": 9,
+      "low": 3.12,
+      "median": 4.48,
+      "high": 5.58,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_dragon-quest-monsters-joker": {
     "cib": {
-      "low": 15,
-      "median": 20,
-      "high": 30,
+      "low": 11.66,
+      "median": 17.09,
+      "high": 19.87,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 10,
-      "median": 15,
-      "high": 22,
+      "low": 8.6,
+      "median": 10.17,
+      "high": 13.35,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_ds_lego-battles": {
     "cib": {
-      "low": 8,
-      "median": 10,
-      "high": 15,
+      "low": 4.21,
+      "median": 5.3,
+      "high": 7.51,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 5,
-      "median": 8,
-      "high": 12,
+      "low": 3.3,
+      "median": 3.93,
+      "high": 4.48,
       "currency": "EUR",
-      "source": "estimation-agent",
-      "observedAt": "2026-08-09"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
     }
   },
   "game_switch_super-mario-3d-all-stars": {
     "cib": {
-      "low": 45,
-      "median": 60,
-      "high": 85,
+      "low": 50.7,
+      "median": 61.11,
+      "high": 68.04,
       "currency": "EUR",
-      "source": "estimation-agent",
+      "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 40,
-      "median": 52,
-      "high": 70,
+      "low": 41.02,
+      "median": 54.77,
+      "high": 59.03,
       "currency": "EUR",
-      "source": "estimation-agent",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    }
+  },
+  "game_switch_super-mario-odyssey": {
+    "cib": {
+      "low": 27.12,
+      "median": 27.12,
+      "high": 27.12,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-11"
+    },
+    "loose": {
+      "low": 25.62,
+      "median": 25.62,
+      "high": 25.62,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-11"
+    }
+  },
+  "game_switch_luigi-s-mansion-3": {
+    "cib": {
+      "low": 24.97,
+      "median": 24.97,
+      "high": 24.97,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-11"
+    },
+    "loose": {
+      "low": 21.53,
+      "median": 21.53,
+      "high": 21.53,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-11"
+    }
+  },
+  "game_gamecube_paper-mario-the-thousand-year-door": {
+    "cib": {
+      "low": 57.28,
+      "median": 64.33,
+      "high": 71.51,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    },
+    "loose": {
+      "low": 46.14,
+      "median": 50.93,
+      "high": 60.75,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    }
+  },
+  "game_gamecube_the-legend-of-zelda-twilight-princess": {
+    "cib": {
+      "low": 86.3,
+      "median": 95.1,
+      "high": 115.24,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    },
+    "loose": {
+      "low": 65.74,
+      "median": 74.44,
+      "high": 84.61,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    }
+  },
+  "game_gba_metroid-zero-mission": {
+    "cib": {
+      "low": 156.84,
+      "median": 192.5,
+      "high": 223.38,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    },
+    "loose": {
+      "low": 46.82,
+      "median": 55.13,
+      "high": 64.51,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    }
+  },
+  "game_gba_metroid-fusion": {
+    "cib": {
+      "low": 78.58,
+      "median": 90.61,
+      "high": 100.78,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    },
+    "loose": {
+      "low": 18.25,
+      "median": 28.49,
+      "high": 31.83,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    }
+  },
+  "game_gba_the-legend-of-zelda-the-minish-cap": {
+    "cib": {
+      "low": 106.67,
+      "median": 124.23,
+      "high": 133.66,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    },
+    "loose": {
+      "low": 32.54,
+      "median": 35.02,
+      "high": 39.22,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    }
+  },
+  "game_n64_perfect-dark": {
+    "cib": {
+      "low": 25.51,
+      "median": 29.72,
+      "high": 38.54,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-10"
+    },
+    "loose": {
+      "low": 9.56,
+      "median": 10.73,
+      "high": 13.42,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     }
   }

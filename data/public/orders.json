@@ -72,7 +72,7 @@
   {
     "id": "order_msl51ugw",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "ordered",
     "itemCount": 2,
     "gameIds": [
       "game_ds_professeur-layton-et-la-boite-de-pandore",
@@ -91,7 +91,7 @@
       }
     ],
     "orderedAt": "2026-08-09",
-    "fulfilledAt": "2026-08-09",
+    "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -101,7 +101,7 @@
   {
     "id": "order_msl7d7y3",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_fire-emblem-awakening"
@@ -114,7 +114,7 @@
       }
     ],
     "orderedAt": "2026-08-09",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-10",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -147,7 +147,7 @@
   {
     "id": "order_msly2w9z",
     "marketplace": "vinted",
-    "status": "cancelled",
+    "status": "refunded",
     "itemCount": 1,
     "gameIds": [
       "game_switch_captain-toad-treasure-tracker"
@@ -164,13 +164,13 @@
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": "2026-08-09",
-    "refundedAt": null,
+    "refundedAt": "2026-08-09",
     "totalPaid": 16.29
   },
   {
     "id": "order_msly4quw",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "ordered",
     "itemCount": 6,
     "gameIds": [
       "game_ds_valkyrie-profile-covenant-of-the-plume",
@@ -213,7 +213,7 @@
       }
     ],
     "orderedAt": "2026-08-09",
-    "fulfilledAt": "2026-08-09",
+    "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -223,7 +223,7 @@
   {
     "id": "order_msmgei1t",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_ds_golden-sun-obscure-aurore"
@@ -236,7 +236,7 @@
       }
     ],
     "orderedAt": "2026-08-10",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-10",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -259,7 +259,7 @@
       }
     ],
     "orderedAt": "2026-08-09",
-    "fulfilledAt": "2026-08-09",
+    "fulfilledAt": "2026-08-10",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -278,7 +278,7 @@
       {
         "gameId": "game_switch_super-mario-3d-all-stars",
         "inventoryId": "inv_switch_super-mario-3d-all-stars-3",
-        "unitPrice": 48.05
+        "unitPrice": 41.07
       }
     ],
     "orderedAt": "2026-08-09",
@@ -287,6 +287,70 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 48.05
+    "totalPaid": 41.07
+  },
+  {
+    "id": "order_msni03p5",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 4,
+    "gameIds": [
+      "game_switch_captain-toad-treasure-tracker",
+      "game_switch_lego-harry-potter-collection",
+      "game_switch_dragon-ball-fighterz",
+      "game_switch_sonic-colours-ultimate"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_captain-toad-treasure-tracker",
+        "inventoryId": "inv_switch_captain-toad-treasure-tracker-2",
+        "unitPrice": 23.24
+      },
+      {
+        "gameId": "game_switch_lego-harry-potter-collection",
+        "inventoryId": "inv_switch_lego-harry-potter-collection",
+        "unitPrice": 18.48
+      },
+      {
+        "gameId": "game_switch_dragon-ball-fighterz",
+        "inventoryId": "inv_switch_dragon-ball-fighterz",
+        "unitPrice": 13.62
+      },
+      {
+        "gameId": "game_switch_sonic-colours-ultimate",
+        "inventoryId": "inv_switch_sonic-colours-ultimate",
+        "unitPrice": 11.66
+      }
+    ],
+    "orderedAt": "2026-08-10",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 67
+  },
+  {
+    "id": "order_msnmbf0g",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_captain-toad-treasure-tracker"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_captain-toad-treasure-tracker",
+        "inventoryId": "inv_switch_captain-toad-treasure-tracker-3",
+        "unitPrice": 20.48
+      }
+    ],
+    "orderedAt": "2026-08-10",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 20.48
   }
 ]

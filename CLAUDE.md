@@ -85,11 +85,17 @@ When it fires: fix the doc/data, never bypass.
   from the generic template, ratified 2026-08-08).
 - **pnpm only. npm/npx are forbidden** (user order, 2026-08-07 — an `npm install -g`
   once failed on permissions and npm is banned from this machine's workflow).
-- **Never commit, tag or push without an explicit order** from benglut. The initial
-  bootstrap (2026-08-08) was explicitly ordered in the founding spec (§16).
+- **Standing authorisation since 2026-08-11**: benglut has granted blanket permission
+  to modify any file of the project and of the data repo, to edit `data/*.json`
+  directly, and to commit and push to GitHub without asking, provided the changelog
+  is kept up to date. This supersedes the two rules below, which stood until then.
+  (Previously: never commit, tag or push without an explicit order — the bootstrap of
+  2026-08-08 being ordered in the founding spec §16.)
 - **No AI attribution anywhere** — no co-author trailers, no tool names in commits.
-- **Never edit `data/*.json` by hand** — the CLI is the only mutation path; it once
-  is what guarantees changelog, backups and referential integrity.
+- **Still prefer `pnpm vault` over hand-editing `data/*.json`**, even though hand
+  edits are now allowed: the CLI is what guarantees the changelog, the backups and
+  referential integrity. Edit the JSON directly only where the CLI cannot express the
+  change, and re-run `pnpm vault validate` straight after.
 - `ordered` ≠ `owned`; a cancelled order never yields possession (CLI enforces it —
   don't work around it).
 - Never invent a game that is not there (`needs_review` when uncertain).

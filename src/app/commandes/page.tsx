@@ -20,6 +20,37 @@ export default function OrdersPage() {
         title="Commandes"
         sub="Une commande annulée reste dans l'historique et n'est jamais comptée comme possédée"
       />
+      {(() => {
+        // ce qui est payé mais pas encore chez soi : la somme immobilisée
+        const enCours = orders.filter((o) => o.status === "ordered" || o.status === "fulfilled");
+        if (!enCours.length) return null;
+        const valeur = enCours.reduce((s, o) => s + (o.totalPaid ?? 0), 0);
+        const articles = enCours.reduce((s, o) => s + o.itemCount, 0);
+        const expediees = enCours.filter((o) => o.status === "fulfilled");
+        const attente = enCours.filter((o) => o.status === "ordered");
+        return (
+          <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {(
+              [
+                ["En cours", `${enCours.length}`, "commandes non reçues"],
+                ["Valeur", euro(valeur), "somme immobilisée"],
+                ["Articles", `${articles}`, "en attente de réception"],
+                [
+                  "Acheminement",
+                  `${expediees.length} / ${attente.length}`,
+                  "expédiées / chez le vendeur",
+                ],
+              ] as const
+            ).map(([label, val, hint]) => (
+              <div key={label} className="rounded-xl border border-border bg-surface px-4 py-3">
+                <div className="text-xs uppercase tracking-wide text-muted">{label}</div>
+                <div className="mt-1 font-mono text-xl text-accent">{val}</div>
+                <div className="mt-0.5 text-[11px] text-muted">{hint}</div>
+              </div>
+            ))}
+          </div>
+        );
+      })()}
       {orders.length === 0 ? (
         <div className="rounded-lg border border-border bg-surface px-4 py-10 text-center text-muted">
           Aucune commande enregistrée pour le moment.

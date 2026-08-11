@@ -3046,5 +3046,264 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": "A"
+  },
+  {
+    "id": "game_switch_lego-harry-potter-collection",
+    "t": "LEGO Harry Potter Collection",
+    "n": "lego harry potter collection",
+    "a": [
+      "LEGO Harry Potter Collection",
+      "Lego Harry Potter Years 1-7"
+    ],
+    "f": "LEGO",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_dragon-ball-fighterz",
+    "t": "Dragon Ball FighterZ",
+    "n": "dragon ball fighterz",
+    "a": [],
+    "f": "Dragon Ball",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_sonic-colours-ultimate",
+    "t": "Sonic Colours: Ultimate",
+    "n": "sonic colours ultimate",
+    "a": [
+      "Sonic Colors Ultimate"
+    ],
+    "f": "Sonic",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_super-mario-odyssey",
+    "t": "Super Mario Odyssey",
+    "n": "super mario odyssey",
+    "a": [],
+    "f": "Super Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_luigi-s-mansion-3",
+    "t": "Luigi's Mansion 3",
+    "n": "luigi s mansion 3",
+    "a": [],
+    "f": "Luigi's Mansion",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_metroid-prime-2-echoes",
+    "t": "Metroid Prime 2: Echoes",
+    "n": "metroid prime 2 echoes",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_paper-mario-the-thousand-year-door",
+    "t": "Paper Mario: The Thousand-Year Door",
+    "n": "paper mario the thousand year door",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_pikmin-2",
+    "t": "Pikmin 2",
+    "n": "pikmin 2",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_tales-of-symphonia",
+    "t": "Tales of Symphonia",
+    "n": "tales of symphonia",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gamecube_the-legend-of-zelda-twilight-princess",
+    "t": "The Legend of Zelda: Twilight Princess",
+    "n": "the legend of zelda twilight princess",
+    "a": [],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gb_donkey-kong",
+    "t": "Donkey Kong",
+    "n": "donkey kong",
+    "a": [],
+    "f": null,
+    "p": "gb",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gb_super-mario-land-2-6-golden-coins",
+    "t": "Super Mario Land 2: 6 Golden Coins",
+    "n": "super mario land 2 6 golden coins",
+    "a": [],
+    "f": null,
+    "p": "gb",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gb_tetris",
+    "t": "Tetris",
+    "n": "tetris",
+    "a": [],
+    "f": null,
+    "p": "gb",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gb_the-legend-of-zelda-link-s-awakening",
+    "t": "The Legend of Zelda: Link's Awakening",
+    "n": "the legend of zelda link s awakening",
+    "a": [],
+    "f": null,
+    "p": "gb",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gba_advance-wars",
+    "t": "Advance Wars",
+    "n": "advance wars",
+    "a": [],
+    "f": null,
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gba_castlevania-aria-of-sorrow",
+    "t": "Castlevania: Aria of Sorrow",
+    "n": "castlevania aria of sorrow",
+    "a": [],
+    "f": null,
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gba_golden-sun",
+    "t": "Golden Sun",
+    "n": "golden sun",
+    "a": [],
+    "f": null,
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gba_mario-luigi-superstar-saga",
+    "t": "Mario & Luigi: Superstar Saga",
+    "n": "mario luigi superstar saga",
+    "a": [],
+    "f": null,
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gba_metroid-zero-mission",
+    "t": "Metroid: Zero Mission",
+    "n": "metroid zero mission",
+    "a": [],
+    "f": null,
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gba_metroid-fusion",
+    "t": "Metroid Fusion",
+    "n": "metroid fusion",
+    "a": [],
+    "f": null,
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gba_pokemon-version-rouge-feu",
+    "t": "Pokémon Version Rouge Feu",
+    "n": "pokemon version rouge feu",
+    "a": [
+      "Pokemon: FireRed Version"
+    ],
+    "f": null,
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gba_the-legend-of-zelda-the-minish-cap",
+    "t": "The Legend of Zelda: The Minish Cap",
+    "n": "the legend of zelda the minish cap",
+    "a": [],
+    "f": null,
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gbc_pokemon-version-cristal",
+    "t": "Pokémon Version Cristal",
+    "n": "pokemon version cristal",
+    "a": [
+      "Pokemon: Crystal Version"
+    ],
+    "f": null,
+    "p": "gbc",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_perfect-dark",
+    "t": "Perfect Dark",
+    "n": "perfect dark",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_super-mario-galaxy-super-mario-galaxy-2",
+    "t": "Super Mario Galaxy + Super Mario Galaxy 2",
+    "n": "super mario galaxy super mario galaxy 2",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

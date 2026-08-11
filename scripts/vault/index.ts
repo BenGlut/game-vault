@@ -24,6 +24,7 @@ import { parseArgs, optStr, optNum, optBool } from "./lib/args";
 import { normalizeTitle, gameId as makeGameId } from "../../src/lib/normalize";
 import {
   InventoryStatusSchema,
+  OrderStatusSchema,
   MarketplaceSchema,
   RegionSchema,
   MediaTypeSchema,
@@ -364,6 +365,27 @@ function main(): void {
         break;
       }
 
+      case "remove-inventory": {
+        const invRef = optStr(options, "inventory");
+        if (!invRef)
+          throw new Error("usage: pnpm vault remove-inventory --inventory <id> [--force]");
+        runMutation("remove-inventory", yes, `remove ${invRef}`, (v) => {
+          const item = findInventory(v, invRef);
+          // une ligne rattachée à une commande n'est jamais un accident : la retirer
+          // casserait la traçabilité de l'achat. --force pour les cas vraiment orphelins.
+          if (item.orderId && !optBool(options, "force"))
+            throw new Error(
+              `${item.id} est rattaché à la commande ${item.orderId} — supprimer romprait la traçabilité, utiliser --force en connaissance de cause`,
+            );
+          if (POSSESSION_STATUSES.includes(item.status) && !optBool(options, "force"))
+            throw new Error(`${item.id} est au statut ${item.status} (possédé) — utiliser --force si c'est bien une erreur de saisie`);
+          v.inventory = v.inventory.filter((x) => x.id !== item.id);
+          for (const o of v.orders) o.items = o.items.map((it) => (it.inventoryId === item.id ? { ...it, inventoryId: null } : it));
+          return { result: { removed: item.id, gameId: item.gameId, status: item.status }, affectedIds: { "inventory.json": [item.id] } };
+        });
+        break;
+      }
+
       case "add-order": {
         const marketplace = optStr(options, "marketplace");
         const itemsSpec = optStr(options, "items");
@@ -459,10 +481,25 @@ function main(): void {
       case "update-order": {
         const orderRef = optStr(options, "order");
         if (!orderRef)
-          throw new Error('usage: pnpm vault update-order --order <id> [--total 24.85] [--shipping X] [--protection X] [--discount X] [--reference R] [--items "inv_id:prix,inv_id:prix"]');
+          throw new Error('usage: pnpm vault update-order --order <id> [--total 24.85] [--shipping X] [--protection X] [--discount X] [--reference R] [--status ordered|fulfilled|...] [--items "inv_id:prix,inv_id:prix"]');
         runMutation("update-order", yes, `update ${orderRef}`, (v) => {
           const order = findOrder(v, orderRef);
           const invIds: string[] = [];
+          // Rectifier un statut lu trop vite chez le marchand : les commandes
+          // dédiées ne vont que vers l'avant, or « bordereau envoyé » avait été
+          // pris pour une expédition. Corriger sans repasser par un cycle complet.
+          const newStatus = optStr(options, "status");
+          if (newStatus) {
+            const st = OrderStatusSchema.parse(newStatus);
+            order.status = st;
+            if (st === "ordered") { order.fulfilledAt = null; order.deliveredAt = null; }
+            if (st === "fulfilled") order.deliveredAt = null;
+            for (const i of v.inventory.filter((x) => x.orderId === order.id)) {
+              i.status = st === "delivered" ? "delivered" : st;
+              i.updatedAt = nowIso();
+              invIds.push(i.id);
+            }
+          }
           const total = optNum(options, "total");
           if (total !== undefined) order.totalPaid = total;
           const shipping = optNum(options, "shipping");
