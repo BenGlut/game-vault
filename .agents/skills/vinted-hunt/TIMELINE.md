@@ -535,3 +535,22 @@ Keep 60 days; beyond that, compact.
   · LIKES : 58 (Chrono Trigger 30, Kirby Super Star Ultra 28).
   · charlesgdx (lot a 48 EUR) et lilinayaa03 (LM3 a 20 EUR) n'ont pas repondu : pas de
     relance, regle du message unique par vendeur et par jour.
+- 2026-08-11 — ronde 42. Aucune commande nouvelle, base inchangee (13 commandes, 0 anomalie).
+  Le Luigi's Mansion 3 a 10 EUR chez oli72300 (9633725677) reste disponible et reste la
+  meilleure affaire ouverte.
+  · 6 sollicitations vendeurs, toutes REJETEES avec motif :
+    casakl Chrono Trigger complet 170 EUR : +95 % sur la cote CIB 90,82.
+    maxence-nr Chrono Trigger 99,90 EUR : +20 %, et BOITE US.
+    flammesds33 Chrono Trigger 145 EUR : +72 %, meme avec sa remise de 20 % sur lot
+    (116 EUR = +28 %). mayo3638 Chrono Trigger 130 EUR : +54 %.
+    gioretrogames29 Kirby Super Star Ultra 129,99 EUR : VERSION ALLEMANDE, et hors cote.
+  · CONSTAT : sur Chrono Trigger DS le marche francais se tient entre 130 et 180 EUR
+    contre 90,82 de cote CIB internationale — meme ecart structurel que sur N64.
+    Ne pas esperer d'affaire sur ce titre au prix affiche.
+  · Bravely Default evalue : 8998546518 a 14,25 EUR rendu, -18 % sur la cote loose, mais
+    « Cartridge only » ; 9300242609 a 16,35 EUR, -6 %, boite non confirmee. Non retenus,
+    la priorite reste aux exemplaires en boite.
+  · LIKES : 77 nets (Bravely Default 60, The World Ends With You 24 moins 7 retires).
+  · MON ERREUR, corrigee dans la foulee : la passe TWEWY a like 7 articles hors sujet
+    (porte-cles, CD/OST, et surtout « NEO The World Ends With You », qui est un AUTRE
+    jeu). Retires par API dans la meme ronde.

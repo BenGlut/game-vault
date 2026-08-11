@@ -197,3 +197,12 @@ pièges d'API promus dans `SKILL.md`. 26 lignes retirées.*
   et baissent de 10 a 20 % : elles restent au-dessus. Les traiter en lot, verifier la
   langue dans le titre (« juego », « cartuccia », « fur », « fantasma ») avant tout
   calcul d'ecart — c'est le filtre le plus rentable sur ce flux.
+- 2026-08-11 — Une recherche par titre attire les SUITES et les produits derives, que le
+  filtre de bruit ne voyait pas : « NEO The World Ends With You » est un autre jeu,
+  et keychain / CD / OST / artbook passaient. Ajouter au filtre : keychain, ost, cd,
+  vinyle, artbook, soundtrack, badge — et exclure explicitement le marqueur de suite
+  (neo, 2, II, deluxe, remake) quand on chasse l'original.
+- 2026-08-11 — Ecart structurel confirme sur un 2e titre : Chrono Trigger DS se vend
+  130 a 180 EUR en France contre 90,82 EUR de cote CIB internationale, comme la N64.
+  Sur ces titres rares le bon repere est le prix median Vinted, pas PriceCharting ;
+  sinon on rejette tout le marche et on ne conclut jamais.
