@@ -490,3 +490,31 @@ Keep 60 days; beyond that, compact.
     A 17 EUR le rendu tombe a ~21,5 EUR contre une cote CIB de 25,96 : -17 %.
     Le modal « Faire une offre » ne se rend QUE dans l'onglet au premier plan ;
     dans un onglet d'arriere-plan le bouton se clique mais rien ne s'affiche.
+- 2026-08-11 — ronde 40. LES LIKES PAIENT : 11 remises spontanees recues dans la matinee
+  apres les 284 likes de la ronde 39, plus 2 propositions de lot.
+  · ACHAT REALISE (benglut a paye) : lot lucietesolat, transaction 21482910145.
+    Kid Icarus Uprising + Pokemon Soleil, 34 EUR affiches -> offre acceptee a 30,60 EUR,
+    protection 2,23, total 32,83 hors port. Enregistre en base au prorata :
+    Kid Icarus 18,00 (wishlist -> ordered), Pokemon Soleil 12,60 (2e exemplaire).
+    Reference Vinted renseignee, ce qui leve l'ambiguite d'appariement signalee ronde 38.
+  · REJETS des 11 remises, avec motif (prix rendu contre cote) :
+    sherminator76 Kid Icarus neuf blister 95 EUR : hors plafond, +300 %.
+    yukicross86 Majora's Mask 3D 80 EUR : +134 %. retronium 65 EUR : +92 %.
+    glap83200 Majora's Mask 60 EUR : +76 %. alebrown7 Kid Icarus 40 EUR : +76 %.
+    ledressingdangeane Luigi's Mansion 3 SANS BOITE 22 EUR : +25 % sur la cote loose.
+    lilinayaa03 Luigi's Mansion 3 26 EUR : +24 %. bengames Odyssey 27 EUR : +19 %.
+    paul.crlt Kid Icarus 25 EUR : +16 %, et on a deja l'exemplaire a 18 EUR.
+    iffrod 35 EUR : c'est un ALBUM, pas le jeu. Un vendeur italien : version PAL ITA.
+  · CONTRE-OFFRES POSEES : charlesgdx (semi-pro, 80 articles) Odyssey + Luigi's Mansion 3
+    en un envoi a 48 EUR ; bengames Odyssey a 22 EUR ; lilinayaa03 Luigi's Mansion 3 a
+    20 EUR. Registre chiffre pour le semi-pro, comme le prevoit le skill.
+  · LIKES : 120 de plus (Zelda Spirit Tracks 60, Ghost Trick 60).
+  · Commandes : statuts toujours vides cote API, aucun ecart nouveau detectable.
+  · bengames a refuse les 22 EUR sur Odyssey (« c'est mon dernier mot »), fil clos.
+  · TROUVE : Luigi's Mansion 3 Switch chez oli72300 (item 9633725677) a 10,00 EUR
+    affiches, 11,20 avec protection, ~14,25 rendu. Cote loose 21,53 / CIB 24,97 :
+    -34 % et -43 %. Description « Nintendo SWITCH, TRES BON ETAT », rien qui evoque
+    une boite manquante, 17 photos. Vendeur NON SPECIALISTE ideal : 10 articles au
+    total (coussin de grossesse, moulinet de peche, turbulette) et 3 jeux, 11 ventes,
+    note 0,92. Ses deux autres jeux sont Game Boy, hors perimetre.
+    A ACHETER DIRECTEMENT — a ce prix une offre ne ferait que retarder.

@@ -352,5 +352,34 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 20.48
+  },
+  {
+    "id": "order_msolka8w",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_3ds_kid-icarus-uprising",
+      "game_3ds_pokemon-soleil"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_kid-icarus-uprising",
+        "inventoryId": "inv_3ds_kid-icarus-uprising",
+        "unitPrice": 19.31
+      },
+      {
+        "gameId": "game_3ds_pokemon-soleil",
+        "inventoryId": "inv_3ds_pokemon-soleil-2",
+        "unitPrice": 13.52
+      }
+    ],
+    "orderedAt": "2026-08-11",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 32.83
   }
 ]

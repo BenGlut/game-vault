@@ -169,3 +169,20 @@ pièges d'API promus dans `SKILL.md`. 26 lignes retirées.*
   arriere-plan le clic passe sans erreur et aucun champ n'apparait. Une fois ouvert :
   `#offer` via le setter natif React, puis le bouton « Proposer <montant> ». Les likes,
   eux, marchent en arriere-plan — la difference tient au rendu du modal, pas au clic.
+- 2026-08-11 — MESURE : 284 likes ont produit 11 remises spontanees et 2 propositions de
+  lot en une matinee, mais AUCUNE n'etait sous la cote — les vendeurs baissent de 5 a
+  20 % depuis un prix deja au-dessus du marche. Le like fait venir la discussion, il ne
+  fabrique pas l'affaire : il faut contre-offrir systematiquement.
+- 2026-08-11 — Offre par API : `POST /api/v2/transactions/<tx>/offer_requests`, corps
+  `{price:"22.0",currency:"EUR"}`. Le `tx` s'obtient par `conversation.transaction.id`,
+  donc uniquement sur un fil DEJA ouvert — pour une annonce fraiche il faut le modal.
+  Vinted refuse « Prix de l'offre trop bas » : sur un article a 32 EUR avec une offre
+  vendeur en cours a 27, les montants 22 / 23 / 24 / 25 sont tous rejetes. Casser les
+  prix par API est donc impossible ; la contre-offre doit rester proche de l'offre.
+- 2026-08-11 — `add-order --reference <transaction_id>` : renseigner la reference Vinted
+  supprime l'ambiguite d'appariement commande/base relevee ronde 38. A faire pour toute
+  nouvelle commande.
+- 2026-08-11 — Le coeur d'une FICHE article ne repond pas au clic en onglet
+  d'arriere-plan, alors que ceux de la grille catalogue fonctionnent. Pour liker un
+  article precis sans passer au premier plan, ouvrir la recherche qui le contient et
+  cliquer son coeur dans la grille.

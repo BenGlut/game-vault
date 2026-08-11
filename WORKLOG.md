@@ -234,3 +234,6 @@
   catalogue, jamais par l'API — `user_favourites/toggle` répond « Ok » mais ne sait
   que retirer. Piège de filtrage documenté : le `title` d'une carte contient le
   suffixe « … € protection incluse », qui faisait rejeter des annonces valides
+- Commande Vinted du 11 août enregistrée : lot Kid Icarus Uprising + Pokémon Soleil
+  chez lucietesolat, 32,83 € tout compris, réparti au prorata des prix affichés ;
+  référence de transaction Vinted renseignée pour lever l'ambiguïté d'appariement

@@ -3704,7 +3704,7 @@
   {
     "id": "inv_3ds_kid-icarus-uprising",
     "gameId": "game_3ds_kid-icarus-uprising",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3720,8 +3720,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "orderId": "order_msolka8w",
+    "updatedAt": "2026-08-11T11:48:42.080Z"
   },
   {
     "id": "inv_3ds_bravely-default",
@@ -7279,5 +7279,23 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-08-11T02:09:43.081Z"
+  },
+  {
+    "id": "inv_3ds_pokemon-soleil-2",
+    "gameId": "game_3ds_pokemon-soleil",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 12.6,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msolka8w",
+    "updatedAt": "2026-08-11T11:48:42.088Z"
   }
 ]

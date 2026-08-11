@@ -1803,5 +1803,10 @@
     "at": "2026-08-11T02:24:49.314Z",
     "command": "add-price",
     "message": "price observation for game_switch_super-mario-odyssey"
+  },
+  {
+    "at": "2026-08-11T11:48:42.110Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]
