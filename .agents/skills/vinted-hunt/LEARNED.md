@@ -120,3 +120,15 @@ promu dans `SKILL.md`.*
   lot ». Seule la REPONSE dans un fil existant passe par API. En arriere-plan, preparer
   l'URL du lot et le texte, et les remettre a benglut : c'est un clic pour lui, et cela
   evite d'annoncer une action qui n'a pas eu lieu.
+- 2026-08-11 — PLANCHER D'OFFRE MESURE : Vinted refuse toute offre sous 60 % du prix
+  affiche. benglut l'a constate dans l'interface sur le lot bellon49 — 55 EUR affiches,
+  minimum acceptable 33 EUR, soit exactement 60 %. Calculer l'offre a partir de ce seuil
+  avant de la rediger : sous 0,60 x affiche, elle ne partira pas.
+  CORRECTION de la lecon du meme jour qui disait le message « prix trop bas »
+  inexploitable : la regle existe. Mes essais par API restaient refuses MEME au-dessus du
+  seuil (29 EUR sur un article a 30), donc c'est le canal API qui est bloque pour moi,
+  pas le montant. L'interface, elle, applique bien la regle des 60 %.
+- 2026-08-11 — Consequence directe : sur une annonce a plus de 1,7x la cote, aucune offre
+  legale ne peut ramener le prix sous la cote. Verifier ce rapport AVANT de preparer une
+  offre, sinon on fait perdre du temps a tout le monde — cas du lot bellon49, 55 EUR
+  affiches contre 29,05 de cotes cumulees : meme au plancher de 33 EUR on reste a +32 %.

@@ -821,3 +821,7 @@ Keep 60 days; beyond that, compact.
     titre peu courant. Jeu culte Suda51 mais clivant (accueil critique dans les 60/100),
     piece de collection plus que jeu a finir. ECARTE sur decision de benglut : ne plus
     le proposer ni l ajouter a la wishlist.
+  · OFFRE ENVOYEE par benglut lui-meme sur le lot bellon49, a 33 EUR et non 25 : Vinted
+    refuse toute offre sous 60 % de l'affiche (55 x 0,60 = 33). Verdict a ce prix :
+    ~38,40 EUR rendu contre 29,05 de cotes cumulees = +32 %. Ce n'est plus une affaire ;
+    signale a benglut avant qu'il ne paie si la vendeuse accepte.
