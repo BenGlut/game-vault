@@ -111,3 +111,10 @@ clic et d'envoi de message devenus faux.*
 - 2026-08-11 — Le bruit etranger passe par des mots que le filtre francais ignore :
   « Spiel », « completo », « per nintendo », « nuovo », « ocasion ». Les ajouter au
   filtre de langue au meme titre que deutsch / italiano / espanol.
+- 2026-08-11 — Micromania occasion est une source de comparaison utile : son prix est
+  DIRECTEMENT comparable au prix rendu Vinted (pas de protection ni de port si retrait
+  magasin), et l'article est garanti en boite. Il sert de plafond : au-dessus, une
+  annonce Vinted n'a aucun interet. Extraction : `.product-grid .product-tile`, et
+  ecarter les tuiles dont le lien pointe vers `criteo.com` — ce sont des publicites
+  d'autres plateformes glissees dans la grille. Le nom du jeu se lit dans le slug du
+  lien, le titre visible etant vide dans le DOM.

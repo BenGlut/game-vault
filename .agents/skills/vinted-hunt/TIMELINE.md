@@ -684,3 +684,16 @@ Keep 60 days; beyond that, compact.
     l'ai enrichie de la mesure du jour au lieu d'ajouter une ligne — sur N64 tout le bas
     du classement prix est japonais, il faut lire la description de chaque annonce sous
     la cote loose avant de liker.
+  · MICROMANIA OCCASION 3DS explore a la demande de benglut (19 references reelles,
+    les 9 autres tuiles etaient du sponsorise Criteo). Croisement avec la base :
+    - Kid Icarus Uprising 29,99 EUR : c'est le SEUL titre de la wishlist present, et il
+      est plus cher que les 15 EUR de ledenicheur09 sur Vinted (+100 %).
+    - Deja possedes, donc sans interet : Zelda A Link Between Worlds 26,99, Animal
+      Crossing New Leaf 20,99, Pokemon Soleil 24,99, Luigi's Mansion 2 14,99,
+      Captain Toad 16,99, Pokemon Lune 24,99.
+    - Les Layton proposes (14,99) sont les episodes 3DS, pas « Le Destin Perdu » (DS)
+      qui est celui de la wishlist.
+    - Absents de la base et hors wishlist : Fantasy Life, Tomodachi Life, Mario & Luigi
+      Superstar Saga, Inazuma Eleven.
+    CONCLUSION : rien a prendre aujourd'hui, mais la source est un bon PLAFOND de
+    reference — prix ferme, boite, garantie, et pas de frais si retrait en magasin.
