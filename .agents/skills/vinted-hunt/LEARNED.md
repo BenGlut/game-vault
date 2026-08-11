@@ -165,3 +165,7 @@ pièges d'API promus dans `SKILL.md`. 26 lignes retirées.*
   `/api/v2/users/<id>`) ne donnera AUCUNE remise sur lot : le lot n'economise que le
   port. Verifier ce champ avant de proposer un groupage, sinon on achete du remplissage
   pour rien.
+- 2026-08-11 — Le modal « Faire une offre » ne se monte que dans l'onglet ACTIF. En
+  arriere-plan le clic passe sans erreur et aucun champ n'apparait. Une fois ouvert :
+  `#offer` via le setter natif React, puis le bouton « Proposer <montant> ». Les likes,
+  eux, marchent en arriere-plan — la difference tient au rendu du modal, pas au clic.

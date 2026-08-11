@@ -485,3 +485,8 @@ Keep 60 days; beyond that, compact.
     · Advance Wars labrocdu 9,45 EUR : notice seule. Zelda PH alexis7682 6,30 : un manga.
     · Perfect Dark jim76960 13,13 EUR : +22 % sur la cote loose.
     · Metroid Prime yoanna330 : version USA. miriamschrei : version allemande.
+  · OFFRE POSEE : Kid Icarus Uprising chez lucietesolat, 20,00 -> 17,00 EUR (-15 %),
+    fil 24290619749, statut « En attente ». En boite, sans les cartes AR.
+    A 17 EUR le rendu tombe a ~21,5 EUR contre une cote CIB de 25,96 : -17 %.
+    Le modal « Faire une offre » ne se rend QUE dans l'onglet au premier plan ;
+    dans un onglet d'arriere-plan le bouton se clique mais rien ne s'affiche.
