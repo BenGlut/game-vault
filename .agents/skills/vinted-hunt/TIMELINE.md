@@ -773,3 +773,13 @@ Keep 60 days; beyond that, compact.
     boites vides annoncees « No game »/« boite seule », et un francais LOOSE a +40 %.
   · Layton Destin Perdu +165 %, The World Ends With You +239 % : hors de portee.
   · Likes retires : le Ghost Trick italien et le Spirit Tracks « version jap ».
+- 2026-08-11 — CORRECTION d'un verdict passe. Le Kirby Super Star Ultra de timy0_0
+  (9245702237, 45,85 EUR, CARTOUCHE SEULE) avait ete annonce a -13 % en ronde 41 : c'est
+  FAUX. Je comparais a la mediane loose stockee (56,27 EUR), qui est la mediane d'une
+  bande sur 24 MOIS. Le prix du marche aujourd'hui est 29,31 EUR loose — exactement le
+  bas de cette bande. L'annonce est donc a +56 %, pas a -13 %. Cote du jour ajoutee en
+  base : loose 29,31 / CIB 75,13 (pricecharting-pal).
+  · POURQUOI CE JEU EST CHER, mesure : PAL complet 75,13 EUR contre 31,16 EUR aux US,
+    soit 2,4x ; mais PAL loose 29,31 contre 23,65 US, soit +24 % seulement. Ce n'est pas
+    la demande mondiale qui monte, c'est la BOITE europeenne qui est rare (petit tirage
+    PAL jamais reedite). Repere d'echelle : Mario Kart DS complet PAL = 12,86 EUR.

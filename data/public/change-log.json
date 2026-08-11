@@ -1828,5 +1828,15 @@
     "at": "2026-08-11T21:05:47.309Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-11T21:33:06.975Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_kirby-super-star-ultra"
+  },
+  {
+    "at": "2026-08-11T21:33:08.021Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_kirby-super-star-ultra"
   }
 ]

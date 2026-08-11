@@ -2737,20 +2737,20 @@
   },
   "game_ds_kirby-super-star-ultra": {
     "cib": {
-      "low": 73.87,
-      "median": 86.31,
-      "high": 100.74,
+      "low": 75.13,
+      "median": 75.13,
+      "high": 75.13,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     },
     "loose": {
       "low": 29.31,
-      "median": 56.27,
-      "high": 60.69,
+      "median": 29.31,
+      "high": 29.31,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     }
   },
   "game_ds_rhythm-paradise": {

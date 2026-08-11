@@ -96,3 +96,14 @@ promu dans `SKILL.md`.*
 - 2026-08-11 — L'origine etrangere s'annonce aussi en ANGLAIS : « the game is Japan »,
   « Asia version », « box and manual only ». Un filtre qui ne cherche que « jap »,
   « japon » ou « boite seule » les laisse passer.
+- 2026-08-11 — ERREUR DE METHODE corrigee : `pnpm vault deal` compare a la cote CIB PAR
+  DEFAUT. Sur une cartouche seule il faut `--state loose`, sinon le verdict est flatteur
+  et faux (Kirby annonce a -13 %, en realite +56 %). Passer `--state` a chaque appel.
+- 2026-08-11 — Les cotes en base sont des BANDES sur 24 mois : la mediane peut etre tres
+  au-dessus du prix du jour quand le titre baisse. Sur Kirby Super Star Ultra, mediane
+  loose 56,27 contre 29,31 au comptant, soit le bas exact de la bande. Comparer une
+  annonce au prix COMPTANT (bas de bande, ou relever la cote du jour), jamais a la
+  mediane seule.
+- 2026-08-11 — Diagnostiquer une cote elevee en comparant PAL et US sur PriceCharting :
+  si l'ecart porte sur le CIB et pas sur le loose, c'est la boite qui est rare (petit
+  tirage PAL), pas le jeu. Utile pour expliquer un prix et pour savoir ou chercher.
