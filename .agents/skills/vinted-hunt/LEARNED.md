@@ -101,3 +101,13 @@ clic et d'envoi de message devenus faux.*
 - 2026-08-11 — Une photo de benglut vaut audit de region : le badge USK sur une jaquette
   signe un tirage paneuropeen, pas une edition FR. Kirby Planet Robobot corrige de
   PAL-FR en PAL-EU. Verifier les badges de classification sur toute reception.
+- 2026-08-11 — Rattacher une commande historique a des exemplaires DEJA en stock se fait
+  a la main dans `orders.json` (items pointant sur les `inventoryId` existants) puis en
+  posant `orderId`, `purchasePrice` et `acquiredAt` sur ces lignes. `add-order` ne sait
+  pas le faire : il cree systematiquement de nouvelles lignes et fabrique des doublons.
+- 2026-08-11 — `purchasePrice` en base est un OBJET `{amount, currency, includesShipping}`,
+  pas un nombre. Une ecriture directe en JSON doit respecter ce format, sinon la
+  validation Zod casse. Toujours relire un enregistrement existant avant d'ecrire a la main.
+- 2026-08-11 — Le bruit etranger passe par des mots que le filtre francais ignore :
+  « Spiel », « completo », « per nintendo », « nuovo », « ocasion ». Les ajouter au
+  filtre de langue au meme titre que deutsch / italiano / espanol.

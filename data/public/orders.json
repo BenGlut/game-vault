@@ -381,5 +381,46 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 32.83
+  },
+  {
+    "id": "order_lucasklein04",
+    "marketplace": "vinted",
+    "status": "delivered",
+    "itemCount": 4,
+    "gameIds": [
+      "game_3ds_mario-luigi-paper-jam-bros",
+      "game_3ds_mario-luigi-dream-team-bros",
+      "game_3ds_super-mario-maker-for-nintendo-3ds",
+      "game_3ds_mario-party-island-tour"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_mario-luigi-paper-jam-bros",
+        "inventoryId": "inv_3ds_mario-luigi-paper-jam-bros",
+        "unitPrice": 9.54
+      },
+      {
+        "gameId": "game_3ds_mario-luigi-dream-team-bros",
+        "inventoryId": "inv_3ds_mario-luigi-dream-team-bros",
+        "unitPrice": 9.54
+      },
+      {
+        "gameId": "game_3ds_super-mario-maker-for-nintendo-3ds",
+        "inventoryId": "inv_3ds_super-mario-maker-for-nintendo-3ds",
+        "unitPrice": 9.54
+      },
+      {
+        "gameId": "game_3ds_mario-party-island-tour",
+        "inventoryId": "inv_3ds_mario-party-island-tour",
+        "unitPrice": 10.41
+      }
+    ],
+    "orderedAt": "2026-08-04",
+    "fulfilledAt": "2026-08-04",
+    "deliveredAt": "2026-08-08",
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 39.03
   }
 ]

@@ -652,3 +652,20 @@ Keep 60 days; beyond that, compact.
     Smash Bros Melee : le podium prix est deja rejete ronde 41 (boite seule, vendeur
     portugais) ou est un « manual » seul ; le meilleur exemplaire complet est a +2 %.
   · LIKES : 58 nets sur Smash Bros Melee (60 moins 2 retires).
+- 2026-08-11 — ronde 48. BLOCAGE HISTORIQUE LEVE : la commande lucas_klein du 04/08
+  (transaction 21332966356, statut 450) etait absente de la base depuis le debut, car
+  `add-order` aurait cree des lignes d'inventaire en doublon — ses 4 jeux etaient deja
+  `owned` depuis le seed. Ajoutee a la main et RATTACHEE aux exemplaires existants :
+  Mario & Luigi Paper Jam, Dream Team Bros, Super Mario Maker, Mario Party Island Tour.
+  45 EUR affiches -> offre acceptee 36,50 + 2,53 de protection = 39,03, reparti au
+  prorata (9,54 / 9,54 / 9,54 / 10,41). Vendeur seller_lucas_klein cree. Base : 14 commandes.
+  · BUG DE FORMAT corrige au passage : j'avais ecrit `purchasePrice` en nombre alors que
+    le schema attend `{amount, currency, includesShipping}`. 4 lignes remises en forme.
+  · Balayage complet des statuts : 4 en 450 (terminees), 8 en 230, 3 en 520 (remboursees).
+  · Messagerie : aucun message nouveau depuis la ronde 47. ledenicheur09 attend toujours
+    la validation du Kid Icarus a 15 EUR — pas de relance, je lui ai deja ecrit ce jour.
+  · REJETS avec motif : Metroid Prime GameCube, le meilleur exemplaire authentique est a
+    +21 % sur la cote loose ; les trois « moins chers » suivants sont etrangers —
+    « cib gamecube SPIEL » (allemand), « completo di manuale » et « per nintendo »
+    (italiens). Likes retires.
+  · LIKES : 52 nets sur Metroid Prime (55 moins 3).
