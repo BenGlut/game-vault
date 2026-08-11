@@ -730,3 +730,15 @@ Keep 60 days; beyond that, compact.
     l'autre a -15 % est le japonais deja rejete ronde 41. Les deux likes retires.
   · LIKES : 58 nets sur Super Mario Sunshine (60 moins 2).
   · NETTOYAGE : 28 favoris Kid Icarus retires, le besoin est couvert (2 exemplaires).
+- 2026-08-11 — ronde 52. Statuts coherents avec la base : 18 transactions Vinted, 5 en
+  450, 10 en 230 (dont le Kid Icarus paye ce soir), 3 en 520. Base : 16 commandes, 0 anomalie.
+  · REJETS avec motif :
+    ohgirlfriend Metroid Prime GameCube « Le Choix des Joueurs », COMPLET avec boite,
+    notice et disque, 25 -> 22 EUR : 26,85 rendu contre 16,72 de cote CIB = +61 %.
+    L'edition « Choix des Joueurs » est une reedition economique, elle ne vaut pas plus.
+    franck17100 Super Mario 64 cartouche seule 20 -> 18 EUR : 22,65 rendu contre 16,14
+    de cote loose = +40 %. Mieux que les +105 % de bbrayou mais toujours au-dessus.
+    Resident Evil 4 GameCube : les trois moins chers sont tous a +31 %, dont un
+    « fur nintendo gamecube » allemand — like retire.
+  · LIKES : 59 nets sur Resident Evil 4 (60 moins 1).
+  · ledenicheur09 : message d'action sur la commande payee, rien a repondre.

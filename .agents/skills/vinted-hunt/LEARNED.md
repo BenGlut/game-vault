@@ -82,3 +82,9 @@ promu dans `SKILL.md`.*
   remises sur un jeu deja possede, et la liste cesse de vouloir dire quelque chose.
 - 2026-08-11 — « caja » seul (sans « sin ») designe une BOITE espagnole vendue vide.
   Filtrer `\bcaja\b` au meme titre que `boite seule`.
+- 2026-08-11 — Les mentions allemandes survivent a la normalisation sans trema :
+  « fur nintendo » (fur), « und », « mit », « ohne ». Les ajouter au filtre de langue,
+  `deutsch` seul ne suffit pas.
+- 2026-08-11 — Une reedition economique (« Le Choix des Joueurs », « Player's Choice »,
+  « Nintendo Selects ») ne vaut PAS plus que l'edition normale : la cote CIB s'applique
+  telle quelle. Un vendeur qui la met en avant justifie souvent un prix superieur.
