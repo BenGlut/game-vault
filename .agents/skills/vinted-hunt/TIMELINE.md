@@ -708,6 +708,6 @@ Keep 60 days; beyond that, compact.
     cote loose (9553901027, 30 EUR) est en fait un JEU SWITCH — « Vend jeu switch bon
     etat » en description, titre muet sur la plateforme. Like retire.
   · LIKES : 4 nets sur Shin Megami Tensei IV.
-  · ENTRETIEN : LEARNED.md recompacte de 120 a 30 lignes — les quatre lecons « faille de
+  · ENTRETIEN : LEARNED.md recompacte de 120 a 79 lignes (27 lecons) — les quatre lecons « faille de
     filtre » fusionnees en une seule, les trois « mots etrangers » en une, et la regle de
     l'import japonais deja promue dans SKILL.md a la ronde 49.

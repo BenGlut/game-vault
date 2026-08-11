@@ -4,7 +4,7 @@ Brouillon. Une ligne datée par leçon, factuelle, la plus courte possible.
 Quand une leçon revient trois fois, la promouvoir dans `SKILL.md` et la retirer d'ici.
 Plafond : 30 lignes. Au-delà, promouvoir ou supprimer la plus faible.
 
-*Compacté le 2026-08-11 (ronde 50) : 120 → 30 lignes. Les quatre leçons « faille de
+*Compacté le 2026-08-11 (ronde 50) : 120 → 79 lignes, soit 27 leçons. Les quatre leçons « faille de
 filtre » fusionnées en une, les trois « mots étrangers » en une, et l'import japonais
 promu dans `SKILL.md`.*
 
