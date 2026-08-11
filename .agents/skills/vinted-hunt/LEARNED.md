@@ -132,3 +132,11 @@ promu dans `SKILL.md`.*
   legale ne peut ramener le prix sous la cote. Verifier ce rapport AVANT de preparer une
   offre, sinon on fait perdre du temps a tout le monde — cas du lot bellon49, 55 EUR
   affiches contre 29,05 de cotes cumulees : meme au plancher de 33 EUR on reste a +32 %.
+- 2026-08-12 — Le modal d'offre exige que la FENETRE Chrome soit visible a l'ecran, pas
+  seulement que l'onglet soit actif. Trois voies testees et toutes bloquees quand
+  `document.visibilityState` vaut `hidden` : clic JS, vrai clic souris via `computer`
+  (CDP Input), et creation d'un onglet neuf via `tabs_create_mcp` — le nouvel onglet
+  reste `hidden` si la fenetre l'est. Le seul `[role="dialog"]` monte est la banniere
+  cookies. Quand benglut naviguait lui-meme (fenetre visible), le meme modal s'ouvrait
+  et l'offre Kid Icarus a 17 EUR est passee. Donc : si `visibilityState` est `hidden`,
+  ne pas tenter d'offre — demander la fenetre au premier plan, ou preparer le texte.
