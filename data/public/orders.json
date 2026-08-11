@@ -2,7 +2,7 @@
   {
     "id": "order_msjq50c0",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_kirby-planet-robobot"
@@ -16,7 +16,7 @@
     ],
     "orderedAt": "2026-08-04",
     "fulfilledAt": "2026-08-07",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-11",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,

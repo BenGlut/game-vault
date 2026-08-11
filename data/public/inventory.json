@@ -3478,7 +3478,7 @@
   {
     "id": "inv_3ds_kirby-planet-robobot-2",
     "gameId": "game_3ds_kirby-planet-robobot",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3495,11 +3495,11 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-11",
     "orderId": "order_msjq50c0",
-    "updatedAt": "2026-08-10T08:42:32.711Z"
+    "updatedAt": "2026-08-11T20:30:16.999Z"
   },
   {
     "id": "inv_3ds_mario-party-the-top-100",

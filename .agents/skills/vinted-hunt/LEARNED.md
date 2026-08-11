@@ -92,3 +92,12 @@ clic et d'envoi de message devenus faux.*
   indice hors description — elle est apparue en tete du classement prix sur Wind Waker
   a -33 %. Ajouter carte/vip/card au filtre, et se rappeler que sur un titre recherche
   le premier du classement doit toujours passer par la description avant d'etre annonce.
+- 2026-08-11 — Balayer `transaction.status` sur toutes les commandes en un passage donne
+  la carte complete : 450 = terminee/livree, 230 = en cours, 520 = remboursee. C'est le
+  seul moyen fiable de reperer une livraison a passer en `receive-order`.
+- 2026-08-11 — Les mots de bruit existent aussi en ANGLAIS sur des annonces francaises :
+  « manual », « instruction », « box only ». Un filtre qui ne connait que « notice » et
+  « manuel » les laisse passer. Doubler chaque terme de sa forme anglaise.
+- 2026-08-11 — Une photo de benglut vaut audit de region : le badge USK sur une jaquette
+  signe un tirage paneuropeen, pas une edition FR. Kirby Planet Robobot corrige de
+  PAL-FR en PAL-EU. Verifier les badges de classification sur toute reception.

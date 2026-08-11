@@ -632,3 +632,23 @@ Keep 60 days; beyond that, compact.
     Wind Waker : le « moins cher » a 15,51 EUR rendu (-33 %) est une CARTE VIP NINTENDO
     GRATTEE, titre identique a celui du jeu, revelee seulement par la description.
   · LIKES : 71 nets — Super Mario 64 17, Wind Waker 56 moins 2 cartes VIP retirees.
+- 2026-08-11 — ronde 47. TROISIEME LIVRAISON : order_msjq50c0 Kirby Planet Robobot
+  (kaizen1912, 33,89 EUR) passe en `delivered`. Detectee par `transaction.status` = 450 ;
+  un balayage complet des 14 transactions donne : 3 en 450 (terminees), 8 en 230 (en
+  cours), 3 en 520 (remboursees, dont les deux lots benj33290 et le Toad de spidercp).
+  · CORRECTION DE BASE sur photo de benglut : la jaquette du Kirby Planet Robobot porte
+    le badge USK 6 a cote du PEGI 7 — c'est un tirage paneuropeen. Region corrigee de
+    PAL-FR en PAL-EU. Fire Emblem Awakening et Dragon Quest IX sont bien FR sur photo.
+    Completude laissee a `unknown` : la photo ne montre pas l'interieur des boitiers.
+  · ledenicheur09 RELANCE sur le Kid Icarus a 15 EUR : « si vous le validez avant demain
+    matin ». Offre toujours active. Pas de reponse envoyee : je lui ai deja ecrit
+    aujourd'hui (regle du message unique par vendeur et par jour).
+  · REJETS avec motif :
+    allaniut Kid Icarus 18 EUR : 22,65 rendu = -13 % sur la cote CIB, donc correct, mais
+    MOINS BON que les 15 EUR de ledenicheur09 deja en main.
+    super1ndiegames « Super Mario 64 Official Instruction » 20 EUR : notice seule.
+    felrae Wind Waker EDITION LIMITEE 130 EUR : +232 %, autre edition.
+    veronicamicaela Wind Waker 60 EUR : +58 %. pommereinette48 Wind Waker 50 EUR : +33 %.
+    Smash Bros Melee : le podium prix est deja rejete ronde 41 (boite seule, vendeur
+    portugais) ou est un « manual » seul ; le meilleur exemplaire complet est a +2 %.
+  · LIKES : 58 nets sur Smash Bros Melee (60 moins 2 retires).
