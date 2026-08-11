@@ -803,3 +803,9 @@ Keep 60 days; beyond that, compact.
     Ce vendeur est a 2 a 4,5x le marche sur tout son dressing (Okamiden a 105,70 EUR).
     Like retire sur le Layton Destin Perdu.
   · Cotes du jour ajoutees : Castlevania, Ghost Trick, Layton Destin Perdu.
+  · LOT bellon49 monte a la demande de benglut : Layton Destin Perdu + Zelda Phantom
+    Hourglass, 55,00 EUR affiches / 58,45 protection incluse, AUCUNE remise vendeur.
+    Offre agressive preparee a 25 EUR les deux (-55 %), justifiee par 29,05 EUR de cotes
+    cumulees. NON ENVOYEE : pas de fil existant avec bellon49, la creation de fil par API
+    renvoie 403, et ni le bouton « Message » ni « Voir le lot » ne repondent sans onglet
+    au premier plan. Lien du lot et texte du message remis a benglut pour un clic.

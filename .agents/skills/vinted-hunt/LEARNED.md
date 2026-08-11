@@ -115,3 +115,8 @@ promu dans `SKILL.md`.*
 - 2026-08-11 — Quand un vendeur est cher sur UN article, verifier son dressing entier :
   bellon49 etait a 2-4,5x le marche sur les cinq. Un seul appel wardrobe evite trois
   evaluations inutiles.
+- 2026-08-11 — LIMITE STRUCTURELLE a retenir : tout ce qui ECRIT vers un vendeur inconnu
+  exige l'onglet au premier plan — bouton « Message », modal d'offre, bouton « Voir le
+  lot ». Seule la REPONSE dans un fil existant passe par API. En arriere-plan, preparer
+  l'URL du lot et le texte, et les remettre a benglut : c'est un clic pour lui, et cela
+  evite d'annoncer une action qui n'a pas eu lieu.
