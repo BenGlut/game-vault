@@ -328,8 +328,15 @@ decides.
 **A suspiciously low price on a sought-after retro title is a Japanese import until
 proven otherwise** — three out of three on 2026-08-10 (Mario Kart 64 at 11,20 €,
 Paper Mario/Mario Story at 11,20 €, Super Mario 64 "Japon"). The title never says so;
-the label does (`NUS-006 (JPN)`, "MADE IN JAPAN"). Check the code on the photo before
-computing any gap, and beware old listings — a low item id means a stale price.
+the label does (`NUS-006 (JPN)`, "MADE IN JAPAN"), and so does the description — which
+is where it hid every time on 2026-08-11. Check before computing any gap, and beware old
+listings — a low item id means a stale price.
+
+On N64 this is not an exception but the shape of the market: sorting Ocarina of Time by
+price, **everything below ~32 € was Japanese and everything above was European**
+(measured 2026-08-11 on the five cheapest). So on N64, read the description of every
+listing under the loose quote before liking it — the whole bottom of the ranking is
+imports, and the real European floor sits well *above* the international quote.
 
 **2. What actually matters is the game's language.** French box is the preference,
 playable French is the condition:

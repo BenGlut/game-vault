@@ -669,3 +669,18 @@ Keep 60 days; beyond that, compact.
     « cib gamecube SPIEL » (allemand), « completo di manuale » et « per nintendo »
     (italiens). Likes retires.
   · LIKES : 52 nets sur Metroid Prime (55 moins 3).
+- 2026-08-11 — ronde 49. Aucun mouvement : 16 transactions Vinted (4 livrees, 9 en cours,
+  3 remboursees), base a 14 commandes et 0 anomalie, messagerie inchangee depuis la
+  ronde 47. ledenicheur09 attend toujours la validation du Kid Icarus a 15 EUR.
+  · ZELDA OCARINA OF TIME N64 — mesure faite sur les cinq exemplaires les moins chers,
+    description lue une par une : 16,45 EUR japonais, 21,70 EUR « JAP », puis 32,20 /
+    37,45 / 42,69 EUR tous europeens. Le plancher europeen est donc a ~32 EUR, soit
+    36,86 rendu contre 19,57 de cote loose = +88 %. Aucune affaire.
+    REJETS : 9068095818 a 13 EUR et 9524619632 a 15 EUR, tous deux NTSC-J annonces
+    UNIQUEMENT dans la description, titre parfaitement propre ; 9608705046 « JAP ».
+    Les trois likes ont ete retires.
+  · LIKES : 46 nets sur Ocarina of Time (49 moins 3).
+  · PROMOTION dans SKILL.md : la regle « prix bas = import japonais » existait deja, je
+    l'ai enrichie de la mesure du jour au lieu d'ajouter une ligne — sur N64 tout le bas
+    du classement prix est japonais, il faut lire la description de chaque annonce sous
+    la cote loose avant de liker.
