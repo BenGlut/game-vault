@@ -742,3 +742,16 @@ Keep 60 days; beyond that, compact.
     « fur nintendo gamecube » allemand — like retire.
   · LIKES : 59 nets sur Resident Evil 4 (60 moins 1).
   · ledenicheur09 : message d'action sur la commande payee, rien a repondre.
+- 2026-08-11 — ronde 53. AUCUN MOUVEMENT : 18 transactions inchangees (5 livrees, 10 en
+  cours, 3 remboursees), base a 16 commandes et 0 anomalie, aucun message vendeur nouveau.
+  · Rhythm Paradise DS : 33 likes, aucune affaire. Le meilleur exemplaire est a +9 % sur
+    la cote loose. REJETS : 3232770021 a 8 EUR = « Gioco DS », italien annonce uniquement
+    en description (like retire) ; 859527948 « lot de 2 jeux DS Rhythm paradise et
+    ultimate… » a 9 EUR = 13,20 rendu, soit +8 % pour le seul jeu voulu, le second non
+    identifie, et l'id tres bas signale une annonce ancienne au prix fige.
+  · LIKES : 32 nets sur Rhythm Paradise.
+  · CONSTAT DE FOND, apres une dizaine de rondes : la wishlist restante est saturee.
+    GameCube et N64 sortent systematiquement entre +30 et +100 % de la cote
+    internationale, et les seules vraies affaires trouvees (Kid Icarus -25 %, Luigi's
+    Mansion 3 -34 %) etaient DS/3DS/Switch en boite. Concentrer les prochaines rondes
+    sur ce segment, et traiter GameCube/N64 en veille passive via les likes.
