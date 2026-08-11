@@ -755,3 +755,21 @@ Keep 60 days; beyond that, compact.
     internationale, et les seules vraies affaires trouvees (Kid Icarus -25 %, Luigi's
     Mansion 3 -34 %) etaient DS/3DS/Switch en boite. Concentrer les prochaines rondes
     sur ce segment, et traiter GameCube/N64 en veille passive via les likes.
+- 2026-08-11 — ronde 53 bis, CHASSE DS a la demande de benglut, et NOUVELLE REGLE FERME :
+  « je ne prends que des versions boite FR ». Promue dans SKILL.md — loose, boite vide,
+  import et edition etrangere sont refuses quel que soit l'ecart.
+  Balayage des 8 titres DS de la wishlist, description lue sur les 6 moins chers de
+  chaque titre. Sous la regle boite FR, il ne reste QU'UN candidat sur les trois titres
+  les plus demandes :
+  · Castlevania Dawn of Sorrow 9244615557, « DS Pal Fr », en boite avec poster mais
+    SANS MANUEL, 34,20 EUR rendu contre 32,21 de cote CIB = +6 %. Pas une affaire au
+    prix demande ; une offre a 25 EUR le ferait passer a 30,00 rendu, soit -7 %.
+    Offre non posee : le modal exige un onglet au premier plan, aucun ne l'etait.
+  · Ghost Trick : AUCUNE boite FR. 8923636859 a -3 % est une « scheda » italienne
+    (cartouche seule) ; les suivants sont allemands (« Phantom-Detektiv », « Mit
+    Anleitung », « Vollstandig ») ; le seul francais est une cartouche seule a +17 %.
+  · Zelda Spirit Tracks : AUCUNE boite FR. Les six moins chers = trois japonais/asiatiques
+    (dont 9542922636 « the game is Japan », en anglais, que mon filtre ratait), deux
+    boites vides annoncees « No game »/« boite seule », et un francais LOOSE a +40 %.
+  · Layton Destin Perdu +165 %, The World Ends With You +239 % : hors de portee.
+  · Likes retires : le Ghost Trick italien et le Spirit Tracks « version jap ».

@@ -88,3 +88,11 @@ promu dans `SKILL.md`.*
 - 2026-08-11 — Une reedition economique (« Le Choix des Joueurs », « Player's Choice »,
   « Nintendo Selects ») ne vaut PAS plus que l'edition normale : la cote CIB s'applique
   telle quelle. Un vendeur qui la met en avant justifie souvent un prix superieur.
+- 2026-08-11 — Sur DS aussi, le bas du classement prix est integralement disqualifie :
+  sur Spirit Tracks, Ghost Trick et Castlevania, les six moins chers de chaque titre sont
+  des imports, des cartouches seules ou des boites vides. Le premier exemplaire boite FR
+  arrive systematiquement AU-DESSUS de la cote. Lire les six premieres descriptions est
+  donc le minimum avant d'annoncer quoi que ce soit sur un titre DS.
+- 2026-08-11 — L'origine etrangere s'annonce aussi en ANGLAIS : « the game is Japan »,
+  « Asia version », « box and manual only ». Un filtre qui ne cherche que « jap »,
+  « japon » ou « boite seule » les laisse passer.
