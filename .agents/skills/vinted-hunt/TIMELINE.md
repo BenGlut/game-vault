@@ -518,3 +518,20 @@ Keep 60 days; beyond that, compact.
     total (coussin de grossesse, moulinet de peche, turbulette) et 3 jeux, 11 ventes,
     note 0,92. Ses deux autres jeux sont Game Boy, hors perimetre.
     A ACHETER DIRECTEMENT — a ce prix une offre ne ferait que retarder.
+- 2026-08-11 — ronde 41. Aucune commande nouvelle, base inchangee (13 commandes, 0 anomalie).
+  Le Luigi's Mansion 3 a 10 EUR chez oli72300 (item 9633725677) est TOUJOURS disponible
+  et reste la meilleure affaire ouverte : ~14,25 EUR rendu contre 21,53 de cote loose.
+  · 6 nouvelles sollicitations vendeurs, toutes REJETEES avec motif :
+    benjamindb86 Spirit Tracks 39,90 EUR : 45,65 rendu contre cote CIB 31,43 = +45 %.
+    paul.crlt Spirit Tracks 60 EUR : +113 %. nanakrzyk « Ghost Trick Detective Fantasma »
+    45 EUR : +44 % ET version espagnole. juandaniel13 « Juego » Spirit Tracks 25 EUR :
+    -5 % seulement, edition espagnole et port international, pas assez pour le risque
+    de langue. peppex2007 : vendeur italien, message en italien, meme motif.
+    milcakb Odyssey 30 EUR : 35,25 rendu contre 27,12 de cote CIB = +30 %.
+  · Kirby Super Star Ultra chez timy0_0 (item 9245702237) : 45,85 EUR, ~48,90 rendu
+    contre 56,27 de cote loose, soit -13 %. CARTOUCHE SEULE. Au-dessus du plafond de
+    40 EUR/article : preparee et laissee a benglut, comme le prevoit le skill.
+    Rejetes au passage : « solo cartuccia » (italien), « fur Nintendo DS » (allemand).
+  · LIKES : 58 (Chrono Trigger 30, Kirby Super Star Ultra 28).
+  · charlesgdx (lot a 48 EUR) et lilinayaa03 (LM3 a 20 EUR) n'ont pas repondu : pas de
+    relance, regle du message unique par vendeur et par jour.

@@ -186,3 +186,14 @@ pièges d'API promus dans `SKILL.md`. 26 lignes retirées.*
   d'arriere-plan, alors que ceux de la grille catalogue fonctionnent. Pour liker un
   article precis sans passer au premier plan, ouvrir la recherche qui le contient et
   cliquer son coeur dans la grille.
+- 2026-08-11 — CORRECTION de la lecon posee plus tot le meme jour : « Prix de l'offre
+  trop bas » n'est PAS un plancher de prix. Mesure sur un article a 30 EUR : 22, 24, 25,
+  26, 28 et meme 29 EUR (97 % du prix demande) renvoient tous le meme message. Le canal
+  d'offre par API est donc bloque ou sous quota apres plusieurs envois, et le message
+  d'erreur induit en erreur. Ne pas s'en servir pour calibrer une offre ; repasser par
+  le modal de la fiche, qui lui fonctionne (onglet au premier plan obligatoire).
+- 2026-08-11 — Les sollicitations spontanees arrivent en masse sur les titres likes la
+  veille, mais elles portent presque toujours sur des annonces DEJA au-dessus de la cote
+  et baissent de 10 a 20 % : elles restent au-dessus. Les traiter en lot, verifier la
+  langue dans le titre (« juego », « cartuccia », « fur », « fantasma ») avant tout
+  calcul d'ecart — c'est le filtre le plus rentable sur ce flux.
