@@ -81,6 +81,22 @@ export interface GameRow {
   coverUrl: string | null;
 }
 
+/**
+ * Statuts qui valent possession ou achat engagé. Un exemplaire dans l'un d'eux
+ * couvre le besoin : le jeu n'est plus à acheter.
+ */
+const ACQUIS = new Set(["owned", "ordered", "fulfilled", "delivered"]);
+
+/**
+ * Le jeu est-il encore à acheter ? Il faut une ligne wishlist ET aucun exemplaire
+ * possédé ou en cours d'acheminement — une ligne wishlist résiduelle ne suffit pas
+ * à le remettre dans les listes d'achat. Il y revient dès que la commande tombe
+ * (annulée, remboursée) et qu'il ne reste rien en stock.
+ */
+export function stillWanted(row: GameRow): boolean {
+  return row.items.some((i) => i.status === "wishlist") && !row.items.some((i) => ACQUIS.has(i.status));
+}
+
 /** Préfixe de chemin (GitHub Pages sert le site sous /game-vault). */
 export const BASE_PATH = process.env.GITHUB_PAGES === "true" ? "/game-vault" : "";
 

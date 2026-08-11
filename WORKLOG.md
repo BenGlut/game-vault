@@ -237,3 +237,9 @@
 - Commande Vinted du 11 août enregistrée : lot Kid Icarus Uprising + Pokémon Soleil
   chez lucietesolat, 32,83 € tout compris, réparti au prorata des prix affichés ;
   référence de transaction Vinted renseignée pour lever l'ambiguïté d'appariement
+- Un achat validé sort le jeu des listes d'achat : Recommandations, Wishlist, compteur
+  du tableau de bord et badge du catalogue partagent désormais une seule règle
+  (`stillWanted` dans `src/lib/data.ts`) — une ligne wishlist résiduelle ne suffit plus
+  à faire réapparaître un jeu déjà commandé ou possédé. Il n'y revient que si la
+  commande tombe (annulée, remboursée) et qu'il ne reste aucun exemplaire en stock.
+  Règle verrouillée par `tests/still-wanted.test.ts`

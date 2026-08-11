@@ -1,10 +1,10 @@
-import { getGameRows, getQuotes, getOrdersByGame } from "@/lib/data";
+import { getGameRows, getQuotes, getOrdersByGame, stillWanted } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import WishlistClient from "@/components/WishlistClient";
 import { GameDrawerProvider } from "@/components/GameDrawer";
 
 export default function WishlistPage() {
-  const rows = getGameRows().filter((r) => r.items.some((i) => i.status === "wishlist"));
+  const rows = getGameRows().filter(stillWanted);
   return (
     <div>
       <PageTitle title="Wishlist" sub="Jeux recherchés — pas encore possédés ni commandés" />

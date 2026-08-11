@@ -1,4 +1,4 @@
-import { getGameRows, getQuotes, getOrdersByGame, euro, type GameRow } from "@/lib/data";
+import { getGameRows, getQuotes, getOrdersByGame, euro, stillWanted, type GameRow } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import { GameCard, GameGrid } from "@/components/GameCard";
 import { GameDrawerProvider } from "@/components/GameDrawer";
@@ -41,7 +41,7 @@ function RecommendationCard({ row }: { row: GameRow }) {
 }
 
 export default function RecommendationsPage() {
-  const wishlist = getGameRows().filter((r) => r.items.some((i) => i.status === "wishlist"));
+  const wishlist = getGameRows().filter(stillWanted);
 
   // regroupement par plateforme, la console la mieux fournie d'abord
   const byPlatform = new Map<string, GameRow[]>();

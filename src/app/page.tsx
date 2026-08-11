@@ -11,6 +11,7 @@ import {
   POSSESSION,
   STATUS_LABELS,
   type GameRow,
+  stillWanted,
 } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import { GameCard } from "@/components/GameCard";
@@ -71,7 +72,7 @@ export default function Dashboard() {
   const platforms = getPlatforms();
 
   const owned = rows.filter((r) => r.items.some((i) => POSSESSION.includes(i.status)));
-  const wishlist = rows.filter((r) => r.items.some((i) => i.status === "wishlist"));
+  const wishlist = rows.filter(stillWanted);
   const inTransit = orders.filter((o) => ["ordered", "fulfilled"].includes(o.status));
   const spent = orders
     .filter((o) => !["cancelled", "refunded"].includes(o.status))

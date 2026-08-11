@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { normalizeTitle } from "./normalize";
-import { POSSESSION } from "./data";
+import { POSSESSION, stillWanted } from "./data";
 import type { GameRow } from "./data";
 
 /**
@@ -63,7 +63,7 @@ export function buildEntryLinks(rows: GameRow[]): Record<string, CatalogGameLink
       const link: CatalogGameLink = {
         id: row.game.id,
         owned: row.items.some((i) => POSSESSION.includes(i.status)),
-        wishlist: row.items.some((i) => i.status === "wishlist"),
+        wishlist: stillWanted(row),
         quality: row.game.qualityTier,
       };
       const candidates = [row.game.normalizedTitle, ...row.game.aliases.map(normalizeTitle)];
