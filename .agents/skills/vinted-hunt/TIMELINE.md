@@ -554,3 +554,25 @@ Keep 60 days; beyond that, compact.
   · MON ERREUR, corrigee dans la foulee : la passe TWEWY a like 7 articles hors sujet
     (porte-cles, CD/OST, et surtout « NEO The World Ends With You », qui est un AUTRE
     jeu). Retires par API dans la meme ronde.
+- 2026-08-11 — ronde 43. Rien de neuf cote commandes ni messagerie : memes 13 commandes,
+  memes fils, aucun message vendeur depuis la ronde 42. Base 0 anomalie.
+  Le Luigi's Mansion 3 a 10 EUR chez oli72300 (9633725677) reste disponible.
+  · LIKES : 155 nets — Castlevania Dawn of Sorrow 60 (moins 12 retires), Zelda Phantom
+    Hourglass 60 (moins 1), Bravely Default deja fait ronde 42. Les retraits corrigent
+    des jeux voisins passes au filtre : Aria of Sorrow, Dominus Collection, Portrait of
+    Ruin, et le duo Minish Cap / Phantom Hourglass.
+  · REJETS avec motif :
+    · Castlevania Dawn of Sorrow 7453062277, 24,65 EUR rendu (-6 % loose) : vendeur
+      italien, « venduta solo la cartuccia » — cartouche seule, et l'ecart ne paie pas
+      le port international. Multilingue francais confirme, mais insuffisant.
+    · Zelda Phantom Hourglass 9513625135 a 5,00 EUR (9,00 rendu, -28 %) : description
+      d'une seule ligne, aucune photo de carte, prix a moitie du marche. Refuse au titre
+      du standard d'authentification.
+    · « Zelda the minish cap / phantom hourglass » 9602943572 a 8,00 EUR les deux :
+      profil exact du lot repro deja identifie sur Minish Cap. Like retire.
+  · ENTRETIEN DU SKILL : deux regles de SKILL.md etaient devenues FAUSSES et ont ete
+    reecrites — le like par coordonnees avec verification du coeur rouge (c'est le clic
+    DOM sur la grille qui marche, sans temporisation) et l'envoi de message par setter
+    React puis fleche (c'est `/conversations/<id>/replies`). Ajout du modal d'offre qui
+    exige l'onglet actif, du piege « protection incluse » et des suites/derives a exclure.
+    LEARNED.md compacte de 208 a 74 lignes (27 lecons).

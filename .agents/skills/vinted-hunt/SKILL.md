@@ -85,23 +85,30 @@ unchanged; only revisit when the state moved (new reply, price drop, status chan
 
 Read threads whose last message is the seller's.
 
-**Typing**: never `computer{action:"type"}` for long text — it drops characters
-(2026-08-10, a truncated message went out). Set the textarea through React's native
-setter, then click the field, then `Return`:
-
-```js
-const ta = document.querySelector('textarea[placeholder="Envoyer un message"]');
-const set = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
-set.call(ta, txt); ta.dispatchEvent(new Event('input', { bubbles: true }));
-```
-
-After sending, verify the message is in the thread and the field is empty.
+**Replying**: `POST /api/v2/conversations/<id>/replies`, body `{reply:{body:txt}}`,
+header `X-CSRF-Token` (extract with `/CSRF_TOKEN\\?":\\?"([0-9a-f-]{36})/` from any
+page's HTML). Works in a background tab, no clicking, no dropped characters. Creating
+a *new* thread this way returns 403 — for an unknown seller use the listing's
+"Message" button, which needs the foreground tab.
 
 **Interface and API quirks, all field-verified:**
 
-- Liking: a JS `.click()` fails when the button is off-screen. Scroll to the heart,
-  click its coordinates, then confirm it turned red and the counter rose. Never report
-  a like without that check. `/api/v2/user_favourites/toggle` returns 403 (no CSRF).
+- **Liking goes through the DOM, never the API.** On a catalog page,
+  `document.querySelectorAll('button[aria-label*="favoris"]')` yields ~148 hearts and
+  `b.click()` really toggles them (the aria-label flips to "Supprimer des favoris").
+  Put **no delay** in the loop: a background tab throttles timers to ~1/minute and the
+  CDP call dies at 45 s, whereas 60 delay-free clicks land at once. The API
+  `/api/v2/user_favourites/toggle` (body `{type:'item',user_id,item_ids:[id]}`) only
+  ever **removes** — on an add it answers `200 {"code":0,"message":"Ok"}` and does
+  nothing, so a counter built on the status code lies. Read `is_favourite` back from
+  `/api/v2/catalog/items`, which is live; the favourites *list* endpoint is cached and
+  still shows an item minutes after it was removed.
+- Making an offer needs the listing modal and therefore the **foreground tab**: in a
+  background tab the button clicks silently and no field appears. Once open, set
+  `#offer` through React's native value setter, then click "Proposer <montant>".
+  `POST /api/v2/transactions/<tx>/offer_requests` exists but answers "Prix de l'offre
+  trop bas" even at 97 % of the asking price — the message is misleading and the
+  channel unusable.
 - `/api/v2/items/<id>` returns 404 — useless anyway: `/api/v2/catalog/items` already
   carries title, total price, condition, photos, seller and URL.
 - Seller's full wardrobe: `/api/v2/wardrobe/<user_id>/items`. `/api/v2/users/<id>/items`
@@ -154,8 +161,17 @@ obfuscated spellings with digits (« Cardm0d », « repr0 ») used to slip past 
 a Nintendo original — 2026-08-11: a « Minish Cap » boxed at 21,70 € against a 124 € quote
 was one, the word appeared only in the description), notice, boitier, boîte/boite in first position, boîte de protection, goodies,
 poster, housse, jaquette, coque, carte / carte VIP, keychain / porte-clés, pin's, demo,
-vide, sans le jeu, repro, custom. Then drop foreign editions: jap/japon/ntsc/import,
-deutsch/USK, ita/italiano, españa, nederlands.
+vide, sans le jeu, repro, custom, and the merch that a title search always drags in —
+OST / CD / vinyle / soundtrack / artbook / badge. Then drop foreign editions:
+jap/japon/ntsc/import, deutsch/USK, ita/italiano/gioco/cartuccia, españa/juego,
+nederlands. **Exclude the sequels and remakes by name too**, or the search silently
+prices the wrong game: "NEO The World Ends With You", Aria of Sorrow next to Dawn of
+Sorrow, Luigi's Mansion 2 next to 3.
+
+**Filter the title, not the card label.** A catalog card's `title` attribute reads
+`<titre>, État: <état>, <prix> €, <prix> € protection incluse` — so a naive "protection"
+filter (meant for protective cases) rejects every priced listing, and the état/price tail
+pollutes every other match. Cut at `/,\s*[ée]tat:/` first, then filter.
 
 **Judge the seller's SET, not the label.** The decisive counterfeit tell is not print
 quality — repro labels photograph as convincingly as originals — it is **the combination
