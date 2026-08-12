@@ -64,6 +64,12 @@
   arrière sans perdre les sélections — `CollectionExplorer.tsx`, `CatalogClient.tsx`
 - Index de recherche publié enrichi (région, qualité) — `scripts/vault/lib/publish.ts`
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
+- Périmètre de chasse élargi aux titres notés S/A hors wishlist (décision benglut du
+  2026-08-12), sous deux conditions fermes : ni possédé ni commandé, et prix au plus
+  égal à la cote ; coût marginal d'un article ajouté à un lot chiffré
+  (`affiché × remise × 1,05`, rentable jusqu'à `cote × 1,12`), avec les deux pièges
+  mesurés — palier de remise sans gain et tranche de port — et le rappel qu'une offre
+  au plancher bat toujours le remplissage — `.agents/skills/vinted-hunt/SKILL.md`
 
 ## Fixed
 - Prix d'achat de Super Mario 3D All-Stars corrigé : le lot à 48,05 € contenait

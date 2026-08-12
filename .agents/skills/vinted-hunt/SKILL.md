@@ -130,6 +130,19 @@ the wishlist as collection goals; they are simply not hunted here.
 
 Targets: the prioritised wishlist (`/recommandations`), minus the three platforms above.
 
+**Off-wishlist titles are eligible when the rating carries them** (benglut, 2026-08-12:
+« on peut prendre des jeux qui sont pas dans la wishlist s'ils sont bien coté niveau
+qualité »). A title rated S or A — in the base or in `scripts/catalog/quality-map.json`
+— is a target even though nobody listed it: the rating is the reason to want it. Two
+conditions, both required:
+
+- not already `owned` or `ordered`. Check that first, before the price: a genuine
+  bargain is very often a duplicate;
+- at or under its quote. The rating never buys a premium — an S paid above quote is a
+  bad purchase exactly like a D would be.
+
+A title with no quote in base gets one **before** the decision, never after.
+
 Compare each candidate to market via `pnpm vault deal` (dry-run by default, `--yes`
 writes). Quotes are PAL PriceCharting readings converted to euros — an international
 market, dearer than Vinted France. A listing at the median is not a deal: aim well below.
@@ -230,6 +243,20 @@ Do the arithmetic before adding anything, and only proceed when:
 
 The filler is dead weight, not a bonus. Below the next count threshold, adding items
 only raises the bill. Check the seller's discount grid before assuming a step exists.
+
+**Marginal cost of one added item**, once the lot already crosses a step and the target
+pays the shipping: `displayed × discount × 1,05`. At -15 % that is `displayed × 0,89`,
+so an addition pays for itself while `displayed ≤ quote × 1,12` — which is what makes a
+rated S/A title a far better filler than junk at 1 €. Two measured traps (2026-08-12):
+
+- **A further step can be worth exactly nothing.** 32 € at -15 % and 34 € at -20 % both
+  come to 27,20 €: padding from 3 to 5 items with 1 € junk saved not one cent.
+- **Shipping is banded by weight.** Two bulky 1 € items can push the parcel into the
+  next band (+1,50 to 2 €) and eat most of the discount. Read the shipping line the
+  basket shows, before paying.
+
+And filling never beats offering: on a game at 30 € displayed, filler took the delivered
+price from 35,25 € to 32,31 €, while an offer at the 60 % floor took it to 22,65 €.
 
 Consequences, both mandatory:
 
