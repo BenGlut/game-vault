@@ -474,5 +474,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 16.45
+  },
+  {
+    "id": "order_msq9al2g",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_yoshi-touch-go"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_yoshi-touch-go",
+        "inventoryId": "inv_ds_yoshi-touch-go",
+        "unitPrice": 17.34
+      }
+    ],
+    "orderedAt": "2026-08-12",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 17.34
   }
 ]

@@ -3305,5 +3305,15 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_yoshi-touch-go",
+    "t": "Yoshi Touch & Go",
+    "n": "yoshi touch go",
+    "a": [],
+    "f": "Yoshi",
+    "p": "ds",
+    "r": "PAL-EU",
+    "q": null
   }
 ]

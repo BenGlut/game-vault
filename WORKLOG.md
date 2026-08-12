@@ -71,6 +71,10 @@
   mesurés — palier de remise sans gain et tranche de port — et le rappel qu'une offre
   au plancher bat toujours le remplissage — `.agents/skills/vinted-hunt/SKILL.md`
 
+- Yoshi Touch & Go (DS, PAL-EU, boîte sans notice) ajouté et rattaché à une commande
+  Vinted du 12/08 chez albandamet — 17,34 € rendus (13 € article + 1,35 € protection
+  + 2,99 € port) ; export public régénéré (303 jeux, 341 lignes)
+
 ## Fixed
 - Prix d'achat de Super Mario 3D All-Stars corrigé : le lot à 48,05 € contenait
   quatre articles textile en plus du jeu, celui-ci reçoit 41,07 € au prorata des

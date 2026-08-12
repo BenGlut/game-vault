@@ -6627,5 +6627,26 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_yoshi-touch-go",
+    "canonicalTitle": "Yoshi Touch & Go",
+    "normalizedTitle": "yoshi touch go",
+    "aliases": [],
+    "franchise": "Yoshi",
+    "platformId": "ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2005,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

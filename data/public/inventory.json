@@ -7339,5 +7339,24 @@
     "acquiredAt": null,
     "orderId": "order_msp5gpav",
     "updatedAt": "2026-08-11T21:05:47.293Z"
+  },
+  {
+    "id": "inv_ds_yoshi-touch-go",
+    "gameId": "game_ds_yoshi-touch-go",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "good",
+    "completeness": "no_manual",
+    "purchasePrice": {
+      "amount": 17.34,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msq9al2g",
+    "updatedAt": "2026-08-12T15:41:10.195Z"
   }
 ]
