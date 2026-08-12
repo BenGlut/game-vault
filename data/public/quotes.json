@@ -2450,19 +2450,19 @@
   "game_3ds_bravely-default": {
     "cib": {
       "low": 12.94,
-      "median": 20.64,
-      "high": 23.42,
+      "median": 12.94,
+      "high": 12.94,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-12"
     },
     "loose": {
       "low": 11.59,
-      "median": 17.37,
-      "high": 20.09,
+      "median": 11.59,
+      "high": 11.59,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-12"
     }
   },
   "game_3ds_shin-megami-tensei-iv": {
@@ -2613,10 +2613,10 @@
     "cib": {
       "low": 4.33,
       "median": 4.33,
-      "high": 5.92,
+      "high": 4.33,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     },
     "loose": {
       "low": 3.09,

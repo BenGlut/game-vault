@@ -825,3 +825,9 @@ Keep 60 days; beyond that, compact.
     refuse toute offre sous 60 % de l'affiche (55 x 0,60 = 33). Verdict a ce prix :
     ~38,40 EUR rendu contre 29,05 de cotes cumulees = +32 %. Ce n'est plus une affaire ;
     signale a benglut avant qu'il ne paie si la vendeuse accepte.
+- 2026-08-12 — Bravely Default 3DS complet a 22 EUR, soumis par benglut : REJETE.
+  Cote du jour relevee : CIB 12,94 EUR / loose 11,59 (neuf 39,76). A 22 EUR affiches le
+  rendu est 26,85 = +107 %. La mediane stockee (20,64) etait 1,6x le comptant — ce titre
+  figurait deja parmi les trois pires ecarts de l'audit de bandes. Cote corrigee en base.
+  Rappel : l'offre spontanee du vendeur (yurgle, 21 EUR ronde 44) partait elle aussi d'un
+  prix tres au-dessus du marche.

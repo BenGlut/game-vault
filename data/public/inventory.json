@@ -3964,16 +3964,16 @@
     "currentEstimate": {
       "low": 4.33,
       "median": 4.33,
-      "high": 5.92,
+      "high": 4.33,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-11"
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msl51ugw",
-    "updatedAt": "2026-08-10T09:12:11.235Z"
+    "updatedAt": "2026-08-11T21:44:38.252Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-le-destin-perdu",
