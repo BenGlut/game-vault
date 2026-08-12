@@ -76,6 +76,11 @@
   + 2,99 € port) ; export public régénéré (303 jeux, 341 lignes)
 
 ## Fixed
+- Frais de port manquants sur trois commandes Vinted, recalées sur les montants
+  réellement débités lus dans « Mes commandes » : Kid Icarus seul 16,45 → 19,44 €,
+  lot Kid Icarus + Pokémon Soleil 32,83 → 37,18 € (port réparti au prorata),
+  Captain Toad seul 20,48 → 22,06 € — 8,92 € qui manquaient au total investi
+
 - Prix d'achat de Super Mario 3D All-Stars corrigé : le lot à 48,05 € contenait
   quatre articles textile en plus du jeu, celui-ci reçoit 41,07 € au prorata des
   valeurs affichées au lieu du total
