@@ -3305,5 +3305,705 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_yoshi-touch-go",
+    "t": "Yoshi Touch & Go",
+    "n": "yoshi touch go",
+    "a": [],
+    "f": "Yoshi",
+    "p": "ds",
+    "r": "PAL-EU",
+    "q": null
+  },
+  {
+    "id": "game_ds_professeur-layton-et-l-appel-du-spectre",
+    "t": "Professeur Layton et l'Appel du Spectre",
+    "n": "professeur layton et l appel du spectre",
+    "a": [],
+    "f": "Professeur Layton",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_professeur-layton-et-le-masque-des-miracles",
+    "t": "Professeur Layton et le Masque des Miracles",
+    "n": "professeur layton et le masque des miracles",
+    "a": [],
+    "f": "Professeur Layton",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_professeur-layton-et-l-heritage-des-aslantes",
+    "t": "Professeur Layton et l'Héritage des Aslantes",
+    "n": "professeur layton et l heritage des aslantes",
+    "a": [],
+    "f": "Professeur Layton",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
+    "t": "Professeur Layton vs Phoenix Wright: Ace Attorney",
+    "n": "professeur layton vs phoenix wright ace attorney",
+    "a": [],
+    "f": "Professeur Layton",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
+    "t": "Layton's Mystery Journey : Katrielle et la Conspiration des Millionnaires",
+    "n": "layton s mystery journey katrielle et la conspiration des millionnaires",
+    "a": [],
+    "f": "Professeur Layton",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_sonic-generations",
+    "t": "Sonic Generations",
+    "n": "sonic generations",
+    "a": [],
+    "f": "Sonic",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_sonic-lost-world",
+    "t": "Sonic Lost World",
+    "n": "sonic lost world",
+    "a": [],
+    "f": "Sonic",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_sonic-boom-feu-glace",
+    "t": "Sonic Boom : Feu & Glace",
+    "n": "sonic boom feu glace",
+    "a": [],
+    "f": "Sonic",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_sonic-advance",
+    "t": "Sonic Advance",
+    "n": "sonic advance",
+    "a": [],
+    "f": "Sonic",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_sonic-advance-2",
+    "t": "Sonic Advance 2",
+    "n": "sonic advance 2",
+    "a": [],
+    "f": "Sonic",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_sonic-advance-3",
+    "t": "Sonic Advance 3",
+    "n": "sonic advance 3",
+    "a": [],
+    "f": "Sonic",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_sonic-battle",
+    "t": "Sonic Battle",
+    "n": "sonic battle",
+    "a": [],
+    "f": "Sonic",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_sonic-pinball-party",
+    "t": "Sonic Pinball Party",
+    "n": "sonic pinball party",
+    "a": [],
+    "f": "Sonic",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_sonic-adventure-dx-director-s-cut",
+    "t": "Sonic Adventure DX: Director's Cut",
+    "n": "sonic adventure dx director s cut",
+    "a": [],
+    "f": "Sonic",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_sonic-adventure-2-battle",
+    "t": "Sonic Adventure 2: Battle",
+    "n": "sonic adventure 2 battle",
+    "a": [],
+    "f": "Sonic",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_sonic-heroes",
+    "t": "Sonic Heroes",
+    "n": "sonic heroes",
+    "a": [],
+    "f": "Sonic",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_sonic-mega-collection",
+    "t": "Sonic Mega Collection",
+    "n": "sonic mega collection",
+    "a": [],
+    "f": "Sonic",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_sonic-gems-collection",
+    "t": "Sonic Gems Collection",
+    "n": "sonic gems collection",
+    "a": [],
+    "f": "Sonic",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_shadow-the-hedgehog",
+    "t": "Shadow the Hedgehog",
+    "n": "shadow the hedgehog",
+    "a": [],
+    "f": "Sonic",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_sonic-mania",
+    "t": "Sonic Mania",
+    "n": "sonic mania",
+    "a": [],
+    "f": "Sonic",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_sonic-frontiers",
+    "t": "Sonic Frontiers",
+    "n": "sonic frontiers",
+    "a": [],
+    "f": "Sonic",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_sonic-origins-plus",
+    "t": "Sonic Origins Plus",
+    "n": "sonic origins plus",
+    "a": [],
+    "f": "Sonic",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_sonic-superstars",
+    "t": "Sonic Superstars",
+    "n": "sonic superstars",
+    "a": [],
+    "f": "Sonic",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_team-sonic-racing",
+    "t": "Team Sonic Racing",
+    "n": "team sonic racing",
+    "a": [],
+    "f": "Sonic",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_sonic-x-shadow-generations",
+    "t": "Sonic X Shadow Generations",
+    "n": "sonic x shadow generations",
+    "a": [],
+    "f": "Sonic",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_final-fantasy-iv",
+    "t": "Final Fantasy IV",
+    "n": "final fantasy iv",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_final-fantasy-xii-revenant-wings",
+    "t": "Final Fantasy XII: Revenant Wings",
+    "n": "final fantasy xii revenant wings",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_final-fantasy-crystal-chronicles-ring-of-fates",
+    "t": "Final Fantasy Crystal Chronicles: Ring of Fates",
+    "n": "final fantasy crystal chronicles ring of fates",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_final-fantasy-i-ii-dawn-of-souls",
+    "t": "Final Fantasy I & II: Dawn of Souls",
+    "n": "final fantasy i ii dawn of souls",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_final-fantasy-iv-advance",
+    "t": "Final Fantasy IV Advance",
+    "n": "final fantasy iv advance",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_final-fantasy-v-advance",
+    "t": "Final Fantasy V Advance",
+    "n": "final fantasy v advance",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_final-fantasy-vi-advance",
+    "t": "Final Fantasy VI Advance",
+    "n": "final fantasy vi advance",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_theatrhythm-final-fantasy-curtain-call",
+    "t": "Theatrhythm Final Fantasy: Curtain Call",
+    "n": "theatrhythm final fantasy curtain call",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_final-fantasy-explorers",
+    "t": "Final Fantasy Explorers",
+    "n": "final fantasy explorers",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_final-fantasy-crystal-chronicles",
+    "t": "Final Fantasy Crystal Chronicles",
+    "n": "final fantasy crystal chronicles",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_final-fantasy-vii",
+    "t": "Final Fantasy VII",
+    "n": "final fantasy vii",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_final-fantasy-viii-remastered",
+    "t": "Final Fantasy VIII Remastered",
+    "n": "final fantasy viii remastered",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_final-fantasy-ix",
+    "t": "Final Fantasy IX",
+    "n": "final fantasy ix",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_final-fantasy-x-x-2-hd-remaster",
+    "t": "Final Fantasy X / X-2 HD Remaster",
+    "n": "final fantasy x x 2 hd remaster",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_final-fantasy-xii-the-zodiac-age",
+    "t": "Final Fantasy XII: The Zodiac Age",
+    "n": "final fantasy xii the zodiac age",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_world-of-final-fantasy-maxima",
+    "t": "World of Final Fantasy Maxima",
+    "n": "world of final fantasy maxima",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_final-fantasy-crystal-chronicles-remastered-edition",
+    "t": "Final Fantasy Crystal Chronicles Remastered Edition",
+    "n": "final fantasy crystal chronicles remastered edition",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_snes_mystic-quest-legend",
+    "t": "Mystic Quest Legend",
+    "n": "mystic quest legend",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gb_mystic-quest",
+    "t": "Mystic Quest",
+    "n": "mystic quest",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "gb",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gbc_the-legend-of-zelda-oracle-of-ages",
+    "t": "The Legend of Zelda: Oracle of Ages",
+    "n": "the legend of zelda oracle of ages",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "gbc",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gbc_the-legend-of-zelda-oracle-of-seasons",
+    "t": "The Legend of Zelda: Oracle of Seasons",
+    "n": "the legend of zelda oracle of seasons",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "gbc",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_gbc_the-legend-of-zelda-link-s-awakening-dx",
+    "t": "The Legend of Zelda: Link's Awakening DX",
+    "n": "the legend of zelda link s awakening dx",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "gbc",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_n64_conker-s-bad-fur-day",
+    "t": "Conker's Bad Fur Day",
+    "n": "conker s bad fur day",
+    "a": [],
+    "f": null,
+    "p": "n64",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_metroid-dread",
+    "t": "Metroid Dread",
+    "n": "metroid dread",
+    "a": [],
+    "f": "Metroid",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_metroid-prime-remastered",
+    "t": "Metroid Prime Remastered",
+    "n": "metroid prime remastered",
+    "a": [],
+    "f": "Metroid",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_xenoblade-chronicles-3",
+    "t": "Xenoblade Chronicles 3",
+    "n": "xenoblade chronicles 3",
+    "a": [],
+    "f": "Xenoblade",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_animal-crossing-new-horizons",
+    "t": "Animal Crossing: New Horizons",
+    "n": "animal crossing new horizons",
+    "a": [],
+    "f": "Animal Crossing",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_super-mario-bros-wonder",
+    "t": "Super Mario Bros. Wonder",
+    "n": "super mario bros wonder",
+    "a": [],
+    "f": "Super Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_hades",
+    "t": "Hades",
+    "n": "hades",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_hollow-knight",
+    "t": "Hollow Knight",
+    "n": "hollow knight",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_celeste",
+    "t": "Celeste",
+    "n": "celeste",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_persona-5-royal",
+    "t": "Persona 5 Royal",
+    "n": "persona 5 royal",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_super-metroid",
+    "t": "Super Metroid",
+    "n": "super metroid",
+    "a": [],
+    "f": "Metroid",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_the-legend-of-zelda-a-link-to-the-past",
+    "t": "The Legend of Zelda: A Link to the Past",
+    "n": "the legend of zelda a link to the past",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_super-mario-world",
+    "t": "Super Mario World",
+    "n": "super mario world",
+    "a": [],
+    "f": "Super Mario",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_super-mario-world-2-yoshi-s-island",
+    "t": "Super Mario World 2: Yoshi's Island",
+    "n": "super mario world 2 yoshi s island",
+    "a": [],
+    "f": "Super Mario",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_donkey-kong-country",
+    "t": "Donkey Kong Country",
+    "n": "donkey kong country",
+    "a": [],
+    "f": "Donkey Kong",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_donkey-kong-country-2-diddy-s-kong-quest",
+    "t": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "n": "donkey kong country 2 diddy s kong quest",
+    "a": [],
+    "f": "Donkey Kong",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_secret-of-mana",
+    "t": "Secret of Mana",
+    "n": "secret of mana",
+    "a": [],
+    "f": "Mana",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_star-wing",
+    "t": "Star Wing",
+    "n": "star wing",
+    "a": [],
+    "f": "Star Fox",
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_snes_terranigma",
+    "t": "Terranigma",
+    "n": "terranigma",
+    "a": [],
+    "f": null,
+    "p": "snes",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_ds_grand-theft-auto-chinatown-wars",
+    "t": "Grand Theft Auto: Chinatown Wars",
+    "n": "grand theft auto chinatown wars",
+    "a": [],
+    "f": "Grand Theft Auto",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_3ds_shovel-knight",
+    "t": "Shovel Knight",
+    "n": "shovel knight",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_ds_sonic-classic-collection",
+    "t": "Sonic Classic Collection",
+    "n": "sonic classic collection",
+    "a": [],
+    "f": "Sonic",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

@@ -342,7 +342,7 @@
       {
         "gameId": "game_switch_captain-toad-treasure-tracker",
         "inventoryId": "inv_switch_captain-toad-treasure-tracker-3",
-        "unitPrice": 20.48
+        "unitPrice": 22.06
       }
     ],
     "orderedAt": "2026-08-10",
@@ -351,7 +351,7 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 20.48
+    "totalPaid": 22.06
   },
   {
     "id": "order_msolka8w",
@@ -366,12 +366,12 @@
       {
         "gameId": "game_3ds_kid-icarus-uprising",
         "inventoryId": "inv_3ds_kid-icarus-uprising",
-        "unitPrice": 19.31
+        "unitPrice": 21.87
       },
       {
         "gameId": "game_3ds_pokemon-soleil",
         "inventoryId": "inv_3ds_pokemon-soleil-2",
-        "unitPrice": 13.52
+        "unitPrice": 15.31
       }
     ],
     "orderedAt": "2026-08-11",
@@ -380,7 +380,7 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 32.83
+    "totalPaid": 37.18
   },
   {
     "id": "order_lucasklein04",
@@ -464,7 +464,7 @@
       {
         "gameId": "game_3ds_kid-icarus-uprising",
         "inventoryId": "inv_3ds_kid-icarus-uprising-2",
-        "unitPrice": 16.45
+        "unitPrice": 19.44
       }
     ],
     "orderedAt": "2026-08-11",
@@ -473,6 +473,29 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 16.45
+    "totalPaid": 19.44
+  },
+  {
+    "id": "order_msq9al2g",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_yoshi-touch-go"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_yoshi-touch-go",
+        "inventoryId": "inv_ds_yoshi-touch-go",
+        "unitPrice": 17.34
+      }
+    ],
+    "orderedAt": "2026-08-12",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 17.34
   }
 ]
