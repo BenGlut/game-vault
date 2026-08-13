@@ -58,6 +58,14 @@
   269 jeux / 273 lignes), 22 quantités corrigées (doublons ×2/×3 vérifiés),
   2 wishlist→owned (New Super Mario Bros. DS, Poochy & Yoshi's Woolly World) ;
   export public data/public régénéré
+- Wishlist de suivi de séries : 44 entrées ajoutées pour couvrir intégralement
+  Professeur Layton (5), Sonic (20 : GBA, GameCube, Switch, 3DS) et Final Fantasy
+  (19 : DS, GBA, 3DS, GameCube, Switch, SNES, GB), priorités haute/moyenne/basse
+- Couverture complète des jeux notés S sur toutes les plateformes : 24 entrées
+  ajoutées (9 SNES, 9 Switch, 3 GBC, 1 N64, 1 DS, 1 3DS) — 102 jeux tier S
+  désormais suivis, aucun sans entrée d'inventaire
+- Sonic Classic Collection (DS) remis en wishlist après annulation de la commande
+  par le vendeur
 
 ## Changed
 - Filtres persistés dans l'URL (Collection et Catalogue) : deep-link + retour
