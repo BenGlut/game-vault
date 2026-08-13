@@ -262,3 +262,8 @@
   11 références rétro-remplies sur les commandes existantes, et `check-drift` échoue
   si une commande marketplace n'en a pas. La réconciliation se fait par identifiant seul,
   sans repasser par vendeur + date + montant
+- Vue Commandes : panneau latéral dédié à la commande — cliquer une carte ouvre le suivi
+  daté (commandée, expédiée, reçue, annulée, remboursée, livraison estimée), la liste des
+  articles achetés avec le prix de chacun, la source, la somme des lignes confrontée au
+  total payé, et l'identifiant interne. Les jaquettes gardent leur propre panneau jeu
+- Vue Commandes : filtres « Toutes / En cours / Terminées / Annulées » avec compteurs
