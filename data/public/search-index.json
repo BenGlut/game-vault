@@ -3350,7 +3350,9 @@
     "id": "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
     "t": "Professeur Layton vs Phoenix Wright: Ace Attorney",
     "n": "professeur layton vs phoenix wright ace attorney",
-    "a": [],
+    "a": [
+      "Professor Layton vs. Phoenix Wright: Ace Attorney"
+    ],
     "f": "Professeur Layton",
     "p": "3ds",
     "r": "PAL-FR",
@@ -3360,7 +3362,9 @@
     "id": "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
     "t": "Layton's Mystery Journey : Katrielle et la Conspiration des Millionnaires",
     "n": "layton s mystery journey katrielle et la conspiration des millionnaires",
-    "a": [],
+    "a": [
+      "Layton's Mystery Journey: Katrielle and the Millionaires' Conspiracy"
+    ],
     "f": "Professeur Layton",
     "p": "3ds",
     "r": "PAL-FR",
@@ -3390,7 +3394,9 @@
     "id": "game_3ds_sonic-boom-feu-glace",
     "t": "Sonic Boom : Feu & Glace",
     "n": "sonic boom feu glace",
-    "a": [],
+    "a": [
+      "Sonic Boom: Fire & Ice"
+    ],
     "f": "Sonic",
     "p": "3ds",
     "r": "PAL-FR",
@@ -3960,7 +3966,9 @@
     "id": "game_snes_star-wing",
     "t": "Star Wing",
     "n": "star wing",
-    "a": [],
+    "a": [
+      "Star Fox"
+    ],
     "f": "Star Fox",
     "p": "snes",
     "r": "PAL-FR",
@@ -4010,7 +4018,9 @@
     "id": "game_3ds_kirby-au-fil-de-la-grande-aventure",
     "t": "Kirby : Au fil de la grande aventure",
     "n": "kirby au fil de la grande aventure",
-    "a": [],
+    "a": [
+      "Kirby's Extra Epic Yarn"
+    ],
     "f": "Kirby",
     "p": "3ds",
     "r": "PAL-FR",
@@ -4030,7 +4040,9 @@
     "id": "game_ds_another-code-memoires-doubles",
     "t": "Another Code : Mémoires Doubles",
     "n": "another code memoires doubles",
-    "a": [],
+    "a": [
+      "Another Code: Two Memories"
+    ],
     "f": "Another Code",
     "p": "ds",
     "r": "PAL-EU",

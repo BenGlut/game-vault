@@ -6716,7 +6716,9 @@
     "id": "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
     "canonicalTitle": "Professeur Layton vs Phoenix Wright: Ace Attorney",
     "normalizedTitle": "professeur layton vs phoenix wright ace attorney",
-    "aliases": [],
+    "aliases": [
+      "Professor Layton vs. Phoenix Wright: Ace Attorney"
+    ],
     "franchise": "Professeur Layton",
     "platformId": "3ds",
     "region": "PAL-FR",
@@ -6737,7 +6739,9 @@
     "id": "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
     "canonicalTitle": "Layton's Mystery Journey : Katrielle et la Conspiration des Millionnaires",
     "normalizedTitle": "layton s mystery journey katrielle et la conspiration des millionnaires",
-    "aliases": [],
+    "aliases": [
+      "Layton's Mystery Journey: Katrielle and the Millionaires' Conspiracy"
+    ],
     "franchise": "Professeur Layton",
     "platformId": "3ds",
     "region": "PAL-FR",
@@ -6800,7 +6804,9 @@
     "id": "game_3ds_sonic-boom-feu-glace",
     "canonicalTitle": "Sonic Boom : Feu & Glace",
     "normalizedTitle": "sonic boom feu glace",
-    "aliases": [],
+    "aliases": [
+      "Sonic Boom: Fire & Ice"
+    ],
     "franchise": "Sonic",
     "platformId": "3ds",
     "region": "PAL-FR",
@@ -7997,7 +8003,9 @@
     "id": "game_snes_star-wing",
     "canonicalTitle": "Star Wing",
     "normalizedTitle": "star wing",
-    "aliases": [],
+    "aliases": [
+      "Star Fox"
+    ],
     "franchise": "Star Fox",
     "platformId": "snes",
     "region": "PAL-FR",
@@ -8102,7 +8110,9 @@
     "id": "game_3ds_kirby-au-fil-de-la-grande-aventure",
     "canonicalTitle": "Kirby : Au fil de la grande aventure",
     "normalizedTitle": "kirby au fil de la grande aventure",
-    "aliases": [],
+    "aliases": [
+      "Kirby's Extra Epic Yarn"
+    ],
     "franchise": "Kirby",
     "platformId": "3ds",
     "region": "PAL-FR",
@@ -8144,7 +8154,9 @@
     "id": "game_ds_another-code-memoires-doubles",
     "canonicalTitle": "Another Code : Mémoires Doubles",
     "normalizedTitle": "another code memoires doubles",
-    "aliases": [],
+    "aliases": [
+      "Another Code: Two Memories"
+    ],
     "franchise": "Another Code",
     "platformId": "ds",
     "region": "PAL-EU",

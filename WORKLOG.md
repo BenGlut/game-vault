@@ -267,3 +267,8 @@
   articles achetés avec le prix de chacun, la source, la somme des lignes confrontée au
   total payé, et l'identifiant interne. Les jaquettes gardent leur propre panneau jeu
 - Vue Commandes : filtres « Toutes / En cours / Terminées / Annulées » avec compteurs
+- Jaquettes : 274 → 380 sur 383 jeux. Récupération libretro relancée après ajout des
+  alias anglais manquants (Star Wing → Star Fox, Kirby : Au fil de la grande aventure →
+  Kirby's Extra Epic Yarn, Another Code : Mémoires Doubles → Two Memories, les deux
+  Layton, Sonic Boom : Feu & Glace), et packshots eShop pour les 28 jeux Switch.
+  Restent 3 jeux hors catalogue libretro : un GBA obscur et deux titres Xbox
