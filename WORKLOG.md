@@ -251,3 +251,10 @@
   à faire réapparaître un jeu déjà commandé ou possédé. Il n'y revient que si la
   commande tombe (annulée, remboursée) et qu'il ne reste aucun exemplaire en stock.
   Règle verrouillée par `tests/still-wanted.test.ts`
+- Historique Vinted repris en entier : 118 transactions relues (contre la seule première
+  page jusqu'ici), 31 depuis juillet 2026. Cinq commandes livrées manquaient à la base et
+  ont été rattachées aux exemplaires déjà en stock (palaz000, xaurelienx, maelys94436),
+  deux réceptions enregistrées (gabrieltrichard69, val215121), et quatre commandes en
+  cours saisies avec leurs dix jeux créés (sylloup1234, boog84, emarine83, freddylct)
+- Complétude partielle posée là où le vendeur annonce « sans notice » : les trois Sonic DS
+  d'emarine83 et le lot GameCube de freddylct

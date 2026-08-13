@@ -4005,5 +4005,117 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_3ds_kirby-au-fil-de-la-grande-aventure",
+    "t": "Kirby : Au fil de la grande aventure",
+    "n": "kirby au fil de la grande aventure",
+    "a": [],
+    "f": "Kirby",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_theatrhythm-final-fantasy",
+    "t": "Theatrhythm Final Fantasy",
+    "n": "theatrhythm final fantasy",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_another-code-memoires-doubles",
+    "t": "Another Code : Mémoires Doubles",
+    "n": "another code memoires doubles",
+    "a": [],
+    "f": "Another Code",
+    "p": "ds",
+    "r": "PAL-EU",
+    "q": null
+  },
+  {
+    "id": "game_ds_blood-bowl",
+    "t": "Blood Bowl",
+    "n": "blood bowl",
+    "a": [],
+    "f": "",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_puzzle-quest-galactrix",
+    "t": "Puzzle Quest: Galactrix",
+    "n": "puzzle quest galactrix",
+    "a": [],
+    "f": "Puzzle Quest",
+    "p": "ds",
+    "r": "PAL-EU",
+    "q": null
+  },
+  {
+    "id": "game_ds_magical-starsign",
+    "t": "Magical Starsign",
+    "n": "magical starsign",
+    "a": [],
+    "f": "",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_sonic-rush-adventure",
+    "t": "Sonic Rush Adventure",
+    "n": "sonic rush adventure",
+    "a": [],
+    "f": "Sonic",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_sonic-rush",
+    "t": "Sonic Rush",
+    "n": "sonic rush",
+    "a": [],
+    "f": "Sonic",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_sonic-colours",
+    "t": "Sonic Colours",
+    "n": "sonic colours",
+    "a": [],
+    "f": "Sonic",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_sonic-sega-all-stars-racing",
+    "t": "Sonic & Sega All-Stars Racing",
+    "n": "sonic sega all stars racing",
+    "a": [],
+    "f": "Sonic",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_mario-smash-football",
+    "t": "Mario Smash Football",
+    "n": "mario smash football",
+    "a": [
+      "Super Mario Strikers"
+    ],
+    "f": "Mario",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

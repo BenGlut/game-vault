@@ -831,3 +831,29 @@ Keep 60 days; beyond that, compact.
   figurait deja parmi les trois pires ecarts de l'audit de bandes. Cote corrigee en base.
   Rappel : l'offre spontanee du vendeur (yurgle, 21 EUR ronde 44) partait elle aussi d'un
   prix tres au-dessus du marche.
+- 2026-08-13 — REPRISE DU TRAVAIL CLOUD + BALAYAGE VINTED COMPLET.
+  · Fusion sans perte : le cloud avait construit PAR-DESSUS mes commits (fast-forward,
+    0 divergence). Sa correction des trois commandes est une vraie amelioration — il a
+    ajoute le PORT que j'avais laisse de cote (Captain Toad 20,48 -> 22,06, lot
+    lucietesolat 32,83 -> 37,18, Kid Icarus 16,45 -> 19,44). PR #11 mergee (export public
+    + WORKLOG uniquement, aucun fichier source touche).
+  · DECOUVERTE MAJEURE : `/api/v2/my_orders` compte 118 TRANSACTIONS sur 6 pages. Depuis
+    le debut je ne lisais que la page 1 (20 lignes), d'ou toutes les commandes manquantes.
+    Perimetre reel depuis juillet 2026 : 31 commandes — 11 livrees, 13 en cours, 7 annulees.
+  · RECEPTIONS enregistrees : gabrieltrichard69 (28,63) et val215121 (115,30) etaient
+    livrees cote Vinted et encore fulfilled/ordered en base.
+  · COMMANDES DE JUILLET rattachees aux exemplaires deja owned : palaz000 21,65 (DBZ
+    Supersonic Warriors 2 + Luigi's Mansion 2), xaurelienx 16,45 (Dragon Quest VII — le
+    vendeur l'annoncait DS, c'est le 3DS, ce jeu n'est jamais sorti sur DS en Europe),
+    maelys94436 17,50 (Kirby Triple Deluxe + Miitopia).
+  · COMMANDES EN COURS saisies avec creation de 11 jeux : sylloup1234 60,55, boog84 42,70,
+    emarine83 26,95, et freddylct 40,60 — cette derniere ABSENTE DU BRIEF, identifiee sur
+    photo : Super Mario Sunshine + Mario Smash Football, GameCube PAL, « sans notice ».
+  · ANOMALIES TRANCHEES, aucune correction a faire :
+    Super Mario 3D All-Stars n'a pas de reliquat — deux achats REELS chez deux vendeurs
+    (ltim13560 56,19 et loulou280208 41,07), la note en base dit « achat volontairement
+    double ». Les doublons lucietesolat sont assumes par benglut ; note posee pour ne plus
+    les resoulever.
+  · TROU RESTANT : commande jerome80250 du 22/07, 68,53 EUR, « Lot 6 articles », livree.
+    Fiche supprimee (404) et fil introuvable dans les 6 pages d'inbox : contenu
+    irrecuperable, seul benglut peut dire ce qu'il a recu.

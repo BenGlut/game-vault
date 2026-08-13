@@ -208,7 +208,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 16.45,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 20.72,
       "median": 24.48,
@@ -219,8 +223,8 @@
     },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
-    "orderId": null,
+    "acquiredAt": "2026-07-16",
+    "orderId": "order_xaurelienx",
     "updatedAt": "2026-08-10T08:42:32.711Z"
   },
   {
@@ -428,7 +432,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 8.75,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 13.47,
       "median": 15,
@@ -439,8 +447,8 @@
     },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
-    "orderId": null,
+    "acquiredAt": "2026-07-16",
+    "orderId": "order_maelys94436",
     "updatedAt": "2026-08-10T08:42:32.711Z"
   },
   {
@@ -740,7 +748,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 9.28,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 6.77,
       "median": 8.11,
@@ -751,8 +763,8 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
-    "orderId": null,
+    "acquiredAt": "2026-07-15",
+    "orderId": "order_palaz000",
     "updatedAt": "2026-08-10T08:42:32.712Z"
   },
   {
@@ -1082,7 +1094,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 8.75,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 6.18,
       "median": 7.37,
@@ -1093,8 +1109,8 @@
     },
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
-    "orderId": null,
+    "acquiredAt": "2026-07-16",
+    "orderId": "order_maelys94436",
     "updatedAt": "2026-08-10T08:42:32.712Z"
   },
   {
@@ -2384,7 +2400,11 @@
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 12.37,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 13.07,
       "median": 15.33,
@@ -2395,8 +2415,8 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
-    "orderId": null,
+    "acquiredAt": "2026-07-15",
+    "orderId": "order_palaz000",
     "updatedAt": "2026-08-10T08:42:32.706Z"
   },
   {
@@ -3528,7 +3548,7 @@
   {
     "id": "inv_3ds_mario-party-the-top-100",
     "gameId": "game_3ds_mario-party-the-top-100",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "CIB",
@@ -3545,16 +3565,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-10T08:42:32.712Z"
+    "updatedAt": "2026-08-13T19:41:52.066Z"
   },
   {
     "id": "inv_3ds_mario-party-the-top-100-2",
     "gameId": "game_3ds_mario-party-the-top-100",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "loose",
@@ -3571,16 +3591,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-10T08:42:32.712Z"
+    "updatedAt": "2026-08-13T19:41:52.066Z"
   },
   {
     "id": "inv_3ds_lego-ninjago-l-ombre-de-ronin-2",
     "gameId": "game_3ds_lego-ninjago-l-ombre-de-ronin",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3597,16 +3617,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-10T08:42:32.712Z"
+    "updatedAt": "2026-08-13T19:41:52.066Z"
   },
   {
     "id": "inv_3ds_lego-jurassic-world",
     "gameId": "game_3ds_lego-jurassic-world",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3623,16 +3643,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "updatedAt": "2026-08-13T19:41:52.066Z"
   },
   {
     "id": "inv_3ds_super-mario-maker-for-nintendo-3ds-2",
     "gameId": "game_3ds_super-mario-maker-for-nintendo-3ds",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3649,11 +3669,11 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msjq5bvw",
-    "updatedAt": "2026-08-10T08:42:32.712Z"
+    "updatedAt": "2026-08-13T19:41:52.066Z"
   },
   {
     "id": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d",
@@ -4426,10 +4446,10 @@
   {
     "id": "inv_gamecube_super-mario-sunshine",
     "gameId": "game_gamecube_super-mario-sunshine",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
-    "completeness": "unknown",
+    "completeness": "no_manual",
     "purchasePrice": null,
     "currentEstimate": {
       "low": 19.27,
@@ -4442,8 +4462,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "orderId": "order_msrxrx6d",
+    "updatedAt": "2026-08-13T19:53:52.310Z"
   },
   {
     "id": "inv_gamecube_super-smash-bros-melee",
@@ -6634,7 +6654,7 @@
   {
     "id": "inv_ds_valkyrie-profile-covenant-of-the-plume",
     "gameId": "game_ds_valkyrie-profile-covenant-of-the-plume",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6651,16 +6671,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-10T09:12:12.311Z"
+    "updatedAt": "2026-08-13T19:41:52.847Z"
   },
   {
     "id": "inv_ds_dragon-quest-monsters-joker",
     "gameId": "game_ds_dragon-quest-monsters-joker",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6677,16 +6697,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-10T09:12:12.312Z"
+    "updatedAt": "2026-08-13T19:41:52.847Z"
   },
   {
     "id": "inv_ds_mario-party-ds",
     "gameId": "game_ds_mario-party-ds",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6703,16 +6723,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-10T09:12:12.312Z"
+    "updatedAt": "2026-08-13T19:41:52.847Z"
   },
   {
     "id": "inv_ds_star-wars-battlefront-elite-squadron",
     "gameId": "game_ds_star-wars-battlefront-elite-squadron",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6729,16 +6749,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-10T09:12:12.312Z"
+    "updatedAt": "2026-08-13T19:41:52.847Z"
   },
   {
     "id": "inv_ds_lego-battles",
     "gameId": "game_ds_lego-battles",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6755,16 +6775,16 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-10T09:12:12.312Z"
+    "updatedAt": "2026-08-13T19:41:52.847Z"
   },
   {
     "id": "inv_ds_spectrobes",
     "gameId": "game_ds_spectrobes",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6781,11 +6801,11 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-13",
     "orderId": "order_msly4quw",
-    "updatedAt": "2026-08-10T09:12:12.312Z"
+    "updatedAt": "2026-08-13T19:41:52.847Z"
   },
   {
     "id": "inv_switch_captain-toad-treasure-tracker-2",
@@ -8403,5 +8423,203 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-08-13T14:41:26.917Z"
+  },
+  {
+    "id": "inv_3ds_kirby-au-fil-de-la-grande-aventure",
+    "gameId": "game_3ds_kirby-au-fil-de-la-grande-aventure",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 24.93,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjkr8",
+    "updatedAt": "2026-08-13T19:47:22.965Z"
+  },
+  {
+    "id": "inv_ds_another-code-memoires-doubles",
+    "gameId": "game_ds_another-code-memoires-doubles",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 14.25,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjkr8",
+    "updatedAt": "2026-08-13T19:47:22.965Z"
+  },
+  {
+    "id": "inv_3ds_theatrhythm-final-fantasy",
+    "gameId": "game_3ds_theatrhythm-final-fantasy",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 11.58,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjkr8",
+    "updatedAt": "2026-08-13T19:47:22.965Z"
+  },
+  {
+    "id": "inv_ds_blood-bowl",
+    "gameId": "game_ds_blood-bowl",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 5.34,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjkr8",
+    "updatedAt": "2026-08-13T19:47:22.965Z"
+  },
+  {
+    "id": "inv_ds_puzzle-quest-galactrix",
+    "gameId": "game_ds_puzzle-quest-galactrix",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 4.45,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjkr8",
+    "updatedAt": "2026-08-13T19:47:22.965Z"
+  },
+  {
+    "id": "inv_ds_magical-starsign",
+    "gameId": "game_ds_magical-starsign",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 24.53,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjli4",
+    "updatedAt": "2026-08-13T19:47:23.933Z"
+  },
+  {
+    "id": "inv_ds_sonic-rush-adventure",
+    "gameId": "game_ds_sonic-rush-adventure",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 18.17,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjli4",
+    "updatedAt": "2026-08-13T19:47:23.933Z"
+  },
+  {
+    "id": "inv_ds_sonic-rush",
+    "gameId": "game_ds_sonic-rush",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "no_manual",
+    "purchasePrice": {
+      "amount": 8.98,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjm53",
+    "updatedAt": "2026-08-13T19:47:24.760Z"
+  },
+  {
+    "id": "inv_ds_sonic-colours",
+    "gameId": "game_ds_sonic-colours",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "no_manual",
+    "purchasePrice": {
+      "amount": 8.98,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjm53",
+    "updatedAt": "2026-08-13T19:47:24.760Z"
+  },
+  {
+    "id": "inv_ds_sonic-sega-all-stars-racing",
+    "gameId": "game_ds_sonic-sega-all-stars-racing",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "no_manual",
+    "purchasePrice": {
+      "amount": 8.99,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxjm53",
+    "updatedAt": "2026-08-13T19:47:24.760Z"
+  },
+  {
+    "id": "inv_gamecube_mario-smash-football",
+    "gameId": "game_gamecube_mario-smash-football",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "no_manual",
+    "purchasePrice": {
+      "amount": 20.3,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msrxrx6d",
+    "updatedAt": "2026-08-13T19:53:52.311Z"
   }
 ]

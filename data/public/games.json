@@ -8097,5 +8097,238 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": "moyenne"
+  },
+  {
+    "id": "game_3ds_kirby-au-fil-de-la-grande-aventure",
+    "canonicalTitle": "Kirby : Au fil de la grande aventure",
+    "normalizedTitle": "kirby au fil de la grande aventure",
+    "aliases": [],
+    "franchise": "Kirby",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_theatrhythm-final-fantasy",
+    "canonicalTitle": "Theatrhythm Final Fantasy",
+    "normalizedTitle": "theatrhythm final fantasy",
+    "aliases": [],
+    "franchise": "Final Fantasy",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_another-code-memoires-doubles",
+    "canonicalTitle": "Another Code : Mémoires Doubles",
+    "normalizedTitle": "another code memoires doubles",
+    "aliases": [],
+    "franchise": "Another Code",
+    "platformId": "ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_blood-bowl",
+    "canonicalTitle": "Blood Bowl",
+    "normalizedTitle": "blood bowl",
+    "aliases": [],
+    "franchise": "",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_puzzle-quest-galactrix",
+    "canonicalTitle": "Puzzle Quest: Galactrix",
+    "normalizedTitle": "puzzle quest galactrix",
+    "aliases": [],
+    "franchise": "Puzzle Quest",
+    "platformId": "ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_magical-starsign",
+    "canonicalTitle": "Magical Starsign",
+    "normalizedTitle": "magical starsign",
+    "aliases": [],
+    "franchise": "",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_sonic-rush-adventure",
+    "canonicalTitle": "Sonic Rush Adventure",
+    "normalizedTitle": "sonic rush adventure",
+    "aliases": [],
+    "franchise": "Sonic",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_sonic-rush",
+    "canonicalTitle": "Sonic Rush",
+    "normalizedTitle": "sonic rush",
+    "aliases": [],
+    "franchise": "Sonic",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_sonic-colours",
+    "canonicalTitle": "Sonic Colours",
+    "normalizedTitle": "sonic colours",
+    "aliases": [],
+    "franchise": "Sonic",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_sonic-sega-all-stars-racing",
+    "canonicalTitle": "Sonic & Sega All-Stars Racing",
+    "normalizedTitle": "sonic sega all stars racing",
+    "aliases": [],
+    "franchise": "Sonic",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_gamecube_mario-smash-football",
+    "canonicalTitle": "Mario Smash Football",
+    "normalizedTitle": "mario smash football",
+    "aliases": [
+      "Super Mario Strikers"
+    ],
+    "franchise": "Mario",
+    "platformId": "gamecube",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

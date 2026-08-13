@@ -140,3 +140,14 @@ promu dans `SKILL.md`.*
   cookies. Quand benglut naviguait lui-meme (fenetre visible), le meme modal s'ouvrait
   et l'offre Kid Icarus a 17 EUR est passee. Donc : si `visibilityState` est `hidden`,
   ne pas tenter d'offre — demander la fenetre au premier plan, ou preparer le texte.
+- 2026-08-13 — `/api/v2/my_orders` EST PAGINE : `pagination.total_entries` donnait 118 et
+  je ne lisais que la page 1. Toujours boucler sur `total_pages` avant de conclure quoi
+  que ce soit sur les commandes — c'est ce qui a masque cinq commandes livrees pendant
+  une dizaine de rondes.
+- 2026-08-13 — Le contenu d'un lot se lit sur la PHOTO quand le titre et la description
+  sont muets : `computer{action:"screenshot"}` fonctionne meme en onglet d'arriere-plan,
+  contrairement au modal d'offre. C'est ainsi qu'a ete identifie le lot freddylct
+  (Super Mario Sunshine + Mario Smash Football).
+- 2026-08-13 — Une fiche vendue depuis longtemps peut etre SUPPRIMEE (404) et son fil
+  sortir des 6 premieres pages d'inbox : le contenu d'une vieille commande devient alors
+  irrecuperable. Saisir les commandes au fil de l'eau, pas des semaines apres.
