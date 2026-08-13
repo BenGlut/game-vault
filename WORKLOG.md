@@ -258,3 +258,7 @@
   cours saisies avec leurs dix jeux créés (sylloup1234, boog84, emarine83, freddylct)
 - Complétude partielle posée là où le vendeur annonce « sans notice » : les trois Sonic DS
   d'emarine83 et le lot GameCube de freddylct
+- Toute commande d'une place de marché porte désormais sa référence de transaction :
+  11 références rétro-remplies sur les commandes existantes, et `check-drift` échoue
+  si une commande marketplace n'en a pas. La réconciliation se fait par identifiant seul,
+  sans repasser par vendeur + date + montant

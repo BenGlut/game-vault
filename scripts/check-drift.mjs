@@ -54,6 +54,24 @@ try {
   errors.push(`export public illisible : ${e.message}`);
 }
 
+// 5. toute commande d'une place de marché porte sa référence de transaction.
+// Sans elle, la réconciliation retombe sur vendeur + date + montant, et une
+// commande peut rester invisible des semaines (cas jerome80250, 2026-08-13).
+// Le dépôt privé n'est pas toujours là (sessions cloud) : on ne vérifie que s'il existe.
+const ORDERS_PRIVE = path.join(ROOT, "..", "game-vault-data", "data", "orders.json");
+if (fs.existsSync(ORDERS_PRIVE)) {
+  try {
+    const sansRef = JSON.parse(fs.readFileSync(ORDERS_PRIVE, "utf8")).filter(
+      (o) => o.marketplace && !o.reference,
+    );
+    for (const o of sansRef) {
+      errors.push(`commande ${o.id} (${o.marketplace}, ${o.orderedAt}) : référence de transaction absente`);
+    }
+  } catch (e) {
+    errors.push(`orders.json privé illisible : ${e.message}`);
+  }
+}
+
 if (errors.length) {
   console.error("✗ check-drift : " + errors.length + " problème(s)\n - " + errors.join("\n - "));
   process.exit(1);

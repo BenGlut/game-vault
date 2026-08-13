@@ -857,3 +857,13 @@ Keep 60 days; beyond that, compact.
   · TROU RESTANT : commande jerome80250 du 22/07, 68,53 EUR, « Lot 6 articles », livree.
     Fiche supprimee (404) et fil introuvable dans les 6 pages d'inbox : contenu
     irrecuperable, seul benglut peut dire ce qu'il a recu.
+  · JEROME80250 elucidee a moitie : le `user_msg_thread_id` de la transaction (23879187125)
+    donne acces au fil MEME quand la recherche par login echoue, et le fil expose
+    `transaction.item_ids` — les 6 articles sont 9419067084, 9425238607, 9425342495,
+    9451405126, 9451429361, 9451442487. Mais les six fiches sont supprimees (404) :
+    les titres restent introuvables. Le fil apprend en revanche que « la boite Mario est
+    un code sans jeux » et que la negociation est allee de 62 a 68,53 EUR.
+  · REFERENCES : 11 commandes n'avaient pas leur id de transaction. Toutes backfillees,
+    les 24 en ont une, et `check-drift` echoue desormais si une commande marketplace en
+    manque (teste dans les deux sens). L'identification se fait par ID seul, comme
+    demande par benglut.

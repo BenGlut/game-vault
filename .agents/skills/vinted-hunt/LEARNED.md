@@ -151,3 +151,8 @@ promu dans `SKILL.md`.*
 - 2026-08-13 — Une fiche vendue depuis longtemps peut etre SUPPRIMEE (404) et son fil
   sortir des 6 premieres pages d'inbox : le contenu d'une vieille commande devient alors
   irrecuperable. Saisir les commandes au fil de l'eau, pas des semaines apres.
+- 2026-08-13 — Pour retrouver le contenu d'une vieille commande, passer par
+  `transaction.user_msg_thread_id` puis `/api/v2/conversations/<id>` : le fil s'ouvre
+  par son id meme quand la recherche par login ne le trouve plus dans l'inbox, et
+  `transaction.item_ids` y liste les articles du lot. Les fiches, elles, peuvent etre
+  supprimees (404) — d'ou l'interet de saisir au fil de l'eau.
