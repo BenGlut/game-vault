@@ -100,6 +100,22 @@ export function stillWanted(row: GameRow): boolean {
   return row.items.some((i) => i.status === "wishlist") && !row.items.some((i) => ACQUIS.has(i.status));
 }
 
+/**
+ * Statuts d'archive : la ligne existe pour l'historique mais ne vaut ni possession
+ * ni acheminement. Une commande annulée ou remboursée n'a jamais rien livré.
+ */
+const ARCHIVE = new Set(["cancelled", "refunded", "sold", "wishlist"]);
+
+/**
+ * Le jeu a-t-il sa place dans la collection ? Il faut au moins un exemplaire réel —
+ * possédé, reçu, ou en cours d'acheminement. Une ligne seulement remboursée ou
+ * annulée reste dans l'historique des commandes mais ne fait pas entrer le jeu
+ * dans la collection.
+ */
+export function inCollection(row: GameRow): boolean {
+  return row.game.kind !== "hardware" && row.items.some((i) => !ARCHIVE.has(i.status));
+}
+
 /** Préfixe de chemin (GitHub Pages sert le site sous /game-vault). */
 export const BASE_PATH = process.env.GITHUB_PAGES === "true" ? "/game-vault" : "";
 

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { stillWanted } from "../src/lib/data";
+import { stillWanted, inCollection } from "../src/lib/data";
 import type { GameRow, PublicInventoryItem } from "../src/lib/data";
 
 /**
@@ -40,5 +40,32 @@ describe("stillWanted", () => {
   it("ignore un jeu sans ligne wishlist", () => {
     expect(stillWanted(row("owned"))).toBe(false);
     expect(stillWanted(row("cancelled"))).toBe(false);
+  });
+});
+
+/**
+ * Corollaire repéré par benglut le 2026-08-17 : Luigi's Mansion 3 apparaissait dans la
+ * Collection alors qu'il n'avait que deux lignes REMBOURSÉES (lots annulés) et une
+ * wishlist. Une commande annulée n'a jamais rien livré.
+ */
+describe("inCollection", () => {
+  it("garde un jeu réellement possédé ou en route", () => {
+    for (const s of ["owned", "delivered", "duplicate", "ordered", "fulfilled"]) {
+      expect(inCollection(row(s))).toBe(true);
+    }
+  });
+
+  it("exclut un jeu dont les seules lignes sont annulées ou remboursées", () => {
+    expect(inCollection(row("refunded", "refunded", "wishlist"))).toBe(false);
+    expect(inCollection(row("cancelled"))).toBe(false);
+    expect(inCollection(row("sold"))).toBe(false);
+  });
+
+  it("exclut un jeu seulement souhaité", () => {
+    expect(inCollection(row("wishlist"))).toBe(false);
+  });
+
+  it("le fait entrer dès qu'un exemplaire réel s'ajoute aux lignes remboursées", () => {
+    expect(inCollection(row("refunded", "owned"))).toBe(true);
   });
 });

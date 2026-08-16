@@ -1,14 +1,13 @@
-import { getGameRows, getPlatforms, getQuotes, getOrdersByGame } from "@/lib/data";
+import { getGameRows, getPlatforms, getQuotes, getOrdersByGame, inCollection } from "@/lib/data";
 import { PageTitle } from "@/components/ui";
 import CollectionExplorer from "@/components/CollectionExplorer";
 import { GameDrawerProvider } from "@/components/GameDrawer";
 
 export default function CollectionPage() {
-  // la Collection = possession réelle (possédé/commandé/reçu/vendu…) ;
-  // les jeux uniquement en wishlist vivent sur les pages Wishlist et Recommandations
-  const rows = getGameRows().filter((r) =>
-    r.game.kind !== "hardware" && r.items.some((i) => i.status !== "wishlist"),
-  );
+  // la Collection = exemplaire réel : possédé, reçu, ou en cours d'acheminement.
+  // Une ligne seulement remboursée ou annulée reste dans l'historique des commandes
+  // mais ne fait pas entrer le jeu ici ; la wishlist vit sur ses propres pages.
+  const rows = getGameRows().filter(inCollection);
   return (
     <div>
       <PageTitle

@@ -285,3 +285,7 @@
 - Jaquettes : dépôt libretro Wii ajouté au script, plus les alias anglais manquants
   (Rayman contre les Lapins Crétins → Raving Rabbids, Lapin Malin → Reader Rabbit).
   392 jaquettes pour 396 jeux ; les 3 restants sont hors catalogue libretro
+- La Collection ne montre plus que des exemplaires réels : un jeu dont les seules lignes
+  sont annulées ou remboursées reste dans l'historique des commandes mais n'entre plus
+  dans la collection (`inCollection` dans `src/lib/data.ts`, testé). Repéré par benglut
+  sur Luigi's Mansion 3, présent alors que ses deux lots benj33290 avaient été remboursés
