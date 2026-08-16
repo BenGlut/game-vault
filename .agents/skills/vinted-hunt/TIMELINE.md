@@ -883,3 +883,12 @@ Keep 60 days; beyond that, compact.
     mysweetly, lamousse53) : elles n'ont jamais donne de possession, et les saisir
     impliquerait de creer des jeux qu'on n'a jamais eus — dont les boites repro de
     biche738. Laissees de cote volontairement.
+- 2026-08-15 — Lot soumis par benglut : Zelda Spirit Tracks en boite 30 EUR + Layton
+  L'Appel du Spectre 15 EUR, envoi groupe. Cotes du jour relevees et corrigees en base :
+  Spirit Tracks CIB 38,14 (la mediane stockee disait 31,43 — le titre a MONTE, cas
+  inverse de Kirby) ; Layton L'Appel du Spectre CIB 6,47 seulement.
+  VERDICT : le Zelda seul a 30 EUR = 35,25 rendu contre 38,14 = -8 %, la MEILLEURE
+  occasion vue sur ce titre (tous les exemplaires boite FR croises jusqu'ici etaient
+  au-dessus de la cote). Le Layton a 15 EUR = 19,50 rendu contre 6,47 = +201 %, il
+  detruit le lot : ensemble on ressort a +14 %. Contre-offre conseillee : 36 EUR les
+  deux (-7 %), au-dessus du plancher legal de 27 EUR (60 % de 45).
