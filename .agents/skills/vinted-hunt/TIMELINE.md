@@ -892,3 +892,15 @@ Keep 60 days; beyond that, compact.
   au-dessus de la cote). Le Layton a 15 EUR = 19,50 rendu contre 6,47 = +201 %, il
   detruit le lot : ensemble on ressort a +14 %. Contre-offre conseillee : 36 EUR les
   deux (-7 %), au-dessus du plancher legal de 27 EUR (60 % de 45).
+- 2026-08-16 — DEUX ACHATS de benglut verifies sur photo :
+  · Zelda Spirit Tracks DS chez moreau-pascal (21596967747), 30 EUR = 35,08 rendu contre
+    38,14 de cote CIB = -8 %. COMPLET : boite FR PEGI 7, dos francais, NOTICE presente,
+    cartouche dans son logement. Excellent achat, le meilleur exemplaire vu sur ce titre.
+  · Zelda Phantom Hourglass chez nolvnstreewearfr (21596812970), 10 EUR = 14,08 rendu.
+    REJETE au regard des criteres : etiquette NTR-AZEE-USA + logo ESRB = version
+    AMERICAINE, et description « juste plus la Boite » = cartouche seule. Deux exclusions
+    d'un coup. Langue francaise NON VERIFIEE : aucune source fiable trouvee, a tester en
+    reglant la console en francais (les Zelda DS suivent la langue systeme).
+  · TROU DE SUIVI comble : Hyrule Warriors Legends (3DS) etait absent de la base alors
+    que le catalogue No-Intro le liste en sortie physique Europe. Ajoute en wishlist,
+    cote CIB 12,60 / loose 10,03.
