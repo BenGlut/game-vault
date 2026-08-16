@@ -1,50 +1,5 @@
 [
   {
-    "at": "2026-08-08T02:11:48.634Z",
-    "command": "price-batch",
-    "message": "264 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/prices.json"
-  },
-  {
-    "at": "2026-08-08T02:12:15.340Z",
-    "command": "add-game",
-    "message": "add game The Legend of Zelda: Majora's Mask 3D (3ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:15.984Z",
-    "command": "add-game",
-    "message": "add game Fire Emblem: Awakening (3ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:16.580Z",
-    "command": "add-game",
-    "message": "add game Metroid: Samus Returns (3ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:17.157Z",
-    "command": "add-game",
-    "message": "add game Kid Icarus: Uprising (3ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:17.781Z",
-    "command": "add-game",
-    "message": "add game Bravely Default (3ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:18.323Z",
-    "command": "add-game",
-    "message": "add game Shin Megami Tensei IV (3ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:19.028Z",
-    "command": "add-game",
-    "message": "add game Poochy & Yoshi's Woolly World (3ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:19.607Z",
-    "command": "add-game",
-    "message": "add game Animal Crossing: Happy Home Designer (3ds)"
-  },
-  {
     "at": "2026-08-08T02:12:20.265Z",
     "command": "add-game",
     "message": "add game Mario Kart DS (ds)"
@@ -2498,5 +2453,50 @@
     "at": "2026-08-16T23:00:50.794Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T23:07:17.137Z",
+    "command": "add-game",
+    "message": "add game Rayman contre les Lapins Crétins (wii)"
+  },
+  {
+    "at": "2026-08-16T23:07:18.720Z",
+    "command": "add-game",
+    "message": "add game Need for Speed: Carbon (wii)"
+  },
+  {
+    "at": "2026-08-16T23:07:20.396Z",
+    "command": "add-game",
+    "message": "add game WWE SmackDown vs. Raw 2010 (wii)"
+  },
+  {
+    "at": "2026-08-16T23:07:21.552Z",
+    "command": "add-game",
+    "message": "add game Just Dance 4 (wii)"
+  },
+  {
+    "at": "2026-08-16T23:10:11.590Z",
+    "command": "add-game",
+    "message": "add game Lapin Malin : J'apprends à lire et à écrire 5-7 ans (ds)"
+  },
+  {
+    "at": "2026-08-16T23:10:12.588Z",
+    "command": "add-game",
+    "message": "add game Totally Spies! 3 (ds)"
+  },
+  {
+    "at": "2026-08-16T23:10:13.460Z",
+    "command": "add-game",
+    "message": "add game Winx Club (ds)"
+  },
+  {
+    "at": "2026-08-16T23:11:33.580Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_luigi-s-mansion-3"
+  },
+  {
+    "at": "2026-08-16T23:11:35.854Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_super-mario-odyssey"
   }
 ]

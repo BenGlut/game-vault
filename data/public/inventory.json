@@ -9071,5 +9071,195 @@
     "acquiredAt": null,
     "orderId": "order_mswerxed",
     "updatedAt": "2026-08-16T23:00:50.775Z"
+  },
+  {
+    "id": "inv_wii_rayman-contre-les-lapins-cretins",
+    "gameId": "game_wii_rayman-contre-les-lapins-cretins",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerxed",
+    "updatedAt": "2026-08-16T23:07:45.354777Z"
+  },
+  {
+    "id": "inv_wii_need-for-speed-carbon",
+    "gameId": "game_wii_need-for-speed-carbon",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerxed",
+    "updatedAt": "2026-08-16T23:07:45.354777Z"
+  },
+  {
+    "id": "inv_wii_wwe-smackdown-vs-raw-2010",
+    "gameId": "game_wii_wwe-smackdown-vs-raw-2010",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerxed",
+    "updatedAt": "2026-08-16T23:07:45.354777Z"
+  },
+  {
+    "id": "inv_wii_just-dance-4",
+    "gameId": "game_wii_just-dance-4",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerxed",
+    "updatedAt": "2026-08-16T23:07:45.354777Z"
+  },
+  {
+    "id": "inv_3ds_mario-kart-7-2",
+    "gameId": "game_3ds_mario-kart-7",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerwnt",
+    "updatedAt": "2026-08-16T23:10:32.022271Z"
+  },
+  {
+    "id": "inv_3ds_new-super-mario-bros-2-2",
+    "gameId": "game_3ds_new-super-mario-bros-2",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerwnt",
+    "updatedAt": "2026-08-16T23:10:32.022271Z"
+  },
+  {
+    "id": "inv_3ds_luigi-s-mansion-2-5",
+    "gameId": "game_3ds_luigi-s-mansion-2",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerwnt",
+    "updatedAt": "2026-08-16T23:10:32.022271Z"
+  },
+  {
+    "id": "inv_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
+    "gameId": "game_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerwnt",
+    "updatedAt": "2026-08-16T23:10:32.022271Z"
+  },
+  {
+    "id": "inv_ds_totally-spies-3",
+    "gameId": "game_ds_totally-spies-3",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerwnt",
+    "updatedAt": "2026-08-16T23:10:32.022271Z"
+  },
+  {
+    "id": "inv_ds_winx-club",
+    "gameId": "game_ds_winx-club",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerwnt",
+    "updatedAt": "2026-08-16T23:10:32.022271Z"
   }
 ]

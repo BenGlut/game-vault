@@ -4987,12 +4987,12 @@
   },
   "game_switch_super-mario-odyssey": {
     "cib": {
-      "low": 27.12,
-      "median": 27.12,
-      "high": 27.12,
+      "low": 26.8,
+      "median": 26.8,
+      "high": 26.8,
       "currency": "EUR",
-      "source": "pricecharting",
-      "observedAt": "2026-08-11"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-16"
     },
     "loose": {
       "low": 25.62,
@@ -5005,12 +5005,12 @@
   },
   "game_switch_luigi-s-mansion-3": {
     "cib": {
-      "low": 24.97,
-      "median": 24.97,
-      "high": 24.97,
+      "low": 23.64,
+      "median": 23.64,
+      "high": 23.64,
       "currency": "EUR",
-      "source": "pricecharting",
-      "observedAt": "2026-08-11"
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-16"
     },
     "loose": {
       "low": 21.53,

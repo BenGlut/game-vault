@@ -1025,10 +1025,16 @@
     "id": "order_mswerwnt",
     "marketplace": "vinted",
     "status": "ordered",
-    "itemCount": 2,
+    "itemCount": 8,
     "gameIds": [
       "game_3ds_nintendo-3ds-xl-edition-animal-crossing",
-      "game_3ds_tomodachi-life"
+      "game_3ds_tomodachi-life",
+      "game_3ds_mario-kart-7",
+      "game_3ds_new-super-mario-bros-2",
+      "game_3ds_luigi-s-mansion-2",
+      "game_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
+      "game_ds_totally-spies-3",
+      "game_ds_winx-club"
     ],
     "items": [
       {
@@ -1039,6 +1045,36 @@
       {
         "gameId": "game_3ds_tomodachi-life",
         "inventoryId": "inv_3ds_tomodachi-life",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_3ds_mario-kart-7",
+        "inventoryId": "inv_3ds_mario-kart-7-2",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_3ds_new-super-mario-bros-2",
+        "inventoryId": "inv_3ds_new-super-mario-bros-2-2",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_3ds_luigi-s-mansion-2",
+        "inventoryId": "inv_3ds_luigi-s-mansion-2-5",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
+        "inventoryId": "inv_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_ds_totally-spies-3",
+        "inventoryId": "inv_ds_totally-spies-3",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_ds_winx-club",
+        "inventoryId": "inv_ds_winx-club",
         "unitPrice": 0
       }
     ],
@@ -1054,11 +1090,15 @@
     "id": "order_mswerxed",
     "marketplace": "vinted",
     "status": "ordered",
-    "itemCount": 3,
+    "itemCount": 7,
     "gameIds": [
       "game_3ds_nintendo-3ds-xl-rouge",
       "game_wii_nintendo-wii-pack-2-manettes",
-      "game_wii_wii-play"
+      "game_wii_wii-play",
+      "game_wii_rayman-contre-les-lapins-cretins",
+      "game_wii_need-for-speed-carbon",
+      "game_wii_wwe-smackdown-vs-raw-2010",
+      "game_wii_just-dance-4"
     ],
     "items": [
       {
@@ -1074,6 +1114,26 @@
       {
         "gameId": "game_wii_wii-play",
         "inventoryId": "inv_wii_wii-play",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_wii_rayman-contre-les-lapins-cretins",
+        "inventoryId": "inv_wii_rayman-contre-les-lapins-cretins",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_wii_need-for-speed-carbon",
+        "inventoryId": "inv_wii_need-for-speed-carbon",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_wii_wwe-smackdown-vs-raw-2010",
+        "inventoryId": "inv_wii_wwe-smackdown-vs-raw-2010",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_wii_just-dance-4",
+        "inventoryId": "inv_wii_just-dance-4",
         "unitPrice": 0
       }
     ],

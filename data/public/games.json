@@ -8925,5 +8925,159 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_wii_rayman-contre-les-lapins-cretins",
+    "kind": "game",
+    "canonicalTitle": "Rayman contre les Lapins Crétins",
+    "normalizedTitle": "rayman contre les lapins cretins",
+    "aliases": [],
+    "franchise": "Rayman",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_need-for-speed-carbon",
+    "kind": "game",
+    "canonicalTitle": "Need for Speed: Carbon",
+    "normalizedTitle": "need for speed carbon",
+    "aliases": [],
+    "franchise": "Need for Speed",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_wwe-smackdown-vs-raw-2010",
+    "kind": "game",
+    "canonicalTitle": "WWE SmackDown vs. Raw 2010",
+    "normalizedTitle": "wwe smackdown vs raw 2010",
+    "aliases": [],
+    "franchise": "WWE",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_just-dance-4",
+    "kind": "game",
+    "canonicalTitle": "Just Dance 4",
+    "normalizedTitle": "just dance 4",
+    "aliases": [],
+    "franchise": "Just Dance",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
+    "kind": "game",
+    "canonicalTitle": "Lapin Malin : J'apprends à lire et à écrire 5-7 ans",
+    "normalizedTitle": "lapin malin j apprends a lire et a ecrire 5 7 ans",
+    "aliases": [],
+    "franchise": "Lapin Malin",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_totally-spies-3",
+    "kind": "game",
+    "canonicalTitle": "Totally Spies! 3",
+    "normalizedTitle": "totally spies 3",
+    "aliases": [],
+    "franchise": "Totally Spies",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_winx-club",
+    "kind": "game",
+    "canonicalTitle": "Winx Club",
+    "normalizedTitle": "winx club",
+    "aliases": [],
+    "franchise": "Winx",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
