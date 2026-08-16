@@ -282,3 +282,6 @@
 - Quatre consoles saisies avec leurs commandes : Nintendo 2DS (73,59 €), 3DS XL édition
   Animal Crossing (154,24 €), 3DS XL rouge et lot Wii 2 manettes (217,24 € ensemble)
 - Achat Amazon enregistré : Super Mario Galaxy + Galaxy 2 (Switch), 51,49 €
+- Jaquettes : dépôt libretro Wii ajouté au script, plus les alias anglais manquants
+  (Rayman contre les Lapins Crétins → Raving Rabbids, Lapin Malin → Reader Rabbit).
+  392 jaquettes pour 396 jeux ; les 3 restants sont hors catalogue libretro

@@ -4226,7 +4226,9 @@
     "id": "game_wii_rayman-contre-les-lapins-cretins",
     "t": "Rayman contre les Lapins Crétins",
     "n": "rayman contre les lapins cretins",
-    "a": [],
+    "a": [
+      "Rayman Raving Rabbids"
+    ],
     "f": "Rayman",
     "p": "wii",
     "r": "PAL-FR",
@@ -4266,7 +4268,10 @@
     "id": "game_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
     "t": "Lapin Malin : J'apprends à lire et à écrire 5-7 ans",
     "n": "lapin malin j apprends a lire et a ecrire 5 7 ans",
-    "a": [],
+    "a": [
+      "Lapin Malin",
+      "Reader Rabbit"
+    ],
     "f": "Lapin Malin",
     "p": "ds",
     "r": "PAL-FR",

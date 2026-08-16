@@ -8931,7 +8931,9 @@
     "kind": "game",
     "canonicalTitle": "Rayman contre les Lapins Crétins",
     "normalizedTitle": "rayman contre les lapins cretins",
-    "aliases": [],
+    "aliases": [
+      "Rayman Raving Rabbids"
+    ],
     "franchise": "Rayman",
     "platformId": "wii",
     "region": "PAL-FR",
@@ -9019,7 +9021,10 @@
     "kind": "game",
     "canonicalTitle": "Lapin Malin : J'apprends à lire et à écrire 5-7 ans",
     "normalizedTitle": "lapin malin j apprends a lire et a ecrire 5 7 ans",
-    "aliases": [],
+    "aliases": [
+      "Lapin Malin",
+      "Reader Rabbit"
+    ],
     "franchise": "Lapin Malin",
     "platformId": "ds",
     "region": "PAL-FR",

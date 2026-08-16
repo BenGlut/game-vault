@@ -27,6 +27,7 @@ const REPOS: Record<string, string> = {
   gba: "Nintendo_-_Game_Boy_Advance",
   n64: "Nintendo_-_Nintendo_64",
   gamecube: "Nintendo_-_GameCube",
+  wii: "Nintendo_-_Wii",
   gb: "Nintendo_-_Game_Boy",
   gbc: "Nintendo_-_Game_Boy_Color",
   snes: "Nintendo_-_Super_Nintendo_Entertainment_System",
