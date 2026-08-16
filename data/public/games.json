@@ -8342,5 +8342,70 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_hyrule-warriors-legends",
+    "canonicalTitle": "Hyrule Warriors Legends",
+    "normalizedTitle": "hyrule warriors legends",
+    "aliases": [],
+    "franchise": "The Legend of Zelda",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_the-legend-of-zelda-phantom-hourglass-us",
+    "canonicalTitle": "The Legend of Zelda: Phantom Hourglass (US)",
+    "normalizedTitle": "the legend of zelda phantom hourglass us",
+    "aliases": [
+      "The Legend of Zelda: Phantom Hourglass"
+    ],
+    "franchise": "The Legend of Zelda",
+    "platformId": "ds",
+    "region": "NTSC-U",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_tetris-party-deluxe",
+    "canonicalTitle": "Tetris Party Deluxe",
+    "normalizedTitle": "tetris party deluxe",
+    "aliases": [],
+    "franchise": "Tetris",
+    "platformId": "ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

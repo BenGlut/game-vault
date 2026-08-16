@@ -2593,20 +2593,20 @@
   },
   "game_ds_the-legend-of-zelda-spirit-tracks": {
     "cib": {
-      "low": 27.26,
-      "median": 31.43,
-      "high": 36.79,
+      "low": 38.14,
+      "median": 38.14,
+      "high": 38.14,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-16"
     },
     "loose": {
-      "low": 19.09,
-      "median": 21.43,
-      "high": 24.61,
+      "low": 21.2,
+      "median": 21.2,
+      "high": 21.2,
       "currency": "EUR",
       "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "observedAt": "2026-08-16"
     }
   },
   "game_ds_professeur-layton-et-la-boite-de-pandore": {
@@ -5127,6 +5127,42 @@
       "currency": "EUR",
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
+    }
+  },
+  "game_ds_professeur-layton-et-l-appel-du-spectre": {
+    "cib": {
+      "low": 6.47,
+      "median": 6.47,
+      "high": 6.47,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-16"
+    },
+    "loose": {
+      "low": 4.47,
+      "median": 4.47,
+      "high": 4.47,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-16"
+    }
+  },
+  "game_3ds_hyrule-warriors-legends": {
+    "cib": {
+      "low": 12.6,
+      "median": 12.6,
+      "high": 12.6,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-16"
+    },
+    "loose": {
+      "low": 10.03,
+      "median": 10.03,
+      "high": 10.03,
+      "currency": "EUR",
+      "source": "pricecharting-pal",
+      "observedAt": "2026-08-16"
     }
   }
 }

@@ -4129,5 +4129,37 @@
     "p": "gamecube",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_3ds_hyrule-warriors-legends",
+    "t": "Hyrule Warriors Legends",
+    "n": "hyrule warriors legends",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_the-legend-of-zelda-phantom-hourglass-us",
+    "t": "The Legend of Zelda: Phantom Hourglass (US)",
+    "n": "the legend of zelda phantom hourglass us",
+    "a": [
+      "The Legend of Zelda: Phantom Hourglass"
+    ],
+    "f": "The Legend of Zelda",
+    "p": "ds",
+    "r": "NTSC-U",
+    "q": null
+  },
+  {
+    "id": "game_ds_tetris-party-deluxe",
+    "t": "Tetris Party Deluxe",
+    "n": "tetris party deluxe",
+    "a": [],
+    "f": "Tetris",
+    "p": "ds",
+    "r": "PAL-EU",
+    "q": null
   }
 ]

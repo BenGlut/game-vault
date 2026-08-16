@@ -904,3 +904,20 @@ Keep 60 days; beyond that, compact.
   · TROU DE SUIVI comble : Hyrule Warriors Legends (3DS) etait absent de la base alors
     que le catalogue No-Intro le liste en sortie physique Europe. Ajoute en wishlist,
     cote CIB 12,60 / loose 10,03.
+- 2026-08-17 — SAISIE EXHAUSTIVE sur ordre de benglut (« si c'est commande, c'est
+  commande, tu n'as pas a valider »). Base : 26 -> 31 commandes.
+  · Achats du 16/08 : Spirit Tracks complet boite FR chez moreau-pascal (32,20) et
+    Phantom Hourglass cartouche US chez nolvnstreewearfr (11,20). Une variante de jeu
+    NTSC-U a ete creee pour le second : le schema porte la region sur le JEU, pas sur la
+    ligne d'inventaire, donc une cartouche US est un produit distinct du PAL-FR.
+  · Cinq commandes REMBOURSEES saisies puis passees en `refunded` : sachatouilles 61,56,
+    benj33290 117,46 et 125,02, mysweetly 13,41, lamousse53 9,10. Les articles non-jeux
+    (tshirt, porte-cles, deux stylets) sont notes dans les commandes mais exclus de la
+    repartition — ils ne sont pas collectionnes.
+  · Jeux crees au passage : Tetris Party Deluxe (DS).
+  · NON SAISISSABLES en l'etat, et c'est une limite du MODELE, pas un refus :
+    - biche738 47,95 : deux « boites NON OFFICIEL » Zelda, ce sont des boites repro
+      vides, pas des jeux. Aucun type ne les represente.
+    - Les trois commandes MATERIEL du 14/08 (2DS 63,70, 3DS XL Animal Crossing 147,70,
+      lot Wii + 3DS XL rouge 210,70 = 422,10 EUR) : `MEDIA_TYPES` ne connait que
+      cartridge/disc/card/code_in_box/digital/other, aucune console.

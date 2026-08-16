@@ -718,5 +718,232 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 40.6
+  },
+  {
+    "id": "order_mswcm1je",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_the-legend-of-zelda-spirit-tracks"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
+        "inventoryId": "inv_ds_the-legend-of-zelda-spirit-tracks",
+        "unitPrice": 32.2
+      }
+    ],
+    "orderedAt": "2026-08-16",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 32.2
+  },
+  {
+    "id": "order_mswcmos1",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_the-legend-of-zelda-phantom-hourglass-us"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_the-legend-of-zelda-phantom-hourglass-us",
+        "inventoryId": "inv_ds_the-legend-of-zelda-phantom-hourglass-us",
+        "unitPrice": 11.2
+      }
+    ],
+    "orderedAt": "2026-08-16",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 11.2
+  },
+  {
+    "id": "order_mswcs51u",
+    "marketplace": "vinted",
+    "status": "refunded",
+    "itemCount": 4,
+    "gameIds": [
+      "game_3ds_luigi-s-mansion",
+      "game_3ds_hyrule-warriors-legends",
+      "game_3ds_super-mario-3d-land",
+      "game_3ds_super-mario-maker-for-nintendo-3ds"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_luigi-s-mansion",
+        "inventoryId": "inv_3ds_luigi-s-mansion-2",
+        "unitPrice": 31.02
+      },
+      {
+        "gameId": "game_3ds_hyrule-warriors-legends",
+        "inventoryId": "inv_3ds_hyrule-warriors-legends",
+        "unitPrice": 15.5
+      },
+      {
+        "gameId": "game_3ds_super-mario-3d-land",
+        "inventoryId": "inv_3ds_super-mario-3d-land-2",
+        "unitPrice": 8.26
+      },
+      {
+        "gameId": "game_3ds_super-mario-maker-for-nintendo-3ds",
+        "inventoryId": "inv_3ds_super-mario-maker-for-nintendo-3ds-3",
+        "unitPrice": 6.78
+      }
+    ],
+    "orderedAt": "2026-07-11",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": "2026-08-16",
+    "totalPaid": 61.56
+  },
+  {
+    "id": "order_mswcs5us",
+    "marketplace": "vinted",
+    "status": "refunded",
+    "itemCount": 4,
+    "gameIds": [
+      "game_switch_super-mario-3d-world-bowser-s-fury",
+      "game_switch_super-mario-3d-all-stars",
+      "game_switch_super-mario-odyssey",
+      "game_switch_luigi-s-mansion-3"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_super-mario-3d-world-bowser-s-fury",
+        "inventoryId": "inv_switch_super-mario-3d-world-bowser-s-fury-2",
+        "unitPrice": 25.51
+      },
+      {
+        "gameId": "game_switch_super-mario-3d-all-stars",
+        "inventoryId": "inv_switch_super-mario-3d-all-stars-3",
+        "unitPrice": 42.52
+      },
+      {
+        "gameId": "game_switch_super-mario-odyssey",
+        "inventoryId": "inv_switch_super-mario-odyssey",
+        "unitPrice": 24.66
+      },
+      {
+        "gameId": "game_switch_luigi-s-mansion-3",
+        "inventoryId": "inv_switch_luigi-s-mansion-3",
+        "unitPrice": 24.77
+      }
+    ],
+    "orderedAt": "2026-08-09",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": "2026-08-16",
+    "totalPaid": 117.46
+  },
+  {
+    "id": "order_mswcs7gv",
+    "marketplace": "vinted",
+    "status": "refunded",
+    "itemCount": 5,
+    "gameIds": [
+      "game_3ds_luigi-s-mansion-2",
+      "game_switch_super-mario-3d-world-bowser-s-fury",
+      "game_switch_super-mario-odyssey",
+      "game_switch_luigi-s-mansion-3",
+      "game_switch_super-mario-3d-all-stars"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_luigi-s-mansion-2",
+        "inventoryId": "inv_3ds_luigi-s-mansion-2-4",
+        "unitPrice": 8.72
+      },
+      {
+        "gameId": "game_switch_super-mario-3d-world-bowser-s-fury",
+        "inventoryId": "inv_switch_super-mario-3d-world-bowser-s-fury-3",
+        "unitPrice": 26.15
+      },
+      {
+        "gameId": "game_switch_super-mario-odyssey",
+        "inventoryId": "inv_switch_super-mario-odyssey-2",
+        "unitPrice": 25.28
+      },
+      {
+        "gameId": "game_switch_luigi-s-mansion-3",
+        "inventoryId": "inv_switch_luigi-s-mansion-3-2",
+        "unitPrice": 25.28
+      },
+      {
+        "gameId": "game_switch_super-mario-3d-all-stars",
+        "inventoryId": "inv_switch_super-mario-3d-all-stars-4",
+        "unitPrice": 39.59
+      }
+    ],
+    "orderedAt": "2026-08-09",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": "2026-08-16",
+    "totalPaid": 125.02
+  },
+  {
+    "id": "order_mswcs8o6",
+    "marketplace": "vinted",
+    "status": "refunded",
+    "itemCount": 2,
+    "gameIds": [
+      "game_ds_tetris-party-deluxe",
+      "game_ds_sonic-rush-adventure"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_tetris-party-deluxe",
+        "inventoryId": "inv_ds_tetris-party-deluxe",
+        "unitPrice": 6.35
+      },
+      {
+        "gameId": "game_ds_sonic-rush-adventure",
+        "inventoryId": "inv_ds_sonic-rush-adventure-2",
+        "unitPrice": 7.06
+      }
+    ],
+    "orderedAt": "2026-08-13",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": "2026-08-16",
+    "totalPaid": 13.41
+  },
+  {
+    "id": "order_mswcs9mw",
+    "marketplace": "vinted",
+    "status": "refunded",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_sonic-classic-collection"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_sonic-classic-collection",
+        "inventoryId": "inv_ds_sonic-classic-collection",
+        "unitPrice": 9.1
+      }
+    ],
+    "orderedAt": "2026-08-13",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": "2026-08-16",
+    "totalPaid": 9.1
   }
 ]

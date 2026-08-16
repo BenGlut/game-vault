@@ -2353,5 +2353,115 @@
     "at": "2026-08-16T21:20:05.582Z",
     "command": "receive-order",
     "message": "receive-order order_msmi1c6b"
+  },
+  {
+    "at": "2026-08-16T21:39:39.446Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_the-legend-of-zelda-spirit-tracks"
+  },
+  {
+    "at": "2026-08-16T21:39:40.612Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_the-legend-of-zelda-spirit-tracks"
+  },
+  {
+    "at": "2026-08-16T21:39:41.863Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_professeur-layton-et-l-appel-du-spectre"
+  },
+  {
+    "at": "2026-08-16T21:39:43.707Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_professeur-layton-et-l-appel-du-spectre"
+  },
+  {
+    "at": "2026-08-16T21:57:19.351Z",
+    "command": "add-game",
+    "message": "add game Hyrule Warriors Legends (3ds)"
+  },
+  {
+    "at": "2026-08-16T21:57:20.110Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_3ds_hyrule-warriors-legends"
+  },
+  {
+    "at": "2026-08-16T21:58:22.356Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_hyrule-warriors-legends"
+  },
+  {
+    "at": "2026-08-16T21:58:23.056Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_hyrule-warriors-legends"
+  },
+  {
+    "at": "2026-08-16T22:00:16.997Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T22:00:45.942Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Phantom Hourglass (US) (ds)"
+  },
+  {
+    "at": "2026-08-16T22:00:47.107Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T22:02:59.621Z",
+    "command": "add-game",
+    "message": "add game Tetris Party Deluxe (ds)"
+  },
+  {
+    "at": "2026-08-16T22:05:01.495Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T22:05:02.540Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T22:05:04.630Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T22:05:06.169Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T22:05:07.420Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T22:07:43.050Z",
+    "command": "refund-order",
+    "message": "refund-order order_mswcs51u"
+  },
+  {
+    "at": "2026-08-16T22:07:44.247Z",
+    "command": "refund-order",
+    "message": "refund-order order_mswcs5us"
+  },
+  {
+    "at": "2026-08-16T22:07:45.247Z",
+    "command": "refund-order",
+    "message": "refund-order order_mswcs7gv"
+  },
+  {
+    "at": "2026-08-16T22:07:46.524Z",
+    "command": "refund-order",
+    "message": "refund-order order_mswcs8o6"
+  },
+  {
+    "at": "2026-08-16T22:07:47.739Z",
+    "command": "refund-order",
+    "message": "refund-order order_mswcs9mw"
   }
 ]
