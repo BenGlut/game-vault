@@ -246,7 +246,7 @@
   {
     "id": "order_msmi1c6b",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_super-mario-3d-all-stars"
@@ -260,7 +260,7 @@
     ],
     "orderedAt": "2026-08-09",
     "fulfilledAt": "2026-08-10",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-16",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,

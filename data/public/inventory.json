@@ -6858,7 +6858,7 @@
   {
     "id": "inv_switch_super-mario-3d-all-stars",
     "gameId": "game_switch_super-mario-3d-all-stars",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6874,11 +6874,11 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-16",
     "orderId": "order_msmi1c6b",
-    "updatedAt": "2026-08-10T15:42:51.247Z"
+    "updatedAt": "2026-08-16T21:20:05.529Z"
   },
   {
     "id": "inv_switch_super-mario-3d-all-stars-3",

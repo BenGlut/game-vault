@@ -867,3 +867,19 @@ Keep 60 days; beyond that, compact.
     les 24 en ont une, et `check-drift` echoue desormais si une commande marketplace en
     manque (teste dans les deux sens). L'identification se fait par ID seul, comme
     demande par benglut.
+- 2026-08-15 — BALAYAGE DES STATUTS. 34 commandes depuis juillet (31 il y a deux jours).
+  Apres mise a jour : ZERO ecart de statut entre Vinted et la base.
+  · RECEPTION : ltim13560 Mario 3D All-Stars (21443562494) passe en `delivered`.
+  · STATUT INEDIT 430 : emarine83 (21523099268) = « Transaction suspendue, en attente de
+    verification ». Ni livree ni annulee — Vinted a bloque la transaction. Note posee,
+    a surveiller, peut finir en remboursement.
+  · TROIS NOUVELLES COMMANDES du 14/08, toutes du MATERIEL et non des jeux :
+    irelanduser Nintendo 2DS 63,70 | lsw26 Nintendo 3DS XL Animal Crossing 147,70 |
+    lucascshop lot Wii complete + 3DS XL rouge 210,70. Total 422,10 EUR.
+    NON SAISIES : le modele de donnees ne connait que des JEUX (`MEDIA_TYPES` =
+    cartridge/disc/card/code_in_box/digital/other, aucune console). Les forcer en base
+    corromprait le modele. Decision a prendre par benglut.
+  · SIX COMMANDES REMBOURSEES jamais saisies (sachatouilles, benj33290 x2, biche738,
+    mysweetly, lamousse53) : elles n'ont jamais donne de possession, et les saisir
+    impliquerait de creer des jeux qu'on n'a jamais eus — dont les boites repro de
+    biche738. Laissees de cote volontairement.
