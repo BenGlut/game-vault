@@ -921,3 +921,10 @@ Keep 60 days; beyond that, compact.
     - Les trois commandes MATERIEL du 14/08 (2DS 63,70, 3DS XL Animal Crossing 147,70,
       lot Wii + 3DS XL rouge 210,70 = 422,10 EUR) : `MEDIA_TYPES` ne connait que
       cartridge/disc/card/code_in_box/digital/other, aucune console.
+  · CORRECTION dans la foulee : biche738 EST saisie (order_mswdehxm, refunded). Sur
+    consigne de benglut — « connecte-les aux vrais jeux, on s'en fout, c'est annule » —
+    la commande est rattachee aux deux vrais titres Zelda avec la mention « boite non
+    officielle » en note, plutot que d'inventer deux faux produits. Aucune possession
+    puisque remboursee. Regle a retenir : pour une commande annulee, rattacher aux vrais
+    titres et documenter en note, ne jamais creer de produit fictif.
+    Base : 32 commandes — 11 livrees, 13 en cours, 7 remboursees, 1 expediee.

@@ -3932,7 +3932,7 @@
   {
     "id": "inv_ds_the-legend-of-zelda-phantom-hourglass",
     "gameId": "game_ds_the-legend-of-zelda-phantom-hourglass",
-    "status": "wishlist",
+    "status": "refunded",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3948,8 +3948,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.707Z"
+    "orderId": "order_mswdehxm",
+    "updatedAt": "2026-08-16T22:22:48.182Z"
   },
   {
     "id": "inv_ds_the-legend-of-zelda-spirit-tracks",
@@ -8870,5 +8870,23 @@
     "acquiredAt": null,
     "orderId": "order_mswcs8o6",
     "updatedAt": "2026-08-16T22:07:46.505Z"
+  },
+  {
+    "id": "inv_ds_the-legend-of-zelda-spirit-tracks-2",
+    "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
+    "status": "refunded",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 25.75,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswdehxm",
+    "updatedAt": "2026-08-16T22:22:48.183Z"
   }
 ]

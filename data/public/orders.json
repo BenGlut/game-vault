@@ -945,5 +945,34 @@
     "cancelledAt": null,
     "refundedAt": "2026-08-16",
     "totalPaid": 9.1
+  },
+  {
+    "id": "order_mswdehxm",
+    "marketplace": "vinted",
+    "status": "refunded",
+    "itemCount": 2,
+    "gameIds": [
+      "game_ds_the-legend-of-zelda-phantom-hourglass",
+      "game_ds_the-legend-of-zelda-spirit-tracks"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_the-legend-of-zelda-phantom-hourglass",
+        "inventoryId": "inv_ds_the-legend-of-zelda-phantom-hourglass",
+        "unitPrice": 22.2
+      },
+      {
+        "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
+        "inventoryId": "inv_ds_the-legend-of-zelda-spirit-tracks-2",
+        "unitPrice": 25.75
+      }
+    ],
+    "orderedAt": "2026-08-12",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": "2026-08-13",
+    "totalPaid": 47.95
   }
 ]
