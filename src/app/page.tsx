@@ -71,7 +71,12 @@ export default function Dashboard() {
   const orders = getOrders();
   const platforms = getPlatforms();
 
-  const owned = rows.filter((r) => r.items.some((i) => POSSESSION.includes(i.status)));
+  // le materiel partage les tables mais ne se compte pas comme un jeu
+  const jeux = rows.filter((r) => r.game.kind !== "hardware");
+  const materiel = rows.filter(
+    (r) => r.game.kind === "hardware" && r.items.some((i) => POSSESSION.includes(i.status)),
+  );
+  const owned = jeux.filter((r) => r.items.some((i) => POSSESSION.includes(i.status)));
   const wishlist = rows.filter(stillWanted);
   const inTransit = orders.filter((o) => ["ordered", "fulfilled"].includes(o.status));
   const spent = orders
@@ -144,6 +149,16 @@ export default function Dashboard() {
           label="En transit"
           value={euro(inTransit.reduce((n, o) => n + (o.totalPaid ?? 0), 0))}
           sub={`${inTransit.length} commandes, ${inTransit.reduce((n, o) => n + o.itemCount, 0)} articles`}
+        />
+        <StatTile
+          href="/commandes"
+          label="Matériel"
+          value={String(stats.totalHardware ?? 0)}
+          sub={
+            materiel.length
+              ? `${materiel.length} console${materiel.length > 1 ? "s" : ""} en stock`
+              : "consoles et accessoires suivis"
+          }
         />
         <StatTile
           href="/wishlist"

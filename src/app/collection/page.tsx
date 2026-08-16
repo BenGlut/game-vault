@@ -7,7 +7,7 @@ export default function CollectionPage() {
   // la Collection = possession réelle (possédé/commandé/reçu/vendu…) ;
   // les jeux uniquement en wishlist vivent sur les pages Wishlist et Recommandations
   const rows = getGameRows().filter((r) =>
-    r.items.some((i) => i.status !== "wishlist"),
+    r.game.kind !== "hardware" && r.items.some((i) => i.status !== "wishlist"),
   );
   return (
     <div>

@@ -217,6 +217,7 @@ const QUANTITY_REVIEW_3DS = new Set(
 function buildGames(list: SeedGame[], platformId: string): Game[] {
   return list.map(([title, franchise, ...aliases]) => ({
     id: gameId(platformId, title),
+    kind: "game" as const,
     canonicalTitle: title,
     normalizedTitle: normalizeTitle(title),
     aliases,

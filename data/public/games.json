@@ -1,6 +1,7 @@
 [
   {
     "id": "game_3ds_animal-crossing-new-leaf-welcome-amiibo",
+    "kind": "game",
     "canonicalTitle": "Animal Crossing: New Leaf - Welcome amiibo",
     "normalizedTitle": "animal crossing new leaf welcome amiibo",
     "aliases": [],
@@ -22,6 +23,7 @@
   },
   {
     "id": "game_3ds_captain-toad-treasure-tracker",
+    "kind": "game",
     "canonicalTitle": "Captain Toad: Treasure Tracker",
     "normalizedTitle": "captain toad treasure tracker",
     "aliases": [],
@@ -43,6 +45,7 @@
   },
   {
     "id": "game_3ds_cars-2",
+    "kind": "game",
     "canonicalTitle": "Cars 2",
     "normalizedTitle": "cars 2",
     "aliases": [],
@@ -64,6 +67,7 @@
   },
   {
     "id": "game_3ds_detective-pikachu",
+    "kind": "game",
     "canonicalTitle": "Détective Pikachu",
     "normalizedTitle": "detective pikachu",
     "aliases": [
@@ -87,6 +91,7 @@
   },
   {
     "id": "game_3ds_disney-magical-world-2",
+    "kind": "game",
     "canonicalTitle": "Disney Magical World 2",
     "normalizedTitle": "disney magical world 2",
     "aliases": [],
@@ -108,6 +113,7 @@
   },
   {
     "id": "game_3ds_donkey-kong-country-returns-3d",
+    "kind": "game",
     "canonicalTitle": "Donkey Kong Country Returns 3D",
     "normalizedTitle": "donkey kong country returns 3d",
     "aliases": [],
@@ -129,6 +135,7 @@
   },
   {
     "id": "game_3ds_dragon-ball-fusions",
+    "kind": "game",
     "canonicalTitle": "Dragon Ball Fusions",
     "normalizedTitle": "dragon ball fusions",
     "aliases": [],
@@ -150,6 +157,7 @@
   },
   {
     "id": "game_3ds_dragon-ball-z-extreme-butoden",
+    "kind": "game",
     "canonicalTitle": "Dragon Ball Z: Extreme Butoden",
     "normalizedTitle": "dragon ball z extreme butoden",
     "aliases": [],
@@ -171,6 +179,7 @@
   },
   {
     "id": "game_3ds_dragon-quest-vii-la-quete-des-vestiges-du-monde",
+    "kind": "game",
     "canonicalTitle": "Dragon Quest VII : La Quête des vestiges du monde",
     "normalizedTitle": "dragon quest vii la quete des vestiges du monde",
     "aliases": [
@@ -196,6 +205,7 @@
   },
   {
     "id": "game_3ds_dragons-2",
+    "kind": "game",
     "canonicalTitle": "Dragons 2",
     "normalizedTitle": "dragons 2",
     "aliases": [
@@ -219,6 +229,7 @@
   },
   {
     "id": "game_3ds_ever-oasis",
+    "kind": "game",
     "canonicalTitle": "Ever Oasis",
     "normalizedTitle": "ever oasis",
     "aliases": [],
@@ -240,6 +251,7 @@
   },
   {
     "id": "game_3ds_farming-simulator-18",
+    "kind": "game",
     "canonicalTitle": "Farming Simulator 18",
     "normalizedTitle": "farming simulator 18",
     "aliases": [],
@@ -261,6 +273,7 @@
   },
   {
     "id": "game_3ds_fire-emblem-echoes-shadows-of-valentia",
+    "kind": "game",
     "canonicalTitle": "Fire Emblem Echoes: Shadows of Valentia",
     "normalizedTitle": "fire emblem echoes shadows of valentia",
     "aliases": [],
@@ -282,6 +295,7 @@
   },
   {
     "id": "game_3ds_fire-emblem-fates-conquete",
+    "kind": "game",
     "canonicalTitle": "Fire Emblem Fates: Conquête",
     "normalizedTitle": "fire emblem fates conquete",
     "aliases": [
@@ -305,6 +319,7 @@
   },
   {
     "id": "game_3ds_fire-emblem-warriors",
+    "kind": "game",
     "canonicalTitle": "Fire Emblem Warriors",
     "normalizedTitle": "fire emblem warriors",
     "aliases": [],
@@ -326,6 +341,7 @@
   },
   {
     "id": "game_3ds_fossil-fighters-frontier",
+    "kind": "game",
     "canonicalTitle": "Fossil Fighters: Frontier",
     "normalizedTitle": "fossil fighters frontier",
     "aliases": [],
@@ -347,6 +363,7 @@
   },
   {
     "id": "game_3ds_kirby-battle-royale",
+    "kind": "game",
     "canonicalTitle": "Kirby Battle Royale",
     "normalizedTitle": "kirby battle royale",
     "aliases": [],
@@ -368,6 +385,7 @@
   },
   {
     "id": "game_3ds_kirby-planet-robobot",
+    "kind": "game",
     "canonicalTitle": "Kirby Planet Robobot",
     "normalizedTitle": "kirby planet robobot",
     "aliases": [],
@@ -389,6 +407,7 @@
   },
   {
     "id": "game_3ds_kirby-triple-deluxe",
+    "kind": "game",
     "canonicalTitle": "Kirby Triple Deluxe",
     "normalizedTitle": "kirby triple deluxe",
     "aliases": [],
@@ -410,6 +429,7 @@
   },
   {
     "id": "game_3ds_lbx-little-battlers-experience",
+    "kind": "game",
     "canonicalTitle": "LBX: Little Battlers eXperience",
     "normalizedTitle": "lbx little battlers experience",
     "aliases": [
@@ -434,6 +454,7 @@
   },
   {
     "id": "game_3ds_lego-batman-3-au-dela-de-gotham",
+    "kind": "game",
     "canonicalTitle": "LEGO Batman 3 : Au-delà de Gotham",
     "normalizedTitle": "lego batman 3 au dela de gotham",
     "aliases": [
@@ -457,6 +478,7 @@
   },
   {
     "id": "game_3ds_lego-city-undercover-the-chase-begins",
+    "kind": "game",
     "canonicalTitle": "LEGO City Undercover: The Chase Begins",
     "normalizedTitle": "lego city undercover the chase begins",
     "aliases": [],
@@ -478,6 +500,7 @@
   },
   {
     "id": "game_3ds_lego-chima-le-voyage-de-laval",
+    "kind": "game",
     "canonicalTitle": "LEGO Chima : Le Voyage de Laval",
     "normalizedTitle": "lego chima le voyage de laval",
     "aliases": [
@@ -501,6 +524,7 @@
   },
   {
     "id": "game_3ds_lego-le-hobbit",
+    "kind": "game",
     "canonicalTitle": "LEGO Le Hobbit",
     "normalizedTitle": "lego le hobbit",
     "aliases": [
@@ -524,6 +548,7 @@
   },
   {
     "id": "game_3ds_lego-le-seigneur-des-anneaux",
+    "kind": "game",
     "canonicalTitle": "LEGO Le Seigneur des Anneaux",
     "normalizedTitle": "lego le seigneur des anneaux",
     "aliases": [
@@ -547,6 +572,7 @@
   },
   {
     "id": "game_3ds_lego-marvel-super-heroes-l-univers-en-peril",
+    "kind": "game",
     "canonicalTitle": "LEGO Marvel Super Heroes : L'Univers en péril",
     "normalizedTitle": "lego marvel super heroes l univers en peril",
     "aliases": [
@@ -570,6 +596,7 @@
   },
   {
     "id": "game_3ds_lego-ninjago-l-ombre-de-ronin",
+    "kind": "game",
     "canonicalTitle": "LEGO Ninjago : L'Ombre de Ronin",
     "normalizedTitle": "lego ninjago l ombre de ronin",
     "aliases": [
@@ -593,6 +620,7 @@
   },
   {
     "id": "game_3ds_lego-ninjago-nindroids",
+    "kind": "game",
     "canonicalTitle": "LEGO Ninjago : Nindroids",
     "normalizedTitle": "lego ninjago nindroids",
     "aliases": [
@@ -616,6 +644,7 @@
   },
   {
     "id": "game_3ds_lego-star-wars-iii",
+    "kind": "game",
     "canonicalTitle": "LEGO Star Wars III",
     "normalizedTitle": "lego star wars iii",
     "aliases": [
@@ -639,6 +668,7 @@
   },
   {
     "id": "game_3ds_lego-star-wars-le-reveil-de-la-force",
+    "kind": "game",
     "canonicalTitle": "LEGO Star Wars : Le Réveil de la Force",
     "normalizedTitle": "lego star wars le reveil de la force",
     "aliases": [
@@ -662,6 +692,7 @@
   },
   {
     "id": "game_3ds_la-grande-aventure-lego-le-jeu-video",
+    "kind": "game",
     "canonicalTitle": "La Grande Aventure LEGO : Le Jeu Vidéo",
     "normalizedTitle": "la grande aventure lego le jeu video",
     "aliases": [
@@ -685,6 +716,7 @@
   },
   {
     "id": "game_3ds_luigi-s-mansion",
+    "kind": "game",
     "canonicalTitle": "Luigi's Mansion",
     "normalizedTitle": "luigi s mansion",
     "aliases": [],
@@ -706,6 +738,7 @@
   },
   {
     "id": "game_3ds_luigi-s-mansion-2",
+    "kind": "game",
     "canonicalTitle": "Luigi's Mansion 2",
     "normalizedTitle": "luigi s mansion 2",
     "aliases": [
@@ -729,6 +762,7 @@
   },
   {
     "id": "game_3ds_mario-luigi-dream-team-bros",
+    "kind": "game",
     "canonicalTitle": "Mario & Luigi: Dream Team Bros.",
     "normalizedTitle": "mario luigi dream team bros",
     "aliases": [
@@ -752,6 +786,7 @@
   },
   {
     "id": "game_3ds_mario-luigi-paper-jam-bros",
+    "kind": "game",
     "canonicalTitle": "Mario & Luigi: Paper Jam Bros.",
     "normalizedTitle": "mario luigi paper jam bros",
     "aliases": [
@@ -775,6 +810,7 @@
   },
   {
     "id": "game_3ds_mario-luigi-superstar-saga-les-sbires-de-bowser",
+    "kind": "game",
     "canonicalTitle": "Mario & Luigi: Superstar Saga + Les Sbires de Bowser",
     "normalizedTitle": "mario luigi superstar saga les sbires de bowser",
     "aliases": [
@@ -798,6 +834,7 @@
   },
   {
     "id": "game_3ds_mario-kart-7",
+    "kind": "game",
     "canonicalTitle": "Mario Kart 7",
     "normalizedTitle": "mario kart 7",
     "aliases": [],
@@ -819,6 +856,7 @@
   },
   {
     "id": "game_3ds_mario-party-island-tour",
+    "kind": "game",
     "canonicalTitle": "Mario Party: Island Tour",
     "normalizedTitle": "mario party island tour",
     "aliases": [],
@@ -840,6 +878,7 @@
   },
   {
     "id": "game_3ds_mario-party-star-rush",
+    "kind": "game",
     "canonicalTitle": "Mario Party: Star Rush",
     "normalizedTitle": "mario party star rush",
     "aliases": [],
@@ -861,6 +900,7 @@
   },
   {
     "id": "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
+    "kind": "game",
     "canonicalTitle": "Mario & Sonic aux Jeux Olympiques de Londres 2012",
     "normalizedTitle": "mario sonic aux jeux olympiques de londres 2012",
     "aliases": [
@@ -884,6 +924,7 @@
   },
   {
     "id": "game_3ds_mario-tennis-open",
+    "kind": "game",
     "canonicalTitle": "Mario Tennis Open",
     "normalizedTitle": "mario tennis open",
     "aliases": [],
@@ -905,6 +946,7 @@
   },
   {
     "id": "game_3ds_miitopia",
+    "kind": "game",
     "canonicalTitle": "Miitopia",
     "normalizedTitle": "miitopia",
     "aliases": [],
@@ -926,6 +968,7 @@
   },
   {
     "id": "game_3ds_monster-hunter-3-ultimate",
+    "kind": "game",
     "canonicalTitle": "Monster Hunter 3 Ultimate",
     "normalizedTitle": "monster hunter 3 ultimate",
     "aliases": [],
@@ -947,6 +990,7 @@
   },
   {
     "id": "game_3ds_monster-hunter-generations",
+    "kind": "game",
     "canonicalTitle": "Monster Hunter Generations",
     "normalizedTitle": "monster hunter generations",
     "aliases": [],
@@ -968,6 +1012,7 @@
   },
   {
     "id": "game_3ds_new-super-mario-bros-2",
+    "kind": "game",
     "canonicalTitle": "New Super Mario Bros. 2",
     "normalizedTitle": "new super mario bros 2",
     "aliases": [],
@@ -989,6 +1034,7 @@
   },
   {
     "id": "game_3ds_nintendogs-cats",
+    "kind": "game",
     "canonicalTitle": "Nintendogs + Cats",
     "normalizedTitle": "nintendogs cats",
     "aliases": [],
@@ -1010,6 +1056,7 @@
   },
   {
     "id": "game_3ds_paper-mario-sticker-star",
+    "kind": "game",
     "canonicalTitle": "Paper Mario: Sticker Star",
     "normalizedTitle": "paper mario sticker star",
     "aliases": [],
@@ -1031,6 +1078,7 @@
   },
   {
     "id": "game_3ds_planes",
+    "kind": "game",
     "canonicalTitle": "Planes",
     "normalizedTitle": "planes",
     "aliases": [],
@@ -1052,6 +1100,7 @@
   },
   {
     "id": "game_3ds_pokemon-donjon-mystere-les-portes-de-l-infini",
+    "kind": "game",
     "canonicalTitle": "Pokémon Donjon Mystère : Les Portes de l'Infini",
     "normalizedTitle": "pokemon donjon mystere les portes de l infini",
     "aliases": [
@@ -1075,6 +1124,7 @@
   },
   {
     "id": "game_3ds_pokemon-mega-donjon-mystere",
+    "kind": "game",
     "canonicalTitle": "Pokémon Méga Donjon Mystère",
     "normalizedTitle": "pokemon mega donjon mystere",
     "aliases": [
@@ -1098,6 +1148,7 @@
   },
   {
     "id": "game_3ds_pokemon-rumble-world",
+    "kind": "game",
     "canonicalTitle": "Pokémon Rumble World",
     "normalizedTitle": "pokemon rumble world",
     "aliases": [],
@@ -1119,6 +1170,7 @@
   },
   {
     "id": "game_3ds_pokemon-rubis-omega",
+    "kind": "game",
     "canonicalTitle": "Pokémon Rubis Oméga",
     "normalizedTitle": "pokemon rubis omega",
     "aliases": [
@@ -1142,6 +1194,7 @@
   },
   {
     "id": "game_3ds_pokemon-saphir-alpha",
+    "kind": "game",
     "canonicalTitle": "Pokémon Saphir Alpha",
     "normalizedTitle": "pokemon saphir alpha",
     "aliases": [
@@ -1165,6 +1218,7 @@
   },
   {
     "id": "game_3ds_pokemon-soleil",
+    "kind": "game",
     "canonicalTitle": "Pokémon Soleil",
     "normalizedTitle": "pokemon soleil",
     "aliases": [
@@ -1188,6 +1242,7 @@
   },
   {
     "id": "game_3ds_pokemon-ultra-soleil",
+    "kind": "game",
     "canonicalTitle": "Pokémon Ultra-Soleil",
     "normalizedTitle": "pokemon ultra soleil",
     "aliases": [
@@ -1211,6 +1266,7 @@
   },
   {
     "id": "game_3ds_pokemon-lune",
+    "kind": "game",
     "canonicalTitle": "Pokémon Lune",
     "normalizedTitle": "pokemon lune",
     "aliases": [
@@ -1234,6 +1290,7 @@
   },
   {
     "id": "game_3ds_pokemon-ultra-lune",
+    "kind": "game",
     "canonicalTitle": "Pokémon Ultra-Lune",
     "normalizedTitle": "pokemon ultra lune",
     "aliases": [
@@ -1257,6 +1314,7 @@
   },
   {
     "id": "game_3ds_pokemon-x",
+    "kind": "game",
     "canonicalTitle": "Pokémon X",
     "normalizedTitle": "pokemon x",
     "aliases": [],
@@ -1278,6 +1336,7 @@
   },
   {
     "id": "game_3ds_pokemon-y",
+    "kind": "game",
     "canonicalTitle": "Pokémon Y",
     "normalizedTitle": "pokemon y",
     "aliases": [],
@@ -1299,6 +1358,7 @@
   },
   {
     "id": "game_3ds_super-pokemon-rumble",
+    "kind": "game",
     "canonicalTitle": "Super Pokémon Rumble",
     "normalizedTitle": "super pokemon rumble",
     "aliases": [
@@ -1322,6 +1382,7 @@
   },
   {
     "id": "game_3ds_rayman-les-lapins-cretins-pack-famille",
+    "kind": "game",
     "canonicalTitle": "Rayman + Les Lapins Crétins : Pack Famille",
     "normalizedTitle": "rayman les lapins cretins pack famille",
     "aliases": [
@@ -1345,6 +1406,7 @@
   },
   {
     "id": "game_3ds_sonic-boom-le-cristal-brise",
+    "kind": "game",
     "canonicalTitle": "Sonic Boom : Le Cristal Brisé",
     "normalizedTitle": "sonic boom le cristal brise",
     "aliases": [
@@ -1368,6 +1430,7 @@
   },
   {
     "id": "game_3ds_star-fox-64-3d",
+    "kind": "game",
     "canonicalTitle": "Star Fox 64 3D",
     "normalizedTitle": "star fox 64 3d",
     "aliases": [
@@ -1391,6 +1454,7 @@
   },
   {
     "id": "game_3ds_super-mario-3d-land",
+    "kind": "game",
     "canonicalTitle": "Super Mario 3D Land",
     "normalizedTitle": "super mario 3d land",
     "aliases": [],
@@ -1412,6 +1476,7 @@
   },
   {
     "id": "game_3ds_super-mario-maker-for-nintendo-3ds",
+    "kind": "game",
     "canonicalTitle": "Super Mario Maker for Nintendo 3DS",
     "normalizedTitle": "super mario maker for nintendo 3ds",
     "aliases": [
@@ -1435,6 +1500,7 @@
   },
   {
     "id": "game_3ds_super-smash-bros-for-nintendo-3ds",
+    "kind": "game",
     "canonicalTitle": "Super Smash Bros. for Nintendo 3DS",
     "normalizedTitle": "super smash bros for nintendo 3ds",
     "aliases": [
@@ -1458,6 +1524,7 @@
   },
   {
     "id": "game_3ds_the-legend-of-zelda-a-link-between-worlds",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: A Link Between Worlds",
     "normalizedTitle": "the legend of zelda a link between worlds",
     "aliases": [
@@ -1481,6 +1548,7 @@
   },
   {
     "id": "game_3ds_the-legend-of-zelda-ocarina-of-time-3d",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Ocarina of Time 3D",
     "normalizedTitle": "the legend of zelda ocarina of time 3d",
     "aliases": [
@@ -1504,6 +1572,7 @@
   },
   {
     "id": "game_3ds_the-legend-of-zelda-tri-force-heroes",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Tri Force Heroes",
     "normalizedTitle": "the legend of zelda tri force heroes",
     "aliases": [],
@@ -1525,6 +1594,7 @@
   },
   {
     "id": "game_3ds_wrc",
+    "kind": "game",
     "canonicalTitle": "WRC",
     "normalizedTitle": "wrc",
     "aliases": [
@@ -1548,6 +1618,7 @@
   },
   {
     "id": "game_3ds_yo-kai-watch-2-esprits-farceurs",
+    "kind": "game",
     "canonicalTitle": "Yo-kai Watch 2 : Esprits Farceurs",
     "normalizedTitle": "yo kai watch 2 esprits farceurs",
     "aliases": [
@@ -1571,6 +1642,7 @@
   },
   {
     "id": "game_3ds_yo-kai-watch-2-fantomes-bouffis",
+    "kind": "game",
     "canonicalTitle": "Yo-kai Watch 2 : Fantômes Bouffis",
     "normalizedTitle": "yo kai watch 2 fantomes bouffis",
     "aliases": [
@@ -1594,6 +1666,7 @@
   },
   {
     "id": "game_3ds_yo-kai-watch-blasters-l-escadron-du-chien-blanc",
+    "kind": "game",
     "canonicalTitle": "Yo-kai Watch Blasters : L'Escadron du Chien Blanc",
     "normalizedTitle": "yo kai watch blasters l escadron du chien blanc",
     "aliases": [
@@ -1617,6 +1690,7 @@
   },
   {
     "id": "game_3ds_yoshi-s-new-island",
+    "kind": "game",
     "canonicalTitle": "Yoshi's New Island",
     "normalizedTitle": "yoshi s new island",
     "aliases": [],
@@ -1638,6 +1712,7 @@
   },
   {
     "id": "game_ds_arthur-et-les-minimoys",
+    "kind": "game",
     "canonicalTitle": "Arthur et les Minimoys",
     "normalizedTitle": "arthur et les minimoys",
     "aliases": [
@@ -1661,6 +1736,7 @@
   },
   {
     "id": "game_ds_asterix-obelix-xxl-2-mission-wifix",
+    "kind": "game",
     "canonicalTitle": "Astérix & Obélix XXL 2 : Mission Wifix",
     "normalizedTitle": "asterix obelix xxl 2 mission wifix",
     "aliases": [
@@ -1684,6 +1760,7 @@
   },
   {
     "id": "game_ds_bien-etre-du-visage",
+    "kind": "game",
     "canonicalTitle": "Bien-être du visage",
     "normalizedTitle": "bien etre du visage",
     "aliases": [
@@ -1707,6 +1784,7 @@
   },
   {
     "id": "game_ds_bratz-forever-diamondz",
+    "kind": "game",
     "canonicalTitle": "Bratz: Forever Diamondz",
     "normalizedTitle": "bratz forever diamondz",
     "aliases": [],
@@ -1728,6 +1806,7 @@
   },
   {
     "id": "game_ds_cars",
+    "kind": "game",
     "canonicalTitle": "Cars",
     "normalizedTitle": "cars",
     "aliases": [],
@@ -1749,6 +1828,7 @@
   },
   {
     "id": "game_ds_cars-race-o-rama",
+    "kind": "game",
     "canonicalTitle": "Cars Race-O-Rama",
     "normalizedTitle": "cars race o rama",
     "aliases": [],
@@ -1770,6 +1850,7 @@
   },
   {
     "id": "game_ds_children-of-mana",
+    "kind": "game",
     "canonicalTitle": "Children of Mana",
     "normalizedTitle": "children of mana",
     "aliases": [
@@ -1793,6 +1874,7 @@
   },
   {
     "id": "game_ds_clochette-et-la-pierre-de-lune",
+    "kind": "game",
     "canonicalTitle": "Clochette et la Pierre de Lune",
     "normalizedTitle": "clochette et la pierre de lune",
     "aliases": [
@@ -1816,6 +1898,7 @@
   },
   {
     "id": "game_ds_clochette-et-l-expedition-feerique",
+    "kind": "game",
     "canonicalTitle": "Clochette et l'Expédition Féerique",
     "normalizedTitle": "clochette et l expedition feerique",
     "aliases": [
@@ -1839,6 +1922,7 @@
   },
   {
     "id": "game_ds_dance-floor",
+    "kind": "game",
     "canonicalTitle": "Dance Floor",
     "normalizedTitle": "dance floor",
     "aliases": [],
@@ -1860,6 +1944,7 @@
   },
   {
     "id": "game_ds_dora-cuisine",
+    "kind": "game",
     "canonicalTitle": "Dora Cuisine",
     "normalizedTitle": "dora cuisine",
     "aliases": [
@@ -1883,6 +1968,7 @@
   },
   {
     "id": "game_ds_dora-et-sauvons-les-animaux",
+    "kind": "game",
     "canonicalTitle": "Dora et Sauvons les animaux",
     "normalizedTitle": "dora et sauvons les animaux",
     "aliases": [
@@ -1906,6 +1992,7 @@
   },
   {
     "id": "game_ds_dragon-ball-z-supersonic-warriors-2",
+    "kind": "game",
     "canonicalTitle": "Dragon Ball Z: Supersonic Warriors 2",
     "normalizedTitle": "dragon ball z supersonic warriors 2",
     "aliases": [],
@@ -1927,6 +2014,7 @@
   },
   {
     "id": "game_ds_final-fantasy-iii",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy III",
     "normalizedTitle": "final fantasy iii",
     "aliases": [
@@ -1951,6 +2039,7 @@
   },
   {
     "id": "game_ds_final-fantasy-crystal-chronicles-echoes-of-time",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy Crystal Chronicles: Echoes of Time",
     "normalizedTitle": "final fantasy crystal chronicles echoes of time",
     "aliases": [],
@@ -1972,6 +2061,7 @@
   },
   {
     "id": "game_ds_final-fantasy-tactics-a2",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy Tactics A2",
     "normalizedTitle": "final fantasy tactics a2",
     "aliases": [
@@ -1995,6 +2085,7 @@
   },
   {
     "id": "game_ds_fort-boyard",
+    "kind": "game",
     "canonicalTitle": "Fort Boyard",
     "normalizedTitle": "fort boyard",
     "aliases": [],
@@ -2016,6 +2107,7 @@
   },
   {
     "id": "game_ds_goldeneye-007",
+    "kind": "game",
     "canonicalTitle": "GoldenEye 007",
     "normalizedTitle": "goldeneye 007",
     "aliases": [],
@@ -2037,6 +2129,7 @@
   },
   {
     "id": "game_ds_high-school-musical-3",
+    "kind": "game",
     "canonicalTitle": "High School Musical 3",
     "normalizedTitle": "high school musical 3",
     "aliases": [
@@ -2060,6 +2153,7 @@
   },
   {
     "id": "game_ds_lego-batman-2-dc-super-heroes",
+    "kind": "game",
     "canonicalTitle": "LEGO Batman 2 : DC Super Heroes",
     "normalizedTitle": "lego batman 2 dc super heroes",
     "aliases": [
@@ -2083,6 +2177,7 @@
   },
   {
     "id": "game_ds_lego-harry-potter-annees-1-4",
+    "kind": "game",
     "canonicalTitle": "LEGO Harry Potter : Années 1-4",
     "normalizedTitle": "lego harry potter annees 1 4",
     "aliases": [
@@ -2106,6 +2201,7 @@
   },
   {
     "id": "game_ds_lecons-de-cuisine",
+    "kind": "game",
     "canonicalTitle": "Leçons de cuisine",
     "normalizedTitle": "lecons de cuisine",
     "aliases": [
@@ -2129,6 +2225,7 @@
   },
   {
     "id": "game_ds_les-chevaliers-de-baphomet-director-s-cut",
+    "kind": "game",
     "canonicalTitle": "Les Chevaliers de Baphomet: Director's Cut",
     "normalizedTitle": "les chevaliers de baphomet director s cut",
     "aliases": [
@@ -2152,6 +2249,7 @@
   },
   {
     "id": "game_ds_les-rebelles-de-la-foret",
+    "kind": "game",
     "canonicalTitle": "Les Rebelles de la Forêt",
     "normalizedTitle": "les rebelles de la foret",
     "aliases": [
@@ -2175,6 +2273,7 @@
   },
   {
     "id": "game_ds_ma-pause-yoga",
+    "kind": "game",
     "canonicalTitle": "Ma Pause Yoga",
     "normalizedTitle": "ma pause yoga",
     "aliases": [
@@ -2198,6 +2297,7 @@
   },
   {
     "id": "game_ds_mario-luigi-voyage-au-centre-de-bowser",
+    "kind": "game",
     "canonicalTitle": "Mario & Luigi : Voyage au centre de Bowser",
     "normalizedTitle": "mario luigi voyage au centre de bowser",
     "aliases": [
@@ -2221,6 +2321,7 @@
   },
   {
     "id": "game_ds_mario-vs-donkey-kong-2-la-marche-des-mini",
+    "kind": "game",
     "canonicalTitle": "Mario vs. Donkey Kong 2 : La Marche des Mini",
     "normalizedTitle": "mario vs donkey kong 2 la marche des mini",
     "aliases": [
@@ -2244,6 +2345,7 @@
   },
   {
     "id": "game_ds_mission-safari",
+    "kind": "game",
     "canonicalTitle": "Mission Safari",
     "normalizedTitle": "mission safari",
     "aliases": [
@@ -2268,6 +2370,7 @@
   },
   {
     "id": "game_ds_nancy-drew-the-deadly-secret-of-olde-world-park",
+    "kind": "game",
     "canonicalTitle": "Nancy Drew: The Deadly Secret of Olde World Park",
     "normalizedTitle": "nancy drew the deadly secret of olde world park",
     "aliases": [],
@@ -2289,6 +2392,7 @@
   },
   {
     "id": "game_ds_plus-belle-la-vie-le-secret-du-dr-livia",
+    "kind": "game",
     "canonicalTitle": "Plus Belle la Vie : Le Secret du Dr Livia",
     "normalizedTitle": "plus belle la vie le secret du dr livia",
     "aliases": [],
@@ -2310,6 +2414,7 @@
   },
   {
     "id": "game_ds_pokemon-version-argent-soulsilver",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Argent SoulSilver",
     "normalizedTitle": "pokemon version argent soulsilver",
     "aliases": [
@@ -2334,6 +2439,7 @@
   },
   {
     "id": "game_ds_pokemon-version-blanche",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Blanche",
     "normalizedTitle": "pokemon version blanche",
     "aliases": [
@@ -2358,6 +2464,7 @@
   },
   {
     "id": "game_ds_pokemon-version-diamant",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Diamant",
     "normalizedTitle": "pokemon version diamant",
     "aliases": [
@@ -2382,6 +2489,7 @@
   },
   {
     "id": "game_ds_pokemon-version-noire",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Noire",
     "normalizedTitle": "pokemon version noire",
     "aliases": [
@@ -2406,6 +2514,7 @@
   },
   {
     "id": "game_ds_pokemon-version-noire-2",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Noire 2",
     "normalizedTitle": "pokemon version noire 2",
     "aliases": [
@@ -2430,6 +2539,7 @@
   },
   {
     "id": "game_ds_pokemon-version-or-heartgold",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Or HeartGold",
     "normalizedTitle": "pokemon version or heartgold",
     "aliases": [
@@ -2454,6 +2564,7 @@
   },
   {
     "id": "game_ds_pokemon-version-perle",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Perle",
     "normalizedTitle": "pokemon version perle",
     "aliases": [
@@ -2478,6 +2589,7 @@
   },
   {
     "id": "game_ds_pokemon-version-platine",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Platine",
     "normalizedTitle": "pokemon version platine",
     "aliases": [
@@ -2502,6 +2614,7 @@
   },
   {
     "id": "game_ds_pokemon-donjon-mystere-equipe-de-secours-bleue",
+    "kind": "game",
     "canonicalTitle": "Pokémon Donjon Mystère : Équipe de Secours Bleue",
     "normalizedTitle": "pokemon donjon mystere equipe de secours bleue",
     "aliases": [
@@ -2525,6 +2638,7 @@
   },
   {
     "id": "game_ds_pokemon-donjon-mystere-explorateurs-de-l-ombre",
+    "kind": "game",
     "canonicalTitle": "Pokémon Donjon Mystère : Explorateurs de l'Ombre",
     "normalizedTitle": "pokemon donjon mystere explorateurs de l ombre",
     "aliases": [
@@ -2548,6 +2662,7 @@
   },
   {
     "id": "game_ds_pokemon-donjon-mystere-explorateurs-du-temps",
+    "kind": "game",
     "canonicalTitle": "Pokémon Donjon Mystère : Explorateurs du Temps",
     "normalizedTitle": "pokemon donjon mystere explorateurs du temps",
     "aliases": [
@@ -2571,6 +2686,7 @@
   },
   {
     "id": "game_ds_pokemon-link",
+    "kind": "game",
     "canonicalTitle": "Pokémon Link!",
     "normalizedTitle": "pokemon link",
     "aliases": [
@@ -2594,6 +2710,7 @@
   },
   {
     "id": "game_ds_pokemon-ranger",
+    "kind": "game",
     "canonicalTitle": "Pokémon Ranger",
     "normalizedTitle": "pokemon ranger",
     "aliases": [],
@@ -2615,6 +2732,7 @@
   },
   {
     "id": "game_ds_populous-ds",
+    "kind": "game",
     "canonicalTitle": "Populous DS",
     "normalizedTitle": "populous ds",
     "aliases": [],
@@ -2636,6 +2754,7 @@
   },
   {
     "id": "game_ds_programme-d-entrainement-cerebral",
+    "kind": "game",
     "canonicalTitle": "Programme d'entraînement cérébral",
     "normalizedTitle": "programme d entrainement cerebral",
     "aliases": [
@@ -2660,6 +2779,7 @@
   },
   {
     "id": "game_ds_professeur-layton-et-l-etrange-village",
+    "kind": "game",
     "canonicalTitle": "Professeur Layton et l'Étrange Village",
     "normalizedTitle": "professeur layton et l etrange village",
     "aliases": [
@@ -2683,6 +2803,7 @@
   },
   {
     "id": "game_ds_runaway-a-twist-of-fate",
+    "kind": "game",
     "canonicalTitle": "Runaway: A Twist of Fate",
     "normalizedTitle": "runaway a twist of fate",
     "aliases": [],
@@ -2704,6 +2825,7 @@
   },
   {
     "id": "game_ds_runaway-the-dream-of-the-turtle",
+    "kind": "game",
     "canonicalTitle": "Runaway: The Dream of the Turtle",
     "normalizedTitle": "runaway the dream of the turtle",
     "aliases": [],
@@ -2725,6 +2847,7 @@
   },
   {
     "id": "game_ds_simcity-ds",
+    "kind": "game",
     "canonicalTitle": "SimCity DS",
     "normalizedTitle": "simcity ds",
     "aliases": [],
@@ -2746,6 +2869,7 @@
   },
   {
     "id": "game_ds_sonic-chronicles-la-confrerie-des-tenebres",
+    "kind": "game",
     "canonicalTitle": "Sonic Chronicles : La Confrérie des Ténèbres",
     "normalizedTitle": "sonic chronicles la confrerie des tenebres",
     "aliases": [
@@ -2769,6 +2893,7 @@
   },
   {
     "id": "game_ds_spyro-shadow-legacy",
+    "kind": "game",
     "canonicalTitle": "Spyro: Shadow Legacy",
     "normalizedTitle": "spyro shadow legacy",
     "aliases": [],
@@ -2790,6 +2915,7 @@
   },
   {
     "id": "game_ds_star-wars-the-clone-wars-l-alliance-jedi",
+    "kind": "game",
     "canonicalTitle": "Star Wars: The Clone Wars - L'Alliance Jedi",
     "normalizedTitle": "star wars the clone wars l alliance jedi",
     "aliases": [
@@ -2813,6 +2939,7 @@
   },
   {
     "id": "game_ds_super-mario-64-ds",
+    "kind": "game",
     "canonicalTitle": "Super Mario 64 DS",
     "normalizedTitle": "super mario 64 ds",
     "aliases": [],
@@ -2834,6 +2961,7 @@
   },
   {
     "id": "game_ds_totally-spies-2-undercover",
+    "kind": "game",
     "canonicalTitle": "Totally Spies! 2: Undercover",
     "normalizedTitle": "totally spies 2 undercover",
     "aliases": [],
@@ -2855,6 +2983,7 @@
   },
   {
     "id": "game_ds_worms-open-warfare",
+    "kind": "game",
     "canonicalTitle": "Worms: Open Warfare",
     "normalizedTitle": "worms open warfare",
     "aliases": [],
@@ -2876,6 +3005,7 @@
   },
   {
     "id": "game_ds_worms-open-warfare-2",
+    "kind": "game",
     "canonicalTitle": "Worms: Open Warfare 2",
     "normalizedTitle": "worms open warfare 2",
     "aliases": [],
@@ -2897,6 +3027,7 @@
   },
   {
     "id": "game_3ds_mario-party-the-top-100",
+    "kind": "game",
     "canonicalTitle": "Mario Party: The Top 100",
     "normalizedTitle": "mario party the top 100",
     "aliases": [
@@ -2920,6 +3051,7 @@
   },
   {
     "id": "game_3ds_lego-jurassic-world",
+    "kind": "game",
     "canonicalTitle": "LEGO Jurassic World",
     "normalizedTitle": "lego jurassic world",
     "aliases": [],
@@ -2941,6 +3073,7 @@
   },
   {
     "id": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Majora's Mask 3D",
     "normalizedTitle": "the legend of zelda majora s mask 3d",
     "aliases": [
@@ -2964,6 +3097,7 @@
   },
   {
     "id": "game_3ds_fire-emblem-awakening",
+    "kind": "game",
     "canonicalTitle": "Fire Emblem: Awakening",
     "normalizedTitle": "fire emblem awakening",
     "aliases": [],
@@ -2985,6 +3119,7 @@
   },
   {
     "id": "game_3ds_metroid-samus-returns",
+    "kind": "game",
     "canonicalTitle": "Metroid: Samus Returns",
     "normalizedTitle": "metroid samus returns",
     "aliases": [],
@@ -3006,6 +3141,7 @@
   },
   {
     "id": "game_3ds_kid-icarus-uprising",
+    "kind": "game",
     "canonicalTitle": "Kid Icarus: Uprising",
     "normalizedTitle": "kid icarus uprising",
     "aliases": [],
@@ -3027,6 +3163,7 @@
   },
   {
     "id": "game_3ds_bravely-default",
+    "kind": "game",
     "canonicalTitle": "Bravely Default",
     "normalizedTitle": "bravely default",
     "aliases": [],
@@ -3048,6 +3185,7 @@
   },
   {
     "id": "game_3ds_shin-megami-tensei-iv",
+    "kind": "game",
     "canonicalTitle": "Shin Megami Tensei IV",
     "normalizedTitle": "shin megami tensei iv",
     "aliases": [
@@ -3071,6 +3209,7 @@
   },
   {
     "id": "game_3ds_poochy-yoshi-s-woolly-world",
+    "kind": "game",
     "canonicalTitle": "Poochy & Yoshi's Woolly World",
     "normalizedTitle": "poochy yoshi s woolly world",
     "aliases": [],
@@ -3092,6 +3231,7 @@
   },
   {
     "id": "game_3ds_animal-crossing-happy-home-designer",
+    "kind": "game",
     "canonicalTitle": "Animal Crossing: Happy Home Designer",
     "normalizedTitle": "animal crossing happy home designer",
     "aliases": [],
@@ -3113,6 +3253,7 @@
   },
   {
     "id": "game_ds_mario-kart-ds",
+    "kind": "game",
     "canonicalTitle": "Mario Kart DS",
     "normalizedTitle": "mario kart ds",
     "aliases": [],
@@ -3134,6 +3275,7 @@
   },
   {
     "id": "game_ds_new-super-mario-bros",
+    "kind": "game",
     "canonicalTitle": "New Super Mario Bros.",
     "normalizedTitle": "new super mario bros",
     "aliases": [
@@ -3157,6 +3299,7 @@
   },
   {
     "id": "game_ds_dragon-quest-ix-les-sentinelles-du-firmament",
+    "kind": "game",
     "canonicalTitle": "Dragon Quest IX : Les Sentinelles du Firmament",
     "normalizedTitle": "dragon quest ix les sentinelles du firmament",
     "aliases": [
@@ -3181,6 +3324,7 @@
   },
   {
     "id": "game_ds_the-legend-of-zelda-phantom-hourglass",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Phantom Hourglass",
     "normalizedTitle": "the legend of zelda phantom hourglass",
     "aliases": [],
@@ -3202,6 +3346,7 @@
   },
   {
     "id": "game_ds_the-legend-of-zelda-spirit-tracks",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Spirit Tracks",
     "normalizedTitle": "the legend of zelda spirit tracks",
     "aliases": [],
@@ -3223,6 +3368,7 @@
   },
   {
     "id": "game_ds_professeur-layton-et-la-boite-de-pandore",
+    "kind": "game",
     "canonicalTitle": "Professeur Layton et la Boîte de Pandore",
     "normalizedTitle": "professeur layton et la boite de pandore",
     "aliases": [
@@ -3246,6 +3392,7 @@
   },
   {
     "id": "game_ds_professeur-layton-et-le-destin-perdu",
+    "kind": "game",
     "canonicalTitle": "Professeur Layton et le Destin Perdu",
     "normalizedTitle": "professeur layton et le destin perdu",
     "aliases": [
@@ -3269,6 +3416,7 @@
   },
   {
     "id": "game_ds_chrono-trigger",
+    "kind": "game",
     "canonicalTitle": "Chrono Trigger",
     "normalizedTitle": "chrono trigger",
     "aliases": [],
@@ -3290,6 +3438,7 @@
   },
   {
     "id": "game_ds_ghost-trick-detective-fantome",
+    "kind": "game",
     "canonicalTitle": "Ghost Trick : Détective Fantôme",
     "normalizedTitle": "ghost trick detective fantome",
     "aliases": [
@@ -3313,6 +3462,7 @@
   },
   {
     "id": "game_ds_the-world-ends-with-you",
+    "kind": "game",
     "canonicalTitle": "The World Ends With You",
     "normalizedTitle": "the world ends with you",
     "aliases": [
@@ -3336,6 +3486,7 @@
   },
   {
     "id": "game_ds_castlevania-dawn-of-sorrow",
+    "kind": "game",
     "canonicalTitle": "Castlevania: Dawn of Sorrow",
     "normalizedTitle": "castlevania dawn of sorrow",
     "aliases": [],
@@ -3357,6 +3508,7 @@
   },
   {
     "id": "game_ds_advance-wars-dual-strike",
+    "kind": "game",
     "canonicalTitle": "Advance Wars: Dual Strike",
     "normalizedTitle": "advance wars dual strike",
     "aliases": [],
@@ -3378,6 +3530,7 @@
   },
   {
     "id": "game_ds_kirby-super-star-ultra",
+    "kind": "game",
     "canonicalTitle": "Kirby Super Star Ultra",
     "normalizedTitle": "kirby super star ultra",
     "aliases": [],
@@ -3399,6 +3552,7 @@
   },
   {
     "id": "game_ds_rhythm-paradise",
+    "kind": "game",
     "canonicalTitle": "Rhythm Paradise",
     "normalizedTitle": "rhythm paradise",
     "aliases": [
@@ -3422,6 +3576,7 @@
   },
   {
     "id": "game_ds_golden-sun-obscure-aurore",
+    "kind": "game",
     "canonicalTitle": "Golden Sun : Obscure Aurore",
     "normalizedTitle": "golden sun obscure aurore",
     "aliases": [
@@ -3445,6 +3600,7 @@
   },
   {
     "id": "game_n64_super-mario-64",
+    "kind": "game",
     "canonicalTitle": "Super Mario 64",
     "normalizedTitle": "super mario 64",
     "aliases": [],
@@ -3466,6 +3622,7 @@
   },
   {
     "id": "game_n64_the-legend-of-zelda-ocarina-of-time",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Ocarina of Time",
     "normalizedTitle": "the legend of zelda ocarina of time",
     "aliases": [],
@@ -3487,6 +3644,7 @@
   },
   {
     "id": "game_n64_mario-kart-64",
+    "kind": "game",
     "canonicalTitle": "Mario Kart 64",
     "normalizedTitle": "mario kart 64",
     "aliases": [],
@@ -3508,6 +3666,7 @@
   },
   {
     "id": "game_n64_the-legend-of-zelda-majora-s-mask",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Majora's Mask",
     "normalizedTitle": "the legend of zelda majora s mask",
     "aliases": [],
@@ -3529,6 +3688,7 @@
   },
   {
     "id": "game_n64_banjo-kazooie",
+    "kind": "game",
     "canonicalTitle": "Banjo-Kazooie",
     "normalizedTitle": "banjo kazooie",
     "aliases": [],
@@ -3550,6 +3710,7 @@
   },
   {
     "id": "game_n64_super-smash-bros",
+    "kind": "game",
     "canonicalTitle": "Super Smash Bros.",
     "normalizedTitle": "super smash bros",
     "aliases": [],
@@ -3571,6 +3732,7 @@
   },
   {
     "id": "game_n64_goldeneye-007",
+    "kind": "game",
     "canonicalTitle": "GoldenEye 007",
     "normalizedTitle": "goldeneye 007",
     "aliases": [],
@@ -3592,6 +3754,7 @@
   },
   {
     "id": "game_n64_paper-mario",
+    "kind": "game",
     "canonicalTitle": "Paper Mario",
     "normalizedTitle": "paper mario",
     "aliases": [],
@@ -3613,6 +3776,7 @@
   },
   {
     "id": "game_n64_diddy-kong-racing",
+    "kind": "game",
     "canonicalTitle": "Diddy Kong Racing",
     "normalizedTitle": "diddy kong racing",
     "aliases": [],
@@ -3634,6 +3798,7 @@
   },
   {
     "id": "game_n64_lylat-wars",
+    "kind": "game",
     "canonicalTitle": "Lylat Wars",
     "normalizedTitle": "lylat wars",
     "aliases": [
@@ -3657,6 +3822,7 @@
   },
   {
     "id": "game_gamecube_the-legend-of-zelda-the-wind-waker",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: The Wind Waker",
     "normalizedTitle": "the legend of zelda the wind waker",
     "aliases": [],
@@ -3678,6 +3844,7 @@
   },
   {
     "id": "game_gamecube_super-mario-sunshine",
+    "kind": "game",
     "canonicalTitle": "Super Mario Sunshine",
     "normalizedTitle": "super mario sunshine",
     "aliases": [],
@@ -3699,6 +3866,7 @@
   },
   {
     "id": "game_gamecube_super-smash-bros-melee",
+    "kind": "game",
     "canonicalTitle": "Super Smash Bros. Melee",
     "normalizedTitle": "super smash bros melee",
     "aliases": [],
@@ -3720,6 +3888,7 @@
   },
   {
     "id": "game_gamecube_mario-kart-double-dash",
+    "kind": "game",
     "canonicalTitle": "Mario Kart: Double Dash!!",
     "normalizedTitle": "mario kart double dash",
     "aliases": [],
@@ -3741,6 +3910,7 @@
   },
   {
     "id": "game_gamecube_metroid-prime",
+    "kind": "game",
     "canonicalTitle": "Metroid Prime",
     "normalizedTitle": "metroid prime",
     "aliases": [],
@@ -3762,6 +3932,7 @@
   },
   {
     "id": "game_gamecube_luigi-s-mansion",
+    "kind": "game",
     "canonicalTitle": "Luigi's Mansion",
     "normalizedTitle": "luigi s mansion",
     "aliases": [],
@@ -3783,6 +3954,7 @@
   },
   {
     "id": "game_gamecube_paper-mario-la-porte-millenaire",
+    "kind": "game",
     "canonicalTitle": "Paper Mario : La Porte Millénaire",
     "normalizedTitle": "paper mario la porte millenaire",
     "aliases": [
@@ -3806,6 +3978,7 @@
   },
   {
     "id": "game_gamecube_pikmin",
+    "kind": "game",
     "canonicalTitle": "Pikmin",
     "normalizedTitle": "pikmin",
     "aliases": [],
@@ -3827,6 +4000,7 @@
   },
   {
     "id": "game_gamecube_f-zero-gx",
+    "kind": "game",
     "canonicalTitle": "F-Zero GX",
     "normalizedTitle": "f zero gx",
     "aliases": [],
@@ -3848,6 +4022,7 @@
   },
   {
     "id": "game_gamecube_resident-evil-4",
+    "kind": "game",
     "canonicalTitle": "Resident Evil 4",
     "normalizedTitle": "resident evil 4",
     "aliases": [],
@@ -3869,6 +4044,7 @@
   },
   {
     "id": "game_ds_mario-vs-donkey-kong-mini-land-mayhem",
+    "kind": "game",
     "canonicalTitle": "Mario vs. Donkey Kong : Mini-Land Mayhem!",
     "normalizedTitle": "mario vs donkey kong mini land mayhem",
     "aliases": [
@@ -3892,6 +4068,7 @@
   },
   {
     "id": "game_ds_the-legend-of-spyro-dawn-of-the-dragon",
+    "kind": "game",
     "canonicalTitle": "The Legend of Spyro: Dawn of the Dragon",
     "normalizedTitle": "the legend of spyro dawn of the dragon",
     "aliases": [],
@@ -3913,6 +4090,7 @@
   },
   {
     "id": "game_ds_high-school-musical-reves-de-star",
+    "kind": "game",
     "canonicalTitle": "High School Musical : Rêves de star !",
     "normalizedTitle": "high school musical reves de star",
     "aliases": [
@@ -3936,6 +4114,7 @@
   },
   {
     "id": "game_ds_cars-2",
+    "kind": "game",
     "canonicalTitle": "Cars 2",
     "normalizedTitle": "cars 2",
     "aliases": [],
@@ -3957,6 +4136,7 @@
   },
   {
     "id": "game_ds_dora-friends-pet-shelter",
+    "kind": "game",
     "canonicalTitle": "Dora & Friends : Pet Shelter",
     "normalizedTitle": "dora friends pet shelter",
     "aliases": [
@@ -3980,6 +4160,7 @@
   },
   {
     "id": "game_gamecube_gun",
+    "kind": "game",
     "canonicalTitle": "GUN",
     "normalizedTitle": "gun",
     "aliases": [],
@@ -4001,6 +4182,7 @@
   },
   {
     "id": "game_gamecube_bob-l-eponge-silence-on-tourne",
+    "kind": "game",
     "canonicalTitle": "Bob l'éponge : Silence on tourne !",
     "normalizedTitle": "bob l eponge silence on tourne",
     "aliases": [
@@ -4024,6 +4206,7 @@
   },
   {
     "id": "game_gamecube_tiger-woods-pga-tour-06",
+    "kind": "game",
     "canonicalTitle": "Tiger Woods PGA Tour 06",
     "normalizedTitle": "tiger woods pga tour 06",
     "aliases": [],
@@ -4045,6 +4228,7 @@
   },
   {
     "id": "game_gamecube_goldeneye-au-service-du-mal",
+    "kind": "game",
     "canonicalTitle": "GoldenEye : Au service du mal",
     "normalizedTitle": "goldeneye au service du mal",
     "aliases": [
@@ -4068,6 +4252,7 @@
   },
   {
     "id": "game_snes_super-mario-kart",
+    "kind": "game",
     "canonicalTitle": "Super Mario Kart",
     "normalizedTitle": "super mario kart",
     "aliases": [],
@@ -4089,6 +4274,7 @@
   },
   {
     "id": "game_snes_super-mario-all-stars",
+    "kind": "game",
     "canonicalTitle": "Super Mario All-Stars",
     "normalizedTitle": "super mario all stars",
     "aliases": [],
@@ -4110,6 +4296,7 @@
   },
   {
     "id": "game_snes_wario-s-woods",
+    "kind": "game",
     "canonicalTitle": "Wario's Woods",
     "normalizedTitle": "wario s woods",
     "aliases": [],
@@ -4131,6 +4318,7 @@
   },
   {
     "id": "game_snes_unirally",
+    "kind": "game",
     "canonicalTitle": "Unirally",
     "normalizedTitle": "unirally",
     "aliases": [
@@ -4154,6 +4342,7 @@
   },
   {
     "id": "game_snes_aladdin",
+    "kind": "game",
     "canonicalTitle": "Aladdin",
     "normalizedTitle": "aladdin",
     "aliases": [],
@@ -4175,6 +4364,7 @@
   },
   {
     "id": "game_snes_street-fighter-ii-turbo",
+    "kind": "game",
     "canonicalTitle": "Street Fighter II Turbo",
     "normalizedTitle": "street fighter ii turbo",
     "aliases": [],
@@ -4196,6 +4386,7 @@
   },
   {
     "id": "game_snes_dragon-ball-z",
+    "kind": "game",
     "canonicalTitle": "Dragon Ball Z",
     "normalizedTitle": "dragon ball z",
     "aliases": [
@@ -4220,6 +4411,7 @@
   },
   {
     "id": "game_snes_dragon-ball-z-ultime-menace",
+    "kind": "game",
     "canonicalTitle": "Dragon Ball Z : Ultime Menace",
     "normalizedTitle": "dragon ball z ultime menace",
     "aliases": [
@@ -4243,6 +4435,7 @@
   },
   {
     "id": "game_snes_super-soccer",
+    "kind": "game",
     "canonicalTitle": "Super Soccer",
     "normalizedTitle": "super soccer",
     "aliases": [],
@@ -4264,6 +4457,7 @@
   },
   {
     "id": "game_snes_dino-dini-s-soccer",
+    "kind": "game",
     "canonicalTitle": "Dino Dini's Soccer",
     "normalizedTitle": "dino dini s soccer",
     "aliases": [],
@@ -4285,6 +4479,7 @@
   },
   {
     "id": "game_snes_super-pinball-behind-the-mask",
+    "kind": "game",
     "canonicalTitle": "Super Pinball: Behind the Mask",
     "normalizedTitle": "super pinball behind the mask",
     "aliases": [],
@@ -4306,6 +4501,7 @@
   },
   {
     "id": "game_gb_pokemon-version-rouge",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Rouge",
     "normalizedTitle": "pokemon version rouge",
     "aliases": [
@@ -4329,6 +4525,7 @@
   },
   {
     "id": "game_gb_pokemon-version-bleue",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Bleue",
     "normalizedTitle": "pokemon version bleue",
     "aliases": [
@@ -4352,6 +4549,7 @@
   },
   {
     "id": "game_gb_pokemon-version-jaune",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Jaune",
     "normalizedTitle": "pokemon version jaune",
     "aliases": [
@@ -4376,6 +4574,7 @@
   },
   {
     "id": "game_gbc_pokemon-version-or",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Or",
     "normalizedTitle": "pokemon version or",
     "aliases": [
@@ -4399,6 +4598,7 @@
   },
   {
     "id": "game_gbc_pokemon-version-argent",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Argent",
     "normalizedTitle": "pokemon version argent",
     "aliases": [
@@ -4422,6 +4622,7 @@
   },
   {
     "id": "game_gbc_donkey-kong-country",
+    "kind": "game",
     "canonicalTitle": "Donkey Kong Country",
     "normalizedTitle": "donkey kong country",
     "aliases": [],
@@ -4443,6 +4644,7 @@
   },
   {
     "id": "game_gbc_rayman",
+    "kind": "game",
     "canonicalTitle": "Rayman",
     "normalizedTitle": "rayman",
     "aliases": [],
@@ -4464,6 +4666,7 @@
   },
   {
     "id": "game_gbc_aladdin",
+    "kind": "game",
     "canonicalTitle": "Aladdin",
     "normalizedTitle": "aladdin",
     "aliases": [],
@@ -4485,6 +4688,7 @@
   },
   {
     "id": "game_gbc_le-roi-lion-la-formidable-aventure-de-simba",
+    "kind": "game",
     "canonicalTitle": "Le Roi Lion : La Formidable Aventure de Simba",
     "normalizedTitle": "le roi lion la formidable aventure de simba",
     "aliases": [
@@ -4508,6 +4712,7 @@
   },
   {
     "id": "game_gb_casper",
+    "kind": "game",
     "canonicalTitle": "Casper",
     "normalizedTitle": "casper",
     "aliases": [],
@@ -4529,6 +4734,7 @@
   },
   {
     "id": "game_gb_asterix",
+    "kind": "game",
     "canonicalTitle": "Astérix",
     "normalizedTitle": "asterix",
     "aliases": [
@@ -4552,6 +4758,7 @@
   },
   {
     "id": "game_gbc_sabrina-the-animated-series-zapped",
+    "kind": "game",
     "canonicalTitle": "Sabrina The Animated Series: Zapped!",
     "normalizedTitle": "sabrina the animated series zapped",
     "aliases": [
@@ -4575,6 +4782,7 @@
   },
   {
     "id": "game_gbc_the-new-addams-family-series",
+    "kind": "game",
     "canonicalTitle": "The New Addams Family Series",
     "normalizedTitle": "the new addams family series",
     "aliases": [
@@ -4598,6 +4806,7 @@
   },
   {
     "id": "game_gbc_shrek-fairy-tale-freakdown",
+    "kind": "game",
     "canonicalTitle": "Shrek: Fairy Tale Freakdown",
     "normalizedTitle": "shrek fairy tale freakdown",
     "aliases": [],
@@ -4619,6 +4828,7 @@
   },
   {
     "id": "game_gbc_yu-gi-oh-dark-duel-stories",
+    "kind": "game",
     "canonicalTitle": "Yu-Gi-Oh! Dark Duel Stories",
     "normalizedTitle": "yu gi oh dark duel stories",
     "aliases": [],
@@ -4640,6 +4850,7 @@
   },
   {
     "id": "game_gbc_lucky-luke",
+    "kind": "game",
     "canonicalTitle": "Lucky Luke",
     "normalizedTitle": "lucky luke",
     "aliases": [],
@@ -4661,6 +4872,7 @@
   },
   {
     "id": "game_gbc_worms-armageddon",
+    "kind": "game",
     "canonicalTitle": "Worms Armageddon",
     "normalizedTitle": "worms armageddon",
     "aliases": [],
@@ -4682,6 +4894,7 @@
   },
   {
     "id": "game_gba_pokemon-version-rubis",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Rubis",
     "normalizedTitle": "pokemon version rubis",
     "aliases": [
@@ -4705,6 +4918,7 @@
   },
   {
     "id": "game_gba_pokemon-version-saphir",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Saphir",
     "normalizedTitle": "pokemon version saphir",
     "aliases": [
@@ -4728,6 +4942,7 @@
   },
   {
     "id": "game_gba_pokemon-version-emeraude",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Émeraude",
     "normalizedTitle": "pokemon version emeraude",
     "aliases": [
@@ -4751,6 +4966,7 @@
   },
   {
     "id": "game_gba_pokemon-version-vert-feuille",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Vert Feuille",
     "normalizedTitle": "pokemon version vert feuille",
     "aliases": [
@@ -4774,6 +4990,7 @@
   },
   {
     "id": "game_gba_super-mario-world-super-mario-advance-2",
+    "kind": "game",
     "canonicalTitle": "Super Mario World: Super Mario Advance 2",
     "normalizedTitle": "super mario world super mario advance 2",
     "aliases": [],
@@ -4795,6 +5012,7 @@
   },
   {
     "id": "game_gba_super-mario-advance-4-super-mario-bros-3",
+    "kind": "game",
     "canonicalTitle": "Super Mario Advance 4: Super Mario Bros. 3",
     "normalizedTitle": "super mario advance 4 super mario bros 3",
     "aliases": [],
@@ -4816,6 +5034,7 @@
   },
   {
     "id": "game_gba_final-fantasy-tactics-advance",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy Tactics Advance",
     "normalizedTitle": "final fantasy tactics advance",
     "aliases": [],
@@ -4837,6 +5056,7 @@
   },
   {
     "id": "game_gba_dragon-ball-z-l-heritage-de-goku",
+    "kind": "game",
     "canonicalTitle": "Dragon Ball Z : L'Héritage de Goku",
     "normalizedTitle": "dragon ball z l heritage de goku",
     "aliases": [
@@ -4860,6 +5080,7 @@
   },
   {
     "id": "game_gba_rayman-advance",
+    "kind": "game",
     "canonicalTitle": "Rayman Advance",
     "normalizedTitle": "rayman advance",
     "aliases": [],
@@ -4881,6 +5102,7 @@
   },
   {
     "id": "game_gba_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
+    "kind": "game",
     "canonicalTitle": "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
     "normalizedTitle": "le monde de narnia le lion la sorciere blanche et l armoire magique",
     "aliases": [
@@ -4904,6 +5126,7 @@
   },
   {
     "id": "game_gba_tony-hawk-s-american-sk8land",
+    "kind": "game",
     "canonicalTitle": "Tony Hawk's American Sk8land",
     "normalizedTitle": "tony hawk s american sk8land",
     "aliases": [],
@@ -4925,6 +5148,7 @@
   },
   {
     "id": "game_gba_tekken-advance",
+    "kind": "game",
     "canonicalTitle": "Tekken Advance",
     "normalizedTitle": "tekken advance",
     "aliases": [],
@@ -4946,6 +5170,7 @@
   },
   {
     "id": "game_gba_mario-party-advance",
+    "kind": "game",
     "canonicalTitle": "Mario Party Advance",
     "normalizedTitle": "mario party advance",
     "aliases": [],
@@ -4967,6 +5192,7 @@
   },
   {
     "id": "game_gba_ice-age",
+    "kind": "game",
     "canonicalTitle": "Ice Age",
     "normalizedTitle": "ice age",
     "aliases": [],
@@ -4988,6 +5214,7 @@
   },
   {
     "id": "game_gba_action-man-robot-atak",
+    "kind": "game",
     "canonicalTitle": "Action Man: Robot Atak",
     "normalizedTitle": "action man robot atak",
     "aliases": [],
@@ -5009,6 +5236,7 @@
   },
   {
     "id": "game_gba_majesco-s-rec-room-challenge",
+    "kind": "game",
     "canonicalTitle": "Majesco's Rec Room Challenge",
     "normalizedTitle": "majesco s rec room challenge",
     "aliases": [
@@ -5032,6 +5260,7 @@
   },
   {
     "id": "game_gba_mission-impossible-operation-surma",
+    "kind": "game",
     "canonicalTitle": "Mission: Impossible — Operation Surma",
     "normalizedTitle": "mission impossible operation surma",
     "aliases": [],
@@ -5053,6 +5282,7 @@
   },
   {
     "id": "game_gba_les-sims-2",
+    "kind": "game",
     "canonicalTitle": "Les Sims 2",
     "normalizedTitle": "les sims 2",
     "aliases": [
@@ -5076,6 +5306,7 @@
   },
   {
     "id": "game_gba_tang-tang",
+    "kind": "game",
     "canonicalTitle": "Tang Tang",
     "normalizedTitle": "tang tang",
     "aliases": [],
@@ -5097,6 +5328,7 @@
   },
   {
     "id": "game_gba_spyro-adventure",
+    "kind": "game",
     "canonicalTitle": "Spyro Adventure",
     "normalizedTitle": "spyro adventure",
     "aliases": [
@@ -5120,6 +5352,7 @@
   },
   {
     "id": "game_switch_the-legend-of-zelda-tears-of-the-kingdom",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Tears of the Kingdom",
     "normalizedTitle": "the legend of zelda tears of the kingdom",
     "aliases": [],
@@ -5141,6 +5374,7 @@
   },
   {
     "id": "game_switch_the-legend-of-zelda-breath-of-the-wild",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Breath of the Wild",
     "normalizedTitle": "the legend of zelda breath of the wild",
     "aliases": [],
@@ -5162,6 +5396,7 @@
   },
   {
     "id": "game_switch_the-legend-of-zelda-link-s-awakening",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Link's Awakening",
     "normalizedTitle": "the legend of zelda link s awakening",
     "aliases": [],
@@ -5183,6 +5418,7 @@
   },
   {
     "id": "game_switch_pokemon-epee",
+    "kind": "game",
     "canonicalTitle": "Pokémon Épée",
     "normalizedTitle": "pokemon epee",
     "aliases": [
@@ -5206,6 +5442,7 @@
   },
   {
     "id": "game_switch_pokemon-bouclier",
+    "kind": "game",
     "canonicalTitle": "Pokémon Bouclier",
     "normalizedTitle": "pokemon bouclier",
     "aliases": [
@@ -5229,6 +5466,7 @@
   },
   {
     "id": "game_switch_pokemon-ecarlate",
+    "kind": "game",
     "canonicalTitle": "Pokémon Écarlate",
     "normalizedTitle": "pokemon ecarlate",
     "aliases": [
@@ -5252,6 +5490,7 @@
   },
   {
     "id": "game_switch_pokemon-violet",
+    "kind": "game",
     "canonicalTitle": "Pokémon Violet",
     "normalizedTitle": "pokemon violet",
     "aliases": [
@@ -5275,6 +5514,7 @@
   },
   {
     "id": "game_switch_pokemon-diamant-etincelant",
+    "kind": "game",
     "canonicalTitle": "Pokémon Diamant Étincelant",
     "normalizedTitle": "pokemon diamant etincelant",
     "aliases": [
@@ -5298,6 +5538,7 @@
   },
   {
     "id": "game_switch_pokemon-perle-scintillante",
+    "kind": "game",
     "canonicalTitle": "Pokémon Perle Scintillante",
     "normalizedTitle": "pokemon perle scintillante",
     "aliases": [
@@ -5321,6 +5562,7 @@
   },
   {
     "id": "game_switch_pokemon-let-s-go-pikachu",
+    "kind": "game",
     "canonicalTitle": "Pokémon : Let's Go, Pikachu",
     "normalizedTitle": "pokemon let s go pikachu",
     "aliases": [
@@ -5344,6 +5586,7 @@
   },
   {
     "id": "game_switch_pokemon-let-s-go-evoli",
+    "kind": "game",
     "canonicalTitle": "Pokémon : Let's Go, Évoli",
     "normalizedTitle": "pokemon let s go evoli",
     "aliases": [
@@ -5367,6 +5610,7 @@
   },
   {
     "id": "game_switch_legendes-pokemon-arceus",
+    "kind": "game",
     "canonicalTitle": "Légendes Pokémon : Arceus",
     "normalizedTitle": "legendes pokemon arceus",
     "aliases": [
@@ -5390,6 +5634,7 @@
   },
   {
     "id": "game_switch_new-pokemon-snap",
+    "kind": "game",
     "canonicalTitle": "New Pokémon Snap",
     "normalizedTitle": "new pokemon snap",
     "aliases": [],
@@ -5411,6 +5656,7 @@
   },
   {
     "id": "game_switch_pokken-tournament-dx",
+    "kind": "game",
     "canonicalTitle": "Pokkén Tournament DX",
     "normalizedTitle": "pokken tournament dx",
     "aliases": [],
@@ -5432,6 +5678,7 @@
   },
   {
     "id": "game_switch_pokemon-donjon-mystere-equipe-de-secours-dx",
+    "kind": "game",
     "canonicalTitle": "Pokémon Donjon Mystère : Équipe de Secours DX",
     "normalizedTitle": "pokemon donjon mystere equipe de secours dx",
     "aliases": [
@@ -5455,6 +5702,7 @@
   },
   {
     "id": "game_switch_super-mario-3d-world-bowser-s-fury",
+    "kind": "game",
     "canonicalTitle": "Super Mario 3D World + Bowser's Fury",
     "normalizedTitle": "super mario 3d world bowser s fury",
     "aliases": [],
@@ -5476,6 +5724,7 @@
   },
   {
     "id": "game_switch_mario-kart-8-deluxe",
+    "kind": "game",
     "canonicalTitle": "Mario Kart 8 Deluxe",
     "normalizedTitle": "mario kart 8 deluxe",
     "aliases": [],
@@ -5497,6 +5746,7 @@
   },
   {
     "id": "game_switch_super-smash-bros-ultimate",
+    "kind": "game",
     "canonicalTitle": "Super Smash Bros. Ultimate",
     "normalizedTitle": "super smash bros ultimate",
     "aliases": [],
@@ -5518,6 +5768,7 @@
   },
   {
     "id": "game_switch_mario-party-superstars",
+    "kind": "game",
     "canonicalTitle": "Mario Party Superstars",
     "normalizedTitle": "mario party superstars",
     "aliases": [],
@@ -5539,6 +5790,7 @@
   },
   {
     "id": "game_switch_ring-fit-adventure",
+    "kind": "game",
     "canonicalTitle": "Ring Fit Adventure",
     "normalizedTitle": "ring fit adventure",
     "aliases": [],
@@ -5560,6 +5812,7 @@
   },
   {
     "id": "game_switch_deponia",
+    "kind": "game",
     "canonicalTitle": "Deponia",
     "normalizedTitle": "deponia",
     "aliases": [],
@@ -5581,6 +5834,7 @@
   },
   {
     "id": "game_switch_diablo-iii-eternal-collection",
+    "kind": "game",
     "canonicalTitle": "Diablo III: Eternal Collection",
     "normalizedTitle": "diablo iii eternal collection",
     "aliases": [],
@@ -5602,6 +5856,7 @@
   },
   {
     "id": "game_switch_octopath-traveler-ii",
+    "kind": "game",
     "canonicalTitle": "Octopath Traveler II",
     "normalizedTitle": "octopath traveler ii",
     "aliases": [],
@@ -5623,6 +5878,7 @@
   },
   {
     "id": "game_switch_collection-of-mana",
+    "kind": "game",
     "canonicalTitle": "Collection of Mana",
     "normalizedTitle": "collection of mana",
     "aliases": [],
@@ -5644,6 +5900,7 @@
   },
   {
     "id": "game_switch_legend-of-mana",
+    "kind": "game",
     "canonicalTitle": "Legend of Mana",
     "normalizedTitle": "legend of mana",
     "aliases": [],
@@ -5665,6 +5922,7 @@
   },
   {
     "id": "game_switch_ni-no-kuni-la-vengeance-de-la-sorciere-celeste",
+    "kind": "game",
     "canonicalTitle": "Ni no Kuni : La Vengeance de la Sorcière Céleste",
     "normalizedTitle": "ni no kuni la vengeance de la sorciere celeste",
     "aliases": [
@@ -5688,6 +5946,7 @@
   },
   {
     "id": "game_switch_teenage-mutant-ninja-turtles-shredder-s-revenge",
+    "kind": "game",
     "canonicalTitle": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     "normalizedTitle": "teenage mutant ninja turtles shredder s revenge",
     "aliases": [],
@@ -5709,6 +5968,7 @@
   },
   {
     "id": "game_switch_street-fighter-30th-anniversary-collection",
+    "kind": "game",
     "canonicalTitle": "Street Fighter 30th Anniversary Collection",
     "normalizedTitle": "street fighter 30th anniversary collection",
     "aliases": [],
@@ -5730,6 +5990,7 @@
   },
   {
     "id": "game_switch_klonoa-phantasy-reverie-series",
+    "kind": "game",
     "canonicalTitle": "Klonoa Phantasy Reverie Series",
     "normalizedTitle": "klonoa phantasy reverie series",
     "aliases": [],
@@ -5751,6 +6012,7 @@
   },
   {
     "id": "game_switch_super-bomberman-r",
+    "kind": "game",
     "canonicalTitle": "Super Bomberman R",
     "normalizedTitle": "super bomberman r",
     "aliases": [],
@@ -5772,6 +6034,7 @@
   },
   {
     "id": "game_switch_dragon-ball-the-breakers-special-edition",
+    "kind": "game",
     "canonicalTitle": "Dragon Ball: The Breakers — Special Edition",
     "normalizedTitle": "dragon ball the breakers special edition",
     "aliases": [],
@@ -5793,6 +6056,7 @@
   },
   {
     "id": "game_switch_leisure-suit-larry-wet-dreams-dry-twice",
+    "kind": "game",
     "canonicalTitle": "Leisure Suit Larry: Wet Dreams Dry Twice",
     "normalizedTitle": "leisure suit larry wet dreams dry twice",
     "aliases": [],
@@ -5814,6 +6078,7 @@
   },
   {
     "id": "game_switch_pat-patrouille-a-la-rescousse-d-adventure-city",
+    "kind": "game",
     "canonicalTitle": "Pat' Patrouille : À la rescousse d'Adventure City",
     "normalizedTitle": "pat patrouille a la rescousse d adventure city",
     "aliases": [
@@ -5837,6 +6102,7 @@
   },
   {
     "id": "game_switch_pat-patrouille-mighty-pups-sauve-la-grande-vallee",
+    "kind": "game",
     "canonicalTitle": "Pat' Patrouille : Mighty Pups Sauve la Grande Vallée",
     "normalizedTitle": "pat patrouille mighty pups sauve la grande vallee",
     "aliases": [
@@ -5860,6 +6126,7 @@
   },
   {
     "id": "game_switch_pat-patrouille-en-mission",
+    "kind": "game",
     "canonicalTitle": "Pat' Patrouille en Mission !",
     "normalizedTitle": "pat patrouille en mission",
     "aliases": [
@@ -5883,6 +6150,7 @@
   },
   {
     "id": "game_xboxone_destiny",
+    "kind": "game",
     "canonicalTitle": "Destiny",
     "normalizedTitle": "destiny",
     "aliases": [],
@@ -5904,6 +6172,7 @@
   },
   {
     "id": "game_xbox360_star-ocean-the-last-hope",
+    "kind": "game",
     "canonicalTitle": "Star Ocean: The Last Hope",
     "normalizedTitle": "star ocean the last hope",
     "aliases": [],
@@ -5925,6 +6194,7 @@
   },
   {
     "id": "game_switch_captain-toad-treasure-tracker",
+    "kind": "game",
     "canonicalTitle": "Captain Toad: Treasure Tracker",
     "normalizedTitle": "captain toad treasure tracker",
     "aliases": [],
@@ -5946,6 +6216,7 @@
   },
   {
     "id": "game_ds_star-wars-battlefront-elite-squadron",
+    "kind": "game",
     "canonicalTitle": "Star Wars Battlefront: Elite Squadron",
     "normalizedTitle": "star wars battlefront elite squadron",
     "aliases": [],
@@ -5967,6 +6238,7 @@
   },
   {
     "id": "game_ds_mario-party-ds",
+    "kind": "game",
     "canonicalTitle": "Mario Party DS",
     "normalizedTitle": "mario party ds",
     "aliases": [],
@@ -5988,6 +6260,7 @@
   },
   {
     "id": "game_ds_valkyrie-profile-covenant-of-the-plume",
+    "kind": "game",
     "canonicalTitle": "Valkyrie Profile: Covenant of the Plume",
     "normalizedTitle": "valkyrie profile covenant of the plume",
     "aliases": [],
@@ -6009,6 +6282,7 @@
   },
   {
     "id": "game_ds_spectrobes",
+    "kind": "game",
     "canonicalTitle": "Spectrobes",
     "normalizedTitle": "spectrobes",
     "aliases": [],
@@ -6030,6 +6304,7 @@
   },
   {
     "id": "game_ds_dragon-quest-monsters-joker",
+    "kind": "game",
     "canonicalTitle": "Dragon Quest Monsters: Joker",
     "normalizedTitle": "dragon quest monsters joker",
     "aliases": [],
@@ -6051,6 +6326,7 @@
   },
   {
     "id": "game_ds_lego-battles",
+    "kind": "game",
     "canonicalTitle": "LEGO Battles",
     "normalizedTitle": "lego battles",
     "aliases": [],
@@ -6072,6 +6348,7 @@
   },
   {
     "id": "game_switch_super-mario-3d-all-stars",
+    "kind": "game",
     "canonicalTitle": "Super Mario 3D All-Stars",
     "normalizedTitle": "super mario 3d all stars",
     "aliases": [
@@ -6096,6 +6373,7 @@
   },
   {
     "id": "game_switch_lego-harry-potter-collection",
+    "kind": "game",
     "canonicalTitle": "LEGO Harry Potter Collection",
     "normalizedTitle": "lego harry potter collection",
     "aliases": [
@@ -6120,6 +6398,7 @@
   },
   {
     "id": "game_switch_dragon-ball-fighterz",
+    "kind": "game",
     "canonicalTitle": "Dragon Ball FighterZ",
     "normalizedTitle": "dragon ball fighterz",
     "aliases": [],
@@ -6141,6 +6420,7 @@
   },
   {
     "id": "game_switch_sonic-colours-ultimate",
+    "kind": "game",
     "canonicalTitle": "Sonic Colours: Ultimate",
     "normalizedTitle": "sonic colours ultimate",
     "aliases": [
@@ -6164,6 +6444,7 @@
   },
   {
     "id": "game_switch_super-mario-odyssey",
+    "kind": "game",
     "canonicalTitle": "Super Mario Odyssey",
     "normalizedTitle": "super mario odyssey",
     "aliases": [],
@@ -6185,6 +6466,7 @@
   },
   {
     "id": "game_switch_luigi-s-mansion-3",
+    "kind": "game",
     "canonicalTitle": "Luigi's Mansion 3",
     "normalizedTitle": "luigi s mansion 3",
     "aliases": [],
@@ -6206,6 +6488,7 @@
   },
   {
     "id": "game_gamecube_metroid-prime-2-echoes",
+    "kind": "game",
     "canonicalTitle": "Metroid Prime 2: Echoes",
     "normalizedTitle": "metroid prime 2 echoes",
     "aliases": [],
@@ -6227,6 +6510,7 @@
   },
   {
     "id": "game_gamecube_paper-mario-the-thousand-year-door",
+    "kind": "game",
     "canonicalTitle": "Paper Mario: The Thousand-Year Door",
     "normalizedTitle": "paper mario the thousand year door",
     "aliases": [],
@@ -6248,6 +6532,7 @@
   },
   {
     "id": "game_gamecube_pikmin-2",
+    "kind": "game",
     "canonicalTitle": "Pikmin 2",
     "normalizedTitle": "pikmin 2",
     "aliases": [],
@@ -6269,6 +6554,7 @@
   },
   {
     "id": "game_gamecube_tales-of-symphonia",
+    "kind": "game",
     "canonicalTitle": "Tales of Symphonia",
     "normalizedTitle": "tales of symphonia",
     "aliases": [],
@@ -6290,6 +6576,7 @@
   },
   {
     "id": "game_gamecube_the-legend-of-zelda-twilight-princess",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Twilight Princess",
     "normalizedTitle": "the legend of zelda twilight princess",
     "aliases": [],
@@ -6311,6 +6598,7 @@
   },
   {
     "id": "game_gb_donkey-kong",
+    "kind": "game",
     "canonicalTitle": "Donkey Kong",
     "normalizedTitle": "donkey kong",
     "aliases": [],
@@ -6332,6 +6620,7 @@
   },
   {
     "id": "game_gb_super-mario-land-2-6-golden-coins",
+    "kind": "game",
     "canonicalTitle": "Super Mario Land 2: 6 Golden Coins",
     "normalizedTitle": "super mario land 2 6 golden coins",
     "aliases": [],
@@ -6353,6 +6642,7 @@
   },
   {
     "id": "game_gb_tetris",
+    "kind": "game",
     "canonicalTitle": "Tetris",
     "normalizedTitle": "tetris",
     "aliases": [],
@@ -6374,6 +6664,7 @@
   },
   {
     "id": "game_gb_the-legend-of-zelda-link-s-awakening",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Link's Awakening",
     "normalizedTitle": "the legend of zelda link s awakening",
     "aliases": [],
@@ -6395,6 +6686,7 @@
   },
   {
     "id": "game_gba_advance-wars",
+    "kind": "game",
     "canonicalTitle": "Advance Wars",
     "normalizedTitle": "advance wars",
     "aliases": [],
@@ -6416,6 +6708,7 @@
   },
   {
     "id": "game_gba_castlevania-aria-of-sorrow",
+    "kind": "game",
     "canonicalTitle": "Castlevania: Aria of Sorrow",
     "normalizedTitle": "castlevania aria of sorrow",
     "aliases": [],
@@ -6437,6 +6730,7 @@
   },
   {
     "id": "game_gba_golden-sun",
+    "kind": "game",
     "canonicalTitle": "Golden Sun",
     "normalizedTitle": "golden sun",
     "aliases": [],
@@ -6458,6 +6752,7 @@
   },
   {
     "id": "game_gba_mario-luigi-superstar-saga",
+    "kind": "game",
     "canonicalTitle": "Mario & Luigi: Superstar Saga",
     "normalizedTitle": "mario luigi superstar saga",
     "aliases": [],
@@ -6479,6 +6774,7 @@
   },
   {
     "id": "game_gba_metroid-zero-mission",
+    "kind": "game",
     "canonicalTitle": "Metroid: Zero Mission",
     "normalizedTitle": "metroid zero mission",
     "aliases": [],
@@ -6500,6 +6796,7 @@
   },
   {
     "id": "game_gba_metroid-fusion",
+    "kind": "game",
     "canonicalTitle": "Metroid Fusion",
     "normalizedTitle": "metroid fusion",
     "aliases": [],
@@ -6521,6 +6818,7 @@
   },
   {
     "id": "game_gba_pokemon-version-rouge-feu",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Rouge Feu",
     "normalizedTitle": "pokemon version rouge feu",
     "aliases": [
@@ -6544,6 +6842,7 @@
   },
   {
     "id": "game_gba_the-legend-of-zelda-the-minish-cap",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: The Minish Cap",
     "normalizedTitle": "the legend of zelda the minish cap",
     "aliases": [],
@@ -6565,6 +6864,7 @@
   },
   {
     "id": "game_gbc_pokemon-version-cristal",
+    "kind": "game",
     "canonicalTitle": "Pokémon Version Cristal",
     "normalizedTitle": "pokemon version cristal",
     "aliases": [
@@ -6588,6 +6888,7 @@
   },
   {
     "id": "game_n64_perfect-dark",
+    "kind": "game",
     "canonicalTitle": "Perfect Dark",
     "normalizedTitle": "perfect dark",
     "aliases": [],
@@ -6609,6 +6910,7 @@
   },
   {
     "id": "game_switch_super-mario-galaxy-super-mario-galaxy-2",
+    "kind": "game",
     "canonicalTitle": "Super Mario Galaxy + Super Mario Galaxy 2",
     "normalizedTitle": "super mario galaxy super mario galaxy 2",
     "aliases": [],
@@ -6630,6 +6932,7 @@
   },
   {
     "id": "game_ds_yoshi-touch-go",
+    "kind": "game",
     "canonicalTitle": "Yoshi Touch & Go",
     "normalizedTitle": "yoshi touch go",
     "aliases": [],
@@ -6651,6 +6954,7 @@
   },
   {
     "id": "game_ds_professeur-layton-et-l-appel-du-spectre",
+    "kind": "game",
     "canonicalTitle": "Professeur Layton et l'Appel du Spectre",
     "normalizedTitle": "professeur layton et l appel du spectre",
     "aliases": [],
@@ -6672,6 +6976,7 @@
   },
   {
     "id": "game_3ds_professeur-layton-et-le-masque-des-miracles",
+    "kind": "game",
     "canonicalTitle": "Professeur Layton et le Masque des Miracles",
     "normalizedTitle": "professeur layton et le masque des miracles",
     "aliases": [],
@@ -6693,6 +6998,7 @@
   },
   {
     "id": "game_3ds_professeur-layton-et-l-heritage-des-aslantes",
+    "kind": "game",
     "canonicalTitle": "Professeur Layton et l'Héritage des Aslantes",
     "normalizedTitle": "professeur layton et l heritage des aslantes",
     "aliases": [],
@@ -6714,6 +7020,7 @@
   },
   {
     "id": "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
+    "kind": "game",
     "canonicalTitle": "Professeur Layton vs Phoenix Wright: Ace Attorney",
     "normalizedTitle": "professeur layton vs phoenix wright ace attorney",
     "aliases": [
@@ -6737,6 +7044,7 @@
   },
   {
     "id": "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
+    "kind": "game",
     "canonicalTitle": "Layton's Mystery Journey : Katrielle et la Conspiration des Millionnaires",
     "normalizedTitle": "layton s mystery journey katrielle et la conspiration des millionnaires",
     "aliases": [
@@ -6760,6 +7068,7 @@
   },
   {
     "id": "game_3ds_sonic-generations",
+    "kind": "game",
     "canonicalTitle": "Sonic Generations",
     "normalizedTitle": "sonic generations",
     "aliases": [],
@@ -6781,6 +7090,7 @@
   },
   {
     "id": "game_3ds_sonic-lost-world",
+    "kind": "game",
     "canonicalTitle": "Sonic Lost World",
     "normalizedTitle": "sonic lost world",
     "aliases": [],
@@ -6802,6 +7112,7 @@
   },
   {
     "id": "game_3ds_sonic-boom-feu-glace",
+    "kind": "game",
     "canonicalTitle": "Sonic Boom : Feu & Glace",
     "normalizedTitle": "sonic boom feu glace",
     "aliases": [
@@ -6825,6 +7136,7 @@
   },
   {
     "id": "game_gba_sonic-advance",
+    "kind": "game",
     "canonicalTitle": "Sonic Advance",
     "normalizedTitle": "sonic advance",
     "aliases": [],
@@ -6846,6 +7158,7 @@
   },
   {
     "id": "game_gba_sonic-advance-2",
+    "kind": "game",
     "canonicalTitle": "Sonic Advance 2",
     "normalizedTitle": "sonic advance 2",
     "aliases": [],
@@ -6867,6 +7180,7 @@
   },
   {
     "id": "game_gba_sonic-advance-3",
+    "kind": "game",
     "canonicalTitle": "Sonic Advance 3",
     "normalizedTitle": "sonic advance 3",
     "aliases": [],
@@ -6888,6 +7202,7 @@
   },
   {
     "id": "game_gba_sonic-battle",
+    "kind": "game",
     "canonicalTitle": "Sonic Battle",
     "normalizedTitle": "sonic battle",
     "aliases": [],
@@ -6909,6 +7224,7 @@
   },
   {
     "id": "game_gba_sonic-pinball-party",
+    "kind": "game",
     "canonicalTitle": "Sonic Pinball Party",
     "normalizedTitle": "sonic pinball party",
     "aliases": [],
@@ -6930,6 +7246,7 @@
   },
   {
     "id": "game_gamecube_sonic-adventure-dx-director-s-cut",
+    "kind": "game",
     "canonicalTitle": "Sonic Adventure DX: Director's Cut",
     "normalizedTitle": "sonic adventure dx director s cut",
     "aliases": [],
@@ -6951,6 +7268,7 @@
   },
   {
     "id": "game_gamecube_sonic-adventure-2-battle",
+    "kind": "game",
     "canonicalTitle": "Sonic Adventure 2: Battle",
     "normalizedTitle": "sonic adventure 2 battle",
     "aliases": [],
@@ -6972,6 +7290,7 @@
   },
   {
     "id": "game_gamecube_sonic-heroes",
+    "kind": "game",
     "canonicalTitle": "Sonic Heroes",
     "normalizedTitle": "sonic heroes",
     "aliases": [],
@@ -6993,6 +7312,7 @@
   },
   {
     "id": "game_gamecube_sonic-mega-collection",
+    "kind": "game",
     "canonicalTitle": "Sonic Mega Collection",
     "normalizedTitle": "sonic mega collection",
     "aliases": [],
@@ -7014,6 +7334,7 @@
   },
   {
     "id": "game_gamecube_sonic-gems-collection",
+    "kind": "game",
     "canonicalTitle": "Sonic Gems Collection",
     "normalizedTitle": "sonic gems collection",
     "aliases": [],
@@ -7035,6 +7356,7 @@
   },
   {
     "id": "game_gamecube_shadow-the-hedgehog",
+    "kind": "game",
     "canonicalTitle": "Shadow the Hedgehog",
     "normalizedTitle": "shadow the hedgehog",
     "aliases": [],
@@ -7056,6 +7378,7 @@
   },
   {
     "id": "game_switch_sonic-mania",
+    "kind": "game",
     "canonicalTitle": "Sonic Mania",
     "normalizedTitle": "sonic mania",
     "aliases": [],
@@ -7077,6 +7400,7 @@
   },
   {
     "id": "game_switch_sonic-frontiers",
+    "kind": "game",
     "canonicalTitle": "Sonic Frontiers",
     "normalizedTitle": "sonic frontiers",
     "aliases": [],
@@ -7098,6 +7422,7 @@
   },
   {
     "id": "game_switch_sonic-origins-plus",
+    "kind": "game",
     "canonicalTitle": "Sonic Origins Plus",
     "normalizedTitle": "sonic origins plus",
     "aliases": [],
@@ -7119,6 +7444,7 @@
   },
   {
     "id": "game_switch_sonic-superstars",
+    "kind": "game",
     "canonicalTitle": "Sonic Superstars",
     "normalizedTitle": "sonic superstars",
     "aliases": [],
@@ -7140,6 +7466,7 @@
   },
   {
     "id": "game_switch_team-sonic-racing",
+    "kind": "game",
     "canonicalTitle": "Team Sonic Racing",
     "normalizedTitle": "team sonic racing",
     "aliases": [],
@@ -7161,6 +7488,7 @@
   },
   {
     "id": "game_switch_sonic-x-shadow-generations",
+    "kind": "game",
     "canonicalTitle": "Sonic X Shadow Generations",
     "normalizedTitle": "sonic x shadow generations",
     "aliases": [],
@@ -7182,6 +7510,7 @@
   },
   {
     "id": "game_ds_final-fantasy-iv",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy IV",
     "normalizedTitle": "final fantasy iv",
     "aliases": [],
@@ -7203,6 +7532,7 @@
   },
   {
     "id": "game_ds_final-fantasy-xii-revenant-wings",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy XII: Revenant Wings",
     "normalizedTitle": "final fantasy xii revenant wings",
     "aliases": [],
@@ -7224,6 +7554,7 @@
   },
   {
     "id": "game_ds_final-fantasy-crystal-chronicles-ring-of-fates",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy Crystal Chronicles: Ring of Fates",
     "normalizedTitle": "final fantasy crystal chronicles ring of fates",
     "aliases": [],
@@ -7245,6 +7576,7 @@
   },
   {
     "id": "game_gba_final-fantasy-i-ii-dawn-of-souls",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy I & II: Dawn of Souls",
     "normalizedTitle": "final fantasy i ii dawn of souls",
     "aliases": [],
@@ -7266,6 +7598,7 @@
   },
   {
     "id": "game_gba_final-fantasy-iv-advance",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy IV Advance",
     "normalizedTitle": "final fantasy iv advance",
     "aliases": [],
@@ -7287,6 +7620,7 @@
   },
   {
     "id": "game_gba_final-fantasy-v-advance",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy V Advance",
     "normalizedTitle": "final fantasy v advance",
     "aliases": [],
@@ -7308,6 +7642,7 @@
   },
   {
     "id": "game_gba_final-fantasy-vi-advance",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy VI Advance",
     "normalizedTitle": "final fantasy vi advance",
     "aliases": [],
@@ -7329,6 +7664,7 @@
   },
   {
     "id": "game_3ds_theatrhythm-final-fantasy-curtain-call",
+    "kind": "game",
     "canonicalTitle": "Theatrhythm Final Fantasy: Curtain Call",
     "normalizedTitle": "theatrhythm final fantasy curtain call",
     "aliases": [],
@@ -7350,6 +7686,7 @@
   },
   {
     "id": "game_3ds_final-fantasy-explorers",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy Explorers",
     "normalizedTitle": "final fantasy explorers",
     "aliases": [],
@@ -7371,6 +7708,7 @@
   },
   {
     "id": "game_gamecube_final-fantasy-crystal-chronicles",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy Crystal Chronicles",
     "normalizedTitle": "final fantasy crystal chronicles",
     "aliases": [],
@@ -7392,6 +7730,7 @@
   },
   {
     "id": "game_switch_final-fantasy-vii",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy VII",
     "normalizedTitle": "final fantasy vii",
     "aliases": [],
@@ -7413,6 +7752,7 @@
   },
   {
     "id": "game_switch_final-fantasy-viii-remastered",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy VIII Remastered",
     "normalizedTitle": "final fantasy viii remastered",
     "aliases": [],
@@ -7434,6 +7774,7 @@
   },
   {
     "id": "game_switch_final-fantasy-ix",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy IX",
     "normalizedTitle": "final fantasy ix",
     "aliases": [],
@@ -7455,6 +7796,7 @@
   },
   {
     "id": "game_switch_final-fantasy-x-x-2-hd-remaster",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy X / X-2 HD Remaster",
     "normalizedTitle": "final fantasy x x 2 hd remaster",
     "aliases": [],
@@ -7476,6 +7818,7 @@
   },
   {
     "id": "game_switch_final-fantasy-xii-the-zodiac-age",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy XII: The Zodiac Age",
     "normalizedTitle": "final fantasy xii the zodiac age",
     "aliases": [],
@@ -7497,6 +7840,7 @@
   },
   {
     "id": "game_switch_world-of-final-fantasy-maxima",
+    "kind": "game",
     "canonicalTitle": "World of Final Fantasy Maxima",
     "normalizedTitle": "world of final fantasy maxima",
     "aliases": [],
@@ -7518,6 +7862,7 @@
   },
   {
     "id": "game_switch_final-fantasy-crystal-chronicles-remastered-edition",
+    "kind": "game",
     "canonicalTitle": "Final Fantasy Crystal Chronicles Remastered Edition",
     "normalizedTitle": "final fantasy crystal chronicles remastered edition",
     "aliases": [],
@@ -7539,6 +7884,7 @@
   },
   {
     "id": "game_snes_mystic-quest-legend",
+    "kind": "game",
     "canonicalTitle": "Mystic Quest Legend",
     "normalizedTitle": "mystic quest legend",
     "aliases": [],
@@ -7560,6 +7906,7 @@
   },
   {
     "id": "game_gb_mystic-quest",
+    "kind": "game",
     "canonicalTitle": "Mystic Quest",
     "normalizedTitle": "mystic quest",
     "aliases": [],
@@ -7581,6 +7928,7 @@
   },
   {
     "id": "game_gbc_the-legend-of-zelda-oracle-of-ages",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Oracle of Ages",
     "normalizedTitle": "the legend of zelda oracle of ages",
     "aliases": [],
@@ -7602,6 +7950,7 @@
   },
   {
     "id": "game_gbc_the-legend-of-zelda-oracle-of-seasons",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Oracle of Seasons",
     "normalizedTitle": "the legend of zelda oracle of seasons",
     "aliases": [],
@@ -7623,6 +7972,7 @@
   },
   {
     "id": "game_gbc_the-legend-of-zelda-link-s-awakening-dx",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Link's Awakening DX",
     "normalizedTitle": "the legend of zelda link s awakening dx",
     "aliases": [],
@@ -7644,6 +7994,7 @@
   },
   {
     "id": "game_n64_conker-s-bad-fur-day",
+    "kind": "game",
     "canonicalTitle": "Conker's Bad Fur Day",
     "normalizedTitle": "conker s bad fur day",
     "aliases": [],
@@ -7665,6 +8016,7 @@
   },
   {
     "id": "game_switch_metroid-dread",
+    "kind": "game",
     "canonicalTitle": "Metroid Dread",
     "normalizedTitle": "metroid dread",
     "aliases": [],
@@ -7686,6 +8038,7 @@
   },
   {
     "id": "game_switch_metroid-prime-remastered",
+    "kind": "game",
     "canonicalTitle": "Metroid Prime Remastered",
     "normalizedTitle": "metroid prime remastered",
     "aliases": [],
@@ -7707,6 +8060,7 @@
   },
   {
     "id": "game_switch_xenoblade-chronicles-3",
+    "kind": "game",
     "canonicalTitle": "Xenoblade Chronicles 3",
     "normalizedTitle": "xenoblade chronicles 3",
     "aliases": [],
@@ -7728,6 +8082,7 @@
   },
   {
     "id": "game_switch_animal-crossing-new-horizons",
+    "kind": "game",
     "canonicalTitle": "Animal Crossing: New Horizons",
     "normalizedTitle": "animal crossing new horizons",
     "aliases": [],
@@ -7749,6 +8104,7 @@
   },
   {
     "id": "game_switch_super-mario-bros-wonder",
+    "kind": "game",
     "canonicalTitle": "Super Mario Bros. Wonder",
     "normalizedTitle": "super mario bros wonder",
     "aliases": [],
@@ -7770,6 +8126,7 @@
   },
   {
     "id": "game_switch_hades",
+    "kind": "game",
     "canonicalTitle": "Hades",
     "normalizedTitle": "hades",
     "aliases": [],
@@ -7791,6 +8148,7 @@
   },
   {
     "id": "game_switch_hollow-knight",
+    "kind": "game",
     "canonicalTitle": "Hollow Knight",
     "normalizedTitle": "hollow knight",
     "aliases": [],
@@ -7812,6 +8170,7 @@
   },
   {
     "id": "game_switch_celeste",
+    "kind": "game",
     "canonicalTitle": "Celeste",
     "normalizedTitle": "celeste",
     "aliases": [],
@@ -7833,6 +8192,7 @@
   },
   {
     "id": "game_switch_persona-5-royal",
+    "kind": "game",
     "canonicalTitle": "Persona 5 Royal",
     "normalizedTitle": "persona 5 royal",
     "aliases": [],
@@ -7854,6 +8214,7 @@
   },
   {
     "id": "game_snes_super-metroid",
+    "kind": "game",
     "canonicalTitle": "Super Metroid",
     "normalizedTitle": "super metroid",
     "aliases": [],
@@ -7875,6 +8236,7 @@
   },
   {
     "id": "game_snes_the-legend-of-zelda-a-link-to-the-past",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: A Link to the Past",
     "normalizedTitle": "the legend of zelda a link to the past",
     "aliases": [],
@@ -7896,6 +8258,7 @@
   },
   {
     "id": "game_snes_super-mario-world",
+    "kind": "game",
     "canonicalTitle": "Super Mario World",
     "normalizedTitle": "super mario world",
     "aliases": [],
@@ -7917,6 +8280,7 @@
   },
   {
     "id": "game_snes_super-mario-world-2-yoshi-s-island",
+    "kind": "game",
     "canonicalTitle": "Super Mario World 2: Yoshi's Island",
     "normalizedTitle": "super mario world 2 yoshi s island",
     "aliases": [],
@@ -7938,6 +8302,7 @@
   },
   {
     "id": "game_snes_donkey-kong-country",
+    "kind": "game",
     "canonicalTitle": "Donkey Kong Country",
     "normalizedTitle": "donkey kong country",
     "aliases": [],
@@ -7959,6 +8324,7 @@
   },
   {
     "id": "game_snes_donkey-kong-country-2-diddy-s-kong-quest",
+    "kind": "game",
     "canonicalTitle": "Donkey Kong Country 2: Diddy's Kong Quest",
     "normalizedTitle": "donkey kong country 2 diddy s kong quest",
     "aliases": [],
@@ -7980,6 +8346,7 @@
   },
   {
     "id": "game_snes_secret-of-mana",
+    "kind": "game",
     "canonicalTitle": "Secret of Mana",
     "normalizedTitle": "secret of mana",
     "aliases": [],
@@ -8001,6 +8368,7 @@
   },
   {
     "id": "game_snes_star-wing",
+    "kind": "game",
     "canonicalTitle": "Star Wing",
     "normalizedTitle": "star wing",
     "aliases": [
@@ -8024,6 +8392,7 @@
   },
   {
     "id": "game_snes_terranigma",
+    "kind": "game",
     "canonicalTitle": "Terranigma",
     "normalizedTitle": "terranigma",
     "aliases": [],
@@ -8045,6 +8414,7 @@
   },
   {
     "id": "game_ds_grand-theft-auto-chinatown-wars",
+    "kind": "game",
     "canonicalTitle": "Grand Theft Auto: Chinatown Wars",
     "normalizedTitle": "grand theft auto chinatown wars",
     "aliases": [],
@@ -8066,6 +8436,7 @@
   },
   {
     "id": "game_3ds_shovel-knight",
+    "kind": "game",
     "canonicalTitle": "Shovel Knight",
     "normalizedTitle": "shovel knight",
     "aliases": [],
@@ -8087,6 +8458,7 @@
   },
   {
     "id": "game_ds_sonic-classic-collection",
+    "kind": "game",
     "canonicalTitle": "Sonic Classic Collection",
     "normalizedTitle": "sonic classic collection",
     "aliases": [],
@@ -8108,6 +8480,7 @@
   },
   {
     "id": "game_3ds_kirby-au-fil-de-la-grande-aventure",
+    "kind": "game",
     "canonicalTitle": "Kirby : Au fil de la grande aventure",
     "normalizedTitle": "kirby au fil de la grande aventure",
     "aliases": [
@@ -8131,6 +8504,7 @@
   },
   {
     "id": "game_3ds_theatrhythm-final-fantasy",
+    "kind": "game",
     "canonicalTitle": "Theatrhythm Final Fantasy",
     "normalizedTitle": "theatrhythm final fantasy",
     "aliases": [],
@@ -8152,6 +8526,7 @@
   },
   {
     "id": "game_ds_another-code-memoires-doubles",
+    "kind": "game",
     "canonicalTitle": "Another Code : Mémoires Doubles",
     "normalizedTitle": "another code memoires doubles",
     "aliases": [
@@ -8175,6 +8550,7 @@
   },
   {
     "id": "game_ds_blood-bowl",
+    "kind": "game",
     "canonicalTitle": "Blood Bowl",
     "normalizedTitle": "blood bowl",
     "aliases": [],
@@ -8196,6 +8572,7 @@
   },
   {
     "id": "game_ds_puzzle-quest-galactrix",
+    "kind": "game",
     "canonicalTitle": "Puzzle Quest: Galactrix",
     "normalizedTitle": "puzzle quest galactrix",
     "aliases": [],
@@ -8217,6 +8594,7 @@
   },
   {
     "id": "game_ds_magical-starsign",
+    "kind": "game",
     "canonicalTitle": "Magical Starsign",
     "normalizedTitle": "magical starsign",
     "aliases": [],
@@ -8238,6 +8616,7 @@
   },
   {
     "id": "game_ds_sonic-rush-adventure",
+    "kind": "game",
     "canonicalTitle": "Sonic Rush Adventure",
     "normalizedTitle": "sonic rush adventure",
     "aliases": [],
@@ -8259,6 +8638,7 @@
   },
   {
     "id": "game_ds_sonic-rush",
+    "kind": "game",
     "canonicalTitle": "Sonic Rush",
     "normalizedTitle": "sonic rush",
     "aliases": [],
@@ -8280,6 +8660,7 @@
   },
   {
     "id": "game_ds_sonic-colours",
+    "kind": "game",
     "canonicalTitle": "Sonic Colours",
     "normalizedTitle": "sonic colours",
     "aliases": [],
@@ -8301,6 +8682,7 @@
   },
   {
     "id": "game_ds_sonic-sega-all-stars-racing",
+    "kind": "game",
     "canonicalTitle": "Sonic & Sega All-Stars Racing",
     "normalizedTitle": "sonic sega all stars racing",
     "aliases": [],
@@ -8322,6 +8704,7 @@
   },
   {
     "id": "game_gamecube_mario-smash-football",
+    "kind": "game",
     "canonicalTitle": "Mario Smash Football",
     "normalizedTitle": "mario smash football",
     "aliases": [
@@ -8345,6 +8728,7 @@
   },
   {
     "id": "game_3ds_hyrule-warriors-legends",
+    "kind": "game",
     "canonicalTitle": "Hyrule Warriors Legends",
     "normalizedTitle": "hyrule warriors legends",
     "aliases": [],
@@ -8366,6 +8750,7 @@
   },
   {
     "id": "game_ds_the-legend-of-zelda-phantom-hourglass-us",
+    "kind": "game",
     "canonicalTitle": "The Legend of Zelda: Phantom Hourglass (US)",
     "normalizedTitle": "the legend of zelda phantom hourglass us",
     "aliases": [
@@ -8389,12 +8774,145 @@
   },
   {
     "id": "game_ds_tetris-party-deluxe",
+    "kind": "game",
     "canonicalTitle": "Tetris Party Deluxe",
     "normalizedTitle": "tetris party deluxe",
     "aliases": [],
     "franchise": "Tetris",
     "platformId": "ds",
     "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_nintendo-2ds",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo 2DS",
+    "normalizedTitle": "nintendo 2ds",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "other",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_nintendo-3ds-xl-edition-animal-crossing",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo 3DS XL — édition Animal Crossing",
+    "normalizedTitle": "nintendo 3ds xl edition animal crossing",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "other",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_nintendo-3ds-xl-rouge",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo 3DS XL rouge",
+    "normalizedTitle": "nintendo 3ds xl rouge",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "other",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_nintendo-wii-pack-2-manettes",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo Wii — pack 2 manettes",
+    "normalizedTitle": "nintendo wii pack 2 manettes",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "other",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_tomodachi-life",
+    "kind": "game",
+    "canonicalTitle": "Tomodachi Life",
+    "normalizedTitle": "tomodachi life",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_wii-play",
+    "kind": "game",
+    "canonicalTitle": "Wii Play",
+    "normalizedTitle": "wii play",
+    "aliases": [],
+    "franchise": "Wii",
+    "platformId": "wii",
+    "region": "PAL-FR",
     "languages": [
       "fr"
     ],

@@ -7320,7 +7320,7 @@
   {
     "id": "inv_switch_super-mario-galaxy-super-mario-galaxy-2",
     "gameId": "game_switch_super-mario-galaxy-super-mario-galaxy-2",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7329,8 +7329,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-11T02:09:43.081Z"
+    "orderId": "order_msweqvn1",
+    "updatedAt": "2026-08-16T23:00:01.837Z"
   },
   {
     "id": "inv_3ds_pokemon-soleil-2",
@@ -8888,5 +8888,188 @@
     "acquiredAt": null,
     "orderId": "order_mswdehxm",
     "updatedAt": "2026-08-16T22:22:48.183Z"
+  },
+  {
+    "id": "inv_3ds_hyrule-warriors-legends-2",
+    "gameId": "game_3ds_hyrule-warriors-legends",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-16T22:48:18.391Z"
+  },
+  {
+    "id": "inv_ds_sonic-classic-collection-2",
+    "gameId": "game_ds_sonic-classic-collection",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-16T22:48:24.369Z"
+  },
+  {
+    "id": "inv_ds_the-legend-of-zelda-phantom-hourglass-2",
+    "gameId": "game_ds_the-legend-of-zelda-phantom-hourglass",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-16T22:48:25.705Z"
+  },
+  {
+    "id": "inv_switch_luigi-s-mansion-3-3",
+    "gameId": "game_switch_luigi-s-mansion-3",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-16T22:48:27.033Z"
+  },
+  {
+    "id": "inv_switch_super-mario-odyssey-3",
+    "gameId": "game_switch_super-mario-odyssey",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-16T22:48:28.236Z"
+  },
+  {
+    "id": "inv_3ds_nintendo-2ds",
+    "gameId": "game_3ds_nintendo-2ds",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 73.59,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswervz2",
+    "updatedAt": "2026-08-16T23:00:48.927Z"
+  },
+  {
+    "id": "inv_3ds_nintendo-3ds-xl-edition-animal-crossing",
+    "gameId": "game_3ds_nintendo-3ds-xl-edition-animal-crossing",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 154.24,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerwnt",
+    "updatedAt": "2026-08-16T23:00:49.818Z"
+  },
+  {
+    "id": "inv_3ds_tomodachi-life",
+    "gameId": "game_3ds_tomodachi-life",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerwnt",
+    "updatedAt": "2026-08-16T23:00:49.818Z"
+  },
+  {
+    "id": "inv_3ds_nintendo-3ds-xl-rouge",
+    "gameId": "game_3ds_nintendo-3ds-xl-rouge",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 153.55,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerxed",
+    "updatedAt": "2026-08-16T23:00:50.775Z"
+  },
+  {
+    "id": "inv_wii_nintendo-wii-pack-2-manettes",
+    "gameId": "game_wii_nintendo-wii-pack-2-manettes",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 63.69,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerxed",
+    "updatedAt": "2026-08-16T23:00:50.775Z"
+  },
+  {
+    "id": "inv_wii_wii-play",
+    "gameId": "game_wii_wii-play",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mswerxed",
+    "updatedAt": "2026-08-16T23:00:50.775Z"
   }
 ]

@@ -100,8 +100,17 @@ export const PlatformSchema = z.object({
   mediaTypes: z.array(MediaTypeSchema).min(1),
 });
 
+/**
+ * Nature de l'entrée. Une console ou un accessoire partage la même table que les
+ * jeux — donc le même inventaire, les mêmes commandes, le même historique d'achat —
+ * mais ne doit jamais être compté comme un jeu ni valorisé avec les cotes de jeux.
+ */
+export const ENTRY_KINDS = ["game", "hardware"] as const;
+export const EntryKindSchema = z.enum(ENTRY_KINDS);
+
 export const GameSchema = z.object({
   id: z.string().regex(/^game_[a-z0-9_-]+$/),
+  kind: EntryKindSchema.default("game"),
   canonicalTitle: z.string().min(1),
   normalizedTitle: z.string().min(1),
   aliases: z.array(z.string()).default([]),

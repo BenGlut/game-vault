@@ -4161,5 +4161,65 @@
     "p": "ds",
     "r": "PAL-EU",
     "q": null
+  },
+  {
+    "id": "game_3ds_nintendo-2ds",
+    "t": "Nintendo 2DS",
+    "n": "nintendo 2ds",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_nintendo-3ds-xl-edition-animal-crossing",
+    "t": "Nintendo 3DS XL — édition Animal Crossing",
+    "n": "nintendo 3ds xl edition animal crossing",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_nintendo-3ds-xl-rouge",
+    "t": "Nintendo 3DS XL rouge",
+    "n": "nintendo 3ds xl rouge",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_nintendo-wii-pack-2-manettes",
+    "t": "Nintendo Wii — pack 2 manettes",
+    "n": "nintendo wii pack 2 manettes",
+    "a": [],
+    "f": null,
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_tomodachi-life",
+    "t": "Tomodachi Life",
+    "n": "tomodachi life",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_wii-play",
+    "t": "Wii Play",
+    "n": "wii play",
+    "a": [],
+    "f": "Wii",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

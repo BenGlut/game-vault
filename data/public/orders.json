@@ -974,5 +974,115 @@
     "cancelledAt": null,
     "refundedAt": "2026-08-13",
     "totalPaid": 47.95
+  },
+  {
+    "id": "order_msweqvn1",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_super-mario-galaxy-super-mario-galaxy-2"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_super-mario-galaxy-super-mario-galaxy-2",
+        "inventoryId": "inv_switch_super-mario-galaxy-super-mario-galaxy-2",
+        "unitPrice": 51.49
+      }
+    ],
+    "orderedAt": "2026-08-16",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": "2026-08-17",
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 51.49
+  },
+  {
+    "id": "order_mswervz2",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_nintendo-2ds"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_nintendo-2ds",
+        "inventoryId": "inv_3ds_nintendo-2ds",
+        "unitPrice": 73.59
+      }
+    ],
+    "orderedAt": "2026-08-14",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 73.59
+  },
+  {
+    "id": "order_mswerwnt",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_3ds_nintendo-3ds-xl-edition-animal-crossing",
+      "game_3ds_tomodachi-life"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_nintendo-3ds-xl-edition-animal-crossing",
+        "inventoryId": "inv_3ds_nintendo-3ds-xl-edition-animal-crossing",
+        "unitPrice": 154.24
+      },
+      {
+        "gameId": "game_3ds_tomodachi-life",
+        "inventoryId": "inv_3ds_tomodachi-life",
+        "unitPrice": 0
+      }
+    ],
+    "orderedAt": "2026-08-14",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 154.24
+  },
+  {
+    "id": "order_mswerxed",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_3ds_nintendo-3ds-xl-rouge",
+      "game_wii_nintendo-wii-pack-2-manettes",
+      "game_wii_wii-play"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_nintendo-3ds-xl-rouge",
+        "inventoryId": "inv_3ds_nintendo-3ds-xl-rouge",
+        "unitPrice": 153.55
+      },
+      {
+        "gameId": "game_wii_nintendo-wii-pack-2-manettes",
+        "inventoryId": "inv_wii_nintendo-wii-pack-2-manettes",
+        "unitPrice": 63.69
+      },
+      {
+        "gameId": "game_wii_wii-play",
+        "inventoryId": "inv_wii_wii-play",
+        "unitPrice": 0
+      }
+    ],
+    "orderedAt": "2026-08-14",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 217.24
   }
 ]

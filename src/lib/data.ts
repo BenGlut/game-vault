@@ -48,6 +48,9 @@ export interface PublicOrder {
 }
 
 export interface PublicStats {
+  /** matériel (consoles, accessoires) — compté à part des jeux */
+  totalHardware?: number;
+  ownedHardware?: number;
   generatedAt: string;
   totalGames: number;
   ownedItems: number;

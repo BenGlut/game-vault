@@ -106,6 +106,7 @@ export default function CatalogClient({
     drawer.open({
       game: {
         id: link?.id ?? e.id,
+        kind: "game",
         canonicalTitle: e.t,
         normalizedTitle: e.n,
         aliases: [],

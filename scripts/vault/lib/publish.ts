@@ -55,11 +55,20 @@ export function buildPublicExport(v: Vault): Record<string, unknown> {
     message: c.message,
   }));
 
-  const owned = v.inventory.filter((i) => POSSESSION_STATUSES.includes(i.status));
+  // le matériel partage les tables mais ne se compte ni ne se valorise comme un jeu
+  const estMateriel = new Set(v.games.filter((g) => g.kind === "hardware").map((g) => g.id));
+  const owned = v.inventory.filter(
+    (i) => POSSESSION_STATUSES.includes(i.status) && !estMateriel.has(i.gameId),
+  );
+  const ownedHardware = v.inventory.filter(
+    (i) => POSSESSION_STATUSES.includes(i.status) && estMateriel.has(i.gameId),
+  );
   const estimateTotal = owned.reduce((sum, i) => sum + (i.currentEstimate?.median ?? 0) * i.quantity, 0);
   const stats = {
     generatedAt: new Date().toISOString(),
-    totalGames: v.games.length,
+    totalGames: v.games.filter((g) => g.kind !== "hardware").length,
+    totalHardware: estMateriel.size,
+    ownedHardware: ownedHardware.reduce((n, i) => n + i.quantity, 0),
     ownedItems: owned.reduce((n, i) => n + i.quantity, 0),
     byStatus: Object.fromEntries(
       [...new Set(v.inventory.map((i) => i.status))].map((s) => [
@@ -71,7 +80,7 @@ export function buildPublicExport(v: Vault): Record<string, unknown> {
       v.platforms
         .map((pl) => [
           pl.id,
-          v.games.filter((g) => g.platformId === pl.id).length,
+          v.games.filter((g) => g.platformId === pl.id && g.kind !== "hardware").length,
         ])
         .filter(([, n]) => (n as number) > 0),
     ),

@@ -188,7 +188,9 @@ function main(): void {
       case "add-game": {
         const title = optStr(options, "title");
         const platform = optStr(options, "platform");
-        if (!title || !platform) throw new Error("usage: pnpm vault add-game --title ... --platform ds|3ds|... [--region PAL-FR] [--media cartridge] [--franchise ...] [--aliases 'a|b'] [--edition ...] [--year 2015] [--ean 0045496…]");
+        if (!title || !platform) throw new Error("usage: pnpm vault add-game --title ... --platform ds|3ds|... [--kind game|hardware] [--region PAL-FR] [--media cartridge] [--franchise ...] [--aliases 'a|b'] [--edition ...] [--year 2015] [--ean 0045496…]");
+        const kind = (optStr(options, "kind") ?? "game") as Game["kind"];
+        if (kind !== "game" && kind !== "hardware") throw new Error("--kind attend game ou hardware");
         runMutation("add-game", yes, `add game ${title} (${platform})`, (v) => {
           if (!v.platforms.some((p) => p.id === platform)) throw new Error(`Plateforme inconnue: ${platform}`);
           const id = makeGameId(platform, title);
@@ -200,6 +202,7 @@ function main(): void {
             throw new Error(`Doublon détecté: ${dup.id} (${dup.canonicalTitle}) — utiliser --force si édition réellement distincte`);
           const game: Game = {
             id,
+            kind,
             canonicalTitle: title,
             normalizedTitle: norm,
             aliases: optStr(options, "aliases")?.split("|").filter(Boolean) ?? [],

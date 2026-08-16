@@ -272,3 +272,13 @@
   Kirby's Extra Epic Yarn, Another Code : Mémoires Doubles → Two Memories, les deux
   Layton, Sonic Boom : Feu & Glace), et packshots eShop pour les 28 jeux Switch.
   Restent 3 jeux hors catalogue libretro : un GBA obscur et deux titres Xbox
+- Le matériel entre dans la collection : un type d'entrée `game | hardware` sur le jeu
+  (défaut `game`, rien ne change pour l'existant). Consoles et accessoires partagent
+  l'inventaire et les commandes — donc l'historique d'achat et les montants restent
+  d'un bloc — mais sont exclus du compteur « jeux possédés », de la valeur estimée et
+  du décompte par plateforme. Tuile « Matériel » au tableau de bord,
+  `add-game --kind hardware` à la CLI, garde-fou dans `check-drift`,
+  règle verrouillée par `tests/hardware.test.ts`
+- Quatre consoles saisies avec leurs commandes : Nintendo 2DS (73,59 €), 3DS XL édition
+  Animal Crossing (154,24 €), 3DS XL rouge et lot Wii 2 manettes (217,24 € ensemble)
+- Achat Amazon enregistré : Super Mario Galaxy + Galaxy 2 (Switch), 51,49 €

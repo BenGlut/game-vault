@@ -42,7 +42,13 @@ try {
   const index = pub("search-index.json");
   const stats = pub("stats.json");
   if (games.length !== index.length) errors.push(`export : games (${games.length}) ≠ search-index (${index.length})`);
-  if (stats.totalGames !== games.length) errors.push(`export : stats.totalGames (${stats.totalGames}) ≠ games (${games.length})`);
+  // le materiel partage la table des jeux mais n'est pas compte comme un jeu
+  const jeux = games.filter((g) => g.kind !== "hardware");
+  if (stats.totalGames !== jeux.length)
+    errors.push(`export : stats.totalGames (${stats.totalGames}) ≠ jeux hors matériel (${jeux.length})`);
+  const materiel = games.length - jeux.length;
+  if ((stats.totalHardware ?? 0) !== materiel)
+    errors.push(`export : stats.totalHardware (${stats.totalHardware ?? 0}) ≠ entrées matériel (${materiel})`);
   // 4. clés interdites dans l'export public
   for (const f of ["inventory.json", "orders.json", "games.json"]) {
     const raw = fs.readFileSync(path.join(ROOT, "data/public", f), "utf8");

@@ -1,55 +1,5 @@
 [
   {
-    "at": "2026-08-08T00:16:02.955Z",
-    "command": "seed",
-    "message": "Seed initial: 74 jeux 3DS + 56 jeux DS, tous en needs_review, 8 quantités à vérifier"
-  },
-  {
-    "at": "2026-08-08T01:56:49.801Z",
-    "command": "add-game",
-    "message": "add game Mario Party: The Top 100 (3ds)"
-  },
-  {
-    "at": "2026-08-08T01:56:50.424Z",
-    "command": "add-game",
-    "message": "add game LEGO Jurassic World (3ds)"
-  },
-  {
-    "at": "2026-08-08T01:57:56.602Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-08T01:58:10.559Z",
-    "command": "ship-order",
-    "message": "ship-order order_msjq50c0"
-  },
-  {
-    "at": "2026-08-08T01:58:11.581Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-08T01:58:25.001Z",
-    "command": "ship-order",
-    "message": "ship-order order_msjq5bvw"
-  },
-  {
-    "at": "2026-08-08T01:58:25.574Z",
-    "command": "set-status",
-    "message": "set inv_3ds_mario-party-the-top-100 -> shipped"
-  },
-  {
-    "at": "2026-08-08T01:58:26.148Z",
-    "command": "set-status",
-    "message": "set inv_3ds_mario-party-the-top-100-2 -> shipped"
-  },
-  {
-    "at": "2026-08-08T02:11:48.066Z",
-    "command": "rate-batch",
-    "message": "rate 132 games from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/ratings.json"
-  },
-  {
     "at": "2026-08-08T02:11:48.634Z",
     "command": "price-batch",
     "message": "264 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/prices.json"
@@ -2473,5 +2423,80 @@
     "at": "2026-08-16T22:22:48.202Z",
     "command": "refund-order",
     "message": "refund-order order_mswdehxm"
+  },
+  {
+    "at": "2026-08-16T22:48:18.454Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_3ds_hyrule-warriors-legends"
+  },
+  {
+    "at": "2026-08-16T22:48:24.395Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_sonic-classic-collection"
+  },
+  {
+    "at": "2026-08-16T22:48:25.737Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_the-legend-of-zelda-phantom-hourglass"
+  },
+  {
+    "at": "2026-08-16T22:48:27.051Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_luigi-s-mansion-3"
+  },
+  {
+    "at": "2026-08-16T22:48:28.257Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_super-mario-odyssey"
+  },
+  {
+    "at": "2026-08-16T23:00:01.867Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-16T23:00:02.759Z",
+    "command": "add-game",
+    "message": "add game Nintendo 2DS (3ds)"
+  },
+  {
+    "at": "2026-08-16T23:00:03.638Z",
+    "command": "add-game",
+    "message": "add game Nintendo 3DS XL — édition Animal Crossing (3ds)"
+  },
+  {
+    "at": "2026-08-16T23:00:04.553Z",
+    "command": "add-game",
+    "message": "add game Nintendo 3DS XL rouge (3ds)"
+  },
+  {
+    "at": "2026-08-16T23:00:05.375Z",
+    "command": "add-game",
+    "message": "add game Nintendo Wii — pack 2 manettes (wii)"
+  },
+  {
+    "at": "2026-08-16T23:00:46.840Z",
+    "command": "add-game",
+    "message": "add game Tomodachi Life (3ds)"
+  },
+  {
+    "at": "2026-08-16T23:00:47.890Z",
+    "command": "add-game",
+    "message": "add game Wii Play (wii)"
+  },
+  {
+    "at": "2026-08-16T23:00:48.947Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T23:00:49.837Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-16T23:00:50.794Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]
