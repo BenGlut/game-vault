@@ -5212,5 +5212,23 @@
       "source": "vinted",
       "observedAt": "2026-08-17"
     }
+  },
+  "game_3ds_monster-hunter-4-ultimate": {
+    "cib": {
+      "low": 16.38,
+      "median": 16.38,
+      "high": 16.38,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-17"
+    },
+    "loose": {
+      "low": 7.89,
+      "median": 7.89,
+      "high": 7.89,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-17"
+    }
   }
 }

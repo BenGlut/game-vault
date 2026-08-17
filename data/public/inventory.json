@@ -9261,5 +9261,20 @@
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
     "updatedAt": "2026-08-16T23:10:32.022271Z"
+  },
+  {
+    "id": "inv_3ds_monster-hunter-4-ultimate",
+    "gameId": "game_3ds_monster-hunter-4-ultimate",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-17T15:35:48.328Z"
   }
 ]

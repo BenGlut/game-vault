@@ -1,20 +1,5 @@
 [
   {
-    "at": "2026-08-08T02:12:23.363Z",
-    "command": "add-game",
-    "message": "add game Professeur Layton et la Boîte de Pandore (ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:24.239Z",
-    "command": "add-game",
-    "message": "add game Professeur Layton et le Destin Perdu (ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:24.793Z",
-    "command": "add-game",
-    "message": "add game Chrono Trigger (ds)"
-  },
-  {
     "at": "2026-08-08T02:12:25.350Z",
     "command": "add-game",
     "message": "add game Ghost Trick : Détective Fantôme (ds)"
@@ -2498,5 +2483,20 @@
     "at": "2026-08-17T01:08:01.265Z",
     "command": "add-price",
     "message": "price observation for game_wii_nintendo-wii-pack-2-manettes"
+  },
+  {
+    "at": "2026-08-17T15:35:48.349Z",
+    "command": "add-game",
+    "message": "add game Monster Hunter 4 Ultimate (3ds)"
+  },
+  {
+    "at": "2026-08-17T15:35:54.829Z",
+    "command": "add-price",
+    "message": "price observation for Monster Hunter 4 Ultimate"
+  },
+  {
+    "at": "2026-08-17T15:35:55.724Z",
+    "command": "add-price",
+    "message": "price observation for Monster Hunter 4 Ultimate"
   }
 ]

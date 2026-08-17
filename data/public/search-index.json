@@ -4296,5 +4296,15 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_3ds_monster-hunter-4-ultimate",
+    "t": "Monster Hunter 4 Ultimate",
+    "n": "monster hunter 4 ultimate",
+    "a": [],
+    "f": "Monster Hunter",
+    "p": "3ds",
+    "r": "PAL-EU",
+    "q": null
   }
 ]

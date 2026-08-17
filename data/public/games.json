@@ -9084,5 +9084,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_monster-hunter-4-ultimate",
+    "kind": "game",
+    "canonicalTitle": "Monster Hunter 4 Ultimate",
+    "normalizedTitle": "monster hunter 4 ultimate",
+    "aliases": [],
+    "franchise": "Monster Hunter",
+    "platformId": "3ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2015,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
