@@ -94,6 +94,28 @@ function findInventory(v: Vault, ref: string): InventoryItem {
   throw new Error(`Aucun item d'inventaire pour ${game.id}`);
 }
 
+/**
+ * Référence de transaction fabriquée pour les achats sans identifiant fourni
+ * (remise en main propre, vente de particulier hors plateforme). Horodatage en
+ * base 36 + suffixe aléatoire : unique, trié chronologiquement, non devinable.
+ * Ex. `LBC-msxt6x24-4f71`.
+ */
+const CODES_MARKETPLACE: Record<string, string> = {
+  vinted: "VNT",
+  leboncoin: "LBC",
+  ebay: "EBY",
+  amazon: "AMZ",
+};
+
+function referenceSynthetique(marketplace: string): string {
+  const code = CODES_MARKETPLACE[marketplace] ?? marketplace.slice(0, 3).toUpperCase();
+  const horodatage = Date.now().toString(36);
+  const alea = Math.floor(Math.random() * 0xffff)
+    .toString(16)
+    .padStart(4, "0");
+  return `${code}-${horodatage}-${alea}`;
+}
+
 function findOrder(v: Vault, ref: string): Order {
   const o = v.orders.find((x) => x.id === ref || x.reference === ref);
   if (!o) throw new Error(`Commande introuvable: ${ref}`);
@@ -451,7 +473,12 @@ function main(): void {
             id: orderId,
             marketplace: mp,
             sellerId,
-            reference: optStr(options, "reference") ?? null,
+            // Toute commande de place de marché doit porter une référence : sans elle
+            // la réconciliation retombe sur vendeur + date + montant et la commande peut
+            // rester invisible des semaines (cas jerome80250, 2026-08-13). Les achats en
+            // main propre n'ont pas d'identifiant de transaction : on en fabrique un,
+            // horodaté et aléatoire, donc unique et non devinable.
+            reference: optStr(options, "reference") ?? referenceSynthetique(mp),
             status: "ordered",
             items: parsedItems,
             itemsTotal: parsedItems.every((i) => i.unitPrice !== null)

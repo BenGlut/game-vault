@@ -285,6 +285,20 @@
 - Jaquettes : dépôt libretro Wii ajouté au script, plus les alias anglais manquants
   (Rayman contre les Lapins Crétins → Raving Rabbids, Lapin Malin → Reader Rabbit).
   392 jaquettes pour 396 jeux ; les 3 restants sont hors catalogue libretro
+- Référence de transaction fabriquée automatiquement quand la place de marché n'en
+  fournit pas (remise en main propre, vente de particulier) : `add-order` génère
+  `<CODE>-<horodatage base 36>-<aléa 16 bits>`, ex. `LBC-msxtezmk-4f58` — unique,
+  trié chronologiquement, non devinable. Codes figés VNT/LBC/EBY/AMZ plutôt qu'une
+  troncature du nom. Le garde-fou `check-drift` ne peut donc plus être contourné
+  par une chaîne descriptive bricolée à la main (`scripts/vault/index.ts`)
+- Cotes matériel relevées : 3DS XL édition Animal Crossing (loose 221,56 € / CIB
+  355,06 €, PriceCharting PAL), et pour les modèles sans fiche PAL — 3DS XL rouge,
+  2DS, pack Wii, New 3DS noire — médianes des annonces Vinted actives, référence
+  plus honnête pour un achat d'occasion entre particuliers
+- Monster Hunter 4 Ultimate (3DS) et Rabbids 3D ajoutés avec leurs cotes
+- Lot Leboncoin en main propre saisi : New Nintendo 3DS noire + 4 jeux pour 160 €,
+  répartis au prorata des cotes (console 144,41 €, les 4 jeux 15,59 € ensemble)
+- Super Mario Galaxy + Galaxy 2 (Switch) reçu
 - La Collection ne montre plus que des exemplaires réels : un jeu dont les seules lignes
   sont annulées ou remboursées reste dans l'historique des commandes mais n'entre plus
   dans la collection (`inCollection` dans `src/lib/data.ts`, testé). Repéré par benglut
