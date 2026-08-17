@@ -1,30 +1,5 @@
 [
   {
-    "at": "2026-08-08T02:12:20.265Z",
-    "command": "add-game",
-    "message": "add game Mario Kart DS (ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:20.848Z",
-    "command": "add-game",
-    "message": "add game New Super Mario Bros. (ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:21.582Z",
-    "command": "add-game",
-    "message": "add game Dragon Quest IX : Les Sentinelles du Firmament (ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:22.204Z",
-    "command": "add-game",
-    "message": "add game The Legend of Zelda: Phantom Hourglass (ds)"
-  },
-  {
-    "at": "2026-08-08T02:12:22.770Z",
-    "command": "add-game",
-    "message": "add game The Legend of Zelda: Spirit Tracks (ds)"
-  },
-  {
     "at": "2026-08-08T02:12:23.363Z",
     "command": "add-game",
     "message": "add game Professeur Layton et la Boîte de Pandore (ds)"
@@ -2498,5 +2473,30 @@
     "at": "2026-08-16T23:11:35.854Z",
     "command": "add-price",
     "message": "price observation for game_switch_super-mario-odyssey"
+  },
+  {
+    "at": "2026-08-17T01:07:42.466Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_nintendo-3ds-xl-edition-animal-crossing"
+  },
+  {
+    "at": "2026-08-17T01:07:43.409Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_nintendo-3ds-xl-edition-animal-crossing"
+  },
+  {
+    "at": "2026-08-17T01:07:59.203Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_nintendo-3ds-xl-rouge"
+  },
+  {
+    "at": "2026-08-17T01:08:00.329Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_nintendo-2ds"
+  },
+  {
+    "at": "2026-08-17T01:08:01.265Z",
+    "command": "add-price",
+    "message": "price observation for game_wii_nintendo-wii-pack-2-manettes"
   }
 ]

@@ -5164,5 +5164,53 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-16"
     }
+  },
+  "game_3ds_nintendo-2ds": {
+    "loose": {
+      "low": 60,
+      "median": 74.2,
+      "high": 105.7,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-08-17"
+    }
+  },
+  "game_3ds_nintendo-3ds-xl-edition-animal-crossing": {
+    "cib": {
+      "low": 320,
+      "median": 355.06,
+      "high": 390,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-17"
+    },
+    "loose": {
+      "low": 200,
+      "median": 221.56,
+      "high": 250,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-17"
+    }
+  },
+  "game_3ds_nintendo-3ds-xl-rouge": {
+    "loose": {
+      "low": 147.7,
+      "median": 209.65,
+      "high": 305,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-08-17"
+    }
+  },
+  "game_wii_nintendo-wii-pack-2-manettes": {
+    "loose": {
+      "low": 34.3,
+      "median": 58.45,
+      "high": 94.15,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-08-17"
+    }
   }
 }
