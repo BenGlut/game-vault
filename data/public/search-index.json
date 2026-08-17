@@ -4306,5 +4306,25 @@
     "p": "3ds",
     "r": "PAL-EU",
     "q": null
+  },
+  {
+    "id": "game_3ds_rabbids-3d",
+    "t": "Rabbids 3D",
+    "n": "rabbids 3d",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_new-nintendo-3ds-noire",
+    "t": "New Nintendo 3DS noire",
+    "n": "new nintendo 3ds noire",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-EU",
+    "q": null
   }
 ]

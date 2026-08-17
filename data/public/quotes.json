@@ -5230,5 +5230,33 @@
       "source": "pricecharting",
       "observedAt": "2026-08-17"
     }
+  },
+  "game_3ds_rabbids-3d": {
+    "cib": {
+      "low": 5.18,
+      "median": 5.18,
+      "high": 5.18,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-17"
+    },
+    "loose": {
+      "low": 4.73,
+      "median": 4.73,
+      "high": 4.73,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-17"
+    }
+  },
+  "game_3ds_new-nintendo-3ds-noire": {
+    "loose": {
+      "low": 180,
+      "median": 221.2,
+      "high": 240,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-08-17"
+    }
   }
 }

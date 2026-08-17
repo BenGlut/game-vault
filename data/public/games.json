@@ -9106,5 +9106,49 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_rabbids-3d",
+    "kind": "game",
+    "canonicalTitle": "Rabbids 3D",
+    "normalizedTitle": "rabbids 3d",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_new-nintendo-3ds-noire",
+    "kind": "hardware",
+    "canonicalTitle": "New Nintendo 3DS noire",
+    "normalizedTitle": "new nintendo 3ds noire",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

@@ -978,7 +978,7 @@
   {
     "id": "order_msweqvn1",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_super-mario-galaxy-super-mario-galaxy-2"
@@ -992,7 +992,7 @@
     ],
     "orderedAt": "2026-08-16",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-17",
     "estimatedDeliveryAt": "2026-08-17",
     "cancelledAt": null,
     "refundedAt": null,
@@ -1144,5 +1144,52 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 217.24
+  },
+  {
+    "id": "order_msxt6x24",
+    "marketplace": "leboncoin",
+    "status": "delivered",
+    "itemCount": 5,
+    "gameIds": [
+      "game_3ds_new-nintendo-3ds-noire",
+      "game_3ds_luigi-s-mansion-2",
+      "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
+      "game_3ds_rabbids-3d",
+      "game_3ds_lego-marvel-super-heroes-l-univers-en-peril"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_new-nintendo-3ds-noire",
+        "inventoryId": "inv_3ds_new-nintendo-3ds-noire",
+        "unitPrice": 144.41
+      },
+      {
+        "gameId": "game_3ds_luigi-s-mansion-2",
+        "inventoryId": "inv_3ds_luigi-s-mansion-2-6",
+        "unitPrice": 5.29
+      },
+      {
+        "gameId": "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
+        "inventoryId": "inv_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012-2",
+        "unitPrice": 4.47
+      },
+      {
+        "gameId": "game_3ds_rabbids-3d",
+        "inventoryId": "inv_3ds_rabbids-3d",
+        "unitPrice": 3.38
+      },
+      {
+        "gameId": "game_3ds_lego-marvel-super-heroes-l-univers-en-peril",
+        "inventoryId": "inv_3ds_lego-marvel-super-heroes-l-univers-en-peril-2",
+        "unitPrice": 2.45
+      }
+    ],
+    "orderedAt": "2026-08-17",
+    "fulfilledAt": null,
+    "deliveredAt": "2026-08-17",
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 160
   }
 ]

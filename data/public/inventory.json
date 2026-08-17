@@ -7320,17 +7320,17 @@
   {
     "id": "inv_switch_super-mario-galaxy-super-mario-galaxy-2",
     "gameId": "game_switch_super-mario-galaxy-super-mario-galaxy-2",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-17",
     "orderId": "order_msweqvn1",
-    "updatedAt": "2026-08-16T23:00:01.837Z"
+    "updatedAt": "2026-08-17T22:26:48.087Z"
   },
   {
     "id": "inv_3ds_pokemon-soleil-2",
@@ -9276,5 +9276,95 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-08-17T15:35:48.328Z"
+  },
+  {
+    "id": "inv_3ds_new-nintendo-3ds-noire",
+    "gameId": "game_3ds_new-nintendo-3ds-noire",
+    "status": "delivered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 144.41,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": "2026-08-17",
+    "orderId": "order_msxt6x24",
+    "updatedAt": "2026-08-17T22:33:15.636Z"
+  },
+  {
+    "id": "inv_3ds_luigi-s-mansion-2-6",
+    "gameId": "game_3ds_luigi-s-mansion-2",
+    "status": "delivered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 5.29,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": "2026-08-17",
+    "orderId": "order_msxt6x24",
+    "updatedAt": "2026-08-17T22:33:15.636Z"
+  },
+  {
+    "id": "inv_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012-2",
+    "gameId": "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
+    "status": "delivered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 4.47,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": "2026-08-17",
+    "orderId": "order_msxt6x24",
+    "updatedAt": "2026-08-17T22:33:15.636Z"
+  },
+  {
+    "id": "inv_3ds_rabbids-3d",
+    "gameId": "game_3ds_rabbids-3d",
+    "status": "delivered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 3.38,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": "2026-08-17",
+    "orderId": "order_msxt6x24",
+    "updatedAt": "2026-08-17T22:33:15.636Z"
+  },
+  {
+    "id": "inv_3ds_lego-marvel-super-heroes-l-univers-en-peril-2",
+    "gameId": "game_3ds_lego-marvel-super-heroes-l-univers-en-peril",
+    "status": "delivered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 2.45,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": "2026-08-17",
+    "orderId": "order_msxt6x24",
+    "updatedAt": "2026-08-17T22:33:15.636Z"
   }
 ]
