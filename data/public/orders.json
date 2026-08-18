@@ -72,7 +72,7 @@
   {
     "id": "order_msl51ugw",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 2,
     "gameIds": [
       "game_ds_professeur-layton-et-la-boite-de-pandore",
@@ -91,7 +91,7 @@
       }
     ],
     "orderedAt": "2026-08-09",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -269,7 +269,7 @@
   {
     "id": "order_msmi1nvb",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_super-mario-3d-all-stars"
@@ -282,7 +282,7 @@
       }
     ],
     "orderedAt": "2026-08-09",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -292,7 +292,7 @@
   {
     "id": "order_msni03p5",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 4,
     "gameIds": [
       "game_switch_captain-toad-treasure-tracker",
@@ -323,7 +323,7 @@
       }
     ],
     "orderedAt": "2026-08-10",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -333,7 +333,7 @@
   {
     "id": "order_msnmbf0g",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_captain-toad-treasure-tracker"
@@ -346,7 +346,7 @@
       }
     ],
     "orderedAt": "2026-08-10",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -356,7 +356,7 @@
   {
     "id": "order_msolka8w",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 2,
     "gameIds": [
       "game_3ds_kid-icarus-uprising",
@@ -375,7 +375,7 @@
       }
     ],
     "orderedAt": "2026-08-11",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -455,7 +455,7 @@
   {
     "id": "order_msp5gpav",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_kid-icarus-uprising"
@@ -468,7 +468,7 @@
       }
     ],
     "orderedAt": "2026-08-11",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -478,7 +478,7 @@
   {
     "id": "order_msq9al2g",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "refunded",
     "itemCount": 1,
     "gameIds": [
       "game_ds_yoshi-touch-go"
@@ -495,7 +495,7 @@
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
-    "refundedAt": null,
+    "refundedAt": "2026-08-18",
     "totalPaid": 17.34
   },
   {
@@ -548,7 +548,7 @@
   {
     "id": "order_msrxjli4",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 2,
     "gameIds": [
       "game_ds_magical-starsign",
@@ -567,7 +567,7 @@
       }
     ],
     "orderedAt": "2026-08-13",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -693,7 +693,7 @@
   {
     "id": "order_msrxrx6d",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 2,
     "gameIds": [
       "game_gamecube_super-mario-sunshine",
@@ -712,7 +712,7 @@
       }
     ],
     "orderedAt": "2026-08-13",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -722,7 +722,7 @@
   {
     "id": "order_mswcm1je",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_ds_the-legend-of-zelda-spirit-tracks"
@@ -735,7 +735,7 @@
       }
     ],
     "orderedAt": "2026-08-16",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -1001,7 +1001,7 @@
   {
     "id": "order_mswervz2",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_nintendo-2ds"
@@ -1014,7 +1014,7 @@
       }
     ],
     "orderedAt": "2026-08-14",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -1024,7 +1024,7 @@
   {
     "id": "order_mswerwnt",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 8,
     "gameIds": [
       "game_3ds_nintendo-3ds-xl-edition-animal-crossing",
@@ -1079,7 +1079,7 @@
       }
     ],
     "orderedAt": "2026-08-14",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-17",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -1191,5 +1191,40 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 160
+  },
+  {
+    "id": "order_msxxlp03",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_3ds_new-nintendo-2ds-xl-noire-et-vert-citron",
+      "game_3ds_mario-party-island-tour",
+      "game_3ds_super-mario-3d-land"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_new-nintendo-2ds-xl-noire-et-vert-citron",
+        "inventoryId": "inv_3ds_new-nintendo-2ds-xl-noire-et-vert-citron",
+        "unitPrice": 173.25
+      },
+      {
+        "gameId": "game_3ds_mario-party-island-tour",
+        "inventoryId": "inv_3ds_mario-party-island-tour-4",
+        "unitPrice": 6.75
+      },
+      {
+        "gameId": "game_3ds_super-mario-3d-land",
+        "inventoryId": "inv_3ds_super-mario-3d-land-3",
+        "unitPrice": 5.64
+      }
+    ],
+    "orderedAt": "2026-08-18",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 185.64
   }
 ]

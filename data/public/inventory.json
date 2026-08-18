@@ -3748,7 +3748,7 @@
   {
     "id": "inv_3ds_kid-icarus-uprising",
     "gameId": "game_3ds_kid-icarus-uprising",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3769,7 +3769,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msolka8w",
-    "updatedAt": "2026-08-12T15:42:45.868Z"
+    "updatedAt": "2026-08-17T23:59:55.137Z"
   },
   {
     "id": "inv_3ds_bravely-default",
@@ -3862,7 +3862,7 @@
   {
     "id": "inv_ds_mario-kart-ds",
     "gameId": "game_ds_mario-kart-ds",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "very_good",
     "completeness": "CIB",
@@ -3883,7 +3883,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msl51ugw",
-    "updatedAt": "2026-08-10T09:12:11.234Z"
+    "updatedAt": "2026-08-17T23:59:59.551Z"
   },
   {
     "id": "inv_ds_new-super-mario-bros",
@@ -3954,7 +3954,7 @@
   {
     "id": "inv_ds_the-legend-of-zelda-spirit-tracks",
     "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3971,12 +3971,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswcm1je",
-    "updatedAt": "2026-08-16T22:00:16.970Z"
+    "updatedAt": "2026-08-17T23:59:50.190Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-la-boite-de-pandore",
     "gameId": "game_ds_professeur-layton-et-la-boite-de-pandore",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "very_good",
     "completeness": "CIB",
@@ -3997,7 +3997,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msl51ugw",
-    "updatedAt": "2026-08-11T21:44:38.252Z"
+    "updatedAt": "2026-08-17T23:59:59.551Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-le-destin-perdu",
@@ -4446,7 +4446,7 @@
   {
     "id": "inv_gamecube_super-mario-sunshine",
     "gameId": "game_gamecube_super-mario-sunshine",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "no_manual",
@@ -4463,7 +4463,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msrxrx6d",
-    "updatedAt": "2026-08-13T19:53:52.310Z"
+    "updatedAt": "2026-08-17T23:59:53.582Z"
   },
   {
     "id": "inv_gamecube_super-smash-bros-melee",
@@ -6810,7 +6810,7 @@
   {
     "id": "inv_switch_captain-toad-treasure-tracker-2",
     "gameId": "game_switch_captain-toad-treasure-tracker",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6827,12 +6827,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msni03p5",
-    "updatedAt": "2026-08-10T17:21:15.449Z"
+    "updatedAt": "2026-08-17T23:59:56.824Z"
   },
   {
     "id": "inv_switch_captain-toad-treasure-tracker-3",
     "gameId": "game_switch_captain-toad-treasure-tracker",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6853,7 +6853,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msnmbf0g",
-    "updatedAt": "2026-08-12T15:42:47.678Z"
+    "updatedAt": "2026-08-17T23:59:55.835Z"
   },
   {
     "id": "inv_switch_super-mario-3d-all-stars",
@@ -6883,7 +6883,7 @@
   {
     "id": "inv_switch_super-mario-3d-all-stars-3",
     "gameId": "game_switch_super-mario-3d-all-stars",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6904,12 +6904,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msmi1nvb",
-    "updatedAt": "2026-08-10T09:11:23.555Z"
+    "updatedAt": "2026-08-17T23:59:58.728Z"
   },
   {
     "id": "inv_switch_lego-harry-potter-collection",
     "gameId": "game_switch_lego-harry-potter-collection",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6922,12 +6922,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msni03p5",
-    "updatedAt": "2026-08-10T17:21:15.450Z"
+    "updatedAt": "2026-08-17T23:59:56.824Z"
   },
   {
     "id": "inv_switch_dragon-ball-fighterz",
     "gameId": "game_switch_dragon-ball-fighterz",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6940,12 +6940,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msni03p5",
-    "updatedAt": "2026-08-10T17:21:15.450Z"
+    "updatedAt": "2026-08-17T23:59:56.824Z"
   },
   {
     "id": "inv_switch_sonic-colours-ultimate",
     "gameId": "game_switch_sonic-colours-ultimate",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6958,7 +6958,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msni03p5",
-    "updatedAt": "2026-08-10T17:21:15.450Z"
+    "updatedAt": "2026-08-17T23:59:56.824Z"
   },
   {
     "id": "inv_switch_super-mario-odyssey",
@@ -7335,7 +7335,7 @@
   {
     "id": "inv_3ds_pokemon-soleil-2",
     "gameId": "game_3ds_pokemon-soleil",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7349,12 +7349,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msolka8w",
-    "updatedAt": "2026-08-12T15:42:45.868Z"
+    "updatedAt": "2026-08-17T23:59:55.137Z"
   },
   {
     "id": "inv_3ds_kid-icarus-uprising-2",
     "gameId": "game_3ds_kid-icarus-uprising",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7368,12 +7368,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msp5gpav",
-    "updatedAt": "2026-08-12T15:42:43.891Z"
+    "updatedAt": "2026-08-17T23:59:54.325Z"
   },
   {
     "id": "inv_ds_yoshi-touch-go",
     "gameId": "game_ds_yoshi-touch-go",
-    "status": "ordered",
+    "status": "refunded",
     "quantity": 1,
     "condition": "good",
     "completeness": "no_manual",
@@ -7387,7 +7387,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msq9al2g",
-    "updatedAt": "2026-08-12T15:41:10.195Z"
+    "updatedAt": "2026-08-18T00:00:00.850Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-l-appel-du-spectre",
@@ -8517,7 +8517,7 @@
   {
     "id": "inv_ds_magical-starsign",
     "gameId": "game_ds_magical-starsign",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8530,12 +8530,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msrxjli4",
-    "updatedAt": "2026-08-13T19:47:23.933Z"
+    "updatedAt": "2026-08-17T23:59:52.771Z"
   },
   {
     "id": "inv_ds_sonic-rush-adventure",
     "gameId": "game_ds_sonic-rush-adventure",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8548,7 +8548,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msrxjli4",
-    "updatedAt": "2026-08-13T19:47:23.933Z"
+    "updatedAt": "2026-08-17T23:59:52.771Z"
   },
   {
     "id": "inv_ds_sonic-rush",
@@ -8607,7 +8607,7 @@
   {
     "id": "inv_gamecube_mario-smash-football",
     "gameId": "game_gamecube_mario-smash-football",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "no_manual",
@@ -8620,7 +8620,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msrxrx6d",
-    "updatedAt": "2026-08-13T19:53:52.311Z"
+    "updatedAt": "2026-08-17T23:59:53.582Z"
   },
   {
     "id": "inv_3ds_hyrule-warriors-legends",
@@ -8967,7 +8967,7 @@
   {
     "id": "inv_3ds_nintendo-2ds",
     "gameId": "game_3ds_nintendo-2ds",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8980,12 +8980,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswervz2",
-    "updatedAt": "2026-08-16T23:00:48.927Z"
+    "updatedAt": "2026-08-17T23:59:52.021Z"
   },
   {
     "id": "inv_3ds_nintendo-3ds-xl-edition-animal-crossing",
     "gameId": "game_3ds_nintendo-3ds-xl-edition-animal-crossing",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8998,12 +8998,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-16T23:00:49.818Z"
+    "updatedAt": "2026-08-17T23:59:51.169Z"
   },
   {
     "id": "inv_3ds_tomodachi-life",
     "gameId": "game_3ds_tomodachi-life",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9016,7 +9016,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-16T23:00:49.818Z"
+    "updatedAt": "2026-08-17T23:59:51.169Z"
   },
   {
     "id": "inv_3ds_nintendo-3ds-xl-rouge",
@@ -9151,7 +9151,7 @@
   {
     "id": "inv_3ds_mario-kart-7-2",
     "gameId": "game_3ds_mario-kart-7",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9165,12 +9165,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-16T23:10:32.022271Z"
+    "updatedAt": "2026-08-17T23:59:51.169Z"
   },
   {
     "id": "inv_3ds_new-super-mario-bros-2-2",
     "gameId": "game_3ds_new-super-mario-bros-2",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9184,12 +9184,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-16T23:10:32.022271Z"
+    "updatedAt": "2026-08-17T23:59:51.169Z"
   },
   {
     "id": "inv_3ds_luigi-s-mansion-2-5",
     "gameId": "game_3ds_luigi-s-mansion-2",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9203,12 +9203,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-16T23:10:32.022271Z"
+    "updatedAt": "2026-08-17T23:59:51.169Z"
   },
   {
     "id": "inv_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
     "gameId": "game_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9222,12 +9222,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-16T23:10:32.022271Z"
+    "updatedAt": "2026-08-17T23:59:51.169Z"
   },
   {
     "id": "inv_ds_totally-spies-3",
     "gameId": "game_ds_totally-spies-3",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9241,12 +9241,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-16T23:10:32.022271Z"
+    "updatedAt": "2026-08-17T23:59:51.169Z"
   },
   {
     "id": "inv_ds_winx-club",
     "gameId": "game_ds_winx-club",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9260,7 +9260,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-16T23:10:32.022271Z"
+    "updatedAt": "2026-08-17T23:59:51.169Z"
   },
   {
     "id": "inv_3ds_monster-hunter-4-ultimate",
@@ -9366,5 +9366,59 @@
     "acquiredAt": "2026-08-17",
     "orderId": "order_msxt6x24",
     "updatedAt": "2026-08-17T22:33:15.636Z"
+  },
+  {
+    "id": "inv_3ds_new-nintendo-2ds-xl-noire-et-vert-citron",
+    "gameId": "game_3ds_new-nintendo-2ds-xl-noire-et-vert-citron",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 173.25,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msxxlp03",
+    "updatedAt": "2026-08-18T00:35:38.837Z"
+  },
+  {
+    "id": "inv_3ds_mario-party-island-tour-4",
+    "gameId": "game_3ds_mario-party-island-tour",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 6.75,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msxxlp03",
+    "updatedAt": "2026-08-18T00:35:38.837Z"
+  },
+  {
+    "id": "inv_3ds_super-mario-3d-land-3",
+    "gameId": "game_3ds_super-mario-3d-land",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 5.64,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_msxxlp03",
+    "updatedAt": "2026-08-18T00:35:38.837Z"
   }
 ]

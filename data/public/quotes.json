@@ -5258,5 +5258,15 @@
       "source": "vinted",
       "observedAt": "2026-08-17"
     }
+  },
+  "game_3ds_new-nintendo-2ds-xl-noire-et-vert-citron": {
+    "loose": {
+      "low": 137.2,
+      "median": 157.05,
+      "high": 210.7,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-18"
+    }
   }
 }

@@ -9150,5 +9150,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_new-nintendo-2ds-xl-noire-et-vert-citron",
+    "kind": "hardware",
+    "canonicalTitle": "New Nintendo 2DS XL noire et vert citron",
+    "normalizedTitle": "new nintendo 2ds xl noire et vert citron",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
