@@ -9216,5 +9216,71 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_shin-megami-tensei-v-vengeance",
+    "kind": "game",
+    "canonicalTitle": "Shin Megami Tensei V: Vengeance",
+    "normalizedTitle": "shin megami tensei v vengeance",
+    "aliases": [],
+    "franchise": "Shin Megami Tensei",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_ori-the-collection",
+    "kind": "game",
+    "canonicalTitle": "Ori: The Collection",
+    "normalizedTitle": "ori the collection",
+    "aliases": [],
+    "franchise": "Ori",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_paper-mario-la-porte-millenaire",
+    "kind": "game",
+    "canonicalTitle": "Paper Mario : La Porte Millénaire",
+    "normalizedTitle": "paper mario la porte millenaire",
+    "aliases": [],
+    "franchise": "Paper Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

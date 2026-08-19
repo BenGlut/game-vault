@@ -9456,5 +9456,59 @@
     "acquiredAt": null,
     "orderId": "order_mt0olwlj",
     "updatedAt": "2026-08-19T22:47:10.835Z"
+  },
+  {
+    "id": "inv_switch_shin-megami-tensei-v-vengeance",
+    "gameId": "game_switch_shin-megami-tensei-v-vengeance",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 24.98,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt0pak4w",
+    "updatedAt": "2026-08-19T23:06:20.916Z"
+  },
+  {
+    "id": "inv_switch_ori-the-collection",
+    "gameId": "game_switch_ori-the-collection",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 38.05,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt0pak4w",
+    "updatedAt": "2026-08-19T23:06:20.916Z"
+  },
+  {
+    "id": "inv_switch_paper-mario-la-porte-millenaire",
+    "gameId": "game_switch_paper-mario-la-porte-millenaire",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 33.94,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt0pak4w",
+    "updatedAt": "2026-08-19T23:06:20.916Z"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:21:52.836Z",
-    "command": "add-game",
-    "message": "add game Bob l'éponge : Silence on tourne ! (gamecube)"
-  },
-  {
-    "at": "2026-08-08T20:21:54.337Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gamecube_bob-l-eponge-silence-on-tourne"
-  },
-  {
-    "at": "2026-08-08T20:21:55.804Z",
-    "command": "add-game",
-    "message": "add game Tiger Woods PGA Tour 06 (gamecube)"
-  },
-  {
-    "at": "2026-08-08T20:21:57.243Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gamecube_tiger-woods-pga-tour-06"
-  },
-  {
     "at": "2026-08-08T20:21:58.763Z",
     "command": "add-game",
     "message": "add game GoldenEye : Au service du mal (gamecube)"
@@ -2498,5 +2478,25 @@
     "at": "2026-08-19T22:47:13.667Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-19T23:05:25.844Z",
+    "command": "add-game",
+    "message": "add game Shin Megami Tensei V: Vengeance (switch)"
+  },
+  {
+    "at": "2026-08-19T23:05:27.613Z",
+    "command": "add-game",
+    "message": "add game Ori: The Collection (switch)"
+  },
+  {
+    "at": "2026-08-19T23:05:29.269Z",
+    "command": "add-game",
+    "message": "add game Paper Mario : La Porte Millénaire (switch)"
+  },
+  {
+    "at": "2026-08-19T23:06:20.961Z",
+    "command": "add-order",
+    "message": "add order amazon"
   }
 ]

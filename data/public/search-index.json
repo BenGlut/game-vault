@@ -4356,5 +4356,35 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_shin-megami-tensei-v-vengeance",
+    "t": "Shin Megami Tensei V: Vengeance",
+    "n": "shin megami tensei v vengeance",
+    "a": [],
+    "f": "Shin Megami Tensei",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_ori-the-collection",
+    "t": "Ori: The Collection",
+    "n": "ori the collection",
+    "a": [],
+    "f": "Ori",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_paper-mario-la-porte-millenaire",
+    "t": "Paper Mario : La Porte Millénaire",
+    "n": "paper mario la porte millenaire",
+    "a": [],
+    "f": "Paper Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

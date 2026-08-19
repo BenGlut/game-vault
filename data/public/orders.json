@@ -1261,5 +1261,40 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 71.2
+  },
+  {
+    "id": "order_mt0pak4w",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_switch_shin-megami-tensei-v-vengeance",
+      "game_switch_ori-the-collection",
+      "game_switch_paper-mario-la-porte-millenaire"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_shin-megami-tensei-v-vengeance",
+        "inventoryId": "inv_switch_shin-megami-tensei-v-vengeance",
+        "unitPrice": 24.98
+      },
+      {
+        "gameId": "game_switch_ori-the-collection",
+        "inventoryId": "inv_switch_ori-the-collection",
+        "unitPrice": 38.05
+      },
+      {
+        "gameId": "game_switch_paper-mario-la-porte-millenaire",
+        "inventoryId": "inv_switch_paper-mario-la-porte-millenaire",
+        "unitPrice": 33.94
+      }
+    ],
+    "orderedAt": "2026-08-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 96.97
   }
 ]
