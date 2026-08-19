@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:37:02.697Z",
+  "generatedAt": "2026-08-19T22:53:50.020Z",
   "totalGames": 399,
   "totalHardware": 6,
   "ownedHardware": 1,
@@ -10,7 +10,7 @@
     "wishlist": 0,
     "refunded": 15,
     "fulfilled": 25,
-    "ordered": 4
+    "ordered": 6
   },
   "byPlatform": {
     "snes": 21,
@@ -26,6 +26,6 @@
     "xbox360": 1,
     "xboxone": 1
   },
-  "needsReview": 160,
+  "needsReview": 162,
   "estimateTotal": 6267.2
 }

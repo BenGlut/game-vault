@@ -1226,5 +1226,40 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 185.64
+  },
+  {
+    "id": "order_mt0olwlj",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_switch_super-mario-odyssey",
+      "game_switch_super-mario-maker-2",
+      "game_switch_crash-team-racing-nitro-fueled"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_super-mario-odyssey",
+        "inventoryId": "inv_switch_super-mario-odyssey-3",
+        "unitPrice": 27.85
+      },
+      {
+        "gameId": "game_switch_super-mario-maker-2",
+        "inventoryId": "inv_switch_super-mario-maker-2",
+        "unitPrice": 29.48
+      },
+      {
+        "gameId": "game_switch_crash-team-racing-nitro-fueled",
+        "inventoryId": "inv_switch_crash-team-racing-nitro-fueled",
+        "unitPrice": 13.87
+      }
+    ],
+    "orderedAt": "2026-08-19",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 71.2
   }
 ]

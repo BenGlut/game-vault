@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:21:51.347Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gamecube_gun"
-  },
-  {
     "at": "2026-08-08T20:21:52.836Z",
     "command": "add-game",
     "message": "add game Bob l'éponge : Silence on tourne ! (gamecube)"
@@ -2498,5 +2493,10 @@
     "at": "2026-08-19T21:36:41.737Z",
     "command": "add-price",
     "message": "price observation for Super Mario Maker 2"
+  },
+  {
+    "at": "2026-08-19T22:47:13.667Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]
