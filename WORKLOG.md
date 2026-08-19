@@ -74,6 +74,10 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- Suite de tests : `hookTimeout` 60 s et `testTimeout` 30 s dans
+  `vitest.config.ts` — les hooks de `cli.test.ts` et `publish.test.ts` lancent
+  `pnpm exec tsx` dont le cold start dépasse les 10 s par défaut, ce qui faisait
+  échouer deux suites sur huit sans qu'aucune assertion ne tombe
 - Prix d'achat de Super Mario 3D All-Stars corrigé : le lot à 48,05 € contenait
   quatre articles textile en plus du jeu, celui-ci reçoit 41,07 € au prorata des
   valeurs affichées au lieu du total
