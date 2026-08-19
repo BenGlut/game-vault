@@ -5268,5 +5268,41 @@
       "source": "pricecharting",
       "observedAt": "2026-08-18"
     }
+  },
+  "game_switch_crash-team-racing-nitro-fueled": {
+    "cib": {
+      "low": 13.35,
+      "median": 13.35,
+      "high": 13.35,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-19"
+    },
+    "loose": {
+      "low": 11.38,
+      "median": 11.38,
+      "high": 11.38,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-19"
+    }
+  },
+  "game_switch_super-mario-maker-2": {
+    "cib": {
+      "low": 28.37,
+      "median": 28.37,
+      "high": 28.37,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-19"
+    },
+    "loose": {
+      "low": 17.54,
+      "median": 17.54,
+      "high": 17.54,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-19"
+    }
   }
 }

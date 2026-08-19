@@ -4336,5 +4336,25 @@
     "p": "3ds",
     "r": "PAL-EU",
     "q": null
+  },
+  {
+    "id": "game_switch_crash-team-racing-nitro-fueled",
+    "t": "Crash Team Racing: Nitro-Fueled",
+    "n": "crash team racing nitro fueled",
+    "a": [],
+    "f": "Crash Bandicoot",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_super-mario-maker-2",
+    "t": "Super Mario Maker 2",
+    "n": "super mario maker 2",
+    "a": [],
+    "f": "Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

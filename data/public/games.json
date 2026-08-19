@@ -9172,5 +9172,49 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_crash-team-racing-nitro-fueled",
+    "kind": "game",
+    "canonicalTitle": "Crash Team Racing: Nitro-Fueled",
+    "normalizedTitle": "crash team racing nitro fueled",
+    "aliases": [],
+    "franchise": "Crash Bandicoot",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2019,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_super-mario-maker-2",
+    "kind": "game",
+    "canonicalTitle": "Super Mario Maker 2",
+    "normalizedTitle": "super mario maker 2",
+    "aliases": [],
+    "franchise": "Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2019,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

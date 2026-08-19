@@ -1,35 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:21:41.998Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_ds_high-school-musical-reves-de-star"
-  },
-  {
-    "at": "2026-08-08T20:21:43.636Z",
-    "command": "add-game",
-    "message": "add game Cars 2 (ds)"
-  },
-  {
-    "at": "2026-08-08T20:21:45.198Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_ds_cars-2"
-  },
-  {
-    "at": "2026-08-08T20:21:46.720Z",
-    "command": "add-game",
-    "message": "add game Dora & Friends : Pet Shelter (ds)"
-  },
-  {
-    "at": "2026-08-08T20:21:48.309Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_ds_dora-friends-pet-shelter"
-  },
-  {
-    "at": "2026-08-08T20:21:49.838Z",
-    "command": "add-game",
-    "message": "add game GUN (gamecube)"
-  },
-  {
     "at": "2026-08-08T20:21:51.347Z",
     "command": "add-inventory",
     "message": "add inventory for game_gamecube_gun"
@@ -2498,5 +2468,35 @@
     "at": "2026-08-19T20:20:11.128Z",
     "command": "set-status",
     "message": "set inv_ds_mario-kart-ds -> delivered"
+  },
+  {
+    "at": "2026-08-19T21:36:32.326Z",
+    "command": "add-game",
+    "message": "add game Crash Team Racing: Nitro-Fueled (switch)"
+  },
+  {
+    "at": "2026-08-19T21:36:34.424Z",
+    "command": "add-game",
+    "message": "add game Super Mario Maker 2 (switch)"
+  },
+  {
+    "at": "2026-08-19T21:36:37.694Z",
+    "command": "add-price",
+    "message": "price observation for Crash Team Racing: Nitro-Fueled"
+  },
+  {
+    "at": "2026-08-19T21:36:39.337Z",
+    "command": "add-price",
+    "message": "price observation for Crash Team Racing: Nitro-Fueled"
+  },
+  {
+    "at": "2026-08-19T21:36:40.570Z",
+    "command": "add-price",
+    "message": "price observation for Super Mario Maker 2"
+  },
+  {
+    "at": "2026-08-19T21:36:41.737Z",
+    "command": "add-price",
+    "message": "price observation for Super Mario Maker 2"
   }
 ]
