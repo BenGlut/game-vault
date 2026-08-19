@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T20:58:54.206Z",
+  "generatedAt": "2026-08-19T21:35:14.510Z",
   "totalGames": 397,
   "totalHardware": 6,
   "ownedHardware": 1,
@@ -26,6 +26,6 @@
     "xbox360": 1,
     "xboxone": 1
   },
-  "needsReview": 161,
+  "needsReview": 160,
   "estimateTotal": 6267.2
 }

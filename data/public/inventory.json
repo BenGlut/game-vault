@@ -3879,11 +3879,11 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": "2026-08-18",
     "orderId": "order_msl51ugw",
-    "updatedAt": "2026-08-19T20:20:11.194Z"
+    "updatedAt": "2026-08-19T21:35:10.794Z"
   },
   {
     "id": "inv_ds_new-super-mario-bros",
@@ -3997,7 +3997,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": "2026-08-18",
     "orderId": "order_msl51ugw",
-    "updatedAt": "2026-08-19T20:20:11.195Z"
+    "updatedAt": "2026-08-19T21:35:10.794Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-le-destin-perdu",
