@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:21:38.864Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_ds_the-legend-of-spyro-dawn-of-the-dragon"
-  },
-  {
-    "at": "2026-08-08T20:21:40.440Z",
-    "command": "add-game",
-    "message": "add game High School Musical : Rêves de star ! (ds)"
-  },
-  {
     "at": "2026-08-08T20:21:41.998Z",
     "command": "add-inventory",
     "message": "add inventory for game_ds_high-school-musical-reves-de-star"
@@ -2498,5 +2488,15 @@
     "at": "2026-08-18T20:18:39.433Z",
     "command": "ship-order",
     "message": "ship-order order_msrxjkr8"
+  },
+  {
+    "at": "2026-08-19T20:20:09.617Z",
+    "command": "set-status",
+    "message": "set inv_ds_professeur-layton-et-la-boite-de-pandore -> delivered"
+  },
+  {
+    "at": "2026-08-19T20:20:11.128Z",
+    "command": "set-status",
+    "message": "set inv_ds_mario-kart-ds -> delivered"
   }
 ]
