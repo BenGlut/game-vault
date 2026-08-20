@@ -74,6 +74,12 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- Couverture jaquettes de la collection portée à 100 % des jeux (402/402) : les
+  10 manquantes récupérées — 2 en 3DS via libretro, 4 en Switch via les packshots
+  FR de l'API eShop (`fetch-switch-boxart.ts`), et 4 sans source automatisée
+  (Ori: The Collection, Destiny, Star Ocean: The Last Hope, Majesco's Rec Room
+  Challenge) posées à la main au format du repo (400 px, JPEG 78). Les 6 entrées
+  restantes sans image sont des `kind: hardware`, pas des jeux
 - Suite de tests : `hookTimeout` 60 s et `testTimeout` 30 s dans
   `vitest.config.ts` — les hooks de `cli.test.ts` et `publish.test.ts` lancent
   `pnpm exec tsx` dont le cold start dépasse les 10 s par défaut, ce qui faisait
