@@ -9282,5 +9282,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_crash-of-the-titans",
+    "kind": "game",
+    "canonicalTitle": "Crash of the Titans",
+    "normalizedTitle": "crash of the titans",
+    "aliases": [],
+    "franchise": "Crash Bandicoot",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

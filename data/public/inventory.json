@@ -4046,7 +4046,7 @@
   {
     "id": "inv_ds_ghost-trick-detective-fantome",
     "gameId": "game_ds_ghost-trick-detective-fantome",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4062,8 +4062,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.707Z"
+    "orderId": "order_mt23czpt",
+    "updatedAt": "2026-08-20T22:27:55.217Z"
   },
   {
     "id": "inv_ds_the-world-ends-with-you",
@@ -6832,7 +6832,7 @@
   {
     "id": "inv_switch_captain-toad-treasure-tracker-3",
     "gameId": "game_switch_captain-toad-treasure-tracker",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -6849,11 +6849,11 @@
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-20",
     "orderId": "order_msnmbf0g",
-    "updatedAt": "2026-08-17T23:59:55.835Z"
+    "updatedAt": "2026-08-20T22:38:55.591Z"
   },
   {
     "id": "inv_switch_super-mario-3d-all-stars",
@@ -7887,7 +7887,7 @@
   {
     "id": "inv_3ds_final-fantasy-explorers",
     "gameId": "game_3ds_final-fantasy-explorers",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7896,8 +7896,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:36.314Z"
+    "orderId": "order_mt23czpt",
+    "updatedAt": "2026-08-20T22:27:55.222Z"
   },
   {
     "id": "inv_gamecube_final-fantasy-crystal-chronicles",
@@ -8553,7 +8553,7 @@
   {
     "id": "inv_ds_sonic-rush",
     "gameId": "game_ds_sonic-rush",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "no_manual",
@@ -8562,16 +8562,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-20",
     "orderId": "order_msrxjm53",
-    "updatedAt": "2026-08-13T19:47:24.760Z"
+    "updatedAt": "2026-08-20T22:38:57.432Z"
   },
   {
     "id": "inv_ds_sonic-colours",
     "gameId": "game_ds_sonic-colours",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "no_manual",
@@ -8580,16 +8580,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-20",
     "orderId": "order_msrxjm53",
-    "updatedAt": "2026-08-13T19:47:24.760Z"
+    "updatedAt": "2026-08-20T22:38:57.432Z"
   },
   {
     "id": "inv_ds_sonic-sega-all-stars-racing",
     "gameId": "game_ds_sonic-sega-all-stars-racing",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "no_manual",
@@ -8598,11 +8598,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-20",
     "orderId": "order_msrxjm53",
-    "updatedAt": "2026-08-13T19:47:24.760Z"
+    "updatedAt": "2026-08-20T22:38:57.432Z"
   },
   {
     "id": "inv_gamecube_mario-smash-football",
@@ -8952,7 +8952,7 @@
   {
     "id": "inv_switch_super-mario-odyssey-3",
     "gameId": "game_switch_super-mario-odyssey",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8962,7 +8962,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt0olwlj",
-    "updatedAt": "2026-08-19T22:47:10.675Z"
+    "updatedAt": "2026-08-20T22:38:59.191Z"
   },
   {
     "id": "inv_3ds_nintendo-2ds",
@@ -9424,7 +9424,7 @@
   {
     "id": "inv_switch_super-mario-maker-2",
     "gameId": "game_switch_super-mario-maker-2",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9437,12 +9437,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt0olwlj",
-    "updatedAt": "2026-08-19T22:47:10.835Z"
+    "updatedAt": "2026-08-20T22:38:59.191Z"
   },
   {
     "id": "inv_switch_crash-team-racing-nitro-fueled",
     "gameId": "game_switch_crash-team-racing-nitro-fueled",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9455,7 +9455,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt0olwlj",
-    "updatedAt": "2026-08-19T22:47:10.835Z"
+    "updatedAt": "2026-08-20T22:38:59.191Z"
   },
   {
     "id": "inv_switch_shin-megami-tensei-v-vengeance",
@@ -9510,5 +9510,23 @@
     "acquiredAt": null,
     "orderId": "order_mt0pak4w",
     "updatedAt": "2026-08-19T23:06:20.916Z"
+  },
+  {
+    "id": "inv_ds_crash-of-the-titans",
+    "gameId": "game_ds_crash-of-the-titans",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 11.96,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt23czpt",
+    "updatedAt": "2026-08-20T22:27:55.222Z"
   }
 ]

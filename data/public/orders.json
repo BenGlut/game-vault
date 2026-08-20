@@ -333,7 +333,7 @@
   {
     "id": "order_msnmbf0g",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_captain-toad-treasure-tracker"
@@ -347,7 +347,7 @@
     ],
     "orderedAt": "2026-08-10",
     "fulfilledAt": "2026-08-17",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-20",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -577,7 +577,7 @@
   {
     "id": "order_msrxjm53",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 3,
     "gameIds": [
       "game_ds_sonic-rush",
@@ -603,7 +603,7 @@
     ],
     "orderedAt": "2026-08-13",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-20",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -1230,7 +1230,7 @@
   {
     "id": "order_mt0olwlj",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 3,
     "gameIds": [
       "game_switch_super-mario-odyssey",
@@ -1255,7 +1255,7 @@
       }
     ],
     "orderedAt": "2026-08-19",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-20",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -1296,5 +1296,40 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 96.97
+  },
+  {
+    "id": "order_mt23czpt",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_ds_ghost-trick-detective-fantome",
+      "game_3ds_final-fantasy-explorers",
+      "game_ds_crash-of-the-titans"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_ghost-trick-detective-fantome",
+        "inventoryId": "inv_ds_ghost-trick-detective-fantome",
+        "unitPrice": 48.32
+      },
+      {
+        "gameId": "game_3ds_final-fantasy-explorers",
+        "inventoryId": "inv_3ds_final-fantasy-explorers",
+        "unitPrice": 18.27
+      },
+      {
+        "gameId": "game_ds_crash-of-the-titans",
+        "inventoryId": "inv_ds_crash-of-the-titans",
+        "unitPrice": 11.96
+      }
+    ],
+    "orderedAt": "2026-08-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 78.55
   }
 ]

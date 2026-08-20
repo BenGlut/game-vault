@@ -5147,6 +5147,24 @@
       "observedAt": "2026-08-16"
     }
   },
+  "game_3ds_final-fantasy-explorers": {
+    "cib": {
+      "low": 13.24,
+      "median": 13.24,
+      "high": 13.24,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-20"
+    },
+    "loose": {
+      "low": 12.21,
+      "median": 12.21,
+      "high": 12.21,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-20"
+    }
+  },
   "game_3ds_hyrule-warriors-legends": {
     "cib": {
       "low": 12.6,
@@ -5303,6 +5321,24 @@
       "currency": "EUR",
       "source": "pricecharting",
       "observedAt": "2026-08-19"
+    }
+  },
+  "game_ds_crash-of-the-titans": {
+    "cib": {
+      "low": 8.67,
+      "median": 8.67,
+      "high": 8.67,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-20"
+    },
+    "loose": {
+      "low": 5.08,
+      "median": 5.08,
+      "high": 5.08,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-20"
     }
   }
 }

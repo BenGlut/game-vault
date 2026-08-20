@@ -1,50 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:21:58.763Z",
-    "command": "add-game",
-    "message": "add game GoldenEye : Au service du mal (gamecube)"
-  },
-  {
-    "at": "2026-08-08T20:22:00.214Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gamecube_goldeneye-au-service-du-mal"
-  },
-  {
-    "at": "2026-08-08T20:22:01.678Z",
-    "command": "add-game",
-    "message": "add game Super Mario Kart (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:03.121Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_super-mario-kart"
-  },
-  {
-    "at": "2026-08-08T20:22:04.646Z",
-    "command": "add-game",
-    "message": "add game Super Mario All-Stars (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:06.080Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_super-mario-all-stars"
-  },
-  {
-    "at": "2026-08-08T20:22:07.526Z",
-    "command": "add-game",
-    "message": "add game Wario's Woods (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:09.016Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_wario-s-woods"
-  },
-  {
-    "at": "2026-08-08T20:22:10.467Z",
-    "command": "add-game",
-    "message": "add game Unirally (snes)"
-  },
-  {
     "at": "2026-08-08T20:22:11.922Z",
     "command": "add-inventory",
     "message": "add inventory for game_snes_unirally"
@@ -2498,5 +2453,50 @@
     "at": "2026-08-19T23:06:20.961Z",
     "command": "add-order",
     "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-20T22:27:23.466Z",
+    "command": "add-game",
+    "message": "add game Crash of the Titans (ds)"
+  },
+  {
+    "at": "2026-08-20T22:27:26.285Z",
+    "command": "add-price",
+    "message": "price observation for Crash of the Titans"
+  },
+  {
+    "at": "2026-08-20T22:27:27.917Z",
+    "command": "add-price",
+    "message": "price observation for Crash of the Titans"
+  },
+  {
+    "at": "2026-08-20T22:27:29.834Z",
+    "command": "add-price",
+    "message": "price observation for Final Fantasy Explorers"
+  },
+  {
+    "at": "2026-08-20T22:27:32.109Z",
+    "command": "add-price",
+    "message": "price observation for Final Fantasy Explorers"
+  },
+  {
+    "at": "2026-08-20T22:27:55.318Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-20T22:38:55.647Z",
+    "command": "receive-order",
+    "message": "receive-order order_msnmbf0g"
+  },
+  {
+    "at": "2026-08-20T22:38:57.549Z",
+    "command": "receive-order",
+    "message": "receive-order order_msrxjm53"
+  },
+  {
+    "at": "2026-08-20T22:38:59.230Z",
+    "command": "ship-order",
+    "message": "ship-order order_mt0olwlj"
   }
 ]

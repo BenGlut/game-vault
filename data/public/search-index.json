@@ -4386,5 +4386,15 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_crash-of-the-titans",
+    "t": "Crash of the Titans",
+    "n": "crash of the titans",
+    "a": [],
+    "f": "Crash Bandicoot",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
