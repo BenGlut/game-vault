@@ -313,3 +313,11 @@
   sont annulées ou remboursées reste dans l'historique des commandes mais n'entre plus
   dans la collection (`inCollection` dans `src/lib/data.ts`, testé). Repéré par benglut
   sur Luigi's Mansion 3, présent alors que ses deux lots benj33290 avaient été remboursés
+
+## Changed
+- Dépendances mises à jour (8 PR Dependabot regroupées et validées en local avant
+  fusion) : zod 3.25→4.4.3, vitest 3.2→4.1.10, @types/node 22→26.1.2, et les actions
+  GitHub checkout v4→v7, setup-node v4→v7, codeql-action v3→v4,
+  upload-pages-artifact v3→v5, deploy-pages v4→v5. Zod 4 vérifié au-delà de la CI :
+  `pnpm vault validate` passe sur les 427 jeux réels du dépôt privé, ce que la CI
+  ne teste pas
