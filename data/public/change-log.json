@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:22:13.425Z",
-    "command": "add-game",
-    "message": "add game Aladdin (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:14.852Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_aladdin"
-  },
-  {
     "at": "2026-08-08T20:22:16.297Z",
     "command": "add-game",
     "message": "add game Street Fighter II Turbo (snes)"
@@ -2498,5 +2488,15 @@
     "at": "2026-08-21T00:14:02.344Z",
     "command": "add-price",
     "message": "price observation for Ghost Trick : Détective Fantôme"
+  },
+  {
+    "at": "2026-08-21T00:22:08.590Z",
+    "command": "add-price",
+    "message": "price observation for The Legend of Zelda: Majora's Mask 3D"
+  },
+  {
+    "at": "2026-08-21T00:22:09.690Z",
+    "command": "add-price",
+    "message": "price observation for The Legend of Zelda: Majora's Mask 3D"
   }
 ]

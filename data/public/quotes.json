@@ -2377,20 +2377,20 @@
   },
   "game_3ds_the-legend-of-zelda-majora-s-mask-3d": {
     "cib": {
-      "low": 33.96,
-      "median": 37.45,
-      "high": 41.08,
+      "low": 38.56,
+      "median": 63.7,
+      "high": 74.2,
       "currency": "EUR",
-      "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "source": "vinted",
+      "observedAt": "2026-08-21"
     },
     "loose": {
-      "low": 27.92,
-      "median": 30.22,
-      "high": 33.64,
+      "low": 30.03,
+      "median": 30.03,
+      "high": 30.03,
       "currency": "EUR",
-      "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
     }
   },
   "game_3ds_fire-emblem-awakening": {
