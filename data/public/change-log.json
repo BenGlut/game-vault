@@ -1,75 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:23:42.835Z",
-    "command": "add-game",
-    "message": "add game Super Mario World: Super Mario Advance 2 (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:44.466Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_super-mario-world-super-mario-advance-2"
-  },
-  {
-    "at": "2026-08-08T20:23:46.141Z",
-    "command": "add-game",
-    "message": "add game Super Mario Advance 4: Super Mario Bros. 3 (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:47.761Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_super-mario-advance-4-super-mario-bros-3"
-  },
-  {
-    "at": "2026-08-08T20:23:49.349Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy Tactics Advance (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:50.833Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_final-fantasy-tactics-advance"
-  },
-  {
-    "at": "2026-08-08T20:23:52.302Z",
-    "command": "add-game",
-    "message": "add game Dragon Ball Z : L'Héritage de Goku (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:53.786Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_dragon-ball-z-l-heritage-de-goku"
-  },
-  {
-    "at": "2026-08-08T20:23:55.370Z",
-    "command": "add-game",
-    "message": "add game Rayman Advance (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:56.827Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_rayman-advance"
-  },
-  {
-    "at": "2026-08-08T20:23:58.298Z",
-    "command": "add-game",
-    "message": "add game Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:59.771Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique"
-  },
-  {
-    "at": "2026-08-08T20:24:01.246Z",
-    "command": "add-game",
-    "message": "add game Tony Hawk's American Sk8land (gba)"
-  },
-  {
-    "at": "2026-08-08T20:24:02.817Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_tony-hawk-s-american-sk8land"
-  },
-  {
     "at": "2026-08-08T20:24:04.455Z",
     "command": "add-game",
     "message": "add game Tekken Advance (gba)"
@@ -2498,5 +2428,75 @@
     "at": "2026-08-21T10:51:09.854Z",
     "command": "add-price",
     "message": "price observation for game_switch_spyro-reignited-trilogy"
+  },
+  {
+    "at": "2026-08-21T19:00:30.995Z",
+    "command": "receive-order",
+    "message": "receive-order order_mswerxed"
+  },
+  {
+    "at": "2026-08-21T19:00:31.672Z",
+    "command": "receive-order",
+    "message": "receive-order order_msxxlp03"
+  },
+  {
+    "at": "2026-08-21T19:00:32.365Z",
+    "command": "receive-order",
+    "message": "receive-order order_mswerwnt"
+  },
+  {
+    "at": "2026-08-21T19:00:33.251Z",
+    "command": "receive-order",
+    "message": "receive-order order_msrxjkr8"
+  },
+  {
+    "at": "2026-08-21T19:00:33.924Z",
+    "command": "receive-order",
+    "message": "receive-order order_msmi1nvb"
+  },
+  {
+    "at": "2026-08-21T19:00:34.601Z",
+    "command": "ship-order",
+    "message": "ship-order order_mswcmos1"
+  },
+  {
+    "at": "2026-08-21T19:32:32.854Z",
+    "command": "set-status",
+    "message": "set inv_3ds_nintendo-3ds-xl-edition-animal-crossing -> delivered"
+  },
+  {
+    "at": "2026-08-21T19:32:33.621Z",
+    "command": "set-status",
+    "message": "set inv_3ds_tomodachi-life -> delivered"
+  },
+  {
+    "at": "2026-08-21T19:32:34.411Z",
+    "command": "set-status",
+    "message": "set inv_3ds_mario-kart-7-2 -> delivered"
+  },
+  {
+    "at": "2026-08-21T19:32:35.041Z",
+    "command": "set-status",
+    "message": "set inv_3ds_new-super-mario-bros-2-2 -> delivered"
+  },
+  {
+    "at": "2026-08-21T19:32:35.686Z",
+    "command": "set-status",
+    "message": "set inv_3ds_luigi-s-mansion-2-5 -> delivered"
+  },
+  {
+    "at": "2026-08-21T19:32:36.485Z",
+    "command": "set-status",
+    "message": "set inv_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans -> delivered"
+  },
+  {
+    "at": "2026-08-21T19:32:37.282Z",
+    "command": "set-status",
+    "message": "set inv_ds_totally-spies-3 -> delivered"
+  },
+  {
+    "at": "2026-08-21T19:32:37.919Z",
+    "command": "set-status",
+    "message": "set inv_ds_winx-club -> delivered"
   }
 ]
