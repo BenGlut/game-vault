@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:22:11.922Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_unirally"
-  },
-  {
     "at": "2026-08-08T20:22:13.425Z",
     "command": "add-game",
     "message": "add game Aladdin (snes)"
@@ -2498,5 +2493,10 @@
     "at": "2026-08-20T22:38:59.230Z",
     "command": "ship-order",
     "message": "ship-order order_mt0olwlj"
+  },
+  {
+    "at": "2026-08-21T00:14:02.344Z",
+    "command": "add-price",
+    "message": "price observation for Ghost Trick : Détective Fantôme"
   }
 ]

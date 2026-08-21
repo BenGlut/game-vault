@@ -156,3 +156,21 @@ promu dans `SKILL.md`.*
   par son id meme quand la recherche par login ne le trouve plus dans l'inbox, et
   `transaction.item_ids` y liste les articles du lot. Les fiches, elles, peuvent etre
   supprimees (404) — d'ou l'interet de saisir au fil de l'eau.
+- 2026-08-21 — COMPARER DU TOUT-COMPRIS A DU TOUT-COMPRIS. J'ai juge le lot nono732
+  "+38 %" en confrontant le prix paye (articles + port + protection) a la cote
+  PriceCharting nue, qui n'inclut ni port ni frais. Le biais est systematique : il fait
+  paraitre mauvais tout achat correct, et il s'aggrave quand le lot compte peu
+  d'articles. Reconstituer le cout separe : chaque article aurait porte son propre port
+  (~3,50-4,35 EUR) et son propre plancher de protection (0,70 EUR). Un lot de 3 economise
+  donc ~10 EUR rien qu'en frais — c'est un gain reel, pas un detail.
+- 2026-08-21 — LA COTE PRICECHARTING N'EST PAS LE MARCHE FRANCAIS. Ghost Trick DS :
+  PriceCharting PAL CIB 35,02 EUR, mediane des 44 annonces Vinted 63,69 EUR — presque le
+  double. Les rares annonces sous 35 EUR etaient allemandes, italiennes, ou une boite
+  vide ("copertina manuale e custodia no gioco"). Sur les titres rares et sur les jeux
+  ou la version FR se paie, relever la mediane Vinted AVANT de rendre un verdict ; la
+  cote PriceCharting sert de plancher, pas de reference. benglut avait raison : il
+  n'avait pas trouve Ghost Trick sous 40 EUR.
+- 2026-08-21 — Le temps compte aussi dans le verdict. Commander separement, c'est autant
+  de vendeurs a relancer, de colis a suivre, de points relais a visiter et de fenetres de
+  litige a surveiller. Un lot un peu plus cher a l'article qui fait avancer la collection
+  d'un coup peut etre le bon choix : le dire, au lieu de ne chiffrer que l'ecart a la cote.
