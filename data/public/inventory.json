@@ -9753,5 +9753,59 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-08-21T10:42:00.091Z"
+  },
+  {
+    "id": "inv_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
+    "gameId": "game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 21.33,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt3euoh2",
+    "updatedAt": "2026-08-21T20:37:22.407Z"
+  },
+  {
+    "id": "inv_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
+    "gameId": "game_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 24.51,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt3euoh2",
+    "updatedAt": "2026-08-21T20:37:22.407Z"
+  },
+  {
+    "id": "inv_switch_legacy-of-kain-soul-reaver-1-2-remastered",
+    "gameId": "game_switch_legacy-of-kain-soul-reaver-1-2-remastered",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 23.75,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt3euoh2",
+    "updatedAt": "2026-08-21T20:37:22.407Z"
   }
 ]

@@ -1331,5 +1331,40 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 78.55
+  },
+  {
+    "id": "order_mt3euoh2",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
+      "game_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
+      "game_switch_legacy-of-kain-soul-reaver-1-2-remastered"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
+        "inventoryId": "inv_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
+        "unitPrice": 21.33
+      },
+      {
+        "gameId": "game_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
+        "inventoryId": "inv_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
+        "unitPrice": 24.51
+      },
+      {
+        "gameId": "game_switch_legacy-of-kain-soul-reaver-1-2-remastered",
+        "inventoryId": "inv_switch_legacy-of-kain-soul-reaver-1-2-remastered",
+        "unitPrice": 23.75
+      }
+    ],
+    "orderedAt": "2026-08-21",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": "2026-08-24",
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 69.59
   }
 ]

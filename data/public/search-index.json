@@ -4549,5 +4549,41 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
+    "t": "Tomb Raider IV-VI Remastered Starring Lara Croft",
+    "n": "tomb raider iv vi remastered starring lara croft",
+    "a": [
+      "Tomb Raider 4-6 Remastered"
+    ],
+    "f": "Tomb Raider",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
+    "t": "Tomb Raider I-III Remastered Starring Lara Croft",
+    "n": "tomb raider i iii remastered starring lara croft",
+    "a": [
+      "Tomb Raider 1-3 Remastered"
+    ],
+    "f": "Tomb Raider",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_legacy-of-kain-soul-reaver-1-2-remastered",
+    "t": "Legacy of Kain: Soul Reaver 1 & 2 Remastered",
+    "n": "legacy of kain soul reaver 1 2 remastered",
+    "a": [
+      "Soul Reaver Remastered"
+    ],
+    "f": "Legacy of Kain",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

@@ -5646,5 +5646,59 @@
       "source": "pricecharting",
       "observedAt": "2026-08-21"
     }
+  },
+  "game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft": {
+    "cib": {
+      "low": 24.6,
+      "median": 24.6,
+      "high": 24.6,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 19.19,
+      "median": 19.19,
+      "high": 19.19,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_switch_tomb-raider-i-iii-remastered-starring-lara-croft": {
+    "cib": {
+      "low": 22.36,
+      "median": 22.36,
+      "high": 22.36,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 20.44,
+      "median": 20.44,
+      "high": 20.44,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_switch_legacy-of-kain-soul-reaver-1-2-remastered": {
+    "cib": {
+      "low": 17.48,
+      "median": 17.48,
+      "high": 17.48,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 15.04,
+      "median": 15.04,
+      "high": 15.04,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
   }
 }

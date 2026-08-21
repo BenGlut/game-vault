@@ -1,55 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:24:15.188Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_action-man-robot-atak"
-  },
-  {
-    "at": "2026-08-08T20:24:16.790Z",
-    "command": "add-game",
-    "message": "add game Majesco's Rec Room Challenge (gba)"
-  },
-  {
-    "at": "2026-08-08T20:24:18.351Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_majesco-s-rec-room-challenge"
-  },
-  {
-    "at": "2026-08-08T20:24:19.884Z",
-    "command": "add-game",
-    "message": "add game Mission: Impossible — Operation Surma (gba)"
-  },
-  {
-    "at": "2026-08-08T20:24:21.471Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_mission-impossible-operation-surma"
-  },
-  {
-    "at": "2026-08-08T20:24:23.086Z",
-    "command": "add-game",
-    "message": "add game Les Sims 2 (gba)"
-  },
-  {
-    "at": "2026-08-08T20:24:24.633Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_les-sims-2"
-  },
-  {
-    "at": "2026-08-08T20:24:26.368Z",
-    "command": "add-game",
-    "message": "add game Tang Tang (gba)"
-  },
-  {
-    "at": "2026-08-08T20:24:28.142Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_tang-tang"
-  },
-  {
-    "at": "2026-08-08T20:24:29.754Z",
-    "command": "add-game",
-    "message": "add game Spyro Adventure (gba)"
-  },
-  {
     "at": "2026-08-08T20:24:31.305Z",
     "command": "add-inventory",
     "message": "add inventory for game_gba_spyro-adventure"
@@ -2498,5 +2448,55 @@
     "at": "2026-08-21T20:30:55.624Z",
     "command": "add-price",
     "message": "price observation for game_switch_paper-mario-la-porte-millenaire"
+  },
+  {
+    "at": "2026-08-21T20:37:03.140Z",
+    "command": "add-game",
+    "message": "add game Tomb Raider IV-VI Remastered Starring Lara Croft (switch)"
+  },
+  {
+    "at": "2026-08-21T20:37:03.918Z",
+    "command": "add-game",
+    "message": "add game Tomb Raider I-III Remastered Starring Lara Croft (switch)"
+  },
+  {
+    "at": "2026-08-21T20:37:05.080Z",
+    "command": "add-game",
+    "message": "add game Legacy of Kain: Soul Reaver 1 & 2 Remastered (switch)"
+  },
+  {
+    "at": "2026-08-21T20:37:16.928Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft"
+  },
+  {
+    "at": "2026-08-21T20:37:17.769Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft"
+  },
+  {
+    "at": "2026-08-21T20:37:18.849Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_tomb-raider-i-iii-remastered-starring-lara-croft"
+  },
+  {
+    "at": "2026-08-21T20:37:20.145Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_tomb-raider-i-iii-remastered-starring-lara-croft"
+  },
+  {
+    "at": "2026-08-21T20:37:20.906Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_legacy-of-kain-soul-reaver-1-2-remastered"
+  },
+  {
+    "at": "2026-08-21T20:37:21.630Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_legacy-of-kain-soul-reaver-1-2-remastered"
+  },
+  {
+    "at": "2026-08-21T20:37:22.430Z",
+    "command": "add-order",
+    "message": "add order amazon"
   }
 ]

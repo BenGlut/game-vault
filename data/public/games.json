@@ -9637,5 +9637,77 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": "basse"
+  },
+  {
+    "id": "game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
+    "kind": "game",
+    "canonicalTitle": "Tomb Raider IV-VI Remastered Starring Lara Croft",
+    "normalizedTitle": "tomb raider iv vi remastered starring lara croft",
+    "aliases": [
+      "Tomb Raider 4-6 Remastered"
+    ],
+    "franchise": "Tomb Raider",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
+    "kind": "game",
+    "canonicalTitle": "Tomb Raider I-III Remastered Starring Lara Croft",
+    "normalizedTitle": "tomb raider i iii remastered starring lara croft",
+    "aliases": [
+      "Tomb Raider 1-3 Remastered"
+    ],
+    "franchise": "Tomb Raider",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2024,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_legacy-of-kain-soul-reaver-1-2-remastered",
+    "kind": "game",
+    "canonicalTitle": "Legacy of Kain: Soul Reaver 1 & 2 Remastered",
+    "normalizedTitle": "legacy of kain soul reaver 1 2 remastered",
+    "aliases": [
+      "Soul Reaver Remastered"
+    ],
+    "franchise": "Legacy of Kain",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
