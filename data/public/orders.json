@@ -1265,7 +1265,7 @@
   {
     "id": "order_mt0pak4w",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 3,
     "gameIds": [
       "game_switch_shin-megami-tensei-v-vengeance",
@@ -1291,7 +1291,7 @@
     ],
     "orderedAt": "2026-08-20",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-21",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,

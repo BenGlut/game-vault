@@ -9460,7 +9460,7 @@
   {
     "id": "inv_switch_shin-megami-tensei-v-vengeance",
     "gameId": "game_switch_shin-megami-tensei-v-vengeance",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9469,16 +9469,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-21",
     "orderId": "order_mt0pak4w",
-    "updatedAt": "2026-08-19T23:06:20.916Z"
+    "updatedAt": "2026-08-21T20:30:11.667Z"
   },
   {
     "id": "inv_switch_ori-the-collection",
     "gameId": "game_switch_ori-the-collection",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9487,16 +9487,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-21",
     "orderId": "order_mt0pak4w",
-    "updatedAt": "2026-08-19T23:06:20.916Z"
+    "updatedAt": "2026-08-21T20:30:11.667Z"
   },
   {
     "id": "inv_switch_paper-mario-la-porte-millenaire",
     "gameId": "game_switch_paper-mario-la-porte-millenaire",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9505,11 +9505,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-21",
     "orderId": "order_mt0pak4w",
-    "updatedAt": "2026-08-19T23:06:20.916Z"
+    "updatedAt": "2026-08-21T20:30:11.667Z"
   },
   {
     "id": "inv_ds_crash-of-the-titans",

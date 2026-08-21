@@ -5323,6 +5323,60 @@
       "observedAt": "2026-08-19"
     }
   },
+  "game_switch_shin-megami-tensei-v-vengeance": {
+    "cib": {
+      "low": 26.18,
+      "median": 26.18,
+      "high": 26.18,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 17.46,
+      "median": 17.46,
+      "high": 17.46,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_switch_ori-the-collection": {
+    "cib": {
+      "low": 27.67,
+      "median": 27.67,
+      "high": 27.67,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 23.95,
+      "median": 23.95,
+      "high": 23.95,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_switch_paper-mario-la-porte-millenaire": {
+    "cib": {
+      "low": 28.43,
+      "median": 28.43,
+      "high": 28.43,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 27.88,
+      "median": 27.88,
+      "high": 27.88,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
   "game_ds_crash-of-the-titans": {
     "cib": {
       "low": 8.67,

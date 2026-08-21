@@ -1,40 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:24:04.455Z",
-    "command": "add-game",
-    "message": "add game Tekken Advance (gba)"
-  },
-  {
-    "at": "2026-08-08T20:24:06.011Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_tekken-advance"
-  },
-  {
-    "at": "2026-08-08T20:24:07.596Z",
-    "command": "add-game",
-    "message": "add game Mario Party Advance (gba)"
-  },
-  {
-    "at": "2026-08-08T20:24:09.142Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_mario-party-advance"
-  },
-  {
-    "at": "2026-08-08T20:24:10.617Z",
-    "command": "add-game",
-    "message": "add game Ice Age (gba)"
-  },
-  {
-    "at": "2026-08-08T20:24:12.245Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_ice-age"
-  },
-  {
-    "at": "2026-08-08T20:24:13.721Z",
-    "command": "add-game",
-    "message": "add game Action Man: Robot Atak (gba)"
-  },
-  {
     "at": "2026-08-08T20:24:15.188Z",
     "command": "add-inventory",
     "message": "add inventory for game_gba_action-man-robot-atak"
@@ -2498,5 +2463,40 @@
     "at": "2026-08-21T19:32:37.919Z",
     "command": "set-status",
     "message": "set inv_ds_winx-club -> delivered"
+  },
+  {
+    "at": "2026-08-21T20:30:11.684Z",
+    "command": "receive-order",
+    "message": "receive-order order_mt0pak4w"
+  },
+  {
+    "at": "2026-08-21T20:30:48.705Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_shin-megami-tensei-v-vengeance"
+  },
+  {
+    "at": "2026-08-21T20:30:49.932Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_shin-megami-tensei-v-vengeance"
+  },
+  {
+    "at": "2026-08-21T20:30:51.109Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_ori-the-collection"
+  },
+  {
+    "at": "2026-08-21T20:30:52.024Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_ori-the-collection"
+  },
+  {
+    "at": "2026-08-21T20:30:53.984Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_paper-mario-la-porte-millenaire"
+  },
+  {
+    "at": "2026-08-21T20:30:55.624Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_paper-mario-la-porte-millenaire"
   }
 ]
