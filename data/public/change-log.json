@@ -1,275 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:22:16.297Z",
-    "command": "add-game",
-    "message": "add game Street Fighter II Turbo (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:17.743Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_street-fighter-ii-turbo"
-  },
-  {
-    "at": "2026-08-08T20:22:19.251Z",
-    "command": "add-game",
-    "message": "add game Dragon Ball Z (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:20.840Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_dragon-ball-z"
-  },
-  {
-    "at": "2026-08-08T20:22:22.440Z",
-    "command": "add-game",
-    "message": "add game Dragon Ball Z : Ultime Menace (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:24.150Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_dragon-ball-z-ultime-menace"
-  },
-  {
-    "at": "2026-08-08T20:22:25.762Z",
-    "command": "add-game",
-    "message": "add game Super Soccer (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:27.298Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_super-soccer"
-  },
-  {
-    "at": "2026-08-08T20:22:29.056Z",
-    "command": "add-game",
-    "message": "add game Dino Dini's Soccer (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:31.007Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_dino-dini-s-soccer"
-  },
-  {
-    "at": "2026-08-08T20:22:32.851Z",
-    "command": "add-game",
-    "message": "add game Super Pinball: Behind the Mask (snes)"
-  },
-  {
-    "at": "2026-08-08T20:22:34.627Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_snes_super-pinball-behind-the-mask"
-  },
-  {
-    "at": "2026-08-08T20:22:36.349Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Rouge (gb)"
-  },
-  {
-    "at": "2026-08-08T20:22:37.982Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gb_pokemon-version-rouge"
-  },
-  {
-    "at": "2026-08-08T20:22:39.944Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Bleue (gb)"
-  },
-  {
-    "at": "2026-08-08T20:22:41.956Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gb_pokemon-version-bleue"
-  },
-  {
-    "at": "2026-08-08T20:22:43.703Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Jaune (gb)"
-  },
-  {
-    "at": "2026-08-08T20:22:45.249Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gb_pokemon-version-jaune"
-  },
-  {
-    "at": "2026-08-08T20:22:46.747Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Or (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:22:48.406Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_pokemon-version-or"
-  },
-  {
-    "at": "2026-08-08T20:22:49.968Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Argent (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:22:51.527Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_pokemon-version-argent"
-  },
-  {
-    "at": "2026-08-08T20:22:53.223Z",
-    "command": "add-game",
-    "message": "add game Donkey Kong Country (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:22:55.068Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_donkey-kong-country"
-  },
-  {
-    "at": "2026-08-08T20:22:56.956Z",
-    "command": "add-game",
-    "message": "add game Rayman (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:22:58.795Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_rayman"
-  },
-  {
-    "at": "2026-08-08T20:23:00.359Z",
-    "command": "add-game",
-    "message": "add game Aladdin (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:23:01.913Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_aladdin"
-  },
-  {
-    "at": "2026-08-08T20:23:03.541Z",
-    "command": "add-game",
-    "message": "add game Le Roi Lion : La Formidable Aventure de Simba (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:23:05.063Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_le-roi-lion-la-formidable-aventure-de-simba"
-  },
-  {
-    "at": "2026-08-08T20:23:06.579Z",
-    "command": "add-game",
-    "message": "add game Casper (gb)"
-  },
-  {
-    "at": "2026-08-08T20:23:08.055Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gb_casper"
-  },
-  {
-    "at": "2026-08-08T20:23:09.523Z",
-    "command": "add-game",
-    "message": "add game Astérix (gb)"
-  },
-  {
-    "at": "2026-08-08T20:23:10.927Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gb_asterix"
-  },
-  {
-    "at": "2026-08-08T20:23:12.400Z",
-    "command": "add-game",
-    "message": "add game Sabrina The Animated Series: Zapped! (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:23:13.827Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_sabrina-the-animated-series-zapped"
-  },
-  {
-    "at": "2026-08-08T20:23:15.330Z",
-    "command": "add-game",
-    "message": "add game The New Addams Family Series (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:23:16.783Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_the-new-addams-family-series"
-  },
-  {
-    "at": "2026-08-08T20:23:18.330Z",
-    "command": "add-game",
-    "message": "add game Shrek: Fairy Tale Freakdown (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:23:19.819Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_shrek-fairy-tale-freakdown"
-  },
-  {
-    "at": "2026-08-08T20:23:21.281Z",
-    "command": "add-game",
-    "message": "add game Yu-Gi-Oh! Dark Duel Stories (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:23:22.760Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_yu-gi-oh-dark-duel-stories"
-  },
-  {
-    "at": "2026-08-08T20:23:24.255Z",
-    "command": "add-game",
-    "message": "add game Lucky Luke (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:23:25.704Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_lucky-luke"
-  },
-  {
-    "at": "2026-08-08T20:23:27.220Z",
-    "command": "add-game",
-    "message": "add game Worms Armageddon (gbc)"
-  },
-  {
-    "at": "2026-08-08T20:23:28.703Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gbc_worms-armageddon"
-  },
-  {
-    "at": "2026-08-08T20:23:30.280Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Rubis (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:31.759Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_pokemon-version-rubis"
-  },
-  {
-    "at": "2026-08-08T20:23:33.381Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Saphir (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:34.903Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_pokemon-version-saphir"
-  },
-  {
-    "at": "2026-08-08T20:23:36.551Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Émeraude (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:38.075Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_pokemon-version-emeraude"
-  },
-  {
-    "at": "2026-08-08T20:23:39.669Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Vert Feuille (gba)"
-  },
-  {
-    "at": "2026-08-08T20:23:41.282Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_pokemon-version-vert-feuille"
-  },
-  {
     "at": "2026-08-08T20:23:42.835Z",
     "command": "add-game",
     "message": "add game Super Mario World: Super Mario Advance 2 (gba)"
@@ -2498,5 +2228,275 @@
     "at": "2026-08-21T00:22:09.690Z",
     "command": "add-price",
     "message": "price observation for The Legend of Zelda: Majora's Mask 3D"
+  },
+  {
+    "at": "2026-08-21T10:37:02.262Z",
+    "command": "add-game",
+    "message": "add game The Legend of Spyro: The Eternal Night (ds)"
+  },
+  {
+    "at": "2026-08-21T10:37:06.524Z",
+    "command": "add-game",
+    "message": "add game The Legend of Spyro: A New Beginning (ds)"
+  },
+  {
+    "at": "2026-08-21T10:37:08.647Z",
+    "command": "add-game",
+    "message": "add game Spyro: Season of Ice (gba)"
+  },
+  {
+    "at": "2026-08-21T10:37:11.200Z",
+    "command": "add-game",
+    "message": "add game Spyro 2: Season of Flame (gba)"
+  },
+  {
+    "at": "2026-08-21T10:37:12.769Z",
+    "command": "add-game",
+    "message": "add game Spyro Fusion (gba)"
+  },
+  {
+    "at": "2026-08-21T10:37:14.107Z",
+    "command": "add-game",
+    "message": "add game The Legend of Spyro: A New Beginning (gba)"
+  },
+  {
+    "at": "2026-08-21T10:37:15.510Z",
+    "command": "add-game",
+    "message": "add game The Legend of Spyro: The Eternal Night (gba)"
+  },
+  {
+    "at": "2026-08-21T10:37:17.204Z",
+    "command": "add-game",
+    "message": "add game Spyro: Enter the Dragonfly (gamecube)"
+  },
+  {
+    "at": "2026-08-21T10:37:18.595Z",
+    "command": "add-game",
+    "message": "add game Spyro: A Hero's Tail (gamecube)"
+  },
+  {
+    "at": "2026-08-21T10:37:20.315Z",
+    "command": "add-game",
+    "message": "add game The Legend of Spyro: A New Beginning (gamecube)"
+  },
+  {
+    "at": "2026-08-21T10:37:22.099Z",
+    "command": "add-game",
+    "message": "add game Spyro Reignited Trilogy (switch)"
+  },
+  {
+    "at": "2026-08-21T10:37:35.142Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_the-legend-of-spyro-the-eternal-night"
+  },
+  {
+    "at": "2026-08-21T10:37:37.111Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:37:39.130Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_spyro-season-of-ice"
+  },
+  {
+    "at": "2026-08-21T10:37:40.397Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_spyro-2-season-of-flame"
+  },
+  {
+    "at": "2026-08-21T10:37:41.659Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_spyro-fusion"
+  },
+  {
+    "at": "2026-08-21T10:37:42.958Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:37:44.260Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gba_the-legend-of-spyro-the-eternal-night"
+  },
+  {
+    "at": "2026-08-21T10:37:47.210Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_spyro-enter-the-dragonfly"
+  },
+  {
+    "at": "2026-08-21T10:37:48.859Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_spyro-a-hero-s-tail"
+  },
+  {
+    "at": "2026-08-21T10:37:50.924Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:37:52.389Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_spyro-reignited-trilogy"
+  },
+  {
+    "at": "2026-08-21T10:41:54.278Z",
+    "command": "add-game",
+    "message": "add game Spyro Orange : La Conspiration de Cortex (gba)"
+  },
+  {
+    "at": "2026-08-21T10:41:55.504Z",
+    "command": "add-game",
+    "message": "add game The Legend of Spyro: The Eternal Night (wii)"
+  },
+  {
+    "at": "2026-08-21T10:41:58.735Z",
+    "command": "add-game",
+    "message": "add game The Legend of Spyro: Dawn of the Dragon (wii)"
+  },
+  {
+    "at": "2026-08-21T10:42:00.125Z",
+    "command": "add-game",
+    "message": "add game Skylanders: Spyro's Adventure (3ds)"
+  },
+  {
+    "at": "2026-08-21T10:43:04.679Z",
+    "command": "add-price",
+    "message": "price observation for Spyro Orange : La Conspiration de Cortex"
+  },
+  {
+    "at": "2026-08-21T10:43:06.758Z",
+    "command": "add-price",
+    "message": "price observation for Spyro Orange : La Conspiration de Cortex"
+  },
+  {
+    "at": "2026-08-21T10:43:08.561Z",
+    "command": "add-price",
+    "message": "price observation for game_wii_the-legend-of-spyro-the-eternal-night"
+  },
+  {
+    "at": "2026-08-21T10:43:10.215Z",
+    "command": "add-price",
+    "message": "price observation for game_wii_the-legend-of-spyro-the-eternal-night"
+  },
+  {
+    "at": "2026-08-21T10:43:12.038Z",
+    "command": "add-price",
+    "message": "price observation for game_wii_the-legend-of-spyro-dawn-of-the-dragon"
+  },
+  {
+    "at": "2026-08-21T10:43:14.802Z",
+    "command": "add-price",
+    "message": "price observation for game_wii_the-legend-of-spyro-dawn-of-the-dragon"
+  },
+  {
+    "at": "2026-08-21T10:50:24.509Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_the-legend-of-spyro-the-eternal-night"
+  },
+  {
+    "at": "2026-08-21T10:50:28.753Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_the-legend-of-spyro-the-eternal-night"
+  },
+  {
+    "at": "2026-08-21T10:50:33.676Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:50:36.451Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:50:38.508Z",
+    "command": "add-price",
+    "message": "price observation for game_gamecube_spyro-enter-the-dragonfly"
+  },
+  {
+    "at": "2026-08-21T10:50:40.983Z",
+    "command": "add-price",
+    "message": "price observation for game_gamecube_spyro-enter-the-dragonfly"
+  },
+  {
+    "at": "2026-08-21T10:50:44.205Z",
+    "command": "add-price",
+    "message": "price observation for game_gamecube_spyro-a-hero-s-tail"
+  },
+  {
+    "at": "2026-08-21T10:50:46.603Z",
+    "command": "add-price",
+    "message": "price observation for game_gamecube_spyro-a-hero-s-tail"
+  },
+  {
+    "at": "2026-08-21T10:50:50.084Z",
+    "command": "add-price",
+    "message": "price observation for game_gamecube_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:50:52.216Z",
+    "command": "add-price",
+    "message": "price observation for game_gamecube_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:50:54.267Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_spyro-season-of-ice"
+  },
+  {
+    "at": "2026-08-21T10:50:56.210Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_spyro-season-of-ice"
+  },
+  {
+    "at": "2026-08-21T10:50:57.671Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_spyro-2-season-of-flame"
+  },
+  {
+    "at": "2026-08-21T10:50:59.093Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_spyro-2-season-of-flame"
+  },
+  {
+    "at": "2026-08-21T10:51:00.706Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_spyro-fusion"
+  },
+  {
+    "at": "2026-08-21T10:51:02.511Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_spyro-fusion"
+  },
+  {
+    "at": "2026-08-21T10:51:03.685Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:51:04.929Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_the-legend-of-spyro-a-new-beginning"
+  },
+  {
+    "at": "2026-08-21T10:51:06.008Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_the-legend-of-spyro-the-eternal-night"
+  },
+  {
+    "at": "2026-08-21T10:51:07.498Z",
+    "command": "add-price",
+    "message": "price observation for game_gba_the-legend-of-spyro-the-eternal-night"
+  },
+  {
+    "at": "2026-08-21T10:51:08.655Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_spyro-reignited-trilogy"
+  },
+  {
+    "at": "2026-08-21T10:51:09.854Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_spyro-reignited-trilogy"
   }
 ]

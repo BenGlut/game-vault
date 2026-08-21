@@ -4396,5 +4396,158 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_the-legend-of-spyro-the-eternal-night",
+    "t": "The Legend of Spyro: The Eternal Night",
+    "n": "the legend of spyro the eternal night",
+    "a": [],
+    "f": "Spyro",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_the-legend-of-spyro-a-new-beginning",
+    "t": "The Legend of Spyro: A New Beginning",
+    "n": "the legend of spyro a new beginning",
+    "a": [],
+    "f": "Spyro",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_spyro-season-of-ice",
+    "t": "Spyro: Season of Ice",
+    "n": "spyro season of ice",
+    "a": [],
+    "f": "Spyro",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_spyro-2-season-of-flame",
+    "t": "Spyro 2: Season of Flame",
+    "n": "spyro 2 season of flame",
+    "a": [],
+    "f": "Spyro",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_spyro-fusion",
+    "t": "Spyro Fusion",
+    "n": "spyro fusion",
+    "a": [],
+    "f": "Spyro",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_the-legend-of-spyro-a-new-beginning",
+    "t": "The Legend of Spyro: A New Beginning",
+    "n": "the legend of spyro a new beginning",
+    "a": [],
+    "f": "Spyro",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_the-legend-of-spyro-the-eternal-night",
+    "t": "The Legend of Spyro: The Eternal Night",
+    "n": "the legend of spyro the eternal night",
+    "a": [],
+    "f": "Spyro",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_spyro-enter-the-dragonfly",
+    "t": "Spyro: Enter the Dragonfly",
+    "n": "spyro enter the dragonfly",
+    "a": [],
+    "f": "Spyro",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_spyro-a-hero-s-tail",
+    "t": "Spyro: A Hero's Tail",
+    "n": "spyro a hero s tail",
+    "a": [],
+    "f": "Spyro",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gamecube_the-legend-of-spyro-a-new-beginning",
+    "t": "The Legend of Spyro: A New Beginning",
+    "n": "the legend of spyro a new beginning",
+    "a": [],
+    "f": "Spyro",
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_spyro-reignited-trilogy",
+    "t": "Spyro Reignited Trilogy",
+    "n": "spyro reignited trilogy",
+    "a": [],
+    "f": "Spyro",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gba_spyro-orange-la-conspiration-de-cortex",
+    "t": "Spyro Orange : La Conspiration de Cortex",
+    "n": "spyro orange la conspiration de cortex",
+    "a": [
+      "Spyro Orange: The Cortex Conspiracy",
+      "Spyro Orange"
+    ],
+    "f": "Spyro",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_the-legend-of-spyro-the-eternal-night",
+    "t": "The Legend of Spyro: The Eternal Night",
+    "n": "the legend of spyro the eternal night",
+    "a": [],
+    "f": "Spyro",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_the-legend-of-spyro-dawn-of-the-dragon",
+    "t": "The Legend of Spyro: Dawn of the Dragon",
+    "n": "the legend of spyro dawn of the dragon",
+    "a": [],
+    "f": "Spyro",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_skylanders-spyro-s-adventure",
+    "t": "Skylanders: Spyro's Adventure",
+    "n": "skylanders spyro s adventure",
+    "a": [],
+    "f": "Spyro",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

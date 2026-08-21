@@ -5340,5 +5340,257 @@
       "source": "pricecharting",
       "observedAt": "2026-08-20"
     }
+  },
+  "game_ds_the-legend-of-spyro-the-eternal-night": {
+    "cib": {
+      "low": 9.97,
+      "median": 9.97,
+      "high": 9.97,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 7.9,
+      "median": 7.9,
+      "high": 7.9,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_ds_the-legend-of-spyro-a-new-beginning": {
+    "cib": {
+      "low": 6.77,
+      "median": 6.77,
+      "high": 6.77,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 6.15,
+      "median": 6.15,
+      "high": 6.15,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gba_spyro-season-of-ice": {
+    "cib": {
+      "low": 14.62,
+      "median": 14.62,
+      "high": 14.62,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 3.28,
+      "median": 3.28,
+      "high": 3.28,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gba_spyro-2-season-of-flame": {
+    "cib": {
+      "low": 20.95,
+      "median": 20.95,
+      "high": 20.95,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 6.67,
+      "median": 6.67,
+      "high": 6.67,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gba_spyro-fusion": {
+    "cib": {
+      "low": 27.01,
+      "median": 27.01,
+      "high": 27.01,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 5.59,
+      "median": 5.59,
+      "high": 5.59,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gba_the-legend-of-spyro-a-new-beginning": {
+    "cib": {
+      "low": 16.18,
+      "median": 16.18,
+      "high": 16.18,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 8.63,
+      "median": 8.63,
+      "high": 8.63,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gba_the-legend-of-spyro-the-eternal-night": {
+    "cib": {
+      "low": 26.76,
+      "median": 26.76,
+      "high": 26.76,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 12.14,
+      "median": 12.14,
+      "high": 12.14,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gamecube_spyro-enter-the-dragonfly": {
+    "cib": {
+      "low": 9.43,
+      "median": 9.43,
+      "high": 9.43,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 7.5,
+      "median": 7.5,
+      "high": 7.5,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gamecube_spyro-a-hero-s-tail": {
+    "cib": {
+      "low": 13.7,
+      "median": 13.7,
+      "high": 13.7,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 10.94,
+      "median": 10.94,
+      "high": 10.94,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gamecube_the-legend-of-spyro-a-new-beginning": {
+    "cib": {
+      "low": 34.75,
+      "median": 34.75,
+      "high": 34.75,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 21.84,
+      "median": 21.84,
+      "high": 21.84,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_switch_spyro-reignited-trilogy": {
+    "cib": {
+      "low": 14.68,
+      "median": 14.68,
+      "high": 14.68,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 14.3,
+      "median": 14.3,
+      "high": 14.3,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_gba_spyro-orange-la-conspiration-de-cortex": {
+    "cib": {
+      "low": 30.15,
+      "median": 30.15,
+      "high": 30.15,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 6.04,
+      "median": 6.04,
+      "high": 6.04,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_wii_the-legend-of-spyro-the-eternal-night": {
+    "cib": {
+      "low": 8.28,
+      "median": 8.28,
+      "high": 8.28,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 6.19,
+      "median": 6.19,
+      "high": 6.19,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
+  },
+  "game_wii_the-legend-of-spyro-dawn-of-the-dragon": {
+    "cib": {
+      "low": 10.82,
+      "median": 10.82,
+      "high": 10.82,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 8.33,
+      "median": 8.33,
+      "high": 8.33,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
   }
 }
