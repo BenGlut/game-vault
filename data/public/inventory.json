@@ -8988,7 +8988,7 @@
     "status": "delivered",
     "quantity": 1,
     "condition": "good",
-    "completeness": "CIB",
+    "completeness": "loose",
     "purchasePrice": {
       "amount": 154.24,
       "currency": "EUR"
@@ -8998,7 +8998,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": "2026-08-21",
     "orderId": "order_mswerwnt",
-    "updatedAt": "2026-08-21T19:32:53.338Z"
+    "updatedAt": "2026-08-21T19:35:41.933Z"
   },
   {
     "id": "inv_3ds_tomodachi-life",
