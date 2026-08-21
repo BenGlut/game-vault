@@ -321,3 +321,6 @@
   upload-pages-artifact v3→v5, deploy-pages v4→v5. Zod 4 vérifié au-delà de la CI :
   `pnpm vault validate` passe sur les 427 jeux réels du dépôt privé, ce que la CI
   ne teste pas
+- TypeScript 5.9 → 6.0.3. TS 6 refuse les imports à effet de bord sans déclaration
+  (TS2882 sur `import "./globals.css"` dans `src/app/layout.tsx`) : ajout de
+  `src/globals.d.ts` qui déclare `*.css`, Next gérant lui-même ces imports au build
