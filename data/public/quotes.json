@@ -5165,6 +5165,16 @@
       "observedAt": "2026-08-20"
     }
   },
+  "game_switch_super-mario-bros-wonder": {
+    "cib": {
+      "low": 29.05,
+      "median": 37.45,
+      "high": 43.99,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-08-22"
+    }
+  },
   "game_switch_hollow-knight": {
     "cib": {
       "low": 19.53,

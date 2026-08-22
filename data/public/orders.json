@@ -1516,5 +1516,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 22.59
+  },
+  {
+    "id": "order_mt50s16g",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_super-mario-bros-wonder"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_super-mario-bros-wonder",
+        "inventoryId": "inv_switch_super-mario-bros-wonder",
+        "unitPrice": 43.99
+      }
+    ],
+    "orderedAt": "2026-08-22",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": "2026-08-24",
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 43.99
   }
 ]

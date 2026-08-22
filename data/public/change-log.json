@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:26:00.313Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_ni-no-kuni-la-vengeance-de-la-sorciere-celeste"
-  },
-  {
-    "at": "2026-08-08T20:26:02.031Z",
-    "command": "add-game",
-    "message": "add game Teenage Mutant Ninja Turtles: Shredder's Revenge (switch)"
-  },
-  {
     "at": "2026-08-08T20:26:03.693Z",
     "command": "add-inventory",
     "message": "add inventory for game_switch_teenage-mutant-ninja-turtles-shredder-s-revenge"
@@ -2498,5 +2488,15 @@
     "at": "2026-08-22T22:20:38.173Z",
     "command": "rate",
     "message": "rate game_switch_kingdom-hearts-melody-of-memory"
+  },
+  {
+    "at": "2026-08-22T23:38:55.303Z",
+    "command": "add-price",
+    "message": "price observation for game_switch_super-mario-bros-wonder"
+  },
+  {
+    "at": "2026-08-22T23:38:56.668Z",
+    "command": "add-order",
+    "message": "add order amazon"
   }
 ]
