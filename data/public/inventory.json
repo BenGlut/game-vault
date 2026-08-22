@@ -3678,7 +3678,7 @@
   {
     "id": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d",
     "gameId": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3694,8 +3694,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "orderId": "order_mt4ef8po",
+    "updatedAt": "2026-08-22T13:13:08.317Z"
   },
   {
     "id": "inv_3ds_fire-emblem-awakening",
@@ -9840,5 +9840,77 @@
     "acquiredAt": null,
     "orderId": "order_mt3sw0zp",
     "updatedAt": "2026-08-22T03:10:19.909Z"
+  },
+  {
+    "id": "inv_switch_donkey-kong-country-tropical-freeze",
+    "gameId": "game_switch_donkey-kong-country-tropical-freeze",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 29.85,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt4ef3ui",
+    "updatedAt": "2026-08-22T13:13:02.022Z"
+  },
+  {
+    "id": "inv_switch_mario-vs-donkey-kong",
+    "gameId": "game_switch_mario-vs-donkey-kong",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 26.3,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt4ef3ui",
+    "updatedAt": "2026-08-22T13:13:02.022Z"
+  },
+  {
+    "id": "inv_switch_mario-luigi-l-epopee-fraternelle",
+    "gameId": "game_switch_mario-luigi-l-epopee-fraternelle",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 22.4,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt4ef3ui",
+    "updatedAt": "2026-08-22T13:13:02.022Z"
+  },
+  {
+    "id": "inv_switch_super-mario-rpg",
+    "gameId": "game_switch_super-mario-rpg",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 22.59,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt4efaga",
+    "updatedAt": "2026-08-22T13:13:10.573Z"
   }
 ]

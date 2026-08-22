@@ -4607,5 +4607,47 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": "A"
+  },
+  {
+    "id": "game_switch_mario-vs-donkey-kong",
+    "t": "Mario vs. Donkey Kong",
+    "n": "mario vs donkey kong",
+    "a": [],
+    "f": "Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "B"
+  },
+  {
+    "id": "game_switch_mario-luigi-l-epopee-fraternelle",
+    "t": "Mario & Luigi : L'Épopée Fraternelle",
+    "n": "mario luigi l epopee fraternelle",
+    "a": [
+      "Mario & Luigi: Brothership"
+    ],
+    "f": "Mario & Luigi",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "B"
+  },
+  {
+    "id": "game_switch_donkey-kong-country-tropical-freeze",
+    "t": "Donkey Kong Country: Tropical Freeze",
+    "n": "donkey kong country tropical freeze",
+    "a": [],
+    "f": "Donkey Kong",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "S"
+  },
+  {
+    "id": "game_switch_super-mario-rpg",
+    "t": "Super Mario RPG",
+    "n": "super mario rpg",
+    "a": [],
+    "f": "Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "A"
   }
 ]

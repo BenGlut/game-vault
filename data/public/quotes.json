@@ -5754,5 +5754,77 @@
       "source": "pricecharting",
       "observedAt": "2026-08-22"
     }
+  },
+  "game_switch_mario-vs-donkey-kong": {
+    "cib": {
+      "low": 26.44,
+      "median": 26.44,
+      "high": 26.44,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 19.73,
+      "median": 19.73,
+      "high": 19.73,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
+  },
+  "game_switch_mario-luigi-l-epopee-fraternelle": {
+    "cib": {
+      "low": 23.72,
+      "median": 23.72,
+      "high": 23.72,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 20.47,
+      "median": 20.47,
+      "high": 20.47,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
+  },
+  "game_switch_donkey-kong-country-tropical-freeze": {
+    "cib": {
+      "low": 26.44,
+      "median": 26.44,
+      "high": 26.44,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 26.44,
+      "median": 26.44,
+      "high": 26.44,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
+  },
+  "game_switch_super-mario-rpg": {
+    "cib": {
+      "low": 17.78,
+      "median": 17.78,
+      "high": 17.78,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 17.73,
+      "median": 17.73,
+      "high": 17.73,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
   }
 }

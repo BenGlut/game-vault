@@ -1435,5 +1435,86 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 22.59
+  },
+  {
+    "id": "order_mt4ef3ui",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_switch_donkey-kong-country-tropical-freeze",
+      "game_switch_mario-vs-donkey-kong",
+      "game_switch_mario-luigi-l-epopee-fraternelle"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_donkey-kong-country-tropical-freeze",
+        "inventoryId": "inv_switch_donkey-kong-country-tropical-freeze",
+        "unitPrice": 29.85
+      },
+      {
+        "gameId": "game_switch_mario-vs-donkey-kong",
+        "inventoryId": "inv_switch_mario-vs-donkey-kong",
+        "unitPrice": 26.3
+      },
+      {
+        "gameId": "game_switch_mario-luigi-l-epopee-fraternelle",
+        "inventoryId": "inv_switch_mario-luigi-l-epopee-fraternelle",
+        "unitPrice": 22.4
+      }
+    ],
+    "orderedAt": "2026-08-22",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 78.55
+  },
+  {
+    "id": "order_mt4ef8po",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_the-legend-of-zelda-majora-s-mask-3d"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
+        "inventoryId": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d",
+        "unitPrice": 56.19
+      }
+    ],
+    "orderedAt": "2026-08-22",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 56.19
+  },
+  {
+    "id": "order_mt4efaga",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_super-mario-rpg"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_super-mario-rpg",
+        "inventoryId": "inv_switch_super-mario-rpg",
+        "unitPrice": 22.59
+      }
+    ],
+    "orderedAt": "2026-08-22",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 22.59
   }
 ]

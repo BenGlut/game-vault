@@ -9755,5 +9755,95 @@
     "externalIds": {},
     "qualityTier": "A",
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_mario-vs-donkey-kong",
+    "kind": "game",
+    "canonicalTitle": "Mario vs. Donkey Kong",
+    "normalizedTitle": "mario vs donkey kong",
+    "aliases": [],
+    "franchise": "Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2024,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "B",
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_mario-luigi-l-epopee-fraternelle",
+    "kind": "game",
+    "canonicalTitle": "Mario & Luigi : L'Épopée Fraternelle",
+    "normalizedTitle": "mario luigi l epopee fraternelle",
+    "aliases": [
+      "Mario & Luigi: Brothership"
+    ],
+    "franchise": "Mario & Luigi",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2024,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "B",
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_donkey-kong-country-tropical-freeze",
+    "kind": "game",
+    "canonicalTitle": "Donkey Kong Country: Tropical Freeze",
+    "normalizedTitle": "donkey kong country tropical freeze",
+    "aliases": [],
+    "franchise": "Donkey Kong",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2018,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "S",
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_super-mario-rpg",
+    "kind": "game",
+    "canonicalTitle": "Super Mario RPG",
+    "normalizedTitle": "super mario rpg",
+    "aliases": [],
+    "franchise": "Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2023,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "A",
+    "buyPriority": null
   }
 ]
