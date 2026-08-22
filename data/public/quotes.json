@@ -5700,5 +5700,23 @@
       "source": "pricecharting",
       "observedAt": "2026-08-21"
     }
+  },
+  "game_switch_rayman-legends-definitive-edition": {
+    "cib": {
+      "low": 16.83,
+      "median": 16.83,
+      "high": 16.83,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    },
+    "loose": {
+      "low": 12.49,
+      "median": 12.49,
+      "high": 12.49,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-21"
+    }
   }
 }

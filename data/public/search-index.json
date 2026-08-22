@@ -4585,5 +4585,17 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_rayman-legends-definitive-edition",
+    "t": "Rayman Legends: Definitive Edition",
+    "n": "rayman legends definitive edition",
+    "a": [
+      "Rayman Legends"
+    ],
+    "f": "Rayman",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

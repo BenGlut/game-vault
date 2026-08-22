@@ -1366,5 +1366,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 69.59
+  },
+  {
+    "id": "order_mt3kd8t5",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_rayman-legends-definitive-edition"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_rayman-legends-definitive-edition",
+        "inventoryId": "inv_switch_rayman-legends-definitive-edition",
+        "unitPrice": 21.95
+      }
+    ],
+    "orderedAt": "2026-08-22",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": "2026-08-24",
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 21.95
   }
 ]

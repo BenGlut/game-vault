@@ -1,25 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:24:31.305Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_spyro-adventure"
-  },
-  {
-    "at": "2026-08-08T20:24:32.843Z",
-    "command": "add-game",
-    "message": "add game The Legend of Zelda: Tears of the Kingdom (switch)"
-  },
-  {
-    "at": "2026-08-08T20:24:34.328Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_the-legend-of-zelda-tears-of-the-kingdom"
-  },
-  {
-    "at": "2026-08-08T20:24:35.849Z",
-    "command": "add-game",
-    "message": "add game The Legend of Zelda: Breath of the Wild (switch)"
-  },
-  {
     "at": "2026-08-08T20:24:39.042Z",
     "command": "add-inventory",
     "message": "add inventory for game_switch_the-legend-of-zelda-breath-of-the-wild"
@@ -2496,6 +2476,26 @@
   },
   {
     "at": "2026-08-21T20:37:22.430Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-21T22:58:11.317Z",
+    "command": "add-game",
+    "message": "add game Rayman Legends: Definitive Edition (switch)"
+  },
+  {
+    "at": "2026-08-21T22:58:12.129Z",
+    "command": "add-price",
+    "message": "price observation for Rayman Legends: Definitive Edition"
+  },
+  {
+    "at": "2026-08-21T22:58:13.019Z",
+    "command": "add-price",
+    "message": "price observation for Rayman Legends: Definitive Edition"
+  },
+  {
+    "at": "2026-08-21T23:11:46.700Z",
     "command": "add-order",
     "message": "add order amazon"
   }

@@ -9807,5 +9807,23 @@
     "acquiredAt": null,
     "orderId": "order_mt3euoh2",
     "updatedAt": "2026-08-21T20:37:22.407Z"
+  },
+  {
+    "id": "inv_switch_rayman-legends-definitive-edition",
+    "gameId": "game_switch_rayman-legends-definitive-edition",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 21.95,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mt3kd8t5",
+    "updatedAt": "2026-08-21T23:11:46.656Z"
   }
 ]

@@ -9709,5 +9709,29 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_rayman-legends-definitive-edition",
+    "kind": "game",
+    "canonicalTitle": "Rayman Legends: Definitive Edition",
+    "normalizedTitle": "rayman legends definitive edition",
+    "aliases": [
+      "Rayman Legends"
+    ],
+    "franchise": "Rayman",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2017,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
