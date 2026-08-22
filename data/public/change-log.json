@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:24:39.042Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_the-legend-of-zelda-breath-of-the-wild"
-  },
-  {
     "at": "2026-08-08T20:24:41.600Z",
     "command": "add-game",
     "message": "add game The Legend of Zelda: Link's Awakening (switch)"
@@ -2498,5 +2493,10 @@
     "at": "2026-08-21T23:11:46.700Z",
     "command": "add-order",
     "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-22T00:23:27.521Z",
+    "command": "rate-batch",
+    "message": "rate 100 games from /tmp/ratings.json"
   }
 ]

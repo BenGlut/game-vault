@@ -3058,7 +3058,7 @@
     "f": "LEGO",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_dragon-ball-fighterz",
@@ -3068,7 +3068,7 @@
     "f": "Dragon Ball",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_sonic-colours-ultimate",
@@ -3080,7 +3080,7 @@
     "f": "Sonic",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_switch_super-mario-odyssey",
@@ -3304,7 +3304,7 @@
     "f": null,
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_ds_yoshi-touch-go",
@@ -3314,7 +3314,7 @@
     "f": "Yoshi",
     "p": "ds",
     "r": "PAL-EU",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_professeur-layton-et-l-appel-du-spectre",
@@ -3324,7 +3324,7 @@
     "f": "Professeur Layton",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_3ds_professeur-layton-et-le-masque-des-miracles",
@@ -3334,7 +3334,7 @@
     "f": "Professeur Layton",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_3ds_professeur-layton-et-l-heritage-des-aslantes",
@@ -3344,7 +3344,7 @@
     "f": "Professeur Layton",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
@@ -3356,7 +3356,7 @@
     "f": "Professeur Layton",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
@@ -3368,7 +3368,7 @@
     "f": "Professeur Layton",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_3ds_sonic-generations",
@@ -3378,7 +3378,7 @@
     "f": "Sonic",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_3ds_sonic-lost-world",
@@ -3388,7 +3388,7 @@
     "f": "Sonic",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_3ds_sonic-boom-feu-glace",
@@ -3400,7 +3400,7 @@
     "f": "Sonic",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_sonic-advance",
@@ -3410,7 +3410,7 @@
     "f": "Sonic",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_gba_sonic-advance-2",
@@ -3420,7 +3420,7 @@
     "f": "Sonic",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gba_sonic-advance-3",
@@ -3430,7 +3430,7 @@
     "f": "Sonic",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gba_sonic-battle",
@@ -3440,7 +3440,7 @@
     "f": "Sonic",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_sonic-pinball-party",
@@ -3450,7 +3450,7 @@
     "f": "Sonic",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gamecube_sonic-adventure-dx-director-s-cut",
@@ -3460,7 +3460,7 @@
     "f": "Sonic",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gamecube_sonic-adventure-2-battle",
@@ -3470,7 +3470,7 @@
     "f": "Sonic",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gamecube_sonic-heroes",
@@ -3480,7 +3480,7 @@
     "f": "Sonic",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gamecube_sonic-mega-collection",
@@ -3490,7 +3490,7 @@
     "f": "Sonic",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gamecube_sonic-gems-collection",
@@ -3500,7 +3500,7 @@
     "f": "Sonic",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gamecube_shadow-the-hedgehog",
@@ -3510,7 +3510,7 @@
     "f": "Sonic",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_switch_sonic-mania",
@@ -3520,7 +3520,7 @@
     "f": "Sonic",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_sonic-frontiers",
@@ -3530,7 +3530,7 @@
     "f": "Sonic",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_sonic-origins-plus",
@@ -3540,7 +3540,7 @@
     "f": "Sonic",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_sonic-superstars",
@@ -3550,7 +3550,7 @@
     "f": "Sonic",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_team-sonic-racing",
@@ -3560,7 +3560,7 @@
     "f": "Sonic",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_sonic-x-shadow-generations",
@@ -3570,7 +3570,7 @@
     "f": "Sonic",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_ds_final-fantasy-iv",
@@ -3580,7 +3580,7 @@
     "f": "Final Fantasy",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_ds_final-fantasy-xii-revenant-wings",
@@ -3590,7 +3590,7 @@
     "f": "Final Fantasy",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_ds_final-fantasy-crystal-chronicles-ring-of-fates",
@@ -3600,7 +3600,7 @@
     "f": "Final Fantasy",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gba_final-fantasy-i-ii-dawn-of-souls",
@@ -3610,7 +3610,7 @@
     "f": "Final Fantasy",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_gba_final-fantasy-iv-advance",
@@ -3620,7 +3620,7 @@
     "f": "Final Fantasy",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_gba_final-fantasy-v-advance",
@@ -3630,7 +3630,7 @@
     "f": "Final Fantasy",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_gba_final-fantasy-vi-advance",
@@ -3640,7 +3640,7 @@
     "f": "Final Fantasy",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_3ds_theatrhythm-final-fantasy-curtain-call",
@@ -3650,7 +3650,7 @@
     "f": "Final Fantasy",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_3ds_final-fantasy-explorers",
@@ -3660,7 +3660,7 @@
     "f": "Final Fantasy",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gamecube_final-fantasy-crystal-chronicles",
@@ -3670,7 +3670,7 @@
     "f": "Final Fantasy",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_final-fantasy-vii",
@@ -3680,7 +3680,7 @@
     "f": "Final Fantasy",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_final-fantasy-viii-remastered",
@@ -3690,7 +3690,7 @@
     "f": "Final Fantasy",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_final-fantasy-ix",
@@ -3700,7 +3700,7 @@
     "f": "Final Fantasy",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_final-fantasy-x-x-2-hd-remaster",
@@ -3710,7 +3710,7 @@
     "f": "Final Fantasy",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_final-fantasy-xii-the-zodiac-age",
@@ -3720,7 +3720,7 @@
     "f": "Final Fantasy",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_world-of-final-fantasy-maxima",
@@ -3730,7 +3730,7 @@
     "f": "Final Fantasy",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_final-fantasy-crystal-chronicles-remastered-edition",
@@ -3740,7 +3740,7 @@
     "f": "Final Fantasy",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_snes_mystic-quest-legend",
@@ -3750,7 +3750,7 @@
     "f": "Final Fantasy",
     "p": "snes",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gb_mystic-quest",
@@ -3760,7 +3760,7 @@
     "f": "Final Fantasy",
     "p": "gb",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_gbc_the-legend-of-zelda-oracle-of-ages",
@@ -4012,7 +4012,7 @@
     "f": "Sonic",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_3ds_kirby-au-fil-de-la-grande-aventure",
@@ -4024,7 +4024,7 @@
     "f": "Kirby",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_3ds_theatrhythm-final-fantasy",
@@ -4034,7 +4034,7 @@
     "f": "Final Fantasy",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_ds_another-code-memoires-doubles",
@@ -4046,7 +4046,7 @@
     "f": "Another Code",
     "p": "ds",
     "r": "PAL-EU",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_ds_blood-bowl",
@@ -4056,7 +4056,7 @@
     "f": "",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_puzzle-quest-galactrix",
@@ -4066,7 +4066,7 @@
     "f": "Puzzle Quest",
     "p": "ds",
     "r": "PAL-EU",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_magical-starsign",
@@ -4076,7 +4076,7 @@
     "f": "",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_sonic-rush-adventure",
@@ -4086,7 +4086,7 @@
     "f": "Sonic",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_ds_sonic-rush",
@@ -4096,7 +4096,7 @@
     "f": "Sonic",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_ds_sonic-colours",
@@ -4106,7 +4106,7 @@
     "f": "Sonic",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_ds_sonic-sega-all-stars-racing",
@@ -4116,7 +4116,7 @@
     "f": "Sonic",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_gamecube_mario-smash-football",
@@ -4128,7 +4128,7 @@
     "f": "Mario",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_3ds_hyrule-warriors-legends",
@@ -4138,7 +4138,7 @@
     "f": "The Legend of Zelda",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_ds_the-legend-of-zelda-phantom-hourglass-us",
@@ -4150,7 +4150,7 @@
     "f": "The Legend of Zelda",
     "p": "ds",
     "r": "NTSC-U",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_ds_tetris-party-deluxe",
@@ -4160,7 +4160,7 @@
     "f": "Tetris",
     "p": "ds",
     "r": "PAL-EU",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_3ds_nintendo-2ds",
@@ -4210,7 +4210,7 @@
     "f": null,
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_wii_wii-play",
@@ -4220,7 +4220,7 @@
     "f": "Wii",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_wii_rayman-contre-les-lapins-cretins",
@@ -4232,7 +4232,7 @@
     "f": "Rayman",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_wii_need-for-speed-carbon",
@@ -4242,7 +4242,7 @@
     "f": "Need for Speed",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_wii_wwe-smackdown-vs-raw-2010",
@@ -4252,7 +4252,7 @@
     "f": "WWE",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_wii_just-dance-4",
@@ -4262,7 +4262,7 @@
     "f": "Just Dance",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans",
@@ -4275,7 +4275,7 @@
     "f": "Lapin Malin",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_ds_totally-spies-3",
@@ -4285,7 +4285,7 @@
     "f": "Totally Spies",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_ds_winx-club",
@@ -4295,7 +4295,7 @@
     "f": "Winx",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_3ds_monster-hunter-4-ultimate",
@@ -4305,7 +4305,7 @@
     "f": "Monster Hunter",
     "p": "3ds",
     "r": "PAL-EU",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_3ds_rabbids-3d",
@@ -4315,7 +4315,7 @@
     "f": null,
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_3ds_new-nintendo-3ds-noire",
@@ -4345,7 +4345,7 @@
     "f": "Crash Bandicoot",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_super-mario-maker-2",
@@ -4355,7 +4355,7 @@
     "f": "Mario",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_shin-megami-tensei-v-vengeance",
@@ -4365,7 +4365,7 @@
     "f": "Shin Megami Tensei",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_ori-the-collection",
@@ -4375,7 +4375,7 @@
     "f": "Ori",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_paper-mario-la-porte-millenaire",
@@ -4385,7 +4385,7 @@
     "f": "Paper Mario",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_ds_crash-of-the-titans",
@@ -4395,7 +4395,7 @@
     "f": "Crash Bandicoot",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_the-legend-of-spyro-the-eternal-night",
@@ -4405,7 +4405,7 @@
     "f": "Spyro",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_ds_the-legend-of-spyro-a-new-beginning",
@@ -4415,7 +4415,7 @@
     "f": "Spyro",
     "p": "ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_spyro-season-of-ice",
@@ -4425,7 +4425,7 @@
     "f": "Spyro",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_spyro-2-season-of-flame",
@@ -4435,7 +4435,7 @@
     "f": "Spyro",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_spyro-fusion",
@@ -4445,7 +4445,7 @@
     "f": "Spyro",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_the-legend-of-spyro-a-new-beginning",
@@ -4455,7 +4455,7 @@
     "f": "Spyro",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gba_the-legend-of-spyro-the-eternal-night",
@@ -4465,7 +4465,7 @@
     "f": "Spyro",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gamecube_spyro-enter-the-dragonfly",
@@ -4475,7 +4475,7 @@
     "f": "Spyro",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_gamecube_spyro-a-hero-s-tail",
@@ -4485,7 +4485,7 @@
     "f": "Spyro",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_gamecube_the-legend-of-spyro-a-new-beginning",
@@ -4495,7 +4495,7 @@
     "f": "Spyro",
     "p": "gamecube",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_switch_spyro-reignited-trilogy",
@@ -4505,7 +4505,7 @@
     "f": "Spyro",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_gba_spyro-orange-la-conspiration-de-cortex",
@@ -4518,7 +4518,7 @@
     "f": "Spyro",
     "p": "gba",
     "r": "PAL-FR",
-    "q": null
+    "q": "D"
   },
   {
     "id": "game_wii_the-legend-of-spyro-the-eternal-night",
@@ -4528,7 +4528,7 @@
     "f": "Spyro",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_wii_the-legend-of-spyro-dawn-of-the-dragon",
@@ -4538,7 +4538,7 @@
     "f": "Spyro",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_3ds_skylanders-spyro-s-adventure",
@@ -4548,7 +4548,7 @@
     "f": "Spyro",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "C"
   },
   {
     "id": "game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
@@ -4560,7 +4560,7 @@
     "f": "Tomb Raider",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
@@ -4572,7 +4572,7 @@
     "f": "Tomb Raider",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "A"
   },
   {
     "id": "game_switch_legacy-of-kain-soul-reaver-1-2-remastered",
@@ -4584,7 +4584,7 @@
     "f": "Legacy of Kain",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "B"
   },
   {
     "id": "game_switch_rayman-legends-definitive-edition",
@@ -4596,6 +4596,6 @@
     "f": "Rayman",
     "p": "switch",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   }
 ]
