@@ -1389,5 +1389,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 21.95
+  },
+  {
+    "id": "order_mt3r7r54",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_hollow-knight"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_hollow-knight",
+        "inventoryId": "inv_switch_hollow-knight",
+        "unitPrice": 32.82
+      }
+    ],
+    "orderedAt": "2026-08-22",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": "2026-08-24",
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 32.82
   }
 ]

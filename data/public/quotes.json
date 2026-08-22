@@ -5165,6 +5165,24 @@
       "observedAt": "2026-08-20"
     }
   },
+  "game_switch_hollow-knight": {
+    "cib": {
+      "low": 19.53,
+      "median": 19.53,
+      "high": 19.53,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 19.23,
+      "median": 19.23,
+      "high": 19.23,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
+  },
   "game_3ds_hyrule-warriors-legends": {
     "cib": {
       "low": 12.6,
