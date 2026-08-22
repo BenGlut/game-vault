@@ -4649,5 +4649,55 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": "A"
+  },
+  {
+    "id": "game_3ds_kingdom-hearts-3d-dream-drop-distance",
+    "t": "Kingdom Hearts 3D: Dream Drop Distance",
+    "n": "kingdom hearts 3d dream drop distance",
+    "a": [],
+    "f": "Kingdom Hearts",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_ds_kingdom-hearts-358-2-days",
+    "t": "Kingdom Hearts 358/2 Days",
+    "n": "kingdom hearts 358 2 days",
+    "a": [],
+    "f": "Kingdom Hearts",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_ds_kingdom-hearts-re-coded",
+    "t": "Kingdom Hearts Re:coded",
+    "n": "kingdom hearts re coded",
+    "a": [],
+    "f": "Kingdom Hearts",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
+  },
+  {
+    "id": "game_gba_kingdom-hearts-chain-of-memories",
+    "t": "Kingdom Hearts: Chain of Memories",
+    "n": "kingdom hearts chain of memories",
+    "a": [],
+    "f": "Kingdom Hearts",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": "A"
+  },
+  {
+    "id": "game_switch_kingdom-hearts-melody-of-memory",
+    "t": "Kingdom Hearts: Melody of Memory",
+    "n": "kingdom hearts melody of memory",
+    "a": [],
+    "f": "Kingdom Hearts",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "B"
   }
 ]

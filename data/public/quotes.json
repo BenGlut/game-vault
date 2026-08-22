@@ -5826,5 +5826,95 @@
       "source": "pricecharting",
       "observedAt": "2026-08-22"
     }
+  },
+  "game_3ds_kingdom-hearts-3d-dream-drop-distance": {
+    "cib": {
+      "low": 15.81,
+      "median": 15.81,
+      "high": 15.81,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 13.04,
+      "median": 13.04,
+      "high": 13.04,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
+  },
+  "game_ds_kingdom-hearts-358-2-days": {
+    "cib": {
+      "low": 27.27,
+      "median": 27.27,
+      "high": 27.27,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 17.15,
+      "median": 17.15,
+      "high": 17.15,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
+  },
+  "game_ds_kingdom-hearts-re-coded": {
+    "cib": {
+      "low": 37.47,
+      "median": 37.47,
+      "high": 37.47,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 25.24,
+      "median": 25.24,
+      "high": 25.24,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
+  },
+  "game_gba_kingdom-hearts-chain-of-memories": {
+    "cib": {
+      "low": 58.15,
+      "median": 58.15,
+      "high": 58.15,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 15.36,
+      "median": 15.36,
+      "high": 15.36,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
+  },
+  "game_switch_kingdom-hearts-melody-of-memory": {
+    "cib": {
+      "low": 16.74,
+      "median": 16.74,
+      "high": 16.74,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 15.38,
+      "median": 15.38,
+      "high": 15.38,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
   }
 }

@@ -9845,5 +9845,115 @@
     "externalIds": {},
     "qualityTier": "A",
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_kingdom-hearts-3d-dream-drop-distance",
+    "kind": "game",
+    "canonicalTitle": "Kingdom Hearts 3D: Dream Drop Distance",
+    "normalizedTitle": "kingdom hearts 3d dream drop distance",
+    "aliases": [],
+    "franchise": "Kingdom Hearts",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2012,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "A",
+    "buyPriority": "moyenne"
+  },
+  {
+    "id": "game_ds_kingdom-hearts-358-2-days",
+    "kind": "game",
+    "canonicalTitle": "Kingdom Hearts 358/2 Days",
+    "normalizedTitle": "kingdom hearts 358 2 days",
+    "aliases": [],
+    "franchise": "Kingdom Hearts",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "A",
+    "buyPriority": "moyenne"
+  },
+  {
+    "id": "game_ds_kingdom-hearts-re-coded",
+    "kind": "game",
+    "canonicalTitle": "Kingdom Hearts Re:coded",
+    "normalizedTitle": "kingdom hearts re coded",
+    "aliases": [],
+    "franchise": "Kingdom Hearts",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "B",
+    "buyPriority": "moyenne"
+  },
+  {
+    "id": "game_gba_kingdom-hearts-chain-of-memories",
+    "kind": "game",
+    "canonicalTitle": "Kingdom Hearts: Chain of Memories",
+    "normalizedTitle": "kingdom hearts chain of memories",
+    "aliases": [],
+    "franchise": "Kingdom Hearts",
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2004,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "A",
+    "buyPriority": "haute"
+  },
+  {
+    "id": "game_switch_kingdom-hearts-melody-of-memory",
+    "kind": "game",
+    "canonicalTitle": "Kingdom Hearts: Melody of Memory",
+    "normalizedTitle": "kingdom hearts melody of memory",
+    "aliases": [],
+    "franchise": "Kingdom Hearts",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2020,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "B",
+    "buyPriority": "basse"
   }
 ]
