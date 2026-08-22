@@ -5736,5 +5736,23 @@
       "source": "pricecharting",
       "observedAt": "2026-08-21"
     }
+  },
+  "game_switch_paper-mario-the-origami-king": {
+    "cib": {
+      "low": 18.08,
+      "median": 19.6,
+      "high": 21.6,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-08-22"
+    },
+    "loose": {
+      "low": 17.34,
+      "median": 17.34,
+      "high": 17.34,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-22"
+    }
   }
 }

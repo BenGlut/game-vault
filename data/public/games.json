@@ -9733,5 +9733,27 @@
     "externalIds": {},
     "qualityTier": "S",
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_paper-mario-the-origami-king",
+    "kind": "game",
+    "canonicalTitle": "Paper Mario: The Origami King",
+    "normalizedTitle": "paper mario the origami king",
+    "aliases": [],
+    "franchise": "Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2020,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "A",
+    "buyPriority": null
   }
 ]

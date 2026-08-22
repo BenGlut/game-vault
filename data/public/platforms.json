@@ -71,6 +71,17 @@
     ]
   },
   {
+    "id": "switch2",
+    "name": "Nintendo Switch 2",
+    "shortName": "Switch 2",
+    "brand": "Nintendo",
+    "generation": 9,
+    "mediaTypes": [
+      "cartridge",
+      "code_in_box"
+    ]
+  },
+  {
     "id": "gb",
     "name": "Game Boy",
     "shortName": "GB",

@@ -1,30 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:24:46.766Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_pokemon-epee"
-  },
-  {
-    "at": "2026-08-08T20:24:48.414Z",
-    "command": "add-game",
-    "message": "add game Pokémon Bouclier (switch)"
-  },
-  {
-    "at": "2026-08-08T20:24:50.207Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_pokemon-bouclier"
-  },
-  {
-    "at": "2026-08-08T20:24:51.750Z",
-    "command": "add-game",
-    "message": "add game Pokémon Écarlate (switch)"
-  },
-  {
-    "at": "2026-08-08T20:24:53.254Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_pokemon-ecarlate"
-  },
-  {
     "at": "2026-08-08T20:24:54.747Z",
     "command": "add-game",
     "message": "add game Pokémon Violet (switch)"
@@ -2498,5 +2473,30 @@
     "at": "2026-08-22T02:23:27.808Z",
     "command": "add-order",
     "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-22T03:09:29.429Z",
+    "command": "add-game",
+    "message": "add game Paper Mario: The Origami King (switch)"
+  },
+  {
+    "at": "2026-08-22T03:09:30.187Z",
+    "command": "rate",
+    "message": "rate Paper Mario: The Origami King"
+  },
+  {
+    "at": "2026-08-22T03:09:30.930Z",
+    "command": "add-price",
+    "message": "price observation for Paper Mario: The Origami King"
+  },
+  {
+    "at": "2026-08-22T03:09:31.643Z",
+    "command": "add-price",
+    "message": "price observation for Paper Mario: The Origami King"
+  },
+  {
+    "at": "2026-08-22T03:10:19.939Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]

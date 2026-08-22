@@ -4597,5 +4597,15 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": "S"
+  },
+  {
+    "id": "game_switch_paper-mario-the-origami-king",
+    "t": "Paper Mario: The Origami King",
+    "n": "paper mario the origami king",
+    "a": [],
+    "f": "Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": "A"
   }
 ]
