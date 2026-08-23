@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:26:03.693Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_teenage-mutant-ninja-turtles-shredder-s-revenge"
-  },
-  {
-    "at": "2026-08-08T20:26:05.414Z",
-    "command": "add-game",
-    "message": "add game Street Fighter 30th Anniversary Collection (switch)"
-  },
-  {
     "at": "2026-08-08T20:26:07.289Z",
     "command": "add-inventory",
     "message": "add inventory for game_switch_street-fighter-30th-anniversary-collection"
@@ -2496,6 +2486,16 @@
   },
   {
     "at": "2026-08-22T23:38:56.668Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-23T00:03:13.102Z",
+    "command": "cancel-order",
+    "message": "cancel-order order_mt3r7r54"
+  },
+  {
+    "at": "2026-08-23T00:03:16.400Z",
     "command": "add-order",
     "message": "add order amazon"
   }
