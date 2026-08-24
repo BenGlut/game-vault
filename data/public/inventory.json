@@ -8172,7 +8172,7 @@
   {
     "id": "inv_switch_super-mario-bros-wonder",
     "gameId": "game_switch_super-mario-bros-wonder",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8180,9 +8180,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-24",
     "orderId": "order_mt50s16g",
-    "updatedAt": "2026-08-22T23:38:56.632Z"
+    "updatedAt": "2026-08-24T18:57:02.669Z"
   },
   {
     "id": "inv_switch_hades",
@@ -9757,7 +9757,7 @@
   {
     "id": "inv_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
     "gameId": "game_switch_tomb-raider-iv-vi-remastered-starring-lara-croft",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9766,16 +9766,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-24",
     "orderId": "order_mt3euoh2",
-    "updatedAt": "2026-08-21T20:37:22.407Z"
+    "updatedAt": "2026-08-24T18:57:00.702Z"
   },
   {
     "id": "inv_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
     "gameId": "game_switch_tomb-raider-i-iii-remastered-starring-lara-croft",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9784,16 +9784,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-24",
     "orderId": "order_mt3euoh2",
-    "updatedAt": "2026-08-21T20:37:22.407Z"
+    "updatedAt": "2026-08-24T18:57:00.702Z"
   },
   {
     "id": "inv_switch_legacy-of-kain-soul-reaver-1-2-remastered",
     "gameId": "game_switch_legacy-of-kain-soul-reaver-1-2-remastered",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9802,16 +9802,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-24",
     "orderId": "order_mt3euoh2",
-    "updatedAt": "2026-08-21T20:37:22.407Z"
+    "updatedAt": "2026-08-24T18:57:00.702Z"
   },
   {
     "id": "inv_switch_rayman-legends-definitive-edition",
     "gameId": "game_switch_rayman-legends-definitive-edition",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9820,11 +9820,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-24",
     "orderId": "order_mt3kd8t5",
-    "updatedAt": "2026-08-21T23:11:46.656Z"
+    "updatedAt": "2026-08-24T18:57:01.663Z"
   },
   {
     "id": "inv_switch_paper-mario-the-origami-king",
@@ -10005,5 +10005,23 @@
     "acquiredAt": null,
     "orderId": "order_mt51nbgz",
     "updatedAt": "2026-08-23T00:03:16.308Z"
+  },
+  {
+    "id": "inv_gamecube_carte-memoire-gamecube-512-mo",
+    "gameId": "game_gamecube_carte-memoire-gamecube-512-mo",
+    "status": "delivered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 13.19,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": "2026-08-24",
+    "orderId": "order_mt7lxyhf",
+    "updatedAt": "2026-08-24T19:06:58.177Z"
   }
 ]

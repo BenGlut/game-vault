@@ -9955,5 +9955,27 @@
     "externalIds": {},
     "qualityTier": "B",
     "buyPriority": "basse"
+  },
+  {
+    "id": "game_gamecube_carte-memoire-gamecube-512-mo",
+    "kind": "hardware",
+    "canonicalTitle": "Carte mémoire GameCube 512 Mo",
+    "normalizedTitle": "carte memoire gamecube 512 mo",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "gamecube",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

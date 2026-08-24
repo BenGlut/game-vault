@@ -1,35 +1,5 @@
 [
   {
-    "at": "2026-08-08T20:26:18.494Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_dragon-ball-the-breakers-special-edition"
-  },
-  {
-    "at": "2026-08-08T20:26:20.114Z",
-    "command": "add-game",
-    "message": "add game Leisure Suit Larry: Wet Dreams Dry Twice (switch)"
-  },
-  {
-    "at": "2026-08-08T20:26:21.678Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_leisure-suit-larry-wet-dreams-dry-twice"
-  },
-  {
-    "at": "2026-08-08T20:26:23.269Z",
-    "command": "add-game",
-    "message": "add game Pat' Patrouille : À la rescousse d'Adventure City (switch)"
-  },
-  {
-    "at": "2026-08-08T20:26:24.916Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_pat-patrouille-a-la-rescousse-d-adventure-city"
-  },
-  {
-    "at": "2026-08-08T20:26:26.546Z",
-    "command": "add-game",
-    "message": "add game Pat' Patrouille : Mighty Pups Sauve la Grande Vallée (switch)"
-  },
-  {
     "at": "2026-08-08T20:26:28.092Z",
     "command": "add-inventory",
     "message": "add inventory for game_switch_pat-patrouille-mighty-pups-sauve-la-grande-vallee"
@@ -2498,5 +2468,35 @@
     "at": "2026-08-23T23:13:44.196Z",
     "command": "add-price",
     "message": "price observation for game_n64_super-mario-64"
+  },
+  {
+    "at": "2026-08-24T18:57:00.726Z",
+    "command": "receive-order",
+    "message": "receive-order order_mt3euoh2"
+  },
+  {
+    "at": "2026-08-24T18:57:01.694Z",
+    "command": "receive-order",
+    "message": "receive-order order_mt3kd8t5"
+  },
+  {
+    "at": "2026-08-24T18:57:02.698Z",
+    "command": "receive-order",
+    "message": "receive-order order_mt50s16g"
+  },
+  {
+    "at": "2026-08-24T18:59:22.459Z",
+    "command": "add-game",
+    "message": "add game Carte mémoire GameCube 512 Mo (gamecube)"
+  },
+  {
+    "at": "2026-08-24T19:06:57.398Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-24T19:06:58.200Z",
+    "command": "receive-order",
+    "message": "receive-order order_mt7lxyhf"
   }
 ]
