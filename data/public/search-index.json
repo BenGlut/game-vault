@@ -4709,5 +4709,199 @@
     "p": "gamecube",
     "r": "PAL-EU",
     "q": null
+  },
+  {
+    "id": "game_ds_cahier-de-vacances-pour-adultes",
+    "t": "Cahier de Vacances pour Adultes",
+    "n": "cahier de vacances pour adultes",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_super-teacher-the-crazy-school",
+    "t": "Super Teacher : The Crazy School",
+    "n": "super teacher the crazy school",
+    "a": [
+      "Super Teacher"
+    ],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_english-training",
+    "t": "English Training",
+    "n": "english training",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_the-sims-2-naufrages",
+    "t": "The Sims 2 : Naufragés",
+    "n": "the sims 2 naufrages",
+    "a": [
+      "The Sims 2 Castaway"
+    ],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "C"
+  },
+  {
+    "id": "game_ds_burnout-legends",
+    "t": "Burnout Legends",
+    "n": "burnout legends",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "B"
+  },
+  {
+    "id": "game_ds_bratz-le-film",
+    "t": "Bratz : Le Film",
+    "n": "bratz le film",
+    "a": [
+      "Bratz The Movie"
+    ],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_imagine-fashion-designer",
+    "t": "Imagine : Fashion Designer",
+    "n": "imagine fashion designer",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_world-snooker-championship-2007-08",
+    "t": "World Snooker Championship 2007-08",
+    "n": "world snooker championship 2007 08",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_samantha-oups",
+    "t": "Samantha Oups !",
+    "n": "samantha oups",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_hello-kitty-friends",
+    "t": "Hello Kitty & Friends",
+    "n": "hello kitty friends",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_3ds_james-noir-s-hollywood-crimes-3d",
+    "t": "James Noir's Hollywood Crimes 3D",
+    "n": "james noir s hollywood crimes 3d",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
+  },
+  {
+    "id": "game_3ds_i-love-my-little-girl",
+    "t": "I Love My Little Girl",
+    "n": "i love my little girl",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_3ds_monster-high-course-de-rollers",
+    "t": "Monster High : Course de Rollers",
+    "n": "monster high course de rollers",
+    "a": [
+      "Monster High Skultimate Roller Maze"
+    ],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_3ds_programme-d-entrainement-cerebral-du-dr-kawashima-l-infernal",
+    "t": "Programme d'Entraînement Cérébral du Dr Kawashima : L'Infernal",
+    "n": "programme d entrainement cerebral du dr kawashima l infernal",
+    "a": [
+      "Dr Kawashima's Devilish Brain Training"
+    ],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
+  },
+  {
+    "id": "game_3ds_angry-birds-trilogy",
+    "t": "Angry Birds Trilogy",
+    "n": "angry birds trilogy",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "C"
+  },
+  {
+    "id": "game_3ds_zoo-resort-3d",
+    "t": "Zoo Resort 3D",
+    "n": "zoo resort 3d",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_playmobil-interactive-chevalier",
+    "t": "Playmobil Interactive : Chevalier",
+    "n": "playmobil interactive chevalier",
+    "a": [
+      "Playmobil Knight"
+    ],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
+  },
+  {
+    "id": "game_ds_playmobil-interactive-pirate",
+    "t": "Playmobil Interactive : Pirate",
+    "n": "playmobil interactive pirate",
+    "a": [
+      "Playmobil Pirates"
+    ],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": "D"
   }
 ]

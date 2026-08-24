@@ -5259,6 +5259,24 @@
       "observedAt": "2026-08-17"
     }
   },
+  "game_ds_winx-club": {
+    "cib": {
+      "low": 21.48,
+      "median": 21.48,
+      "high": 21.48,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 7.65,
+      "median": 7.65,
+      "high": 7.65,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
   "game_3ds_monster-hunter-4-ultimate": {
     "cib": {
       "low": 16.38,
@@ -5925,6 +5943,330 @@
       "currency": "EUR",
       "source": "pricecharting",
       "observedAt": "2026-08-22"
+    }
+  },
+  "game_ds_cahier-de-vacances-pour-adultes": {
+    "cib": {
+      "low": 3,
+      "median": 3,
+      "high": 3,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 2,
+      "median": 2,
+      "high": 2,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_super-teacher-the-crazy-school": {
+    "cib": {
+      "low": 3,
+      "median": 3,
+      "high": 3,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 2,
+      "median": 2,
+      "high": 2,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_english-training": {
+    "cib": {
+      "low": 2.37,
+      "median": 2.37,
+      "high": 2.37,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 1.52,
+      "median": 1.52,
+      "high": 1.52,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_the-sims-2-naufrages": {
+    "cib": {
+      "low": 6.72,
+      "median": 6.72,
+      "high": 6.72,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 5.25,
+      "median": 5.25,
+      "high": 5.25,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_burnout-legends": {
+    "cib": {
+      "low": 6.65,
+      "median": 6.65,
+      "high": 6.65,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 4.64,
+      "median": 4.64,
+      "high": 4.64,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_bratz-le-film": {
+    "cib": {
+      "low": 4.5,
+      "median": 4.5,
+      "high": 4.5,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 3,
+      "median": 3,
+      "high": 3,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_imagine-fashion-designer": {
+    "cib": {
+      "low": 3.4,
+      "median": 3.4,
+      "high": 3.4,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 3.31,
+      "median": 3.31,
+      "high": 3.31,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_world-snooker-championship-2007-08": {
+    "cib": {
+      "low": 4.5,
+      "median": 4.5,
+      "high": 4.5,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 3,
+      "median": 3,
+      "high": 3,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_samantha-oups": {
+    "cib": {
+      "low": 3,
+      "median": 3,
+      "high": 3,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 2,
+      "median": 2,
+      "high": 2,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_hello-kitty-friends": {
+    "cib": {
+      "low": 7.69,
+      "median": 7.69,
+      "high": 7.69,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 4.31,
+      "median": 4.31,
+      "high": 4.31,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_3ds_james-noir-s-hollywood-crimes-3d": {
+    "cib": {
+      "low": 3.89,
+      "median": 3.89,
+      "high": 3.89,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 3.15,
+      "median": 3.15,
+      "high": 3.15,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_3ds_i-love-my-little-girl": {
+    "cib": {
+      "low": 3.5,
+      "median": 3.5,
+      "high": 3.5,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 2.5,
+      "median": 2.5,
+      "high": 2.5,
+      "currency": "EUR",
+      "source": "estimation",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_3ds_monster-high-course-de-rollers": {
+    "cib": {
+      "low": 12,
+      "median": 12,
+      "high": 12,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 9.06,
+      "median": 9.06,
+      "high": 9.06,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_3ds_programme-d-entrainement-cerebral-du-dr-kawashima-l-infernal": {
+    "cib": {
+      "low": 9.04,
+      "median": 9.04,
+      "high": 9.04,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 7,
+      "median": 7,
+      "high": 7,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_3ds_angry-birds-trilogy": {
+    "cib": {
+      "low": 8.22,
+      "median": 8.22,
+      "high": 8.22,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 6.92,
+      "median": 6.92,
+      "high": 6.92,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_3ds_zoo-resort-3d": {
+    "cib": {
+      "low": 4.07,
+      "median": 4.07,
+      "high": 4.07,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 3.93,
+      "median": 3.93,
+      "high": 3.93,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_playmobil-interactive-chevalier": {
+    "cib": {
+      "low": 9.52,
+      "median": 9.52,
+      "high": 9.52,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 5.19,
+      "median": 5.19,
+      "high": 5.19,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    }
+  },
+  "game_ds_playmobil-interactive-pirate": {
+    "cib": {
+      "low": 7.36,
+      "median": 7.36,
+      "high": 7.36,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
+    },
+    "loose": {
+      "low": 5.5,
+      "median": 5.5,
+      "high": 5.5,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-24"
     }
   }
 }

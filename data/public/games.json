@@ -9977,5 +9977,415 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_cahier-de-vacances-pour-adultes",
+    "kind": "game",
+    "canonicalTitle": "Cahier de Vacances pour Adultes",
+    "normalizedTitle": "cahier de vacances pour adultes",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_super-teacher-the-crazy-school",
+    "kind": "game",
+    "canonicalTitle": "Super Teacher : The Crazy School",
+    "normalizedTitle": "super teacher the crazy school",
+    "aliases": [
+      "Super Teacher"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_english-training",
+    "kind": "game",
+    "canonicalTitle": "English Training",
+    "normalizedTitle": "english training",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_the-sims-2-naufrages",
+    "kind": "game",
+    "canonicalTitle": "The Sims 2 : Naufragés",
+    "normalizedTitle": "the sims 2 naufrages",
+    "aliases": [
+      "The Sims 2 Castaway"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "C",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_burnout-legends",
+    "kind": "game",
+    "canonicalTitle": "Burnout Legends",
+    "normalizedTitle": "burnout legends",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2005,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "B",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_bratz-le-film",
+    "kind": "game",
+    "canonicalTitle": "Bratz : Le Film",
+    "normalizedTitle": "bratz le film",
+    "aliases": [
+      "Bratz The Movie"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_imagine-fashion-designer",
+    "kind": "game",
+    "canonicalTitle": "Imagine : Fashion Designer",
+    "normalizedTitle": "imagine fashion designer",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_world-snooker-championship-2007-08",
+    "kind": "game",
+    "canonicalTitle": "World Snooker Championship 2007-08",
+    "normalizedTitle": "world snooker championship 2007 08",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_samantha-oups",
+    "kind": "game",
+    "canonicalTitle": "Samantha Oups !",
+    "normalizedTitle": "samantha oups",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_hello-kitty-friends",
+    "kind": "game",
+    "canonicalTitle": "Hello Kitty & Friends",
+    "normalizedTitle": "hello kitty friends",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_james-noir-s-hollywood-crimes-3d",
+    "kind": "game",
+    "canonicalTitle": "James Noir's Hollywood Crimes 3D",
+    "normalizedTitle": "james noir s hollywood crimes 3d",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "C",
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_i-love-my-little-girl",
+    "kind": "game",
+    "canonicalTitle": "I Love My Little Girl",
+    "normalizedTitle": "i love my little girl",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2012,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_monster-high-course-de-rollers",
+    "kind": "game",
+    "canonicalTitle": "Monster High : Course de Rollers",
+    "normalizedTitle": "monster high course de rollers",
+    "aliases": [
+      "Monster High Skultimate Roller Maze"
+    ],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2012,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_programme-d-entrainement-cerebral-du-dr-kawashima-l-infernal",
+    "kind": "game",
+    "canonicalTitle": "Programme d'Entraînement Cérébral du Dr Kawashima : L'Infernal",
+    "normalizedTitle": "programme d entrainement cerebral du dr kawashima l infernal",
+    "aliases": [
+      "Dr Kawashima's Devilish Brain Training"
+    ],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2012,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "C",
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_angry-birds-trilogy",
+    "kind": "game",
+    "canonicalTitle": "Angry Birds Trilogy",
+    "normalizedTitle": "angry birds trilogy",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2013,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "C",
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_zoo-resort-3d",
+    "kind": "game",
+    "canonicalTitle": "Zoo Resort 3D",
+    "normalizedTitle": "zoo resort 3d",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_playmobil-interactive-chevalier",
+    "kind": "game",
+    "canonicalTitle": "Playmobil Interactive : Chevalier",
+    "normalizedTitle": "playmobil interactive chevalier",
+    "aliases": [
+      "Playmobil Knight"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_playmobil-interactive-pirate",
+    "kind": "game",
+    "canonicalTitle": "Playmobil Interactive : Pirate",
+    "normalizedTitle": "playmobil interactive pirate",
+    "aliases": [
+      "Playmobil Pirates"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": "D",
+    "buyPriority": null
   }
 ]
