@@ -2799,12 +2799,12 @@
       "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 13.48,
-      "median": 16.14,
-      "high": 17.66,
+      "low": 16.45,
+      "median": 26.95,
+      "high": 40,
       "currency": "EUR",
-      "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "source": "vinted",
+      "observedAt": "2026-08-23"
     }
   },
   "game_n64_the-legend-of-zelda-ocarina-of-time": {
@@ -2817,12 +2817,12 @@
       "observedAt": "2026-08-10"
     },
     "loose": {
-      "low": 17.64,
-      "median": 19.57,
-      "high": 26.98,
+      "low": 21.7,
+      "median": 47.94,
+      "high": 70,
       "currency": "EUR",
-      "source": "pricecharting-pal",
-      "observedAt": "2026-08-10"
+      "source": "vinted",
+      "observedAt": "2026-08-23"
     }
   },
   "game_n64_mario-kart-64": {

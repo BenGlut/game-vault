@@ -324,3 +324,23 @@
 - TypeScript 5.9 → 6.0.3. TS 6 refuse les imports à effet de bord sans déclaration
   (TS2882 sur `import "./globals.css"` dans `src/app/layout.tsx`) : ajout de
   `src/globals.d.ts` qui déclare `*.css`, Next gérant lui-même ces imports au build
+
+## Changed (session du 22-23 août)
+- Notation complète : les 100 jeux sans `qualityTier` notés (112 S, 86 A, 100 B,
+  94 C, 30 D) — plus aucune entrée sans rang, les filtres qualité de la Collection,
+  de la Wishlist et du Catalogue redeviennent fiables
+- Plateforme `switch2` ajoutée aux données : elle était définie dans
+  `scripts/seed/generate-seed.ts` mais n'avait jamais été appliquée à
+  `platforms.json`, donc aucun jeu Switch 2 ne pouvait être saisi
+- Séries complétées en wishlist avec cotes et jaquettes : Spyro (15 entrées),
+  Kingdom Hearts (5), plus Rabbids 3D, Crash of the Titans, Monster Hunter 4
+  Ultimate, Super Mario RPG, Mario vs. Donkey Kong, Tropical Freeze,
+  L'Épopée Fraternelle, Origami King, Tomb Raider I-III et IV-VI, Soul Reaver,
+  Rayman Legends Definitive Edition
+- Cotes recalées sur le marché Vinted réel là où PriceCharting s'écartait trop du
+  marché français : Ghost Trick 63,69 €, Majora's Mask 3D 63,70 €, Ocarina of Time
+  N64 47,94 €, Super Mario 64 N64 26,95 €, Super Mario Bros. Wonder 37,45 €,
+  New 3DS/2DS XL et pack Wii. La cote PriceCharting reste utile comme plancher,
+  pas comme référence
+- Jaquettes : 100 % des jeux couverts, seules les 6 entrées matériel restent sans
+  illustration (aucun catalogue ne couvre les consoles)

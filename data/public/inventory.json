@@ -4204,7 +4204,7 @@
   {
     "id": "inv_n64_super-mario-64",
     "gameId": "game_n64_super-mario-64",
-    "status": "wishlist",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4220,13 +4220,13 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "orderId": "order_mt6fbew6",
+    "updatedAt": "2026-08-23T23:13:42.424Z"
   },
   {
     "id": "inv_n64_the-legend-of-zelda-ocarina-of-time",
     "gameId": "game_n64_the-legend-of-zelda-ocarina-of-time",
-    "status": "wishlist",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4242,8 +4242,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "orderId": "order_mt6fbew6",
+    "updatedAt": "2026-08-23T23:13:42.424Z"
   },
   {
     "id": "inv_n64_mario-kart-64",
@@ -8952,17 +8952,17 @@
   {
     "id": "inv_switch_super-mario-odyssey-3",
     "gameId": "game_switch_super-mario-odyssey",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-23",
     "orderId": "order_mt0olwlj",
-    "updatedAt": "2026-08-20T22:38:59.191Z"
+    "updatedAt": "2026-08-23T23:13:01.287Z"
   },
   {
     "id": "inv_3ds_nintendo-2ds",
@@ -9424,7 +9424,7 @@
   {
     "id": "inv_switch_super-mario-maker-2",
     "gameId": "game_switch_super-mario-maker-2",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9433,16 +9433,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-23",
     "orderId": "order_mt0olwlj",
-    "updatedAt": "2026-08-20T22:38:59.191Z"
+    "updatedAt": "2026-08-23T23:13:01.287Z"
   },
   {
     "id": "inv_switch_crash-team-racing-nitro-fueled",
     "gameId": "game_switch_crash-team-racing-nitro-fueled",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9451,11 +9451,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-23",
     "orderId": "order_mt0olwlj",
-    "updatedAt": "2026-08-20T22:38:59.191Z"
+    "updatedAt": "2026-08-23T23:13:01.287Z"
   },
   {
     "id": "inv_switch_shin-megami-tensei-v-vengeance",
@@ -9829,7 +9829,7 @@
   {
     "id": "inv_switch_paper-mario-the-origami-king",
     "gameId": "game_switch_paper-mario-the-origami-king",
-    "status": "ordered",
+    "status": "refunded",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9839,7 +9839,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt3sw0zp",
-    "updatedAt": "2026-08-22T03:10:19.909Z"
+    "updatedAt": "2026-08-23T23:13:02.432Z"
   },
   {
     "id": "inv_switch_donkey-kong-country-tropical-freeze",

@@ -1230,7 +1230,7 @@
   {
     "id": "order_mt0olwlj",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 3,
     "gameIds": [
       "game_switch_super-mario-odyssey",
@@ -1256,7 +1256,7 @@
     ],
     "orderedAt": "2026-08-19",
     "fulfilledAt": "2026-08-20",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-23",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -1416,7 +1416,7 @@
   {
     "id": "order_mt3sw0zp",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "refunded",
     "itemCount": 1,
     "gameIds": [
       "game_switch_paper-mario-the-origami-king"
@@ -1433,7 +1433,7 @@
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
-    "refundedAt": null,
+    "refundedAt": "2026-08-23",
     "totalPaid": 22.59
   },
   {
@@ -1562,5 +1562,34 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 32.82
+  },
+  {
+    "id": "order_mt6fbew6",
+    "marketplace": "vinted",
+    "status": "fulfilled",
+    "itemCount": 2,
+    "gameIds": [
+      "game_n64_the-legend-of-zelda-ocarina-of-time",
+      "game_n64_super-mario-64"
+    ],
+    "items": [
+      {
+        "gameId": "game_n64_the-legend-of-zelda-ocarina-of-time",
+        "inventoryId": "inv_n64_the-legend-of-zelda-ocarina-of-time",
+        "unitPrice": 35.14
+      },
+      {
+        "gameId": "game_n64_super-mario-64",
+        "inventoryId": "inv_n64_super-mario-64",
+        "unitPrice": 16.59
+      }
+    ],
+    "orderedAt": "2026-08-23",
+    "fulfilledAt": "2026-08-23",
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 51.73
   }
 ]
