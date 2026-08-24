@@ -5947,17 +5947,17 @@
   },
   "game_ds_cahier-de-vacances-pour-adultes": {
     "cib": {
-      "low": 3,
-      "median": 3,
-      "high": 3,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
     },
     "loose": {
-      "low": 2,
-      "median": 2,
-      "high": 2,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
@@ -5965,17 +5965,17 @@
   },
   "game_ds_super-teacher-the-crazy-school": {
     "cib": {
-      "low": 3,
-      "median": 3,
-      "high": 3,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
     },
     "loose": {
-      "low": 2,
-      "median": 2,
-      "high": 2,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
@@ -6037,17 +6037,17 @@
   },
   "game_ds_bratz-le-film": {
     "cib": {
-      "low": 4.5,
-      "median": 4.5,
-      "high": 4.5,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
     },
     "loose": {
-      "low": 3,
-      "median": 3,
-      "high": 3,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
@@ -6073,17 +6073,17 @@
   },
   "game_ds_world-snooker-championship-2007-08": {
     "cib": {
-      "low": 4.5,
-      "median": 4.5,
-      "high": 4.5,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
     },
     "loose": {
-      "low": 3,
-      "median": 3,
-      "high": 3,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
@@ -6091,17 +6091,17 @@
   },
   "game_ds_samantha-oups": {
     "cib": {
-      "low": 3,
-      "median": 3,
-      "high": 3,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
     },
     "loose": {
-      "low": 2,
-      "median": 2,
-      "high": 2,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
@@ -6145,17 +6145,17 @@
   },
   "game_3ds_i-love-my-little-girl": {
     "cib": {
-      "low": 3.5,
-      "median": 3.5,
-      "high": 3.5,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
     },
     "loose": {
-      "low": 2.5,
-      "median": 2.5,
-      "high": 2.5,
+      "low": 1,
+      "median": 1,
+      "high": 1,
       "currency": "EUR",
       "source": "estimation",
       "observedAt": "2026-08-24"
