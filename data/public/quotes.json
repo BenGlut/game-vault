@@ -5021,6 +5021,24 @@
       "observedAt": "2026-08-11"
     }
   },
+  "game_gamecube_metroid-prime-2-echoes": {
+    "cib": {
+      "low": 31.31,
+      "median": 31.31,
+      "high": 31.31,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 17.02,
+      "median": 17.02,
+      "high": 17.02,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    }
+  },
   "game_gamecube_paper-mario-the-thousand-year-door": {
     "cib": {
       "low": 57.28,
@@ -5055,6 +5073,24 @@
       "currency": "EUR",
       "source": "pricecharting-pal",
       "observedAt": "2026-08-10"
+    }
+  },
+  "game_gb_the-legend-of-zelda-link-s-awakening": {
+    "cib": {
+      "low": 100.76,
+      "median": 100.76,
+      "high": 100.76,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 24.15,
+      "median": 24.15,
+      "high": 24.15,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
     }
   },
   "game_gba_metroid-zero-mission": {
@@ -5165,6 +5201,96 @@
       "observedAt": "2026-08-20"
     }
   },
+  "game_gbc_the-legend-of-zelda-oracle-of-ages": {
+    "cib": {
+      "low": 98.29,
+      "median": 98.29,
+      "high": 98.29,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 32.35,
+      "median": 32.35,
+      "high": 32.35,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    }
+  },
+  "game_gbc_the-legend-of-zelda-oracle-of-seasons": {
+    "cib": {
+      "low": 127.27,
+      "median": 127.27,
+      "high": 127.27,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 32.42,
+      "median": 32.42,
+      "high": 32.42,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    }
+  },
+  "game_gbc_the-legend-of-zelda-link-s-awakening-dx": {
+    "cib": {
+      "low": 149.87,
+      "median": 149.87,
+      "high": 149.87,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 38.12,
+      "median": 38.12,
+      "high": 38.12,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    }
+  },
+  "game_switch_metroid-dread": {
+    "cib": {
+      "low": 28.57,
+      "median": 28.57,
+      "high": 28.57,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 27.93,
+      "median": 27.93,
+      "high": 27.93,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    }
+  },
+  "game_switch_metroid-prime-remastered": {
+    "cib": {
+      "low": 26.81,
+      "median": 26.81,
+      "high": 26.81,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 25.71,
+      "median": 25.71,
+      "high": 25.71,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    }
+  },
   "game_switch_super-mario-bros-wonder": {
     "cib": {
       "low": 29.05,
@@ -5191,6 +5317,42 @@
       "currency": "EUR",
       "source": "pricecharting",
       "observedAt": "2026-08-22"
+    }
+  },
+  "game_snes_super-metroid": {
+    "cib": {
+      "low": 191.61,
+      "median": 191.61,
+      "high": 191.61,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 65.47,
+      "median": 65.47,
+      "high": 65.47,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    }
+  },
+  "game_snes_the-legend-of-zelda-a-link-to-the-past": {
+    "cib": {
+      "low": 117.39,
+      "median": 117.39,
+      "high": 117.39,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
+    },
+    "loose": {
+      "low": 27.37,
+      "median": 27.37,
+      "high": 27.37,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-25"
     }
   },
   "game_3ds_hyrule-warriors-legends": {
