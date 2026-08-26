@@ -5183,6 +5183,24 @@
       "observedAt": "2026-08-16"
     }
   },
+  "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires": {
+    "cib": {
+      "low": 1,
+      "median": 1,
+      "high": 1,
+      "currency": "EUR",
+      "source": "manual",
+      "observedAt": "2026-08-26"
+    },
+    "loose": {
+      "low": 1,
+      "median": 1,
+      "high": 1,
+      "currency": "EUR",
+      "source": "manual",
+      "observedAt": "2026-08-26"
+    }
+  },
   "game_3ds_final-fantasy-explorers": {
     "cib": {
       "low": 13.24,
@@ -6429,6 +6447,96 @@
       "currency": "EUR",
       "source": "pricecharting",
       "observedAt": "2026-08-24"
+    }
+  },
+  "game_wii_mario-kart-wii": {
+    "cib": {
+      "low": 18.03,
+      "median": 18.03,
+      "high": 18.03,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-26"
+    },
+    "loose": {
+      "low": 9.79,
+      "median": 9.79,
+      "high": 9.79,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-26"
+    }
+  },
+  "game_wii_the-legend-of-zelda-skyward-sword": {
+    "cib": {
+      "low": 19.53,
+      "median": 19.53,
+      "high": 19.53,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-26"
+    },
+    "loose": {
+      "low": 12.03,
+      "median": 12.03,
+      "high": 12.03,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-26"
+    }
+  },
+  "game_wii_donkey-kong-country-returns": {
+    "cib": {
+      "low": 9.1,
+      "median": 9.1,
+      "high": 9.1,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-26"
+    },
+    "loose": {
+      "low": 7.54,
+      "median": 7.54,
+      "high": 7.54,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-26"
+    }
+  },
+  "game_wii_mario-strikers-charged-football": {
+    "cib": {
+      "low": 5.79,
+      "median": 5.79,
+      "high": 5.79,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-26"
+    },
+    "loose": {
+      "low": 4.34,
+      "median": 4.34,
+      "high": 4.34,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-08-26"
+    }
+  },
+  "game_wii_link-s-crossbow-training": {
+    "cib": {
+      "low": 1,
+      "median": 1,
+      "high": 1,
+      "currency": "EUR",
+      "source": "manual",
+      "observedAt": "2026-08-26"
+    },
+    "loose": {
+      "low": 1,
+      "median": 1,
+      "high": 1,
+      "currency": "EUR",
+      "source": "manual",
+      "observedAt": "2026-08-26"
     }
   }
 }

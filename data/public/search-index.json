@@ -4903,5 +4903,115 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": "D"
+  },
+  {
+    "id": "game_wii_mario-kart-wii",
+    "t": "Mario Kart Wii",
+    "n": "mario kart wii",
+    "a": [],
+    "f": "Mario Kart",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_the-legend-of-zelda-skyward-sword",
+    "t": "The Legend of Zelda: Skyward Sword",
+    "n": "the legend of zelda skyward sword",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_donkey-kong-country-returns",
+    "t": "Donkey Kong Country Returns",
+    "n": "donkey kong country returns",
+    "a": [],
+    "f": "Donkey Kong",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_mario-strikers-charged-football",
+    "t": "Mario Strikers Charged Football",
+    "n": "mario strikers charged football",
+    "a": [],
+    "f": "Mario",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_link-s-crossbow-training",
+    "t": "Link's Crossbow Training",
+    "n": "link s crossbow training",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_the-legend-of-zelda-twilight-princess",
+    "t": "The Legend of Zelda: Twilight Princess",
+    "n": "the legend of zelda twilight princess",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_super-mario-galaxy",
+    "t": "Super Mario Galaxy",
+    "n": "super mario galaxy",
+    "a": [],
+    "f": "Mario",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_super-mario-galaxy-2",
+    "t": "Super Mario Galaxy 2",
+    "n": "super mario galaxy 2",
+    "a": [],
+    "f": "Mario",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_nba-2k23",
+    "t": "NBA 2K23",
+    "n": "nba 2k23",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_splatoon-2",
+    "t": "Splatoon 2",
+    "n": "splatoon 2",
+    "a": [],
+    "f": "Splatoon",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_mario-rabbids-kingdom-battle",
+    "t": "Mario + Rabbids Kingdom Battle",
+    "n": "mario rabbids kingdom battle",
+    "a": [],
+    "f": "Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

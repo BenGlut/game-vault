@@ -731,7 +731,7 @@
       {
         "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
         "inventoryId": "inv_ds_the-legend-of-zelda-spirit-tracks",
-        "unitPrice": 32.2
+        "unitPrice": 35.19
       }
     ],
     "orderedAt": "2026-08-16",
@@ -740,7 +740,7 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 32.2
+    "totalPaid": 35.19
   },
   {
     "id": "order_mswcmos1",
@@ -754,7 +754,7 @@
       {
         "gameId": "game_ds_the-legend-of-zelda-phantom-hourglass-us",
         "inventoryId": "inv_ds_the-legend-of-zelda-phantom-hourglass-us",
-        "unitPrice": 11.2
+        "unitPrice": 14.19
       }
     ],
     "orderedAt": "2026-08-16",
@@ -763,7 +763,7 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 11.2
+    "totalPaid": 14.19
   },
   {
     "id": "order_mswcs51u",
@@ -1300,7 +1300,7 @@
   {
     "id": "order_mt23czpt",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 3,
     "gameIds": [
       "game_ds_ghost-trick-detective-fantome",
@@ -1325,7 +1325,7 @@
       }
     ],
     "orderedAt": "2026-08-20",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-23",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -1439,7 +1439,7 @@
   {
     "id": "order_mt4ef3ui",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 3,
     "gameIds": [
       "game_switch_donkey-kong-country-tropical-freeze",
@@ -1464,7 +1464,7 @@
       }
     ],
     "orderedAt": "2026-08-22",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-23",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -1474,7 +1474,7 @@
   {
     "id": "order_mt4ef8po",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_the-legend-of-zelda-majora-s-mask-3d"
@@ -1487,7 +1487,7 @@
       }
     ],
     "orderedAt": "2026-08-22",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-23",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -1775,5 +1775,169 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 100
+  },
+  {
+    "id": "order_mt9c5uk8",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 7,
+    "gameIds": [
+      "game_wii_link-s-crossbow-training",
+      "game_wii_donkey-kong-country-returns",
+      "game_wii_mario-strikers-charged-football",
+      "game_wii_mario-kart-wii",
+      "game_wii_the-legend-of-zelda-skyward-sword",
+      "game_ds_professeur-layton-et-la-boite-de-pandore",
+      "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires"
+    ],
+    "items": [
+      {
+        "gameId": "game_wii_link-s-crossbow-training",
+        "inventoryId": "inv_wii_link-s-crossbow-training",
+        "unitPrice": 9
+      },
+      {
+        "gameId": "game_wii_donkey-kong-country-returns",
+        "inventoryId": "inv_wii_donkey-kong-country-returns",
+        "unitPrice": 9
+      },
+      {
+        "gameId": "game_wii_mario-strikers-charged-football",
+        "inventoryId": "inv_wii_mario-strikers-charged-football",
+        "unitPrice": 9
+      },
+      {
+        "gameId": "game_wii_mario-kart-wii",
+        "inventoryId": "inv_wii_mario-kart-wii",
+        "unitPrice": 10.79
+      },
+      {
+        "gameId": "game_wii_the-legend-of-zelda-skyward-sword",
+        "inventoryId": "inv_wii_the-legend-of-zelda-skyward-sword",
+        "unitPrice": 26.98
+      },
+      {
+        "gameId": "game_ds_professeur-layton-et-la-boite-de-pandore",
+        "inventoryId": "inv_ds_professeur-layton-et-la-boite-de-pandore-2",
+        "unitPrice": 17.09
+      },
+      {
+        "gameId": "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
+        "inventoryId": "inv_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
+        "unitPrice": 13.49
+      }
+    ],
+    "orderedAt": "2026-08-26",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 95.35
+  },
+  {
+    "id": "order_mta4auid",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 4,
+    "gameIds": [
+      "game_wii_donkey-kong-country-returns",
+      "game_wii_the-legend-of-zelda-twilight-princess",
+      "game_wii_super-mario-galaxy",
+      "game_wii_super-mario-galaxy-2"
+    ],
+    "items": [
+      {
+        "gameId": "game_wii_donkey-kong-country-returns",
+        "inventoryId": "inv_wii_donkey-kong-country-returns-2",
+        "unitPrice": 8.16
+      },
+      {
+        "gameId": "game_wii_the-legend-of-zelda-twilight-princess",
+        "inventoryId": "inv_wii_the-legend-of-zelda-twilight-princess",
+        "unitPrice": 12.69
+      },
+      {
+        "gameId": "game_wii_super-mario-galaxy",
+        "inventoryId": "inv_wii_super-mario-galaxy",
+        "unitPrice": 8.16
+      },
+      {
+        "gameId": "game_wii_super-mario-galaxy-2",
+        "inventoryId": "inv_wii_super-mario-galaxy-2",
+        "unitPrice": 12.22
+      }
+    ],
+    "orderedAt": "2026-08-26",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 41.23
+  },
+  {
+    "id": "order_mta4avc2",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_metroid-samus-returns"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_metroid-samus-returns",
+        "inventoryId": "inv_3ds_metroid-samus-returns",
+        "unitPrice": 40.44
+      }
+    ],
+    "orderedAt": "2026-08-25",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 40.44
+  },
+  {
+    "id": "order_mta4awme",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 4,
+    "gameIds": [
+      "game_switch_nba-2k23",
+      "game_switch_splatoon-2",
+      "game_switch_the-legend-of-zelda-breath-of-the-wild",
+      "game_switch_mario-rabbids-kingdom-battle"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_nba-2k23",
+        "inventoryId": "inv_switch_nba-2k23",
+        "unitPrice": 7.65
+      },
+      {
+        "gameId": "game_switch_splatoon-2",
+        "inventoryId": "inv_switch_splatoon-2",
+        "unitPrice": 23.91
+      },
+      {
+        "gameId": "game_switch_the-legend-of-zelda-breath-of-the-wild",
+        "inventoryId": "inv_switch_the-legend-of-zelda-breath-of-the-wild-2",
+        "unitPrice": 30.05
+      },
+      {
+        "gameId": "game_switch_mario-rabbids-kingdom-battle",
+        "inventoryId": "inv_switch_mario-rabbids-kingdom-battle",
+        "unitPrice": 12.43
+      }
+    ],
+    "orderedAt": "2026-08-24",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 74.04
   }
 ]
