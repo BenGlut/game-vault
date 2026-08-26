@@ -3678,7 +3678,7 @@
   {
     "id": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d",
     "gameId": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3693,9 +3693,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt4ef8po",
-    "updatedAt": "2026-08-26T13:17:54.199Z"
+    "updatedAt": "2026-08-26T20:23:58.457Z"
   },
   {
     "id": "inv_3ds_fire-emblem-awakening",
@@ -3949,7 +3949,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswdehxm",
-    "updatedAt": "2026-08-16T22:22:48.182Z"
+    "updatedAt": "2026-08-26T22:08:24.604Z"
   },
   {
     "id": "inv_ds_the-legend-of-zelda-spirit-tracks",
@@ -4046,7 +4046,7 @@
   {
     "id": "inv_ds_ghost-trick-detective-fantome",
     "gameId": "game_ds_ghost-trick-detective-fantome",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4061,9 +4061,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt23czpt",
-    "updatedAt": "2026-08-26T13:17:55.345Z"
+    "updatedAt": "2026-08-26T20:23:57.017Z"
   },
   {
     "id": "inv_ds_the-world-ends-with-you",
@@ -4204,7 +4204,7 @@
   {
     "id": "inv_n64_super-mario-64",
     "gameId": "game_n64_super-mario-64",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4219,14 +4219,14 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt6fbew6",
-    "updatedAt": "2026-08-23T23:13:42.424Z"
+    "updatedAt": "2026-08-26T20:23:59.294Z"
   },
   {
     "id": "inv_n64_the-legend-of-zelda-ocarina-of-time",
     "gameId": "game_n64_the-legend-of-zelda-ocarina-of-time",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4241,9 +4241,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt6fbew6",
-    "updatedAt": "2026-08-23T23:13:42.424Z"
+    "updatedAt": "2026-08-26T20:23:59.294Z"
   },
   {
     "id": "inv_n64_mario-kart-64",
@@ -4512,7 +4512,7 @@
   {
     "id": "inv_gamecube_metroid-prime",
     "gameId": "game_gamecube_metroid-prime",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4528,8 +4528,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "orderId": "order_mtajjegz",
+    "updatedAt": "2026-08-26T20:22:57.543Z"
   },
   {
     "id": "inv_gamecube_luigi-s-mansion",
@@ -7891,7 +7891,7 @@
   {
     "id": "inv_3ds_final-fantasy-explorers",
     "gameId": "game_3ds_final-fantasy-explorers",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7899,9 +7899,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt23czpt",
-    "updatedAt": "2026-08-26T13:17:55.345Z"
+    "updatedAt": "2026-08-26T20:23:57.018Z"
   },
   {
     "id": "inv_gamecube_final-fantasy-crystal-chronicles",
@@ -8655,10 +8655,10 @@
     },
     "currentEstimate": null,
     "verificationStatus": "needs_review",
-    "quantityNeedsReview": false,
+    "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": "order_mswcmos1",
-    "updatedAt": "2026-08-21T19:00:34.585Z"
+    "updatedAt": "2026-08-26T22:33:23.081Z"
   },
   {
     "id": "inv_3ds_luigi-s-mansion-2",
@@ -9526,7 +9526,7 @@
   {
     "id": "inv_ds_crash-of-the-titans",
     "gameId": "game_ds_crash-of-the-titans",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9535,11 +9535,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt23czpt",
-    "updatedAt": "2026-08-26T13:17:55.345Z"
+    "updatedAt": "2026-08-26T20:23:57.018Z"
   },
   {
     "id": "inv_ds_the-legend-of-spyro-the-eternal-night",
@@ -9856,7 +9856,7 @@
   {
     "id": "inv_switch_donkey-kong-country-tropical-freeze",
     "gameId": "game_switch_donkey-kong-country-tropical-freeze",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9865,16 +9865,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt4ef3ui",
-    "updatedAt": "2026-08-26T13:17:53.355Z"
+    "updatedAt": "2026-08-26T20:23:57.719Z"
   },
   {
     "id": "inv_switch_mario-vs-donkey-kong",
     "gameId": "game_switch_mario-vs-donkey-kong",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9883,16 +9883,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt4ef3ui",
-    "updatedAt": "2026-08-26T13:17:53.356Z"
+    "updatedAt": "2026-08-26T20:23:57.720Z"
   },
   {
     "id": "inv_switch_mario-luigi-l-epopee-fraternelle",
     "gameId": "game_switch_mario-luigi-l-epopee-fraternelle",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9901,11 +9901,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mt4ef3ui",
-    "updatedAt": "2026-08-26T13:17:53.356Z"
+    "updatedAt": "2026-08-26T20:23:57.720Z"
   },
   {
     "id": "inv_switch_super-mario-rpg",
@@ -10044,7 +10044,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 0.84,
+      "amount": 0.67,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10062,7 +10062,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 6.39,
+      "amount": 5.11,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10080,7 +10080,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 0.84,
+      "amount": 0.67,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10098,7 +10098,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 1.27,
+      "amount": 1.02,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10116,7 +10116,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 6.14,
+      "amount": 4.91,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10134,7 +10134,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 3.36,
+      "amount": 2.69,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10152,7 +10152,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 4.39,
+      "amount": 3.51,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10170,7 +10170,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 3.88,
+      "amount": 3.1,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10188,7 +10188,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 0.84,
+      "amount": 0.67,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10206,7 +10206,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 2.77,
+      "amount": 2.22,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10224,7 +10224,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 0.84,
+      "amount": 0.67,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10242,7 +10242,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 0.84,
+      "amount": 0.67,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10260,7 +10260,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 3.6,
+      "amount": 2.88,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10278,7 +10278,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 3.25,
+      "amount": 2.6,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10296,7 +10296,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 0.84,
+      "amount": 0.67,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10314,7 +10314,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 5.73,
+      "amount": 4.58,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10332,7 +10332,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 6.15,
+      "amount": 4.92,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10350,7 +10350,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 10.03,
+      "amount": 8.03,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10368,7 +10368,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 7.56,
+      "amount": 6.05,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10386,7 +10386,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 6.09,
+      "amount": 4.87,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10404,7 +10404,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 6.87,
+      "amount": 5.5,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10422,7 +10422,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 3.4,
+      "amount": 2.72,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10440,7 +10440,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 7.96,
+      "amount": 6.37,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10458,7 +10458,7 @@
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
-      "amount": 6.12,
+      "amount": 4.9,
       "currency": "EUR"
     },
     "currentEstimate": null,
@@ -10651,7 +10651,7 @@
   {
     "id": "inv_switch_nba-2k23",
     "gameId": "game_switch_nba-2k23",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10664,12 +10664,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4awme",
-    "updatedAt": "2026-08-26T13:16:26.922Z"
+    "updatedAt": "2026-08-26T20:24:00.200Z"
   },
   {
     "id": "inv_switch_splatoon-2",
     "gameId": "game_switch_splatoon-2",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10682,12 +10682,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4awme",
-    "updatedAt": "2026-08-26T13:16:26.922Z"
+    "updatedAt": "2026-08-26T20:24:00.201Z"
   },
   {
     "id": "inv_switch_the-legend-of-zelda-breath-of-the-wild-2",
     "gameId": "game_switch_the-legend-of-zelda-breath-of-the-wild",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10700,12 +10700,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4awme",
-    "updatedAt": "2026-08-26T13:16:26.922Z"
+    "updatedAt": "2026-08-26T20:24:00.201Z"
   },
   {
     "id": "inv_switch_mario-rabbids-kingdom-battle",
     "gameId": "game_switch_mario-rabbids-kingdom-battle",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10718,6 +10718,24 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4awme",
-    "updatedAt": "2026-08-26T13:16:26.923Z"
+    "updatedAt": "2026-08-26T20:24:00.201Z"
+  },
+  {
+    "id": "inv_ds_kirby-mass-attack",
+    "gameId": "game_ds_kirby-mass-attack",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 44.54,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtajjegz",
+    "updatedAt": "2026-08-26T20:22:57.543Z"
   }
 ]

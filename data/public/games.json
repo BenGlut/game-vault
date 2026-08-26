@@ -10629,5 +10629,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_kirby-mass-attack",
+    "kind": "game",
+    "canonicalTitle": "Kirby Mass Attack",
+    "normalizedTitle": "kirby mass attack",
+    "aliases": [],
+    "franchise": "Kirby",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

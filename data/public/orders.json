@@ -1294,7 +1294,7 @@
   {
     "id": "order_mt23czpt",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 3,
     "gameIds": [
       "game_ds_ghost-trick-detective-fantome",
@@ -1320,7 +1320,7 @@
     ],
     "orderedAt": "2026-08-20",
     "fulfilledAt": "2026-08-23",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-26",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -1433,7 +1433,7 @@
   {
     "id": "order_mt4ef3ui",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 3,
     "gameIds": [
       "game_switch_donkey-kong-country-tropical-freeze",
@@ -1459,7 +1459,7 @@
     ],
     "orderedAt": "2026-08-22",
     "fulfilledAt": "2026-08-23",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-26",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -1468,7 +1468,7 @@
   {
     "id": "order_mt4ef8po",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_the-legend-of-zelda-majora-s-mask-3d"
@@ -1482,7 +1482,7 @@
     ],
     "orderedAt": "2026-08-22",
     "fulfilledAt": "2026-08-23",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-26",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -1560,7 +1560,7 @@
   {
     "id": "order_mt6fbew6",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 2,
     "gameIds": [
       "game_n64_the-legend-of-zelda-ocarina-of-time",
@@ -1580,7 +1580,7 @@
     ],
     "orderedAt": "2026-08-23",
     "fulfilledAt": "2026-08-23",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-26",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -1644,122 +1644,122 @@
       {
         "gameId": "game_ds_cahier-de-vacances-pour-adultes",
         "inventoryId": "inv_ds_cahier-de-vacances-pour-adultes",
-        "unitPrice": 0.84
+        "unitPrice": 0.67
       },
       {
         "gameId": "game_ds_winx-club",
         "inventoryId": "inv_ds_winx-club-2",
-        "unitPrice": 6.39
+        "unitPrice": 5.11
       },
       {
         "gameId": "game_ds_super-teacher-the-crazy-school",
         "inventoryId": "inv_ds_super-teacher-the-crazy-school",
-        "unitPrice": 0.84
+        "unitPrice": 0.67
       },
       {
         "gameId": "game_ds_english-training",
         "inventoryId": "inv_ds_english-training",
-        "unitPrice": 1.27
+        "unitPrice": 1.02
       },
       {
         "gameId": "game_ds_totally-spies-2-undercover",
         "inventoryId": "inv_ds_totally-spies-2-undercover-3",
-        "unitPrice": 6.14
+        "unitPrice": 4.91
       },
       {
         "gameId": "game_ds_simcity-ds",
         "inventoryId": "inv_ds_simcity-ds-2",
-        "unitPrice": 3.36
+        "unitPrice": 2.69
       },
       {
         "gameId": "game_ds_the-sims-2-naufrages",
         "inventoryId": "inv_ds_the-sims-2-naufrages",
-        "unitPrice": 4.39
+        "unitPrice": 3.51
       },
       {
         "gameId": "game_ds_burnout-legends",
         "inventoryId": "inv_ds_burnout-legends",
-        "unitPrice": 3.88
+        "unitPrice": 3.1
       },
       {
         "gameId": "game_ds_bratz-le-film",
         "inventoryId": "inv_ds_bratz-le-film",
-        "unitPrice": 0.84
+        "unitPrice": 0.67
       },
       {
         "gameId": "game_ds_imagine-fashion-designer",
         "inventoryId": "inv_ds_imagine-fashion-designer",
-        "unitPrice": 2.77
+        "unitPrice": 2.22
       },
       {
         "gameId": "game_ds_world-snooker-championship-2007-08",
         "inventoryId": "inv_ds_world-snooker-championship-2007-08",
-        "unitPrice": 0.84
+        "unitPrice": 0.67
       },
       {
         "gameId": "game_ds_samantha-oups",
         "inventoryId": "inv_ds_samantha-oups",
-        "unitPrice": 0.84
+        "unitPrice": 0.67
       },
       {
         "gameId": "game_ds_hello-kitty-friends",
         "inventoryId": "inv_ds_hello-kitty-friends",
-        "unitPrice": 3.6
+        "unitPrice": 2.88
       },
       {
         "gameId": "game_3ds_james-noir-s-hollywood-crimes-3d",
         "inventoryId": "inv_3ds_james-noir-s-hollywood-crimes-3d",
-        "unitPrice": 3.25
+        "unitPrice": 2.6
       },
       {
         "gameId": "game_3ds_i-love-my-little-girl",
         "inventoryId": "inv_3ds_i-love-my-little-girl",
-        "unitPrice": 0.84
+        "unitPrice": 0.67
       },
       {
         "gameId": "game_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012",
         "inventoryId": "inv_3ds_mario-sonic-aux-jeux-olympiques-de-londres-2012-3",
-        "unitPrice": 5.73
+        "unitPrice": 4.58
       },
       {
         "gameId": "game_3ds_nintendogs-cats",
         "inventoryId": "inv_3ds_nintendogs-cats-3",
-        "unitPrice": 6.15
+        "unitPrice": 4.92
       },
       {
         "gameId": "game_3ds_monster-high-course-de-rollers",
         "inventoryId": "inv_3ds_monster-high-course-de-rollers",
-        "unitPrice": 10.03
+        "unitPrice": 8.03
       },
       {
         "gameId": "game_3ds_programme-d-entrainement-cerebral-du-dr-kawashima-l-infernal",
         "inventoryId": "inv_3ds_programme-d-entrainement-cerebral-du-dr-kawashima-l-infernal",
-        "unitPrice": 7.56
+        "unitPrice": 6.05
       },
       {
         "gameId": "game_3ds_rayman-les-lapins-cretins-pack-famille",
         "inventoryId": "inv_3ds_rayman-les-lapins-cretins-pack-famille-3",
-        "unitPrice": 6.09
+        "unitPrice": 4.87
       },
       {
         "gameId": "game_3ds_angry-birds-trilogy",
         "inventoryId": "inv_3ds_angry-birds-trilogy",
-        "unitPrice": 6.87
+        "unitPrice": 5.5
       },
       {
         "gameId": "game_3ds_zoo-resort-3d",
         "inventoryId": "inv_3ds_zoo-resort-3d",
-        "unitPrice": 3.4
+        "unitPrice": 2.72
       },
       {
         "gameId": "game_ds_playmobil-interactive-chevalier",
         "inventoryId": "inv_ds_playmobil-interactive-chevalier",
-        "unitPrice": 7.96
+        "unitPrice": 6.37
       },
       {
         "gameId": "game_ds_playmobil-interactive-pirate",
         "inventoryId": "inv_ds_playmobil-interactive-pirate",
-        "unitPrice": 6.12
+        "unitPrice": 4.9
       }
     ],
     "orderedAt": "2026-08-24",
@@ -1768,7 +1768,7 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 100
+    "totalPaid": 80
   },
   {
     "id": "order_mt9c5uk8",
@@ -1896,7 +1896,7 @@
   {
     "id": "order_mta4awme",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 4,
     "gameIds": [
       "game_switch_nba-2k23",
@@ -1927,11 +1927,40 @@
       }
     ],
     "orderedAt": "2026-08-24",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-24",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 74.04
+  },
+  {
+    "id": "order_mtajjegz",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_ds_kirby-mass-attack",
+      "game_gamecube_metroid-prime"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_kirby-mass-attack",
+        "inventoryId": "inv_ds_kirby-mass-attack",
+        "unitPrice": 44.54
+      },
+      {
+        "gameId": "game_gamecube_metroid-prime",
+        "inventoryId": "inv_gamecube_metroid-prime",
+        "unitPrice": 19.79
+      }
+    ],
+    "orderedAt": "2026-08-26",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 64.33
   }
 ]

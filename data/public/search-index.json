@@ -5013,5 +5013,15 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_kirby-mass-attack",
+    "t": "Kirby Mass Attack",
+    "n": "kirby mass attack",
+    "a": [],
+    "f": "Kirby",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
