@@ -73,21 +73,15 @@
     "id": "order_msl51ugw",
     "marketplace": "vinted",
     "status": "delivered",
-    "itemCount": 2,
+    "itemCount": 1,
     "gameIds": [
-      "game_ds_professeur-layton-et-la-boite-de-pandore",
       "game_ds_mario-kart-ds"
     ],
     "items": [
       {
-        "gameId": "game_ds_professeur-layton-et-la-boite-de-pandore",
-        "inventoryId": "inv_ds_professeur-layton-et-la-boite-de-pandore",
-        "unitPrice": 9.55
-      },
-      {
         "gameId": "game_ds_mario-kart-ds",
         "inventoryId": "inv_ds_mario-kart-ds",
-        "unitPrice": 15.94
+        "unitPrice": 11.2
       }
     ],
     "orderedAt": "2026-08-09",
@@ -96,7 +90,7 @@
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
-    "totalPaid": 25.49
+    "totalPaid": 11.2
   },
   {
     "id": "order_msl7d7y3",
