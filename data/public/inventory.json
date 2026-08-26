@@ -3862,8 +3862,8 @@
   {
     "id": "inv_ds_mario-kart-ds",
     "gameId": "game_ds_mario-kart-ds",
-    "status": "delivered",
-    "quantity": 0,
+    "status": "owned",
+    "quantity": 1,
     "condition": "very_good",
     "completeness": "CIB",
     "purchasePrice": {
@@ -3883,7 +3883,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": "2026-08-18",
     "orderId": "order_msl51ugw",
-    "updatedAt": "2026-08-26T14:26:42.725Z"
+    "updatedAt": "2026-08-26T15:49:28.101Z"
   },
   {
     "id": "inv_ds_new-super-mario-bros",
