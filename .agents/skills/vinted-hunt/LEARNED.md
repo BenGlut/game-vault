@@ -174,3 +174,27 @@ promu dans `SKILL.md`.*
   de vendeurs a relancer, de colis a suivre, de points relais a visiter et de fenetres de
   litige a surveiller. Un lot un peu plus cher a l'article qui fait avancer la collection
   d'un coup peut etre le bon choix : le dire, au lieu de ne chiffrer que l'ecart a la cote.
+
+## 2026-08-27 — Un prix Vinted n'est jamais comparable brut à un prix Amazon
+
+benglut, sur Crisis Core FF VII Reunion : *« Crisis Core sur vinted, tu ajoute la
+protecteur acheteur + frais de port … on est aus prix du neuf presque identique »*.
+
+J'avais annoncé « marché Vinted à 19,60 – 23,80 € » contre 33,98 € chez Amazon, en
+laissant croire à ~10 € d'écart. Deux erreurs cumulées :
+
+1. **`total_item_price` de l'API inclut la protection acheteurs mais PAS le port.**
+   Il faut systématiquement ajouter ~3,50-4,35 € avant toute comparaison. Le vrai
+   écart était de **3,24 €**, pas 10 €.
+2. **La recherche n'était pas filtrée par plateforme.** Ma liste contenait une
+   version PS5 à 20,65 € et une boîte vide à 5,94 €, qui tiraient artificiellement
+   le « marché » vers le bas.
+
+**Règle** : avant d'annoncer un écart de prix, reconstruire les deux totaux livrés,
+et vérifier que chaque comparable est bien la même plateforme et un exemplaire
+complet. Ouvrir les annonces, ne jamais se fier au seul titre.
+
+**Corollaire** : quand l'écart tombe sous ~5 €, le neuf marchand gagne presque
+toujours — délai, retour 30 jours, facture, et aucun risque de contrefaçon. Ce
+dernier point n'est pas théorique : deux cartouches défectueuses ou absentes en un
+mois (Phantom Hourglass, Boîte de Pandore).
