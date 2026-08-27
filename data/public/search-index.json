@@ -5060,5 +5060,18 @@
     "p": "switch2",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_crisis-core-final-fantasy-vii-reunion",
+    "t": "Crisis Core: Final Fantasy VII Reunion",
+    "n": "crisis core final fantasy vii reunion",
+    "a": [
+      "Crisis Core FF7 Reunion",
+      "Crisis Core Final Fantasy 7 Reunion"
+    ],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

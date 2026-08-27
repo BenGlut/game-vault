@@ -2037,5 +2037,80 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 29.94
+  },
+  {
+    "id": "order_mtavd21m",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_crisis-core-final-fantasy-vii-reunion"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_crisis-core-final-fantasy-vii-reunion",
+        "inventoryId": "inv_switch_crisis-core-final-fantasy-vii-reunion",
+        "unitPrice": 33.98
+      }
+    ],
+    "orderedAt": "2026-08-27",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 33.98
+  },
+  {
+    "id": "order_mtavd2q1",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_final-fantasy-x-x-2-hd-remaster"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_final-fantasy-x-x-2-hd-remaster",
+        "inventoryId": "inv_switch_final-fantasy-x-x-2-hd-remaster",
+        "unitPrice": 29.99
+      }
+    ],
+    "orderedAt": "2026-08-27",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 29.99
+  },
+  {
+    "id": "order_mtavd3c4",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_switch_final-fantasy-vii",
+      "game_switch_final-fantasy-viii-remastered"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_final-fantasy-vii",
+        "inventoryId": "inv_switch_final-fantasy-vii",
+        "unitPrice": 14
+      },
+      {
+        "gameId": "game_switch_final-fantasy-viii-remastered",
+        "inventoryId": "inv_switch_final-fantasy-viii-remastered",
+        "unitPrice": 13.98
+      }
+    ],
+    "orderedAt": "2026-08-27",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 27.98
   }
 ]

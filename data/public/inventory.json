@@ -7921,32 +7921,32 @@
   {
     "id": "inv_switch_final-fantasy-vii",
     "gameId": "game_switch_final-fantasy-vii",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
-    "completeness": "unknown",
+    "completeness": "CIB",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:40.268Z"
+    "orderId": "order_mtavd3c4",
+    "updatedAt": "2026-08-27T01:58:24.787Z"
   },
   {
     "id": "inv_switch_final-fantasy-viii-remastered",
     "gameId": "game_switch_final-fantasy-viii-remastered",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
-    "completeness": "unknown",
+    "completeness": "CIB",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:42.211Z"
+    "orderId": "order_mtavd3c4",
+    "updatedAt": "2026-08-27T01:58:24.795Z"
   },
   {
     "id": "inv_switch_final-fantasy-ix",
@@ -7966,17 +7966,17 @@
   {
     "id": "inv_switch_final-fantasy-x-x-2-hd-remaster",
     "gameId": "game_switch_final-fantasy-x-x-2-hd-remaster",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
-    "completeness": "unknown",
+    "completeness": "code_in_box",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:46.119Z"
+    "orderId": "order_mtavd2q1",
+    "updatedAt": "2026-08-27T01:57:43.785Z"
   },
   {
     "id": "inv_switch_final-fantasy-xii-the-zodiac-age",
@@ -10806,5 +10806,23 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-08-27T01:48:50.197Z"
+  },
+  {
+    "id": "inv_switch_crisis-core-final-fantasy-vii-reunion",
+    "gameId": "game_switch_crisis-core-final-fantasy-vii-reunion",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "CIB",
+    "purchasePrice": {
+      "amount": 33.98,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtavd21m",
+    "updatedAt": "2026-08-27T01:57:43.785Z"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "at": "2026-08-10T21:45:31.827Z",
-    "command": "add-game",
-    "message": "add game The Legend of Zelda: Twilight Princess (gamecube)"
-  },
-  {
-    "at": "2026-08-10T21:45:33.418Z",
-    "command": "add-game",
-    "message": "add game Donkey Kong (gb)"
-  },
-  {
-    "at": "2026-08-10T21:45:38.984Z",
-    "command": "add-game",
-    "message": "add game Super Mario Land 2: 6 Golden Coins (gb)"
-  },
-  {
-    "at": "2026-08-10T21:45:41.239Z",
-    "command": "add-game",
-    "message": "add game Tetris (gb)"
-  },
-  {
     "at": "2026-08-10T21:45:43.682Z",
     "command": "add-game",
     "message": "add game The Legend of Zelda: Link's Awakening (gb)"
@@ -2498,5 +2478,25 @@
     "at": "2026-08-27T01:48:50.141Z",
     "command": "add-inventory",
     "message": "add inventory for game_switch2_nintendo-switch-2"
+  },
+  {
+    "at": "2026-08-27T01:53:56.131Z",
+    "command": "add-game",
+    "message": "add game Crisis Core: Final Fantasy VII Reunion (switch)"
+  },
+  {
+    "at": "2026-08-27T01:53:56.910Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-27T01:53:57.801Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-27T01:53:58.591Z",
+    "command": "add-order",
+    "message": "add order amazon"
   }
 ]

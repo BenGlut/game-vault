@@ -10724,5 +10724,30 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_crisis-core-final-fantasy-vii-reunion",
+    "kind": "game",
+    "canonicalTitle": "Crisis Core: Final Fantasy VII Reunion",
+    "normalizedTitle": "crisis core final fantasy vii reunion",
+    "aliases": [
+      "Crisis Core FF7 Reunion",
+      "Crisis Core Final Fantasy 7 Reunion"
+    ],
+    "franchise": "Final Fantasy",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2022,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
