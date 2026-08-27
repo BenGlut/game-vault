@@ -5614,7 +5614,10 @@
     "canonicalTitle": "Légendes Pokémon : Arceus",
     "normalizedTitle": "legendes pokemon arceus",
     "aliases": [
-      "Pokemon Legends: Arceus"
+      "Pokemon Legends: Arceus",
+      "Légendes Pokémon : Arceus",
+      "Pokémon Legends: Arceus",
+      "Arceus"
     ],
     "franchise": "Pokémon",
     "platformId": "switch",
@@ -6082,7 +6085,8 @@
     "canonicalTitle": "Pat' Patrouille : À la rescousse d'Adventure City",
     "normalizedTitle": "pat patrouille a la rescousse d adventure city",
     "aliases": [
-      "PAW Patrol The Movie: Adventure City Calls"
+      "PAW Patrol The Movie: Adventure City Calls",
+      "Paw Patrol, la Pat'Patrouille - le film À la rescousse d'Adventure City"
     ],
     "franchise": "Pat' Patrouille",
     "platformId": "switch",
@@ -6106,7 +6110,8 @@
     "canonicalTitle": "Pat' Patrouille : Mighty Pups Sauve la Grande Vallée",
     "normalizedTitle": "pat patrouille mighty pups sauve la grande vallee",
     "aliases": [
-      "PAW Patrol Mighty Pups Save Adventure Bay"
+      "PAW Patrol Mighty Pups Save Adventure Bay",
+      "La Pat' Patrouille: Mighty Pups Sauve La Grande Vallée"
     ],
     "franchise": "Pat' Patrouille",
     "platformId": "switch",
@@ -6130,7 +6135,9 @@
     "canonicalTitle": "Pat' Patrouille en Mission !",
     "normalizedTitle": "pat patrouille en mission",
     "aliases": [
-      "PAW Patrol: On a Roll"
+      "PAW Patrol: On a Roll",
+      "La Pat’ Patrouille En mission !",
+      "La Pat' Patrouille En mission !"
     ],
     "franchise": "Pat' Patrouille",
     "platformId": "switch",
@@ -9644,7 +9651,8 @@
     "canonicalTitle": "Tomb Raider IV-VI Remastered Starring Lara Croft",
     "normalizedTitle": "tomb raider iv vi remastered starring lara croft",
     "aliases": [
-      "Tomb Raider 4-6 Remastered"
+      "Tomb Raider 4-6 Remastered",
+      "Tomb Raider IV-VI Remastered"
     ],
     "franchise": "Tomb Raider",
     "platformId": "switch",
@@ -9668,7 +9676,8 @@
     "canonicalTitle": "Tomb Raider I-III Remastered Starring Lara Croft",
     "normalizedTitle": "tomb raider i iii remastered starring lara croft",
     "aliases": [
-      "Tomb Raider 1-3 Remastered"
+      "Tomb Raider 1-3 Remastered",
+      "Tomb Raider I-III Remastered"
     ],
     "franchise": "Tomb Raider",
     "platformId": "switch",
@@ -10613,7 +10622,10 @@
     "kind": "game",
     "canonicalTitle": "Mario + Rabbids Kingdom Battle",
     "normalizedTitle": "mario rabbids kingdom battle",
-    "aliases": [],
+    "aliases": [
+      "Mario + The Lapins Crétins™ Kingdom Battle",
+      "Mario + The Lapins Crétins Kingdom Battle"
+    ],
     "franchise": "Mario",
     "platformId": "switch",
     "region": "PAL-FR",

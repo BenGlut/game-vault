@@ -2697,7 +2697,10 @@
     "t": "Légendes Pokémon : Arceus",
     "n": "legendes pokemon arceus",
     "a": [
-      "Pokemon Legends: Arceus"
+      "Pokemon Legends: Arceus",
+      "Légendes Pokémon : Arceus",
+      "Pokémon Legends: Arceus",
+      "Arceus"
     ],
     "f": "Pokémon",
     "p": "switch",
@@ -2913,7 +2916,8 @@
     "t": "Pat' Patrouille : À la rescousse d'Adventure City",
     "n": "pat patrouille a la rescousse d adventure city",
     "a": [
-      "PAW Patrol The Movie: Adventure City Calls"
+      "PAW Patrol The Movie: Adventure City Calls",
+      "Paw Patrol, la Pat'Patrouille - le film À la rescousse d'Adventure City"
     ],
     "f": "Pat' Patrouille",
     "p": "switch",
@@ -2925,7 +2929,8 @@
     "t": "Pat' Patrouille : Mighty Pups Sauve la Grande Vallée",
     "n": "pat patrouille mighty pups sauve la grande vallee",
     "a": [
-      "PAW Patrol Mighty Pups Save Adventure Bay"
+      "PAW Patrol Mighty Pups Save Adventure Bay",
+      "La Pat' Patrouille: Mighty Pups Sauve La Grande Vallée"
     ],
     "f": "Pat' Patrouille",
     "p": "switch",
@@ -2937,7 +2942,9 @@
     "t": "Pat' Patrouille en Mission !",
     "n": "pat patrouille en mission",
     "a": [
-      "PAW Patrol: On a Roll"
+      "PAW Patrol: On a Roll",
+      "La Pat’ Patrouille En mission !",
+      "La Pat' Patrouille En mission !"
     ],
     "f": "Pat' Patrouille",
     "p": "switch",
@@ -4555,7 +4562,8 @@
     "t": "Tomb Raider IV-VI Remastered Starring Lara Croft",
     "n": "tomb raider iv vi remastered starring lara croft",
     "a": [
-      "Tomb Raider 4-6 Remastered"
+      "Tomb Raider 4-6 Remastered",
+      "Tomb Raider IV-VI Remastered"
     ],
     "f": "Tomb Raider",
     "p": "switch",
@@ -4567,7 +4575,8 @@
     "t": "Tomb Raider I-III Remastered Starring Lara Croft",
     "n": "tomb raider i iii remastered starring lara croft",
     "a": [
-      "Tomb Raider 1-3 Remastered"
+      "Tomb Raider 1-3 Remastered",
+      "Tomb Raider I-III Remastered"
     ],
     "f": "Tomb Raider",
     "p": "switch",
@@ -5008,7 +5017,10 @@
     "id": "game_switch_mario-rabbids-kingdom-battle",
     "t": "Mario + Rabbids Kingdom Battle",
     "n": "mario rabbids kingdom battle",
-    "a": [],
+    "a": [
+      "Mario + The Lapins Crétins™ Kingdom Battle",
+      "Mario + The Lapins Crétins Kingdom Battle"
+    ],
     "f": "Mario",
     "p": "switch",
     "r": "PAL-FR",

@@ -43,10 +43,19 @@ async function search(q: string): Promise<Doc[]> {
   return json.response?.docs ?? [];
 }
 
-/** Le packshot est préféré ; l'image carrée ne sert que de dernier recours. */
+/** Assets d'une AUTRE console : Nintendo réutilise parfois la fiche Wii U ou 3DS
+ *  (Hollow Knight portait `SQ_WiiUDS_…`). Interdit — ordre de benglut, 2026-08-27. */
+const AUTRE_PLATEFORME = /WiiU|WiiWare|_3DS|N3DS|DSiWare/i;
+
+/** Une image carrée est l'icône du menu console, pas une jaquette de boîte. */
+function estCarree(url: string): boolean {
+  return /\/SQ_/i.test(url) || /_square_/i.test(url);
+}
+
 function pickImage(doc: Doc): string | undefined {
   const url = doc.image_url ?? doc.image_url_sq_s;
   if (!url) return undefined;
+  if (AUTRE_PLATEFORME.test(url)) return undefined;
   return url.startsWith("//") ? `https:${url}` : url;
 }
 
@@ -63,14 +72,29 @@ async function main(): Promise<void> {
     const dest = path.join(COVERS, `${g.id}.jpg`);
     if (fs.existsSync(dest) && !force) continue;
 
-    let picked: string | undefined;
+    // Seul un titre STRICTEMENT identique est retenu. Se rabattre sur le premier
+    // résultat de recherche posait la jaquette d'un autre jeu (Légendes Pokémon :
+    // Arceus a porté celle de « Drift Legends ») — ordre de benglut, 2026-08-27 :
+    // pas d'illustration de complaisance, mieux vaut aucune jaquette.
+    // Un titre accepté doit correspondre à l'un des titres connus du jeu, quelle que
+    // soit la requête qui l'a ramené : le moteur eShop échoue sur les titres longs et
+    // accentués (« Légendes Pokémon : Arceus » ne sort que sur la requête « Arceus »).
+    const attendus = new Set(
+      [g.canonicalTitle, ...g.aliases].map((t) => normalizeTitle(t)),
+    );
+    // Toutes les fiches correspondantes sont collectées avant de choisir : un même
+    // jeu a souvent une fiche dématérialisée (icône carrée) et une fiche boîte
+    // (packshot). On veut la boîte.
+    const candidats: string[] = [];
     for (const candidate of [g.canonicalTitle, ...g.aliases]) {
       const docs = await search(candidate);
-      const target = normalizeTitle(candidate);
-      const exact = docs.find((d) => d.title && normalizeTitle(d.title) === target);
-      picked = pickImage(exact ?? docs[0] ?? {});
-      if (picked) break;
+      for (const d of docs) {
+        if (!d.title || !attendus.has(normalizeTitle(d.title))) continue;
+        const img = pickImage(d);
+        if (img && !candidats.includes(img)) candidats.push(img);
+      }
     }
+    const picked = candidats.find((u) => !estCarree(u)) ?? candidats[0];
     if (!picked) {
       missing.push(g.canonicalTitle);
       continue;

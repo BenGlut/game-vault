@@ -74,6 +74,19 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- Jaquettes Switch : le script prenait le premier résultat de recherche eShop quand
+  aucun titre ne correspondait exactement, posant la jaquette d'un autre jeu
+  (Légendes Pokémon : Arceus portait celle de « Drift Legends », NBA 2K23 celle de
+  « NBA BOUNCE »). Correspondance désormais stricte sur l'un des titres connus du
+  jeu, sinon aucune jaquette (`scripts/covers/fetch-switch-boxart.ts`)
+- Jaquettes Switch : rejet des assets issus d'une autre console — Hollow Knight
+  portait `SQ_WiiUDS_…`, l'illustration Wii U
+- Jaquettes Switch : préférence explicite au packshot de boîte sur l'icône carrée
+  du menu console lorsque les deux fiches eShop existent — 80 jaquettes sur 86 sont
+  désormais de vraies boîtes, contre 35 auparavant
+- Alias eShop officiels ajoutés pour 7 jeux dont le titre de la base diffère du
+  titre catalogue (Pat' Patrouille ×3, Mario + The Lapins Crétins, Tomb Raider
+  I-III et IV-VI Remastered, Légendes Pokémon : Arceus)
 - Couverture jaquettes de la collection portée à 100 % des jeux (402/402) : les
   10 manquantes récupérées — 2 en 3DS via libretro, 4 en Switch via les packshots
   FR de l'API eShop (`fetch-switch-boxart.ts`), et 4 sans source automatisée
