@@ -1,20 +1,5 @@
 [
   {
-    "at": "2026-08-10T17:21:15.469Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-10T19:21:46.201Z",
-    "command": "add-game",
-    "message": "add game Super Mario Odyssey (switch)"
-  },
-  {
-    "at": "2026-08-10T19:21:47.581Z",
-    "command": "add-game",
-    "message": "add game Luigi's Mansion 3 (switch)"
-  },
-  {
     "at": "2026-08-10T19:22:01.811Z",
     "command": "add-order",
     "message": "add order vinted"
@@ -2498,5 +2483,20 @@
     "at": "2026-08-26T20:24:00.229Z",
     "command": "ship-order",
     "message": "ship-order order_mta4awme"
+  },
+  {
+    "at": "2026-08-27T00:29:56.791Z",
+    "command": "receive-order",
+    "message": "receive-order order_mt51nbgz"
+  },
+  {
+    "at": "2026-08-27T00:29:58.118Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-27T00:30:17.377Z",
+    "command": "cancel-order",
+    "message": "cancel-order order_mtasd228"
   }
 ]

@@ -4424,7 +4424,7 @@
   {
     "id": "inv_gamecube_the-legend-of-zelda-the-wind-waker",
     "gameId": "game_gamecube_the-legend-of-zelda-the-wind-waker",
-    "status": "wishlist",
+    "status": "cancelled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4440,8 +4440,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "orderId": "order_mtasd228",
+    "updatedAt": "2026-08-27T00:30:17.331Z"
   },
   {
     "id": "inv_gamecube_super-mario-sunshine",
@@ -10003,7 +10003,7 @@
   {
     "id": "inv_switch_hollow-knight-2",
     "gameId": "game_switch_hollow-knight",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10012,11 +10012,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mt51nbgz",
-    "updatedAt": "2026-08-23T00:03:16.308Z"
+    "updatedAt": "2026-08-27T00:29:56.739Z"
   },
   {
     "id": "inv_gamecube_carte-memoire-gamecube-512-mo",
@@ -10737,5 +10737,23 @@
     "acquiredAt": null,
     "orderId": "order_mtajjegz",
     "updatedAt": "2026-08-26T20:22:57.543Z"
+  },
+  {
+    "id": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d-2",
+    "gameId": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
+    "status": "cancelled",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 0,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtasd228",
+    "updatedAt": "2026-08-27T00:30:17.333Z"
   }
 ]

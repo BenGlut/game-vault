@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-26T22:37:54.177Z",
+  "generatedAt": "2026-08-27T00:42:22.522Z",
   "totalGames": 462,
   "totalHardware": 7,
   "ownedHardware": 6,
-  "ownedItems": 341,
+  "ownedItems": 342,
   "byStatus": {
     "owned": 256,
-    "delivered": 91,
-    "ordered": 14,
+    "delivered": 92,
+    "ordered": 13,
     "wishlist": 0,
     "refunded": 15,
     "fulfilled": 6,
-    "cancelled": 0
+    "cancelled": 1
   },
   "byPlatform": {
     "snes": 21,

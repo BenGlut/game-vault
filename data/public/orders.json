@@ -1537,7 +1537,7 @@
   {
     "id": "order_mt51nbgz",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_hollow-knight"
@@ -1551,7 +1551,7 @@
     ],
     "orderedAt": "2026-08-23",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-27",
     "estimatedDeliveryAt": "2026-08-25",
     "cancelledAt": null,
     "refundedAt": null,
@@ -1962,5 +1962,34 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 64.33
+  },
+  {
+    "id": "order_mtasd228",
+    "marketplace": "vinted",
+    "status": "cancelled",
+    "itemCount": 2,
+    "gameIds": [
+      "game_gamecube_the-legend-of-zelda-the-wind-waker",
+      "game_3ds_the-legend-of-zelda-majora-s-mask-3d"
+    ],
+    "items": [
+      {
+        "gameId": "game_gamecube_the-legend-of-zelda-the-wind-waker",
+        "inventoryId": "inv_gamecube_the-legend-of-zelda-the-wind-waker",
+        "unitPrice": 0
+      },
+      {
+        "gameId": "game_3ds_the-legend-of-zelda-majora-s-mask-3d",
+        "inventoryId": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d-2",
+        "unitPrice": 0
+      }
+    ],
+    "orderedAt": "2026-08-23",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": "2026-08-23",
+    "refundedAt": null,
+    "totalPaid": 0
   }
 ]
