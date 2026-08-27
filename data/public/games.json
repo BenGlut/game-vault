@@ -10651,5 +10651,31 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_final-fantasy-i-vi-collection",
+    "kind": "game",
+    "canonicalTitle": "Final Fantasy I-VI Collection",
+    "normalizedTitle": "final fantasy i vi collection",
+    "aliases": [
+      "Final Fantasy Pixel Remaster Collection",
+      "Final Fantasy I-VI Pixel Remaster Collection",
+      "Final Fantasy Anniversary Edition"
+    ],
+    "franchise": "Final Fantasy",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2022,
+    "genres": [],
+    "edition": "Édition Anniversaire",
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

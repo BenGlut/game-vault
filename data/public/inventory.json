@@ -10755,5 +10755,23 @@
     "acquiredAt": null,
     "orderId": "order_mtasd228",
     "updatedAt": "2026-08-27T00:30:17.333Z"
+  },
+  {
+    "id": "inv_switch_final-fantasy-i-vi-collection",
+    "gameId": "game_switch_final-fantasy-i-vi-collection",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 50.95,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtaujfio",
+    "updatedAt": "2026-08-27T01:30:54.676Z"
   }
 ]

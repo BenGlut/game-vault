@@ -6538,5 +6538,23 @@
       "source": "manual",
       "observedAt": "2026-08-26"
     }
+  },
+  "game_switch_final-fantasy-i-vi-collection": {
+    "cib": {
+      "low": 47.95,
+      "median": 63.7,
+      "high": 105.7,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-08-27"
+    },
+    "loose": {
+      "low": 50.95,
+      "median": 57.4,
+      "high": 63.7,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-08-27"
+    }
   }
 }

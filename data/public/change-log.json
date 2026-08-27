@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-10T19:22:01.811Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-10T21:26:08.977Z",
-    "command": "remove-inventory",
-    "message": "remove inv_switch_super-mario-3d-all-stars-2"
-  },
-  {
     "at": "2026-08-10T21:45:24.091Z",
     "command": "add-game",
     "message": "add game Metroid Prime 2: Echoes (gamecube)"
@@ -2498,5 +2488,15 @@
     "at": "2026-08-27T00:30:17.377Z",
     "command": "cancel-order",
     "message": "cancel-order order_mtasd228"
+  },
+  {
+    "at": "2026-08-27T01:30:29.332Z",
+    "command": "add-game",
+    "message": "add game Final Fantasy I-VI Collection (switch)"
+  },
+  {
+    "at": "2026-08-27T01:30:54.704Z",
+    "command": "add-order",
+    "message": "add order amazon"
   }
 ]

@@ -5023,5 +5023,19 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_final-fantasy-i-vi-collection",
+    "t": "Final Fantasy I-VI Collection",
+    "n": "final fantasy i vi collection",
+    "a": [
+      "Final Fantasy Pixel Remaster Collection",
+      "Final Fantasy I-VI Pixel Remaster Collection",
+      "Final Fantasy Anniversary Edition"
+    ],
+    "f": "Final Fantasy",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
