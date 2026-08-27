@@ -10702,5 +10702,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch2_nintendo-switch-2",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo Switch 2",
+    "normalizedTitle": "nintendo switch 2",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

@@ -10791,5 +10791,20 @@
     "acquiredAt": null,
     "orderId": "order_mtav1znc",
     "updatedAt": "2026-08-27T01:45:20.690Z"
+  },
+  {
+    "id": "inv_switch2_nintendo-switch-2",
+    "gameId": "game_switch2_nintendo-switch-2",
+    "status": "owned",
+    "quantity": 1,
+    "condition": "very_good",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-27T01:48:50.197Z"
   }
 ]

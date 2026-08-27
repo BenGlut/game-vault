@@ -5050,5 +5050,15 @@
     "p": "switch2",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch2_nintendo-switch-2",
+    "t": "Nintendo Switch 2",
+    "n": "nintendo switch 2",
+    "a": [],
+    "f": null,
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-10T21:45:27.577Z",
-    "command": "add-game",
-    "message": "add game Pikmin 2 (gamecube)"
-  },
-  {
-    "at": "2026-08-10T21:45:29.009Z",
-    "command": "add-game",
-    "message": "add game Tales of Symphonia (gamecube)"
-  },
-  {
     "at": "2026-08-10T21:45:31.827Z",
     "command": "add-game",
     "message": "add game The Legend of Zelda: Twilight Princess (gamecube)"
@@ -2498,5 +2488,15 @@
     "at": "2026-08-27T01:45:20.609Z",
     "command": "add-order",
     "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-27T01:47:10.105Z",
+    "command": "add-game",
+    "message": "add game Nintendo Switch 2 (switch2)"
+  },
+  {
+    "at": "2026-08-27T01:48:50.141Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch2_nintendo-switch-2"
   }
 ]
