@@ -5037,5 +5037,18 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch2_final-fantasy-vii-remake-intergrade",
+    "t": "Final Fantasy VII Remake Intergrade",
+    "n": "final fantasy vii remake intergrade",
+    "a": [
+      "FF7 Remake Intergrade",
+      "Final Fantasy 7 Remake Intergrade"
+    ],
+    "f": "Final Fantasy",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

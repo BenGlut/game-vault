@@ -10773,5 +10773,23 @@
     "acquiredAt": null,
     "orderId": "order_mtaujfio",
     "updatedAt": "2026-08-27T01:30:54.676Z"
+  },
+  {
+    "id": "inv_switch2_final-fantasy-vii-remake-intergrade",
+    "gameId": "game_switch2_final-fantasy-vii-remake-intergrade",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "code_in_box",
+    "purchasePrice": {
+      "amount": 29.94,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtav1znc",
+    "updatedAt": "2026-08-27T01:45:20.690Z"
   }
 ]

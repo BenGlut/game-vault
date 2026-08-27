@@ -2014,5 +2014,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 50.95
+  },
+  {
+    "id": "order_mtav1znc",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch2_final-fantasy-vii-remake-intergrade"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch2_final-fantasy-vii-remake-intergrade",
+        "inventoryId": "inv_switch2_final-fantasy-vii-remake-intergrade",
+        "unitPrice": 29.94
+      }
+    ],
+    "orderedAt": "2026-08-27",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 29.94
   }
 ]

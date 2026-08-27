@@ -10677,5 +10677,30 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch2_final-fantasy-vii-remake-intergrade",
+    "kind": "game",
+    "canonicalTitle": "Final Fantasy VII Remake Intergrade",
+    "normalizedTitle": "final fantasy vii remake intergrade",
+    "aliases": [
+      "FF7 Remake Intergrade",
+      "Final Fantasy 7 Remake Intergrade"
+    ],
+    "franchise": "Final Fantasy",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2026,
+    "genres": [],
+    "edition": null,
+    "mediaType": "code_in_box",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
