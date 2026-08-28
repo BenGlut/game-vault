@@ -5085,5 +5085,15 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_spore",
+    "t": "Spore",
+    "n": "spore",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

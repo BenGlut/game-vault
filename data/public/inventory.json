@@ -3726,7 +3726,7 @@
   {
     "id": "inv_3ds_metroid-samus-returns",
     "gameId": "game_3ds_metroid-samus-returns",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3743,7 +3743,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4avc2",
-    "updatedAt": "2026-08-26T13:16:25.250Z"
+    "updatedAt": "2026-08-28T00:45:51.272Z"
   },
   {
     "id": "inv_3ds_kid-icarus-uprising",
@@ -4512,7 +4512,7 @@
   {
     "id": "inv_gamecube_metroid-prime",
     "gameId": "game_gamecube_metroid-prime",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4529,7 +4529,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtajjegz",
-    "updatedAt": "2026-08-26T20:22:57.543Z"
+    "updatedAt": "2026-08-28T00:45:48.912Z"
   },
   {
     "id": "inv_gamecube_luigi-s-mansion",
@@ -7452,7 +7452,7 @@
   {
     "id": "inv_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
     "gameId": "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7466,7 +7466,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-26T00:21:35.229Z"
+    "updatedAt": "2026-08-28T00:45:50.152Z"
   },
   {
     "id": "inv_3ds_sonic-generations",
@@ -8972,7 +8972,7 @@
   {
     "id": "inv_3ds_nintendo-2ds",
     "gameId": "game_3ds_nintendo-2ds",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8981,11 +8981,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mswervz2",
-    "updatedAt": "2026-08-17T23:59:52.021Z"
+    "updatedAt": "2026-08-28T00:45:47.712Z"
   },
   {
     "id": "inv_3ds_nintendo-3ds-xl-edition-animal-crossing",
@@ -9277,7 +9277,7 @@
   {
     "id": "inv_3ds_monster-hunter-4-ultimate",
     "gameId": "game_3ds_monster-hunter-4-ultimate",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9286,8 +9286,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-17T15:35:48.328Z"
+    "orderId": "order_mtc8cycv",
+    "updatedAt": "2026-08-28T00:45:33.295Z"
   },
   {
     "id": "inv_3ds_new-nintendo-3ds-noire",
@@ -9910,7 +9910,7 @@
   {
     "id": "inv_switch_super-mario-rpg",
     "gameId": "game_switch_super-mario-rpg",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9923,12 +9923,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt4efaga",
-    "updatedAt": "2026-08-22T13:13:10.573Z"
+    "updatedAt": "2026-08-28T00:45:52.635Z"
   },
   {
     "id": "inv_3ds_kingdom-hearts-3d-dream-drop-distance",
     "gameId": "game_3ds_kingdom-hearts-3d-dream-drop-distance",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9937,8 +9937,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-22T22:20:03.513Z"
+    "orderId": "order_mtc8cycv",
+    "updatedAt": "2026-08-28T00:45:33.302Z"
   },
   {
     "id": "inv_ds_kingdom-hearts-358-2-days",
@@ -10471,7 +10471,7 @@
   {
     "id": "inv_wii_link-s-crossbow-training",
     "gameId": "game_wii_link-s-crossbow-training",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10484,12 +10484,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-26T00:08:41.722Z"
+    "updatedAt": "2026-08-28T00:45:50.152Z"
   },
   {
     "id": "inv_wii_donkey-kong-country-returns",
     "gameId": "game_wii_donkey-kong-country-returns",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10502,12 +10502,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-26T00:08:41.722Z"
+    "updatedAt": "2026-08-28T00:45:50.152Z"
   },
   {
     "id": "inv_wii_mario-strikers-charged-football",
     "gameId": "game_wii_mario-strikers-charged-football",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10520,12 +10520,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-26T00:08:41.722Z"
+    "updatedAt": "2026-08-28T00:45:50.152Z"
   },
   {
     "id": "inv_wii_mario-kart-wii",
     "gameId": "game_wii_mario-kart-wii",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10538,12 +10538,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-26T00:08:41.722Z"
+    "updatedAt": "2026-08-28T00:45:50.152Z"
   },
   {
     "id": "inv_wii_the-legend-of-zelda-skyward-sword",
     "gameId": "game_wii_the-legend-of-zelda-skyward-sword",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10556,12 +10556,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-26T00:08:41.722Z"
+    "updatedAt": "2026-08-28T00:45:50.152Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-la-boite-de-pandore-2",
     "gameId": "game_ds_professeur-layton-et-la-boite-de-pandore",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10574,7 +10574,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-26T00:08:41.722Z"
+    "updatedAt": "2026-08-28T00:45:50.152Z"
   },
   {
     "id": "inv_wii_donkey-kong-country-returns-2",
@@ -10651,7 +10651,7 @@
   {
     "id": "inv_switch_nba-2k23",
     "gameId": "game_switch_nba-2k23",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10660,16 +10660,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mta4awme",
-    "updatedAt": "2026-08-26T20:24:00.200Z"
+    "updatedAt": "2026-08-28T00:45:46.010Z"
   },
   {
     "id": "inv_switch_splatoon-2",
     "gameId": "game_switch_splatoon-2",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10678,16 +10678,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mta4awme",
-    "updatedAt": "2026-08-26T20:24:00.201Z"
+    "updatedAt": "2026-08-28T00:45:46.011Z"
   },
   {
     "id": "inv_switch_the-legend-of-zelda-breath-of-the-wild-2",
     "gameId": "game_switch_the-legend-of-zelda-breath-of-the-wild",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10696,16 +10696,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mta4awme",
-    "updatedAt": "2026-08-26T20:24:00.201Z"
+    "updatedAt": "2026-08-28T00:45:46.011Z"
   },
   {
     "id": "inv_switch_mario-rabbids-kingdom-battle",
     "gameId": "game_switch_mario-rabbids-kingdom-battle",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10714,16 +10714,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mta4awme",
-    "updatedAt": "2026-08-26T20:24:00.201Z"
+    "updatedAt": "2026-08-28T00:45:46.011Z"
   },
   {
     "id": "inv_ds_kirby-mass-attack",
     "gameId": "game_ds_kirby-mass-attack",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10736,7 +10736,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtajjegz",
-    "updatedAt": "2026-08-26T20:22:57.543Z"
+    "updatedAt": "2026-08-28T00:45:48.913Z"
   },
   {
     "id": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d-2",
@@ -10824,5 +10824,23 @@
     "acquiredAt": null,
     "orderId": "order_mtavd21m",
     "updatedAt": "2026-08-27T01:57:43.785Z"
+  },
+  {
+    "id": "inv_ds_spore",
+    "gameId": "game_ds_spore",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 5.72,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtc8cycv",
+    "updatedAt": "2026-08-28T00:45:33.303Z"
   }
 ]
