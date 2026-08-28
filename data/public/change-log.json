@@ -1,35 +1,5 @@
 [
   {
-    "at": "2026-08-10T21:46:04.421Z",
-    "command": "add-game",
-    "message": "add game The Legend of Zelda: The Minish Cap (gba)"
-  },
-  {
-    "at": "2026-08-10T21:46:06.003Z",
-    "command": "add-game",
-    "message": "add game Pokémon Version Cristal (gbc)"
-  },
-  {
-    "at": "2026-08-10T22:05:52.364Z",
-    "command": "price-batch",
-    "message": "12 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/quotes/batch2.json"
-  },
-  {
-    "at": "2026-08-10T23:49:57.161Z",
-    "command": "add-game",
-    "message": "add game Perfect Dark (n64)"
-  },
-  {
-    "at": "2026-08-10T23:49:58.216Z",
-    "command": "price-batch",
-    "message": "2 price observations from /private/tmp/claude-501/-Users-benglut-Documents-GameVault/036ed961-dea8-4fb3-a295-df3b93ef4c87/scratchpad/quotes/pd.json"
-  },
-  {
-    "at": "2026-08-11T02:09:41.626Z",
-    "command": "add-game",
-    "message": "add game Super Mario Galaxy + Super Mario Galaxy 2 (switch)"
-  },
-  {
     "at": "2026-08-11T02:09:43.103Z",
     "command": "add-inventory",
     "message": "add inventory for game_switch_super-mario-galaxy-super-mario-galaxy-2"
@@ -2498,5 +2468,35 @@
     "at": "2026-08-28T00:45:52.675Z",
     "command": "ship-order",
     "message": "ship-order order_mt4efaga"
+  },
+  {
+    "at": "2026-08-28T10:09:36.645Z",
+    "command": "add-game",
+    "message": "add game Monster Hunter Rise (switch)"
+  },
+  {
+    "at": "2026-08-28T10:09:38.272Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-28T10:09:39.527Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-08-28T10:15:38.063Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtavd2q1"
+  },
+  {
+    "at": "2026-08-28T10:15:39.349Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtavd3c4"
+  },
+  {
+    "at": "2026-08-28T10:15:40.973Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtaujfio"
   }
 ]

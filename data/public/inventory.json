@@ -7921,7 +7921,7 @@
   {
     "id": "inv_switch_final-fantasy-vii",
     "gameId": "game_switch_final-fantasy-vii",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "CIB",
@@ -7929,14 +7929,14 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mtavd3c4",
-    "updatedAt": "2026-08-27T01:58:24.787Z"
+    "updatedAt": "2026-08-28T10:15:39.300Z"
   },
   {
     "id": "inv_switch_final-fantasy-viii-remastered",
     "gameId": "game_switch_final-fantasy-viii-remastered",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "CIB",
@@ -7944,29 +7944,29 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mtavd3c4",
-    "updatedAt": "2026-08-27T01:58:24.795Z"
+    "updatedAt": "2026-08-28T10:15:39.302Z"
   },
   {
     "id": "inv_switch_final-fantasy-ix",
     "gameId": "game_switch_final-fantasy-ix",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "verified",
+    "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:44.159Z"
+    "orderId": "order_mtcsie91",
+    "updatedAt": "2026-08-28T10:15:41.290Z"
   },
   {
     "id": "inv_switch_final-fantasy-x-x-2-hd-remaster",
     "gameId": "game_switch_final-fantasy-x-x-2-hd-remaster",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "code_in_box",
@@ -7974,9 +7974,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mtavd2q1",
-    "updatedAt": "2026-08-27T01:57:43.785Z"
+    "updatedAt": "2026-08-28T10:15:38.027Z"
   },
   {
     "id": "inv_switch_final-fantasy-xii-the-zodiac-age",
@@ -10759,7 +10759,7 @@
   {
     "id": "inv_switch_final-fantasy-i-vi-collection",
     "gameId": "game_switch_final-fantasy-i-vi-collection",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10768,11 +10768,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-27",
     "orderId": "order_mtaujfio",
-    "updatedAt": "2026-08-27T01:30:54.676Z"
+    "updatedAt": "2026-08-28T10:15:40.891Z"
   },
   {
     "id": "inv_switch2_final-fantasy-vii-remake-intergrade",
@@ -10842,5 +10842,23 @@
     "acquiredAt": null,
     "orderId": "order_mtc8cycv",
     "updatedAt": "2026-08-28T00:45:33.303Z"
+  },
+  {
+    "id": "inv_switch_monster-hunter-rise",
+    "gameId": "game_switch_monster-hunter-rise",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 26.12,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtcsid9h",
+    "updatedAt": "2026-08-28T10:09:38.220Z"
   }
 ]

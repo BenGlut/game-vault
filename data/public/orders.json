@@ -1995,7 +1995,7 @@
   {
     "id": "order_mtaujfio",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_final-fantasy-i-vi-collection"
@@ -2009,7 +2009,7 @@
     ],
     "orderedAt": "2026-08-27",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2064,7 +2064,7 @@
   {
     "id": "order_mtavd2q1",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_final-fantasy-x-x-2-hd-remaster"
@@ -2078,7 +2078,7 @@
     ],
     "orderedAt": "2026-08-27",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2087,7 +2087,7 @@
   {
     "id": "order_mtavd3c4",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 2,
     "gameIds": [
       "game_switch_final-fantasy-vii",
@@ -2107,7 +2107,7 @@
     ],
     "orderedAt": "2026-08-27",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2147,5 +2147,51 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 34.72
+  },
+  {
+    "id": "order_mtcsid9h",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_monster-hunter-rise"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_monster-hunter-rise",
+        "inventoryId": "inv_switch_monster-hunter-rise",
+        "unitPrice": 26.12
+      }
+    ],
+    "orderedAt": "2026-08-28",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 26.12
+  },
+  {
+    "id": "order_mtcsie91",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_final-fantasy-ix"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_final-fantasy-ix",
+        "inventoryId": "inv_switch_final-fantasy-ix",
+        "unitPrice": 49.98
+      }
+    ],
+    "orderedAt": "2026-08-28",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 49.98
   }
 ]

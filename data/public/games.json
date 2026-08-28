@@ -10783,5 +10783,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_monster-hunter-rise",
+    "kind": "game",
+    "canonicalTitle": "Monster Hunter Rise",
+    "normalizedTitle": "monster hunter rise",
+    "aliases": [],
+    "franchise": "Monster Hunter",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2021,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

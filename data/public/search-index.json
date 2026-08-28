@@ -5095,5 +5095,15 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_monster-hunter-rise",
+    "t": "Monster Hunter Rise",
+    "n": "monster hunter rise",
+    "a": [],
+    "f": "Monster Hunter",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
