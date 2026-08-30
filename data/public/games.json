@@ -10805,5 +10805,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ps3_playstation-3",
+    "kind": "hardware",
+    "canonicalTitle": "PlayStation 3",
+    "normalizedTitle": "playstation 3",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ps3",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

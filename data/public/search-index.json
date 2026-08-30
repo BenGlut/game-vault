@@ -5105,5 +5105,15 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ps3_playstation-3",
+    "t": "PlayStation 3",
+    "n": "playstation 3",
+    "a": [],
+    "f": null,
+    "p": "ps3",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

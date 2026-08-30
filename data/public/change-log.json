@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-11T02:09:43.103Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_super-mario-galaxy-super-mario-galaxy-2"
-  },
-  {
-    "at": "2026-08-11T02:24:47.294Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_luigi-s-mansion-3"
-  },
-  {
     "at": "2026-08-11T02:24:48.002Z",
     "command": "add-price",
     "message": "price observation for game_switch_luigi-s-mansion-3"
@@ -2498,5 +2488,15 @@
     "at": "2026-08-28T10:15:40.973Z",
     "command": "receive-order",
     "message": "receive-order order_mtaujfio"
+  },
+  {
+    "at": "2026-08-30T14:35:17.940Z",
+    "command": "add-game",
+    "message": "add game PlayStation 3 (ps3)"
+  },
+  {
+    "at": "2026-08-30T14:35:20.209Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ps3_playstation-3"
   }
 ]

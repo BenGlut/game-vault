@@ -10860,5 +10860,20 @@
     "acquiredAt": null,
     "orderId": "order_mtcsid9h",
     "updatedAt": "2026-08-28T10:09:38.220Z"
+  },
+  {
+    "id": "inv_ps3_playstation-3",
+    "gameId": "game_ps3_playstation-3",
+    "status": "owned",
+    "quantity": 1,
+    "condition": "very_good",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-08-30T14:35:20.282Z"
   }
 ]
