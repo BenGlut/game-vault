@@ -6993,7 +6993,7 @@
   {
     "id": "inv_gamecube_metroid-prime-2-echoes",
     "gameId": "game_gamecube_metroid-prime-2-echoes",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7002,8 +7002,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T21:45:24.031Z"
+    "orderId": "order_mtfz7wom",
+    "updatedAt": "2026-08-30T15:40:46.007Z"
   },
   {
     "id": "inv_gamecube_paper-mario-the-thousand-year-door",
@@ -10983,5 +10983,95 @@
     "acquiredAt": null,
     "orderId": "order_mtfx99tj",
     "updatedAt": "2026-08-30T14:45:50.460Z"
+  },
+  {
+    "id": "inv_wii_metroid-other-m",
+    "gameId": "game_wii_metroid-other-m",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 8.26,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfz7wom",
+    "updatedAt": "2026-08-30T15:40:46.009Z"
+  },
+  {
+    "id": "inv_ps1_die-hard-trilogy",
+    "gameId": "game_ps1_die-hard-trilogy",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 10.76,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfz7wom",
+    "updatedAt": "2026-08-30T15:40:46.010Z"
+  },
+  {
+    "id": "inv_ps3_dead-space-2",
+    "gameId": "game_ps3_dead-space-2",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 4.92,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfz7wom",
+    "updatedAt": "2026-08-30T15:40:46.010Z"
+  },
+  {
+    "id": "inv_ps3_vanquish",
+    "gameId": "game_ps3_vanquish",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 4.92,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfz7wom",
+    "updatedAt": "2026-08-30T15:40:46.010Z"
+  },
+  {
+    "id": "inv_ps3_call-of-duty-modern-warfare-3",
+    "gameId": "game_ps3_call-of-duty-modern-warfare-3",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 2.42,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfz7wom",
+    "updatedAt": "2026-08-30T15:40:46.010Z"
   }
 ]

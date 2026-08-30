@@ -2246,5 +2246,58 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 24.58
+  },
+  {
+    "id": "order_mtfz7wom",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 6,
+    "gameIds": [
+      "game_gamecube_metroid-prime-2-echoes",
+      "game_wii_metroid-other-m",
+      "game_ps1_die-hard-trilogy",
+      "game_ps3_dead-space-2",
+      "game_ps3_vanquish",
+      "game_ps3_call-of-duty-modern-warfare-3"
+    ],
+    "items": [
+      {
+        "gameId": "game_gamecube_metroid-prime-2-echoes",
+        "inventoryId": "inv_gamecube_metroid-prime-2-echoes",
+        "unitPrice": 29.11
+      },
+      {
+        "gameId": "game_wii_metroid-other-m",
+        "inventoryId": "inv_wii_metroid-other-m",
+        "unitPrice": 8.26
+      },
+      {
+        "gameId": "game_ps1_die-hard-trilogy",
+        "inventoryId": "inv_ps1_die-hard-trilogy",
+        "unitPrice": 10.76
+      },
+      {
+        "gameId": "game_ps3_dead-space-2",
+        "inventoryId": "inv_ps3_dead-space-2",
+        "unitPrice": 4.92
+      },
+      {
+        "gameId": "game_ps3_vanquish",
+        "inventoryId": "inv_ps3_vanquish",
+        "unitPrice": 4.92
+      },
+      {
+        "gameId": "game_ps3_call-of-duty-modern-warfare-3",
+        "inventoryId": "inv_ps3_call-of-duty-modern-warfare-3",
+        "unitPrice": 2.42
+      }
+    ],
+    "orderedAt": "2026-08-30",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 60.39
   }
 ]

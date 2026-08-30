@@ -1,35 +1,5 @@
 [
   {
-    "at": "2026-08-11T21:05:47.309Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-11T21:33:06.975Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_kirby-super-star-ultra"
-  },
-  {
-    "at": "2026-08-11T21:33:08.021Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_kirby-super-star-ultra"
-  },
-  {
-    "at": "2026-08-11T21:36:33.774Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_castlevania-dawn-of-sorrow"
-  },
-  {
-    "at": "2026-08-11T21:36:41.374Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_castlevania-dawn-of-sorrow"
-  },
-  {
-    "at": "2026-08-11T21:36:50.080Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_ghost-trick-detective-fantome"
-  },
-  {
     "at": "2026-08-11T21:36:53.683Z",
     "command": "add-price",
     "message": "price observation for game_ds_ghost-trick-detective-fantome"
@@ -2496,6 +2466,36 @@
   },
   {
     "at": "2026-08-30T14:45:50.674Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-30T15:39:24.909Z",
+    "command": "add-game",
+    "message": "add game Metroid: Other M (wii)"
+  },
+  {
+    "at": "2026-08-30T15:39:32.091Z",
+    "command": "add-game",
+    "message": "add game Die Hard Trilogy (ps1)"
+  },
+  {
+    "at": "2026-08-30T15:39:34.855Z",
+    "command": "add-game",
+    "message": "add game Dead Space 2 (ps3)"
+  },
+  {
+    "at": "2026-08-30T15:39:36.987Z",
+    "command": "add-game",
+    "message": "add game Vanquish (ps3)"
+  },
+  {
+    "at": "2026-08-30T15:39:39.901Z",
+    "command": "add-game",
+    "message": "add game Call of Duty: Modern Warfare 3 (ps3)"
+  },
+  {
+    "at": "2026-08-30T15:40:46.191Z",
     "command": "add-order",
     "message": "add order vinted"
   }

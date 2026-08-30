@@ -10959,5 +10959,115 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_wii_metroid-other-m",
+    "kind": "game",
+    "canonicalTitle": "Metroid: Other M",
+    "normalizedTitle": "metroid other m",
+    "aliases": [],
+    "franchise": "Metroid",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2010,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ps1_die-hard-trilogy",
+    "kind": "game",
+    "canonicalTitle": "Die Hard Trilogy",
+    "normalizedTitle": "die hard trilogy",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ps1",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 1996,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ps3_dead-space-2",
+    "kind": "game",
+    "canonicalTitle": "Dead Space 2",
+    "normalizedTitle": "dead space 2",
+    "aliases": [],
+    "franchise": "Dead Space",
+    "platformId": "ps3",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ps3_vanquish",
+    "kind": "game",
+    "canonicalTitle": "Vanquish",
+    "normalizedTitle": "vanquish",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ps3",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2010,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ps3_call-of-duty-modern-warfare-3",
+    "kind": "game",
+    "canonicalTitle": "Call of Duty: Modern Warfare 3",
+    "normalizedTitle": "call of duty modern warfare 3",
+    "aliases": [],
+    "franchise": "Call of Duty",
+    "platformId": "ps3",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

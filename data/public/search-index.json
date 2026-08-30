@@ -5175,5 +5175,55 @@
     "p": "wii",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_wii_metroid-other-m",
+    "t": "Metroid: Other M",
+    "n": "metroid other m",
+    "a": [],
+    "f": "Metroid",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ps1_die-hard-trilogy",
+    "t": "Die Hard Trilogy",
+    "n": "die hard trilogy",
+    "a": [],
+    "f": null,
+    "p": "ps1",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ps3_dead-space-2",
+    "t": "Dead Space 2",
+    "n": "dead space 2",
+    "a": [],
+    "f": "Dead Space",
+    "p": "ps3",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ps3_vanquish",
+    "t": "Vanquish",
+    "n": "vanquish",
+    "a": [],
+    "f": null,
+    "p": "ps3",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ps3_call-of-duty-modern-warfare-3",
+    "t": "Call of Duty: Modern Warfare 3",
+    "n": "call of duty modern warfare 3",
+    "a": [],
+    "f": "Call of Duty",
+    "p": "ps3",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

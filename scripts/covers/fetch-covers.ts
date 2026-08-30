@@ -32,6 +32,10 @@ const REPOS: Record<string, string> = {
   gbc: "Nintendo_-_Game_Boy_Color",
   snes: "Nintendo_-_Super_Nintendo_Entertainment_System",
   xbox360: "Microsoft_-_Xbox_360",
+  ps1: "Sony_-_PlayStation",
+  ps2: "Sony_-_PlayStation_2",
+  ps3: "Sony_-_PlayStation_3",
+  psp: "Sony_-_PlayStation_Portable",
   // xboxone : pas de repo libretro
   // switch : pas de repo libretro — icônes via titledb (voir scripts/catalog/fetch-switch.ts)
 };
