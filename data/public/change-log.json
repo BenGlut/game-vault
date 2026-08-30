@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-11T21:36:53.683Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_ghost-trick-detective-fantome"
-  },
-  {
-    "at": "2026-08-11T21:39:32.993Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_professeur-layton-et-le-destin-perdu"
-  },
-  {
     "at": "2026-08-11T21:39:34.661Z",
     "command": "add-price",
     "message": "price observation for game_ds_professeur-layton-et-le-destin-perdu"
@@ -2498,5 +2488,15 @@
     "at": "2026-08-30T15:40:46.191Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-08-30T21:31:44.903Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtfz7wom"
+  },
+  {
+    "at": "2026-08-30T21:32:06.591Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtc8cycv"
   }
 ]

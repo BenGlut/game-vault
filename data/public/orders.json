@@ -2116,7 +2116,7 @@
   {
     "id": "order_mtc8cycv",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 3,
     "gameIds": [
       "game_3ds_monster-hunter-4-ultimate",
@@ -2141,7 +2141,7 @@
       }
     ],
     "orderedAt": "2026-08-27",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-29",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2250,7 +2250,7 @@
   {
     "id": "order_mtfz7wom",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 6,
     "gameIds": [
       "game_gamecube_metroid-prime-2-echoes",
@@ -2293,7 +2293,7 @@
       }
     ],
     "orderedAt": "2026-08-30",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-30",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
