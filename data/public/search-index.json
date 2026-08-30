@@ -5115,5 +5115,65 @@
     "p": "ps3",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_wii_metroid-prime-3-corruption",
+    "t": "Metroid Prime 3: Corruption",
+    "n": "metroid prime 3 corruption",
+    "a": [],
+    "f": "Metroid",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_call-of-duty-modern-warfare-3",
+    "t": "Call of Duty: Modern Warfare 3",
+    "n": "call of duty modern warfare 3",
+    "a": [],
+    "f": "Call of Duty",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_michael-jackson-the-experience",
+    "t": "Michael Jackson: The Experience",
+    "n": "michael jackson the experience",
+    "a": [],
+    "f": null,
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_just-dance",
+    "t": "Just Dance",
+    "n": "just dance",
+    "a": [],
+    "f": "Just Dance",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_guitar-hero-5",
+    "t": "Guitar Hero 5",
+    "n": "guitar hero 5",
+    "a": [],
+    "f": "Guitar Hero",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_tony-hawk-shred",
+    "t": "Tony Hawk: Shred",
+    "n": "tony hawk shred",
+    "a": [],
+    "f": "Tony Hawk",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

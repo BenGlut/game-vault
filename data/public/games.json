@@ -10827,5 +10827,137 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_wii_metroid-prime-3-corruption",
+    "kind": "game",
+    "canonicalTitle": "Metroid Prime 3: Corruption",
+    "normalizedTitle": "metroid prime 3 corruption",
+    "aliases": [],
+    "franchise": "Metroid",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_call-of-duty-modern-warfare-3",
+    "kind": "game",
+    "canonicalTitle": "Call of Duty: Modern Warfare 3",
+    "normalizedTitle": "call of duty modern warfare 3",
+    "aliases": [],
+    "franchise": "Call of Duty",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_michael-jackson-the-experience",
+    "kind": "game",
+    "canonicalTitle": "Michael Jackson: The Experience",
+    "normalizedTitle": "michael jackson the experience",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2010,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_just-dance",
+    "kind": "game",
+    "canonicalTitle": "Just Dance",
+    "normalizedTitle": "just dance",
+    "aliases": [],
+    "franchise": "Just Dance",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_guitar-hero-5",
+    "kind": "game",
+    "canonicalTitle": "Guitar Hero 5",
+    "normalizedTitle": "guitar hero 5",
+    "aliases": [],
+    "franchise": "Guitar Hero",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_tony-hawk-shred",
+    "kind": "game",
+    "canonicalTitle": "Tony Hawk: Shred",
+    "normalizedTitle": "tony hawk shred",
+    "aliases": [],
+    "franchise": "Tony Hawk",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2010,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

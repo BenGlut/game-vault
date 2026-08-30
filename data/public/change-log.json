@@ -1,40 +1,5 @@
 [
   {
-    "at": "2026-08-11T02:24:48.002Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_luigi-s-mansion-3"
-  },
-  {
-    "at": "2026-08-11T02:24:48.650Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_super-mario-odyssey"
-  },
-  {
-    "at": "2026-08-11T02:24:49.314Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_super-mario-odyssey"
-  },
-  {
-    "at": "2026-08-11T11:48:42.110Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-11T20:04:06.317Z",
-    "command": "receive-order",
-    "message": "receive-order order_msl7d7y3"
-  },
-  {
-    "at": "2026-08-11T20:04:07.231Z",
-    "command": "receive-order",
-    "message": "receive-order order_msly29ix"
-  },
-  {
-    "at": "2026-08-11T20:30:17.018Z",
-    "command": "receive-order",
-    "message": "receive-order order_msjq50c0"
-  },
-  {
     "at": "2026-08-11T21:05:47.309Z",
     "command": "add-order",
     "message": "add order vinted"
@@ -2498,5 +2463,40 @@
     "at": "2026-08-30T14:35:20.209Z",
     "command": "add-inventory",
     "message": "add inventory for game_ps3_playstation-3"
+  },
+  {
+    "at": "2026-08-30T14:44:38.635Z",
+    "command": "add-game",
+    "message": "add game Metroid Prime 3: Corruption (wii)"
+  },
+  {
+    "at": "2026-08-30T14:44:42.941Z",
+    "command": "add-game",
+    "message": "add game Call of Duty: Modern Warfare 3 (wii)"
+  },
+  {
+    "at": "2026-08-30T14:44:45.841Z",
+    "command": "add-game",
+    "message": "add game Michael Jackson: The Experience (wii)"
+  },
+  {
+    "at": "2026-08-30T14:44:48.832Z",
+    "command": "add-game",
+    "message": "add game Just Dance (wii)"
+  },
+  {
+    "at": "2026-08-30T14:44:51.313Z",
+    "command": "add-game",
+    "message": "add game Guitar Hero 5 (wii)"
+  },
+  {
+    "at": "2026-08-30T14:44:53.915Z",
+    "command": "add-game",
+    "message": "add game Tony Hawk: Shred (wii)"
+  },
+  {
+    "at": "2026-08-30T14:45:50.674Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]

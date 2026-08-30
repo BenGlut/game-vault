@@ -10875,5 +10875,113 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-08-30T14:35:20.282Z"
+  },
+  {
+    "id": "inv_wii_metroid-prime-3-corruption",
+    "gameId": "game_wii_metroid-prime-3-corruption",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 6.96,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfx99tj",
+    "updatedAt": "2026-08-30T14:45:50.460Z"
+  },
+  {
+    "id": "inv_wii_michael-jackson-the-experience",
+    "gameId": "game_wii_michael-jackson-the-experience",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 4.64,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfx99tj",
+    "updatedAt": "2026-08-30T14:45:50.460Z"
+  },
+  {
+    "id": "inv_wii_call-of-duty-modern-warfare-3",
+    "gameId": "game_wii_call-of-duty-modern-warfare-3",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 4.17,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfx99tj",
+    "updatedAt": "2026-08-30T14:45:50.460Z"
+  },
+  {
+    "id": "inv_wii_just-dance",
+    "gameId": "game_wii_just-dance",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 3.24,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfx99tj",
+    "updatedAt": "2026-08-30T14:45:50.460Z"
+  },
+  {
+    "id": "inv_wii_guitar-hero-5",
+    "gameId": "game_wii_guitar-hero-5",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 3.25,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfx99tj",
+    "updatedAt": "2026-08-30T14:45:50.460Z"
+  },
+  {
+    "id": "inv_wii_tony-hawk-shred",
+    "gameId": "game_wii_tony-hawk-shred",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 2.32,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtfx99tj",
+    "updatedAt": "2026-08-30T14:45:50.460Z"
   }
 ]

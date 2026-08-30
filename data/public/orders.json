@@ -2193,5 +2193,58 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 49.98
+  },
+  {
+    "id": "order_mtfx99tj",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 6,
+    "gameIds": [
+      "game_wii_metroid-prime-3-corruption",
+      "game_wii_michael-jackson-the-experience",
+      "game_wii_call-of-duty-modern-warfare-3",
+      "game_wii_just-dance",
+      "game_wii_guitar-hero-5",
+      "game_wii_tony-hawk-shred"
+    ],
+    "items": [
+      {
+        "gameId": "game_wii_metroid-prime-3-corruption",
+        "inventoryId": "inv_wii_metroid-prime-3-corruption",
+        "unitPrice": 6.96
+      },
+      {
+        "gameId": "game_wii_michael-jackson-the-experience",
+        "inventoryId": "inv_wii_michael-jackson-the-experience",
+        "unitPrice": 4.64
+      },
+      {
+        "gameId": "game_wii_call-of-duty-modern-warfare-3",
+        "inventoryId": "inv_wii_call-of-duty-modern-warfare-3",
+        "unitPrice": 4.17
+      },
+      {
+        "gameId": "game_wii_just-dance",
+        "inventoryId": "inv_wii_just-dance",
+        "unitPrice": 3.24
+      },
+      {
+        "gameId": "game_wii_guitar-hero-5",
+        "inventoryId": "inv_wii_guitar-hero-5",
+        "unitPrice": 3.25
+      },
+      {
+        "gameId": "game_wii_tony-hawk-shred",
+        "inventoryId": "inv_wii_tony-hawk-shred",
+        "unitPrice": 2.32
+      }
+    ],
+    "orderedAt": "2026-08-29",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 24.58
   }
 ]
