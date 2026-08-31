@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T21:34:12.427Z",
+  "generatedAt": "2026-08-31T00:03:52.941Z",
   "totalGames": 478,
   "totalHardware": 9,
   "ownedHardware": 9,
@@ -9,7 +9,7 @@
     "delivered": 98,
     "fulfilled": 16,
     "wishlist": 0,
-    "refunded": 15,
+    "refunded": 14,
     "cancelled": 1,
     "ordered": 13
   },

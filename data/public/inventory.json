@@ -7374,7 +7374,7 @@
     "id": "inv_ds_yoshi-touch-go",
     "gameId": "game_ds_yoshi-touch-go",
     "status": "refunded",
-    "quantity": 1,
+    "quantity": 0,
     "condition": "good",
     "completeness": "no_manual",
     "purchasePrice": {
@@ -7387,7 +7387,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_msq9al2g",
-    "updatedAt": "2026-08-18T00:00:00.850Z"
+    "updatedAt": "2026-08-31T00:01:19.147Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-l-appel-du-spectre",
