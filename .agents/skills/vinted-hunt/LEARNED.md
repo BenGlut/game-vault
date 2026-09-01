@@ -198,3 +198,29 @@ complet. Ouvrir les annonces, ne jamais se fier au seul titre.
 toujours — délai, retour 30 jours, facture, et aucun risque de contrefaçon. Ce
 dernier point n'est pas théorique : deux cartouches défectueuses ou absentes en un
 mois (Phantom Hourglass, Boîte de Pandore).
+
+## 2026-09-01 — Ne jamais annoncer un écart à partir de PriceCharting seul
+
+benglut : *« je n'ai jamais vu "Layton l'Étrange Village" a 4.37 euro en version FR
+ni Layton et le Destin Perdu a 8.14 »*.
+
+J'avais annoncé qu'un vendeur était à **+243 %** et **+109 %** au-dessus de la cote,
+sur la base des chiffres PriceCharting PAL stockés en base. Relevé Vinted France :
+
+| Jeu | PriceCharting | Marché FR réel | Écart réel |
+|---|---|---|---|
+| Layton l'Étrange Village | 4,37 € | **~12,50 €** | +20 % au lieu de +243 % |
+| Layton le Destin Perdu | 8,14 € | **~14,30 €** | +19 % au lieu de +109 % |
+
+Le sens du jugement était bon (vendeur au-dessus du marché), la magnitude était
+fausse d'un facteur 10. Un écart faux à ce point détruit la crédibilité de tout le
+reste de l'analyse — et benglut, qui connaît ses prix, le voit immédiatement.
+
+**Règle** : un écart en pourcentage ne s'annonce QUE sur un relevé Vinted France du
+jour. PriceCharting sert à ordonner des titres entre eux, jamais à chiffrer une
+affaire. Quand le relevé FR n'est pas disponible, dire « je n'ai pas de référence
+française » plutôt que de sortir un pourcentage.
+
+**Rappel de filtrage** : dans un relevé Vinted, exclure les boîtes vides, les
+« boîte + notice » sans cartouche, les notices seules et les cartes VIP — sinon la
+médiane s'effondre artificiellement. C'est ce qui a gonflé l'erreur ici.
