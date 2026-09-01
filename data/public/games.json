@@ -11091,5 +11091,51 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_might-magic-clash-of-heroes",
+    "kind": "game",
+    "canonicalTitle": "Might & Magic: Clash of Heroes",
+    "normalizedTitle": "might magic clash of heroes",
+    "aliases": [
+      "Clash of Heroes"
+    ],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_mario-sports-superstars",
+    "kind": "game",
+    "canonicalTitle": "Mario Sports Superstars",
+    "normalizedTitle": "mario sports superstars",
+    "aliases": [],
+    "franchise": "Mario",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2017,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

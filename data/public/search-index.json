@@ -5235,5 +5235,27 @@
     "p": "switch2",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_might-magic-clash-of-heroes",
+    "t": "Might & Magic: Clash of Heroes",
+    "n": "might magic clash of heroes",
+    "a": [
+      "Clash of Heroes"
+    ],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_mario-sports-superstars",
+    "t": "Mario Sports Superstars",
+    "n": "mario sports superstars",
+    "a": [],
+    "f": "Mario",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

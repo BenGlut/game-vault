@@ -2322,5 +2322,46 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 44.99
+  },
+  {
+    "id": "order_mtj3x835",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 4,
+    "gameIds": [
+      "game_ds_might-magic-clash-of-heroes",
+      "game_ds_professeur-layton-et-le-destin-perdu",
+      "game_3ds_mario-sports-superstars",
+      "game_ds_professeur-layton-et-l-etrange-village"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_might-magic-clash-of-heroes",
+        "inventoryId": "inv_ds_might-magic-clash-of-heroes",
+        "unitPrice": 20.28
+      },
+      {
+        "gameId": "game_ds_professeur-layton-et-le-destin-perdu",
+        "inventoryId": "inv_ds_professeur-layton-et-le-destin-perdu",
+        "unitPrice": 17.24
+      },
+      {
+        "gameId": "game_3ds_mario-sports-superstars",
+        "inventoryId": "inv_3ds_mario-sports-superstars",
+        "unitPrice": 12.17
+      },
+      {
+        "gameId": "game_ds_professeur-layton-et-l-etrange-village",
+        "inventoryId": "inv_ds_professeur-layton-et-l-etrange-village-2",
+        "unitPrice": 15.21
+      }
+    ],
+    "orderedAt": "2026-09-01",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 64.9
   }
 ]
