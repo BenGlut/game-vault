@@ -11137,5 +11137,51 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
+    "kind": "game",
+    "canonicalTitle": "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
+    "normalizedTitle": "le monde de narnia le lion la sorciere blanche et l armoire magique",
+    "aliases": [],
+    "franchise": "Le Monde de Narnia",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2005,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_violetta-rythme-et-musique",
+    "kind": "game",
+    "canonicalTitle": "Violetta : Rythme et Musique",
+    "normalizedTitle": "violetta rythme et musique",
+    "aliases": [
+      "Violetta"
+    ],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2015,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

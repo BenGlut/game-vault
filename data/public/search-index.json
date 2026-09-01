@@ -5257,5 +5257,27 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
+    "t": "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
+    "n": "le monde de narnia le lion la sorciere blanche et l armoire magique",
+    "a": [],
+    "f": "Le Monde de Narnia",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_violetta-rythme-et-musique",
+    "t": "Violetta : Rythme et Musique",
+    "n": "violetta rythme et musique",
+    "a": [
+      "Violetta"
+    ],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
