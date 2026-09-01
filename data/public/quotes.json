@@ -5201,6 +5201,24 @@
       "observedAt": "2026-08-26"
     }
   },
+  "game_ds_final-fantasy-xii-revenant-wings": {
+    "cib": {
+      "low": 16.76,
+      "median": 16.76,
+      "high": 16.76,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-09-01"
+    },
+    "loose": {
+      "low": 13.91,
+      "median": 13.91,
+      "high": 13.91,
+      "currency": "EUR",
+      "source": "pricecharting",
+      "observedAt": "2026-09-01"
+    }
+  },
   "game_3ds_final-fantasy-explorers": {
     "cib": {
       "low": 13.24,
