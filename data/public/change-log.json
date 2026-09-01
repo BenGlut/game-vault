@@ -1,55 +1,5 @@
 [
   {
-    "at": "2026-08-11T21:39:34.661Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_professeur-layton-et-le-destin-perdu"
-  },
-  {
-    "at": "2026-08-11T21:44:38.282Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_professeur-layton-et-la-boite-de-pandore"
-  },
-  {
-    "at": "2026-08-12T11:09:22.765Z",
-    "command": "add-price",
-    "message": "price observation for game_3ds_bravely-default"
-  },
-  {
-    "at": "2026-08-12T11:09:23.568Z",
-    "command": "add-price",
-    "message": "price observation for game_3ds_bravely-default"
-  },
-  {
-    "at": "2026-08-12T15:40:39.477Z",
-    "command": "add-game",
-    "message": "add game Yoshi Touch & Go (ds)"
-  },
-  {
-    "at": "2026-08-12T15:40:46.554Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-12T15:40:52.783Z",
-    "command": "set-status",
-    "message": "set inv_ds_yoshi-touch-go -> ordered"
-  },
-  {
-    "at": "2026-08-12T15:41:10.229Z",
-    "command": "update-order",
-    "message": "update order_msq9al2g"
-  },
-  {
-    "at": "2026-08-12T15:42:43.924Z",
-    "command": "update-order",
-    "message": "update order_msp5gpav"
-  },
-  {
-    "at": "2026-08-12T15:42:45.902Z",
-    "command": "update-order",
-    "message": "update order_msolka8w"
-  },
-  {
     "at": "2026-08-12T15:42:47.703Z",
     "command": "update-order",
     "message": "update order_msnmbf0g"
@@ -2498,5 +2448,55 @@
     "at": "2026-08-30T21:32:06.591Z",
     "command": "ship-order",
     "message": "ship-order order_mtc8cycv"
+  },
+  {
+    "at": "2026-09-01T18:09:03.646Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtc8cycv"
+  },
+  {
+    "at": "2026-09-01T18:09:04.701Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtfx99tj"
+  },
+  {
+    "at": "2026-09-01T18:09:05.547Z",
+    "command": "ship-order",
+    "message": "ship-order order_mta4auid"
+  },
+  {
+    "at": "2026-09-01T18:36:08.906Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtavd21m"
+  },
+  {
+    "at": "2026-09-01T18:36:10.207Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtav1znc"
+  },
+  {
+    "at": "2026-09-01T18:36:11.353Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtcsie91"
+  },
+  {
+    "at": "2026-09-01T18:36:12.433Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtcsid9h"
+  },
+  {
+    "at": "2026-09-01T18:36:14.112Z",
+    "command": "add-game",
+    "message": "add game Final Fantasy VII Rebirth (switch2)"
+  },
+  {
+    "at": "2026-09-01T18:36:20.685Z",
+    "command": "add-order",
+    "message": "add order amazon"
+  },
+  {
+    "at": "2026-09-01T18:41:34.725Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtj0dem0"
   }
 ]

@@ -1832,7 +1832,7 @@
   {
     "id": "order_mta4auid",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 4,
     "gameIds": [
       "game_wii_donkey-kong-country-returns",
@@ -1863,7 +1863,7 @@
       }
     ],
     "orderedAt": "2026-08-26",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-31",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2018,7 +2018,7 @@
   {
     "id": "order_mtav1znc",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch2_final-fantasy-vii-remake-intergrade"
@@ -2032,7 +2032,7 @@
     ],
     "orderedAt": "2026-08-27",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-31",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2041,7 +2041,7 @@
   {
     "id": "order_mtavd21m",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_crisis-core-final-fantasy-vii-reunion"
@@ -2055,7 +2055,7 @@
     ],
     "orderedAt": "2026-08-27",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-28",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2116,7 +2116,7 @@
   {
     "id": "order_mtc8cycv",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 3,
     "gameIds": [
       "game_3ds_monster-hunter-4-ultimate",
@@ -2142,7 +2142,7 @@
     ],
     "orderedAt": "2026-08-27",
     "fulfilledAt": "2026-08-29",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-01",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2151,7 +2151,7 @@
   {
     "id": "order_mtcsid9h",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_monster-hunter-rise"
@@ -2165,7 +2165,7 @@
     ],
     "orderedAt": "2026-08-28",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-31",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2174,7 +2174,7 @@
   {
     "id": "order_mtcsie91",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_final-fantasy-ix"
@@ -2188,7 +2188,7 @@
     ],
     "orderedAt": "2026-08-28",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-31",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2197,7 +2197,7 @@
   {
     "id": "order_mtfx99tj",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 6,
     "gameIds": [
       "game_wii_metroid-prime-3-corruption",
@@ -2240,7 +2240,7 @@
       }
     ],
     "orderedAt": "2026-08-29",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-08-31",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2299,5 +2299,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 60.39
+  },
+  {
+    "id": "order_mtj0dem0",
+    "marketplace": "amazon",
+    "status": "delivered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch2_final-fantasy-vii-rebirth"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch2_final-fantasy-vii-rebirth",
+        "inventoryId": "inv_switch2_final-fantasy-vii-rebirth",
+        "unitPrice": 44.99
+      }
+    ],
+    "orderedAt": "2026-08-30",
+    "fulfilledAt": null,
+    "deliveredAt": "2026-08-31",
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 44.99
   }
 ]

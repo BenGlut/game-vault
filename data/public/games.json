@@ -11069,5 +11069,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch2_final-fantasy-vii-rebirth",
+    "kind": "game",
+    "canonicalTitle": "Final Fantasy VII Rebirth",
+    "normalizedTitle": "final fantasy vii rebirth",
+    "aliases": [],
+    "franchise": "Final Fantasy",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2026,
+    "genres": [],
+    "edition": null,
+    "mediaType": "code_in_box",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

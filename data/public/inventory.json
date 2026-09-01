@@ -7951,17 +7951,17 @@
   {
     "id": "inv_switch_final-fantasy-ix",
     "gameId": "game_switch_final-fantasy-ix",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-31",
     "orderId": "order_mtcsie91",
-    "updatedAt": "2026-08-28T10:15:41.290Z"
+    "updatedAt": "2026-09-01T18:36:11.310Z"
   },
   {
     "id": "inv_switch_final-fantasy-x-x-2-hd-remaster",
@@ -9277,7 +9277,7 @@
   {
     "id": "inv_3ds_monster-hunter-4-ultimate",
     "gameId": "game_3ds_monster-hunter-4-ultimate",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9285,9 +9285,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-01",
     "orderId": "order_mtc8cycv",
-    "updatedAt": "2026-08-30T21:32:04.378Z"
+    "updatedAt": "2026-09-01T18:09:03.619Z"
   },
   {
     "id": "inv_3ds_new-nintendo-3ds-noire",
@@ -9928,7 +9928,7 @@
   {
     "id": "inv_3ds_kingdom-hearts-3d-dream-drop-distance",
     "gameId": "game_3ds_kingdom-hearts-3d-dream-drop-distance",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9936,9 +9936,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-01",
     "orderId": "order_mtc8cycv",
-    "updatedAt": "2026-08-30T21:32:04.430Z"
+    "updatedAt": "2026-09-01T18:09:03.623Z"
   },
   {
     "id": "inv_ds_kingdom-hearts-358-2-days",
@@ -10579,7 +10579,7 @@
   {
     "id": "inv_wii_donkey-kong-country-returns-2",
     "gameId": "game_wii_donkey-kong-country-returns",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10592,12 +10592,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4auid",
-    "updatedAt": "2026-08-26T13:16:24.182Z"
+    "updatedAt": "2026-09-01T18:09:05.524Z"
   },
   {
     "id": "inv_wii_the-legend-of-zelda-twilight-princess",
     "gameId": "game_wii_the-legend-of-zelda-twilight-princess",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10610,12 +10610,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4auid",
-    "updatedAt": "2026-08-26T13:16:24.183Z"
+    "updatedAt": "2026-09-01T18:09:05.526Z"
   },
   {
     "id": "inv_wii_super-mario-galaxy",
     "gameId": "game_wii_super-mario-galaxy",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10628,12 +10628,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4auid",
-    "updatedAt": "2026-08-26T13:16:24.183Z"
+    "updatedAt": "2026-09-01T18:09:05.526Z"
   },
   {
     "id": "inv_wii_super-mario-galaxy-2",
     "gameId": "game_wii_super-mario-galaxy-2",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10646,7 +10646,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mta4auid",
-    "updatedAt": "2026-08-26T13:16:24.183Z"
+    "updatedAt": "2026-09-01T18:09:05.526Z"
   },
   {
     "id": "inv_switch_nba-2k23",
@@ -10777,7 +10777,7 @@
   {
     "id": "inv_switch2_final-fantasy-vii-remake-intergrade",
     "gameId": "game_switch2_final-fantasy-vii-remake-intergrade",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "code_in_box",
@@ -10786,11 +10786,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-31",
     "orderId": "order_mtav1znc",
-    "updatedAt": "2026-08-27T01:45:20.690Z"
+    "updatedAt": "2026-09-01T18:36:10.103Z"
   },
   {
     "id": "inv_switch2_nintendo-switch-2",
@@ -10810,7 +10810,7 @@
   {
     "id": "inv_switch_crisis-core-final-fantasy-vii-reunion",
     "gameId": "game_switch_crisis-core-final-fantasy-vii-reunion",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "CIB",
@@ -10819,16 +10819,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-28",
     "orderId": "order_mtavd21m",
-    "updatedAt": "2026-08-27T01:57:43.785Z"
+    "updatedAt": "2026-09-01T18:36:08.878Z"
   },
   {
     "id": "inv_ds_spore",
     "gameId": "game_ds_spore",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10837,16 +10837,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-01",
     "orderId": "order_mtc8cycv",
-    "updatedAt": "2026-08-30T21:32:04.430Z"
+    "updatedAt": "2026-09-01T18:09:03.623Z"
   },
   {
     "id": "inv_switch_monster-hunter-rise",
     "gameId": "game_switch_monster-hunter-rise",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10855,11 +10855,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-31",
     "orderId": "order_mtcsid9h",
-    "updatedAt": "2026-08-28T10:09:38.220Z"
+    "updatedAt": "2026-09-01T18:36:12.403Z"
   },
   {
     "id": "inv_ps3_playstation-3",
@@ -10879,7 +10879,7 @@
   {
     "id": "inv_wii_metroid-prime-3-corruption",
     "gameId": "game_wii_metroid-prime-3-corruption",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10892,12 +10892,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtfx99tj",
-    "updatedAt": "2026-08-30T14:45:50.460Z"
+    "updatedAt": "2026-09-01T18:09:04.677Z"
   },
   {
     "id": "inv_wii_michael-jackson-the-experience",
     "gameId": "game_wii_michael-jackson-the-experience",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10910,12 +10910,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtfx99tj",
-    "updatedAt": "2026-08-30T14:45:50.460Z"
+    "updatedAt": "2026-09-01T18:09:04.678Z"
   },
   {
     "id": "inv_wii_call-of-duty-modern-warfare-3",
     "gameId": "game_wii_call-of-duty-modern-warfare-3",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10928,12 +10928,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtfx99tj",
-    "updatedAt": "2026-08-30T14:45:50.460Z"
+    "updatedAt": "2026-09-01T18:09:04.678Z"
   },
   {
     "id": "inv_wii_just-dance",
     "gameId": "game_wii_just-dance",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10946,12 +10946,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtfx99tj",
-    "updatedAt": "2026-08-30T14:45:50.460Z"
+    "updatedAt": "2026-09-01T18:09:04.678Z"
   },
   {
     "id": "inv_wii_guitar-hero-5",
     "gameId": "game_wii_guitar-hero-5",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10964,12 +10964,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtfx99tj",
-    "updatedAt": "2026-08-30T14:45:50.460Z"
+    "updatedAt": "2026-09-01T18:09:04.678Z"
   },
   {
     "id": "inv_wii_tony-hawk-shred",
     "gameId": "game_wii_tony-hawk-shred",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10982,7 +10982,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtfx99tj",
-    "updatedAt": "2026-08-30T14:45:50.460Z"
+    "updatedAt": "2026-09-01T18:09:04.678Z"
   },
   {
     "id": "inv_wii_metroid-other-m",
@@ -11073,5 +11073,23 @@
     "acquiredAt": null,
     "orderId": "order_mtfz7wom",
     "updatedAt": "2026-08-30T21:31:44.630Z"
+  },
+  {
+    "id": "inv_switch2_final-fantasy-vii-rebirth",
+    "gameId": "game_switch2_final-fantasy-vii-rebirth",
+    "status": "delivered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "code_in_box",
+    "purchasePrice": {
+      "amount": 44.99,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": "2026-08-31",
+    "orderId": "order_mtj0dem0",
+    "updatedAt": "2026-09-01T18:41:34.788Z"
   }
 ]

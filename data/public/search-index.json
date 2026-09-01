@@ -5225,5 +5225,15 @@
     "p": "ps3",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch2_final-fantasy-vii-rebirth",
+    "t": "Final Fantasy VII Rebirth",
+    "n": "final fantasy vii rebirth",
+    "a": [],
+    "f": "Final Fantasy",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
