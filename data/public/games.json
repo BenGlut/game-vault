@@ -11183,5 +11183,30 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_castlevania-lords-of-shadow-mirror-of-fate",
+    "kind": "game",
+    "canonicalTitle": "Castlevania: Lords of Shadow - Mirror of Fate",
+    "normalizedTitle": "castlevania lords of shadow mirror of fate",
+    "aliases": [
+      "Castlevania Mirror of Fate",
+      "Castelvania Mirror of Fate"
+    ],
+    "franchise": "Castlevania",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2013,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

@@ -5279,5 +5279,18 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_3ds_castlevania-lords-of-shadow-mirror-of-fate",
+    "t": "Castlevania: Lords of Shadow - Mirror of Fate",
+    "n": "castlevania lords of shadow mirror of fate",
+    "a": [
+      "Castlevania Mirror of Fate",
+      "Castelvania Mirror of Fate"
+    ],
+    "f": "Castlevania",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

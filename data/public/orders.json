@@ -2410,5 +2410,34 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 25.48
+  },
+  {
+    "id": "order_mtj7h616",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_ds_castlevania-dawn-of-sorrow",
+      "game_3ds_castlevania-lords-of-shadow-mirror-of-fate"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_castlevania-dawn-of-sorrow",
+        "inventoryId": "inv_ds_castlevania-dawn-of-sorrow",
+        "unitPrice": 15.15
+      },
+      {
+        "gameId": "game_3ds_castlevania-lords-of-shadow-mirror-of-fate",
+        "inventoryId": "inv_3ds_castlevania-lords-of-shadow-mirror-of-fate",
+        "unitPrice": 25.24
+      }
+    ],
+    "orderedAt": "2026-09-01",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 40.39
   }
 ]
