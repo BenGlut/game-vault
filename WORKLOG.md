@@ -1,6 +1,12 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Outil de pose manuelle des jaquettes : `pnpm exec tsx scripts/covers/set-cover.ts <gameId> <url> [--force]`
+  — indispensable pour les titres qu'aucune source automatique ne couvre (éditions
+  physiques absentes de l'eShop, jeux Switch 2, PlayStation dont le dépôt libretro
+  ne compte que 67 jaquettes) et pour corriger une illustration erronée
+- Dépôts libretro Sony ajoutés à `fetch-covers.ts` (ps1, ps2, ps3, psp) : la base
+  contenait ses premiers jeux Sony sans aucune source de jaquette
 - Catalogue de référence complet No-Intro pour la recherche, 7 consoles Nintendo
   (GB, GBC, GBA, DS, 3DS, N64, GameCube — 14 907 jeux, 14 884 jaquettes locales 160px) :
   script `scripts/catalog/fetch-catalog.ts` (dédup par titre normalisé, inversion
@@ -74,6 +80,8 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- Jaquette Final Fantasy IX (Switch) : l'icône carrée de l'eShop remplacée par la
+  vraie jaquette de l'édition physique, sur signalement de benglut
 - Jaquettes Switch : le script prenait le premier résultat de recherche eShop quand
   aucun titre ne correspondait exactement, posant la jaquette d'un autre jeu
   (Légendes Pokémon : Arceus portait celle de « Drift Legends », NBA 2K23 celle de
