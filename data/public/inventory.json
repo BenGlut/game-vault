@@ -4002,7 +4002,7 @@
   {
     "id": "inv_ds_professeur-layton-et-le-destin-perdu",
     "gameId": "game_ds_professeur-layton-et-le-destin-perdu",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4019,7 +4019,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-01T20:15:44.182Z"
+    "updatedAt": "2026-09-02T20:23:50.185Z"
   },
   {
     "id": "inv_ds_chrono-trigger",
@@ -4090,7 +4090,7 @@
   {
     "id": "inv_ds_castlevania-dawn-of-sorrow",
     "gameId": "game_ds_castlevania-dawn-of-sorrow",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4107,7 +4107,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj7h616",
-    "updatedAt": "2026-09-01T21:55:13.482Z"
+    "updatedAt": "2026-09-02T20:23:48.666Z"
   },
   {
     "id": "inv_ds_advance-wars-dual-strike",
@@ -4512,7 +4512,7 @@
   {
     "id": "inv_gamecube_metroid-prime",
     "gameId": "game_gamecube_metroid-prime",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4527,9 +4527,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-02",
     "orderId": "order_mtajjegz",
-    "updatedAt": "2026-08-28T00:45:48.912Z"
+    "updatedAt": "2026-09-02T20:23:45.748Z"
   },
   {
     "id": "inv_gamecube_luigi-s-mansion",
@@ -7407,7 +7407,7 @@
   {
     "id": "inv_3ds_professeur-layton-et-le-masque-des-miracles",
     "gameId": "game_3ds_professeur-layton-et-le-masque-des-miracles",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7417,7 +7417,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtjbmqy1",
-    "updatedAt": "2026-09-01T23:51:32.329Z"
+    "updatedAt": "2026-09-02T20:23:47.966Z"
   },
   {
     "id": "inv_3ds_professeur-layton-et-l-heritage-des-aslantes",
@@ -7501,7 +7501,7 @@
   {
     "id": "inv_3ds_sonic-boom-feu-glace",
     "gameId": "game_3ds_sonic-boom-feu-glace",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7511,7 +7511,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-01T21:42:17.640Z"
+    "updatedAt": "2026-09-02T20:23:49.387Z"
   },
   {
     "id": "inv_gba_sonic-advance",
@@ -8401,7 +8401,7 @@
   {
     "id": "inv_3ds_shovel-knight",
     "gameId": "game_3ds_shovel-knight",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8411,7 +8411,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtjbmp3t",
-    "updatedAt": "2026-09-01T23:51:29.946Z"
+    "updatedAt": "2026-09-02T20:23:46.463Z"
   },
   {
     "id": "inv_ds_sonic-classic-collection",
@@ -8658,7 +8658,7 @@
     "quantityNeedsReview": true,
     "acquiredAt": null,
     "orderId": "order_mswcmos1",
-    "updatedAt": "2026-08-26T22:33:23.081Z"
+    "updatedAt": "2026-09-02T20:31:20.328Z"
   },
   {
     "id": "inv_3ds_luigi-s-mansion-2",
@@ -10723,7 +10723,7 @@
   {
     "id": "inv_ds_kirby-mass-attack",
     "gameId": "game_ds_kirby-mass-attack",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10732,11 +10732,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-02",
     "orderId": "order_mtajjegz",
-    "updatedAt": "2026-08-28T00:45:48.913Z"
+    "updatedAt": "2026-09-02T20:23:45.752Z"
   },
   {
     "id": "inv_3ds_the-legend-of-zelda-majora-s-mask-3d-2",
@@ -11095,7 +11095,7 @@
   {
     "id": "inv_ds_might-magic-clash-of-heroes",
     "gameId": "game_ds_might-magic-clash-of-heroes",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11108,12 +11108,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-01T20:15:44.182Z"
+    "updatedAt": "2026-09-02T20:23:50.186Z"
   },
   {
     "id": "inv_3ds_mario-sports-superstars",
     "gameId": "game_3ds_mario-sports-superstars",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11126,12 +11126,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-01T20:15:44.182Z"
+    "updatedAt": "2026-09-02T20:23:50.186Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-l-etrange-village-2",
     "gameId": "game_ds_professeur-layton-et-l-etrange-village",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11144,12 +11144,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-01T20:15:44.182Z"
+    "updatedAt": "2026-09-02T20:23:50.186Z"
   },
   {
     "id": "inv_3ds_super-mario-3d-land-4",
     "gameId": "game_3ds_super-mario-3d-land",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11162,12 +11162,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-01T21:42:17.641Z"
+    "updatedAt": "2026-09-02T20:23:49.389Z"
   },
   {
     "id": "inv_ds_sonic-sega-all-stars-racing-2",
     "gameId": "game_ds_sonic-sega-all-stars-racing",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11180,12 +11180,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-01T21:42:17.641Z"
+    "updatedAt": "2026-09-02T20:23:49.389Z"
   },
   {
     "id": "inv_ds_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
     "gameId": "game_ds_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11198,12 +11198,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-01T21:42:17.641Z"
+    "updatedAt": "2026-09-02T20:23:49.389Z"
   },
   {
     "id": "inv_3ds_violetta-rythme-et-musique",
     "gameId": "game_3ds_violetta-rythme-et-musique",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11216,12 +11216,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-01T21:42:17.641Z"
+    "updatedAt": "2026-09-02T20:23:49.389Z"
   },
   {
     "id": "inv_3ds_castlevania-lords-of-shadow-mirror-of-fate",
     "gameId": "game_3ds_castlevania-lords-of-shadow-mirror-of-fate",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11234,7 +11234,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj7h616",
-    "updatedAt": "2026-09-01T21:55:13.483Z"
+    "updatedAt": "2026-09-02T20:23:48.667Z"
   },
   {
     "id": "inv_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
@@ -11257,7 +11257,7 @@
   {
     "id": "inv_3ds_code-name-s-t-e-a-m",
     "gameId": "game_3ds_code-name-s-t-e-a-m",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11270,12 +11270,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtjbmpx8",
-    "updatedAt": "2026-09-01T23:51:31.006Z"
+    "updatedAt": "2026-09-02T20:23:47.153Z"
   },
   {
     "id": "inv_3ds_lego-chima-le-voyage-de-laval-2",
     "gameId": "game_3ds_lego-chima-le-voyage-de-laval",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "loose",
@@ -11288,12 +11288,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtjbmqy1",
-    "updatedAt": "2026-09-01T23:52:44.560Z"
+    "updatedAt": "2026-09-02T20:23:47.967Z"
   },
   {
     "id": "inv_xbox360_forza-motorsport-4",
     "gameId": "game_xbox360_forza-motorsport-4",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11306,7 +11306,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtjbmqy1",
-    "updatedAt": "2026-09-01T23:51:32.330Z"
+    "updatedAt": "2026-09-02T20:23:47.967Z"
   },
   {
     "id": "inv_gamecube_nintendo-gamecube",
