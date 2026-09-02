@@ -7407,7 +7407,7 @@
   {
     "id": "inv_3ds_professeur-layton-et-le-masque-des-miracles",
     "gameId": "game_3ds_professeur-layton-et-le-masque-des-miracles",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7416,8 +7416,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:20:14.206Z"
+    "orderId": "order_mtjbmqy1",
+    "updatedAt": "2026-09-01T23:51:32.329Z"
   },
   {
     "id": "inv_3ds_professeur-layton-et-l-heritage-des-aslantes",
@@ -8401,7 +8401,7 @@
   {
     "id": "inv_3ds_shovel-knight",
     "gameId": "game_3ds_shovel-knight",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8410,8 +8410,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:39:21.981Z"
+    "orderId": "order_mtjbmp3t",
+    "updatedAt": "2026-09-01T23:51:29.946Z"
   },
   {
     "id": "inv_ds_sonic-classic-collection",
@@ -11235,5 +11235,77 @@
     "acquiredAt": null,
     "orderId": "order_mtj7h616",
     "updatedAt": "2026-09-01T21:55:13.483Z"
+  },
+  {
+    "id": "inv_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
+    "gameId": "game_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 37.06,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtj7u902",
+    "updatedAt": "2026-09-01T22:05:23.935Z"
+  },
+  {
+    "id": "inv_3ds_code-name-s-t-e-a-m",
+    "gameId": "game_3ds_code-name-s-t-e-a-m",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 5.8,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtjbmpx8",
+    "updatedAt": "2026-09-01T23:51:31.006Z"
+  },
+  {
+    "id": "inv_3ds_lego-chima-le-voyage-de-laval-2",
+    "gameId": "game_3ds_lego-chima-le-voyage-de-laval",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "loose",
+    "purchasePrice": {
+      "amount": 3,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtjbmqy1",
+    "updatedAt": "2026-09-01T23:52:44.560Z"
+  },
+  {
+    "id": "inv_xbox360_forza-motorsport-4",
+    "gameId": "game_xbox360_forza-motorsport-4",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 2.38,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtjbmqy1",
+    "updatedAt": "2026-09-01T23:51:32.330Z"
   }
 ]

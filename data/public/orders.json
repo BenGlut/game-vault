@@ -2439,5 +2439,109 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 40.39
+  },
+  {
+    "id": "order_mtj7u902",
+    "marketplace": "amazon",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_grand-theft-auto-the-trilogy-the-definitive-edition"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
+        "inventoryId": "inv_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
+        "unitPrice": 37.06
+      }
+    ],
+    "orderedAt": "2026-09-01",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 37.06
+  },
+  {
+    "id": "order_mtjbmp3t",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_shovel-knight"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_shovel-knight",
+        "inventoryId": "inv_3ds_shovel-knight",
+        "unitPrice": 41.49
+      }
+    ],
+    "orderedAt": "2026-09-02",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 41.49
+  },
+  {
+    "id": "order_mtjbmpx8",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_code-name-s-t-e-a-m"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_code-name-s-t-e-a-m",
+        "inventoryId": "inv_3ds_code-name-s-t-e-a-m",
+        "unitPrice": 5.8
+      }
+    ],
+    "orderedAt": "2026-09-02",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 5.8
+  },
+  {
+    "id": "order_mtjbmqy1",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_3ds_professeur-layton-et-le-masque-des-miracles",
+      "game_3ds_lego-chima-le-voyage-de-laval",
+      "game_xbox360_forza-motorsport-4"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_professeur-layton-et-le-masque-des-miracles",
+        "inventoryId": "inv_3ds_professeur-layton-et-le-masque-des-miracles",
+        "unitPrice": 14.85
+      },
+      {
+        "gameId": "game_3ds_lego-chima-le-voyage-de-laval",
+        "inventoryId": "inv_3ds_lego-chima-le-voyage-de-laval-2",
+        "unitPrice": 3
+      },
+      {
+        "gameId": "game_xbox360_forza-motorsport-4",
+        "inventoryId": "inv_xbox360_forza-motorsport-4",
+        "unitPrice": 2.38
+      }
+    ],
+    "orderedAt": "2026-09-02",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 20.23
   }
 ]

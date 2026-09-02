@@ -11208,5 +11208,76 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
+    "kind": "game",
+    "canonicalTitle": "Grand Theft Auto: The Trilogy - The Definitive Edition",
+    "normalizedTitle": "grand theft auto the trilogy the definitive edition",
+    "aliases": [
+      "GTA The Trilogy Definitive Edition",
+      "GTA Trilogy"
+    ],
+    "franchise": "Grand Theft Auto",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2022,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_code-name-s-t-e-a-m",
+    "kind": "game",
+    "canonicalTitle": "Code Name: S.T.E.A.M.",
+    "normalizedTitle": "code name s t e a m",
+    "aliases": [
+      "Code Name STEAM"
+    ],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2015,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_xbox360_forza-motorsport-4",
+    "kind": "game",
+    "canonicalTitle": "Forza Motorsport 4",
+    "normalizedTitle": "forza motorsport 4",
+    "aliases": [],
+    "franchise": "Forza",
+    "platformId": "xbox360",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

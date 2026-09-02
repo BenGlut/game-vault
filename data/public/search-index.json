@@ -5292,5 +5292,40 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
+    "t": "Grand Theft Auto: The Trilogy - The Definitive Edition",
+    "n": "grand theft auto the trilogy the definitive edition",
+    "a": [
+      "GTA The Trilogy Definitive Edition",
+      "GTA Trilogy"
+    ],
+    "f": "Grand Theft Auto",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_code-name-s-t-e-a-m",
+    "t": "Code Name: S.T.E.A.M.",
+    "n": "code name s t e a m",
+    "a": [
+      "Code Name STEAM"
+    ],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_xbox360_forza-motorsport-4",
+    "t": "Forza Motorsport 4",
+    "n": "forza motorsport 4",
+    "a": [],
+    "f": "Forza",
+    "p": "xbox360",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

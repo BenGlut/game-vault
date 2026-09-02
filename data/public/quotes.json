@@ -2449,12 +2449,12 @@
   },
   "game_3ds_bravely-default": {
     "cib": {
-      "low": 12.94,
-      "median": 12.94,
-      "high": 12.94,
+      "low": 8.05,
+      "median": 26.95,
+      "high": 42.7,
       "currency": "EUR",
-      "source": "pricecharting-pal",
-      "observedAt": "2026-08-12"
+      "source": "vinted",
+      "observedAt": "2026-09-02"
     },
     "loose": {
       "low": 11.59,
@@ -5391,6 +5391,16 @@
       "observedAt": "2026-08-25"
     }
   },
+  "game_3ds_shovel-knight": {
+    "cib": {
+      "low": 32.19,
+      "median": 63.7,
+      "high": 80,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-09-02"
+    }
+  },
   "game_3ds_hyrule-warriors-legends": {
     "cib": {
       "low": 12.6,
@@ -6583,6 +6593,16 @@
       "currency": "EUR",
       "source": "vinted",
       "observedAt": "2026-09-01"
+    }
+  },
+  "game_3ds_code-name-s-t-e-a-m": {
+    "cib": {
+      "low": 3.85,
+      "median": 5.95,
+      "high": 16.45,
+      "currency": "EUR",
+      "source": "vinted",
+      "observedAt": "2026-09-02"
     }
   }
 }
