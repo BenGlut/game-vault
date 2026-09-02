@@ -365,3 +365,18 @@
   pas comme référence
 - Jaquettes : 100 % des jeux couverts, seules les 6 entrées matériel restent sans
   illustration (aucun catalogue ne couvre les consoles)
+
+## Fixed (session du 2 septembre, sync Vinted/Amazon)
+- Quatre commandes repassées de `fulfilled` à `ordered` : jonathan-lava (Might &
+  Magic Clash of Heroes + lot Layton/Mario Sports, 64,90 €), lena150285 (lot 5
+  jeux, 25,48 €), paskalig (lot 2 Castlevania, 40,39 €) et tigrou35 (Code Name
+  S.T.E.A.M., 5,80 €) — toutes lues chez Vinted comme « bordereau envoyé au
+  vendeur » (étiquette éditée) et non comme une expédition réelle, même confusion
+  que celle déjà corrigée pour trois autres commandes le mois dernier
+- Vérification croisée Vinted (77 commandes, my_orders pages 1-2) et Amazon
+  (compte Atome3D, filtre « payées par vous ») : aucune commande manquante côté
+  jeux, seuls des achats d'accessoires tablette (hors périmètre) apparaissaient
+  non suivis. Zelda Spirit Tracks (21596967747) toujours en statut « retournée
+  à l'expéditeur » sans remboursement, aucune option de litige exposée par l'API
+  transactions (`available_actions`) ; Phantom Hourglass US (21596812970)
+  toujours en retour initié

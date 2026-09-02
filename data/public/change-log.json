@@ -1,25 +1,5 @@
 [
   {
-    "at": "2026-08-13T13:21:17.146Z",
-    "command": "add-game",
-    "message": "add game Team Sonic Racing (switch)"
-  },
-  {
-    "at": "2026-08-13T13:21:19.057Z",
-    "command": "add-game",
-    "message": "add game Sonic X Shadow Generations (switch)"
-  },
-  {
-    "at": "2026-08-13T13:21:20.946Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy IV (ds)"
-  },
-  {
-    "at": "2026-08-13T13:21:22.800Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy XII: Revenant Wings (ds)"
-  },
-  {
     "at": "2026-08-13T13:21:24.753Z",
     "command": "add-game",
     "message": "add game Final Fantasy Crystal Chronicles: Ring of Fates (ds)"
@@ -2498,5 +2478,25 @@
     "at": "2026-09-02T20:23:50.208Z",
     "command": "ship-order",
     "message": "ship-order order_mtj3x835"
+  },
+  {
+    "at": "2026-09-02T21:30:36.243Z",
+    "command": "update-order",
+    "message": "update order_mtj3x835"
+  },
+  {
+    "at": "2026-09-02T21:30:36.911Z",
+    "command": "update-order",
+    "message": "update order_mtj70jdz"
+  },
+  {
+    "at": "2026-09-02T21:30:37.568Z",
+    "command": "update-order",
+    "message": "update order_mtj7h616"
+  },
+  {
+    "at": "2026-09-02T21:30:56.040Z",
+    "command": "update-order",
+    "message": "update order_mtjbmpx8"
   }
 ]

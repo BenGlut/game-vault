@@ -2326,7 +2326,7 @@
   {
     "id": "order_mtj3x835",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "ordered",
     "itemCount": 4,
     "gameIds": [
       "game_ds_might-magic-clash-of-heroes",
@@ -2357,7 +2357,7 @@
       }
     ],
     "orderedAt": "2026-09-01",
-    "fulfilledAt": "2026-09-02",
+    "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2367,7 +2367,7 @@
   {
     "id": "order_mtj70jdz",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "ordered",
     "itemCount": 5,
     "gameIds": [
       "game_3ds_sonic-boom-feu-glace",
@@ -2404,7 +2404,7 @@
       }
     ],
     "orderedAt": "2026-09-01",
-    "fulfilledAt": "2026-09-02",
+    "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2414,7 +2414,7 @@
   {
     "id": "order_mtj7h616",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "ordered",
     "itemCount": 2,
     "gameIds": [
       "game_ds_castlevania-dawn-of-sorrow",
@@ -2433,7 +2433,7 @@
       }
     ],
     "orderedAt": "2026-09-01",
-    "fulfilledAt": "2026-09-02",
+    "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2489,7 +2489,7 @@
   {
     "id": "order_mtjbmpx8",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "ordered",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_code-name-s-t-e-a-m"
@@ -2502,7 +2502,7 @@
       }
     ],
     "orderedAt": "2026-09-02",
-    "fulfilledAt": "2026-09-02",
+    "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
