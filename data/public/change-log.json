@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-13T13:20:58.555Z",
-    "command": "add-game",
-    "message": "add game Sonic Adventure 2: Battle (gamecube)"
-  },
-  {
-    "at": "2026-08-13T13:21:00.741Z",
-    "command": "add-game",
-    "message": "add game Sonic Heroes (gamecube)"
-  },
-  {
     "at": "2026-08-13T13:21:02.866Z",
     "command": "add-game",
     "message": "add game Sonic Mega Collection (gamecube)"
@@ -2498,5 +2488,15 @@
     "at": "2026-09-01T23:51:32.361Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-02T19:41:55.454Z",
+    "command": "add-game",
+    "message": "add game Nintendo GameCube (gamecube)"
+  },
+  {
+    "at": "2026-09-02T19:41:56.261Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_nintendo-gamecube"
   }
 ]

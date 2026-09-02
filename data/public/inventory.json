@@ -11307,5 +11307,20 @@
     "acquiredAt": null,
     "orderId": "order_mtjbmqy1",
     "updatedAt": "2026-09-01T23:51:32.330Z"
+  },
+  {
+    "id": "inv_gamecube_nintendo-gamecube",
+    "gameId": "game_gamecube_nintendo-gamecube",
+    "status": "owned",
+    "quantity": 1,
+    "condition": "very_good",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-02T19:41:56.313Z"
   }
 ]

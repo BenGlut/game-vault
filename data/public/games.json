@@ -11279,5 +11279,29 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_gamecube_nintendo-gamecube",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo GameCube",
+    "normalizedTitle": "nintendo gamecube",
+    "aliases": [
+      "GameCube DOL-001"
+    ],
+    "franchise": null,
+    "platformId": "gamecube",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2002,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

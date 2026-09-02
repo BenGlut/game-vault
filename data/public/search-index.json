@@ -5327,5 +5327,17 @@
     "p": "xbox360",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_gamecube_nintendo-gamecube",
+    "t": "Nintendo GameCube",
+    "n": "nintendo gamecube",
+    "a": [
+      "GameCube DOL-001"
+    ],
+    "f": null,
+    "p": "gamecube",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
