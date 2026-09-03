@@ -380,3 +380,20 @@
   à l'expéditeur » sans remboursement, aucune option de litige exposée par l'API
   transactions (`available_actions`) ; Phantom Hourglass US (21596812970)
   toujours en retour initié
+- Deuxième passage le même jour : 3 commandes Vinted réellement expédiées entre
+  temps (lena150285, jonathan-lava, tigrou35 : ordered → fulfilled) et 3
+  livraisons confirmées (lot cecile199463, Super Mario RPG, lot 21809011170 →
+  delivered) ; GTA Trilogy Switch livré côté Amazon → delivered
+- Jaquettes manquantes complétées à la demande (vérification Amazon pour les
+  éditions ambiguës) : Dragon Ball: The Breakers — Special Edition (édition
+  « code en boîte » confirmée par la fiche produit, correspond aux notes
+  d'inventaire), Ori: The Collection, NBA 2K23 (édition code en boîte,
+  correspondance vérifiée après le précédent bug de mauvaise jaquette sur ce
+  jeu), Le Monde de Narnia DS chapitre 1 (titre FR exact), Bratz : Le Film
+  (alias « Bratz The Movie » retrouvé), Dead Space 2 et Call of Duty: Modern
+  Warfare 3 (PS3, éditions standard PEGI confirmées par le prix d'achat bas),
+  Forza Motorsport 4 (Xbox 360 — premier essai NTSC/ESRB rejeté, remplacé par
+  la bonne édition PAL). Hollow Knight récupéré automatiquement via
+  `sync-from-catalog.ts`. Super Teacher: The Crazy School (DS) reste sans
+  jaquette, introuvable sur Amazon (titre budget obscur) — laissé vide plutôt
+  que risquer une mauvaise correspondance
