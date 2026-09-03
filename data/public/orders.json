@@ -1491,7 +1491,7 @@
   {
     "id": "order_mt4efaga",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_super-mario-rpg"
@@ -1505,7 +1505,7 @@
     ],
     "orderedAt": "2026-08-22",
     "fulfilledAt": "2026-08-27",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-03",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -1773,7 +1773,7 @@
   {
     "id": "order_mt9c5uk8",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 7,
     "gameIds": [
       "game_wii_link-s-crossbow-training",
@@ -1823,7 +1823,7 @@
     ],
     "orderedAt": "2026-08-26",
     "fulfilledAt": "2026-08-27",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-03",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -1832,7 +1832,7 @@
   {
     "id": "order_mta4auid",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 4,
     "gameIds": [
       "game_wii_donkey-kong-country-returns",
@@ -1864,7 +1864,7 @@
     ],
     "orderedAt": "2026-08-26",
     "fulfilledAt": "2026-08-31",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-03",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2326,7 +2326,7 @@
   {
     "id": "order_mtj3x835",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 4,
     "gameIds": [
       "game_ds_might-magic-clash-of-heroes",
@@ -2357,7 +2357,7 @@
       }
     ],
     "orderedAt": "2026-09-01",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-03",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2367,7 +2367,7 @@
   {
     "id": "order_mtj70jdz",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 5,
     "gameIds": [
       "game_3ds_sonic-boom-feu-glace",
@@ -2404,7 +2404,7 @@
       }
     ],
     "orderedAt": "2026-09-01",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-03",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2443,7 +2443,7 @@
   {
     "id": "order_mtj7u902",
     "marketplace": "amazon",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_grand-theft-auto-the-trilogy-the-definitive-edition"
@@ -2457,7 +2457,7 @@
     ],
     "orderedAt": "2026-09-01",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-03",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2489,7 +2489,7 @@
   {
     "id": "order_mtjbmpx8",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_code-name-s-t-e-a-m"
@@ -2502,7 +2502,7 @@
       }
     ],
     "orderedAt": "2026-09-02",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-03",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,

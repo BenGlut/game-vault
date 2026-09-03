@@ -1,40 +1,5 @@
 [
   {
-    "at": "2026-08-13T13:21:24.753Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy Crystal Chronicles: Ring of Fates (ds)"
-  },
-  {
-    "at": "2026-08-13T13:21:26.626Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy I & II: Dawn of Souls (gba)"
-  },
-  {
-    "at": "2026-08-13T13:21:28.485Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy IV Advance (gba)"
-  },
-  {
-    "at": "2026-08-13T13:21:30.500Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy V Advance (gba)"
-  },
-  {
-    "at": "2026-08-13T13:21:32.386Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy VI Advance (gba)"
-  },
-  {
-    "at": "2026-08-13T13:21:34.361Z",
-    "command": "add-game",
-    "message": "add game Theatrhythm Final Fantasy: Curtain Call (3ds)"
-  },
-  {
-    "at": "2026-08-13T13:21:36.350Z",
-    "command": "add-game",
-    "message": "add game Final Fantasy Explorers (3ds)"
-  },
-  {
     "at": "2026-08-13T13:21:38.342Z",
     "command": "add-game",
     "message": "add game Final Fantasy Crystal Chronicles (gamecube)"
@@ -2498,5 +2463,40 @@
     "at": "2026-09-02T21:30:56.040Z",
     "command": "update-order",
     "message": "update order_mtjbmpx8"
+  },
+  {
+    "at": "2026-09-03T19:17:56.305Z",
+    "command": "fulfill-order",
+    "message": "fulfill-order order_mtj70jdz"
+  },
+  {
+    "at": "2026-09-03T19:17:57.118Z",
+    "command": "fulfill-order",
+    "message": "fulfill-order order_mtj3x835"
+  },
+  {
+    "at": "2026-09-03T19:17:57.798Z",
+    "command": "fulfill-order",
+    "message": "fulfill-order order_mtjbmpx8"
+  },
+  {
+    "at": "2026-09-03T19:18:00.960Z",
+    "command": "deliver-order",
+    "message": "deliver-order order_mta4auid"
+  },
+  {
+    "at": "2026-09-03T19:18:01.653Z",
+    "command": "deliver-order",
+    "message": "deliver-order order_mt9c5uk8"
+  },
+  {
+    "at": "2026-09-03T19:18:02.310Z",
+    "command": "deliver-order",
+    "message": "deliver-order order_mt4efaga"
+  },
+  {
+    "at": "2026-09-03T19:18:56.438Z",
+    "command": "deliver-order",
+    "message": "deliver-order order_mtj7u902"
   }
 ]

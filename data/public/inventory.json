@@ -4002,7 +4002,7 @@
   {
     "id": "inv_ds_professeur-layton-et-le-destin-perdu",
     "gameId": "game_ds_professeur-layton-et-le-destin-perdu",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4019,7 +4019,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-02T21:30:36.220Z"
+    "updatedAt": "2026-09-03T19:17:57.097Z"
   },
   {
     "id": "inv_ds_chrono-trigger",
@@ -7452,7 +7452,7 @@
   {
     "id": "inv_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
     "gameId": "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7464,9 +7464,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-28T00:45:50.152Z"
+    "updatedAt": "2026-09-03T19:18:01.635Z"
   },
   {
     "id": "inv_3ds_sonic-generations",
@@ -7501,7 +7501,7 @@
   {
     "id": "inv_3ds_sonic-boom-feu-glace",
     "gameId": "game_3ds_sonic-boom-feu-glace",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7511,7 +7511,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-02T21:30:36.891Z"
+    "updatedAt": "2026-09-03T19:17:56.281Z"
   },
   {
     "id": "inv_gba_sonic-advance",
@@ -9910,7 +9910,7 @@
   {
     "id": "inv_switch_super-mario-rpg",
     "gameId": "game_switch_super-mario-rpg",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9919,11 +9919,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mt4efaga",
-    "updatedAt": "2026-08-28T00:45:52.635Z"
+    "updatedAt": "2026-09-03T19:18:02.290Z"
   },
   {
     "id": "inv_3ds_kingdom-hearts-3d-dream-drop-distance",
@@ -10471,7 +10471,7 @@
   {
     "id": "inv_wii_link-s-crossbow-training",
     "gameId": "game_wii_link-s-crossbow-training",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10480,16 +10480,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-28T00:45:50.152Z"
+    "updatedAt": "2026-09-03T19:18:01.635Z"
   },
   {
     "id": "inv_wii_donkey-kong-country-returns",
     "gameId": "game_wii_donkey-kong-country-returns",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10498,16 +10498,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-28T00:45:50.152Z"
+    "updatedAt": "2026-09-03T19:18:01.635Z"
   },
   {
     "id": "inv_wii_mario-strikers-charged-football",
     "gameId": "game_wii_mario-strikers-charged-football",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10516,16 +10516,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-28T00:45:50.152Z"
+    "updatedAt": "2026-09-03T19:18:01.635Z"
   },
   {
     "id": "inv_wii_mario-kart-wii",
     "gameId": "game_wii_mario-kart-wii",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10534,16 +10534,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-28T00:45:50.152Z"
+    "updatedAt": "2026-09-03T19:18:01.635Z"
   },
   {
     "id": "inv_wii_the-legend-of-zelda-skyward-sword",
     "gameId": "game_wii_the-legend-of-zelda-skyward-sword",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10552,16 +10552,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-28T00:45:50.152Z"
+    "updatedAt": "2026-09-03T19:18:01.635Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-la-boite-de-pandore-2",
     "gameId": "game_ds_professeur-layton-et-la-boite-de-pandore",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10570,16 +10570,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mt9c5uk8",
-    "updatedAt": "2026-08-28T00:45:50.152Z"
+    "updatedAt": "2026-09-03T19:18:01.635Z"
   },
   {
     "id": "inv_wii_donkey-kong-country-returns-2",
     "gameId": "game_wii_donkey-kong-country-returns",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10588,16 +10588,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mta4auid",
-    "updatedAt": "2026-09-01T18:09:05.524Z"
+    "updatedAt": "2026-09-03T19:18:00.936Z"
   },
   {
     "id": "inv_wii_the-legend-of-zelda-twilight-princess",
     "gameId": "game_wii_the-legend-of-zelda-twilight-princess",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10606,16 +10606,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mta4auid",
-    "updatedAt": "2026-09-01T18:09:05.526Z"
+    "updatedAt": "2026-09-03T19:18:00.936Z"
   },
   {
     "id": "inv_wii_super-mario-galaxy",
     "gameId": "game_wii_super-mario-galaxy",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10624,16 +10624,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mta4auid",
-    "updatedAt": "2026-09-01T18:09:05.526Z"
+    "updatedAt": "2026-09-03T19:18:00.936Z"
   },
   {
     "id": "inv_wii_super-mario-galaxy-2",
     "gameId": "game_wii_super-mario-galaxy-2",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10642,11 +10642,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mta4auid",
-    "updatedAt": "2026-09-01T18:09:05.526Z"
+    "updatedAt": "2026-09-03T19:18:00.936Z"
   },
   {
     "id": "inv_switch_nba-2k23",
@@ -11095,7 +11095,7 @@
   {
     "id": "inv_ds_might-magic-clash-of-heroes",
     "gameId": "game_ds_might-magic-clash-of-heroes",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11108,12 +11108,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-02T21:30:36.224Z"
+    "updatedAt": "2026-09-03T19:17:57.097Z"
   },
   {
     "id": "inv_3ds_mario-sports-superstars",
     "gameId": "game_3ds_mario-sports-superstars",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11126,12 +11126,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-02T21:30:36.224Z"
+    "updatedAt": "2026-09-03T19:17:57.097Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-l-etrange-village-2",
     "gameId": "game_ds_professeur-layton-et-l-etrange-village",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11144,12 +11144,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-02T21:30:36.224Z"
+    "updatedAt": "2026-09-03T19:17:57.097Z"
   },
   {
     "id": "inv_3ds_super-mario-3d-land-4",
     "gameId": "game_3ds_super-mario-3d-land",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11162,12 +11162,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-02T21:30:36.892Z"
+    "updatedAt": "2026-09-03T19:17:56.281Z"
   },
   {
     "id": "inv_ds_sonic-sega-all-stars-racing-2",
     "gameId": "game_ds_sonic-sega-all-stars-racing",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11180,12 +11180,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-02T21:30:36.892Z"
+    "updatedAt": "2026-09-03T19:17:56.281Z"
   },
   {
     "id": "inv_ds_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
     "gameId": "game_ds_le-monde-de-narnia-le-lion-la-sorciere-blanche-et-l-armoire-magique",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11198,12 +11198,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-02T21:30:36.892Z"
+    "updatedAt": "2026-09-03T19:17:56.281Z"
   },
   {
     "id": "inv_3ds_violetta-rythme-et-musique",
     "gameId": "game_3ds_violetta-rythme-et-musique",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11216,7 +11216,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj70jdz",
-    "updatedAt": "2026-09-02T21:30:36.892Z"
+    "updatedAt": "2026-09-03T19:17:56.281Z"
   },
   {
     "id": "inv_3ds_castlevania-lords-of-shadow-mirror-of-fate",
@@ -11239,7 +11239,7 @@
   {
     "id": "inv_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
     "gameId": "game_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11248,16 +11248,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-03",
     "orderId": "order_mtj7u902",
-    "updatedAt": "2026-09-01T22:05:23.935Z"
+    "updatedAt": "2026-09-03T19:18:56.417Z"
   },
   {
     "id": "inv_3ds_code-name-s-t-e-a-m",
     "gameId": "game_3ds_code-name-s-t-e-a-m",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11270,7 +11270,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtjbmpx8",
-    "updatedAt": "2026-09-02T21:30:56.014Z"
+    "updatedAt": "2026-09-03T19:17:57.780Z"
   },
   {
     "id": "inv_3ds_lego-chima-le-voyage-de-laval-2",
