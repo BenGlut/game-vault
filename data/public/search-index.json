@@ -5339,5 +5339,155 @@
     "p": "gamecube",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_the-settlers",
+    "t": "The Settlers",
+    "n": "the settlers",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_adibou-je-joue-avec-les-lettres-et-les-nombres",
+    "t": "Adibou : je joue avec les lettres et les nombres",
+    "n": "adibou je joue avec les lettres et les nombres",
+    "a": [],
+    "f": "Adibou",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_adibou-j-explore-le-corps-humain",
+    "t": "Adibou : j'explore le corps humain",
+    "n": "adibou j explore le corps humain",
+    "a": [],
+    "f": "Adibou",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_syberia",
+    "t": "Syberia",
+    "n": "syberia",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_micro-machines-v4",
+    "t": "Micro Machines V4",
+    "n": "micro machines v4",
+    "a": [],
+    "f": "Micro Machines",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_my-sims-kingdom",
+    "t": "My Sims Kingdom",
+    "n": "my sims kingdom",
+    "a": [],
+    "f": "MySims",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_cooking-mama-2-tous-a-table",
+    "t": "Cooking Mama 2 : Tous à Table !",
+    "n": "cooking mama 2 tous a table",
+    "a": [],
+    "f": "Cooking Mama",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_rooms",
+    "t": "Rooms",
+    "n": "rooms",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_tomb-raider-underworld",
+    "t": "Tomb Raider Underworld",
+    "n": "tomb raider underworld",
+    "a": [],
+    "f": "Tomb Raider",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_diddy-kong-racing-ds",
+    "t": "Diddy Kong Racing DS",
+    "n": "diddy kong racing ds",
+    "a": [],
+    "f": "Diddy Kong Racing",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_gormiti",
+    "t": "Gormiti",
+    "n": "gormiti",
+    "a": [],
+    "f": "Gormiti",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_dragon-ball-z-attack-of-the-saiyans",
+    "t": "Dragon Ball Z : Attack of the Saiyans",
+    "n": "dragon ball z attack of the saiyans",
+    "a": [],
+    "f": "Dragon Ball",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_docteur-lautrec-et-les-chevaliers-oublies",
+    "t": "Docteur Lautrec et les Chevaliers Oubliés",
+    "n": "docteur lautrec et les chevaliers oublies",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_sega-3d-classics-collection",
+    "t": "Sega 3D Classics Collection",
+    "n": "sega 3d classics collection",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_terraria",
+    "t": "Terraria",
+    "n": "terraria",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

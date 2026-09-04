@@ -1,6 +1,22 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Lot négocié de 15 jeux chez yamm3000 (vendeur liquidant sa collection DS/3DS,
+  450 annonces) : The Settlers, Adibou (je joue avec les lettres et les nombres,
+  j'explore le corps humain), Syberia, Micro Machines V4, My Sims Kingdom,
+  Cooking Mama 2, Rooms, Tomb Raider Underworld, Diddy Kong Racing DS, Gormiti,
+  Dragon Ball Z: Attack of the Saiyans, Docteur Lautrec et les Chevaliers
+  Oubliés, Sega 3D Classics Collection, Terraria — 213,98 € payés (offre à
+  200 € acceptée sur listing privé "Benglut", port + protection en sus). Chasse
+  menée en repérant systématiquement les pièges déjà documentés dans
+  `vinted-hunt` : les jeux "blister" de ce vendeur (WarioWare Gold, Story of
+  Seasons, Résident Evil Revelations) se sont révélés 2 à 3x plus chers que des
+  exemplaires ouverts trouvés ailleurs et ont été écartés du lot ; Another Code
+  retiré car déjà possédé, remplacé par Dragon Ball Z. Terraria, en revanche,
+  confirmé introuvable ailleurs sur Vinted (deux recherches à vide) : gardé au
+  prix demandé faute de référence contraire. Jaquettes récupérées via
+  libretro/catalogue local pour 13 des 15 jeux, 2 posées à la main depuis les
+  photos d'annonce vérifiées (Cooking Mama 2, Docteur Lautrec)
 - Outil de pose manuelle des jaquettes : `pnpm exec tsx scripts/covers/set-cover.ts <gameId> <url> [--force]`
   — indispensable pour les titres qu'aucune source automatique ne couvre (éditions
   physiques absentes de l'eShop, jeux Switch 2, PlayStation dont le dépôt libretro

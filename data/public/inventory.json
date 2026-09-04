@@ -11322,5 +11322,275 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-09-02T19:41:56.313Z"
+  },
+  {
+    "id": "inv_ds_the-settlers",
+    "gameId": "game_ds_the-settlers",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 12.69,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.549Z"
+  },
+  {
+    "id": "inv_ds_adibou-je-joue-avec-les-lettres-et-les-nombres",
+    "gameId": "game_ds_adibou-je-joue-avec-les-lettres-et-les-nombres",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 8.46,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.549Z"
+  },
+  {
+    "id": "inv_ds_adibou-j-explore-le-corps-humain",
+    "gameId": "game_ds_adibou-j-explore-le-corps-humain",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 8.46,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.549Z"
+  },
+  {
+    "id": "inv_ds_syberia",
+    "gameId": "game_ds_syberia",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 12.69,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.549Z"
+  },
+  {
+    "id": "inv_ds_micro-machines-v4",
+    "gameId": "game_ds_micro-machines-v4",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 6.77,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.549Z"
+  },
+  {
+    "id": "inv_ds_my-sims-kingdom",
+    "gameId": "game_ds_my-sims-kingdom",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 5.08,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_ds_cooking-mama-2-tous-a-table",
+    "gameId": "game_ds_cooking-mama-2-tous-a-table",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 8.46,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_ds_rooms",
+    "gameId": "game_ds_rooms",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 4.23,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_ds_tomb-raider-underworld",
+    "gameId": "game_ds_tomb-raider-underworld",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 6.77,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_ds_diddy-kong-racing-ds",
+    "gameId": "game_ds_diddy-kong-racing-ds",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 21.15,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_ds_gormiti",
+    "gameId": "game_ds_gormiti",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 5.08,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_ds_dragon-ball-z-attack-of-the-saiyans",
+    "gameId": "game_ds_dragon-ball-z-attack-of-the-saiyans",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 29.6,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_3ds_docteur-lautrec-et-les-chevaliers-oublies",
+    "gameId": "game_3ds_docteur-lautrec-et-les-chevaliers-oublies",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 21.15,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_3ds_sega-3d-classics-collection",
+    "gameId": "game_3ds_sega-3d-classics-collection",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 21.15,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
+  },
+  {
+    "id": "inv_3ds_terraria",
+    "gameId": "game_3ds_terraria",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 42.24,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T14:52:55.550Z"
   }
 ]
