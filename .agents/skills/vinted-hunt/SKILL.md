@@ -255,6 +255,20 @@ items asked 26–32 € for the same game.
 **The hard ground: semi-pros.** Dozens of listings, mostly games, prices aligned to
 the market. They know the quotes and rarely move.
 
+**This classification is a hypothesis, not a conclusion — three confirming checks
+mean verify everything, not stop checking** (2026-09-04, cost 214 €). A seller with
+450 items was assumed cheap from the narrative alone — "liquidating a collection,
+needs cash fast" — and that assumption drove a 15-item negotiation. Three items were
+individually price-checked before the offer (all three 2–3x overpriced) and correctly
+dropped from the lot, but the other twelve went in on the strength of a photo check
+(authentic, complete, French) with **no price check at all**. Paid, then challenged,
+then checked in full: nine more of the twelve were 2–5x the real Vinted price; only
+two were genuinely good. A seller who overprices 3 times in a row is not "probably
+fine elsewhere" — the hypothesis is falsified, and the only correct response is
+**price-check every remaining item before offering**, not just the ones already
+flagged. Volume and urgency in the seller's story are not evidence of low prices;
+only comparable listings are.
+
 Adapt the register, it changes what works:
 
 - **With a non-specialist**, sell speed and simplicity: take several items at once,
@@ -309,6 +323,16 @@ of the noise in one step.
 
 No offer without looking at the photos, via `computer{action:"zoom"}` on the useful
 area — front, spine, back, cart label.
+
+**0. Price-check every single item, individually, before offering — not a sample.**
+(2026-09-04, cost 214 € to learn.) Authenticity and completeness are necessary, not
+sufficient: a listing can be a genuine, complete, French copy and still cost 2–5x a
+comparable one three listings down. This applies **per item, every time**, and most
+of all in a multi-item lot, where it is tempting to check a few and extrapolate to
+the rest — extrapolation is exactly what failed here. Search the plain title, drop
+the noise (see § Hunt), and note the real range before the offer is written, not
+after it is paid. No exceptions for "the seller seems to be pricing low overall" —
+that is a hypothesis about the seller, not a check on the item.
 
 **1. A boxed copy playable in French is REQUIRED, not preferred** (benglut, 2026-08-11:
 « je ne prends que des versions boîte FR », précisé le même jour : « sauf si la boîte FR
