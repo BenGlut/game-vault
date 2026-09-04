@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T17:20:27.197Z",
-  "totalGames": 501,
+  "generatedAt": "2026-09-04T17:43:08.542Z",
+  "totalGames": 502,
   "totalHardware": 10,
   "ownedHardware": 10,
   "ownedItems": 366,
@@ -24,7 +24,7 @@
     "gbc": 16,
     "gba": 44,
     "ds": 134,
-    "3ds": 115,
+    "3ds": 116,
     "ps1": 1,
     "ps3": 3,
     "xbox360": 2,

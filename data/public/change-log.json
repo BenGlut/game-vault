@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-13T13:35:24.419Z",
-    "command": "add-game",
-    "message": "add game Animal Crossing: New Horizons (switch)"
-  },
-  {
     "at": "2026-08-13T13:35:26.417Z",
     "command": "add-game",
     "message": "add game Super Mario Bros. Wonder (switch)"
@@ -2498,5 +2493,10 @@
     "at": "2026-09-04T16:57:25.926Z",
     "command": "remove-inventory",
     "message": "remove inv_ds_dragon-ball-z-attack-of-the-saiyans"
+  },
+  {
+    "at": "2026-09-04T17:42:47.726Z",
+    "command": "add-game",
+    "message": "add game Dragon Quest VIII : L'Odyssée du Roi Maudit (3ds)"
   }
 ]

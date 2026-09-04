@@ -5479,5 +5479,17 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_3ds_dragon-quest-viii-l-odyssee-du-roi-maudit",
+    "t": "Dragon Quest VIII : L'Odyssée du Roi Maudit",
+    "n": "dragon quest viii l odyssee du roi maudit",
+    "a": [
+      "Dragon Quest VIII: Journey of the Cursed King"
+    ],
+    "f": "Dragon Quest",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

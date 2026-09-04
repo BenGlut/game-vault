@@ -11611,5 +11611,29 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_dragon-quest-viii-l-odyssee-du-roi-maudit",
+    "kind": "game",
+    "canonicalTitle": "Dragon Quest VIII : L'Odyssée du Roi Maudit",
+    "normalizedTitle": "dragon quest viii l odyssee du roi maudit",
+    "aliases": [
+      "Dragon Quest VIII: Journey of the Cursed King"
+    ],
+    "franchise": "Dragon Quest",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
