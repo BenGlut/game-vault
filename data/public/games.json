@@ -11547,28 +11547,6 @@
     "buyPriority": null
   },
   {
-    "id": "game_ds_dragon-ball-z-attack-of-the-saiyans",
-    "kind": "game",
-    "canonicalTitle": "Dragon Ball Z : Attack of the Saiyans",
-    "normalizedTitle": "dragon ball z attack of the saiyans",
-    "aliases": [],
-    "franchise": "Dragon Ball",
-    "platformId": "ds",
-    "region": "PAL-FR",
-    "languages": [
-      "fr"
-    ],
-    "publisher": null,
-    "developer": null,
-    "releaseYear": null,
-    "genres": [],
-    "edition": null,
-    "mediaType": "cartridge",
-    "externalIds": {},
-    "qualityTier": null,
-    "buyPriority": null
-  },
-  {
     "id": "game_3ds_docteur-lautrec-et-les-chevaliers-oublies",
     "kind": "game",
     "canonicalTitle": "Docteur Lautrec et les Chevaliers Oubliés",

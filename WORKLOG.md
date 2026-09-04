@@ -5,18 +5,41 @@
   450 annonces) : The Settlers, Adibou (je joue avec les lettres et les nombres,
   j'explore le corps humain), Syberia, Micro Machines V4, My Sims Kingdom,
   Cooking Mama 2, Rooms, Tomb Raider Underworld, Diddy Kong Racing DS, Gormiti,
-  Dragon Ball Z: Attack of the Saiyans, Docteur Lautrec et les Chevaliers
-  Oubliés, Sega 3D Classics Collection, Terraria — 213,98 € payés (offre à
-  200 € acceptée sur listing privé "Benglut", port + protection en sus). Chasse
-  menée en repérant systématiquement les pièges déjà documentés dans
-  `vinted-hunt` : les jeux "blister" de ce vendeur (WarioWare Gold, Story of
-  Seasons, Résident Evil Revelations) se sont révélés 2 à 3x plus chers que des
-  exemplaires ouverts trouvés ailleurs et ont été écartés du lot ; Another Code
-  retiré car déjà possédé, remplacé par Dragon Ball Z. Terraria, en revanche,
-  confirmé introuvable ailleurs sur Vinted (deux recherches à vide) : gardé au
-  prix demandé faute de référence contraire. Jaquettes récupérées via
+  Final Fantasy IV, Docteur Lautrec et les Chevaliers Oubliés, Sega 3D Classics
+  Collection, Terraria — 213,98 € payés (offre à 200 € acceptée sur listing
+  privé "Benglut", port + protection en sus). Chasse menée en repérant
+  systématiquement les pièges déjà documentés dans `vinted-hunt` : les jeux
+  "blister" de ce vendeur (WarioWare Gold, Story of Seasons, Résident Evil
+  Revelations) se sont révélés 2 à 3x plus chers que des exemplaires ouverts
+  trouvés ailleurs et ont été écartés du lot ; Another Code retiré car déjà
+  possédé, remplacé par Final Fantasy IV (déjà en wishlist). Terraria, en
+  revanche, confirmé introuvable ailleurs sur Vinted (deux recherches à vide) :
+  gardé au prix demandé faute de référence contraire. Jaquettes récupérées via
   libretro/catalogue local pour 13 des 15 jeux, 2 posées à la main depuis les
   photos d'annonce vérifiées (Cooking Mama 2, Docteur Lautrec)
+- Vérification a posteriori du lot demandée par benglut : Sega 3D Classics
+  Collection (21,15 € payés contre 10,57-11,20 € relevés sur Vinted, environ
+  2x le marché) et le remplacement initialement saisi Dragon Ball Z: Attack of
+  the Saiyans (29,60 € contre 11,20-14,35 € relevés, 2-3x) se sont révélés
+  surpayés — recommandés sans vérification de cote au moment du swap, erreur
+  reconnue. À l'inverse Diddy Kong Racing DS (21,15 € payés contre 42-53 €
+  relevés pour un exemplaire complet) et Docteur Lautrec (21,15 € contre une
+  étiquette boutique à 39,90 € visible sur la photo d'annonce) se sont révélés
+  de bonnes affaires. Leçon : ne jamais recommander un article "plus cher donc
+  probablement meilleure valeur" sans relevé Vinted réel, prix affiché et
+  valeur ne sont pas corrélés
+- Correction d'une erreur de saisie : le remplacement d'Another Code avait été
+  discuté en deux temps dans la conversation (Final Fantasy IV proposé en
+  premier, puis Dragon Ball Z suggéré comme option plus chère) et c'est
+  Dragon Ball Z qui a été saisi en commande alors que benglut avait acheté
+  Final Fantasy IV. Repéré par benglut en confrontant la liste réelle de la
+  commande Vinted à la base. Corrigé : jeu fictif `Dragon Ball Z: Attack of
+  the Saiyans` (DS) supprimé de `games.json`, ligne d'inventaire orpheline
+  retirée, `Final Fantasy IV` (déjà en base, wishlist depuis le 13/08) bascule
+  en `ordered` et rattaché à la commande. Leçon : dans une négociation menée à
+  plusieurs messages, toujours relire le contenu final réel (page de commande
+  ou liste confirmée par l'acheteur) avant d'écrire en base, jamais se fier à
+  la dernière option discutée en conversation
 - Outil de pose manuelle des jaquettes : `pnpm exec tsx scripts/covers/set-cover.ts <gameId> <url> [--force]`
   — indispensable pour les titres qu'aucune source automatique ne couvre (éditions
   physiques absentes de l'eShop, jeux Switch 2, PlayStation dont le dépôt libretro

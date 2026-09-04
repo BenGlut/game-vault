@@ -2561,7 +2561,7 @@
       "game_ds_tomb-raider-underworld",
       "game_ds_diddy-kong-racing-ds",
       "game_ds_gormiti",
-      "game_ds_dragon-ball-z-attack-of-the-saiyans",
+      "game_ds_final-fantasy-iv",
       "game_3ds_docteur-lautrec-et-les-chevaliers-oublies",
       "game_3ds_sega-3d-classics-collection",
       "game_3ds_terraria"
@@ -2623,8 +2623,8 @@
         "unitPrice": 5.08
       },
       {
-        "gameId": "game_ds_dragon-ball-z-attack-of-the-saiyans",
-        "inventoryId": "inv_ds_dragon-ball-z-attack-of-the-saiyans",
+        "gameId": "game_ds_final-fantasy-iv",
+        "inventoryId": "inv_ds_final-fantasy-iv",
         "unitPrice": 29.6
       },
       {

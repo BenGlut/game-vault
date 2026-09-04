@@ -224,3 +224,23 @@ française » plutôt que de sortir un pourcentage.
 **Rappel de filtrage** : dans un relevé Vinted, exclure les boîtes vides, les
 « boîte + notice » sans cartouche, les notices seules et les cartes VIP — sinon la
 médiane s'effondre artificiellement. C'est ce qui a gonflé l'erreur ici.
+
+## 2026-09-04 — Prix affiché plus élevé ≠ meilleure valeur
+
+Dans le lot yamm3000 (15 jeux, 200 EUR négociés), Sega 3D Classics Collection
+et Dragon Ball Z: Attack of the Saiyans (proposés/acceptés sans relevé Vinted)
+se sont révélés payés 2 à 3x leur cote réelle une fois vérifiés a posteriori,
+tandis que Diddy Kong Racing DS et Docteur Lautrec (mêmes conditions) étaient
+de bonnes affaires. Ne jamais recommander un article "plus cher donc sans
+doute meilleur" pour remplacer un doublon dans un lot déjà négocié — vérifier
+la cote Vinted avant de proposer, comme pour n'importe quel autre article.
+
+## 2026-09-04 — Relire l'état final réel avant d'écrire en base
+
+Une négociation étalée sur plusieurs messages (swap Another Code -> Final
+Fantasy IV proposé, puis Dragon Ball Z suggéré comme option plus chère) a
+fait écrire en base la dernière option DISCUTÉE plutôt que celle réellement
+ACHETÉE (Final Fantasy IV). Repéré par benglut en confrontant la commande
+Vinted réelle à la base. Avant tout `add-order`/`update-order` qui clôt une
+négociation, relire la page de commande ou la liste confirmée par l'acheteur
+lui-même — jamais supposer que le dernier message du fil reflète l'issue.

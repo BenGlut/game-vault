@@ -7771,17 +7771,20 @@
   {
     "id": "inv_ds_final-fantasy-iv",
     "gameId": "game_ds_final-fantasy-iv",
-    "status": "wishlist",
-    "quantity": 0,
+    "status": "ordered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 29.6,
+      "currency": "EUR"
+    },
     "currentEstimate": null,
-    "verificationStatus": "verified",
+    "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:20.919Z"
+    "orderId": "order_mtn2pn5d",
+    "updatedAt": "2026-09-04T16:57:25.885Z"
   },
   {
     "id": "inv_ds_final-fantasy-xii-revenant-wings",
@@ -11512,24 +11515,6 @@
     "completeness": "unknown",
     "purchasePrice": {
       "amount": 5.08,
-      "currency": "EUR"
-    },
-    "currentEstimate": null,
-    "verificationStatus": "needs_review",
-    "quantityNeedsReview": false,
-    "acquiredAt": null,
-    "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
-  },
-  {
-    "id": "inv_ds_dragon-ball-z-attack-of-the-saiyans",
-    "gameId": "game_ds_dragon-ball-z-attack-of-the-saiyans",
-    "status": "ordered",
-    "quantity": 1,
-    "condition": "unknown",
-    "completeness": "unknown",
-    "purchasePrice": {
-      "amount": 29.6,
       "currency": "EUR"
     },
     "currentEstimate": null,

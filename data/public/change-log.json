@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-13T13:35:22.443Z",
-    "command": "add-game",
-    "message": "add game Xenoblade Chronicles 3 (switch)"
-  },
-  {
     "at": "2026-08-13T13:35:24.419Z",
     "command": "add-game",
     "message": "add game Animal Crossing: New Horizons (switch)"
@@ -2498,5 +2493,10 @@
     "at": "2026-09-04T14:52:55.625Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-04T16:57:25.926Z",
+    "command": "remove-inventory",
+    "message": "remove inv_ds_dragon-ball-z-attack-of-the-saiyans"
   }
 ]
