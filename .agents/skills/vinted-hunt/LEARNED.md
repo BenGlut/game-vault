@@ -234,3 +234,33 @@ ACHETÉE (Final Fantasy IV). Repéré par benglut en confrontant la commande
 Vinted réelle à la base. Avant tout `add-order`/`update-order` qui clôt une
 négociation, relire la page de commande ou la liste confirmée par l'acheteur
 lui-même — jamais supposer que le dernier message du fil reflète l'issue.
+
+## 2026-09-06 — Négociation : toujours demander le minimum, toujours chiffrer
+
+benglut : *« t'es vraiment trop nul en nego, tu doit demande toujours petit et
+avoir des arguments fort »*.
+
+**Erreur 1 — concéder avant la discussion.** J'ai demandé un colis « Moyen » en
+justifiant moi-même que « huit boîtiers c'est un peu épais pour Petit ». C'est
+décider contre l'intérêt de benglut avant même que le vendeur objecte. Deux
+vendeurs (lisianebb, alexvdnb) ont accepté « Petit » sans difficulté sur des lots
+comparables.
+
+**Règle : on demande TOUJOURS la taille la plus petite.** Si le format ne passe
+pas, c'est au vendeur de le dire et de remonter. Le repli est sa carte, pas la
+nôtre. Même logique que pour le prix : ne jamais annoncer le plancher.
+
+**Erreur 2 — arguments génériques.** « Ça vous fait un seul envoi à préparer » est
+vrai mais sans force : tous les acheteurs l'écrivent. Les arguments qui portent
+sont chiffrés et personnels au vendeur :
+
+- **La concurrence mesurée** : « chacun de ces titres a entre 68 et 84 exemplaires
+  en ligne » — factuel, vérifiable, et ça nomme son vrai problème.
+- **Son objectif déclaré** : il avait écrit « je revends ma collection ». Un
+  vendeur qui liquide optimise la vitesse d'écoulement, pas le prix unitaire.
+  Reprendre ses propres mots est plus efficace que n'importe quel argument à soi.
+- **L'ancienneté de l'annonce** quand le lot stagne.
+
+**Règle : avant d'écrire une offre, relever le nombre d'exemplaires concurrents
+et relire ce que le vendeur a dit de sa situation.** Un chiffre vaut dix formules
+de politesse.
