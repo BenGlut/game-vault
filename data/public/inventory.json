@@ -3726,7 +3726,7 @@
   {
     "id": "inv_3ds_metroid-samus-returns",
     "gameId": "game_3ds_metroid-samus-returns",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3741,9 +3741,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-05",
     "orderId": "order_mta4avc2",
-    "updatedAt": "2026-08-28T00:45:51.272Z"
+    "updatedAt": "2026-09-05T19:18:12.166Z"
   },
   {
     "id": "inv_3ds_kid-icarus-uprising",
@@ -3954,7 +3954,7 @@
   {
     "id": "inv_ds_the-legend-of-zelda-spirit-tracks",
     "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
-    "status": "fulfilled",
+    "status": "refunded",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3971,7 +3971,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswcm1je",
-    "updatedAt": "2026-08-17T23:59:50.190Z"
+    "updatedAt": "2026-09-05T19:39:47.159Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-la-boite-de-pandore",
@@ -4090,7 +4090,7 @@
   {
     "id": "inv_ds_castlevania-dawn-of-sorrow",
     "gameId": "game_ds_castlevania-dawn-of-sorrow",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4107,7 +4107,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj7h616",
-    "updatedAt": "2026-09-02T21:30:37.546Z"
+    "updatedAt": "2026-09-05T19:18:13.189Z"
   },
   {
     "id": "inv_ds_advance-wars-dual-strike",
@@ -6993,7 +6993,7 @@
   {
     "id": "inv_gamecube_metroid-prime-2-echoes",
     "gameId": "game_gamecube_metroid-prime-2-echoes",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7001,9 +7001,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-05",
     "orderId": "order_mtfz7wom",
-    "updatedAt": "2026-08-30T21:31:44.587Z"
+    "updatedAt": "2026-09-05T19:18:11.271Z"
   },
   {
     "id": "inv_gamecube_paper-mario-the-thousand-year-door",
@@ -7771,7 +7771,7 @@
   {
     "id": "inv_ds_final-fantasy-iv",
     "gameId": "game_ds_final-fantasy-iv",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7784,7 +7784,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T16:57:25.885Z"
+    "updatedAt": "2026-09-05T19:18:14.252Z"
   },
   {
     "id": "inv_ds_final-fantasy-xii-revenant-wings",
@@ -8895,7 +8895,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mswdehxm",
-    "updatedAt": "2026-08-16T22:22:48.183Z"
+    "updatedAt": "2026-09-05T19:39:47.159Z"
   },
   {
     "id": "inv_3ds_hyrule-warriors-legends-2",
@@ -10990,7 +10990,7 @@
   {
     "id": "inv_wii_metroid-other-m",
     "gameId": "game_wii_metroid-other-m",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -10999,16 +10999,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-05",
     "orderId": "order_mtfz7wom",
-    "updatedAt": "2026-08-30T21:31:44.630Z"
+    "updatedAt": "2026-09-05T19:18:11.272Z"
   },
   {
     "id": "inv_ps1_die-hard-trilogy",
     "gameId": "game_ps1_die-hard-trilogy",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11017,16 +11017,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-05",
     "orderId": "order_mtfz7wom",
-    "updatedAt": "2026-08-30T21:31:44.630Z"
+    "updatedAt": "2026-09-05T19:18:11.272Z"
   },
   {
     "id": "inv_ps3_dead-space-2",
     "gameId": "game_ps3_dead-space-2",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11035,16 +11035,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-05",
     "orderId": "order_mtfz7wom",
-    "updatedAt": "2026-08-30T21:31:44.630Z"
+    "updatedAt": "2026-09-05T19:18:11.272Z"
   },
   {
     "id": "inv_ps3_vanquish",
     "gameId": "game_ps3_vanquish",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11053,16 +11053,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-05",
     "orderId": "order_mtfz7wom",
-    "updatedAt": "2026-08-30T21:31:44.630Z"
+    "updatedAt": "2026-09-05T19:18:11.272Z"
   },
   {
     "id": "inv_ps3_call-of-duty-modern-warfare-3",
     "gameId": "game_ps3_call-of-duty-modern-warfare-3",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11071,11 +11071,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-05",
     "orderId": "order_mtfz7wom",
-    "updatedAt": "2026-08-30T21:31:44.630Z"
+    "updatedAt": "2026-09-05T19:18:11.272Z"
   },
   {
     "id": "inv_switch2_final-fantasy-vii-rebirth",
@@ -11224,7 +11224,7 @@
   {
     "id": "inv_3ds_castlevania-lords-of-shadow-mirror-of-fate",
     "gameId": "game_3ds_castlevania-lords-of-shadow-mirror-of-fate",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11237,7 +11237,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj7h616",
-    "updatedAt": "2026-09-02T21:30:37.547Z"
+    "updatedAt": "2026-09-05T19:18:13.190Z"
   },
   {
     "id": "inv_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
@@ -11329,7 +11329,7 @@
   {
     "id": "inv_ds_the-settlers",
     "gameId": "game_ds_the-settlers",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11342,12 +11342,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.549Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_adibou-je-joue-avec-les-lettres-et-les-nombres",
     "gameId": "game_ds_adibou-je-joue-avec-les-lettres-et-les-nombres",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11360,12 +11360,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.549Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_adibou-j-explore-le-corps-humain",
     "gameId": "game_ds_adibou-j-explore-le-corps-humain",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11378,12 +11378,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.549Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_syberia",
     "gameId": "game_ds_syberia",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11396,12 +11396,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.549Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_micro-machines-v4",
     "gameId": "game_ds_micro-machines-v4",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11414,12 +11414,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.549Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_my-sims-kingdom",
     "gameId": "game_ds_my-sims-kingdom",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11432,12 +11432,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_cooking-mama-2-tous-a-table",
     "gameId": "game_ds_cooking-mama-2-tous-a-table",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11450,12 +11450,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_rooms",
     "gameId": "game_ds_rooms",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11468,12 +11468,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_tomb-raider-underworld",
     "gameId": "game_ds_tomb-raider-underworld",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11486,12 +11486,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_diddy-kong-racing-ds",
     "gameId": "game_ds_diddy-kong-racing-ds",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11504,12 +11504,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_ds_gormiti",
     "gameId": "game_ds_gormiti",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11522,12 +11522,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_3ds_docteur-lautrec-et-les-chevaliers-oublies",
     "gameId": "game_3ds_docteur-lautrec-et-les-chevaliers-oublies",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11540,12 +11540,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_3ds_sega-3d-classics-collection",
     "gameId": "game_3ds_sega-3d-classics-collection",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11558,12 +11558,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_3ds_terraria",
     "gameId": "game_3ds_terraria",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11576,12 +11576,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtn2pn5d",
-    "updatedAt": "2026-09-04T14:52:55.550Z"
+    "updatedAt": "2026-09-05T19:18:14.253Z"
   },
   {
     "id": "inv_3ds_dragon-quest-viii-l-odyssee-du-roi-maudit",
     "gameId": "game_3ds_dragon-quest-viii-l-odyssee-du-roi-maudit",
-    "status": "wishlist",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11590,7 +11590,7 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-04T17:42:47.706Z"
+    "orderId": "order_mtormeye",
+    "updatedAt": "2026-09-05T19:18:09.691Z"
   }
 ]
