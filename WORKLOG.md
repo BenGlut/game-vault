@@ -111,6 +111,12 @@
   désormais suivis, aucun sans entrée d'inventaire
 - Sonic Classic Collection (DS) remis en wishlist après annulation de la commande
   par le vendeur
+- Cotes des trois Layton manquants de la série DS/3DS, relevées sur Vinted France
+  le 2026-09-07 : L'Appel du Spectre (DS) 15/35/45 €, L'Héritage des Aslantes
+  (3DS) 19/45/50 €, Layton vs Phoenix Wright (3DS) 65/85/100 €. Relevés hors
+  boîtiers vides, notices, cartouches nues et lots — le filtrage est ce qui
+  change tout : une première lecture non filtrée avait sous-estimé l'Appel du
+  Spectre d'un facteur 2
 
 ## Changed
 - Filtres persistés dans l'URL (Collection et Catalogue) : deep-link + retour
