@@ -3774,11 +3774,15 @@
   {
     "id": "inv_3ds_bravely-default",
     "gameId": "game_3ds_bravely-default",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 8.07,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": {
       "low": 12.94,
       "median": 20.64,
@@ -3790,8 +3794,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.713Z"
+    "orderId": "order_mtqgckro",
+    "updatedAt": "2026-09-06T23:37:59.076Z"
   },
   {
     "id": "inv_3ds_shin-megami-tensei-iv",
@@ -7392,17 +7396,21 @@
   {
     "id": "inv_ds_professeur-layton-et-l-appel-du-spectre",
     "gameId": "game_ds_professeur-layton-et-l-appel-du-spectre",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 19.33,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:20:12.254Z"
+    "orderId": "order_mtqgcdfm",
+    "updatedAt": "2026-09-06T23:37:49.571Z"
   },
   {
     "id": "inv_3ds_professeur-layton-et-le-masque-des-miracles",
@@ -7422,17 +7430,21 @@
   {
     "id": "inv_3ds_professeur-layton-et-l-heritage-des-aslantes",
     "gameId": "game_3ds_professeur-layton-et-l-heritage-des-aslantes",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 23.43,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:20:16.770Z"
+    "orderId": "order_mtqgce07",
+    "updatedAt": "2026-09-06T23:37:50.311Z"
   },
   {
     "id": "inv_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
@@ -11589,5 +11601,176 @@
     "acquiredAt": null,
     "orderId": "order_mtormeye",
     "updatedAt": "2026-09-05T19:18:09.691Z"
+  },
+  {
+    "id": "inv_ds_the-legend-of-zelda-spirit-tracks-3",
+    "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 25.32,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgck3s",
+    "updatedAt": "2026-09-06T23:37:58.217Z"
+  },
+  {
+    "id": "inv_ds_mario-luigi-voyage-au-centre-de-bowser-2",
+    "gameId": "game_ds_mario-luigi-voyage-au-centre-de-bowser",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 7.6,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgck3s",
+    "updatedAt": "2026-09-06T23:37:58.217Z"
+  },
+  {
+    "id": "inv_3ds_beyblade-evolution",
+    "gameId": "game_3ds_beyblade-evolution",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 3.38,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgck3s",
+    "updatedAt": "2026-09-06T23:37:58.217Z"
+  },
+  {
+    "id": "inv_ps3_grand-theft-auto-v",
+    "gameId": "game_ps3_grand-theft-auto-v",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 3.38,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgck3s",
+    "updatedAt": "2026-09-06T23:37:58.217Z"
+  },
+  {
+    "id": "inv_ps3_the-last-of-us",
+    "gameId": "game_ps3_the-last-of-us",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 3.8,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgck3s",
+    "updatedAt": "2026-09-06T23:37:58.217Z"
+  },
+  {
+    "id": "inv_wii_sonic-et-les-anneaux-secrets",
+    "gameId": "game_wii_sonic-et-les-anneaux-secrets",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 8.07,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgckro",
+    "updatedAt": "2026-09-06T23:37:59.077Z"
+  },
+  {
+    "id": "inv_ds_goldeneye-au-service-du-mal",
+    "gameId": "game_ds_goldeneye-au-service-du-mal",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 8.07,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgckro",
+    "updatedAt": "2026-09-06T23:37:59.078Z"
+  },
+  {
+    "id": "inv_3ds_les-lapins-cretins-la-grosse-bagarre",
+    "gameId": "game_3ds_les-lapins-cretins-la-grosse-bagarre",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 8.06,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgckro",
+    "updatedAt": "2026-09-06T23:37:59.078Z"
+  },
+  {
+    "id": "inv_3ds_lego-pirates-des-caraibes-le-jeu-video",
+    "gameId": "game_3ds_lego-pirates-des-caraibes-le-jeu-video",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 8.06,
+      "currency": "EUR",
+      "includesShipping": true
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtqgckro",
+    "updatedAt": "2026-09-06T23:37:59.078Z"
   }
 ]

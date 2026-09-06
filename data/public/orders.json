@@ -2414,7 +2414,7 @@
   {
     "id": "order_mtj7h616",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "ordered",
     "itemCount": 2,
     "gameIds": [
       "game_ds_castlevania-dawn-of-sorrow",
@@ -2433,7 +2433,7 @@
       }
     ],
     "orderedAt": "2026-09-01",
-    "fulfilledAt": "2026-09-05",
+    "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2654,7 +2654,7 @@
   {
     "id": "order_mtormeye",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "ordered",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_dragon-quest-viii-l-odyssee-du-roi-maudit"
@@ -2667,11 +2667,151 @@
       }
     ],
     "orderedAt": "2026-09-05",
-    "fulfilledAt": "2026-09-05",
+    "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 50.83
+  },
+  {
+    "id": "order_mtqgcdfm",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_professeur-layton-et-l-appel-du-spectre"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_professeur-layton-et-l-appel-du-spectre",
+        "inventoryId": "inv_ds_professeur-layton-et-l-appel-du-spectre",
+        "unitPrice": 19.33
+      }
+    ],
+    "orderedAt": "2026-09-07",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 19.33
+  },
+  {
+    "id": "order_mtqgce07",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_professeur-layton-et-l-heritage-des-aslantes"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_professeur-layton-et-l-heritage-des-aslantes",
+        "inventoryId": "inv_3ds_professeur-layton-et-l-heritage-des-aslantes",
+        "unitPrice": 23.43
+      }
+    ],
+    "orderedAt": "2026-09-07",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 23.43
+  },
+  {
+    "id": "order_mtqgck3s",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 5,
+    "gameIds": [
+      "game_ds_the-legend-of-zelda-spirit-tracks",
+      "game_ds_mario-luigi-voyage-au-centre-de-bowser",
+      "game_3ds_beyblade-evolution",
+      "game_ps3_grand-theft-auto-v",
+      "game_ps3_the-last-of-us"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
+        "inventoryId": "inv_ds_the-legend-of-zelda-spirit-tracks-3",
+        "unitPrice": 25.32
+      },
+      {
+        "gameId": "game_ds_mario-luigi-voyage-au-centre-de-bowser",
+        "inventoryId": "inv_ds_mario-luigi-voyage-au-centre-de-bowser-2",
+        "unitPrice": 7.6
+      },
+      {
+        "gameId": "game_3ds_beyblade-evolution",
+        "inventoryId": "inv_3ds_beyblade-evolution",
+        "unitPrice": 3.38
+      },
+      {
+        "gameId": "game_ps3_grand-theft-auto-v",
+        "inventoryId": "inv_ps3_grand-theft-auto-v",
+        "unitPrice": 3.38
+      },
+      {
+        "gameId": "game_ps3_the-last-of-us",
+        "inventoryId": "inv_ps3_the-last-of-us",
+        "unitPrice": 3.8
+      }
+    ],
+    "orderedAt": "2026-09-06",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 43.48
+  },
+  {
+    "id": "order_mtqgckro",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 5,
+    "gameIds": [
+      "game_3ds_bravely-default",
+      "game_wii_sonic-et-les-anneaux-secrets",
+      "game_ds_goldeneye-au-service-du-mal",
+      "game_3ds_les-lapins-cretins-la-grosse-bagarre",
+      "game_3ds_lego-pirates-des-caraibes-le-jeu-video"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_bravely-default",
+        "inventoryId": "inv_3ds_bravely-default",
+        "unitPrice": 8.07
+      },
+      {
+        "gameId": "game_wii_sonic-et-les-anneaux-secrets",
+        "inventoryId": "inv_wii_sonic-et-les-anneaux-secrets",
+        "unitPrice": 8.07
+      },
+      {
+        "gameId": "game_ds_goldeneye-au-service-du-mal",
+        "inventoryId": "inv_ds_goldeneye-au-service-du-mal",
+        "unitPrice": 8.07
+      },
+      {
+        "gameId": "game_3ds_les-lapins-cretins-la-grosse-bagarre",
+        "inventoryId": "inv_3ds_les-lapins-cretins-la-grosse-bagarre",
+        "unitPrice": 8.06
+      },
+      {
+        "gameId": "game_3ds_lego-pirates-des-caraibes-le-jeu-video",
+        "inventoryId": "inv_3ds_lego-pirates-des-caraibes-le-jeu-video",
+        "unitPrice": 8.06
+      }
+    ],
+    "orderedAt": "2026-09-06",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 40.33
   }
 ]

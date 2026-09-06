@@ -11635,5 +11635,161 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_beyblade-evolution",
+    "kind": "game",
+    "canonicalTitle": "Beyblade Evolution",
+    "normalizedTitle": "beyblade evolution",
+    "aliases": [],
+    "franchise": "Beyblade",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2013,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_goldeneye-au-service-du-mal",
+    "kind": "game",
+    "canonicalTitle": "GoldenEye : Au service du mal",
+    "normalizedTitle": "goldeneye au service du mal",
+    "aliases": [],
+    "franchise": "GoldenEye",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2004,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_les-lapins-cretins-la-grosse-bagarre",
+    "kind": "game",
+    "canonicalTitle": "Les Lapins Crétins : La Grosse Bagarre",
+    "normalizedTitle": "les lapins cretins la grosse bagarre",
+    "aliases": [],
+    "franchise": "Lapins Crétins",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_lego-pirates-des-caraibes-le-jeu-video",
+    "kind": "game",
+    "canonicalTitle": "LEGO Pirates des Caraïbes : Le Jeu Vidéo",
+    "normalizedTitle": "lego pirates des caraibes le jeu video",
+    "aliases": [],
+    "franchise": "LEGO",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_sonic-et-les-anneaux-secrets",
+    "kind": "game",
+    "canonicalTitle": "Sonic et les Anneaux Secrets",
+    "normalizedTitle": "sonic et les anneaux secrets",
+    "aliases": [
+      "Sonic and the Secret Rings"
+    ],
+    "franchise": "Sonic",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ps3_grand-theft-auto-v",
+    "kind": "game",
+    "canonicalTitle": "Grand Theft Auto V",
+    "normalizedTitle": "grand theft auto v",
+    "aliases": [],
+    "franchise": "Grand Theft Auto",
+    "platformId": "ps3",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2013,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ps3_the-last-of-us",
+    "kind": "game",
+    "canonicalTitle": "The Last of Us",
+    "normalizedTitle": "the last of us",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ps3",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2013,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

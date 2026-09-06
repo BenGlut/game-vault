@@ -118,7 +118,17 @@
   change tout : une première lecture non filtrée avait sous-estimé l'Appel du
   Spectre d'un facteur 2
 
+- Quatre commandes Vinted enregistrées : les deux Layton manquants achetés au bas
+  de la fourchette relevée (Appel du Spectre 15 € chez nonovip94, Héritage des
+  Aslantes 18,90 € chez rathalosvg), le lot 5 jeux de loic_schr à 38 € et celui
+  de pommtp34 à 35 € — les deux lots expédiés en colis « Petit » comme demandé.
+  Sept jeux créés au passage (Beyblade Evolution 3DS, GoldenEye : Au service du
+  mal DS, Les Lapins Crétins : La Grosse Bagarre 3DS, LEGO Pirates des Caraïbes
+  3DS, Sonic et les Anneaux Secrets Wii, GTA V PS3, The Last of Us PS3)
+
 ## Changed
+- Statut corrigé sur deux commandes marquées expédiées à tort (paskalig, alexvdnb) :
+  Vinted n'indique que « Bordereau envoyé au vendeur », le colis n'a pas été déposé
 - Filtres persistés dans l'URL (Collection et Catalogue) : deep-link + retour
   arrière sans perdre les sélections — `CollectionExplorer.tsx`, `CatalogClient.tsx`
 - Index de recherche publié enrichi (région, qualité) — `scripts/vault/lib/publish.ts`
