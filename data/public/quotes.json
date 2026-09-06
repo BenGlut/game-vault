@@ -5167,12 +5167,12 @@
   },
   "game_ds_professeur-layton-et-l-appel-du-spectre": {
     "cib": {
-      "low": 6.47,
-      "median": 6.47,
-      "high": 6.47,
+      "low": 15,
+      "median": 35,
+      "high": 45,
       "currency": "EUR",
-      "source": "pricecharting-pal",
-      "observedAt": "2026-08-16"
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
     },
     "loose": {
       "low": 4.47,
@@ -5181,6 +5181,26 @@
       "currency": "EUR",
       "source": "pricecharting-pal",
       "observedAt": "2026-08-16"
+    }
+  },
+  "game_3ds_professeur-layton-et-l-heritage-des-aslantes": {
+    "cib": {
+      "low": 19,
+      "median": 45,
+      "high": 50,
+      "currency": "EUR",
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
+    }
+  },
+  "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney": {
+    "cib": {
+      "low": 65,
+      "median": 85,
+      "high": 100,
+      "currency": "EUR",
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
     }
   },
   "game_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires": {

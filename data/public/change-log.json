@@ -1,20 +1,5 @@
 [
   {
-    "at": "2026-08-13T13:39:05.850Z",
-    "command": "add-game",
-    "message": "add game Super Mario World (snes)"
-  },
-  {
-    "at": "2026-08-13T13:39:07.810Z",
-    "command": "add-game",
-    "message": "add game Super Mario World 2: Yoshi's Island (snes)"
-  },
-  {
-    "at": "2026-08-13T13:39:09.818Z",
-    "command": "add-game",
-    "message": "add game Donkey Kong Country (snes)"
-  },
-  {
     "at": "2026-08-13T13:39:11.820Z",
     "command": "add-game",
     "message": "add game Donkey Kong Country 2: Diddy's Kong Quest (snes)"
@@ -2498,5 +2483,20 @@
     "at": "2026-09-05T19:18:14.286Z",
     "command": "ship-order",
     "message": "ship-order order_mtn2pn5d"
+  },
+  {
+    "at": "2026-09-06T23:03:58.155Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_professeur-layton-et-l-appel-du-spectre"
+  },
+  {
+    "at": "2026-09-06T23:04:04.732Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_professeur-layton-et-l-heritage-des-aslantes"
+  },
+  {
+    "at": "2026-09-06T23:04:05.991Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney"
   }
 ]
