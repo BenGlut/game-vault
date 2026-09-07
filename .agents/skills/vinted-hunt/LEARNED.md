@@ -1,8 +1,27 @@
 # Journal des leçons — ronde Vinted
 
-Brouillon. Une ligne datée par leçon, factuelle, la plus courte possible.
-Quand une leçon revient trois fois, la promouvoir dans `SKILL.md` et la retirer d'ici.
-Plafond : 30 lignes. Au-delà, promouvoir ou supprimer la plus faible.
+## ⛔ Checklist avant d'écrire à un vendeur
+
+Trois échecs sur quatre viennent de ce bloc. Le relire À CHAQUE message, pas au
+début de la ronde — une règle qu'on ne relit pas au moment de s'en servir n'existe
+pas (2026-09-07 : la règle enfreinte avait été écrite six jours plus tôt).
+
+1. **Tout chiffre vient de `scripts/vinted/releve.js`, collé tel quel.** Jamais un
+   comptage tapé à la volée. Un vendeur vérifie en deux minutes → §2026-09-07.
+2. **Citer `n` et la fourchette q1-q3, jamais le minimum** présenté comme la norme
+   → §2026-09-07, §cotes Layton.
+3. **4 à 6 lignes maximum.** Au-delà, ce n'est pas lu → §2026-09-07.
+4. **Ne pas citer la concurrence à un vendeur qui n'est pas pressé** : ça lui offre
+   « allez l'acheter ailleurs » → §2026-09-07.
+5. **Demander toujours le colis le plus petit**, ne jamais concéder d'avance
+   → §2026-09-06.
+6. **Ne jamais révéler le plancher de benglut, ni accepter un prix en son nom.**
+7. **Calibrer l'écart sur le profil** : vendeur non pressé, peu d'annonces, note
+   pleine → −10 à −15 % maximum → §2026-09-07.
+
+*Le journal ci-dessous est daté et append-only. Une ligne par leçon, la plus courte
+possible. Quand une leçon revient trois fois, la promouvoir dans `SKILL.md` ou dans
+la checklist ci-dessus, et la retirer d'ici.*
 
 *Compacté le 2026-08-11 (ronde 50) : 120 → 79 lignes, soit 26 leçons. Les quatre leçons « faille de
 filtre » fusionnées en une, les trois « mots étrangers » en une, et l'import japonais

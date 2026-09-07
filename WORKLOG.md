@@ -131,7 +131,21 @@
   12/15/18 €, Revelations (3DS) 12/18/20 €. Le catalogue de référence les listait
   déjà tous les trois, l'inventaire n'en suivait aucun
 
+- `scripts/vinted/releve.js` : relevé de marché Vinted déterministe, à coller dans
+  l'onglet authentifié. Classe chaque annonce (complet / accessoire / cartouche nue /
+  scellé), interroge les deux ordres de tri et rend n + quartiles. Écrit après qu'un
+  comptage tapé à la main a fait envoyer un chiffre faux à une vendeuse, qui l'a
+  vérifié et a bloqué le compte. Classifieur gardé par `tests/releve.test.ts`
+  (14 titres réels, dont les deux erreurs d'origine)
+
 ## Changed
+- `LEARNED.md` : checklist « avant d'écrire à un vendeur » remontée en tête de fichier,
+  à relire à chaque message et non en début de ronde
+- `TIMELINE.md` compacté de 930 à 31 lignes : le journal s'arrêtait au 17 août et était
+  pourtant relu intégralement à chaque ronde. Ne restent que les vendeurs à éviter, les
+  vendeurs productifs et les pistes ouvertes
+- `price-observation/SKILL.md` : la méthode de relevé y est décrite, et la règle
+  low = q1 (jamais le minimum, qui est une annonce isolée et non le marché)
 - Statut corrigé sur deux commandes marquées expédiées à tort (paskalig, alexvdnb) :
   Vinted n'indique que « Bordereau envoyé au vendeur », le colis n'a pas été déposé
 - Filtres persistés dans l'URL (Collection et Catalogue) : deep-link + retour
