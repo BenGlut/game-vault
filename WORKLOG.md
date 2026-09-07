@@ -126,6 +126,11 @@
   mal DS, Les Lapins Crétins : La Grosse Bagarre 3DS, LEGO Pirates des Caraïbes
   3DS, Sonic et les Anneaux Secrets Wii, GTA V PS3, The Last of Us PS3)
 
+- Les trois Resident Evil DS/3DS ajoutés en wishlist avec leurs cotes relevées sur
+  Vinted France : Deadly Silence (DS) 70/80/100 €, The Mercenaries 3D (3DS)
+  12/15/18 €, Revelations (3DS) 12/18/20 €. Le catalogue de référence les listait
+  déjà tous les trois, l'inventaire n'en suivait aucun
+
 ## Changed
 - Statut corrigé sur deux commandes marquées expédiées à tort (paskalig, alexvdnb) :
   Vinted n'indique que « Bordereau envoyé au vendeur », le colis n'a pas été déposé
