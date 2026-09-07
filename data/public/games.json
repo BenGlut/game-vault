@@ -11791,5 +11791,77 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_resident-evil-deadly-silence",
+    "kind": "game",
+    "canonicalTitle": "Resident Evil: Deadly Silence",
+    "normalizedTitle": "resident evil deadly silence",
+    "aliases": [
+      "Biohazard: Deadly Silence"
+    ],
+    "franchise": "Resident Evil",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_resident-evil-the-mercenaries-3d",
+    "kind": "game",
+    "canonicalTitle": "Resident Evil: The Mercenaries 3D",
+    "normalizedTitle": "resident evil the mercenaries 3d",
+    "aliases": [
+      "Biohazard: The Mercenaries 3D"
+    ],
+    "franchise": "Resident Evil",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2011,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_resident-evil-revelations",
+    "kind": "game",
+    "canonicalTitle": "Resident Evil: Revelations",
+    "normalizedTitle": "resident evil revelations",
+    "aliases": [
+      "Biohazard: Revelations"
+    ],
+    "franchise": "Resident Evil",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2012,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

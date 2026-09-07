@@ -4111,7 +4111,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj7h616",
-    "updatedAt": "2026-09-05T19:18:13.189Z"
+    "updatedAt": "2026-09-07T17:28:33.442Z"
   },
   {
     "id": "inv_ds_advance-wars-dual-strike",
@@ -7396,7 +7396,7 @@
   {
     "id": "inv_ds_professeur-layton-et-l-appel-du-spectre",
     "gameId": "game_ds_professeur-layton-et-l-appel-du-spectre",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7410,7 +7410,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgcdfm",
-    "updatedAt": "2026-09-06T23:37:49.571Z"
+    "updatedAt": "2026-09-07T17:28:34.149Z"
   },
   {
     "id": "inv_3ds_professeur-layton-et-le-masque-des-miracles",
@@ -11246,7 +11246,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtj7h616",
-    "updatedAt": "2026-09-05T19:18:13.190Z"
+    "updatedAt": "2026-09-07T17:28:33.451Z"
   },
   {
     "id": "inv_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
@@ -11772,5 +11772,71 @@
     "acquiredAt": null,
     "orderId": "order_mtqgckro",
     "updatedAt": "2026-09-06T23:37:59.078Z"
+  },
+  {
+    "id": "inv_ds_resident-evil-deadly-silence",
+    "gameId": "game_ds_resident-evil-deadly-silence",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "CIB",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 70,
+      "median": 80,
+      "high": 100,
+      "currency": "EUR",
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-07T16:12:05.723Z"
+  },
+  {
+    "id": "inv_3ds_resident-evil-the-mercenaries-3d",
+    "gameId": "game_3ds_resident-evil-the-mercenaries-3d",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "CIB",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 15,
+      "high": 18,
+      "currency": "EUR",
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-07T16:12:06.707Z"
+  },
+  {
+    "id": "inv_3ds_resident-evil-revelations",
+    "gameId": "game_3ds_resident-evil-revelations",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "CIB",
+    "purchasePrice": null,
+    "currentEstimate": {
+      "low": 12,
+      "median": 18,
+      "high": 20,
+      "currency": "EUR",
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
+    },
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-07T16:12:07.667Z"
   }
 ]

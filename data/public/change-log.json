@@ -1,60 +1,5 @@
 [
   {
-    "at": "2026-08-13T19:43:37.853Z",
-    "command": "add-game",
-    "message": "add game Another Code : Mémoires Doubles (ds)"
-  },
-  {
-    "at": "2026-08-13T19:43:38.561Z",
-    "command": "add-game",
-    "message": "add game Blood Bowl (ds)"
-  },
-  {
-    "at": "2026-08-13T19:43:39.261Z",
-    "command": "add-game",
-    "message": "add game Puzzle Quest: Galactrix (ds)"
-  },
-  {
-    "at": "2026-08-13T19:43:40.031Z",
-    "command": "add-game",
-    "message": "add game Magical Starsign (ds)"
-  },
-  {
-    "at": "2026-08-13T19:43:40.955Z",
-    "command": "add-game",
-    "message": "add game Sonic Rush Adventure (ds)"
-  },
-  {
-    "at": "2026-08-13T19:43:42.085Z",
-    "command": "add-game",
-    "message": "add game Sonic Rush (ds)"
-  },
-  {
-    "at": "2026-08-13T19:43:42.930Z",
-    "command": "add-game",
-    "message": "add game Sonic Colours (ds)"
-  },
-  {
-    "at": "2026-08-13T19:43:44.226Z",
-    "command": "add-game",
-    "message": "add game Sonic & Sega All-Stars Racing (ds)"
-  },
-  {
-    "at": "2026-08-13T19:47:22.984Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-13T19:47:23.951Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-13T19:47:24.779Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
     "at": "2026-08-13T19:53:51.501Z",
     "command": "add-game",
     "message": "add game Mario Smash Football (gamecube)"
@@ -2498,5 +2443,60 @@
     "at": "2026-09-06T23:37:59.103Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-07T16:11:43.221Z",
+    "command": "add-game",
+    "message": "add game Resident Evil: Deadly Silence (ds)"
+  },
+  {
+    "at": "2026-09-07T16:11:44.215Z",
+    "command": "add-game",
+    "message": "add game Resident Evil: The Mercenaries 3D (3ds)"
+  },
+  {
+    "at": "2026-09-07T16:11:45.413Z",
+    "command": "add-game",
+    "message": "add game Resident Evil: Revelations (3ds)"
+  },
+  {
+    "at": "2026-09-07T16:11:54.782Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_resident-evil-deadly-silence"
+  },
+  {
+    "at": "2026-09-07T16:11:55.786Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_3ds_resident-evil-the-mercenaries-3d"
+  },
+  {
+    "at": "2026-09-07T16:11:56.906Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_3ds_resident-evil-revelations"
+  },
+  {
+    "at": "2026-09-07T16:12:05.752Z",
+    "command": "add-price",
+    "message": "price observation for game_ds_resident-evil-deadly-silence"
+  },
+  {
+    "at": "2026-09-07T16:12:06.737Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_resident-evil-the-mercenaries-3d"
+  },
+  {
+    "at": "2026-09-07T16:12:07.692Z",
+    "command": "add-price",
+    "message": "price observation for game_3ds_resident-evil-revelations"
+  },
+  {
+    "at": "2026-09-07T17:28:33.470Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtj7h616"
+  },
+  {
+    "at": "2026-09-07T17:28:34.169Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtqgcdfm"
   }
 ]

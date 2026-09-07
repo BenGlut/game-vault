@@ -2414,7 +2414,7 @@
   {
     "id": "order_mtj7h616",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 2,
     "gameIds": [
       "game_ds_castlevania-dawn-of-sorrow",
@@ -2433,7 +2433,7 @@
       }
     ],
     "orderedAt": "2026-09-01",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-07",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2677,7 +2677,7 @@
   {
     "id": "order_mtqgcdfm",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_ds_professeur-layton-et-l-appel-du-spectre"
@@ -2690,7 +2690,7 @@
       }
     ],
     "orderedAt": "2026-09-07",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-07",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,

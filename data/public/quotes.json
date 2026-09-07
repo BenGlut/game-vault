@@ -6624,5 +6624,35 @@
       "source": "vinted",
       "observedAt": "2026-09-02"
     }
+  },
+  "game_ds_resident-evil-deadly-silence": {
+    "cib": {
+      "low": 70,
+      "median": 80,
+      "high": 100,
+      "currency": "EUR",
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
+    }
+  },
+  "game_3ds_resident-evil-the-mercenaries-3d": {
+    "cib": {
+      "low": 12,
+      "median": 15,
+      "high": 18,
+      "currency": "EUR",
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
+    }
+  },
+  "game_3ds_resident-evil-revelations": {
+    "cib": {
+      "low": 12,
+      "median": 18,
+      "high": 20,
+      "currency": "EUR",
+      "source": "vinted-fr",
+      "observedAt": "2026-09-07"
+    }
   }
 }

@@ -5563,5 +5563,41 @@
     "p": "ps3",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_resident-evil-deadly-silence",
+    "t": "Resident Evil: Deadly Silence",
+    "n": "resident evil deadly silence",
+    "a": [
+      "Biohazard: Deadly Silence"
+    ],
+    "f": "Resident Evil",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_resident-evil-the-mercenaries-3d",
+    "t": "Resident Evil: The Mercenaries 3D",
+    "n": "resident evil the mercenaries 3d",
+    "a": [
+      "Biohazard: The Mercenaries 3D"
+    ],
+    "f": "Resident Evil",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_resident-evil-revelations",
+    "t": "Resident Evil: Revelations",
+    "n": "resident evil revelations",
+    "a": [
+      "Biohazard: Revelations"
+    ],
+    "f": "Resident Evil",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
