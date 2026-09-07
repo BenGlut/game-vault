@@ -264,3 +264,52 @@ sont chiffrés et personnels au vendeur :
 **Règle : avant d'écrire une offre, relever le nombre d'exemplaires concurrents
 et relire ce que le vendeur a dit de sa situation.** Un chiffre vaut dix formules
 de politesse.
+
+## 2026-09-07 — Un chiffre faux envoyé à un vendeur détruit la négociation
+
+Offre à 60 € sur les deux lots de `millydressmode` (85 € demandés) : **refusée**,
+avec une réponse longue et cinglante. Le refus ne portait pas sur le montant mais
+sur mes chiffres. Elle a vérifié et elle avait raison :
+
+> *« vos comparaisons de prix sont énormément sur des prix boîte vide sans jeu et
+> notice 😂 via vinted donc facile de comparer ce qui n'est pas comparable […]
+> j'ai regardé les annonces »*
+
+Ce que j'avais écrit contre ce qui était vrai :
+
+| Affirmé au vendeur | Réalité (relevé filtré) |
+|---|---|
+| Corner Shop 2 : **22 exemplaires** | **11** — le comptage brut incluait boîtiers, notices, inserts |
+| « tous entre **10 et 15 €** » | Bon Appétit : 10-60 €, médiane **22 €**, seulement 5 annonces sur 25 sous 15 € |
+
+**La règle existait déjà** (entrée du 2026-09-01 : exclure boîtes vides, notices,
+cartouches nues). Je l'ai appliquée aux relevés internes du même jour — le filtre
+`EX` des scripts de cotation — et **pas** au message envoyé à un humain, c'est-à-dire
+au seul endroit où l'erreur avait un coût.
+
+**Règle : tout chiffre destiné à un vendeur passe par le relevé filtré, jamais par
+un comptage brut.** Un vendeur vérifie en deux minutes ; un chiffre faux ne coûte
+pas la vente, il coûte la crédibilité — et il donne au vendeur la réplique parfaite :
+« si c'est moins cher ailleurs, allez-y ».
+
+### Trois erreurs de forme dans le même message
+
+1. **Trop long.** *« votre paragraphe de 3 tomes je ne l'ai pas lu en entier, j'ai lu
+   2 voire 3 infos »*. La structure en « trois oui » n'a jamais été lue. Sur Vinted,
+   un message de négociation tient en 4 à 6 lignes. Le reste n'existe pas.
+2. **Le comparatif invite au renvoi.** *« si vous trouvez moins cher ailleurs,
+   pourquoi venir négocier chez moi ? »* puis *« je vous invite à acheter sur vos
+   autres annonces »*. Citer la concurrence donne au vendeur une porte de sortie
+   gratuite. Ça ne marche que sur un vendeur pressé — jamais sur un vendeur qui
+   dit ne pas l'être.
+3. **Ton de commercial.** *« On sent votre métier de négociation commerciale »*,
+   *« c'est pour l'achat revente »*. Argumentaire structuré + auto-présentation
+   chiffrée (« 53 évaluations, 4,9/5 ») = script pro. Un particulier collectionneur
+   écrit court et sans plan.
+
+**Signaux de vendeur à lire AVANT d'écrire** : elle avait 19 évaluations 5/5, aucune
+réduction de lot activée, des annonces récentes, et a dit *« je ne suis pas pressée
+de les vendre »*. Elle possède 4 DS et connaît les prix. Sur ce profil, l'écart
+demandé doit rester modeste (−10 à −15 %) et l'argument doit être le volume acheté,
+pas la dévaluation de sa marchandise. -29 % sur un vendeur non pressé, c'est perdu
+d'avance.
