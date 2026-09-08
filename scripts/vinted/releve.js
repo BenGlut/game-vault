@@ -31,8 +31,14 @@ const VIDE = /\b(vide|vuota|empty|sans (le )?jeu|seule?s?|uniquement la)\b/i;
 const LOOSE = /\b(cartouche|cartuccia|loose|sans bo[iî]t\w*|disque seul)\b/i;
 const LOOSE_ANNULE = /\bcomplet\w*|cib|avec (sa )?bo[iî]te\b/i;
 
-/** Neuf scellé : marché distinct de l'occasion, jamais mélangé. */
-const SCELLE = /\b(scell\w*|sigillat\w*|precintad\w*|sealed|blister|neuf sous|nuovo|selado|nieuw)\b/i;
+/**
+ * Neuf : marché distinct de l'occasion, jamais mélangé. Le simple mot « neuf »
+ * suffit — sur Lost in Blue 2, trois annonces « neuf » à 30 € tiraient la médiane
+ * de 10 à 30 € alors que l'occasion complète se négocie sous 12 €.
+ * `comme neuf` est un état d'occasion : ne pas l'attraper.
+ */
+const SCELLE =
+  /\b(scell\w*|sigillat\w*|precintad\w*|sealed|blister|(?<!comme )neuf|nuovo|selado|nieuw)\b/i;
 
 /** @returns {"accessoire"|"loose"|"scelle"|null} la raison d'écarter, ou null. */
 function ecarter(t) {
@@ -43,10 +49,16 @@ function ecarter(t) {
   return null;
 }
 
-async function csrf() {
-  const html = await fetch(location.href).then((r) => r.text());
+/**
+ * Le jeton est déjà dans le DOM chargé : le relire là plutôt que de refetcher la
+ * page. Le refetch prenait plus de 45 s sur une page catalogue et faisait expirer
+ * l'appel côté outil.
+ */
+function csrf() {
   return {
-    "X-Csrf-Token": html.match(/CSRF_TOKEN\\?":\\?"([0-9a-f-]{36})/)?.[1],
+    "X-Csrf-Token": document.documentElement.innerHTML.match(
+      /CSRF_TOKEN\\?":\\?"([0-9a-f-]{36})/,
+    )?.[1],
     "X-Anon-Id": document.cookie.match(/anon_id=([^;]+)/)?.[1],
     Accept: "application/json",
   };
@@ -66,7 +78,7 @@ function quantile(tri, p) {
  */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars -- point d'entrée, appelé après collage
 async function releve(cibles) {
-  const H = await csrf();
+  const H = csrf();
   const chercher = async (q, ordre) => {
     const r = await fetch(
       `/api/v2/catalog/items?search_text=${encodeURIComponent(q)}&per_page=60&order=${ordre}`,

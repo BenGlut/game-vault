@@ -21,7 +21,7 @@ const SOURCE = path.resolve(__dirname, "../scripts/vinted/releve.js");
 function chargerClassifieur(): (titre: string) => string | null {
   const src = fs.readFileSync(SOURCE, "utf8");
   const debut = src.indexOf("const ACCESSOIRE");
-  const fin = src.indexOf("async function csrf");
+  const fin = src.indexOf("function csrf");
   expect(debut, "en-tête du classifieur introuvable").toBeGreaterThan(-1);
   expect(fin, "fin du classifieur introuvable").toBeGreaterThan(debut);
   return new Function(`${src.slice(debut, fin)}; return ecarter;`)() as (t: string) => string | null;
@@ -43,6 +43,12 @@ const CAS: [string, string][] = [
   ["Jeu DS professeur Layton L’appel du spectre complet", "OK"],
   ["Cooking Mama Sweet Shop 3ds - french box, complete", "OK"],
   ["Tamagotchi Corner Shop 2 Nintendo DS", "OK"],
+  // « neuf » est un marché distinct : trois annonces neuves tiraient la médiane de
+  // Lost in Blue 2 de 10 à 30 €. Mais « comme neuf » reste de l'occasion.
+  ["Jeu neuf Nintendo DS - Lost in Blue 2", "scelle"],
+  ["Nintendo DS Lost in Blue 2 neuf", "scelle"],
+  ["Lost in Blue 2 - Jeu DS complet, comme neuf", "OK"],
+  ["Lost In Blue 2 DS – Jaquette + boîtier – Sans le jeu", "accessoire"],
 ];
 
 describe("relevé Vinted — classifieur d'annonces", () => {
