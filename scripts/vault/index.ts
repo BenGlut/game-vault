@@ -605,6 +605,10 @@ function main(): void {
               i.status = "delivered";
               i.acquiredAt = date;
               i.verificationStatus = "verified"; // vu physiquement à la réception
+              // Une entrée issue de la wishlist a été créée à quantité 0 : sans cette
+              // ligne elle restait à 0 une fois reçue, donc hors collection.
+              const ligne = order.items.find((it) => it.inventoryId === i.id);
+              i.quantity = Math.max(i.quantity, ligne?.quantity ?? 1);
               i.updatedAt = nowIso();
               invIds.push(i.id);
             }

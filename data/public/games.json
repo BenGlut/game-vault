@@ -11863,5 +11863,49 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ps1_micro-maniacs",
+    "kind": "game",
+    "canonicalTitle": "Micro Maniacs",
+    "normalizedTitle": "micro maniacs",
+    "aliases": [],
+    "franchise": "Micro Machines",
+    "platformId": "ps1",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2000,
+    "genres": [],
+    "edition": null,
+    "mediaType": "disc",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_gbc_micro-maniacs",
+    "kind": "game",
+    "canonicalTitle": "Micro Maniacs",
+    "normalizedTitle": "micro maniacs",
+    "aliases": [],
+    "franchise": "Micro Machines",
+    "platformId": "gbc",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2000,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

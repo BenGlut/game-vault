@@ -175,3 +175,42 @@ describe("vault deal", () => {
     expect(String(r.error)).toContain("Aucune cote");
   });
 });
+
+describe("vault deliver-order — quantité", () => {
+  /**
+   * Une entrée de wishlist est créée à quantité 0. `add-order` la recycle sans y
+   * toucher, et `deliver-order` ne mettait à jour que le statut : 27 jeux
+   * physiquement reçus étaient comptés hors collection (constaté 2026-09-08).
+   */
+  it("passe une entrée issue de la wishlist à quantité 1 à la réception", () => {
+    const jeu = "game_3ds_pokemon-lune";
+    const wl = vault(["add-inventory", "--game", jeu, "--status", "wishlist", "--quantity", "0", "--yes"]);
+    expect((wl.result as { quantity: number }).quantity).toBe(0);
+
+    const cmd = vault(["add-order", "--marketplace", "vinted", "--items", `${jeu}:20`, "--total", "20", "--yes"]);
+    const orderId = (cmd.result as { id: string }).id;
+    vault(["deliver-order", "--order", orderId, "--yes"]);
+
+    const inv = JSON.parse(
+      fs.readFileSync(path.join(scratch, "data", "inventory.json"), "utf8"),
+    ) as { id: string; status: string; quantity: number; orderId: string | null }[];
+    const recu = inv.find((i) => i.orderId === orderId);
+    expect(recu?.status).toBe("delivered");
+    expect(recu?.quantity).toBe(1);
+  });
+
+  it("validate refuse un exemplaire livré à quantité 0", () => {
+    const p = path.join(scratch, "data", "inventory.json");
+    const inv = JSON.parse(fs.readFileSync(p, "utf8")) as { status: string; quantity: number }[];
+    const cible = inv.find((i) => i.status === "delivered")!;
+    cible.quantity = 0;
+    fs.writeFileSync(p, JSON.stringify(inv, null, 2));
+
+    const r = vault(["validate"], true);
+    const issues = (r.result as { issues: string[] }).issues;
+    expect(issues.some((i) => /quantité 0/.test(i))).toBe(true);
+
+    cible.quantity = 1;
+    fs.writeFileSync(p, JSON.stringify(inv, null, 2));
+  });
+});

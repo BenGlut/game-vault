@@ -177,6 +177,11 @@ export function integrityIssues(v: Vault): string[] {
     if (i.orderId && !orderIds.has(i.orderId)) issues.push(`${i.id}: commande inconnue ${i.orderId}`);
     if (i.status === "cancelled" && i.quantity > 0 && !i.orderId)
       issues.push(`${i.id}: item annulé sans commande liée`);
+    // Un exemplaire reçu compte dans la collection. La quantité restait à 0 quand
+    // l'entrée venait d'une wishlist (créée à 0) et que `deliver-order` ne la
+    // touchait pas : 27 jeux livrés étaient comptés comme non possédés.
+    if (["delivered", "owned"].includes(i.status) && i.quantity < 1)
+      issues.push(`${i.id}: statut ${i.status} mais quantité ${i.quantity}`);
   }
   for (const o of v.orders) {
     if (o.sellerId && !sellerIds.has(o.sellerId)) issues.push(`${o.id}: vendeur inconnu ${o.sellerId}`);

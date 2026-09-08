@@ -5599,5 +5599,25 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ps1_micro-maniacs",
+    "t": "Micro Maniacs",
+    "n": "micro maniacs",
+    "a": [],
+    "f": "Micro Machines",
+    "p": "ps1",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_gbc_micro-maniacs",
+    "t": "Micro Maniacs",
+    "n": "micro maniacs",
+    "a": [],
+    "f": "Micro Machines",
+    "p": "gbc",
+    "r": "PAL-EU",
+    "q": null
   }
 ]

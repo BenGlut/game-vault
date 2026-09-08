@@ -138,6 +138,12 @@
   vérifié et a bloqué le compte. Classifieur gardé par `tests/releve.test.ts`
   (14 titres réels, dont les deux erreurs d'origine)
 
+- Cinq commandes reçues (lot yamm3000 de 15 jeux, Shovel Knight, lots mamablrb,
+  lena150285 et gs.satori) et deux commandes Micro Maniacs enregistrées : version PS1
+  chez kelevra79, version Game Boy Color chez gameshelfshop — cette dernière signalée
+  `loose` et `needs_review`, sa boîte étant une reproduction sur mesure annoncée comme
+  telle par le vendeur
+
 ## Changed
 - `LEARNED.md` : checklist « avant d'écrire à un vendeur » remontée en tête de fichier,
   à relire à chaque message et non en début de ronde
@@ -154,6 +160,14 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- **27 jeux livrés étaient comptés hors collection.** `deliver-order` ne mettait à jour
+  que le statut de l'entrée d'inventaire, jamais sa quantité : une entrée créée depuis
+  la wishlist (quantité 0) restait à 0 une fois le jeu physiquement reçu. Touchait
+  Majora's Mask 3D, Ocarina of Time, Super Mario 64, Metroid Prime 1 et 2, Fire Emblem
+  Awakening, Golden Sun, quatre Final Fantasy Switch et vingt autres. La quantité est
+  désormais reprise de la ligne de commande, `validate` refuse un exemplaire
+  livré/possédé à quantité 0, et deux tests d'intégration gardent les deux comportements
+  — `scripts/vault/index.ts`, `scripts/vault/lib/store.ts`, `tests/cli.test.ts`
 - Jaquette Final Fantasy IX (Switch) : l'icône carrée de l'eShop remplacée par la
   vraie jaquette de l'édition physique, sur signalement de benglut
 - Jaquettes Switch : le script prenait le premier résultat de recherche eShop quand
