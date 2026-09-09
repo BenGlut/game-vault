@@ -363,3 +363,24 @@ Remplacement : `/api/v2/wardrobe/<user_id>/items?page=N&per_page=60`, qui rend
 `title`, `price`, `is_visible`, `is_closed` et se pagine sur
 `pagination.total_entries`. Pour le contenu exact d'un lot en offre,
 `/api/v2/transactions/<id>` → `order.items` porte titres et prix unitaires.
+
+## 2026-09-10 — Ronde chasse : ce que le filtre laisse passer
+
+- Le filtre TITRE et le filtre DESCRIPTION ne peuvent pas être le même. Dans un titre,
+  « notice »/« boîte » désigne le produit vendu ; dans une description, ce sont au
+  contraire les marqueurs d'un exemplaire COMPLET. Appliquer le filtre accessoire à la
+  description écartait du bon (3 Majora's Mask valides rejetés).
+- « notice du jeu X » et « boîte du jeu X » passaient, parce que le mot « jeu » annulait
+  l'exclusion accessoire. Ancrer aussi sur la POSITION : accessoire si le titre commence
+  par notice/boîte/jaquette/guide, ou sur le motif `<accessoire> du jeu`.
+- L'origine s'annonce aussi en **drapeau emoji** : 🇺🇸 sur un World Ends With You, 🇪🇦 sur
+  un Kingdom Hearts Re:coded. Aucun mot à filtrer, seulement le glyphe.
+- Vocabulaire d'import à ajouter au filtre : `Modul` et `OVP` (allemand, cartouche nue et
+  boîte d'origine), `Leerhülle` (boîtier vide), `compleet`/`spel` (néerlandais),
+  `cartucho`/`puntos VIP` (espagnol), `cartridge` (anglais, que le filtre français ratait).
+- « Shin Megami Tensei IV » ramène « Shin Megami Tensei IV **Apocalypse** », un autre jeu :
+  4 favoris sur 5 étaient le mauvais titre. La règle « exclure les suites par nom » vaut
+  aussi pour les sous-titres accolés, pas seulement pour les numéros.
+- Un appel CDP meurt à 45 s. Pour toute boucle plus longue, la lancer **sans l'attendre**
+  dans la page (`(async()=>{…})()` qui écrit dans `window.__res`) et relever le résultat
+  dans un appel suivant. Supprime toute contrainte de durée.

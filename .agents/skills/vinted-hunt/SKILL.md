@@ -93,24 +93,29 @@ a *new* thread this way returns 403 — for an unknown seller use the listing's
 
 **Interface and API quirks, all field-verified:**
 
-- **Liking goes through the DOM, never the API.** On a catalog page,
-  `document.querySelectorAll('button[aria-label*="favoris"]')` yields ~148 hearts and
-  `b.click()` really toggles them (the aria-label flips to "Supprimer des favoris").
-  Put **no delay** in the loop: a background tab throttles timers to ~1/minute and the
-  CDP call dies at 45 s, whereas 60 delay-free clicks land at once. The API
-  `/api/v2/user_favourites/toggle` (body `{type:'item',user_id,item_ids:[id]}`) only
-  ever **removes** — on an add it answers `200 {"code":0,"message":"Ok"}` and does
-  nothing, so a counter built on the status code lies. Read `is_favourite` back from
-  `/api/v2/catalog/items`, which is live; the favourites *list* endpoint is cached and
-  still shows an item minutes after it was removed.
+- **Liking works by API** (corrected 2026-09-10; the rule below said the opposite and
+  cost every round a page-by-page DOM crawl). `POST /api/v2/user_favourites/toggle`,
+  body `{type:'item',user_favourites:[id]}` — the key is **`user_favourites`**, not
+  `item_ids`. With the wrong key the call still answers `200 {"code":0,"message":"Ok"}`
+  and does nothing, which is what made it look add-proof. Toggle means an id already
+  liked gets **un**liked: send only ids whose `is_favourite` is false. Read the state
+  back from `/api/v2/catalog/items`, which is live; the favourites *list* endpoint is
+  cached and still shows an item minutes after removal. The DOM fallback still works
+  (`button[aria-label*="favoris"]`, `b.click()`, no delay in the loop) but is no longer
+  needed.
 - Making an offer needs the listing modal and therefore the **foreground tab**: in a
   background tab the button clicks silently and no field appears. Once open, set
   `#offer` through React's native value setter, then click "Proposer <montant>".
   `POST /api/v2/transactions/<tx>/offer_requests` exists but answers "Prix de l'offre
   trop bas" even at 97 % of the asking price — the message is misleading and the
   channel unusable.
-- `/api/v2/items/<id>` returns 404 — useless anyway: `/api/v2/catalog/items` already
-  carries title, total price, condition, photos, seller and URL.
+- `/api/v2/items/<id>` returns 404, but the **HTML page** `/items/<id>` does not, and it
+  is the only cheap source of the **description** — which `/api/v2/catalog/items` never
+  returns. Read it with `"description":"((?:[^"\\]|\\.)*)"`. Worth the cost: on the
+  2026-09-10 round the description alone unmasked a US Chrono Trigger, and on Banjo-Kazooie
+  it caught 3 imports and 4 loose carts that the title had hidden. Budget ~20 page reads,
+  then HTTP 429; a 30 s pause clears it. The page weighs ~2 MB, so read only the listings
+  that already passed the title filter.
 - Seller's full wardrobe: `/api/v2/wardrobe/<user_id>/items`. `/api/v2/users/<id>/items`
   returns 404. Read the whole wardrobe in one call before evaluating listings one by one.
 - `/api/v2/my_orders` returns empty fields depending on the originating page: go to
