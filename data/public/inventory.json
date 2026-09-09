@@ -3774,7 +3774,7 @@
   {
     "id": "inv_3ds_bravely-default",
     "gameId": "game_3ds_bravely-default",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -3795,7 +3795,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-06T23:37:59.076Z"
+    "updatedAt": "2026-09-09T18:49:53.803Z"
   },
   {
     "id": "inv_3ds_shin-megami-tensei-iv",
@@ -7430,7 +7430,7 @@
   {
     "id": "inv_3ds_professeur-layton-et-l-heritage-des-aslantes",
     "gameId": "game_3ds_professeur-layton-et-l-heritage-des-aslantes",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7444,7 +7444,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgce07",
-    "updatedAt": "2026-09-06T23:37:50.311Z"
+    "updatedAt": "2026-09-09T18:49:49.647Z"
   },
   {
     "id": "inv_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
@@ -11600,12 +11600,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtormeye",
-    "updatedAt": "2026-09-05T19:18:09.691Z"
+    "updatedAt": "2026-09-09T18:49:55.540Z"
   },
   {
     "id": "inv_ds_the-legend-of-zelda-spirit-tracks-3",
     "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11619,12 +11619,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-06T23:37:58.217Z"
+    "updatedAt": "2026-09-09T18:49:52.040Z"
   },
   {
     "id": "inv_ds_mario-luigi-voyage-au-centre-de-bowser-2",
     "gameId": "game_ds_mario-luigi-voyage-au-centre-de-bowser",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11638,12 +11638,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-06T23:37:58.217Z"
+    "updatedAt": "2026-09-09T18:49:52.041Z"
   },
   {
     "id": "inv_3ds_beyblade-evolution",
     "gameId": "game_3ds_beyblade-evolution",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11657,12 +11657,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-06T23:37:58.217Z"
+    "updatedAt": "2026-09-09T18:49:52.041Z"
   },
   {
     "id": "inv_ps3_grand-theft-auto-v",
     "gameId": "game_ps3_grand-theft-auto-v",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11676,12 +11676,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-06T23:37:58.217Z"
+    "updatedAt": "2026-09-09T18:49:52.041Z"
   },
   {
     "id": "inv_ps3_the-last-of-us",
     "gameId": "game_ps3_the-last-of-us",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11695,12 +11695,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-06T23:37:58.217Z"
+    "updatedAt": "2026-09-09T18:49:52.041Z"
   },
   {
     "id": "inv_wii_sonic-et-les-anneaux-secrets",
     "gameId": "game_wii_sonic-et-les-anneaux-secrets",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11714,12 +11714,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-06T23:37:59.077Z"
+    "updatedAt": "2026-09-09T18:49:53.805Z"
   },
   {
     "id": "inv_ds_goldeneye-au-service-du-mal",
     "gameId": "game_ds_goldeneye-au-service-du-mal",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11733,12 +11733,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-06T23:37:59.078Z"
+    "updatedAt": "2026-09-09T18:49:53.805Z"
   },
   {
     "id": "inv_3ds_les-lapins-cretins-la-grosse-bagarre",
     "gameId": "game_3ds_les-lapins-cretins-la-grosse-bagarre",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11752,12 +11752,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-06T23:37:59.078Z"
+    "updatedAt": "2026-09-09T18:49:53.805Z"
   },
   {
     "id": "inv_3ds_lego-pirates-des-caraibes-le-jeu-video",
     "gameId": "game_3ds_lego-pirates-des-caraibes-le-jeu-video",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11771,7 +11771,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-06T23:37:59.078Z"
+    "updatedAt": "2026-09-09T18:49:53.805Z"
   },
   {
     "id": "inv_ds_resident-evil-deadly-silence",
@@ -11842,7 +11842,7 @@
   {
     "id": "inv_ps1_micro-maniacs",
     "gameId": "game_ps1_micro-maniacs",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11855,7 +11855,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtt4dnlh",
-    "updatedAt": "2026-09-08T20:26:12.534Z"
+    "updatedAt": "2026-09-09T18:49:47.871Z"
   },
   {
     "id": "inv_gbc_micro-maniacs",

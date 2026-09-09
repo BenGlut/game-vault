@@ -2654,7 +2654,7 @@
   {
     "id": "order_mtormeye",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_dragon-quest-viii-l-odyssee-du-roi-maudit"
@@ -2667,7 +2667,7 @@
       }
     ],
     "orderedAt": "2026-09-05",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2700,7 +2700,7 @@
   {
     "id": "order_mtqgce07",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_professeur-layton-et-l-heritage-des-aslantes"
@@ -2713,7 +2713,7 @@
       }
     ],
     "orderedAt": "2026-09-07",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2723,7 +2723,7 @@
   {
     "id": "order_mtqgck3s",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 5,
     "gameIds": [
       "game_ds_the-legend-of-zelda-spirit-tracks",
@@ -2760,7 +2760,7 @@
       }
     ],
     "orderedAt": "2026-09-06",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2770,7 +2770,7 @@
   {
     "id": "order_mtqgckro",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 5,
     "gameIds": [
       "game_3ds_bravely-default",
@@ -2807,7 +2807,7 @@
       }
     ],
     "orderedAt": "2026-09-06",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2817,7 +2817,7 @@
   {
     "id": "order_mtt4dnlh",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_ps1_micro-maniacs"
@@ -2830,7 +2830,7 @@
       }
     ],
     "orderedAt": "2026-09-08",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,

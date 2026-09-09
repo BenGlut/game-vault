@@ -1,30 +1,5 @@
 [
   {
-    "at": "2026-08-16T21:58:22.356Z",
-    "command": "add-price",
-    "message": "price observation for game_3ds_hyrule-warriors-legends"
-  },
-  {
-    "at": "2026-08-16T21:58:23.056Z",
-    "command": "add-price",
-    "message": "price observation for game_3ds_hyrule-warriors-legends"
-  },
-  {
-    "at": "2026-08-16T22:00:16.997Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-16T22:00:45.942Z",
-    "command": "add-game",
-    "message": "add game The Legend of Zelda: Phantom Hourglass (US) (ds)"
-  },
-  {
-    "at": "2026-08-16T22:00:47.107Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
     "at": "2026-08-16T22:02:59.621Z",
     "command": "add-game",
     "message": "add game Tetris Party Deluxe (ds)"
@@ -2498,5 +2473,30 @@
     "at": "2026-09-08T20:26:13.386Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-09T18:49:47.952Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtt4dnlh"
+  },
+  {
+    "at": "2026-09-09T18:49:49.691Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtqgce07"
+  },
+  {
+    "at": "2026-09-09T18:49:52.098Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtqgck3s"
+  },
+  {
+    "at": "2026-09-09T18:49:53.865Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtqgckro"
+  },
+  {
+    "at": "2026-09-09T18:49:55.583Z",
+    "command": "ship-order",
+    "message": "ship-order order_mtormeye"
   }
 ]
