@@ -39,6 +39,20 @@ including the no-push-without-explicit-order rule.
   sub-agent (`.claude/agents/locator.md`, `.claude/agents/editor.md`); never fan out
   in parallel; never delegate schema changes, releases, git, or the final review.
 
+### Shell hygiene — this is what causes permission prompts (2026-09-09)
+
+Allow-rules match the WHOLE command string. Every prompt benglut sees comes from a
+command that no rule can match:
+
+- **One command per Bash call.** No `cd … && x && y` chains: `Bash(pnpm vault *)`
+  never matches `cd /path && pnpm vault …`. Use absolute paths or rely on the cwd.
+- **No `node -e '…'` / `python3 - <<EOF` to read the base.** Each is a unique string
+  AND arbitrary code, so it can never be allow-listed. Use `pnpm vault inspect
+  games|inventory|orders [--match regex] [--status s] [--platform p]`. If a query
+  the CLI cannot express recurs, add it to `inspect` rather than inlining a script.
+- Deliberately NOT allow-listed, and that is correct: `node -e`, `python3`, bare
+  `pnpm exec *`, `rm`. They are arbitrary execution — a prompt there is the point.
+
 ## 4. `WORKLOG.md`
 
 Single source of truth for everything done since the last release. Update it
