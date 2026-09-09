@@ -332,3 +332,34 @@ de les vendre »*. Elle possède 4 DS et connaît les prix. Sur ce profil, l'éc
 demandé doit rester modeste (−10 à −15 %) et l'argument doit être le volume acheté,
 pas la dévaluation de sa marchandise. -29 % sur un vendeur non pressé, c'est perdu
 d'avance.
+
+## 2026-09-09 — Annoncer son maximum, puis baisser son offre : zyeu14
+
+Relecture du fil `zyeu14` (lot 8 jeux, 40 € demandés). Deux fautes cumulées, dans
+cet ordre :
+
+1. **Le plafond a été écrit noir sur blanc** : « 35 € est mon maximum sur ce lot,
+   je ne peux pas monter au-delà » (06/09 01:12). La règle 6 de la checklist dit
+   exactement l'inverse. Un vendeur qui connaît le plafond n'a plus qu'à attendre :
+   c'est lui qui tient la montre, et le silence lui coûte zéro.
+2. **L'offre formelle a BAISSÉ** : 37 € le 06/09 à 01:13, puis 35 € le 07/09 à
+   21:58. Reculer sur son propre chiffre en cours de discussion se lit comme de la
+   mauvaise foi, pas comme de la fermeté. Le vendeur n'a plus répondu depuis.
+
+**Règle : une offre formelle ne redescend jamais.** Si le premier chiffre était
+trop haut, on le laisse expirer sans en renvoyer un plus bas.
+
+**Corollaire sur les relances** : quatre relances en 36 h sur un vendeur qui avait
+écrit « je prends le temps de vous répondre demain » ont transformé une négociation
+en harcèlement. Après une réponse promise, on attend au moins 48 h, une seule fois.
+
+## 2026-09-09 — `/api/v2/items/<id>` renvoie 404 systématiquement
+
+Huit fiches testées, toutes en 404, y compris des annonces vérifiées visibles dans
+le dressing du vendeur. L'endpoint n'est plus exploitable ; ne pas en conclure
+qu'une annonce a été supprimée ou vendue.
+
+Remplacement : `/api/v2/wardrobe/<user_id>/items?page=N&per_page=60`, qui rend
+`title`, `price`, `is_visible`, `is_closed` et se pagine sur
+`pagination.total_entries`. Pour le contenu exact d'un lot en offre,
+`/api/v2/transactions/<id>` → `order.items` porte titres et prix unitaires.
