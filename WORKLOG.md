@@ -144,6 +144,12 @@
   `loose` et `needs_review`, sa boîte étant une reproduction sur mesure annoncée comme
   telle par le vendeur
 
+- `pnpm vault inspect games|inventory|orders [--match regex] [--status s] [--platform p]` :
+  lecture seule et scriptable des trois tables, jointures faites. Remplace les
+  `node -e '…'` ad hoc qui interrogeaient la base — chacun était une chaîne unique,
+  donc une demande d'autorisation de plus, et du code arbitraire impossible à mettre
+  en liste blanche
+
 ## Changed
 - `LEARNED.md` : checklist « avant d'écrire à un vendeur » remontée en tête de fichier,
   à relire à chaque message et non en début de ronde

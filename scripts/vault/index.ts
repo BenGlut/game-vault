@@ -207,6 +207,79 @@ function main(): void {
         break;
       }
 
+      /**
+       * Lecture seule et scriptable des trois tables, avec jointures déjà faites.
+       *
+       * Existe pour remplacer les `node -e '…'` ad hoc qui servaient à interroger la
+       * base : chacun était une chaîne unique, donc une demande d'autorisation de
+       * plus, et du code arbitraire impossible à mettre en liste blanche. Ici la
+       * commande est nommée, donc autorisable une fois pour toutes.
+       *
+       * usage: pnpm vault inspect games|inventory|orders [--match regex]
+       *                       [--status s] [--platform p] [--json]
+       */
+      case "inspect": {
+        const table = positionals[0];
+        if (!table || !["games", "inventory", "orders"].includes(table))
+          throw new Error("usage: pnpm vault inspect games|inventory|orders [--match regex] [--status s] [--platform p] [--json]");
+        const v = loadVault();
+        const re = optStr(options, "match") ? new RegExp(optStr(options, "match")!, "i") : null;
+        const status = optStr(options, "status");
+        const platform = optStr(options, "platform");
+        const gameById = new Map(v.games.map((g) => [g.id, g]));
+
+        let rows: Record<string, unknown>[];
+        if (table === "games") {
+          rows = v.games
+            .filter((g) => (!re || re.test(`${g.canonicalTitle} ${g.aliases.join(" ")} ${g.id}`)) && (!platform || g.platformId === platform))
+            .map((g) => {
+              const items = v.inventory.filter((i) => i.gameId === g.id);
+              return {
+                id: g.id,
+                titre: g.canonicalTitle,
+                plateforme: g.platformId,
+                exemplaires: items.map((i) => `${i.status} q${i.quantity}`).join(", ") || "aucun",
+              };
+            });
+        } else if (table === "inventory") {
+          rows = v.inventory
+            .filter((i) => {
+              const g = gameById.get(i.gameId);
+              return (
+                (!re || re.test(`${g?.canonicalTitle ?? ""} ${i.id}`)) &&
+                (!status || i.status === status) &&
+                (!platform || g?.platformId === platform)
+              );
+            })
+            .map((i) => ({
+              id: i.id,
+              titre: gameById.get(i.gameId)?.canonicalTitle ?? i.gameId,
+              statut: i.status,
+              quantite: i.quantity,
+              prix: i.purchasePrice?.amount ?? null,
+              cote: i.currentEstimate?.median ?? null,
+              commande: i.orderId,
+            }));
+        } else {
+          rows = v.orders
+            .filter((o) => {
+              const titres = o.items.map((it) => gameById.get(it.gameId)?.canonicalTitle ?? "").join(" ");
+              return (!re || re.test(`${titres} ${o.reference ?? ""} ${o.id}`)) && (!status || o.status === status);
+            })
+            .map((o) => ({
+              id: o.id,
+              reference: o.reference,
+              marketplace: o.marketplace,
+              statut: o.status,
+              date: o.orderedAt,
+              total: o.totalPaid,
+              articles: o.items.map((it) => gameById.get(it.gameId)?.canonicalTitle ?? it.gameId),
+            }));
+        }
+        emit({ ok: true, command: "inspect", result: { table, n: rows.length, rows } });
+        break;
+      }
+
       case "add-game": {
         const title = optStr(options, "title");
         const platform = optStr(options, "platform");
