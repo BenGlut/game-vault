@@ -384,3 +384,32 @@ Remplacement : `/api/v2/wardrobe/<user_id>/items?page=N&per_page=60`, qui rend
 - Un appel CDP meurt à 45 s. Pour toute boucle plus longue, la lancer **sans l'attendre**
   dans la page (`(async()=>{…})()` qui écrit dans `window.__res`) et relever le résultat
   dans un appel suivant. Supprime toute contrainte de durée.
+
+## 2026-09-10 — Aucun deal sur 33 titres : le bas de gamme est loose, et il ne le dit pas
+
+Vérification à la description des candidats les moins chers, après les avoir likés.
+Résultat : **zéro exemplaire complet FR confirmé**. Ce qui a été démasqué :
+
+- Tales of Symphonia GameCube à 7 € : *« Juste le cd1 fonctionnel »* — le jeu tient sur
+  deux disques. Un GameCube multi-disques peut être vendu amputé sans que le titre le dise.
+- Advance Wars Dual Strike : **7 favoris sur 10 étaient des cartouches nues**, dont trois
+  identiques à 13,90 € du même vendeur, *« cartouche seule, vendue sans boîte ni notice »*.
+- Lylat Wars : sur 8 favoris, deux loose avérés, aucun complet confirmé, six muets.
+- Rhythm Paradise : *« Alleen cartridge / Talen: Engels »*, *« nur das Spielmodul, ohne
+  Hülle und Anleitung »*.
+
+**Vocabulaire à ajouter au filtre** : `lose` (avec un seul o — orthographe fréquente chez
+les vendeurs français), `les 2 étiquettes` (les deux étiquettes d'une cartouche, donc nue),
+`juste le cd1`, `alleen cartridge`, `nur das Spielmodul`, `ohne Hülle`, `Talen: Engels`,
+`English Language`.
+
+**La leçon de fond, et elle est plus importante que le vocabulaire :** sur ces titres le
+marché est **bimodal**, et la médiane globale ne veut rien dire. Sur Advance Wars Dual
+Strike : q1 17,90 € et médiane 40 € — le q1 est le prix du loose, la médiane celui du
+complet. Comparer une annonce à la médiane d'un échantillon mélangé fait passer une
+cartouche nue pour une affaire à −65 %. Séparer les deux marchés avant tout verdict, ou
+ne rien annoncer.
+
+**Et : une description muette sur la boîte n'est pas une description favorable.** Sur le
+bas du classement, le silence est le cas normal du loose. Ne pas liker un candidat muet
+sous la médiane du complet sans avoir posé la question.

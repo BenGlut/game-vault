@@ -65,3 +65,9 @@ l'historique git.*
   Revelations 3DS à 18 €, soit exactement la médiane du relevé FR (n=30, q1 14,90,
   médiane 18). Le Skylanders à 175 € est un tripack de FIGURINES, pas le jeu. Pas de lot
   à faire. Description muette sur boîte et notice — à faire préciser avant tout achat.
+- 2026-09-10 — vérification deals sur les 4 candidats les plus bas (Tales of Symphonia GC,
+  Lylat Wars, Rhythm Paradise, Advance Wars Dual Strike) : **aucun deal**. 16 favoris
+  retirés après lecture des descriptions (1 jeu amputé du cd2, 9 cartouches nues,
+  5 imports, 1 carte VIP). Relevés du jour : Symphonia n=71 méd 15 € ; Lylat n=75 méd 15,
+  q1 14,90 ; Rhythm n=33 méd 25, q1 15 ; Dual Strike n=40 méd 40, q1 17,90 (bimodal).
+  Ne pas rechasser ces quatre titres avant une baisse réelle.
