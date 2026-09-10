@@ -452,3 +452,17 @@ titre les a laissés passer. 24 favoris parasites posés puis retirés.
   cote et on like le merchandising.
 - Le catalogue aussi finit en 429 : après une vingtaine de titres enchaînés, la réponse
   n'est plus du JSON (`SyntaxError` au `.json()`). Tester `r.ok` avant de parser.
+
+## 2026-09-10 — Relire le fil JUSTE AVANT d'envoyer, pas au début de l'analyse
+
+mataros56 (Rhythm Paradise neuf, 20 €) : j'ai préparé une contre-proposition à 13 € à
+partir d'une lecture du fil vieille de plusieurs minutes. Entre-temps benglut avait
+lui-même offert 16 € (22 h 44) et le vendeur avait contré à 18 € (22 h 46). Mon message à
+13 € est parti à 22 h 47 : vu du vendeur, une marche arrière de 5 €. Réponse : « Non
+désolé ». Même faute que l'offre qui baisse chez zyeu14, cette fois par défaut de
+synchronisation.
+
+**Règle : relire les 3 derniers messages du fil dans le même appel que l'envoi**, et
+annuler l'envoi si le dernier message n'est plus celui qu'on croyait — une offre de
+benglut, une contre-offre du vendeur, ou n'importe quel message plus récent que
+l'analyse. benglut négocie aussi en parallèle depuis son téléphone.

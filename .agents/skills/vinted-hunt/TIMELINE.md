@@ -86,3 +86,10 @@ l'historique git.*
 - 2026-09-10 — Zelda Phantom Hourglass (nolvnstreewearfr) : **retour annulé**, transaction
   finalisée (450), 14,19 € perdus, contrefaçon conservée. Statut base en attente de la
   décision de benglut.
+- 2026-09-10 23h26 — mataros56 : benglut avait offert 16 € sur Rhythm Paradise (22h44),
+  contre-offre vendeur 18 € (22h46), mon message à 13 € parti à 22h47 = marche arrière,
+  refusé. Message de lot envoyé sur ordre et texte de benglut : « Mon budget est de 33 €
+  pour les trois (Rhythm Paradise neuf + RE Umbrella Chronicles + Lost in Blue
+  Shipwrecked), en petit colis ». Affiché 47 €, plancher Vinted 28,20 €. Lot à créer et
+  offre à poser par benglut. Relevés : Umbrella méd. 10 (n=36), Lost in Blue méd. 9,95
+  (n=26) — vendeur +20 à +50 % au-dessus sur ses Wii, remise lot désactivée.
