@@ -11908,5 +11908,30 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_3ds_tekken-3d-prime-edition",
+    "kind": "game",
+    "canonicalTitle": "Tekken 3D - Prime Edition",
+    "normalizedTitle": "tekken 3d prime edition",
+    "aliases": [
+      "Tekken 3D Prime Edition",
+      "Tekken 3D"
+    ],
+    "franchise": "Tekken",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2012,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

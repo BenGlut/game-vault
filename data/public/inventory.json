@@ -11820,7 +11820,7 @@
   {
     "id": "inv_3ds_resident-evil-revelations",
     "gameId": "game_3ds_resident-evil-revelations",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "CIB",
@@ -11836,8 +11836,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-07T16:12:07.667Z"
+    "orderId": "order_mtvbft54",
+    "updatedAt": "2026-09-10T09:19:22.696Z"
   },
   {
     "id": "inv_ps1_micro-maniacs",
@@ -11874,5 +11874,23 @@
     "acquiredAt": null,
     "orderId": "order_mtt4do8g",
     "updatedAt": "2026-09-08T20:26:24.012Z"
+  },
+  {
+    "id": "inv_3ds_tekken-3d-prime-edition",
+    "gameId": "game_3ds_tekken-3d-prime-edition",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 12.81,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mtvbft54",
+    "updatedAt": "2026-09-10T09:19:22.697Z"
   }
 ]

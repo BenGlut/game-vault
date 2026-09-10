@@ -413,3 +413,23 @@ ne rien annoncer.
 **Et : une description muette sur la boîte n'est pas une description favorable.** Sur le
 bas du classement, le silence est le cas normal du loose. Ne pas liker un candidat muet
 sous la médiane du complet sans avoir posé la question.
+
+## 2026-09-10 — La langue du vendeur n'est pas la région de la boîte
+
+Mon filtre description rejetait toute annonce contenant `italiano`, `gioco`, `juego`,
+`nederlands`, ou un drapeau emoji. Deux faux positifs coûteux sur Kirby Super Star Ultra :
+
+- 90 € — vendeur italien, mais *« completo di custodia. LINGUE DISPONIBILI ITALIANO
+  FRANCESE INGLESE SPAGNOLO TEDESCO »* : c'est une boîte PAL multilingue avec le
+  français, donc **acceptée** par la règle de benglut, et 30 € moins chère que le premier
+  complet confirmé du marché.
+- 119,99 € — description multilingue avec 🇫🇷 🇪🇸 🇩🇪 en tête de chaque paragraphe. Les
+  drapeaux étiquetaient les **langues du texte**, pas la région du jeu.
+
+**Règle : sur une DESCRIPTION, ne rejeter que sur une affirmation explicite de région**
+(`jap`, `ntsc`, `version us`, `solo español`, `nur deutsch`, `englische Version`). La
+présence de mots étrangers dit seulement d'où écrit le vendeur. Les drapeaux emoji ne
+valent que dans un TITRE, où ils désignent bien le produit.
+
+Corollaire : un vendeur étranger qui vend une boîte PAL multilingue est souvent le
+meilleur prix du marché français, précisément parce que les acheteurs FR le filtrent.

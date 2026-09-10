@@ -5620,5 +5620,18 @@
     "p": "gbc",
     "r": "PAL-EU",
     "q": null
+  },
+  {
+    "id": "game_3ds_tekken-3d-prime-edition",
+    "t": "Tekken 3D - Prime Edition",
+    "n": "tekken 3d prime edition",
+    "a": [
+      "Tekken 3D Prime Edition",
+      "Tekken 3D"
+    ],
+    "f": "Tekken",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

@@ -2859,5 +2859,34 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 14.53
+  },
+  {
+    "id": "order_mtvbft54",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_3ds_resident-evil-revelations",
+      "game_3ds_tekken-3d-prime-edition"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_resident-evil-revelations",
+        "inventoryId": "inv_3ds_resident-evil-revelations",
+        "unitPrice": 12.82
+      },
+      {
+        "gameId": "game_3ds_tekken-3d-prime-edition",
+        "inventoryId": "inv_3ds_tekken-3d-prime-edition",
+        "unitPrice": 12.81
+      }
+    ],
+    "orderedAt": "2026-09-10",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 25.63
   }
 ]

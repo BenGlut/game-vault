@@ -149,6 +149,11 @@
   `node -e '…'` ad hoc qui interrogeaient la base — chacun était une chaîne unique,
   donc une demande d'autorisation de plus, et du code arbitraire impossible à mettre
   en liste blanche
+- Commande Vinted levalentinoy du 2026-09-10 (réf. 22184729183, 25,63 € payés) :
+  Resident Evil: Revelations 3DS (bascule wishlist → ordered) et Tekken 3D - Prime
+  Edition, ajouté au catalogue de la collection. Contenu lu sur la photo de
+  l'annonce, titre et description étant muets. Répartition 50/50 faute de prix
+  unitaires ; région à confirmer à la réception. Favoris RE Revelations purgés.
 
 ## Changed
 - `LEARNED.md` : checklist « avant d'écrire à un vendeur » remontée en tête de fichier,

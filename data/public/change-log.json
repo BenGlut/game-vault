@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-16T22:02:59.621Z",
-    "command": "add-game",
-    "message": "add game Tetris Party Deluxe (ds)"
-  },
-  {
-    "at": "2026-08-16T22:05:01.495Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
     "at": "2026-08-16T22:05:02.540Z",
     "command": "add-order",
     "message": "add order vinted"
@@ -2498,5 +2488,15 @@
     "at": "2026-09-09T18:49:55.583Z",
     "command": "ship-order",
     "message": "ship-order order_mtormeye"
+  },
+  {
+    "at": "2026-09-10T09:19:03.277Z",
+    "command": "add-game",
+    "message": "add game Tekken 3D - Prime Edition (3ds)"
+  },
+  {
+    "at": "2026-09-10T09:19:22.732Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]
