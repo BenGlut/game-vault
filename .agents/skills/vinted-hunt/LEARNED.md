@@ -466,3 +466,11 @@ synchronisation.
 annuler l'envoi si le dernier message n'est plus celui qu'on croyait — une offre de
 benglut, une contre-offre du vendeur, ou n'importe quel message plus récent que
 l'analyse. benglut négocie aussi en parallèle depuis son téléphone.
+
+## 2026-09-10 — Position de benglut : se contredire vers le haut n'est pas grave
+
+benglut, après le message « Mon budget est de 33 € » à mataros56 : *« pas grave si on se
+contredit, on a droit de faire des miss click »*. Donc : annoncer un budget puis remonter
+si le vendeur contre est acceptable pour lui — ne plus le mettre en garde là-dessus.
+Ce qui reste à éviter, c'est l'inverse : **redescendre** sous un chiffre déjà posé
+(zyeu14 37 → 35, mataros56 16 → 13), qui a coûté les deux négociations.
