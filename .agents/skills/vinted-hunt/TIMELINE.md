@@ -93,3 +93,7 @@ l'historique git.*
   Shipwrecked), en petit colis ». Affiché 47 €, plancher Vinted 28,20 €. Lot à créer et
   offre à poser par benglut. Relevés : Umbrella méd. 10 (n=36), Lost in Blue méd. 9,95
   (n=26) — vendeur +20 à +50 % au-dessus sur ses Wii, remise lot désactivée.
+- 2026-09-10 23h34 — mataros56 : « la remise est trop importante, prenez 2 jeux pour ce
+  prix » → 33 € pour DEUX jeux. Proposé à benglut : 3 jeux à 38 € (remonter est accepté).
+  Nouveau circuit validé par benglut : créer le lot → taper l'offre → message dans le chat
+  du lot, exécuté par l'agent après un oui explicite de benglut par offre (CLAUDE.md §8).

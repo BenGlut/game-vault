@@ -119,8 +119,14 @@ When it fires: fix the doc/data, never bypass.
 - **Vinted**: sync orders through the internal JSON API from an authenticated
   Chrome tab (see `.agents/skills/vinted-sync/SKILL.md`) — never screenshots,
   they cost 7× more tokens and hide lot contents. Reading, searching and
-  favouriting are fine; **never click Buy or Make an offer** — an accepted offer
-  charges the saved card, so the financial commitment stays with benglut.
+  favouriting are fine. **Never click Buy, never accept a seller's offer.**
+  **Making an offer** (changed 2026-09-10, benglut's order — « c'est la seule façon de
+  faire »): the only working path on Vinted is create the bundle → type the offer →
+  send the short message in the bundle's chat. The agent runs that path itself, but
+  **only after benglut's explicit yes on that specific offer** (items + amount + seller):
+  an accepted offer commits his money, so the decision stays his, one offer at a time.
+  The offer modal needs the Chrome window visible (`document.visibilityState` must not
+  be `hidden`) — see `vinted-hunt/LEARNED.md` §2026-08-12.
 
 ## 9. UI/UX defaults
 
