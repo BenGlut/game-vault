@@ -125,15 +125,22 @@ a *new* thread this way returns 403 — for an unknown seller use the listing's
 
 ### 3. Hunt
 
-**Scope: DS, 3DS, N64, GameCube, Switch only. Do not hunt Game Boy, Game Boy Color or
-Game Boy Advance on Vinted** (benglut's decision, 2026-08-11). Those three platforms are
-saturated with AliExpress reproductions — correct labels, correct seals, correct product
-codes — and the effort of authenticating each listing outweighs the gain. If a Game Boy
-title is wanted as a *playable* copy rather than a collectible, buying the reproduction
-openly on AliExpress is cheaper and honest about what it is. GB/GBC/GBA titles stay in
-the wishlist as collection goals; they are simply not hunted here.
+**Scope: DS, 3DS and Switch only** (benglut's order, 2026-09-10 — narrowed from the
+previous DS/3DS/N64/GameCube/Switch). N64 and GameCube are out: the 2026-09-10 round
+spent most of its budget there and returned zero qualified copy, because those two
+markets are dominated by loose cartridges and discs sold without saying so, plus
+Japanese imports below ~32 € on N64.
 
-Targets: the prioritised wishlist (`/recommandations`), minus the three platforms above.
+**Do not hunt Game Boy, Game Boy Color or Game Boy Advance either** (benglut's decision,
+2026-08-11). Those three are saturated with AliExpress reproductions — correct labels,
+correct seals, correct product codes — and authenticating each listing outweighs the
+gain. If a Game Boy title is wanted as a *playable* copy rather than a collectible,
+buying the reproduction openly on AliExpress is cheaper and honest about what it is.
+
+GB/GBC/GBA, N64, GameCube, SNES and Wii titles stay in the wishlist as collection
+goals; they are simply not hunted here.
+
+Targets: the prioritised wishlist (`/recommandations`), DS / 3DS / Switch only.
 
 Compare each candidate to market via `pnpm vault deal` (dry-run by default, `--yes`
 writes). Quotes are PAL PriceCharting readings converted to euros — an international
