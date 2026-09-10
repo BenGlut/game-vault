@@ -71,3 +71,18 @@ l'historique git.*
   5 imports, 1 carte VIP). Relevés du jour : Symphonia n=71 méd 15 € ; Lylat n=75 méd 15,
   q1 14,90 ; Rhythm n=33 méd 25, q1 15 ; Dual Strike n=40 méd 40, q1 17,90 (bimodal).
   Ne pas rechasser ces quatre titres avant une baisse réelle.
+- 2026-09-10 soir — **5 contre-propositions envoyées** (ordre de benglut : agressif, message
+  court et humain, remerciement). Aucun chiffre de marché cité. Plus de message à ces
+  vendeurs aujourd'hui :
+  · david4713 — Coffret Sonic Origins Plus Switch, affiché 17, remise vendeur 15 → proposé 12
+  · lecoindesgeeks — Metroid Prime Remastered Switch (boîte FR), 29,90 → proposé 20
+  · lnnocence (BE) — Spyro Reignited Switch, 18 → 15 → proposé 11 + question boîte FR
+  · mataros56 — Rhythm Paradise DS neuf sous blister, 20 → proposé 13
+  · tabaxcs (IT) — RE Deadly Silence DS complet, 80 → 60 → proposé 48 si FR au dos
+  Écartés : giorgiab1995 (RE Deadly Silence « no custodia » = loose), akane_tendo (RE
+  Revelations déjà acheté), ozzzy18 (Re:coded ES), hispano-43 (358/2 Days neuf ES).
+  ⚠️ smaug16 : offre de benglut à 12 € sur RE Revelations toujours en attente → doublon
+  si acceptée, signalé à benglut.
+- 2026-09-10 — Zelda Phantom Hourglass (nolvnstreewearfr) : **retour annulé**, transaction
+  finalisée (450), 14,19 € perdus, contrefaçon conservée. Statut base en attente de la
+  décision de benglut.

@@ -433,3 +433,22 @@ valent que dans un TITRE, où ils désignent bien le produit.
 
 Corollaire : un vendeur étranger qui vend une boîte PAL multilingue est souvent le
 meilleur prix du marché français, précisément parce que les acheteurs FR le filtrent.
+
+## 2026-09-10 — Switch : le bas du classement prix, ce sont les accessoires
+
+Chasse Switch triée `price_low_to_high` : sur Metroid Dread, Luigi's Mansion 3 et
+Xenoblade Chronicles 3, **les six premiers résultats étaient tous des accessoires** — étuis,
+pochettes, stickers, cahiers, porte-clés, tapis de souris, pin's, boîte vide — et le filtre
+titre les a laissés passer. 24 favoris parasites posés puis retirés.
+
+- Vocabulaire manquant : `étui`, `pochette`, `stickers` (le `\bsticker\b` rate le pluriel),
+  `notebook`, `cahier`, `affiche`, `sans jeux` (pluriel), `code de téléchargement`, et les
+  mots étrangers `sleutelhanger`, `alfombrilla`, `pegatinas`, `hoja`, `spille`, `caja`.
+- L'origine se lit aussi dans le **slug** : `edicion-japonesa`, `pal-ita-version`,
+  `pal-spa`. Appliquer le filtre de région au titre ET au slug, pas seulement à la
+  description.
+- Sur Switch, ne pas trier par prix croissant : trier par pertinence (`order=relevance`)
+  et exiger un mot qui affirme le jeu (`jeu`, `game`, `switch` + titre complet), sinon on
+  cote et on like le merchandising.
+- Le catalogue aussi finit en 429 : après une vingtaine de titres enchaînés, la réponse
+  n'est plus du JSON (`SyntaxError` au `.json()`). Tester `r.ok` avant de parser.
