@@ -416,6 +416,12 @@ a listing dismissed for a German box must never be re-evaluated from scratch.
 Then report to benglut: base changes, messages sent, offers placed and their amount,
 deals found with their gap to quote. State failures plainly.
 
+**Every listing named in a report carries its clickable URL** — `[titre — prix](url)`,
+never a bare title and price (benglut's order, 2026-09-10: a list he cannot open forces
+him to redo the search himself, which makes the report useless). `/api/v2/catalog/items`
+already returns `url`: keep it in the hunt results instead of dropping it. Same for
+seller wardrobes and lots.
+
 ## This skill improves itself — and gets cheaper doing it
 
 It is read in full every round, so **every added line is paid for on every future
