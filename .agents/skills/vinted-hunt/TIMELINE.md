@@ -107,3 +107,14 @@ l'historique git.*
   poliment. mataros56 : **Rhythm Paradise vendu à un autre** (14h14) pendant l'attente de
   la décision sur le lot — l'offre de lot n'a jamais été posée. smaug16 : offre de benglut
   à 12 € sur RE Revelations toujours pendante (doublon si acceptée).
+- 2026-09-11 — Zelda Phantom Hourglass US : reçu le 26/08 (date du fil Vinted), noté
+  contrefaçon, fonctionne uniquement sur DS (ordre benglut). Litige perdu, 14,19 € perdus.
+- 2026-09-11 — **lukeroundplace** (IT, id 116597046, 927 annonces, 899 ventes, note pleine,
+  aucune remise lot) : Spyro A New Beginning DS complet quasi neuf, PAL multilingue avec
+  FR, 8,90 € (relevé FR n=68, q1 8,50, méd. 10) = prix du marché, pas une affaire ; port
+  depuis l'Italie en plus. 840/927 annonces lues : rien d'autre de la wishlist DS/3DS/Switch
+  (le reste possédé ou hors wishlist). Pas de lot.
+- 2026-09-11 — boîtes Castlevania (benglut a une cartouche nue) : Mirror of Fate 3DS
+  boîte + notice à 5,99 € (item 9712597894) ; Dawn of Sorrow DS aucune boîte seule en vente.
+- 2026-09-11 — chasse favoris relancée : 41 titres DS/3DS/Switch, tri par pertinence,
+  filtres titre+slug+description corrigés, 5 fiches lues max par titre.
