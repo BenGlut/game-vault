@@ -3774,8 +3774,8 @@
   {
     "id": "inv_3ds_bravely-default",
     "gameId": "game_3ds_bravely-default",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
@@ -3793,9 +3793,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-09T18:49:53.803Z"
+    "updatedAt": "2026-09-11T20:09:36.820Z"
   },
   {
     "id": "inv_3ds_shin-megami-tensei-iv",
@@ -4006,8 +4006,8 @@
   {
     "id": "inv_ds_professeur-layton-et-le-destin-perdu",
     "gameId": "game_ds_professeur-layton-et-le-destin-perdu",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
@@ -4021,9 +4021,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-10",
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-03T19:17:57.097Z"
+    "updatedAt": "2026-09-11T20:09:18.836Z"
   },
   {
     "id": "inv_ds_chrono-trigger",
@@ -4094,8 +4094,8 @@
   {
     "id": "inv_ds_castlevania-dawn-of-sorrow",
     "gameId": "game_ds_castlevania-dawn-of-sorrow",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
@@ -4109,9 +4109,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-10",
     "orderId": "order_mtj7h616",
-    "updatedAt": "2026-09-07T17:28:33.442Z"
+    "updatedAt": "2026-09-11T20:09:22.633Z"
   },
   {
     "id": "inv_ds_advance-wars-dual-strike",
@@ -7396,8 +7396,8 @@
   {
     "id": "inv_ds_professeur-layton-et-l-appel-du-spectre",
     "gameId": "game_ds_professeur-layton-et-l-appel-du-spectre",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
@@ -7408,9 +7408,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgcdfm",
-    "updatedAt": "2026-09-07T17:28:34.149Z"
+    "updatedAt": "2026-09-11T20:09:29.688Z"
   },
   {
     "id": "inv_3ds_professeur-layton-et-le-masque-des-miracles",
@@ -11107,7 +11107,7 @@
   {
     "id": "inv_ds_might-magic-clash-of-heroes",
     "gameId": "game_ds_might-magic-clash-of-heroes",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11116,16 +11116,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-10",
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-03T19:17:57.097Z"
+    "updatedAt": "2026-09-11T20:09:18.844Z"
   },
   {
     "id": "inv_3ds_mario-sports-superstars",
     "gameId": "game_3ds_mario-sports-superstars",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11134,16 +11134,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-10",
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-03T19:17:57.097Z"
+    "updatedAt": "2026-09-11T20:09:18.844Z"
   },
   {
     "id": "inv_ds_professeur-layton-et-l-etrange-village-2",
     "gameId": "game_ds_professeur-layton-et-l-etrange-village",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11152,11 +11152,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-10",
     "orderId": "order_mtj3x835",
-    "updatedAt": "2026-09-03T19:17:57.097Z"
+    "updatedAt": "2026-09-11T20:09:18.844Z"
   },
   {
     "id": "inv_3ds_super-mario-3d-land-4",
@@ -11233,7 +11233,7 @@
   {
     "id": "inv_3ds_castlevania-lords-of-shadow-mirror-of-fate",
     "gameId": "game_3ds_castlevania-lords-of-shadow-mirror-of-fate",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11242,11 +11242,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-10",
     "orderId": "order_mtj7h616",
-    "updatedAt": "2026-09-07T17:28:33.451Z"
+    "updatedAt": "2026-09-11T20:09:22.634Z"
   },
   {
     "id": "inv_switch_grand-theft-auto-the-trilogy-the-definitive-edition",
@@ -11590,22 +11590,22 @@
   {
     "id": "inv_3ds_dragon-quest-viii-l-odyssee-du-roi-maudit",
     "gameId": "game_3ds_dragon-quest-viii-l-odyssee-du-roi-maudit",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtormeye",
-    "updatedAt": "2026-09-09T18:49:55.540Z"
+    "updatedAt": "2026-09-11T20:09:26.175Z"
   },
   {
     "id": "inv_ds_the-legend-of-zelda-spirit-tracks-3",
     "gameId": "game_ds_the-legend-of-zelda-spirit-tracks",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11615,16 +11615,16 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-09T18:49:52.040Z"
+    "updatedAt": "2026-09-11T20:09:33.244Z"
   },
   {
     "id": "inv_ds_mario-luigi-voyage-au-centre-de-bowser-2",
     "gameId": "game_ds_mario-luigi-voyage-au-centre-de-bowser",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11634,16 +11634,16 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-09T18:49:52.041Z"
+    "updatedAt": "2026-09-11T20:09:33.245Z"
   },
   {
     "id": "inv_3ds_beyblade-evolution",
     "gameId": "game_3ds_beyblade-evolution",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11653,16 +11653,16 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-09T18:49:52.041Z"
+    "updatedAt": "2026-09-11T20:09:33.245Z"
   },
   {
     "id": "inv_ps3_grand-theft-auto-v",
     "gameId": "game_ps3_grand-theft-auto-v",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11672,16 +11672,16 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-09T18:49:52.041Z"
+    "updatedAt": "2026-09-11T20:09:33.245Z"
   },
   {
     "id": "inv_ps3_the-last-of-us",
     "gameId": "game_ps3_the-last-of-us",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11691,16 +11691,16 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgck3s",
-    "updatedAt": "2026-09-09T18:49:52.041Z"
+    "updatedAt": "2026-09-11T20:09:33.245Z"
   },
   {
     "id": "inv_wii_sonic-et-les-anneaux-secrets",
     "gameId": "game_wii_sonic-et-les-anneaux-secrets",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11710,16 +11710,16 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-09T18:49:53.805Z"
+    "updatedAt": "2026-09-11T20:09:36.821Z"
   },
   {
     "id": "inv_ds_goldeneye-au-service-du-mal",
     "gameId": "game_ds_goldeneye-au-service-du-mal",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11729,16 +11729,16 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-09T18:49:53.805Z"
+    "updatedAt": "2026-09-11T20:09:36.821Z"
   },
   {
     "id": "inv_3ds_les-lapins-cretins-la-grosse-bagarre",
     "gameId": "game_3ds_les-lapins-cretins-la-grosse-bagarre",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11748,16 +11748,16 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-09T18:49:53.805Z"
+    "updatedAt": "2026-09-11T20:09:36.821Z"
   },
   {
     "id": "inv_3ds_lego-pirates-des-caraibes-le-jeu-video",
     "gameId": "game_3ds_lego-pirates-des-caraibes-le-jeu-video",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11767,11 +11767,11 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-11",
     "orderId": "order_mtqgckro",
-    "updatedAt": "2026-09-09T18:49:53.805Z"
+    "updatedAt": "2026-09-11T20:09:36.821Z"
   },
   {
     "id": "inv_ds_resident-evil-deadly-silence",
@@ -11820,7 +11820,7 @@
   {
     "id": "inv_3ds_resident-evil-revelations",
     "gameId": "game_3ds_resident-evil-revelations",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "CIB",
@@ -11837,7 +11837,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtvbft54",
-    "updatedAt": "2026-09-10T09:19:22.696Z"
+    "updatedAt": "2026-09-11T20:09:53.339Z"
   },
   {
     "id": "inv_ps1_micro-maniacs",
@@ -11878,7 +11878,7 @@
   {
     "id": "inv_3ds_tekken-3d-prime-edition",
     "gameId": "game_3ds_tekken-3d-prime-edition",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11891,6 +11891,6 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtvbft54",
-    "updatedAt": "2026-09-10T09:19:22.697Z"
+    "updatedAt": "2026-09-11T20:09:53.340Z"
   }
 ]

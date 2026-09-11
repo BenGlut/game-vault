@@ -154,6 +154,9 @@
   Edition, ajouté au catalogue de la collection. Contenu lu sur la photo de
   l'annonce, titre et description étant muets. Répartition 50/50 faute de prix
   unitaires ; région à confirmer à la réception. Favoris RE Revelations purgés.
+- Réceptions Vinted du 10-11 septembre : jonathan_lava (lot 4) et paskalig
+  (Castlevania ×2) le 10, alexvdnb (Dragon Quest VIII), nonovip94 (Layton Appel du
+  Spectre), loic_schr (lot 5) et pommtp34 (lot 5) le 11. levalentinoy expédié le 10.
 
 ## Changed
 - `LEARNED.md` : checklist « avant d'écrire à un vendeur » remontée en tête de fichier,

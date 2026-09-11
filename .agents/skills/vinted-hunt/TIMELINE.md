@@ -97,3 +97,13 @@ l'historique git.*
   prix » → 33 € pour DEUX jeux. Proposé à benglut : 3 jeux à 38 € (remonter est accepté).
   Nouveau circuit validé par benglut : créer le lot → taper l'offre → message dans le chat
   du lot, exécuté par l'agent après un oui explicite de benglut par offre (CLAUDE.md §8).
+- 2026-09-11 — réceptions : jonathan_lava, paskalig (10/09) ; alexvdnb, nonovip94, loic_schr,
+  pommtp34 (11/09). levalentinoy expédié. Restent : rathalosvg et kelevra79 en transit,
+  tigrou35 en point relais, gameshelfshop non expédié (deadline 15/09).
+- 2026-09-11 — réponses aux contre-propositions : **david4713 accepte à 13 €** le coffret
+  Sonic Origins Plus (« au moins à 13 € et c'est à vous », envoi Mondial Relay), en attente
+  du oui de benglut. lecoindesgeeks refuse 20 € (Metroid Prime R.). tabaxcs refuse 48 € (RE
+  Deadly Silence) sans répondre sur le français. lnnocence : Spyro SANS boîte → décliné
+  poliment. mataros56 : **Rhythm Paradise vendu à un autre** (14h14) pendant l'attente de
+  la décision sur le lot — l'offre de lot n'a jamais été posée. smaug16 : offre de benglut
+  à 12 € sur RE Revelations toujours pendante (doublon si acceptée).
