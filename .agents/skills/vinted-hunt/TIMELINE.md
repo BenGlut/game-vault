@@ -125,3 +125,10 @@ l'historique git.*
   relais, non retiré), pommtp34 (livré, à valider par benglut).
 - 2026-09-12 — Luigi's Mansion 3 Switch : relevé n=59, q1 22,50 €, médiane 25 €, q3 26 €,
   premiers exemplaires crédibles à 15-20 €.
+- 2026-09-12 — lot paskalig tranché par les photos des annonces (descriptions vidées après
+  vente) : **Dawn of Sorrow = cartouche seule**, étiquette NTR-ACVP-EUR (multilingue
+  européenne, USK allemand) → complétude `loose`, région du jeu corrigée en PAL-EU.
+  **Mirror of Fate = en boîte**, dos en français, code CTR-ACZP-FRA → PAL-FR confirmée,
+  notice laissée en `unknown` faute de photo de l'intérieur. La boîte à chercher est donc
+  celle de Dawn of Sorrow DS : aucune en vente au 12/09. Celle trouvée à 5,99 € est une
+  boîte de Mirror of Fate, inutile.
