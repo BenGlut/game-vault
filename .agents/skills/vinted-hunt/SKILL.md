@@ -142,6 +142,14 @@ goals; they are simply not hunted here.
 
 Targets: the prioritised wishlist (`/recommandations`), DS / 3DS / Switch only.
 
+**Standing watches — check every round, report even when empty** (benglut's order):
+
+- **Empty box for Castlevania: Dawn of Sorrow (DS)**, since 2026-09-12. His cartridge is
+  loose (`NTR-ACVP-EUR`), so an EUR multilingual or French box is what fits. Search
+  `castlevania dawn of sorrow` with both sorts and keep what a normal hunt *rejects*:
+  `boîte`, `boîtier`, `custodia`, `caja`, `case`, `hülle`, `box only`, `sans le jeu`.
+  Empty boxes surface in waves; missing one costs a month of waiting.
+
 Compare each candidate to market via `pnpm vault deal` (dry-run by default, `--yes`
 writes). Quotes are PAL PriceCharting readings converted to euros — an international
 market, dearer than Vinted France. A listing at the median is not a deal: aim well below.

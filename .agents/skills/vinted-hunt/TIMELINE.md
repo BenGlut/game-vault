@@ -132,3 +132,12 @@ l'historique git.*
   notice laissée en `unknown` faute de photo de l'intérieur. La boîte à chercher est donc
   celle de Dawn of Sorrow DS : aucune en vente au 12/09. Celle trouvée à 5,99 € est une
   boîte de Mirror of Fate, inutile.
+- 2026-09-13 — VEILLE boîte Dawn of Sorrow (1re ronde) : **trouvée**. « Solo scatola
+  Castelvania Dawn of sorrow DS » 14 € chez stajo92 (IT, 456 ventes, 0,96, remise lot
+  active 2→5 % / 3→10 %), item 8687339825, mise en favori. Description « SOLO SCATOLA NO
+  GIOCO ». Face avant PEGI 12 + USK 12 = tirage paneuropéen, cohérent avec la cartouche
+  NTR-ACVP-EUR de benglut ; aucune photo du dos, donc code produit et notice non vérifiés.
+  Marché des boîtes vides DS : n=115, q1 1 €, médiane 2 €, q3 5 € (les titres rares montent :
+  Pokémon Noire 19,99 €, Dragon Quest 35 €). Exemplaire complet du jeu à 40 €.
+  Proposé à benglut : offre à 8,50 € (plancher Vinted 8,40) + question dos/notice.
+  Rien d'autre de la wishlist chez ce vendeur, donc pas de lot.
