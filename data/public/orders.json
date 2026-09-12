@@ -739,7 +739,7 @@
   {
     "id": "order_mswcmos1",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_ds_the-legend-of-zelda-phantom-hourglass-us"
@@ -753,7 +753,7 @@
     ],
     "orderedAt": "2026-08-16",
     "fulfilledAt": "2026-08-21",
-    "deliveredAt": null,
+    "deliveredAt": "2026-08-26",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2700,7 +2700,7 @@
   {
     "id": "order_mtqgce07",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_professeur-layton-et-l-heritage-des-aslantes"
@@ -2714,7 +2714,7 @@
     ],
     "orderedAt": "2026-09-07",
     "fulfilledAt": "2026-09-09",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-12",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2817,7 +2817,7 @@
   {
     "id": "order_mtt4dnlh",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_ps1_micro-maniacs"
@@ -2831,7 +2831,7 @@
     ],
     "orderedAt": "2026-09-08",
     "fulfilledAt": "2026-09-09",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-12",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2888,5 +2888,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 25.63
+  },
+  {
+    "id": "order_mtymo1pg",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_sonic-origins-plus"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_sonic-origins-plus",
+        "inventoryId": "inv_switch_sonic-origins-plus",
+        "unitPrice": 17.23
+      }
+    ],
+    "orderedAt": "2026-09-12",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 17.23
   }
 ]

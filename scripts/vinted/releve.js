@@ -17,9 +17,16 @@
  *   releve([["cs2", "tamagotchi corner shop 2", /corner shop 2/i]])
  */
 
-/** Le produit est un accessoire (le jeu n'est PAS dedans). */
+/**
+ * Le produit est un accessoire (le jeu n'est PAS dedans).
+ *
+ * Le bloc « rangement et merchandising » a été ajouté le 2026-09-11 : sur Luigi's
+ * Mansion 3, les 14 annonces retenues étaient TOUTES des étuis, housses et affiches,
+ * et la médiane sortait à 5,99 € pour un jeu qui se vend quatre fois plus cher. Sur
+ * Switch, le bas du classement prix est du merchandising, pas du jeu.
+ */
 const ACCESSOIRE =
-  /\b(notice|mode d.emploi|bo[iî]t(e|ier)s?|scatola|custodia|inserto|foglietto|locandina|poster|sticker|soundtrack|artbook|jaquette|coque|manual|carte vip|code vip|pi[eè]ce sos)\b/i;
+  /\b(notice|mode d.emploi|bo[iî]t(e|ier)s?|scatola|custodia|inserto|foglietto|locandina|poster|p[oó]ster|affiche|sticker|stickers|pegatinas|soundtrack|artbook|jaquette|coque|manual|carte vip|code vip|pi[eè]ce sos|[éeÉE]tui|[éeÉE]tuis|pochette|pochettes|housse|housses|carrying case|porta|sleutelhanger|llavero|porte.?cl[eé]s?|keychain|keyring|cahier|notebook|tapis|alfombrilla|mug|t.?shirt|figurine|amiibo|steelbook|plv|goodies)\b/i;
 
 /** Le titre affirme que le jeu est là. Annule ACCESSOIRE : « jeu + boîte + notice ». */
 const CONTENU = /\b(jeux?|gioco|giochi|game|juego|complet|completo|complete|cib)\b/i;

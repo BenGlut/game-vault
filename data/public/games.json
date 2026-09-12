@@ -11933,5 +11933,93 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_metroid-prime-hunters",
+    "kind": "game",
+    "canonicalTitle": "Metroid Prime Hunters",
+    "normalizedTitle": "metroid prime hunters",
+    "aliases": [],
+    "franchise": "Metroid",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_metroid-prime-pinball",
+    "kind": "game",
+    "canonicalTitle": "Metroid Prime Pinball",
+    "normalizedTitle": "metroid prime pinball",
+    "aliases": [],
+    "franchise": "Metroid",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_metroid-prime-federation-force",
+    "kind": "game",
+    "canonicalTitle": "Metroid Prime: Federation Force",
+    "normalizedTitle": "metroid prime federation force",
+    "aliases": [],
+    "franchise": "Metroid",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2016,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_metroid-prime-4-beyond",
+    "kind": "game",
+    "canonicalTitle": "Metroid Prime 4: Beyond",
+    "normalizedTitle": "metroid prime 4 beyond",
+    "aliases": [],
+    "franchise": "Metroid",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

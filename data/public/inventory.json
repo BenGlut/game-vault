@@ -7430,8 +7430,8 @@
   {
     "id": "inv_3ds_professeur-layton-et-l-heritage-des-aslantes",
     "gameId": "game_3ds_professeur-layton-et-l-heritage-des-aslantes",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
@@ -7442,9 +7442,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-12",
     "orderId": "order_mtqgce07",
-    "updatedAt": "2026-09-09T18:49:49.647Z"
+    "updatedAt": "2026-09-12T16:57:15.328Z"
   },
   {
     "id": "inv_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
@@ -7723,17 +7723,21 @@
   {
     "id": "inv_switch_sonic-origins-plus",
     "gameId": "game_switch_sonic-origins-plus",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
-    "purchasePrice": null,
+    "purchasePrice": {
+      "amount": 17.23,
+      "currency": "EUR",
+      "includesShipping": true
+    },
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:13.030Z"
+    "orderId": "order_mtymo1pg",
+    "updatedAt": "2026-09-12T16:58:43.356Z"
   },
   {
     "id": "inv_switch_sonic-superstars",
@@ -8659,7 +8663,7 @@
   {
     "id": "inv_ds_the-legend-of-zelda-phantom-hourglass-us",
     "gameId": "game_ds_the-legend-of-zelda-phantom-hourglass-us",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "very_good",
     "completeness": "loose",
@@ -8669,11 +8673,11 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": true,
-    "acquiredAt": null,
+    "acquiredAt": "2026-08-26",
     "orderId": "order_mswcmos1",
-    "updatedAt": "2026-09-02T20:31:20.328Z"
+    "updatedAt": "2026-09-11T20:16:48.356Z"
   },
   {
     "id": "inv_3ds_luigi-s-mansion-2",
@@ -11842,7 +11846,7 @@
   {
     "id": "inv_ps1_micro-maniacs",
     "gameId": "game_ps1_micro-maniacs",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11851,11 +11855,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-12",
     "orderId": "order_mtt4dnlh",
-    "updatedAt": "2026-09-09T18:49:47.871Z"
+    "updatedAt": "2026-09-12T16:57:04.983Z"
   },
   {
     "id": "inv_gbc_micro-maniacs",
@@ -11892,5 +11896,65 @@
     "acquiredAt": null,
     "orderId": "order_mtvbft54",
     "updatedAt": "2026-09-11T20:09:53.340Z"
+  },
+  {
+    "id": "inv_ds_metroid-prime-hunters",
+    "gameId": "game_ds_metroid-prime-hunters",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-12T16:55:01.757Z"
+  },
+  {
+    "id": "inv_ds_metroid-prime-pinball",
+    "gameId": "game_ds_metroid-prime-pinball",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-12T16:55:04.597Z"
+  },
+  {
+    "id": "inv_3ds_metroid-prime-federation-force",
+    "gameId": "game_3ds_metroid-prime-federation-force",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-12T16:55:07.608Z"
+  },
+  {
+    "id": "inv_switch_metroid-prime-4-beyond",
+    "gameId": "game_switch_metroid-prime-4-beyond",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-12T16:55:10.346Z"
   }
 ]

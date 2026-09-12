@@ -474,3 +474,15 @@ contredit, on a droit de faire des miss click »*. Donc : annoncer un budget pui
 si le vendeur contre est acceptable pour lui — ne plus le mettre en garde là-dessus.
 Ce qui reste à éviter, c'est l'inverse : **redescendre** sous un chiffre déjà posé
 (zyeu14 37 → 35, mataros56 16 → 13), qui a coûté les deux négociations.
+
+## 2026-09-12 — Deux pièges rencontrés le même jour
+
+- **`releve.js` ne connaissait pas le merchandising Switch.** Sur Luigi's Mansion 3, les
+  14 annonces retenues étaient toutes des étuis, housses, affiches et tapis : médiane
+  annoncée 5,99 € contre 25 € pour le jeu. Filtre ACCESSOIRE complété (étui, pochette,
+  housse, carrying case, porta, sleutelhanger, tapis, cahier, affiche, pegatinas…), et les
+  accents MAJUSCULES ajoutés — « Étui » passait au travers de `[ée]tui`.
+- **Règle n°15 du vault** : `add-order` doit recevoir des prix d'articles dont la somme
+  égale le TOTAL PAYÉ, port et protection compris — pas le prix de l'article seul. Une
+  commande à un seul article se saisit donc au total payé (13 € négociés → `:17.23`).
+  La validation refuse la publication sinon.

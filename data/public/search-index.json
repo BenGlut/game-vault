@@ -5633,5 +5633,45 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_metroid-prime-hunters",
+    "t": "Metroid Prime Hunters",
+    "n": "metroid prime hunters",
+    "a": [],
+    "f": "Metroid",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_metroid-prime-pinball",
+    "t": "Metroid Prime Pinball",
+    "n": "metroid prime pinball",
+    "a": [],
+    "f": "Metroid",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_metroid-prime-federation-force",
+    "t": "Metroid Prime: Federation Force",
+    "n": "metroid prime federation force",
+    "a": [],
+    "f": "Metroid",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_metroid-prime-4-beyond",
+    "t": "Metroid Prime 4: Beyond",
+    "n": "metroid prime 4 beyond",
+    "a": [],
+    "f": "Metroid",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

@@ -118,3 +118,10 @@ l'historique git.*
   boîte + notice à 5,99 € (item 9712597894) ; Dawn of Sorrow DS aucune boîte seule en vente.
 - 2026-09-11 — chasse favoris relancée : 41 titres DS/3DS/Switch, tri par pertinence,
   filtres titre+slug+description corrigés, 5 fiches lues max par titre.
+- 2026-09-12 — **coffret Sonic Origins Plus acheté 13 €** chez david4713 (17,23 € payés,
+  réf. 22185070902) : la négociation partie de 17 € affichés a abouti. Réceptions du jour :
+  kelevra79 (Micro Maniacs PS1) et rathalosvg (Layton Aslantes). Restent ouverts :
+  levalentinoy (en transit), gameshelfshop (non expédié, deadline 15/09), tigrou35 (point
+  relais, non retiré), pommtp34 (livré, à valider par benglut).
+- 2026-09-12 — Luigi's Mansion 3 Switch : relevé n=59, q1 22,50 €, médiane 25 €, q3 26 €,
+  premiers exemplaires crédibles à 15-20 €.

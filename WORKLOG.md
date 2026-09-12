@@ -154,6 +154,14 @@
   Edition, ajouté au catalogue de la collection. Contenu lu sur la photo de
   l'annonce, titre et description étant muets. Répartition 50/50 faute de prix
   unitaires ; région à confirmer à la réception. Favoris RE Revelations purgés.
+- Commande Vinted david4713 du 2026-09-12 (réf. 22185070902, 17,23 € payés) : coffret
+  Sonic Origins Plus Switch, affiché 17 €, remise vendeur 15 €, obtenu à 13 € après
+  négociation. Bascule wishlist → ordered ; c'est aussi l'une des deux jaquettes
+  manquantes de la collection.
+- Wishlist étendue (ordre benglut) : Metroid Prime Hunters et Metroid Prime Pinball (DS),
+  Metroid Prime: Federation Force (3DS), Metroid Prime 4: Beyond (Switch).
+- Réceptions du 12 septembre : kelevra79 (Micro Maniacs PS1) et rathalosvg (Layton et
+  l'Héritage des Aslantes).
 - Réceptions Vinted du 10-11 septembre : jonathan_lava (lot 4) et paskalig
   (Castlevania ×2) le 10, alexvdnb (Dragon Quest VIII), nonovip94 (Layton Appel du
   Spectre), loic_schr (lot 5) et pommtp34 (lot 5) le 11. levalentinoy expédié le 10.
