@@ -173,3 +173,13 @@ l'historique git.*
   tomasrg Kirby SSU sans notice, mlobop TWEWY 120 €. Partis : danis508 LM3, lelox8756 ACNH,
   gabriel_duclos Sonic Classic Collection, biche738 Zelda PH (boîte non officielle).
   ⚠️ smaug16 : offre benglut 12 € sur RE Revelations toujours pendante = doublon.
+- 2026-09-13 — wishlist « aventure / énigmes façon PC » : 10 titres ajoutés sur ordre de
+  benglut — Myst, Secret Files: Tunguska, Hotel Dusk, Last Window, Time Hollow, Phoenix
+  Wright ×3 (DS) ; Zero Escape VLR et Zero Time Dilemma (3DS). Déjà possédés, donc exclus :
+  Syberia, Rooms, Runaway ×2, Another Code, Ghost Trick, et **Broken Sword Director's Cut,
+  possédé sous son titre FR « Les Chevaliers de Baphomet »** (piège de recherche : chercher
+  aussi le titre français avant d'annoncer un manque).
+- 2026-09-13 — **val.ham** (FR) : lot Spyro A New Beginning DS + Myst DS, 10 € chacun, offre
+  de benglut à 17 € en attente, colis Moyen. Les deux « boîte complète, jeu avec notice »,
+  aucun doublon. Relevés : Spyro n=68 q1 8,50 méd 10 ; Myst n=38 q1 6 méd 10 (le bas est du
+  loose/Modul). Verdict : bon lot, ~23 € livrés les deux.

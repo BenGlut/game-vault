@@ -5673,5 +5673,128 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_myst",
+    "t": "Myst",
+    "n": "myst",
+    "a": [],
+    "f": "Myst",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_secret-files-tunguska",
+    "t": "Secret Files : Tunguska",
+    "n": "secret files tunguska",
+    "a": [
+      "Secret Files - Tunguska",
+      "Secret Files Tunguska"
+    ],
+    "f": "Secret Files",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_hotel-dusk-room-215",
+    "t": "Hotel Dusk : Room 215",
+    "n": "hotel dusk room 215",
+    "a": [
+      "Hotel Dusk - Room 215",
+      "Hotel Dusk Room 215"
+    ],
+    "f": "Kyle Hyde",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_last-window-le-secret-de-cape-west",
+    "t": "Last Window : Le Secret de Cape West",
+    "n": "last window le secret de cape west",
+    "a": [
+      "Last Window - The Secret of Cape West",
+      "Last Window"
+    ],
+    "f": "Kyle Hyde",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_time-hollow",
+    "t": "Time Hollow",
+    "n": "time hollow",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_zero-escape-virtue-s-last-reward",
+    "t": "Zero Escape : Virtue's Last Reward",
+    "n": "zero escape virtue s last reward",
+    "a": [
+      "Zero Escape - Virtue's Last Reward",
+      "Virtue's Last Reward"
+    ],
+    "f": "Zero Escape",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_zero-escape-zero-time-dilemma",
+    "t": "Zero Escape : Zero Time Dilemma",
+    "n": "zero escape zero time dilemma",
+    "a": [
+      "Zero Escape - Zero Time Dilemma",
+      "Zero Time Dilemma"
+    ],
+    "f": "Zero Escape",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_phoenix-wright-ace-attorney",
+    "t": "Phoenix Wright : Ace Attorney",
+    "n": "phoenix wright ace attorney",
+    "a": [
+      "Phoenix Wright - Ace Attorney"
+    ],
+    "f": "Ace Attorney",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_phoenix-wright-ace-attorney-justice-for-all",
+    "t": "Phoenix Wright : Ace Attorney - Justice for All",
+    "n": "phoenix wright ace attorney justice for all",
+    "a": [
+      "Phoenix Wright - Ace Attorney - Justice for All",
+      "Justice for All"
+    ],
+    "f": "Ace Attorney",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_phoenix-wright-ace-attorney-trials-and-tribulations",
+    "t": "Phoenix Wright : Ace Attorney - Trials and Tribulations",
+    "n": "phoenix wright ace attorney trials and tribulations",
+    "a": [
+      "Phoenix Wright - Ace Attorney - Trials and Tribulations",
+      "Trials and Tribulations"
+    ],
+    "f": "Ace Attorney",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

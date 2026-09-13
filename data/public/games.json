@@ -12021,5 +12021,248 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_myst",
+    "kind": "game",
+    "canonicalTitle": "Myst",
+    "normalizedTitle": "myst",
+    "aliases": [],
+    "franchise": "Myst",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_secret-files-tunguska",
+    "kind": "game",
+    "canonicalTitle": "Secret Files : Tunguska",
+    "normalizedTitle": "secret files tunguska",
+    "aliases": [
+      "Secret Files - Tunguska",
+      "Secret Files Tunguska"
+    ],
+    "franchise": "Secret Files",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_hotel-dusk-room-215",
+    "kind": "game",
+    "canonicalTitle": "Hotel Dusk : Room 215",
+    "normalizedTitle": "hotel dusk room 215",
+    "aliases": [
+      "Hotel Dusk - Room 215",
+      "Hotel Dusk Room 215"
+    ],
+    "franchise": "Kyle Hyde",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_last-window-le-secret-de-cape-west",
+    "kind": "game",
+    "canonicalTitle": "Last Window : Le Secret de Cape West",
+    "normalizedTitle": "last window le secret de cape west",
+    "aliases": [
+      "Last Window - The Secret of Cape West",
+      "Last Window"
+    ],
+    "franchise": "Kyle Hyde",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2010,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_time-hollow",
+    "kind": "game",
+    "canonicalTitle": "Time Hollow",
+    "normalizedTitle": "time hollow",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_zero-escape-virtue-s-last-reward",
+    "kind": "game",
+    "canonicalTitle": "Zero Escape : Virtue's Last Reward",
+    "normalizedTitle": "zero escape virtue s last reward",
+    "aliases": [
+      "Zero Escape - Virtue's Last Reward",
+      "Virtue's Last Reward"
+    ],
+    "franchise": "Zero Escape",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2012,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_zero-escape-zero-time-dilemma",
+    "kind": "game",
+    "canonicalTitle": "Zero Escape : Zero Time Dilemma",
+    "normalizedTitle": "zero escape zero time dilemma",
+    "aliases": [
+      "Zero Escape - Zero Time Dilemma",
+      "Zero Time Dilemma"
+    ],
+    "franchise": "Zero Escape",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2016,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_phoenix-wright-ace-attorney",
+    "kind": "game",
+    "canonicalTitle": "Phoenix Wright : Ace Attorney",
+    "normalizedTitle": "phoenix wright ace attorney",
+    "aliases": [
+      "Phoenix Wright - Ace Attorney"
+    ],
+    "franchise": "Ace Attorney",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_phoenix-wright-ace-attorney-justice-for-all",
+    "kind": "game",
+    "canonicalTitle": "Phoenix Wright : Ace Attorney - Justice for All",
+    "normalizedTitle": "phoenix wright ace attorney justice for all",
+    "aliases": [
+      "Phoenix Wright - Ace Attorney - Justice for All",
+      "Justice for All"
+    ],
+    "franchise": "Ace Attorney",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_phoenix-wright-ace-attorney-trials-and-tribulations",
+    "kind": "game",
+    "canonicalTitle": "Phoenix Wright : Ace Attorney - Trials and Tribulations",
+    "normalizedTitle": "phoenix wright ace attorney trials and tribulations",
+    "aliases": [
+      "Phoenix Wright - Ace Attorney - Trials and Tribulations",
+      "Trials and Tribulations"
+    ],
+    "franchise": "Ace Attorney",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
