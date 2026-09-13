@@ -191,3 +191,12 @@ l'historique git.*
   vérifié, **aucun portage** d'Égypte 1156 av. J.-C. (Cryo), de Shivers (les Ixupi, Sierra),
   de Riven, Myst III, Atlantis ou Amerzone. Les « Egypt » du catalogue sont des jeux de
   casse-briques/match-3 (Jewel Master, Luxor). Myst reste le seul de cette génération.
+- 2026-09-13 — **Zero Escape sur Vinted** : 74 annonces « zero escape / virtue / zero time /
+  nonary », dont une majorité PS Vita / PS4 (hors périmètre). Virtue's Last Reward 3DS :
+  ~16 annonces 35-90 €, le gros entre 40 et 50 €. Retenus et likés (11) : 35 € UKV avec notice
+  (Flipping Dutchman, NL, item 6949196298) · 37 € vendeur FR « anglais uniquement »
+  (8001729599) · 40 € ×3 · 42 € · 45 € ×2 · 45 € boîte allemande · 49 € UKV · 50 € UKV CIB.
+  Écartés : 30 € shinzoku (import JP, rejet définitif), 35 € « cartouche seule »
+  (6971364045), 29 € et 33 € = PS Vita (29 € vérifié sur photo). **Zero Time Dilemma 3DS :
+  aucune annonce** — 60 € et 90 € sont des PS4 (90 € vérifié sur photo). VLR n'est jamais sorti
+  en français : UKV/allemand acceptables par la règle « boîte FR inexistante ».
