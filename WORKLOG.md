@@ -157,6 +157,12 @@
 - Commande Vinted geo91330 du 2026-09-13 (réf. 22252929426, 16,78 € payés) : lot de deux
   jeux 3DS à 6 € pièce, offre acceptée à 12 € — Sonic Generations (bascule wishlist →
   ordered) et Super Mario 3D Land, qui est un DOUBLON, cinquième exemplaire en base.
+  **Annulée et remboursée le jour même** par benglut (« je me suis trompé, j'ai déjà ces
+  jeux »), remplacée par la commande theophilec10 ci-dessous.
+- Commande Vinted theophilec10 du 2026-09-13 (réf. 22253050117, 20,43 € payés) : lot de
+  trois jeux Sonic à 5 € pièce, offre acceptée à 15 €, colis Grand — Sonic Lost World 3DS
+  et Sonic Generations 3DS (tous deux en wishlist), plus Sonic & Sega All-Stars Racing DS,
+  troisième exemplaire, boîte française confirmée sur la photo de l'annonce.
 - Commande Vinted david4713 du 2026-09-12 (réf. 22185070902, 17,23 € payés) : coffret
   Sonic Origins Plus Switch, affiché 17 €, remise vendeur 15 €, obtenu à 13 € après
   négociation. Bascule wishlist → ordered ; c'est aussi l'une des deux jaquettes

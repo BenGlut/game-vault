@@ -152,3 +152,8 @@ l'historique git.*
   **Super Mario 3D Land est un doublon** (5e exemplaire), signalé à benglut.
   Sonic Lost World 3DS reste en wishlist : relevé n=116, q1 8 €, médiane 10 €, exemplaires
   complets dès 5 €.
+- 2026-09-13 — geo91330 ANNULÉE et remboursée par benglut le jour même (doublon Super Mario
+  3D Land repéré par lui). Remplacée par **theophilec10** (FR) : Sonic Lost World 3DS +
+  Sonic Generations 3DS + Sonic & Sega All-Stars Racing DS, 5 € pièce, offre acceptée à
+  15 €, 20,43 € payés, colis Grand. Le racing est un 3e exemplaire : identifié par la PHOTO
+  de l'annonce (fiches vendues vides, dressing vidé) — boîtier DS, jaquette FR, PEGI 7.
