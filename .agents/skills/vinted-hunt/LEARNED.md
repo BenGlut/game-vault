@@ -486,3 +486,24 @@ Ce qui reste à éviter, c'est l'inverse : **redescendre** sous un chiffre déj�
   égale le TOTAL PAYÉ, port et protection compris — pas le prix de l'article seul. Une
   commande à un seul article se saisit donc au total payé (13 € négociés → `:17.23`).
   La validation refuse la publication sinon.
+
+## 2026-09-13 — La tranche sous 12 € en DS/3DS est presque entièrement du loose
+
+Premier ratissage « bonnes affaires hors wishlist » (24 requêtes franchise, tri prix
+croissant, plafond 12 €) : 219 annonces retenues au titre, 125 après filtrage du bruit,
+**3 candidats réels, et les 3 refusés à la lecture de la description** :
+
+- Metroid Prime Hunters DS à 2,99 € → « Loose sans boîtier ».
+- Dragon Quest Monsters Joker 2 DS à 5 € → « en loose » ET « exemplaire japonais ».
+- Castlevania Portrait of Ruin + Dawn of Sorrow à 4 € → « **Dos carátulas hechas
+  manualmente** » : deux jaquettes FAITES MAIN, pas les jeux. Piège spécifique à la
+  chasse aux boîtes — une jaquette imprimée n'est pas une boîte d'origine.
+
+Le bruit à filtrer dans cette tranche, en plus des accessoires : les **lots** (`lot`,
+`lote`, `juegos`, `giochi`, `spiele`, `divers`, `vari`, `sammlung`), les **notices** et
+**cartes promo** (`manual`, `livret`, `dépliant`, `flyer`, `locandina`, `carte`, `card`,
+`VIP`), et `cart only` / `sueltos` / `cada uno`.
+
+**Conclusion pratique** : ratisser sous 12 € coûte cher en lectures de fiches pour un
+rendement quasi nul. Mieux vaut viser 12-25 € sur les titres absents de la collection,
+là où les exemplaires complets existent vraiment.

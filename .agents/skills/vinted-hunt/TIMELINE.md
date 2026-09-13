@@ -141,3 +141,9 @@ l'historique git.*
   Pokémon Noire 19,99 €, Dragon Quest 35 €). Exemplaire complet du jeu à 40 €.
   Proposé à benglut : offre à 8,50 € (plancher Vinted 8,40) + question dos/notice.
   Rien d'autre de la wishlist chez ce vendeur, donc pas de lot.
+- 2026-09-13 — périmètre élargi (ordre benglut) : la wishlist devient une priorité, pas une
+  limite ; tout jeu complétant la collection compte s'il est absent de la base, en DS/3DS/
+  Switch, complet, FR ou multilingue FR, et sous le marché. Premier ratissage : aucune
+  bonne affaire confirmée, les 3 candidats réels étaient loose, japonais ou des jaquettes
+  faites main. Sonic Generations 3DS : absent de la collection, annonce à 10 € pile à la
+  médiane (n=55, q1 7,90), muette sur la boîte ; les exemplaires à 3-4 € sont sans boîte.
