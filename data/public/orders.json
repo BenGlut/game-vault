@@ -2998,5 +2998,57 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 17.85
+  },
+  {
+    "id": "order_mtzp6mka",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_ds_the-legend-of-spyro-a-new-beginning",
+      "game_ds_myst"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_the-legend-of-spyro-a-new-beginning",
+        "inventoryId": "inv_ds_the-legend-of-spyro-a-new-beginning",
+        "unitPrice": 11.02
+      },
+      {
+        "gameId": "game_ds_myst",
+        "inventoryId": "inv_ds_myst",
+        "unitPrice": 11.01
+      }
+    ],
+    "orderedAt": "2026-09-13",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 22.03
+  },
+  {
+    "id": "order_mtzp6s0w",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_rhythm-paradise"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_rhythm-paradise",
+        "inventoryId": "inv_ds_rhythm-paradise",
+        "unitPrice": 18.28
+      }
+    ],
+    "orderedAt": "2026-09-13",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 18.28
   }
 ]

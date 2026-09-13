@@ -4160,7 +4160,7 @@
   {
     "id": "inv_ds_rhythm-paradise",
     "gameId": "game_ds_rhythm-paradise",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4176,8 +4176,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-10T08:42:32.707Z"
+    "orderId": "order_mtzp6s0w",
+    "updatedAt": "2026-09-13T10:55:20.672Z"
   },
   {
     "id": "inv_ds_golden-sun-obscure-aurore",
@@ -9575,7 +9575,7 @@
   {
     "id": "inv_ds_the-legend-of-spyro-a-new-beginning",
     "gameId": "game_ds_the-legend-of-spyro-a-new-beginning",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9584,8 +9584,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-21T10:37:37.089Z"
+    "orderId": "order_mtzp6mka",
+    "updatedAt": "2026-09-13T10:55:13.594Z"
   },
   {
     "id": "inv_gba_spyro-season-of-ice",
@@ -12014,7 +12014,7 @@
   {
     "id": "inv_ds_myst",
     "gameId": "game_ds_myst",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12023,8 +12023,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-13T10:44:30.428Z"
+    "orderId": "order_mtzp6mka",
+    "updatedAt": "2026-09-13T10:55:13.597Z"
   },
   {
     "id": "inv_ds_secret-files-tunguska",

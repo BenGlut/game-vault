@@ -183,3 +183,11 @@ l'historique git.*
   de benglut à 17 € en attente, colis Moyen. Les deux « boîte complète, jeu avec notice »,
   aucun doublon. Relevés : Spyro n=68 q1 8,50 méd 10 ; Myst n=38 q1 6 méd 10 (le bas est du
   loose/Modul). Verdict : bon lot, ~23 € livrés les deux.
+- 2026-09-13 midi — commandes enregistrées : **val.ham** lot Spyro A New Beginning + Myst DS
+  (offre 17 € acceptée, 22,03 € payés, réf. 22253264083) et **maxou_vint** Rhythm Paradise DS
+  complet (offre vendeur 14 €, 18,28 € payés, réf. 22202880271). Trois titres sortent de la
+  wishlist. Boîte Dawn of Sorrow et lot theophilec10 : bordereau envoyé aux vendeurs.
+- 2026-09-13 — question benglut sur les autres « Myst-like » PC : catalogue No-Intro DS/3DS
+  vérifié, **aucun portage** d'Égypte 1156 av. J.-C. (Cryo), de Shivers (les Ixupi, Sierra),
+  de Riven, Myst III, Atlantis ou Amerzone. Les « Egypt » du catalogue sont des jeux de
+  casse-briques/match-3 (Jewel Master, Luxor). Myst reste le seul de cette génération.

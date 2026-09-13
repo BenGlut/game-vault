@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-17T22:28:24.344Z",
-    "command": "add-price",
-    "message": "price observation for Rabbids 3D"
-  },
-  {
-    "at": "2026-08-17T22:28:24.964Z",
-    "command": "add-game",
-    "message": "add game New Nintendo 3DS noire (3ds)"
-  },
-  {
     "at": "2026-08-17T22:28:25.675Z",
     "command": "add-price",
     "message": "price observation for New Nintendo 3DS noire"
@@ -2498,5 +2488,15 @@
     "at": "2026-09-13T10:45:27.027Z",
     "command": "add-inventory",
     "message": "add inventory for game_ds_phoenix-wright-ace-attorney-trials-and-tribulations"
+  },
+  {
+    "at": "2026-09-13T10:55:13.618Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-13T10:55:20.695Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]
