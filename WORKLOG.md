@@ -154,6 +154,9 @@
   Edition, ajouté au catalogue de la collection. Contenu lu sur la photo de
   l'annonce, titre et description étant muets. Répartition 50/50 faute de prix
   unitaires ; région à confirmer à la réception. Favoris RE Revelations purgés.
+- Commande Vinted geo91330 du 2026-09-13 (réf. 22252929426, 16,78 € payés) : lot de deux
+  jeux 3DS à 6 € pièce, offre acceptée à 12 € — Sonic Generations (bascule wishlist →
+  ordered) et Super Mario 3D Land, qui est un DOUBLON, cinquième exemplaire en base.
 - Commande Vinted david4713 du 2026-09-12 (réf. 22185070902, 17,23 € payés) : coffret
   Sonic Origins Plus Switch, affiché 17 €, remise vendeur 15 €, obtenu à 13 € après
   négociation. Bascule wishlist → ordered ; c'est aussi l'une des deux jaquettes

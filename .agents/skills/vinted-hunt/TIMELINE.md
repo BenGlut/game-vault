@@ -147,3 +147,8 @@ l'historique git.*
   bonne affaire confirmée, les 3 candidats réels étaient loose, japonais ou des jaquettes
   faites main. Sonic Generations 3DS : absent de la collection, annonce à 10 € pile à la
   médiane (n=55, q1 7,90), muette sur la boîte ; les exemplaires à 3-4 € sont sans boîte.
+- 2026-09-13 — commande geo91330 (FR) : Sonic Generations + Super Mario 3D Land, 6 € pièce,
+  offre acceptée à 12 €, 16,78 € payés, colis Moyen. Sonic Generations sort de la wishlist ;
+  **Super Mario 3D Land est un doublon** (5e exemplaire), signalé à benglut.
+  Sonic Lost World 3DS reste en wishlist : relevé n=116, q1 8 €, médiane 10 €, exemplaires
+  complets dès 5 €.

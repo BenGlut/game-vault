@@ -2911,5 +2911,34 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 17.23
+  },
+  {
+    "id": "order_mtz2w4oh",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_3ds_sonic-generations",
+      "game_3ds_super-mario-3d-land"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_sonic-generations",
+        "inventoryId": "inv_3ds_sonic-generations",
+        "unitPrice": 8.39
+      },
+      {
+        "gameId": "game_3ds_super-mario-3d-land",
+        "inventoryId": "inv_3ds_super-mario-3d-land-5",
+        "unitPrice": 8.39
+      }
+    ],
+    "orderedAt": "2026-09-13",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 16.78
   }
 ]

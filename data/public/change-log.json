@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-16T23:00:48.947Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
     "at": "2026-08-16T23:00:49.837Z",
     "command": "add-order",
     "message": "add order vinted"
@@ -2498,5 +2493,10 @@
     "at": "2026-09-12T17:22:02.005Z",
     "command": "set-status",
     "message": "set inv_3ds_castlevania-lords-of-shadow-mirror-of-fate -> delivered"
+  },
+  {
+    "at": "2026-09-13T00:31:12.338Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]
