@@ -2975,5 +2975,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 20.43
+  },
+  {
+    "id": "order_mtz3box1",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_castlevania-dawn-of-sorrow"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_castlevania-dawn-of-sorrow",
+        "inventoryId": "inv_ds_castlevania-dawn-of-sorrow",
+        "unitPrice": 17.85
+      }
+    ],
+    "orderedAt": "2026-09-13",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 17.85
   }
 ]

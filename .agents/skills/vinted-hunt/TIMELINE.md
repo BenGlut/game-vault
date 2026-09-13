@@ -157,3 +157,19 @@ l'historique git.*
   Sonic Generations 3DS + Sonic & Sega All-Stars Racing DS, 5 € pièce, offre acceptée à
   15 €, 20,43 € payés, colis Grand. Le racing est un 3e exemplaire : identifié par la PHOTO
   de l'annonce (fiches vendues vides, dressing vidé) — boîtier DS, jaquette FR, PEGI 7.
+- 2026-09-13 — **VEILLE boîte Dawn of Sorrow CLOSE** : benglut a acheté lui-même la boîte
+  stajo92 (offre 11 €, contre-offre vendeur 12 € acceptée, 17,85 € payés, colis Petit,
+  réf. 22252959831). Commande rattachée à la fiche EXISTANTE inv_ds_castlevania-dawn-of-
+  sorrow (pas de second exemplaire) ; complétude à passer de loose à CIB/no_manual à la
+  réception après contrôle du dos et de la notice.
+- 2026-09-13 — boîte de réception : 23 fils avec offre vendeur décodés. Recommandés à
+  l'achat (offres vendeur, prix affiché) : maxou_vint Rhythm Paradise DS complet 14 €
+  (n=33 q1 15 méd 25) · val.ham Spyro A New Beginning DS complet 8 € (n=68 q1 8,50 méd 10)
+  · satanlegrand Spyro Eternal Night DS en boîte + Ultimate Band 6 € (n=52 q1 7,80 méd
+  11,90) · madsc26 (BE) Team Sonic Racing Switch 10 € (n=43 q1 13 méd 15, langue boîte non
+  vérifiée). Neutres : adelinemael Sonic Frontiers 15 € (méd 15), marinebecqwort Persona 5
+  Royal NEUF 40 € (occasion méd 40), bastien-39 Luigi's Mansion 3 26 € (méd 25). Écartés :
+  eno.mn Spyro EN 12 € (doublon de satanlegrand), nathan140611 LM3 30 €, almaferrer P5R ES,
+  tomasrg Kirby SSU sans notice, mlobop TWEWY 120 €. Partis : danis508 LM3, lelox8756 ACNH,
+  gabriel_duclos Sonic Classic Collection, biche738 Zelda PH (boîte non officielle).
+  ⚠️ smaug16 : offre benglut 12 € sur RE Revelations toujours pendante = doublon.

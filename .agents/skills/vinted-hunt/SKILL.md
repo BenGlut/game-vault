@@ -157,11 +157,12 @@ Report these with their link alongside the wishlist finds; do not wait for bengl
 
 **Standing watches — check every round, report even when empty** (benglut's order):
 
-- **Empty box for Castlevania: Dawn of Sorrow (DS)**, since 2026-09-12. His cartridge is
-  loose (`NTR-ACVP-EUR`), so an EUR multilingual or French box is what fits. Search
-  `castlevania dawn of sorrow` with both sorts and keep what a normal hunt *rejects*:
-  `boîte`, `boîtier`, `custodia`, `caja`, `case`, `hülle`, `box only`, `sans le jeu`.
-  Empty boxes surface in waves; missing one costs a month of waiting.
+- *(none open)* — method for a box watch, proven on Castlevania Dawn of Sorrow
+  (opened 2026-09-12, **closed 2026-09-13**: box bought from stajo92 at 12 €): search the
+  plain title with both sorts and keep exactly what a normal hunt *rejects* — `boîte`,
+  `boîtier`, `custodia`, `solo scatola`, `caja`, `case`, `hülle`, `box only`, `sans le
+  jeu`. Reject handmade covers (`carátulas hechas manualmente`). Match the box's region
+  to the cartridge's code.
 
 Compare each candidate to market via `pnpm vault deal` (dry-run by default, `--yes`
 writes). Quotes are PAL PriceCharting readings converted to euros — an international
