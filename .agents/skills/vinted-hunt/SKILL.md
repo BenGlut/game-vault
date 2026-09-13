@@ -140,7 +140,20 @@ buying the reproduction openly on AliExpress is cheaper and honest about what it
 GB/GBC/GBA, N64, GameCube, SNES and Wii titles stay in the wishlist as collection
 goals; they are simply not hunted here.
 
-Targets: the prioritised wishlist (`/recommandations`), DS / 3DS / Switch only.
+Targets: the prioritised wishlist (`/recommandations`), DS / 3DS / Switch only — **but the
+wishlist is a priority, not a boundary** (benglut's order, 2026-09-13: « y a pas que la
+wishlist, si des jeux intéressants complètent la collection et que le prix est bon on prend
+sans regarder »). Any game that *completes the collection* qualifies when all four hold:
+
+1. **Not already owned** — check `pnpm vault inspect inventory --match <titre>` before
+   surfacing anything. A duplicate is the most common way to waste this rule.
+2. **In scope** — DS, 3DS or Switch.
+3. **Passes the usual checks** — French or multilingual-with-French box, complete, authentic.
+   The price being good never excuses a loose cart, an import or an empty box.
+4. **Clearly under the French market** — at or below q1 of a `releve.js` reading, not just
+   "cheap-looking". Under ~10 € the reading is often noise, so lean on the description.
+
+Report these with their link alongside the wishlist finds; do not wait for benglut to ask.
 
 **Standing watches — check every round, report even when empty** (benglut's order):
 
