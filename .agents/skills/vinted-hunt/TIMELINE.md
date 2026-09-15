@@ -219,3 +219,11 @@ l'historique git.*
   Seule piste valable : FFCC RoF complet VF 19,99 € (item 10007510342, coupure sur la tranche).
   À qualifier : Time Hollow 45 € vendeur FR muet (9952624120), Last Window 37 € vendeur DE
   « wie neu » (9756090126).
+- 2026-09-16 — **lothaire.gosset** (FR, 272 ventes, 0,98) : remise de lot configurée mais à
+  **0 % à tous les paliers**, donc seul le port est mutualisé. FFCC Ring of Fates DS 20 €
+  complet (cartouche + boîte + notice + livret Wi-Fi) = q1 du marché. **Might & Magic: Clash
+  of Heroes 18 € = DOUBLON** (reçu dans le lot jonathan_lava) — refusé malgré un prix sous le
+  marché (n=4, tous à 20 €). Également chez lui : Animal Crossing Happy Home Designer 3DS
+  7,68 € (wishlist, annonce muette sur la boîte, à faire préciser), Bob l'Éponge Contre les
+  Robots-Jouets DS 4,50 € complet (n=16 q1 4,50 méd 5), La Princesse et la Grenouille DS
+  4,50 € complet (n=59 q1 3,99 méd 4). Clochette et la Pierre de Lune 4,50 € = doublon.
