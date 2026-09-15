@@ -4160,7 +4160,7 @@
   {
     "id": "inv_ds_rhythm-paradise",
     "gameId": "game_ds_rhythm-paradise",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -4177,7 +4177,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtzp6s0w",
-    "updatedAt": "2026-09-13T10:55:20.672Z"
+    "updatedAt": "2026-09-15T22:12:38.302Z"
   },
   {
     "id": "inv_ds_golden-sun-obscure-aurore",
@@ -7723,7 +7723,7 @@
   {
     "id": "inv_switch_sonic-origins-plus",
     "gameId": "game_switch_sonic-origins-plus",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7737,7 +7737,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtymo1pg",
-    "updatedAt": "2026-09-12T16:58:43.356Z"
+    "updatedAt": "2026-09-15T22:12:41.169Z"
   },
   {
     "id": "inv_switch_sonic-superstars",
@@ -9575,7 +9575,7 @@
   {
     "id": "inv_ds_the-legend-of-spyro-a-new-beginning",
     "gameId": "game_ds_the-legend-of-spyro-a-new-beginning",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9585,7 +9585,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtzp6mka",
-    "updatedAt": "2026-09-13T10:55:13.594Z"
+    "updatedAt": "2026-09-15T22:12:34.890Z"
   },
   {
     "id": "inv_gba_spyro-season-of-ice",
@@ -11824,8 +11824,8 @@
   {
     "id": "inv_3ds_resident-evil-revelations",
     "gameId": "game_3ds_resident-evil-revelations",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "CIB",
     "purchasePrice": null,
@@ -11837,11 +11837,11 @@
       "source": "vinted-fr",
       "observedAt": "2026-09-07"
     },
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-15",
     "orderId": "order_mtvbft54",
-    "updatedAt": "2026-09-11T20:09:53.339Z"
+    "updatedAt": "2026-09-15T22:12:31.965Z"
   },
   {
     "id": "inv_ps1_micro-maniacs",
@@ -11864,7 +11864,7 @@
   {
     "id": "inv_gbc_micro-maniacs",
     "gameId": "game_gbc_micro-maniacs",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "loose",
@@ -11877,12 +11877,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtt4do8g",
-    "updatedAt": "2026-09-08T20:26:24.012Z"
+    "updatedAt": "2026-09-15T22:12:44.580Z"
   },
   {
     "id": "inv_3ds_tekken-3d-prime-edition",
     "gameId": "game_3ds_tekken-3d-prime-edition",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11891,11 +11891,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-15",
     "orderId": "order_mtvbft54",
-    "updatedAt": "2026-09-11T20:09:53.340Z"
+    "updatedAt": "2026-09-15T22:12:31.966Z"
   },
   {
     "id": "inv_ds_metroid-prime-hunters",
@@ -12014,7 +12014,7 @@
   {
     "id": "inv_ds_myst",
     "gameId": "game_ds_myst",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12024,7 +12024,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mtzp6mka",
-    "updatedAt": "2026-09-13T10:55:13.597Z"
+    "updatedAt": "2026-09-15T22:12:34.891Z"
   },
   {
     "id": "inv_ds_secret-files-tunguska",

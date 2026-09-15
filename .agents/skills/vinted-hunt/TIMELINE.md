@@ -200,3 +200,22 @@ l'historique git.*
   (6971364045), 29 € et 33 € = PS Vita (29 € vérifié sur photo). **Zero Time Dilemma 3DS :
   aucune annonce** — 60 € et 90 € sont des PS4 (90 € vérifié sur photo). VLR n'est jamais sorti
   en français : UKV/allemand acceptables par la règle « boîte FR inexistante ».
+- 2026-09-16 — commandes : levalentinoy LIVRÉ le 15/09 ; val.ham (15/09), maxou_vint, david4713,
+  gameshelfshop (14/09) EXPÉDIÉS. stajo92 et theophilec10 : bordereau pas encore utilisé.
+  tigrou35 au point relais depuis le 09/09 → risque de retour à l'expéditeur.
+- 2026-09-16 — boîte de réception : 3 fils neufs seulement. nickylars0n FFCC Ring of Fates DS
+  « FRA excellent état » 27→26 € (au-dessus du marché, voir ci-dessous) ; LM3 jessiejess1977 et
+  F-Zero GX maurin36 déjà vendus. Offres de la ronde précédente TOUJOURS ouvertes :
+  satanlegrand Spyro EN 6 €, madsc26 Team Sonic Racing 10 €, adelinemael Sonic Frontiers 15 €,
+  bastien-39 LM3 25 € (a baissé de 26), marinebecqwort P5R neuf 40 €, eno.mn Spyro EN 12 €.
+  smaug16 : offre benglut 12 € sur RE Revelations toujours pendante (doublon).
+- 2026-09-16 — chasse via HTML (API catalogue en 404) sur 10 titres. Relevés : Hotel Dusk n=72
+  q1 20 méd 29,90 · Last Window n=27 q1 45 méd 60 · Phoenix Wright AA n=61 q1 32 méd 40 ·
+  Layton vs PW n=48 q1 69 méd 75 · Kirby SSU n=28 q1 60 méd 89 · Time Hollow n=5 · FFCC RoF
+  ~n=25 q1 ~20 méd ~24 · Zero Time Dilemma 3DS : 0. **Tous les candidats sous q1 tombés à la
+  lecture** : Hotel Dusk 8 € japonais / 10 € boîte+notice seules / 14 € « usado » ; Last Window
+  23 € = BOÎTE SEULE sans jeu ; Phoenix Wright 15 € = version DE/ES/IT sans français ; Layton
+  vs PW 44 € = cartouche seule ; Kirby SSU 60 € = cartouche seule ; FFCC RoF 12 € sans boîte.
+  Seule piste valable : FFCC RoF complet VF 19,99 € (item 10007510342, coupure sur la tranche).
+  À qualifier : Time Hollow 45 € vendeur FR muet (9952624120), Last Window 37 € vendeur DE
+  « wie neu » (9756090126).

@@ -2840,7 +2840,7 @@
   {
     "id": "order_mtt4do8g",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_gbc_micro-maniacs"
@@ -2853,7 +2853,7 @@
       }
     ],
     "orderedAt": "2026-09-08",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-14",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2863,7 +2863,7 @@
   {
     "id": "order_mtvbft54",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 2,
     "gameIds": [
       "game_3ds_resident-evil-revelations",
@@ -2883,7 +2883,7 @@
     ],
     "orderedAt": "2026-09-10",
     "fulfilledAt": "2026-09-10",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-15",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -2892,7 +2892,7 @@
   {
     "id": "order_mtymo1pg",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_sonic-origins-plus"
@@ -2905,7 +2905,7 @@
       }
     ],
     "orderedAt": "2026-09-12",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-14",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3002,7 +3002,7 @@
   {
     "id": "order_mtzp6mka",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 2,
     "gameIds": [
       "game_ds_the-legend-of-spyro-a-new-beginning",
@@ -3021,7 +3021,7 @@
       }
     ],
     "orderedAt": "2026-09-13",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-15",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3031,7 +3031,7 @@
   {
     "id": "order_mtzp6s0w",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_ds_rhythm-paradise"
@@ -3044,7 +3044,7 @@
       }
     ],
     "orderedAt": "2026-09-13",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-14",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,

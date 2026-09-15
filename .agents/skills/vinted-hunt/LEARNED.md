@@ -507,3 +507,14 @@ Le bruit à filtrer dans cette tranche, en plus des accessoires : les **lots** (
 **Conclusion pratique** : ratisser sous 12 € coûte cher en lectures de fiches pour un
 rendement quasi nul. Mieux vaut viser 12-25 € sur les titres absents de la collection,
 là où les exemplaires complets existent vraiment.
+
+## 2026-09-16 — `/api/v2/catalog/items` renvoie 404 : la recherche passe par le HTML
+
+L'endpoint JSON de recherche répond 404 depuis le 16/09, même depuis une page catalogue
+authentifiée avec CSRF et anon_id. La page `/catalog?search_text=…` est désormais rendue
+côté serveur, sans appel XHR visible. **Contournement qui marche** : `fetch('/catalog?
+search_text=…&order=relevance|price_low_to_high')` en `text/html`, puis extraire les cartes
+avec `href="(/items/\d+…)"[^>]*title="…"` — le `title` porte « titre, État: …, prix €, prix
+protection incluse €». Page lourde (~7 Mo) : espacer d'1,5-2 s. `is_favourite` n'est plus
+disponible par ce canal ; `/api/v2/users/…`, `/wardrobe/…`, `/transactions/…`,
+`/conversations/…`, `/my_orders` et `/user_favourites/toggle` fonctionnent toujours.
