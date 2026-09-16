@@ -518,3 +518,16 @@ avec `href="(/items/\d+…)"[^>]*title="…"` — le `title` porte « titre, Ét
 protection incluse €». Page lourde (~7 Mo) : espacer d'1,5-2 s. `is_favourite` n'est plus
 disponible par ce canal ; `/api/v2/users/…`, `/wardrobe/…`, `/transactions/…`,
 `/conversations/…`, `/my_orders` et `/user_favourites/toggle` fonctionnent toujours.
+
+## 2026-09-17 — « Metroid Prime Hunters » sous 10 € = la DÉMO First Hunt
+
+Sur DS, la démo **Metroid Prime Hunters: First Hunt** (livrée avec les consoles) a sa
+propre boîte, très proche de celle du jeu. Cinq annonces vérifiées à 4, 5, 7, 9 et 10 €
+étaient toutes la démo, dont une vendue « avec boîte inclus » et une autre « complet » —
+sans jamais écrire « demo » dans le titre. La jaquette, elle, le dit en gros :
+**DEMO … FIRST HUNT**.
+
+**Règle** : sur ce titre, ne jamais conclure sans la photo de la jaquette, et traiter tout
+prix sous ~12 € comme la démo par défaut. Le vrai jeu complet se situe vers 15-25 €
+(médiane globale 8 € parce que l'échantillon est noyé de démos et de cartouches nues).
+Même vigilance pour tout jeu ayant eu une démo en boîte séparée.

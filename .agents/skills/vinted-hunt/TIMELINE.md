@@ -227,3 +227,12 @@ l'historique git.*
   7,68 € (wishlist, annonce muette sur la boîte, à faire préciser), Bob l'Éponge Contre les
   Robots-Jouets DS 4,50 € complet (n=16 q1 4,50 méd 5), La Princesse et la Grenouille DS
   4,50 € complet (n=59 q1 3,99 méd 4). Clochette et la Pierre de Lune 4,50 € = doublon.
+- 2026-09-17 — priorité Metroid (ordre benglut). **Federation Force 3DS** : n=95, q1 12,50,
+  méd. 19,99. Deux exemplaires en BOÎTE FRANÇAISE vérifiés sur photo : 10 € (9847432228) et
+  12 € (9910040535) — le 10 € est la meilleure affaire, sous le q1.
+  **Prime Hunters DS** : piège majeur, **6 annonces sur 6 entre 4 et 18 € sont la démo First
+  Hunt** (4, 5, 7, 9, 10 et 18 € « complet »), jaquette « DEMO … FIRST HUNT » vérifiée sur
+  photo à chaque fois. Les 13-20 € sont des cartouches seules. Premier vrai jeu en boîte
+  confirmé : **24,90 € (9497804518)**, vendeur FR, cartouche excellente, notice non précisée.
+  Alternative : 27 € (9882638290) vendeur DE, « Spiel, Hülle und Anleitung wie neu » =
+  complet mais boîte allemande. Favoris : 96 au total, plus aucun N64/GameCube.
