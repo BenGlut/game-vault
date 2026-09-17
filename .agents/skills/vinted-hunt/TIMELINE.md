@@ -236,3 +236,24 @@ l'historique git.*
   confirmé : **24,90 € (9497804518)**, vendeur FR, cartouche excellente, notice non précisée.
   Alternative : 27 € (9882638290) vendeur DE, « Spiel, Hülle und Anleitung wie neu » =
   complet mais boîte allemande. Favoris : 96 au total, plus aucun N64/GameCube.
+- 2026-09-18 — commandes : **Code Name S.T.E.A.M. NON RÉCLAMÉ au point relais, retour en
+  cours vers tigrou35** (signalé 3 fois depuis le 09/09) — remboursement à attendre, base
+  laissée en `fulfilled` tant que Vinted n'a pas validé. Nouveaux achats enregistrés :
+  Sonic X Shadow Generations Switch 14 € (aaron_tlzze, 18,28 payés), **Metroid Prime
+  Federation Force 3DS négocié 10 → 8 €** (probotec62, 11,98 payés, boîte FR vérifiée),
+  **Spyro Eternal Night DS négocié 8 → 6 €** (satanlegrand, 9,88 payés). Reçus le 17/09 :
+  Myst + Spyro A New Beginning (val.ham), Rhythm Paradise (maxou_vint), coffret Sonic
+  Origins Plus (david4713, négocié 15 → 13 €).
+- 2026-09-18 — négociations en cours : bastien-39 Luigi's Mansion 3 (affiché 23 €, offre
+  benglut 21 €) ; lothaire.gosset lot de 4 (36,68 € affichés, offre 30 €) — message de
+  relance envoyé sur ordre de benglut + question sur la boîte de Happy Home Designer.
+- 2026-09-18 — chasse sur 10 titres. Relevés : Advance Wars Dual Strike n=37 q1 15 méd 20 ·
+  GTA Chinatown Wars n=8 q1 20 · Hyrule Warriors Legends n=55 q1 13 méd 15 · RE Mercenaries
+  3D n=52 q1 15 méd 18 · Sonic Classic Collection n=54 q1 18 méd 20 · Theatrhythm Curtain
+  Call n=34 q1 20 méd 25 · Zelda Phantom Hourglass n=34 q1 10 méd 15 · Sonic Mania n=40
+  q1 11,99 méd 13. **Sept candidats sous q1 vérifiés, six éliminés** : Theatrhythm 8 € =
+  BOX ONLY, Sonic Classic 8 € = loose, Advance Wars 10 € = loose anglais, Hyrule 5 € =
+  boîte + code sans cartouche, Sonic Mania 3 € = jaquette seule, RE Mercenaries 7 € =
+  cartouche nue (photo : LNA-CTR-ABMP-EUR, USK). **Seule trouvaille : Sonic Classic
+  Collection 12,90 € (9901331876), complet, BOÎTE FRANÇAISE, jeu multilingue** — vendeur
+  italien, contre q1 18 et médiane 20.

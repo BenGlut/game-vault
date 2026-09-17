@@ -4160,8 +4160,8 @@
   {
     "id": "inv_ds_rhythm-paradise",
     "gameId": "game_ds_rhythm-paradise",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
@@ -4175,9 +4175,9 @@
     },
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-17",
     "orderId": "order_mtzp6s0w",
-    "updatedAt": "2026-09-15T22:12:38.302Z"
+    "updatedAt": "2026-09-17T22:52:06.341Z"
   },
   {
     "id": "inv_ds_golden-sun-obscure-aurore",
@@ -7723,8 +7723,8 @@
   {
     "id": "inv_switch_sonic-origins-plus",
     "gameId": "game_switch_sonic-origins-plus",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": {
@@ -7735,9 +7735,9 @@
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-17",
     "orderId": "order_mtymo1pg",
-    "updatedAt": "2026-09-15T22:12:41.169Z"
+    "updatedAt": "2026-09-17T22:52:20.888Z"
   },
   {
     "id": "inv_switch_sonic-superstars",
@@ -7772,7 +7772,7 @@
   {
     "id": "inv_switch_sonic-x-shadow-generations",
     "gameId": "game_switch_sonic-x-shadow-generations",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7781,8 +7781,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:19.029Z"
+    "orderId": "order_mu64jelm",
+    "updatedAt": "2026-09-17T22:51:41.098Z"
   },
   {
     "id": "inv_ds_final-fantasy-iv",
@@ -9560,7 +9560,7 @@
   {
     "id": "inv_ds_the-legend-of-spyro-the-eternal-night",
     "gameId": "game_ds_the-legend-of-spyro-the-eternal-night",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -9569,23 +9569,23 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-21T10:37:35.111Z"
+    "orderId": "order_mu64jsw0",
+    "updatedAt": "2026-09-17T22:51:59.616Z"
   },
   {
     "id": "inv_ds_the-legend-of-spyro-a-new-beginning",
     "gameId": "game_ds_the-legend-of-spyro-a-new-beginning",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-17",
     "orderId": "order_mtzp6mka",
-    "updatedAt": "2026-09-15T22:12:34.890Z"
+    "updatedAt": "2026-09-17T22:52:13.695Z"
   },
   {
     "id": "inv_gba_spyro-season-of-ice",
@@ -11930,7 +11930,7 @@
   {
     "id": "inv_3ds_metroid-prime-federation-force",
     "gameId": "game_3ds_metroid-prime-federation-force",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11939,8 +11939,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-12T16:55:07.608Z"
+    "orderId": "order_mu64jli9",
+    "updatedAt": "2026-09-17T22:51:50.049Z"
   },
   {
     "id": "inv_switch_metroid-prime-4-beyond",
@@ -12014,17 +12014,17 @@
   {
     "id": "inv_ds_myst",
     "gameId": "game_ds_myst",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-17",
     "orderId": "order_mtzp6mka",
-    "updatedAt": "2026-09-15T22:12:34.891Z"
+    "updatedAt": "2026-09-17T22:52:13.696Z"
   },
   {
     "id": "inv_ds_secret-files-tunguska",
