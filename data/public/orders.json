@@ -3119,5 +3119,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 9.88
+  },
+  {
+    "id": "order_mu7krcms",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_sonic-superstars"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_sonic-superstars",
+        "inventoryId": "inv_switch_sonic-superstars",
+        "unitPrice": 18.39
+      }
+    ],
+    "orderedAt": "2026-09-18",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 18.39
   }
 ]

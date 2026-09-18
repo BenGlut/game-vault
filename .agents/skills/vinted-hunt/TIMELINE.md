@@ -257,3 +257,17 @@ l'historique git.*
   cartouche nue (photo : LNA-CTR-ABMP-EUR, USK). **Seule trouvaille : Sonic Classic
   Collection 12,90 € (9901331876), complet, BOÎTE FRANÇAISE, jeu multilingue** — vendeur
   italien, contre q1 18 et médiane 20.
+- 2026-09-19 — Sonic Superstars Switch enregistré (chacharose18, affiché 18 €, offre benglut
+  14 € acceptée, 18,39 payés). Négociations toujours sans réponse : bastien-39 LM3 (21 €) et
+  lothaire.gosset lot de 4 (30 €).
+- 2026-09-19 — **mcfix_informatica** (IT, 300 ventes, note 1, 189 annonces, AUCUNE remise de
+  lot) : 108 articles Nintendo mais surtout des accessoires (pennini, kits batterie). Ses
+  jeux DS « Pal Ita » à 7-10 € sont **au-dessus du marché français** : Nintendogs Teckel n=33
+  q1 5 méd 5 ; Toy Story 3 n=61 q1 4 méd 5 ; Harry Potter Coupe de Feu n=32 q1 4 méd 5.
+  Déjà possédés chez lui : Sonic Colours, Sonic Rush, Spyro Shadow Legacy, Spyro A New
+  Beginning, Mario Party DS, Rooms, DBZ Supersonic Warriors 2. **Conclusion : pas de lot,
+  seul le Sonic Classic Collection 12,90 € vaut le coup.**
+- 2026-09-19 — chasse Switch : Team Sonic Racing n=29 q1 12 méd 13 (trois à 10 €) ·
+  Sonic Frontiers n=48 q1 15 méd 15 (12 € « toutes langues », 10 € vendeur DE) ·
+  Spyro Reignited n=30 q1 18 méd 19,90 (16 € vendeur IT « in Italiano ») · WoFF Maxima n=9
+  q1 18 · Xenoblade Chronicles 3 : aucune annonce de jeu, que des stickers · Celeste : n=0.
