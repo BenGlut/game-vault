@@ -300,3 +300,15 @@ l'historique git.*
   Revenant Wings 6 et 7 € = boîtiers vides, RE Deadly Silence 19 € = carte VIP grattée et
   30 € = cartouche seule, **Metroid Prime Pinball 22 € = cartouche nue** (NTR-AP2P-EUR,
   photo) chez un vendeur noté 0,4 sur 4 ventes.
+- 2026-09-19 — **snakeplissken8** (FR, 143 ventes, note 1, 325 annonces, AUCUNE remise de lot,
+  « prix ferme », pas de Vinted Go ni La Poste → Mondial Relay). Absents de la base et
+  vérifiés en boîte sur photo : **Xenoblade Chronicles 3D New 3DS 9,99 €** (marché n=90,
+  q1 et médiane 20 — jaquette FR « uniquement sur New Nintendo 3DS », tourne sur la New 2DS
+  XL de benglut), **Rodea The Sky Soldier 3DS 9,99 €** (n=44, q1 13,99, méd. 16,99, boîte
+  PAL NIS America), **So Blonde Retour sur l'île DS 9,99 €** (jaquette FR ; aucune référence
+  de marché, seules des copies allemandes du 1er épisode à 4-5 €). Autres options : Ninja
+  Town DS 4,99, Away Shuffle Dungeon DS 12,99, La Nouvelle Maison du Style 3DS 2,99, Shin
+  Megami Tensei V Switch 14,99 (édition différente du Vengeance possédé). Doublons chez lui :
+  Kirby Battle Royale, Paper Jam Bros, A Link Between Worlds, Ocarina of Time 3D, Ghost
+  Trick, Lucky Luke, Yo-kai Watch 2. Son Zelda Phantom Hourglass à 49,99 € est hors marché
+  (médiane 15).
