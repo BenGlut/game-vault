@@ -1,6 +1,11 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Lot snakeplissken8 **annulé par le vendeur le jour même** (« il me manque un
+  jeu que j'avais vendu en main propre » — So Blonde et Xenoblade Chronicles 3D
+  partis hors Vinted). Remboursement validé, commande passée en `cancelled`, les
+  5 lignes d'inventaire repassées en `cancelled`. Les 5 jeux restent en base,
+  Rodea, Away Shuffle Dungeon et Ninjatown toujours en vente chez ce vendeur
 - Lot snakeplissken8 (5 jeux, 55,03 € port et protection inclus, commande
   22416001431) : So Blonde Retour sur l'île (DS), Away Shuffle Dungeon (DS),
   Rodea the Sky Soldier (3DS), Ninjatown (DS), Xenoblade Chronicles 3D

@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-18T20:18:32.584Z",
-    "command": "receive-order",
-    "message": "receive-order order_msrxrx6d"
-  },
-  {
     "at": "2026-08-18T20:18:34.541Z",
     "command": "receive-order",
     "message": "receive-order order_msrxjli4"
@@ -2498,5 +2493,10 @@
     "at": "2026-09-19T03:18:40.433Z",
     "command": "update-order",
     "message": "update order_mu7thz94"
+  },
+  {
+    "at": "2026-09-19T14:34:56.391Z",
+    "command": "cancel-order",
+    "message": "cancel-order order_mu7thz94"
   }
 ]

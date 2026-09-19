@@ -3169,7 +3169,7 @@
   {
     "id": "order_mu7thz94",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "cancelled",
     "itemCount": 5,
     "gameIds": [
       "game_ds_so-blonde-retour-sur-l-ile",
@@ -3209,7 +3209,7 @@
     "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
-    "cancelledAt": null,
+    "cancelledAt": "2026-09-19",
     "refundedAt": null,
     "totalPaid": 55.03
   }

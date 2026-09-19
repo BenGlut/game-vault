@@ -12164,7 +12164,7 @@
   {
     "id": "inv_ds_so-blonde-retour-sur-l-ile",
     "gameId": "game_ds_so-blonde-retour-sur-l-ile",
-    "status": "ordered",
+    "status": "cancelled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12178,12 +12178,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu7thz94",
-    "updatedAt": "2026-09-19T03:18:40.387Z"
+    "updatedAt": "2026-09-19T14:34:56.362Z"
   },
   {
     "id": "inv_ds_away-shuffle-dungeon",
     "gameId": "game_ds_away-shuffle-dungeon",
-    "status": "ordered",
+    "status": "cancelled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12197,12 +12197,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu7thz94",
-    "updatedAt": "2026-09-19T03:18:40.392Z"
+    "updatedAt": "2026-09-19T14:34:56.367Z"
   },
   {
     "id": "inv_3ds_rodea-the-sky-soldier",
     "gameId": "game_3ds_rodea-the-sky-soldier",
-    "status": "ordered",
+    "status": "cancelled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12216,12 +12216,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu7thz94",
-    "updatedAt": "2026-09-19T03:18:40.392Z"
+    "updatedAt": "2026-09-19T14:34:56.367Z"
   },
   {
     "id": "inv_ds_ninjatown",
     "gameId": "game_ds_ninjatown",
-    "status": "ordered",
+    "status": "cancelled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12235,12 +12235,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu7thz94",
-    "updatedAt": "2026-09-19T03:18:40.392Z"
+    "updatedAt": "2026-09-19T14:34:56.367Z"
   },
   {
     "id": "inv_3ds_xenoblade-chronicles-3d",
     "gameId": "game_3ds_xenoblade-chronicles-3d",
-    "status": "ordered",
+    "status": "cancelled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12254,6 +12254,6 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu7thz94",
-    "updatedAt": "2026-09-19T03:18:40.392Z"
+    "updatedAt": "2026-09-19T14:34:56.367Z"
   }
 ]
