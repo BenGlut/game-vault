@@ -576,3 +576,37 @@ Trois pièges passés au travers en une seule passe, tous corrigés depuis :
 `senza custodia`. Ajouter aussi `Boitier : Anglais` et `English version` : la
 langue du boîtier est annoncée dans la description bien plus souvent que dans le
 titre, et c'est le seul critère qui décide de la région de la boîte.
+
+## 2026-09-19 — une seule photo = cartouche nue (règle, pas indice)
+
+benglut : « je ne prends que des jeux en boîte ». Chez enzor944 (833 ventes),
+le nombre de photos prédit l'état mieux que la description, qui dit « Très
+bonne état » sur tout :
+
+- **1 photo → cartouche nue**, sans exception sur 3 vérifications : Mario &
+  Luigi Partners in Time 22,99 € (`NTR-ARMP-EUR`), Zelda Phantom Hourglass
+  21,99 € (`NTR-AZEP-EUR`), Story of Seasons A Wonderful Life 10,99 €
+  (`LA-H-A9QCC-EUR`).
+- **2-3 photos → boîte** : Star Fox Command (boîte + notice FR + carte VIP,
+  `NTR-ASFP-FRA`), Heroes of Ruin, Super Monkey Ball Banana Blitz HD,
+  Crash N. Sane Trilogy, Stardew Valley.
+
+Corollaire, et c'est le piège qui coûte cher : **un prix très en dessous de la
+médiane sur un titre recherché n'est pas une affaire, c'est un signal de
+loose.** Partners in Time à 22,99 € quand la médiane complète est 49,90 € (n=64)
+semblait valoir ×2,2 — c'était simplement le prix normal d'une cartouche nue.
+Avant de présenter un écart de prix comme une opportunité, vérifier la photo :
+sinon on recommande un loose en le chiffrant comme un complet.
+
+Le vendeur écrivait « sans boîte » sur l'un de ses deux Partners in Time et rien
+sur l'autre, pourtant identiques. **Le silence d'une description ne vaut pas
+mention de la boîte.**
+
+## 2026-09-19 — récupérer les photos : passer par l'API, pas par le HTML
+
+Les URLs `images1.vinted.net` extraites du HTML d'une fiche renvoient
+`{"result":"not-found"}` à `curl`, même avec User-Agent et Referer : elles sont
+périmées. Les URLs servies par `/api/v2/wardrobe/<uid>/items` portent une
+signature `?s=<sha1>` et se téléchargent directement en dehors du navigateur.
+C'est la seule voie fiable quand la fenêtre Chrome est réduite
+(`innerWidth === 0`) et qu'aucune capture d'écran n'est possible.
