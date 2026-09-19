@@ -2944,7 +2944,7 @@
   {
     "id": "order_mtz3hk8y",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 3,
     "gameIds": [
       "game_3ds_sonic-lost-world",
@@ -2969,7 +2969,7 @@
       }
     ],
     "orderedAt": "2026-09-13",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-19",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -2979,7 +2979,7 @@
   {
     "id": "order_mtz3box1",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_ds_castlevania-dawn-of-sorrow"
@@ -2992,7 +2992,7 @@
       }
     ],
     "orderedAt": "2026-09-13",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-19",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3054,7 +3054,7 @@
   {
     "id": "order_mu64jelm",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_sonic-x-shadow-generations"
@@ -3067,7 +3067,7 @@
       }
     ],
     "orderedAt": "2026-09-17",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-19",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3165,5 +3165,52 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 24.58
+  },
+  {
+    "id": "order_mu7thz94",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 5,
+    "gameIds": [
+      "game_ds_so-blonde-retour-sur-l-ile",
+      "game_ds_away-shuffle-dungeon",
+      "game_3ds_rodea-the-sky-soldier",
+      "game_ds_ninjatown",
+      "game_3ds_xenoblade-chronicles-3d"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_so-blonde-retour-sur-l-ile",
+        "inventoryId": "inv_ds_so-blonde-retour-sur-l-ile",
+        "unitPrice": 11.46
+      },
+      {
+        "gameId": "game_ds_away-shuffle-dungeon",
+        "inventoryId": "inv_ds_away-shuffle-dungeon",
+        "unitPrice": 14.91
+      },
+      {
+        "gameId": "game_3ds_rodea-the-sky-soldier",
+        "inventoryId": "inv_3ds_rodea-the-sky-soldier",
+        "unitPrice": 11.47
+      },
+      {
+        "gameId": "game_ds_ninjatown",
+        "inventoryId": "inv_ds_ninjatown",
+        "unitPrice": 5.73
+      },
+      {
+        "gameId": "game_3ds_xenoblade-chronicles-3d",
+        "inventoryId": "inv_3ds_xenoblade-chronicles-3d",
+        "unitPrice": 11.46
+      }
+    ],
+    "orderedAt": "2026-09-19",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 55.03
   }
 ]

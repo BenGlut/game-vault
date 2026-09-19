@@ -1,6 +1,14 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Lot snakeplissken8 (5 jeux, 55,03 € port et protection inclus, commande
+  22416001431) : So Blonde Retour sur l'île (DS), Away Shuffle Dungeon (DS),
+  Rodea the Sky Soldier (3DS), Ninjatown (DS), Xenoblade Chronicles 3D
+  (New 3DS). Les 5 titres créés dans `games.json`, 5 lignes d'inventaire en
+  `ordered`, vendeur `seller_snakeplissken8` créé. Vendeur sans remise lot et
+  « prix ferme » : lot pris au prix affiché, chaque titre restant sous la
+  médiane relevée (Xenoblade 3D 9,99 € contre médiane 20 € sur n=90, Rodea
+  9,99 € contre 16,99 € sur n=44)
 - Lot négocié de 15 jeux chez yamm3000 (vendeur liquidant sa collection DS/3DS,
   450 annonces) : The Settlers, Adibou (je joue avec les lettres et les nombres,
   j'explore le corps humain), Syberia, Micro Machines V4, My Sims Kingdom,

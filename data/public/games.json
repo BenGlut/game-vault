@@ -12264,5 +12264,115 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_so-blonde-retour-sur-l-ile",
+    "kind": "game",
+    "canonicalTitle": "So Blonde: Retour sur l'île",
+    "normalizedTitle": "so blonde retour sur l ile",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_away-shuffle-dungeon",
+    "kind": "game",
+    "canonicalTitle": "Away: Shuffle Dungeon",
+    "normalizedTitle": "away shuffle dungeon",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_rodea-the-sky-soldier",
+    "kind": "game",
+    "canonicalTitle": "Rodea the Sky Soldier",
+    "normalizedTitle": "rodea the sky soldier",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2015,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_ninjatown",
+    "kind": "game",
+    "canonicalTitle": "Ninjatown",
+    "normalizedTitle": "ninjatown",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_xenoblade-chronicles-3d",
+    "kind": "game",
+    "canonicalTitle": "Xenoblade Chronicles 3D",
+    "normalizedTitle": "xenoblade chronicles 3d",
+    "aliases": [],
+    "franchise": "Xenoblade",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2015,
+    "genres": [],
+    "edition": "New Nintendo 3DS",
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

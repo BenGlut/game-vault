@@ -5796,5 +5796,55 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_so-blonde-retour-sur-l-ile",
+    "t": "So Blonde: Retour sur l'île",
+    "n": "so blonde retour sur l ile",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_away-shuffle-dungeon",
+    "t": "Away: Shuffle Dungeon",
+    "n": "away shuffle dungeon",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-EU",
+    "q": null
+  },
+  {
+    "id": "game_3ds_rodea-the-sky-soldier",
+    "t": "Rodea the Sky Soldier",
+    "n": "rodea the sky soldier",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_ninjatown",
+    "t": "Ninjatown",
+    "n": "ninjatown",
+    "a": [],
+    "f": null,
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_xenoblade-chronicles-3d",
+    "t": "Xenoblade Chronicles 3D",
+    "n": "xenoblade chronicles 3d",
+    "a": [],
+    "f": "Xenoblade",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
