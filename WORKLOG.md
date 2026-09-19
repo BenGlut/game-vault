@@ -1,6 +1,12 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Resident Evil: The Mercenaries 3D (3DS) acheté chez martino59000 (22415828521,
+  24,06 €) : boîte FR vérifiée en photo (dos français, `TSA-CTR-ABMP-FRA`),
+  cartouche + notice + carte Club Nintendo. Marché n=70, q1 16 €, médiane 20 € —
+  mais les quatre annonces sous 16 € vérifiées une à une sont trois cartouches
+  seules et une boîte italienne : pour un complet FR, la médiane est le plancher
+  réel. La ligne d'inventaire passe de `wishlist` à `ordered`
 - Commande de remplacement chez snakeplissken8 (22429455765, **34,05 €**) :
   Away Shuffle Dungeon 12,99 €, Rodea the Sky Soldier 9,99 €, Ninjatown 4,99 €,
   soit les trois rescapés du lot annulé, réenregistrés par le vendeur sous de

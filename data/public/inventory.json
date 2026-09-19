@@ -11802,7 +11802,7 @@
   {
     "id": "inv_3ds_resident-evil-the-mercenaries-3d",
     "gameId": "game_3ds_resident-evil-the-mercenaries-3d",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "CIB",
@@ -11818,8 +11818,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-07T16:12:06.707Z"
+    "orderId": "order_mu91a3zw",
+    "updatedAt": "2026-09-19T23:43:47.132Z"
   },
   {
     "id": "inv_3ds_resident-evil-revelations",
@@ -11900,7 +11900,7 @@
   {
     "id": "inv_ds_metroid-prime-hunters",
     "gameId": "game_ds_metroid-prime-hunters",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11910,7 +11910,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu7qriip",
-    "updatedAt": "2026-09-19T02:01:37.153Z"
+    "updatedAt": "2026-09-19T23:43:55.492Z"
   },
   {
     "id": "inv_ds_metroid-prime-pinball",
@@ -12259,7 +12259,7 @@
   {
     "id": "inv_ds_away-shuffle-dungeon-2",
     "gameId": "game_ds_away-shuffle-dungeon",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12272,12 +12272,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu8hxdrv",
-    "updatedAt": "2026-09-19T14:42:00.576Z"
+    "updatedAt": "2026-09-19T23:43:51.344Z"
   },
   {
     "id": "inv_3ds_rodea-the-sky-soldier-2",
     "gameId": "game_3ds_rodea-the-sky-soldier",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12290,12 +12290,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu8hxdrv",
-    "updatedAt": "2026-09-19T14:42:00.576Z"
+    "updatedAt": "2026-09-19T23:43:51.345Z"
   },
   {
     "id": "inv_ds_ninjatown-2",
     "gameId": "game_ds_ninjatown",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12308,6 +12308,6 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mu8hxdrv",
-    "updatedAt": "2026-09-19T14:42:00.576Z"
+    "updatedAt": "2026-09-19T23:43:51.345Z"
   }
 ]

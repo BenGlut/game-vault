@@ -3146,7 +3146,7 @@
   {
     "id": "order_mu7qriip",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_ds_metroid-prime-hunters"
@@ -3159,7 +3159,7 @@
       }
     ],
     "orderedAt": "2026-09-19",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-19",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3216,7 +3216,7 @@
   {
     "id": "order_mu8hxdrv",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 3,
     "gameIds": [
       "game_ds_away-shuffle-dungeon",
@@ -3241,11 +3241,34 @@
       }
     ],
     "orderedAt": "2026-09-19",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-19",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 34.05
+  },
+  {
+    "id": "order_mu91a3zw",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_resident-evil-the-mercenaries-3d"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_resident-evil-the-mercenaries-3d",
+        "inventoryId": "inv_3ds_resident-evil-the-mercenaries-3d",
+        "unitPrice": 24.06
+      }
+    ],
+    "orderedAt": "2026-09-19",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 24.06
   }
 ]
