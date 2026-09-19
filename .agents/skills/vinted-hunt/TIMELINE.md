@@ -271,3 +271,11 @@ l'historique git.*
   Sonic Frontiers n=48 q1 15 méd 15 (12 € « toutes langues », 10 € vendeur DE) ·
   Spyro Reignited n=30 q1 18 méd 19,90 (16 € vendeur IT « in Italiano ») · WoFF Maxima n=9
   q1 18 · Xenoblade Chronicles 3 : aucune annonce de jeu, que des stickers · Celeste : n=0.
+- 2026-09-19 — offres posées par benglut dans la nuit : ste8777 Metroid Prime Hunters 24,90 €
+  → offre 15 €, **contre-offre vendeur 20 € en attente** (vrai jeu en boîte, vendeur FR) ;
+  junko997 Sonic Classic Collection DS 13 € → offre 10 € (jaquette FRANÇAISE vérifiée sur
+  photo, « 4 classiques en un jeu », PEGI 3, vendeur FR 65 ventes) ; dimitrider Sonic
+  Frontiers Switch 12 € → offre 10 € (annonce « prix fixe »).
+  **mcfix_informatica refuse toute offre** (« nous n'acceptons pas les offres ») → préférer
+  junko997 pour le Sonic Classic, même prix sans port international.
+  lothaire.gosset : toujours aucune réponse depuis le 16/09 sur le lot de 4 à 30 €.
