@@ -1,6 +1,13 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Commande de remplacement chez snakeplissken8 (22429455765, **34,05 €**) :
+  Away Shuffle Dungeon 12,99 €, Rodea the Sky Soldier 9,99 €, Ninjatown 4,99 €,
+  soit les trois rescapés du lot annulé, réenregistrés par le vendeur sous de
+  nouveaux identifiants d'annonce. Les trois sont sous le q1 de leur marché
+  (Away Shuffle : minimum des 12 exemplaires en vente, médiane 24 €).
+  So Blonde et Xenoblade Chronicles 3D, vendus en main propre par le vendeur,
+  repassent en `wishlist`
 - Lot snakeplissken8 **annulé par le vendeur le jour même** (« il me manque un
   jeu que j'avais vendu en main propre » — So Blonde et Xenoblade Chronicles 3D
   partis hors Vinted). Remboursement validé, commande passée en `cancelled`, les

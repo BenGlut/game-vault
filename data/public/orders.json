@@ -3212,5 +3212,40 @@
     "cancelledAt": "2026-09-19",
     "refundedAt": null,
     "totalPaid": 55.03
+  },
+  {
+    "id": "order_mu8hxdrv",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 3,
+    "gameIds": [
+      "game_ds_away-shuffle-dungeon",
+      "game_3ds_rodea-the-sky-soldier",
+      "game_ds_ninjatown"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_away-shuffle-dungeon",
+        "inventoryId": "inv_ds_away-shuffle-dungeon-2",
+        "unitPrice": 15.82
+      },
+      {
+        "gameId": "game_3ds_rodea-the-sky-soldier",
+        "inventoryId": "inv_3ds_rodea-the-sky-soldier-2",
+        "unitPrice": 12.16
+      },
+      {
+        "gameId": "game_ds_ninjatown",
+        "inventoryId": "inv_ds_ninjatown-2",
+        "unitPrice": 6.07
+      }
+    ],
+    "orderedAt": "2026-09-19",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 34.05
   }
 ]

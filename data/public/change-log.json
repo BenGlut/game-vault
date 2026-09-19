@@ -1,20 +1,5 @@
 [
   {
-    "at": "2026-08-18T20:18:34.541Z",
-    "command": "receive-order",
-    "message": "receive-order order_msrxjli4"
-  },
-  {
-    "at": "2026-08-18T20:18:35.954Z",
-    "command": "receive-order",
-    "message": "receive-order order_msl51ugw"
-  },
-  {
-    "at": "2026-08-18T20:18:37.186Z",
-    "command": "ship-order",
-    "message": "ship-order order_msxxlp03"
-  },
-  {
     "at": "2026-08-18T20:18:38.352Z",
     "command": "ship-order",
     "message": "ship-order order_mswerxed"
@@ -2498,5 +2483,20 @@
     "at": "2026-09-19T14:34:56.391Z",
     "command": "cancel-order",
     "message": "cancel-order order_mu7thz94"
+  },
+  {
+    "at": "2026-09-19T14:42:00.598Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-19T14:42:25.608Z",
+    "command": "set-status",
+    "message": "set inv_3ds_xenoblade-chronicles-3d -> wishlist"
+  },
+  {
+    "at": "2026-09-19T14:42:29.133Z",
+    "command": "set-status",
+    "message": "set inv_ds_so-blonde-retour-sur-l-ile -> wishlist"
   }
 ]
