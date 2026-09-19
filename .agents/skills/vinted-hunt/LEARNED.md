@@ -610,3 +610,22 @@ périmées. Les URLs servies par `/api/v2/wardrobe/<uid>/items` portent une
 signature `?s=<sha1>` et se téléchargent directement en dehors du navigateur.
 C'est la seule voie fiable quand la fenêtre Chrome est réduite
 (`innerWidth === 0`) et qu'aucune capture d'écran n'est possible.
+
+## 2026-09-20 — trois façons de rater un « complet » sur un jeu recherché
+
+Sur Zelda Phantom Hourglass DS (n=73, q1 30 €, médiane 38 €), huit annonces
+« complètes » entre 30 et 35 € : une seule était la version française.
+
+- **« Complet » dans le titre, « Cartouche seule » dans la description** : le
+  titre n'engage à rien, seule la description compte (30 €).
+- **Notice néerlandaise** : boîte PAL à jaquette commune, mais notice
+  `NTR-AZEP-HOL` marquée HANDLEIDING (34 €). La jaquette PAL est identique dans
+  toute l'Europe — **c'est la notice et le code produit au dos qui donnent la
+  région**, jamais la face avant.
+- **« jaquette repro »** annoncé honnêtement en milieu de description (35 €) :
+  chercher `repro|reproduction|jaquette imprimée|custom` dans les descriptions,
+  pas seulement dans les titres.
+
+Le bon exemplaire se reconnaît au dos : texte français et code `NTR-AZEP-FRA`.
+Même méthode que pour Resident Evil Mercenaries (`TSA-CTR-ABMP-FRA`) : demander
+ou chercher la photo du dos de boîte avant de conclure sur la région.
