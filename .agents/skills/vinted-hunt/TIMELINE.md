@@ -312,3 +312,40 @@ l'historique git.*
   Kirby Battle Royale, Paper Jam Bros, A Link Between Worlds, Ocarina of Time 3D, Ghost
   Trick, Lucky Luke, Yo-kai Watch 2. Son Zelda Phantom Hourglass à 49,99 € est hors marché
   (médiane 15).
+
+## 2026-09-19 — lot snakeplissken8 enregistré, passe de likes wishlist
+
+**Commandes.** Le lot snakeplissken8 (22416001431, 55,03 €) acheté par benglut
+est entré en base : So Blonde Retour sur l'île, Away Shuffle Dungeon, Rodea the
+Sky Soldier, Ninjatown, Xenoblade Chronicles 3D — cinq titres créés, cinq lignes
+d'inventaire en `ordered`. Xenoblade Chronicles 3D confirmé à 9,99 € contre trois
+exemplaires relevés à 15 € le même jour : la meilleure ligne du lot.
+Trois commandes passées en `fulfilled` (bordereau/expédition confirmés côté
+Vinted) : boîte Dawn of Sorrow (stajo92), lot Sonic 3 jeux (theophilec10),
+Sonic X Shadow Generations. Restent deux livraisons à valider par benglut sur
+Vinted (rathalosvg, pommtp34) et le remboursement Code Name S.T.E.A.M. à saisir.
+
+**Chasse.** Relevé sur 24 titres de la wishlist DS/3DS/Switch. Le tri
+`price_low_to_high` est inutilisable : il remonte des cartes Pokémon, des
+vêtements et des goodies avant le moindre jeu. Seul `order=relevance` combiné à
+une regex exigeant le titre du jeu dans l'intitulé donne un résultat exploitable.
+
+**9 annonces likées** après lecture de description : Sonic Mania Plus 9,90 €,
+Team Sonic Racing 10 €, Luigi's Mansion 3 20 €, Metroid Prime Pinball 22 €,
+Metroid Prime Remastered 28,99 € (PAL EUR), Zero Escape Virtue's Last Reward
+30 €, Xenoblade Chronicles 3 30 €, Metroid Dread 35 €, Celeste 35,90 € (contre
+60-100 € relevés, la meilleure anomalie de la ronde).
+
+**9 écartées** pour la raison exacte lue en description : Hotel Dusk 8 €
+(japonaise), Theatrhythm 8 € (box only) puis 10 € (loose), Hyrule Warriors 5 €
+(boîte + code, sans cartouche) et 10 € (sans boîte), Ring of Fates 10 € (sans
+boîtier), GTA Chinatown Wars 17 € (senza custodia), Phoenix Wright Justice for
+All 20 € (boîte IT/ES/PT), Persona 5 Royal 26,99 € (boîtier anglais), Last
+Window 23 € (boîte seule, « pas de jeu »), Advance Wars Dual Strike 10 €
+(cartouche nue), FF XII Revenant Wings 9,99 € (boîte allemande USK).
+Une seule annonce sur deux passe le filtre titre ; une sur trois survit à la
+lecture de la description.
+
+**Marché relevé.** Professeur Layton vs Phoenix Wright ne descend pas sous
+59,99 € (plancher sur 6 annonces) ; Time Hollow part de 30 € et grimpe à 105 € ;
+Last Window complet tourne à 35-44 €. Ces trois-là resteront chers.

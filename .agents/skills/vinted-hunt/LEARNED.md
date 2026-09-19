@@ -531,3 +531,48 @@ sans jamais écrire « demo » dans le titre. La jaquette, elle, le dit en gros 
 prix sous ~12 € comme la démo par défaut. Le vrai jeu complet se situe vers 15-25 €
 (médiane globale 8 € parce que l'échantillon est noyé de démos et de cartouches nues).
 Même vigilance pour tout jeu ayant eu une démo en boîte séparée.
+
+## 2026-09-19 — les POST Vinted exigent maintenant X-Anon-Id + X-CSRF-Token
+
+`POST /api/v2/user_favourites/toggle` renvoie désormais **403 `access_denied`**
+quand il part d'un simple `fetch()` depuis la console : la session cookie suffit
+pour les GET, plus pour les écritures. Les en-têtes obligatoires sont
+`X-Anon-Id`, `X-CSRF-Token` et `Locale`, et le front les pose via XHR, pas via
+fetch — donc un hook sur `window.fetch` ne les capture pas.
+
+Recette qui marche, sans jamais lire le jeton :
+
+1. hooker `XMLHttpRequest.prototype.open/setRequestHeader/send` et stocker les
+   en-têtes des requêtes dont l'URL contient `favourite` ;
+2. faire **un vrai clic souris** (outil `computer`, pas `dispatchEvent`) sur un
+   cœur pour amorcer la capture — les `PointerEvent`/`MouseEvent` synthétiques et
+   `btn.click()` ne déclenchent rien, React ignore les événements non natifs ;
+3. rejouer ces en-têtes en XHR pour tous les autres likes.
+
+Repères de clic : le cœur visible est `[data-testid="favourite-button"]` dont le
+`getBoundingClientRect().width > 0` (deux homonymes cachés existent sur la page).
+Conversion CSS → cadre de capture : `x*1568/innerWidth`, `y*768/innerHeight + 38`
+— l'offset vertical de 38 px est la barre du navigateur, l'oublier fait cliquer
+38 px au-dessus du cœur et le like ne part pas.
+
+Le toggle est parfois **à cohérence différée** : un 200 peut ne pas apparaître
+dans `/api/v2/users/<id>/items/favourites` à la lecture suivante. Vérifier, et
+ne rejouer le toggle qu'après une relecture confirmant l'absence, sinon on
+dé-like ce qu'on vient de liker.
+
+## 2026-09-19 — ne jamais dériver « vendu » d'un match dans le HTML brut
+
+Un test `/Cet article a été vendu|is_closed":true/` sur le HTML d'une fiche
+renvoie vrai sur **toutes** les fiches : ces chaînes traînent dans les gabarits
+et dans le bloc « articles similaires ». Résultat : 12 annonces disponibles
+classées vendues et aucune likée. Le statut se lit dans le JSON de la fiche, pas
+par grep sur la page.
+
+## 2026-09-19 — formules de rejet manquantes dans le filtre description
+
+Trois pièges passés au travers en une seule passe, tous corrigés depuis :
+`sans son boîtier d'origine` (le filtre n'attrapait que « sans la/le/sa boîte »),
+`Pas de jeu !!!` pour une boîte seule vendue sous un titre de jeu normal, et
+`senza custodia`. Ajouter aussi `Boitier : Anglais` et `English version` : la
+langue du boîtier est annoncée dans la description bien plus souvent que dans le
+titre, et c'est le seul critère qui décide de la région de la boîte.
