@@ -291,3 +291,12 @@ l'historique git.*
 - 2026-09-19 — **Metroid Prime Hunters ACHETÉ** chez ste8777 : contre-offre 20 € acceptée,
   24,58 € payés, colis Petit. Édition française NTR-AMHP-FRA, jaquette déchirée au dos,
   notice à contrôler à la réception. La case DS de Metroid se referme (reste Prime Pinball).
+- 2026-09-19 (2e ronde) — 8 titres ratissés, **aucune affaire achetable**. Relevés :
+  Kirby SSU n=29 q1 62 méd 90 · KH 358/2 Days n=13 q1 30 méd 50 · KH Re:coded n=2 (130 et
+  230 €) · RE Deadly Silence n=30 q1 70 méd 80 · FF XII Revenant Wings n=50 q1 12 méd 15 ·
+  Metroid Prime Pinball n=5 q1 24,99 méd 25 · Skylanders Spyro's Adventure : que des
+  figurines, aucun jeu 3DS · AC Happy Home Designer : recherche HTML sans résultat.
+  Candidats sous q1 tous éliminés : KH 358/2 « 🇫🇷 » à 14,99 € = **boîte sans cartouche**,
+  Revenant Wings 6 et 7 € = boîtiers vides, RE Deadly Silence 19 € = carte VIP grattée et
+  30 € = cartouche seule, **Metroid Prime Pinball 22 € = cartouche nue** (NTR-AP2P-EUR,
+  photo) chez un vendeur noté 0,4 sur 4 ventes.
