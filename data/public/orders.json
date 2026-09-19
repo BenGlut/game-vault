@@ -3142,5 +3142,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 18.39
+  },
+  {
+    "id": "order_mu7qriip",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_metroid-prime-hunters"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_metroid-prime-hunters",
+        "inventoryId": "inv_ds_metroid-prime-hunters",
+        "unitPrice": 24.58
+      }
+    ],
+    "orderedAt": "2026-09-19",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 24.58
   }
 ]

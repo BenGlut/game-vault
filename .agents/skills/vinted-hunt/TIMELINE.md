@@ -288,3 +288,6 @@ l'historique git.*
   Feu & Glace (déjà possédé). Ses jeux Switch sont au-dessus du marché : Monster Hunter
   Stories 2 à 29,90 € contre médiane 20 (n=45), Mario Tennis Aces 24,90 contre 18,95 (n=47),
   WarioWare Get It Together 19,90 contre 19 (n=54). **Conclusion : prendre le Metroid seul.**
+- 2026-09-19 — **Metroid Prime Hunters ACHETÉ** chez ste8777 : contre-offre 20 € acceptée,
+  24,58 € payés, colis Petit. Édition française NTR-AMHP-FRA, jaquette déchirée au dos,
+  notice à contrôler à la réception. La case DS de Metroid se referme (reste Prime Pinball).

@@ -11900,7 +11900,7 @@
   {
     "id": "inv_ds_metroid-prime-hunters",
     "gameId": "game_ds_metroid-prime-hunters",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11909,8 +11909,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-12T16:55:01.757Z"
+    "orderId": "order_mu7qriip",
+    "updatedAt": "2026-09-19T02:01:37.153Z"
   },
   {
     "id": "inv_ds_metroid-prime-pinball",
