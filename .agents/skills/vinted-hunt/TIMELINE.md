@@ -279,3 +279,12 @@ l'historique git.*
   **mcfix_informatica refuse toute offre** (« nous n'acceptons pas les offres ») → préférer
   junko997 pour le Sonic Classic, même prix sans port international.
   lothaire.gosset : toujours aucune réponse depuis le 16/09 sur le lot de 4 à 30 €.
+- 2026-09-19 — **ste8777** (FR, 613 ventes, note 1, remise lot 3→10 %) : Metroid Prime Hunters
+  24,90 €, contre-offre 20 €. Photos : **édition française confirmée, code NTR-AMHP-FRA**,
+  dos intégralement en français, MAIS **jaquette déchirée en bas du dos** (« boîte voir
+  photo »). Notice non précisée. Le reste de son dressing ne vaut pas le palier de remise :
+  lot de 10 jeux DS/3DS 14,90 € = **cartouches nues** (photo), WarioWare D.I.Y. 9,90 € =
+  cartouche nue (NTR-UORP-EUR), lot de 3 jeux 3DS = Spy Hunter + Lego Chima + Sonic Boom
+  Feu & Glace (déjà possédé). Ses jeux Switch sont au-dessus du marché : Monster Hunter
+  Stories 2 à 29,90 € contre médiane 20 (n=45), Mario Tennis Aces 24,90 contre 18,95 (n=47),
+  WarioWare Get It Together 19,90 contre 19 (n=54). **Conclusion : prendre le Metroid seul.**
