@@ -12396,5 +12396,93 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_star-fox-command",
+    "kind": "game",
+    "canonicalTitle": "Star Fox Command",
+    "normalizedTitle": "star fox command",
+    "aliases": [],
+    "franchise": "Star Fox",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_heroes-of-ruin",
+    "kind": "game",
+    "canonicalTitle": "Heroes of Ruin",
+    "normalizedTitle": "heroes of ruin",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "3ds",
+    "region": "PAL-EU",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2012,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_super-monkey-ball-banana-blitz-hd",
+    "kind": "game",
+    "canonicalTitle": "Super Monkey Ball: Banana Blitz HD",
+    "normalizedTitle": "super monkey ball banana blitz hd",
+    "aliases": [],
+    "franchise": "Super Monkey Ball",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2019,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_crash-bandicoot-n-sane-trilogy",
+    "kind": "game",
+    "canonicalTitle": "Crash Bandicoot N. Sane Trilogy",
+    "normalizedTitle": "crash bandicoot n sane trilogy",
+    "aliases": [],
+    "franchise": "Crash Bandicoot",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2018,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

@@ -3385,5 +3385,75 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 17.76
+  },
+  {
+    "id": "order_muae84i6",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 5,
+    "gameIds": [
+      "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
+      "game_ds_star-fox-command",
+      "game_switch_crash-bandicoot-n-sane-trilogy",
+      "game_switch_super-monkey-ball-banana-blitz-hd",
+      "game_3ds_heroes-of-ruin"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
+        "inventoryId": "inv_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
+        "unitPrice": 59.84
+      },
+      {
+        "gameId": "game_ds_star-fox-command",
+        "inventoryId": "inv_ds_star-fox-command",
+        "unitPrice": 16.95
+      },
+      {
+        "gameId": "game_switch_crash-bandicoot-n-sane-trilogy",
+        "inventoryId": "inv_switch_crash-bandicoot-n-sane-trilogy",
+        "unitPrice": 16.95
+      },
+      {
+        "gameId": "game_switch_super-monkey-ball-banana-blitz-hd",
+        "inventoryId": "inv_switch_super-monkey-ball-banana-blitz-hd",
+        "unitPrice": 9.96
+      },
+      {
+        "gameId": "game_3ds_heroes-of-ruin",
+        "inventoryId": "inv_3ds_heroes-of-ruin",
+        "unitPrice": 5.97
+      }
+    ],
+    "orderedAt": "2026-09-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 109.67
+  },
+  {
+    "id": "order_muae8842",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_hyrule-warriors-legends"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_hyrule-warriors-legends",
+        "inventoryId": "inv_3ds_hyrule-warriors-legends-2",
+        "unitPrice": 11.98
+      }
+    ],
+    "orderedAt": "2026-09-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 11.98
   }
 ]

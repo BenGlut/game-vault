@@ -1,6 +1,16 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Lot enzor944 pris à 99,99 €** (22434342138, 109,67 € port et protection
+  inclus) après relance et contre-offre du vendeur : Professeur Layton vs Phoenix
+  Wright, Star Fox Command, Crash Bandicoot N. Sane Trilogy, Super Monkey Ball
+  Banana Blitz HD, Heroes of Ruin. Quatre jeux créés en base. Valeur médiane
+  relevée des cinq : 146,99 € — le lot est payé 68 % de cette valeur, et les cinq
+  boîtes ont été vérifiées en photo avant l'offre. **Le Layton vs Phoenix Wright
+  était le dernier trou de la série : Layton est désormais complète sur DS et 3DS**
+- Hyrule Warriors Legends (3DS, plumychou, 11,98 €) acheté sur l'annonce repérée à
+  10 € — boîte et notice vérifiées en photo, contre un q1 à 15 € et une médiane à
+  20 € sur 41 annonces
 - Identifiant de commande affiché et copiable d'un clic, sur la carte de la page
   Commandes et dans le panneau de détail (`src/components/OrderId.tsx`). Il sert à
   désigner une commande sans ambiguïté dans une conversation avec l'agent, et

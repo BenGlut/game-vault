@@ -5856,5 +5856,45 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_star-fox-command",
+    "t": "Star Fox Command",
+    "n": "star fox command",
+    "a": [],
+    "f": "Star Fox",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_heroes-of-ruin",
+    "t": "Heroes of Ruin",
+    "n": "heroes of ruin",
+    "a": [],
+    "f": null,
+    "p": "3ds",
+    "r": "PAL-EU",
+    "q": null
+  },
+  {
+    "id": "game_switch_super-monkey-ball-banana-blitz-hd",
+    "t": "Super Monkey Ball: Banana Blitz HD",
+    "n": "super monkey ball banana blitz hd",
+    "a": [],
+    "f": "Super Monkey Ball",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_crash-bandicoot-n-sane-trilogy",
+    "t": "Crash Bandicoot N. Sane Trilogy",
+    "n": "crash bandicoot n sane trilogy",
+    "a": [],
+    "f": "Crash Bandicoot",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

@@ -7449,7 +7449,7 @@
   {
     "id": "inv_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
     "gameId": "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7458,8 +7458,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:20:18.688Z"
+    "orderId": "order_muae84i6",
+    "updatedAt": "2026-09-20T22:33:55.663Z"
   },
   {
     "id": "inv_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
@@ -8913,7 +8913,7 @@
   {
     "id": "inv_3ds_hyrule-warriors-legends-2",
     "gameId": "game_3ds_hyrule-warriors-legends",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8922,8 +8922,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-16T22:48:18.391Z"
+    "orderId": "order_muae8842",
+    "updatedAt": "2026-09-20T22:34:00.338Z"
   },
   {
     "id": "inv_ds_sonic-classic-collection-2",
@@ -12345,5 +12345,77 @@
     "acquiredAt": null,
     "orderId": "order_mu93w9fl",
     "updatedAt": "2026-09-20T00:56:59.842Z"
+  },
+  {
+    "id": "inv_ds_star-fox-command",
+    "gameId": "game_ds_star-fox-command",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 16.95,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_muae84i6",
+    "updatedAt": "2026-09-20T22:33:55.663Z"
+  },
+  {
+    "id": "inv_switch_crash-bandicoot-n-sane-trilogy",
+    "gameId": "game_switch_crash-bandicoot-n-sane-trilogy",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 16.95,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_muae84i6",
+    "updatedAt": "2026-09-20T22:33:55.664Z"
+  },
+  {
+    "id": "inv_switch_super-monkey-ball-banana-blitz-hd",
+    "gameId": "game_switch_super-monkey-ball-banana-blitz-hd",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 9.96,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_muae84i6",
+    "updatedAt": "2026-09-20T22:33:55.664Z"
+  },
+  {
+    "id": "inv_3ds_heroes-of-ruin",
+    "gameId": "game_3ds_heroes-of-ruin",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 5.97,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_muae84i6",
+    "updatedAt": "2026-09-20T22:33:55.664Z"
   }
 ]
