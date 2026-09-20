@@ -3251,7 +3251,7 @@
   {
     "id": "order_mu91a3zw",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "cancelled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_resident-evil-the-mercenaries-3d"
@@ -3267,7 +3267,7 @@
     "fulfilledAt": null,
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
-    "cancelledAt": null,
+    "cancelledAt": "2026-09-20",
     "refundedAt": null,
     "totalPaid": 24.06
   },
@@ -3297,7 +3297,7 @@
   {
     "id": "order_mu93w5la",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_octopath-traveler"
@@ -3310,7 +3310,7 @@
       }
     ],
     "orderedAt": "2026-09-20",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-20",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3343,7 +3343,7 @@
   {
     "id": "order_mu94lisr",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_luigi-s-mansion-3"
@@ -3356,7 +3356,7 @@
       }
     ],
     "orderedAt": "2026-09-20",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-20",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,

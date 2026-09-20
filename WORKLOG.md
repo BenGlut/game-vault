@@ -1,6 +1,16 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Le doublon Resident Evil: The Mercenaries 3D s'est résolu seul : **martino59000
+  a annulé** sa vente (24,06 €) et remboursé. Reste l'exemplaire pepchouk à
+  20,38 €, celui qui venait de l'offre acceptée. Commande passée en `cancelled`
+- Tri des favoris Vinted : 25 annonces retirées (jeux désormais achetés ou déjà
+  possédés — Mercenaries, Metroid Prime Hunters, Sonic X Shadow Generations,
+  Sonic Superstars, Sonic Mania, Luigi's Mansion 3, Spyro, Ni no Kuni, Octopath,
+  plus un « Kingdom Hearts 358/2 Days » qui était un roman) et 6 cibles de chasse
+  ajoutées : Zelda Phantom Hourglass CIB FR 34,99 €, Hyrule Warriors Legends
+  boîte + notice 10 €, Layton vs Phoenix Wright 59,99 €, Hyrule Warriors L'Ère du
+  Fléau 28,50 €, Skyward Sword HD 35 €, Cadence of Hyrule 29,99 €
 - Deux achats supplémentaires du 20/09 : Luigi's Mansion 3 (Switch, reishi06,
   24,58 €) et Sonic Mania Plus (Switch, math33114, 17,76 €), tous deux en
   wishlist depuis le 13/08
