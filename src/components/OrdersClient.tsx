@@ -5,6 +5,7 @@ import { euro } from "@/lib/labels";
 import type { PublicOrder, GameRow } from "@/lib/data";
 import { StatusBadge } from "@/components/ui";
 import { GameCard } from "@/components/GameCard";
+import { OrderId } from "@/components/OrderId";
 import { OrderDrawerProvider, useOrderDrawer, type OrderDrawerGame } from "@/components/OrderDrawer";
 
 /** Regroupement métier : une commande annulée ou remboursée n'est ni en cours ni terminée. */
@@ -54,6 +55,7 @@ function CarteCommande({ o, rows }: { o: PublicOrder; rows: Record<string, GameR
           {o.estimatedDeliveryAt && !o.deliveredAt ? (
             <div className="mt-0.5 text-accent">livraison estimée le {o.estimatedDeliveryAt}</div>
           ) : null}
+          <OrderId id={o.id} className="mt-1 block w-full text-right" />
         </div>
       </div>
 

@@ -4,6 +4,7 @@ import { createContext, useCallback, useContext, useEffect, useState } from "rea
 import { euro } from "@/lib/labels";
 import type { PublicOrder } from "@/lib/data";
 import { StatusBadge } from "@/components/ui";
+import { OrderId } from "@/components/OrderId";
 
 /** Ce qu'il faut savoir d'un jeu pour l'afficher dans le panneau, sans traîner tout le GameRow. */
 export interface OrderDrawerGame {
@@ -117,6 +118,7 @@ export function OrderDrawerProvider({
                     <span className="ml-2 font-mono text-accent">{euro(order.totalPaid)}</span>
                   ) : null}
                 </h2>
+                <OrderId id={order.id} className="mt-1 block" />
               </div>
               <button
                 type="button"

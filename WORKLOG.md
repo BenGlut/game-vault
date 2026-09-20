@@ -1,6 +1,13 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Identifiant de commande affiché et copiable d'un clic, sur la carte de la page
+  Commandes et dans le panneau de détail (`src/components/OrderId.tsx`). Il sert à
+  désigner une commande sans ambiguïté dans une conversation avec l'agent, et
+  c'est exactement la valeur attendue par `pnpm vault update-order --order …`.
+  Le clic ne remonte pas jusqu'à la carte, qui reste cliquable pour ouvrir le
+  panneau. Repli sur une copie par champ temporaire quand l'API presse-papier est
+  refusée, et libellé explicite si les deux échouent
 - Le doublon Resident Evil: The Mercenaries 3D s'est résolu seul : **martino59000
   a annulé** sa vente (24,06 €) et remboursé. Reste l'exemplaire pepchouk à
   20,38 €, celui qui venait de l'offre acceptée. Commande passée en `cancelled`
