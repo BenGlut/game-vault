@@ -1,6 +1,20 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Trois commandes du 20/09 enregistrées : Sonic Classic Collection (DS, junko997,
+  14,08 € — offre à 10 € acceptée), Octopath Traveler (Switch, phillllou, 32,97 €,
+  jeu créé en base, on n'avait que le II) et un **second** Resident Evil: The
+  Mercenaries 3D (pepchouk, 20,38 € — offre à 16 € acceptée). Ce dernier fait
+  doublon avec celui de martino59000 acheté la veille 24,06 € : l'offre à 16 €
+  dormait acceptée dans la boîte de réception pendant l'achat au prix fort
+- Jaquette de Sonic Origins Plus (Switch) ajoutée à `public/covers/`, recadrée
+  depuis la photo d'une annonce Vinted du même coffret français
+- Réconciliation complète des 88 commandes Vinted depuis juillet contre
+  `orders.json` : tout concorde sur la période suivie. Quatre écarts, tous
+  explicables — deux commandes annulées jamais abouties, une BD hors périmètre,
+  et un lot du 22/07 antérieur au démarrage du projet
+- `.claude/launch.json` ajouté : `pnpm`-free, lance `node scripts/serve-out.mjs`
+  sur le port 4173 pour rouvrir le site local sans passer par un shell
 - Resident Evil: The Mercenaries 3D (3DS) acheté chez martino59000 (22415828521,
   24,06 €) : boîte FR vérifiée en photo (dos français, `TSA-CTR-ABMP-FRA`),
   cartouche + notice + carte Club Nintendo. Marché n=70, q1 16 €, médiane 20 € —

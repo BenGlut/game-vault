@@ -5846,5 +5846,15 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_octopath-traveler",
+    "t": "Octopath Traveler",
+    "n": "octopath traveler",
+    "a": [],
+    "f": "Octopath Traveler",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

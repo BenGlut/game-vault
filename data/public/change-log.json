@@ -1,25 +1,5 @@
 [
   {
-    "at": "2026-08-19T20:20:11.128Z",
-    "command": "set-status",
-    "message": "set inv_ds_mario-kart-ds -> delivered"
-  },
-  {
-    "at": "2026-08-19T21:36:32.326Z",
-    "command": "add-game",
-    "message": "add game Crash Team Racing: Nitro-Fueled (switch)"
-  },
-  {
-    "at": "2026-08-19T21:36:34.424Z",
-    "command": "add-game",
-    "message": "add game Super Mario Maker 2 (switch)"
-  },
-  {
-    "at": "2026-08-19T21:36:37.694Z",
-    "command": "add-price",
-    "message": "price observation for Crash Team Racing: Nitro-Fueled"
-  },
-  {
     "at": "2026-08-19T21:36:39.337Z",
     "command": "add-price",
     "message": "price observation for Crash Team Racing: Nitro-Fueled"
@@ -2498,5 +2478,25 @@
     "at": "2026-09-19T23:43:55.516Z",
     "command": "fulfill-order",
     "message": "fulfill-order order_mu7qriip"
+  },
+  {
+    "at": "2026-09-20T00:56:42.891Z",
+    "command": "add-game",
+    "message": "add game Octopath Traveler (switch)"
+  },
+  {
+    "at": "2026-09-20T00:56:48.698Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-20T00:56:54.894Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-20T00:56:59.868Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]

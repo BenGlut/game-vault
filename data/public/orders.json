@@ -3270,5 +3270,74 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 24.06
+  },
+  {
+    "id": "order_mu93w0tc",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_ds_sonic-classic-collection"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_sonic-classic-collection",
+        "inventoryId": "inv_ds_sonic-classic-collection-2",
+        "unitPrice": 14.08
+      }
+    ],
+    "orderedAt": "2026-09-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 14.08
+  },
+  {
+    "id": "order_mu93w5la",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_octopath-traveler"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_octopath-traveler",
+        "inventoryId": "inv_switch_octopath-traveler",
+        "unitPrice": 32.97
+      }
+    ],
+    "orderedAt": "2026-09-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 32.97
+  },
+  {
+    "id": "order_mu93w9fl",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_resident-evil-the-mercenaries-3d"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_resident-evil-the-mercenaries-3d",
+        "inventoryId": "inv_3ds_resident-evil-the-mercenaries-3d-2",
+        "unitPrice": 20.38
+      }
+    ],
+    "orderedAt": "2026-09-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 20.38
   }
 ]
