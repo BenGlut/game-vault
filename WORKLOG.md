@@ -1,6 +1,17 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Deux achats supplémentaires du 20/09 : Luigi's Mansion 3 (Switch, reishi06,
+  24,58 €) et Sonic Mania Plus (Switch, math33114, 17,76 €), tous deux en
+  wishlist depuis le 13/08
+- **Jaquettes manquantes récupérées** : `fetch-covers.ts` en a posé sept d'un coup
+  (Metroid Prime Hunters, Metroid Prime Federation Force, Rodea the Sky Soldier,
+  Tekken 3D Prime Edition, Away Shuffle Dungeon, Myst, Ninjatown) et
+  `fetch-switch-boxart.ts` deux packshots eShop (Octopath Traveler, Luigi's
+  Mansion 3, Sonic Mania). The Last of Us (PS3) posée à la main depuis la photo
+  d'une annonce Vinted, le dépôt libretro ne couvrant presque pas la PS3.
+  Plus aucun **jeu** acquis sans illustration ; ne restent que les dix entrées
+  `hardware` (consoles, carte mémoire), qui n'ont pas de jaquette par nature
 - Trois commandes du 20/09 enregistrées : Sonic Classic Collection (DS, junko997,
   14,08 € — offre à 10 € acceptée), Octopath Traveler (Switch, phillllou, 32,97 €,
   jeu créé en base, on n'avait que le II) et un **second** Resident Evil: The

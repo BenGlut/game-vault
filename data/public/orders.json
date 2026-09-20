@@ -3339,5 +3339,51 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 20.38
+  },
+  {
+    "id": "order_mu94lisr",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_luigi-s-mansion-3"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_luigi-s-mansion-3",
+        "inventoryId": "inv_switch_luigi-s-mansion-3-3",
+        "unitPrice": 24.58
+      }
+    ],
+    "orderedAt": "2026-09-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 24.58
+  },
+  {
+    "id": "order_mu94ln98",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_sonic-mania"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_sonic-mania",
+        "inventoryId": "inv_switch_sonic-mania",
+        "unitPrice": 17.76
+      }
+    ],
+    "orderedAt": "2026-09-20",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 17.76
   }
 ]
