@@ -674,3 +674,30 @@ Ordre des opérations avant toute offre : disponibilité → photo de la boîte 
 photo du dos pour la région → seulement ensuite le montant. Une offre envoyée sur
 un loose ou un import est pire qu'une offre non envoyée : elle engage benglut sur
 un article qui viole sa règle.
+
+## 2026-09-21 — ronde complète sur la wishlist : le rendement réel
+
+Ronde sur 21 des 42 titres de la wishlist DS/3DS/Switch, trois candidats les
+moins chers relevés par titre, soit 63 annonces. **Quatre offres envoyées.**
+
+Ce qui élimine, dans l'ordre de fréquence :
+
+1. **Le marché du titre est hors budget** — Chrono Trigger DS (q1 120 €),
+   Shin Megami Tensei IV (q1 125 €), Kirby Super Star Ultra (q1 60 €),
+   The World Ends With You (q1 60 €) : sous le q1 il n'y a que des imports.
+2. **Région** — FF XII Zodiac Age (dos anglais), Celeste (dos espagnol),
+   Team Sonic Racing (jaquette USK allemande), Zero Escape VLR (jaquette CERO),
+   Kirby et SMT IV (« 3DS JP » assumé dans le titre).
+3. **Loose déguisé** — Theatrhythm, Ring of Fates, GTA Chinatown Wars,
+   Revenant Wings : les trois annonces les moins chères de chaque titre étaient
+   des cartouches nues ou des boîtes vides.
+4. **Le piège du jour : World of Final Fantasy Maxima 18 €**, « Version
+   Française » en gros sur la photo, prix sous le q1 — l'encart au bas de la
+   jaquette dit **« Code de téléchargement uniquement — ne contient pas de carte
+   de jeu »**. Chercher ce bandeau sur toutes les éditions Switch bon marché.
+5. **La recherche dérive sur les titres à suite** : « Hades » remonte Hades II
+   sur Switch 2, « Persona 5 Royal » remonte Tactica et Strikers, « The World
+   Ends With You » remonte NEO. Vérifier que le candidat est bien le bon jeu.
+
+Compter environ une offre défendable pour cinq titres cherchés. Ce n'est pas un
+échec du filtre : c'est le marché.
