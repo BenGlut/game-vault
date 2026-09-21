@@ -701,3 +701,34 @@ Ce qui élimine, dans l'ordre de fréquence :
 
 Compter environ une offre défendable pour cinq titres cherchés. Ce n'est pas un
 échec du filtre : c'est le marché.
+
+## 2026-09-21 — où sont vraiment les annonces qui dorment
+
+Mesure de l'ancienneté sur les dressings entiers, via le `timestamp` de la
+première photo dans `/api/v2/wardrobe/<uid>/items` :
+
+| Vendeur | annonces | ancienneté médiane | au-delà de 21 j |
+|---|---|---|---|
+| bonpoil52220 | 111 | **28 jours** | 63 |
+| snakeplissken8 | 314 | **20 jours** | 156 |
+| enzor944 | 140 | 5 jours | 1 |
+
+C'est la différence entre un vendeur qui écoule (enzor944, 837 ventes, re-liste
+en continu) et deux vendeurs dont le stock stagne. **La règle des 21 jours de
+benglut se vérifie au niveau du dressing, pas de l'annonce isolée** : chez
+enzor944 une annonce de 25 jours resterait une exception dans un flux rapide,
+chez bonpoil52220 c'est la norme et le vendeur le sait.
+
+Croiser systématiquement ces dressings dormants avec la base avant d'aller
+chercher au catalogue : ils contiennent des titres absents de la collection que
+personne ne cherche, à des prix qui n'ont pas bougé depuis deux mois.
+
+## 2026-09-21 — ne pas conclure sur une seule photo d'intérieur
+
+Sur le So Blonde de bonpoil52220, la photo du boîtier ouvert montrait des
+logements en apparence vides : j'ai failli écarter l'annonce. Les deux photos
+suivantes montraient la notice « MODE D'EMPLOI » française et la cartouche en
+place — l'angle de la première masquait le contenu. Regarder **toutes** les
+photos d'intérieur avant de conclure à l'absence, comme on les regarde toutes
+avant de conclure à la présence.
+
