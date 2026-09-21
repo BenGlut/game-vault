@@ -12506,5 +12506,71 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_nintendo-switch",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo Switch",
+    "normalizedTitle": "nintendo switch",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_nintendo-switch-oled",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo Switch OLED",
+    "normalizedTitle": "nintendo switch oled",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_nintendo-switch-lite",
+    "kind": "hardware",
+    "canonicalTitle": "Nintendo Switch Lite",
+    "normalizedTitle": "nintendo switch lite",
+    "aliases": [],
+    "franchise": null,
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

@@ -1,40 +1,5 @@
 [
   {
-    "at": "2026-08-21T00:22:09.690Z",
-    "command": "add-price",
-    "message": "price observation for The Legend of Zelda: Majora's Mask 3D"
-  },
-  {
-    "at": "2026-08-21T10:37:02.262Z",
-    "command": "add-game",
-    "message": "add game The Legend of Spyro: The Eternal Night (ds)"
-  },
-  {
-    "at": "2026-08-21T10:37:06.524Z",
-    "command": "add-game",
-    "message": "add game The Legend of Spyro: A New Beginning (ds)"
-  },
-  {
-    "at": "2026-08-21T10:37:08.647Z",
-    "command": "add-game",
-    "message": "add game Spyro: Season of Ice (gba)"
-  },
-  {
-    "at": "2026-08-21T10:37:11.200Z",
-    "command": "add-game",
-    "message": "add game Spyro 2: Season of Flame (gba)"
-  },
-  {
-    "at": "2026-08-21T10:37:12.769Z",
-    "command": "add-game",
-    "message": "add game Spyro Fusion (gba)"
-  },
-  {
-    "at": "2026-08-21T10:37:14.107Z",
-    "command": "add-game",
-    "message": "add game The Legend of Spyro: A New Beginning (gba)"
-  },
-  {
     "at": "2026-08-21T10:37:15.510Z",
     "command": "add-game",
     "message": "add game The Legend of Spyro: The Eternal Night (gba)"
@@ -2498,5 +2463,40 @@
     "at": "2026-09-21T14:12:46.546Z",
     "command": "deliver-order",
     "message": "deliver-order order_mu64jelm"
+  },
+  {
+    "at": "2026-09-21T14:20:28.294Z",
+    "command": "add-game",
+    "message": "add game Nintendo Switch (switch)"
+  },
+  {
+    "at": "2026-09-21T14:20:36.252Z",
+    "command": "add-game",
+    "message": "add game Nintendo Switch OLED (switch)"
+  },
+  {
+    "at": "2026-09-21T14:20:44.050Z",
+    "command": "add-game",
+    "message": "add game Nintendo Switch Lite (switch)"
+  },
+  {
+    "at": "2026-09-21T14:20:53.343Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_nintendo-switch"
+  },
+  {
+    "at": "2026-09-21T14:21:02.695Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_nintendo-switch-oled"
+  },
+  {
+    "at": "2026-09-21T14:21:11.448Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_nintendo-switch-lite"
+  },
+  {
+    "at": "2026-09-21T14:21:37.721Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_nintendo-switch-lite"
   }
 ]

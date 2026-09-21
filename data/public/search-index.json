@@ -5906,5 +5906,35 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_nintendo-switch",
+    "t": "Nintendo Switch",
+    "n": "nintendo switch",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_nintendo-switch-oled",
+    "t": "Nintendo Switch OLED",
+    "n": "nintendo switch oled",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_nintendo-switch-lite",
+    "t": "Nintendo Switch Lite",
+    "n": "nintendo switch lite",
+    "a": [],
+    "f": null,
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

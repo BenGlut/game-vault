@@ -1,6 +1,12 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Parc de consoles Switch enregistré : Nintendo Switch, Switch OLED et **deux**
+  Switch Lite rejoignent la Switch 2 déjà en base, soit cinq machines. Utile pour
+  la chasse : la Switch Lite n'a ni sortie TV ni Joy-Con détachables, donc les
+  jeux qui exigent des Joy-Con séparés ou le mode salon ne tournent que sur les
+  trois autres. Les quatre Switch 1 lisent aussi tout le catalogue Switch 1,
+  là où la Switch 2 seule le lirait par rétrocompatibilité
 - Second Super Mario Odyssey (Switch) acheté chez thomas47474 à **24 €**
   négociés (22486465867, 28,78 € port et protection inclus) après refus de
   l'offre à 20 € et contre-offre du vendeur. Complet en boîte française : dos FR,
