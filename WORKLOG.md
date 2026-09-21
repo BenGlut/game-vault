@@ -1,6 +1,13 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Xenoblade Chronicles 3D (New 3DS) racheté chez ophe113 à **12 €** négociés
+  (22486895671, 16,18 € port et protection inclus) — boîte française vérifiée
+  (« UNIQUEMENT SUR New Nintendo 3DS »), cartouche `LNA-KTR-CAFP-EUR`, sans
+  notice de jeu. Marché n=67, q1 20 €, médiane 22 € : payé 55 % de la médiane.
+  Il remplace l'exemplaire perdu quand snakeplissken8 a annulé son lot.
+  L'offre concurrente à 11 € posée le même jour chez tintinbarber a été retirée
+  par message pour ne pas acheter deux fois le même jeu
 - The Legend of Zelda: Skyward Sword HD (Switch) acheté sur **Amazon** 44,99 €
   (commande 403-5291269-6937148 du 19/09, livraison prévue le 20/09) — jeu créé
   en base, commande enregistrée et passée en `fulfilled`. Une offre Vinted à 25 €

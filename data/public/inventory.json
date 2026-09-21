@@ -12240,7 +12240,7 @@
   {
     "id": "inv_3ds_xenoblade-chronicles-3d",
     "gameId": "game_3ds_xenoblade-chronicles-3d",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12253,8 +12253,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": "order_mu7thz94",
-    "updatedAt": "2026-09-19T14:42:25.404Z"
+    "orderId": "order_mub9n130",
+    "updatedAt": "2026-09-21T13:13:19.164Z"
   },
   {
     "id": "inv_ds_away-shuffle-dungeon-2",

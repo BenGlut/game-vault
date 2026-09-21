@@ -3478,5 +3478,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 44.99
+  },
+  {
+    "id": "order_mub9n130",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_xenoblade-chronicles-3d"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_xenoblade-chronicles-3d",
+        "inventoryId": "inv_3ds_xenoblade-chronicles-3d",
+        "unitPrice": 16.18
+      }
+    ],
+    "orderedAt": "2026-09-21",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 16.18
   }
 ]
