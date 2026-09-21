@@ -2944,7 +2944,7 @@
   {
     "id": "order_mtz3hk8y",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 3,
     "gameIds": [
       "game_3ds_sonic-lost-world",
@@ -2970,7 +2970,7 @@
     ],
     "orderedAt": "2026-09-13",
     "fulfilledAt": "2026-09-19",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-21",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3054,7 +3054,7 @@
   {
     "id": "order_mu64jelm",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_sonic-x-shadow-generations"
@@ -3068,7 +3068,7 @@
     ],
     "orderedAt": "2026-09-17",
     "fulfilledAt": "2026-09-19",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-21",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3501,5 +3501,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 16.18
+  },
+  {
+    "id": "order_mubbqyam",
+    "marketplace": "vinted",
+    "status": "fulfilled",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_super-mario-odyssey"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_super-mario-odyssey",
+        "inventoryId": "inv_switch_super-mario-odyssey-4",
+        "unitPrice": 28.78
+      }
+    ],
+    "orderedAt": "2026-09-21",
+    "fulfilledAt": "2026-09-21",
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 28.78
   }
 ]

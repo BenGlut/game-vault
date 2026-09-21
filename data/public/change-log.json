@@ -1,25 +1,5 @@
 [
   {
-    "at": "2026-08-20T22:38:57.549Z",
-    "command": "receive-order",
-    "message": "receive-order order_msrxjm53"
-  },
-  {
-    "at": "2026-08-20T22:38:59.230Z",
-    "command": "ship-order",
-    "message": "ship-order order_mt0olwlj"
-  },
-  {
-    "at": "2026-08-21T00:14:02.344Z",
-    "command": "add-price",
-    "message": "price observation for Ghost Trick : Détective Fantôme"
-  },
-  {
-    "at": "2026-08-21T00:22:08.590Z",
-    "command": "add-price",
-    "message": "price observation for The Legend of Zelda: Majora's Mask 3D"
-  },
-  {
     "at": "2026-08-21T00:22:09.690Z",
     "command": "add-price",
     "message": "price observation for The Legend of Zelda: Majora's Mask 3D"
@@ -2498,5 +2478,25 @@
     "at": "2026-09-21T13:13:19.220Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-21T14:12:21.436Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-21T14:12:26.242Z",
+    "command": "fulfill-order",
+    "message": "fulfill-order order_mubbqyam"
+  },
+  {
+    "at": "2026-09-21T14:12:40.637Z",
+    "command": "deliver-order",
+    "message": "deliver-order order_mtz3hk8y"
+  },
+  {
+    "at": "2026-09-21T14:12:46.546Z",
+    "command": "deliver-order",
+    "message": "deliver-order order_mu64jelm"
   }
 ]

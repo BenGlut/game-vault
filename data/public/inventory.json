@@ -7498,17 +7498,17 @@
   {
     "id": "inv_3ds_sonic-lost-world",
     "gameId": "game_3ds_sonic-lost-world",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-21",
     "orderId": "order_mtz3hk8y",
-    "updatedAt": "2026-09-19T03:18:18.368Z"
+    "updatedAt": "2026-09-21T14:12:40.607Z"
   },
   {
     "id": "inv_3ds_sonic-boom-feu-glace",
@@ -7772,17 +7772,17 @@
   {
     "id": "inv_switch_sonic-x-shadow-generations",
     "gameId": "game_switch_sonic-x-shadow-generations",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-21",
     "orderId": "order_mu64jelm",
-    "updatedAt": "2026-09-19T03:18:21.651Z"
+    "updatedAt": "2026-09-21T14:12:46.515Z"
   },
   {
     "id": "inv_ds_final-fantasy-iv",
@@ -11978,7 +11978,7 @@
   {
     "id": "inv_3ds_sonic-generations-2",
     "gameId": "game_3ds_sonic-generations",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -11987,16 +11987,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-21",
     "orderId": "order_mtz3hk8y",
-    "updatedAt": "2026-09-19T03:18:18.369Z"
+    "updatedAt": "2026-09-21T14:12:40.609Z"
   },
   {
     "id": "inv_ds_sonic-sega-all-stars-racing-3",
     "gameId": "game_ds_sonic-sega-all-stars-racing",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12005,11 +12005,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-21",
     "orderId": "order_mtz3hk8y",
-    "updatedAt": "2026-09-19T03:18:18.369Z"
+    "updatedAt": "2026-09-21T14:12:40.609Z"
   },
   {
     "id": "inv_ds_myst",
@@ -12435,5 +12435,23 @@
     "acquiredAt": null,
     "orderId": "order_muaxodqi",
     "updatedAt": "2026-09-21T07:38:40.844Z"
+  },
+  {
+    "id": "inv_switch_super-mario-odyssey-4",
+    "gameId": "game_switch_super-mario-odyssey",
+    "status": "fulfilled",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 28.78,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mubbqyam",
+    "updatedAt": "2026-09-21T14:12:26.209Z"
   }
 ]

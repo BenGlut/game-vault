@@ -1,6 +1,14 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Second Super Mario Odyssey (Switch) acheté chez thomas47474 à **24 €**
+  négociés (22486465867, 28,78 € port et protection inclus) après refus de
+  l'offre à 20 € et contre-offre du vendeur. Complet en boîte française : dos FR,
+  notice de sécurité « France », cartouche. Marché n=78, **minimum 25 €**,
+  q1 28,90 €, médiane 30 € — l'exemplaire est payé sous le plancher du marché,
+  et ce plancher était une cartouche nue
+- Deux réceptions validées par benglut sur Vinted et passées en `delivered` :
+  lot Sonic 3 jeux (theophilec10) et Sonic X Shadow Generations (aaron_tlzze)
 - Xenoblade Chronicles 3D (New 3DS) racheté chez ophe113 à **12 €** négociés
   (22486895671, 16,18 € port et protection inclus) — boîte française vérifiée
   (« UNIQUEMENT SUR New Nintendo 3DS »), cartouche `LNA-KTR-CAFP-EUR`, sans
