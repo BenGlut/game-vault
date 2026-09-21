@@ -732,3 +732,30 @@ place — l'angle de la première masquait le contenu. Regarder **toutes** les
 photos d'intérieur avant de conclure à l'absence, comme on les regarde toutes
 avant de conclure à la présence.
 
+
+## 2026-09-21 — Switch 1 / Switch 2 : la rétrocompatibilité ne va que dans un sens
+
+Question de benglut : « plutôt que Metroid Prime 4 Switch on prend celle de la 2
+et ça va aussi sur la 1 ». **C'est l'inverse.**
+
+- Une cartouche **Switch 1** se lit sur Switch 2 (plus de 85 % du catalogue, avec
+  des exceptions listées par Nintendo, surtout les jeux à Joy-Con de 1re
+  génération : Nintendo Switch Sports, WarioWare Move It!, Ring Fit).
+- Une cartouche **Switch 2 native** (Mario Kart World, Donkey Kong Bananza,
+  Elden Ring Tarnished Edition, Final Fantasy VII Rebirth) **ne démarre pas** sur
+  Switch 1.
+
+**La seule exception** : les cartouches « Nintendo Switch 2 Edition » d'un jeu qui
+existe aussi sur Switch 1. Marvelous a confirmé sur Rune Factory: Guardians of
+Azuma que la carte contient les deux versions et lance celle qui correspond à la
+console — sur Switch 1 on obtient le jeu de base, sans le pack d'amélioration.
+Nintendo n'a **pas** généralisé cette règle à tous les éditeurs : elle se vérifie
+titre par titre, jamais par déduction.
+
+**Règle d'achat qui en découle** : quand un jeu existe dans les deux éditions,
+acheter la **Switch 1**. Elle tourne sur les deux consoles, elle est moins chère
+et elle est bien plus fréquente sur Vinted. L'édition Switch 2 ne se justifie que
+pour un jeu exclusif à la Switch 2.
+
+Exemple concret : pour Metroid Prime 4: Beyond, c'est l'édition Switch 1 qu'il
+faut chasser, pas la Switch 2.
