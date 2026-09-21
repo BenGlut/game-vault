@@ -752,10 +752,29 @@ console — sur Switch 1 on obtient le jeu de base, sans le pack d'amélioration
 Nintendo n'a **pas** généralisé cette règle à tous les éditeurs : elle se vérifie
 titre par titre, jamais par déduction.
 
-**Règle d'achat qui en découle** : quand un jeu existe dans les deux éditions,
-acheter la **Switch 1**. Elle tourne sur les deux consoles, elle est moins chère
-et elle est bien plus fréquente sur Vinted. L'édition Switch 2 ne se justifie que
-pour un jeu exclusif à la Switch 2.
+**Correction du même jour, benglut avait raison et moi tort.** La mention
+« Nintendo Switch 2 Edition » sur une jaquette n'est pas une exception rare
+confirmée par un seul éditeur : c'est une gamme Nintendo, et la jaquette porte la
+phrase qui tranche, en français, sous le logo PEGI :
 
-Exemple concret : pour Metroid Prime 4: Beyond, c'est l'édition Switch 1 qu'il
-faut chasser, pas la Switch 2.
+> « Cette version Nintendo Switch 2 Edition **combine le logiciel Nintendo Switch
+> et la mise à niveau Nintendo Switch 2 Edition**. La mise à niveau est également
+> disponible séparément. »
+
+Vérifié sur la photo d'une annonce Metroid Prime 4: Beyond – Nintendo Switch 2
+Edition. Cette cartouche démarre donc sur Switch 1 **et** sur Switch 2.
+
+**Règle d'achat corrigée** : quand un jeu existe dans les deux éditions, l'édition
+« Switch 2 Edition » est la meilleure pour benglut — elle tourne sur ses cinq
+machines et apporte la mise à niveau sur la Switch 2. Elle ne vaut le détour que
+si le surcoût reste faible : c'est un arbitrage de prix, plus de compatibilité.
+
+**Ce qui reste vrai** : un jeu **Switch 2 natif** (Mario Kart World, Donkey Kong
+Bananza, Elden Ring Tarnished Edition, Final Fantasy VII Rebirth) ne démarre pas
+sur Switch 1. Et la mention doit être **lue sur la jaquette**, pas déduite du
+titre de l'annonce : beaucoup de vendeurs écrivent « switch 2 » pour un jeu
+Switch 2 natif. La liste des éditions concernées est dans `SWITCH2-EDITIONS.md`.
+
+**La leçon de méthode** : j'ai généralisé à partir d'un article de presse sur un
+seul éditeur au lieu d'aller lire la jaquette. benglut a envoyé l'annonce, la
+photo donnait la réponse en une ligne.

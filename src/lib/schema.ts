@@ -123,6 +123,15 @@ export const GameSchema = z.object({
   releaseYear: z.number().int().min(1970).max(2030).nullable().default(null),
   genres: z.array(z.string()).default([]),
   edition: z.string().nullable().default(null),
+  /**
+   * Consoles sur lesquelles la cartouche démarre réellement, quand ce n'est pas
+   * déductible de `platformId`. Le cas qui compte : une cartouche « Nintendo
+   * Switch 2 Edition » porte le logiciel Switch 1 **et** la mise à niveau Switch 2,
+   * donc elle tourne sur les deux générations — la jaquette le dit explicitement.
+   * Un jeu Switch 2 natif, lui, ne démarre pas sur Switch 1.
+   * Laisser vide quand la plateforme suffit.
+   */
+  playsOn: z.array(z.string()).default([]),
   mediaType: MediaTypeSchema.default("cartridge"),
   externalIds: z.record(z.string(), z.string()).default({}),
   qualityTier: QualityTierSchema.nullable().default(null),

@@ -1,6 +1,13 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Champ `playsOn` ajouté au modèle de jeu** (`src/lib/schema.ts`, option CLI
+  `--plays-on "switch,switch2"`) : liste les consoles sur lesquelles une cartouche
+  démarre quand `platformId` ne suffit pas. Motivé par les cartouches « Nintendo
+  Switch 2 Edition », qui portent le logiciel Switch 1 **et** la mise à niveau
+  Switch 2 et tournent donc sur les deux générations — la jaquette le dit
+  explicitement sous le logo PEGI. Liste des onze éditions concernées relevée sur
+  nintendo.com dans `.agents/skills/vinted-hunt/SWITCH2-EDITIONS.md`
 - Parc de consoles Switch enregistré : Nintendo Switch, Switch OLED et **deux**
   Switch Lite rejoignent la Switch 2 déjà en base, soit cinq machines. Utile pour
   la chasse : la Switch Lite n'a ni sortie TV ni Joy-Con détachables, donc les

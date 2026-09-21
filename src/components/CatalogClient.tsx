@@ -119,6 +119,7 @@ export default function CatalogClient({
         releaseYear: null,
         genres: [],
         edition: null,
+        playsOn: [],
         mediaType: platformId.endsWith("-digital") ? "digital" : "cartridge",
         externalIds: {},
         qualityTier: (link?.quality ?? e.q ?? null) as Game["qualityTier"],

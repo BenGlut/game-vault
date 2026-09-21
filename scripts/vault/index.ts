@@ -283,7 +283,7 @@ function main(): void {
       case "add-game": {
         const title = optStr(options, "title");
         const platform = optStr(options, "platform");
-        if (!title || !platform) throw new Error("usage: pnpm vault add-game --title ... --platform ds|3ds|... [--kind game|hardware] [--region PAL-FR] [--media cartridge] [--franchise ...] [--aliases 'a|b'] [--edition ...] [--year 2015] [--ean 0045496…]");
+        if (!title || !platform) throw new Error("usage: pnpm vault add-game --title ... --platform ds|3ds|... [--kind game|hardware] [--region PAL-FR] [--media cartridge] [--franchise ...] [--aliases 'a|b'] [--edition ...] [--plays-on switch,switch2] [--year 2015] [--ean 0045496…]");
         const kind = (optStr(options, "kind") ?? "game") as Game["kind"];
         if (kind !== "game" && kind !== "hardware") throw new Error("--kind attend game ou hardware");
         runMutation("add-game", yes, `add game ${title} (${platform})`, (v) => {
@@ -310,6 +310,9 @@ function main(): void {
             releaseYear: optNum(options, "year") ?? null,
             genres: optStr(options, "genres")?.split(",").filter(Boolean) ?? [],
             edition: optStr(options, "edition") ?? null,
+            // --plays-on "switch,switch2" pour une cartouche qui démarre sur les deux
+            // générations (cas des « Nintendo Switch 2 Edition »)
+            playsOn: optStr(options, "plays-on")?.split(",").map((s) => s.trim()).filter(Boolean) ?? [],
             mediaType: MediaTypeSchema.parse(optStr(options, "media") ?? "cartridge"),
             externalIds: optStr(options, "ean") ? { ean: optStr(options, "ean")! } : {},
             qualityTier: optStr(options, "quality") ? QualityTierSchema.parse(optStr(options, "quality")) : null,
