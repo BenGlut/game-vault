@@ -483,3 +483,16 @@ Applied at promotion time:
   or drop the weakest.
 
 A wrong rule is corrected in place with a date, like the offer rule above.
+
+## Veille sur les titres hors budget
+
+Une partie de la wishlist ne se négocie pas : sous le prix courant il n'y a que
+des imports, du loose, ou rien. Ces titres sont listés dans `WATCHLIST.md` avec
+leur relevé de marché et un **seuil d'alerte** par titre. La tâche planifiée
+`veille-vinted-gamevault` les balaye chaque matin et signale à benglut les
+annonces complètes en boîte FR passant sous le seuil. Elle ne fait que signaler :
+aucune offre, aucun achat, aucune écriture en base.
+
+Quand un achat sort un titre de la liste, ou qu'un relevé montre que le marché a
+bougé, mettre `WATCHLIST.md` à jour — un seuil périmé produit soit du silence,
+soit du bruit.
