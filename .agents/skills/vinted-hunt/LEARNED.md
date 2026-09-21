@@ -653,3 +653,24 @@ Deux pièges de lecture :
   78 annonces, mais cinq des sept exemplaires complets ont moins d'une semaine et
   trois dataient du jour même. L'abondance venait du renouvellement, pas de
   l'invendu — et la seule annonce au-delà de 21 jours était un jeu sans boîte.
+
+## 2026-09-21 — un like posé sur description seule ne vaut rien pour une offre
+
+benglut : « envoie plein d'offres, ça augmente nos chances ». Passé à l'acte sur
+six annonces likées lors de la ronde du 19/09, **cinq étaient inexploitables** :
+
+- Metroid Prime Pinball 22 € — cartouche nue (photo : cartouche sur un tapis)
+- Metroid Prime Remastered 28,99 € — cartouche nue, 11 photos toutes de la carte
+- Zero Escape: Virtue's Last Reward 30 € — **version japonaise** (jaquette CERO)
+- Celeste 35,90 € — boîte **espagnole** (dos « Ya está, Madeline »)
+- Xenoblade Chronicles 3 30 € — vendu entre-temps
+
+Ces six-là avaient été likées après lecture de la description, sans vérification
+photo, parce que le lot était long à traiter. La description ne dit presque jamais
+« cartouche nue » quand le vendeur n'a rien à préciser, et ne dit jamais la langue
+de la jaquette. **Liker sur description, d'accord ; offrir sur description, non.**
+
+Ordre des opérations avant toute offre : disponibilité → photo de la boîte →
+photo du dos pour la région → seulement ensuite le montant. Une offre envoyée sur
+un loose ou un import est pire qu'une offre non envoyée : elle engage benglut sur
+un article qui viole sa règle.
