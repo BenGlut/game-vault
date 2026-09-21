@@ -629,3 +629,27 @@ Sur Zelda Phantom Hourglass DS (n=73, q1 30 €, médiane 38 €), huit annonces
 Le bon exemplaire se reconnaît au dos : texte français et code `NTR-AZEP-FRA`.
 Même méthode que pour Resident Evil Mercenaries (`TSA-CTR-ABMP-FRA`) : demander
 ou chercher la photo du dos de boîte avant de conclure sur la région.
+
+## 2026-09-21 — l'ancienneté d'une annonce est un levier, seuil 21 jours
+
+Consigne de benglut : mettre en wishlist réveille les vendeurs, et une offre
+volontairement basse se tente **surtout sur les annonces qui dorment**. Son seuil :
+**au-delà de 3 semaines, l'annonce est en vente depuis longtemps** et le vendeur
+devient négociable.
+
+Relever l'ancienneté systématiquement, avant de chiffrer une offre. La source
+fiable est le `timestamp` de la première photo dans
+`/api/v2/wardrobe/<sellerId>/items` — il concorde avec le « Ajouté : il y a X »
+affiché sur la fiche. Ce champ n'existe ni dans le HTML brut de la fiche ni dans
+le résultat de recherche : il faut passer par le vendeur.
+
+Deux pièges de lecture :
+
+- **Un vendeur qui republie remet tout à zéro.** Chez enzor944, 108 annonces sur
+  140 avaient moins de 7 jours et aucune entre 1 et 3 mois : il re-liste en
+  continu. Lui servir « vos annonces traînent » aurait été visiblement faux.
+  Regarder la distribution du dressing entier avant d'utiliser l'argument.
+- **Un marché abondant n'est pas un marché qui dort.** Super Mario Odyssey :
+  78 annonces, mais cinq des sept exemplaires complets ont moins d'une semaine et
+  trois dataient du jour même. L'abondance venait du renouvellement, pas de
+  l'invendu — et la seule annonce au-delà de 21 jours était un jeu sans boîte.
