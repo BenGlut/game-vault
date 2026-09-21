@@ -1,6 +1,14 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- The Legend of Zelda: Skyward Sword HD (Switch) acheté sur **Amazon** 44,99 €
+  (commande 403-5291269-6937148 du 19/09, livraison prévue le 20/09) — jeu créé
+  en base, commande enregistrée et passée en `fulfilled`. Une offre Vinted à 25 €
+  venait de partir sur le même titre : message d'excuse envoyé au vendeur dans la
+  foulée pour la retirer
+- Offres envoyées : 20 € sur un Super Mario Odyssey complet en boîte française
+  (thomas47474, 27 € affichés), 20 € sur Hyrule Warriors L'Ère du Fléau (28,50 €)
+  et 21 € sur Cadence of Hyrule (29,99 €), soit -26 % à -30 % sur l'affiché
 - **Lot enzor944 pris à 99,99 €** (22434342138, 109,67 € port et protection
   inclus) après relance et contre-offre du vendeur : Professeur Layton vs Phoenix
   Wright, Star Fox Command, Crash Bandicoot N. Sane Trilogy, Super Monkey Ball

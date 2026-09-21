@@ -3455,5 +3455,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 11.98
+  },
+  {
+    "id": "order_muaxodqi",
+    "marketplace": "amazon",
+    "status": "fulfilled",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_the-legend-of-zelda-skyward-sword-hd"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_the-legend-of-zelda-skyward-sword-hd",
+        "inventoryId": "inv_switch_the-legend-of-zelda-skyward-sword-hd",
+        "unitPrice": 44.99
+      }
+    ],
+    "orderedAt": "2026-09-19",
+    "fulfilledAt": "2026-09-20",
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 44.99
   }
 ]

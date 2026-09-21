@@ -12484,5 +12484,27 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_the-legend-of-zelda-skyward-sword-hd",
+    "kind": "game",
+    "canonicalTitle": "The Legend of Zelda: Skyward Sword HD",
+    "normalizedTitle": "the legend of zelda skyward sword hd",
+    "aliases": [],
+    "franchise": "The Legend of Zelda",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2021,
+    "genres": [],
+    "edition": null,
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
