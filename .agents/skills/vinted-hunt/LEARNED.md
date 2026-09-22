@@ -778,3 +778,29 @@ Switch 2 natif. La liste des éditions concernées est dans `SWITCH2-EDITIONS.md
 **La leçon de méthode** : j'ai généralisé à partir d'un article de presse sur un
 seul éditeur au lieu d'aller lire la jaquette. benglut a envoyé l'annonce, la
 photo donnait la réponse en une ligne.
+
+## 2026-09-23 — la méthode « vendeur multi-titres » ne marche que sur DS/3DS
+
+Idée testée : balayer les titres de la wishlist, remonter le vendeur de chaque
+annonce, et repérer ceux qui en ont plusieurs pour monter un lot. Deux passes,
+114 annonces, 45 vendeurs distincts.
+
+**Résultat : un seul vendeur multi-titres exploitable, et encore.** Sur Switch,
+aucun. Sur DS/3DS, trois — dont deux faux positifs (affiches publicitaires
+italiennes, porte-clés) et un vendeur qui ne fait que de l'import japonais.
+
+La raison est structurelle : **les jeux Switch se vendent à l'unité**, par des
+particuliers qui liquident un ou deux titres. Les vendeurs qui vident une
+collection entière, eux, sont sur DS et 3DS — c'est là que bonpoil52220 et
+snakeplissken8 ont été trouvés. Réserver cette méthode à ces deux plateformes.
+
+**Trois faux positifs à filtrer dans les recherches par titre :**
+
+- `locandina`, `poster`, `affiche` — les vendeurs italiens listent les affiches
+  publicitaires d'époque sous le titre exact du jeu
+- `keychain`, `porte-clé`, `llavero` — même piège
+- **la plateforme n'est pas dans le titre.** Quatre annonces « Spyro Reignited
+  Trilogy » et « Final Fantasy XII Zodiac Age » d'un même vendeur se sont
+  révélées PS4 et Xbox One. Un filtre sur le titre du jeu ne dit rien de la
+  console : il faut soit exiger la plateforme dans l'intitulé, soit la lire
+  dans la fiche avant de conclure.
