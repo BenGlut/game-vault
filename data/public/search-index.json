@@ -5948,5 +5948,15 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch2_kirby-air-riders",
+    "t": "Kirby Air Riders",
+    "n": "kirby air riders",
+    "a": [],
+    "f": "Kirby",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

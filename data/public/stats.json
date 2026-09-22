@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T20:58:31.616Z",
-  "totalGames": 541,
+  "generatedAt": "2026-09-22T22:02:59.857Z",
+  "totalGames": 542,
   "totalHardware": 13,
   "ownedHardware": 14,
   "ownedItems": 456,
@@ -19,7 +19,7 @@
     "gamecube": 30,
     "wii": 23,
     "switch": 94,
-    "switch2": 2,
+    "switch2": 3,
     "gb": 10,
     "gbc": 17,
     "gba": 44,

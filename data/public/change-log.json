@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-21T10:37:18.595Z",
-    "command": "add-game",
-    "message": "add game Spyro: A Hero's Tail (gamecube)"
-  },
-  {
     "at": "2026-08-21T10:37:20.315Z",
     "command": "add-game",
     "message": "add game The Legend of Spyro: A New Beginning (gamecube)"
@@ -2498,5 +2493,10 @@
     "at": "2026-09-22T20:58:07.805Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-22T22:02:49.167Z",
+    "command": "add-game",
+    "message": "add game Kirby Air Riders (switch2)"
   }
 ]

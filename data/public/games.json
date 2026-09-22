@@ -13150,5 +13150,28 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch2_kirby-air-riders",
+    "kind": "game",
+    "canonicalTitle": "Kirby Air Riders",
+    "normalizedTitle": "kirby air riders",
+    "aliases": [],
+    "franchise": "Kirby",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]
