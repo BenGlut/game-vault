@@ -13125,5 +13125,30 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_kirby-et-le-monde-oublie",
+    "kind": "game",
+    "canonicalTitle": "Kirby et le Monde Oublié",
+    "normalizedTitle": "kirby et le monde oublie",
+    "aliases": [
+      "Kirby and the Forgotten Land"
+    ],
+    "franchise": "Kirby",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2022,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

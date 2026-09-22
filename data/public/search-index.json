@@ -5936,5 +5936,17 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_kirby-et-le-monde-oublie",
+    "t": "Kirby et le Monde Oublié",
+    "n": "kirby et le monde oublie",
+    "a": [
+      "Kirby and the Forgotten Land"
+    ],
+    "f": "Kirby",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
