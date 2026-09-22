@@ -3524,5 +3524,34 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 28.78
+  },
+  {
+    "id": "order_mud5ome2",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 2,
+    "gameIds": [
+      "game_ds_so-blonde-retour-sur-l-ile",
+      "game_ds_secret-files-tunguska"
+    ],
+    "items": [
+      {
+        "gameId": "game_ds_so-blonde-retour-sur-l-ile",
+        "inventoryId": "inv_ds_so-blonde-retour-sur-l-ile",
+        "unitPrice": 11.85
+      },
+      {
+        "gameId": "game_ds_secret-files-tunguska",
+        "inventoryId": "inv_ds_secret-files-tunguska",
+        "unitPrice": 9.87
+      }
+    ],
+    "orderedAt": "2026-09-22",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 21.72
   }
 ]

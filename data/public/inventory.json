@@ -12029,7 +12029,7 @@
   {
     "id": "inv_ds_secret-files-tunguska",
     "gameId": "game_ds_secret-files-tunguska",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12038,8 +12038,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-13T10:44:36.609Z"
+    "orderId": "order_mud5ome2",
+    "updatedAt": "2026-09-22T20:58:07.337Z"
   },
   {
     "id": "inv_ds_hotel-dusk-room-215",
@@ -12164,7 +12164,7 @@
   {
     "id": "inv_ds_so-blonde-retour-sur-l-ile",
     "gameId": "game_ds_so-blonde-retour-sur-l-ile",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12177,8 +12177,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": "order_mu7thz94",
-    "updatedAt": "2026-09-19T14:42:29.112Z"
+    "orderId": "order_mud5ome2",
+    "updatedAt": "2026-09-22T20:58:07.323Z"
   },
   {
     "id": "inv_ds_away-shuffle-dungeon",

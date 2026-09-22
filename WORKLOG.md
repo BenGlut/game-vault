@@ -1,6 +1,10 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- Lot bonpoil52220 acheté (22487221869, **21,72 €**) : So Blonde: Retour sur
+  l'île et Secret Files: Tunguska, les deux CIB français vérifiés en photo.
+  Premier succès de la stratégie « offre basse sur stock dormant » : ses annonces
+  avaient 36 et 28 jours, le marché de So Blonde est à q1 20 € / médiane 28,95 €
 - **Champ `playsOn` ajouté au modèle de jeu** (`src/lib/schema.ts`, option CLI
   `--plays-on "switch,switch2"`) : liste les consoles sur lesquelles une cartouche
   démarre quand `platformId` ne suffit pas. Motivé par les cartouches « Nintendo
