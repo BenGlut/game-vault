@@ -496,3 +496,35 @@ aucune offre, aucun achat, aucune écriture en base.
 Quand un achat sort un titre de la liste, ou qu'un relevé montre que le marché a
 bougé, mettre `WATCHLIST.md` à jour — un seuil périmé produit soit du silence,
 soit du bruit.
+
+## Évaluer un lot console + jeux
+
+Consigne de benglut, 2026-09-22 : **un lot console + jeux se valorise élément par
+élément, jamais en bloc.** Beaucoup de vendeurs fixent le prix sur la console et
+donnent les jeux « avec », sans savoir que certains titres valent plus cher seuls
+que le lot entier. Quand le compte tombe juste, la console est gratuite — voire
+payée par les jeux en trop.
+
+**La méthode :**
+
+1. Lister le contenu exact — lire la description **et** compter sur les photos,
+   les vendeurs oublient la moitié de ce qu'ils vendent dans le titre.
+2. Relever le marché de chaque jeu séparément (médiane, q1) comme pour un achat
+   unitaire, et le marché de la console nue dans le même état.
+3. Additionner les médianes. Comparer au prix du lot.
+4. Retirer du total ce qui est déjà dans la collection : un doublon ne vaut que
+   sa valeur de revente, pas sa médiane d'achat.
+5. Vérifier l'état pièce par pièce comme d'habitude — boîte, région, cartouche.
+   Un lot de dix jeux dont sept sont loose ne vaut pas dix médianes de complets.
+
+**Ce qui déclenche l'achat :** somme des médianes des éléments qu'on garde
+supérieure au prix du lot. La console devient alors un bonus, à garder pour le
+parc ou à revendre pour rembourser une partie.
+
+**Ce qui doit rendre méfiant :** un lot où le vendeur détaille les jeux un par un
+avec leurs cotes connaît déjà la valeur — la marge y est rare. Les bons lots sont
+ceux intitulés « console + jeux » sans liste, ou avec les titres en vrac dans la
+description.
+
+La méthode vaut aussi pour les lots de jeux seuls : c'est la même arithmétique
+sans la console.
