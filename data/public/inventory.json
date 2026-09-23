@@ -7757,7 +7757,7 @@
   {
     "id": "inv_switch_team-sonic-racing",
     "gameId": "game_switch_team-sonic-racing",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7766,8 +7766,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:21:17.105Z"
+    "orderId": "order_mue67hwq",
+    "updatedAt": "2026-09-23T14:00:34.157Z"
   },
   {
     "id": "inv_switch_sonic-x-shadow-generations",
@@ -8150,7 +8150,7 @@
   {
     "id": "inv_switch_metroid-prime-remastered",
     "gameId": "game_switch_metroid-prime-remastered",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8159,8 +8159,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-08-13T13:35:20.491Z"
+    "orderId": "order_mue6buny",
+    "updatedAt": "2026-09-23T14:03:57.310Z"
   },
   {
     "id": "inv_switch_xenoblade-chronicles-3",
@@ -12517,7 +12517,7 @@
   {
     "id": "inv_switch_kirby-et-le-monde-oublie",
     "gameId": "game_switch_kirby-et-le-monde-oublie",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12526,13 +12526,13 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-22T06:53:07.678Z"
+    "orderId": "order_mue6brss",
+    "updatedAt": "2026-09-23T14:03:53.596Z"
   },
   {
     "id": "inv_switch2_kirby-air-riders",
     "gameId": "game_switch2_kirby-air-riders",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12541,8 +12541,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-22T22:02:49.145Z"
+    "orderId": "order_mue67crz",
+    "updatedAt": "2026-09-23T14:00:27.506Z"
   },
   {
     "id": "inv_switch_professeur-layton-et-le-nouveau-monde-a-vapeur",
@@ -12693,5 +12693,20 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-09-23T13:18:21.551Z"
+  },
+  {
+    "id": "inv_switch_yoshi-s-crafted-world",
+    "gameId": "game_switch_yoshi-s-crafted-world",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-23T13:50:52.505Z"
   }
 ]

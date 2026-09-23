@@ -13385,5 +13385,30 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_yoshi-s-crafted-world",
+    "kind": "game",
+    "canonicalTitle": "Yoshi's Crafted World",
+    "normalizedTitle": "yoshi s crafted world",
+    "aliases": [
+      "Yoshi Crafted World"
+    ],
+    "franchise": "Yoshi",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2019,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

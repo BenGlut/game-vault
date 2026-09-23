@@ -3553,5 +3553,97 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 21.72
+  },
+  {
+    "id": "order_mue67crz",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch2_kirby-air-riders"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch2_kirby-air-riders",
+        "inventoryId": "inv_switch2_kirby-air-riders",
+        "unitPrice": 32.98
+      }
+    ],
+    "orderedAt": "2026-09-23",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 32.98
+  },
+  {
+    "id": "order_mue67hwq",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_team-sonic-racing"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_team-sonic-racing",
+        "inventoryId": "inv_switch_team-sonic-racing",
+        "unitPrice": 13.03
+      }
+    ],
+    "orderedAt": "2026-09-23",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 13.03
+  },
+  {
+    "id": "order_mue6brss",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_kirby-et-le-monde-oublie"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_kirby-et-le-monde-oublie",
+        "inventoryId": "inv_switch_kirby-et-le-monde-oublie",
+        "unitPrice": 31.93
+      }
+    ],
+    "orderedAt": "2026-09-23",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 31.93
+  },
+  {
+    "id": "order_mue6buny",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_metroid-prime-remastered"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_metroid-prime-remastered",
+        "inventoryId": "inv_switch_metroid-prime-remastered",
+        "unitPrice": 32.98
+      }
+    ],
+    "orderedAt": "2026-09-23",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 32.98
   }
 ]

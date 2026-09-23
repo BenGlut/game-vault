@@ -46,6 +46,13 @@
   (laurianne06220, 27 €, 31 jours en ligne). Les Kirby uniquement en
   téléchargement (Fighters 2, Dream Buffet, Super Kirby Clash, Team Kirby Clash
   Deluxe, Blowout Blast…) ne sont pas ajoutés : il n'en existe pas de boîte
+- Quatre achats Vinted validés par benglut le 23/09, enregistrés en `ordered` :
+  Kirby Air Riders neuf (omimar94, offre 28 € acceptée, 32,98 € tout compris),
+  Team Sonic Racing (ludo50700, offre vendeur 9 €, 13,03 €), Kirby et le Monde
+  Oublié complet FR (hrs_shop, 27 €, 31,93 €) et Metroid Prime Remastered
+  complet FR (saphosa, offre vendeur 28 €, 32,98 €). Yoshi's Crafted World ajouté
+  en wishlist. Offres Kirby Air Riders concurrentes retirées par message
+  (seleste19230, lazzz21)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

@@ -6063,5 +6063,17 @@
     "p": "switch2",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_yoshi-s-crafted-world",
+    "t": "Yoshi's Crafted World",
+    "n": "yoshi s crafted world",
+    "a": [
+      "Yoshi Crafted World"
+    ],
+    "f": "Yoshi",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
