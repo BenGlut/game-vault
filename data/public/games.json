@@ -13199,5 +13199,57 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_mario-strikers-battle-league-football",
+    "kind": "game",
+    "canonicalTitle": "Mario Strikers: Battle League Football",
+    "normalizedTitle": "mario strikers battle league football",
+    "aliases": [
+      "Mario Strikers Battle League",
+      "Mario Strikers Battle League Football"
+    ],
+    "franchise": "Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2022,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_mario-lapins-cretins-sparks-of-hope",
+    "kind": "game",
+    "canonicalTitle": "Mario + Lapins Crétins Sparks of Hope",
+    "normalizedTitle": "mario lapins cretins sparks of hope",
+    "aliases": [
+      "Mario + Rabbids Sparks of Hope",
+      "Mario Lapins Cretins Sparks of Hope"
+    ],
+    "franchise": "Mario + Lapins Crétins",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2022,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

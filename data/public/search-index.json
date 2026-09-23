@@ -5971,5 +5971,31 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_mario-strikers-battle-league-football",
+    "t": "Mario Strikers: Battle League Football",
+    "n": "mario strikers battle league football",
+    "a": [
+      "Mario Strikers Battle League",
+      "Mario Strikers Battle League Football"
+    ],
+    "f": "Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_mario-lapins-cretins-sparks-of-hope",
+    "t": "Mario + Lapins Crétins Sparks of Hope",
+    "n": "mario lapins cretins sparks of hope",
+    "a": [
+      "Mario + Rabbids Sparks of Hope",
+      "Mario Lapins Cretins Sparks of Hope"
+    ],
+    "f": "Mario + Lapins Crétins",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

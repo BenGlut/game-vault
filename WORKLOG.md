@@ -13,6 +13,11 @@
 - **The Legend of Zelda: The Wind Waker** (GameCube) remis en wishlist. Rang S,
   sa seule entree d'inventaire etait une commande annulee : le titre etait donc
   sorti du radar de chasse sans que rien ne le signale
+- **Mario Strikers: Battle League Football** et **Mario + Lapins Crétins Sparks
+  of Hope** (Switch) créés au catalogue et mis en wishlist, repérés dans le
+  dressing de gagadu98
+- Paper Mario: The Origami King (Switch) remis en wishlist : sa seule entrée
+  était un exemplaire remboursé
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

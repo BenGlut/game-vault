@@ -12573,5 +12573,50 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-09-23T09:11:33.726Z"
+  },
+  {
+    "id": "inv_switch_paper-mario-the-origami-king-2",
+    "gameId": "game_switch_paper-mario-the-origami-king",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-23T09:35:16.013Z"
+  },
+  {
+    "id": "inv_switch_mario-strikers-battle-league-football",
+    "gameId": "game_switch_mario-strikers-battle-league-football",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-23T10:52:30.850Z"
+  },
+  {
+    "id": "inv_switch_mario-lapins-cretins-sparks-of-hope",
+    "gameId": "game_switch_mario-lapins-cretins-sparks-of-hope",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-23T10:52:31.776Z"
   }
 ]

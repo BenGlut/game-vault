@@ -1,30 +1,5 @@
 [
   {
-    "at": "2026-08-21T10:37:37.111Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_ds_the-legend-of-spyro-a-new-beginning"
-  },
-  {
-    "at": "2026-08-21T10:37:39.130Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_spyro-season-of-ice"
-  },
-  {
-    "at": "2026-08-21T10:37:40.397Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_spyro-2-season-of-flame"
-  },
-  {
-    "at": "2026-08-21T10:37:41.659Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_spyro-fusion"
-  },
-  {
-    "at": "2026-08-21T10:37:42.958Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_the-legend-of-spyro-a-new-beginning"
-  },
-  {
     "at": "2026-08-21T10:37:44.260Z",
     "command": "add-inventory",
     "message": "add inventory for game_gba_the-legend-of-spyro-the-eternal-night"
@@ -2498,5 +2473,30 @@
     "at": "2026-09-23T09:11:34.040Z",
     "command": "add-inventory",
     "message": "add inventory for game_gamecube_the-legend-of-zelda-the-wind-waker"
+  },
+  {
+    "at": "2026-09-23T09:35:16.051Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_paper-mario-the-origami-king"
+  },
+  {
+    "at": "2026-09-23T10:52:27.025Z",
+    "command": "add-game",
+    "message": "add game Mario Strikers: Battle League Football (switch)"
+  },
+  {
+    "at": "2026-09-23T10:52:27.798Z",
+    "command": "add-game",
+    "message": "add game Mario + Lapins Crétins Sparks of Hope (switch)"
+  },
+  {
+    "at": "2026-09-23T10:52:30.871Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_mario-strikers-battle-league-football"
+  },
+  {
+    "at": "2026-09-23T10:52:31.811Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_mario-lapins-cretins-sparks-of-hope"
   }
 ]
