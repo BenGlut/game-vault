@@ -61,6 +61,9 @@
   Mario Strikers Battle League (pastool, 19 €, 23,53 €, complet FR vérifié) et
   Kirby Star Allies (codrt000, 26 €, 30,88 €, dos FR vérifié). Yoshi Touch & Go
   remis en wishlist (sa seule entrée était un remboursement)
+- Yoshi Touch & Go (DS) acheté chez justy013 à 10 € (14,08 € tout compris),
+  complet PAL avec notice et cartouche ; marché n=106, médiane 17 €. Langue du
+  dos de boîte non photographiée, à vérifier à réception
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
