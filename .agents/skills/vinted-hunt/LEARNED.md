@@ -804,3 +804,40 @@ snakeplissken8 ont été trouvés. Réserver cette méthode à ces deux platefor
   révélées PS4 et Xbox One. Un filtre sur le titre du jeu ne dit rien de la
   console : il faut soit exiger la plateforme dans l'intitulé, soit la lire
   dans la fiche avant de conclure.
+
+## 2026-09-23 — Le message-type ne se colle pas les yeux fermés
+
+Relance de toutes les offres en cours avec le message-type de benglut
+(« vos articles sont en ligne depuis plus de 30 jours et au-dessus de la
+médiane »). Sur huit fils, **trois seulement** pouvaient le recevoir tel quel.
+
+Deux vérifications à faire avant chaque envoi, dans cet ordre :
+
+1. **L'offre est-elle encore en attente ?** L'état est écrit dans le fil :
+   « En attente », « Refusée », « Annulée », ou « Cet article n'est plus
+   disponible ». Écrire « je viens de vous faire une offre » sur une offre
+   refusée quatre jours plus tôt se voit immédiatement. Sur un refus, le bon
+   message est une relance qui ne concède rien : accuser réception, rester
+   joignable, ne pas remonter le prix.
+2. **Le prix affiché est-il vraiment au-dessus de la médiane ?** Relevé du jour,
+   pas une intuition. Trois annonces sur quatre étaient **en dessous** de q1 :
+   Hyrule Warriors L'Ère du Fléau à 28,50 € (q1 32,50, médiane 35, n=89),
+   Mario Odyssey à 26,90 € (q1 26,90, médiane 28, n=88), le lot Phantom
+   Hourglass + Hey! Pikmin à 47,98 € (somme des médianes ≈ 53 €). Sur celles-là
+   l'argument de prix est faux et vérifiable en deux clics côté vendeur : il
+   faut le retirer et garder la partie vraie — règlement immédiat, plus petit
+   colis.
+
+**Le relevé de prix par le catalogue a changé de forme.** Les anciens motifs
+`"price":{"amount":…}` et `"amount":"…"` ne matchent plus rien. Le prix est
+maintenant dans l'attribut `title` de la vignette, avec l'état de l'article :
+`href="/items/(\d+)-[^"]*"[^>]*title="([^"]*)"` puis `([\d]+\.[\d]{2})\s*€` sur
+le titre capturé — le premier montant est le prix, le second le prix frais
+inclus. Filtrer sur des mots du titre, sinon la recherche ramène consoles,
+housses et amiibo.
+
+**Ancienneté** : `photos[0].high_resolution.timestamp` donne des valeurs très
+grandes sur les vieux comptes (677 jours chez kellort, 1630 chez nickra11).
+C'est cohérent avec « vu la dernière fois il y a 8 mois / 4 ans » affiché dans
+le fil : ces vendeurs ont disparu. Une offre y coûte zéro mais ne rapportera
+rien — les compter à part dans le taux de succès.
