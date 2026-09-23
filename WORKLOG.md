@@ -1,6 +1,25 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **`pnpm vault inspect games --tier S --missing`** : deux filtres ajoutes a
+  `inspect` (`scripts/vault/index.ts`). `--tier` filtre sur le niveau de qualite
+  (S = incontournable, jusqu'a D), `--missing` ne garde que les titres dont aucun
+  exemplaire n'est en possession, et la colonne `rang` est desormais retournee
+  pour chaque jeu. C'est la requete « qu'est-ce qui manque a la collection » qui
+  etait refaite a la main a chaque chasse ; `--tier` vaut aussi sur `inventory`
+- **Professeur Layton et le Nouveau Monde a Vapeur** (Switch, 2025) ajoute au
+  catalogue et a la wishlist : la serie est complete sur DS et 3DS, c'est le
+  seul episode manquant
+- **The Legend of Zelda: The Wind Waker** (GameCube) remis en wishlist. Rang S,
+  sa seule entree d'inventaire etait une commande annulee : le titre etait donc
+  sorti du radar de chasse sans que rien ne le signale
+
+## Changed
+- Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
+  vide : Super Mario Galaxy, Super Mario Galaxy 2, Twilight Princess et Metroid
+  Prime 3 (Wii), The Last of Us et GTA V (PS3), Xenoblade Chronicles 3D (3DS),
+  Final Fantasy VII Rebirth (Switch 2), Forza Motorsport 4 (Xbox 360). La base
+  compte 122 titres de rang S, dont 54 manquent encore a la collection
 - Lot bonpoil52220 acheté (22487221869, **21,72 €**) : So Blonde: Retour sur
   l'île et Secret Files: Tunguska, les deux CIB français vérifiés en photo.
   Premier succès de la stratégie « offre basse sur stock dormant » : ses annonces

@@ -216,28 +216,41 @@ function main(): void {
        * commande est nommée, donc autorisable une fois pour toutes.
        *
        * usage: pnpm vault inspect games|inventory|orders [--match regex]
-       *                       [--status s] [--platform p] [--json]
+       *                       [--status s] [--platform p] [--tier S] [--missing] [--json]
        */
       case "inspect": {
         const table = positionals[0];
         if (!table || !["games", "inventory", "orders"].includes(table))
-          throw new Error("usage: pnpm vault inspect games|inventory|orders [--match regex] [--status s] [--platform p] [--json]");
+          throw new Error("usage: pnpm vault inspect games|inventory|orders [--match regex] [--status s] [--platform p] [--tier S|A|B|C|D] [--missing] [--json]");
         const v = loadVault();
         const re = optStr(options, "match") ? new RegExp(optStr(options, "match")!, "i") : null;
         const status = optStr(options, "status");
         const platform = optStr(options, "platform");
+        // --tier filtre sur le niveau de qualite (S = incontournable) et --missing ne
+        // garde que les titres dont aucun exemplaire n'est en possession : c'est la
+        // requete « qu'est-ce qui manque a la collection » qu'on refaisait a la main.
+        const tier = optStr(options, "tier")?.toUpperCase();
+        const missing = options.missing === true;
+        const POSSEDE = new Set(["owned", "delivered", "fulfilled"]);
         const gameById = new Map(v.games.map((g) => [g.id, g]));
 
         let rows: Record<string, unknown>[];
         if (table === "games") {
           rows = v.games
-            .filter((g) => (!re || re.test(`${g.canonicalTitle} ${g.aliases.join(" ")} ${g.id}`)) && (!platform || g.platformId === platform))
+            .filter(
+              (g) =>
+                (!re || re.test(`${g.canonicalTitle} ${g.aliases.join(" ")} ${g.id}`)) &&
+                (!platform || g.platformId === platform) &&
+                (!tier || g.qualityTier === tier) &&
+                (!missing || !v.inventory.some((i) => i.gameId === g.id && POSSEDE.has(i.status))),
+            )
             .map((g) => {
               const items = v.inventory.filter((i) => i.gameId === g.id);
               return {
                 id: g.id,
                 titre: g.canonicalTitle,
                 plateforme: g.platformId,
+                rang: g.qualityTier,
                 exemplaires: items.map((i) => `${i.status} q${i.quantity}`).join(", ") || "aucun",
               };
             });
@@ -248,7 +261,8 @@ function main(): void {
               return (
                 (!re || re.test(`${g?.canonicalTitle ?? ""} ${i.id}`)) &&
                 (!status || i.status === status) &&
-                (!platform || g?.platformId === platform)
+                (!platform || g?.platformId === platform) &&
+                (!tier || g?.qualityTier === tier)
               );
             })
             .map((i) => ({

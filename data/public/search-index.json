@@ -4972,7 +4972,7 @@
     "f": "The Legend of Zelda",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_wii_super-mario-galaxy",
@@ -4982,7 +4982,7 @@
     "f": "Mario",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_wii_super-mario-galaxy-2",
@@ -4992,7 +4992,7 @@
     "f": "Mario",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_nba-2k23",
@@ -5125,7 +5125,7 @@
     "f": "Metroid",
     "p": "wii",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_wii_call-of-duty-modern-warfare-3",
@@ -5235,7 +5235,7 @@
     "f": "Final Fantasy",
     "p": "switch2",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_ds_might-magic-clash-of-heroes",
@@ -5327,7 +5327,7 @@
     "f": "Forza",
     "p": "xbox360",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_gamecube_nintendo-gamecube",
@@ -5553,7 +5553,7 @@
     "f": "Grand Theft Auto",
     "p": "ps3",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_ps3_the-last-of-us",
@@ -5563,7 +5563,7 @@
     "f": null,
     "p": "ps3",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_ds_resident-evil-deadly-silence",
@@ -5845,7 +5845,7 @@
     "f": "Xenoblade",
     "p": "3ds",
     "r": "PAL-FR",
-    "q": null
+    "q": "S"
   },
   {
     "id": "game_switch_octopath-traveler",
@@ -5956,6 +5956,19 @@
     "a": [],
     "f": "Kirby",
     "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_professeur-layton-et-le-nouveau-monde-a-vapeur",
+    "t": "Professeur Layton et le Nouveau Monde à Vapeur",
+    "n": "professeur layton et le nouveau monde a vapeur",
+    "a": [
+      "Professor Layton and the New World of Steam",
+      "Layton Nouveau Monde à Vapeur"
+    ],
+    "f": "Professeur Layton",
+    "p": "switch",
     "r": "PAL-FR",
     "q": null
   }

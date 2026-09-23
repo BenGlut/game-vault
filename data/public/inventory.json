@@ -12543,5 +12543,35 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-09-22T22:02:49.145Z"
+  },
+  {
+    "id": "inv_switch_professeur-layton-et-le-nouveau-monde-a-vapeur",
+    "gameId": "game_switch_professeur-layton-et-le-nouveau-monde-a-vapeur",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-23T09:10:45.464Z"
+  },
+  {
+    "id": "inv_gamecube_the-legend-of-zelda-the-wind-waker-2",
+    "gameId": "game_gamecube_the-legend-of-zelda-the-wind-waker",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-23T09:11:33.726Z"
   }
 ]

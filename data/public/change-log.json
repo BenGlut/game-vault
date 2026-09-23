@@ -1,20 +1,5 @@
 [
   {
-    "at": "2026-08-21T10:37:20.315Z",
-    "command": "add-game",
-    "message": "add game The Legend of Spyro: A New Beginning (gamecube)"
-  },
-  {
-    "at": "2026-08-21T10:37:22.099Z",
-    "command": "add-game",
-    "message": "add game Spyro Reignited Trilogy (switch)"
-  },
-  {
-    "at": "2026-08-21T10:37:35.142Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_ds_the-legend-of-spyro-the-eternal-night"
-  },
-  {
     "at": "2026-08-21T10:37:37.111Z",
     "command": "add-inventory",
     "message": "add inventory for game_ds_the-legend-of-spyro-a-new-beginning"
@@ -2498,5 +2483,20 @@
     "at": "2026-09-22T22:02:49.167Z",
     "command": "add-game",
     "message": "add game Kirby Air Riders (switch2)"
+  },
+  {
+    "at": "2026-09-23T09:08:38.105Z",
+    "command": "add-game",
+    "message": "add game Professeur Layton et le Nouveau Monde à Vapeur (switch)"
+  },
+  {
+    "at": "2026-09-23T09:10:45.489Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_professeur-layton-et-le-nouveau-monde-a-vapeur"
+  },
+  {
+    "at": "2026-09-23T09:11:34.040Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_gamecube_the-legend-of-zelda-the-wind-waker"
   }
 ]

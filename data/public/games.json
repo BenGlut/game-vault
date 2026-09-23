@@ -10990,7 +10990,7 @@
     "playsOn": [],
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -11013,7 +11013,7 @@
     "playsOn": [],
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -11036,7 +11036,7 @@
     "playsOn": [],
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -11325,7 +11325,7 @@
     "playsOn": [],
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -11578,7 +11578,7 @@
     "playsOn": [],
     "mediaType": "code_in_box",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -11774,7 +11774,7 @@
     "playsOn": [],
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -12286,7 +12286,7 @@
     "playsOn": [],
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -12309,7 +12309,7 @@
     "playsOn": [],
     "mediaType": "disc",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -12916,7 +12916,7 @@
     "playsOn": [],
     "mediaType": "cartridge",
     "externalIds": {},
-    "qualityTier": null,
+    "qualityTier": "S",
     "buyPriority": null
   },
   {
@@ -13159,6 +13159,32 @@
     "aliases": [],
     "franchise": "Kirby",
     "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_professeur-layton-et-le-nouveau-monde-a-vapeur",
+    "kind": "game",
+    "canonicalTitle": "Professeur Layton et le Nouveau Monde à Vapeur",
+    "normalizedTitle": "professeur layton et le nouveau monde a vapeur",
+    "aliases": [
+      "Professor Layton and the New World of Steam",
+      "Layton Nouveau Monde à Vapeur"
+    ],
+    "franchise": "Professeur Layton",
+    "platformId": "switch",
     "region": "PAL-FR",
     "languages": [
       "fr"
