@@ -919,3 +919,34 @@ saisie « triple-clic + cmd+a + Backspace + frappe du montant » puis « Propose
 a envoyé l'offre (conversation thesmil, 16 €). Le blocage « fenêtre masquée »
 consigné le 12/08 ne s'est donc pas reproduit par ce chemin. Le clic par `ref`,
 lui, reste sans effet quand la fenêtre est masquée.
+
+## 2026-09-23 — Offre sur un article seul fenêtre masquée, et premier retour des favoris
+
+**Offre sur un article seul sans fenêtre visible : passer par la page de lot.**
+Sur une fiche article, fenêtre masquée, les boutons « Faire une offre » et
+« Acheter » ont une taille nulle (pas de mise en page) : aucun clic possible.
+Mais `/member/<vendeur>/bundles/new?item_ids[]=<un seul id>` accepte un lot d'un
+seul article, et son chemin « Voir le lot » → « Faire une offre » fonctionne
+par coordonnées (1231,786) puis (805,545), saisie à (720,429), « Proposer »
+vers (720,558) — un peu plus bas si le titre tient sur deux lignes, zoomer pour
+viser. L'identifiant du vendeur se lit dans le catalogue (`productItem … user.id`)
+ou dans `/api/v2/conversations/<id>` (`opposite_user.id`).
+
+Le premier clic sur « Voir le lot » juste après la navigation est souvent perdu :
+en refaire un après 3 s, et vérifier par capture que la fenêtre est ouverte
+avant de cliquer « Faire une offre » — deux clics trop rapprochés la referment.
+
+L'envoi du message qui suit : le clic par `ref` sur la flèche marche une fois
+sur deux. Cliquer la flèche par coordonnées (~1000,727) et **toujours vérifier**
+par `/api/v2/conversations/<id>` qu'une entité `message` est apparue.
+
+**Premier retour des 330 favoris, 40 minutes après : 8 offres vendeur et
+5 messages, et presque tout était un piège.** Sparks of Hope 9 € = code seul
+(« AUCUNE VALEUR, CODE ACTIVÉ EN CAISSE »), Phantom Hourglass 18 € et Advance
+Wars 10 € = cartouches seules, Kirby Super Star Ultra 50 € = cartouche USA
+seule, KSSU 60 € = cartouche seule, RE Deadly Silence 24 € = boîtier générique
+vide, Kirby Monde Oublié = boîte italienne, Theatrhythm 13 € = le CD de la
+bande-son, World of Final Fantasy = version PS4. Seul le Kirby Air Riders à 30 €
+de sountine était propre. **Un vendeur qui propose une remise spontanée a
+souvent un article que personne ne prend, pour une raison que la photo montre.**
+Ne jamais accepter une offre vendeur avant d'avoir vu toutes les photos.

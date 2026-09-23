@@ -32,6 +32,12 @@
   piège (import US/JP, cartouche seule, boîte vide, code). 330 favoris ajoutés
   sur les annonces les moins chères de chaque titre pour déclencher des offres
   vendeur
+- Offres envoyées le 23/09 après-midi : Metroid Prime 4 Switch 2 Edition 28 €
+  (louistiti92, affiché 34 €), Kirby Air Riders neuf 28 € (omimar94, 32 €),
+  Kirby Air Riders complet 26 € (seleste19230, 32 €), Phoenix Wright Trials and
+  Tribulations 58 € (mareck86, 88 €, boîte FR vérifiée) et Animal Crossing New
+  Horizons 22 € (lebazardugamer, 27 €, photo du dos demandée). gagadu98 a refusé
+  le lot de 12 jeux à 75 €
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
