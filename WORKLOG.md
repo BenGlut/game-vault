@@ -24,6 +24,14 @@
   descendre sous le plancher d'offre Vinted (77,52 € sur ce lot). Les 12 jeux ont
   été retenus sur 44 après vérification photo : 14 écartés pour cartouche seule,
   boîte UK, US ou espagnole, code au lieu de cartouche ou mauvais jeu dans la boîte
+- Offre de **16 €** sur le lot Paper Mario: The Origami King + 1-2 Switch chez
+  thesmil (Quimper, conversation 25276090162), affiché 24,50 € (23,27 € avec la
+  remise lot). Paper Mario : boîte FR vérifiée, marché n=87, médiane 20 €
+- Balayage complet de la wishlist DS/3DS/Switch (45 titres, 2 703 annonces) :
+  une seule affaire propre sous le marché, tout le reste sous le q1 était un
+  piège (import US/JP, cartouche seule, boîte vide, code). 330 favoris ajoutés
+  sur les annonces les moins chères de chaque titre pour déclencher des offres
+  vendeur
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

@@ -892,3 +892,30 @@ probablement jamais activé. À rejeter à vue.
 **Les variables `window.*` disparaissent à chaque `navigate`** : relancer une
 navigation entre deux étapes d'un balayage efface les résultats. Imprimer ce
 dont on a besoin avant de naviguer.
+
+## 2026-09-23 — Favoris et offres de lot sans fenêtre visible
+
+**Favoris en masse, fenêtre masquée : ça marche.** Les en-têtes d'écriture
+(`X-CSRF-Token`, `X-Anon-Id`, `Locale`, `Platform`, `x-next-app`) se captent sur
+n'importe quelle écriture que la page fait seule : il suffit de hooker
+`XMLHttpRequest` puis de lancer une recherche catalogue, qui poste
+`api.vinted.fr/search-bar/v2/users/<moi>/previous_searches`. Aucun clic réel
+n'est nécessaire. Ensuite, en XHR avec ces en-têtes :
+`POST /api/v2/user_favourites/toggle` corps `{"type":"item","user_favourites":[id]}`
+→ `200 {"code":0}`.
+
+**C'est un interrupteur.** Le même appel retire un favori existant. Charger
+d'abord `GET /api/v2/users/<moi>/items/favourites?per_page=96` (paginé) et
+exclure ces identifiants, sinon on défait les favoris de benglut.
+
+Rythme retenu : 1,5 à 2,5 s entre deux favoris, arrêt après 5 échecs. Plafond :
+les 10 annonces les moins chères par titre, sous 110 % de la médiane, pour ne
+pas attirer l'attention de l'anti-robot avec un millier de favoris d'un coup.
+
+**Offre de lot, fenêtre masquée : ça a marché aussi.** Sur la page
+`/member/<vendeur>/bundles/new?item_ids[]=…`, le clic par coordonnées sur
+« Voir le lot », puis sur « Faire une offre », a ouvert la fenêtre d'offre. La
+saisie « triple-clic + cmd+a + Backspace + frappe du montant » puis « Proposer »
+a envoyé l'offre (conversation thesmil, 16 €). Le blocage « fenêtre masquée »
+consigné le 12/08 ne s'est donc pas reproduit par ce chemin. Le clic par `ref`,
+lui, reste sans effet quand la fenêtre est masquée.
