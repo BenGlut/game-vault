@@ -55,6 +55,12 @@
   (seleste19230, lazzz21)
 - Lot snakeplissken8 (Away Shuffle Dungeon, Rodea, Ninjatown) passé en
   `delivered`, Metroid Prime Federation Force (probotec62) en `fulfilled`
+- Trois nouveaux achats validés le 23-24/09 : Metroid Prime 4: Beyond Nintendo
+  Switch 2 Edition (louistiti92, 30 €, 35,08 € — fiche créée en `switch2` avec
+  `playsOn` switch + switch2, phrase de compatibilité lue sur la jaquette),
+  Mario Strikers Battle League (pastool, 19 €, 23,53 €, complet FR vérifié) et
+  Kirby Star Allies (codrt000, 26 €, 30,88 €, dos FR vérifié). Yoshi Touch & Go
+  remis en wishlist (sa seule entrée était un remboursement)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

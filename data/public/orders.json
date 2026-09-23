@@ -3645,5 +3645,74 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 32.98
+  },
+  {
+    "id": "order_mueng54e",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition",
+        "inventoryId": "inv_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition",
+        "unitPrice": 35.08
+      }
+    ],
+    "orderedAt": "2026-09-23",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 35.08
+  },
+  {
+    "id": "order_mueng7np",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_mario-strikers-battle-league-football"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_mario-strikers-battle-league-football",
+        "inventoryId": "inv_switch_mario-strikers-battle-league-football",
+        "unitPrice": 23.53
+      }
+    ],
+    "orderedAt": "2026-09-23",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 23.53
+  },
+  {
+    "id": "order_mueng9um",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_kirby-star-allies"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_kirby-star-allies",
+        "inventoryId": "inv_switch_kirby-star-allies",
+        "unitPrice": 30.88
+      }
+    ],
+    "orderedAt": "2026-09-24",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 30.88
   }
 ]

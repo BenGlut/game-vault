@@ -13410,5 +13410,34 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition",
+    "kind": "game",
+    "canonicalTitle": "Metroid Prime 4: Beyond - Nintendo Switch 2 Edition",
+    "normalizedTitle": "metroid prime 4 beyond nintendo switch 2 edition",
+    "aliases": [
+      "Metroid Prime 4 Beyond Nintendo Switch 2 Edition",
+      "Metroid Prime 4 Switch 2"
+    ],
+    "franchise": "Metroid",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": "Nintendo Switch 2 Edition",
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

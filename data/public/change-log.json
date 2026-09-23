@@ -1,30 +1,5 @@
 [
   {
-    "at": "2026-08-21T10:50:36.451Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_the-legend-of-spyro-a-new-beginning"
-  },
-  {
-    "at": "2026-08-21T10:50:38.508Z",
-    "command": "add-price",
-    "message": "price observation for game_gamecube_spyro-enter-the-dragonfly"
-  },
-  {
-    "at": "2026-08-21T10:50:40.983Z",
-    "command": "add-price",
-    "message": "price observation for game_gamecube_spyro-enter-the-dragonfly"
-  },
-  {
-    "at": "2026-08-21T10:50:44.205Z",
-    "command": "add-price",
-    "message": "price observation for game_gamecube_spyro-a-hero-s-tail"
-  },
-  {
-    "at": "2026-08-21T10:50:46.603Z",
-    "command": "add-price",
-    "message": "price observation for game_gamecube_spyro-a-hero-s-tail"
-  },
-  {
     "at": "2026-08-21T10:50:50.084Z",
     "command": "add-price",
     "message": "price observation for game_gamecube_the-legend-of-spyro-a-new-beginning"
@@ -2498,5 +2473,30 @@
     "at": "2026-09-23T21:48:26.600Z",
     "command": "ship-order",
     "message": "ship-order order_mu64jli9"
+  },
+  {
+    "at": "2026-09-23T22:03:00.182Z",
+    "command": "add-game",
+    "message": "add game Metroid Prime 4: Beyond - Nintendo Switch 2 Edition (switch2)"
+  },
+  {
+    "at": "2026-09-23T22:03:10.981Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-23T22:03:14.277Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-23T22:03:17.112Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-23T22:03:20.507Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_yoshi-touch-go"
   }
 ]

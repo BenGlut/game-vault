@@ -12592,7 +12592,7 @@
   {
     "id": "inv_switch_mario-strikers-battle-league-football",
     "gameId": "game_switch_mario-strikers-battle-league-football",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12601,8 +12601,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-23T10:52:30.850Z"
+    "orderId": "order_mueng7np",
+    "updatedAt": "2026-09-23T22:03:14.246Z"
   },
   {
     "id": "inv_switch_mario-lapins-cretins-sparks-of-hope",
@@ -12622,7 +12622,7 @@
   {
     "id": "inv_switch_kirby-star-allies",
     "gameId": "game_switch_kirby-star-allies",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12631,8 +12631,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-23T13:14:18.154Z"
+    "orderId": "order_mueng9um",
+    "updatedAt": "2026-09-23T22:03:17.087Z"
   },
   {
     "id": "inv_ds_kirby-le-pinceau-du-pouvoir",
@@ -12708,5 +12708,38 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-09-23T13:50:52.505Z"
+  },
+  {
+    "id": "inv_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition",
+    "gameId": "game_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 35.08,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_mueng54e",
+    "updatedAt": "2026-09-23T22:03:10.959Z"
+  },
+  {
+    "id": "inv_ds_yoshi-touch-go-2",
+    "gameId": "game_ds_yoshi-touch-go",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-09-23T22:03:20.486Z"
   }
 ]
