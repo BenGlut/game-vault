@@ -53,6 +53,8 @@
   complet FR (saphosa, offre vendeur 28 €, 32,98 €). Yoshi's Crafted World ajouté
   en wishlist. Offres Kirby Air Riders concurrentes retirées par message
   (seleste19230, lazzz21)
+- Lot snakeplissken8 (Away Shuffle Dungeon, Rodea, Ninjatown) passé en
+  `delivered`, Metroid Prime Federation Force (probotec62) en `fulfilled`
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

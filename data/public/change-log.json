@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-21T10:50:28.753Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_the-legend-of-spyro-the-eternal-night"
-  },
-  {
-    "at": "2026-08-21T10:50:33.676Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_the-legend-of-spyro-a-new-beginning"
-  },
-  {
     "at": "2026-08-21T10:50:36.451Z",
     "command": "add-price",
     "message": "price observation for game_ds_the-legend-of-spyro-a-new-beginning"
@@ -2498,5 +2488,15 @@
     "at": "2026-09-23T14:03:57.393Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-23T21:48:23.695Z",
+    "command": "receive-order",
+    "message": "receive-order order_mu8hxdrv"
+  },
+  {
+    "at": "2026-09-23T21:48:26.600Z",
+    "command": "ship-order",
+    "message": "ship-order order_mu64jli9"
   }
 ]
