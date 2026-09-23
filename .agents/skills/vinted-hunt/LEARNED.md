@@ -861,3 +861,34 @@ sur 44 jeux de gagadu98 absents de la collection, 14 étaient inacceptables
 (cartouches seules, boîtes UK, US ou espagnoles, un code au lieu d'une
 cartouche, et un « Best of Arcade Games » qui contenait « Best of Board Games »).
 La description (« En bon état ») n'en signalait aucun.
+
+## 2026-09-23 — Balayage wishlist complet : le vendeur est dans le catalogue
+
+Le HTML de `/catalog?search_text=…` embarque pour chaque vignette un objet
+`"productItem":{"id":…,"title":…,"price":{"amount":…},…,"user":{"id":…}}`
+(guillemets échappés `\"` à déséchapper). On obtient donc **le vendeur de chaque
+annonce sans ouvrir la page**, alors que le HTML d'une fiche article ne contient
+que l'identifiant de l'acheteur connecté. Balayage des 45 titres DS/3DS/Switch
+de la wishlist en ~90 s : 2 703 annonces, 2 313 vendeurs, 220 avec au moins deux
+titres de la wishlist.
+
+**Mais le nombre de titres ne fait pas le lot.** Les gros « multi-titres » sont
+des boutiques à prix fixes (34,99 € partout), des importateurs japonais
+(unam.corp, 768 articles « Import Japonais ») ou des revendeurs au prix fort.
+Classer par écart à la médiane, pas par nombre de titres.
+
+**Sur les titres DS rares, sous le q1 = piège, sans exception ce jour-là.**
+Sur 19 annonces à moins de 70 % de la médiane, après filtres : SMT IV US sous
+blister, Hotel Dusk japonais, Phantom Hourglass US puis japonais, trois
+cartouches seules (Hotel Dusk, RE Deadly Silence, KH 358/2 « senza custodia »),
+une boîte Hades vide, un Sparks of Hope « code activé en caisse ». Seule
+survivante : un Paper Mario Origami King Switch à 16,50 € (q1 20 €).
+
+**Nouveau piège : « AUCUNE VALEUR, CODE ACTIVÉ EN CAISSE ».** Étiquette sur des
+boîtes Switch sous blister qui ne contiennent qu'un code, activé au passage en
+caisse du magasin. Revendue neuve sur Vinted, la boîte contient un code
+probablement jamais activé. À rejeter à vue.
+
+**Les variables `window.*` disparaissent à chaque `navigate`** : relancer une
+navigation entre deux étapes d'un balayage efface les résultats. Imprimer ce
+dont on a besoin avant de naviguer.
