@@ -18,6 +18,12 @@
   dressing de gagadu98
 - Paper Mario: The Origami King (Switch) remis en wishlist : sa seule entrée
   était un exemplaire remboursé
+- Lot de 12 jeux proposé à **gagadu98** (conversation 25275301922) : 75 € demandés
+  sur une annonce unique en taille de colis « petit », pour 152 € affichés
+  (129,20 € avec sa remise lot de 15 %). Passer par une annonce unique permet de
+  descendre sous le plancher d'offre Vinted (77,52 € sur ce lot). Les 12 jeux ont
+  été retenus sur 44 après vérification photo : 14 écartés pour cartouche seule,
+  boîte UK, US ou espagnole, code au lieu de cartouche ou mauvais jeu dans la boîte
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

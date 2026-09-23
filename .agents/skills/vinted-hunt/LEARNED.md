@@ -841,3 +841,23 @@ grandes sur les vieux comptes (677 jours chez kellort, 1630 chez nickra11).
 C'est cohérent avec « vu la dernière fois il y a 8 mois / 4 ans » affiché dans
 le fil : ces vendeurs ont disparu. Une offre y coûte zéro mais ne rapportera
 rien — les compter à part dans le taux de succès.
+
+## 2026-09-23 — Descendre sous le plancher d'offre : l'annonce unique
+
+Le plancher Vinted (60 % du prix remisé d'un lot) interdit une offre plus basse
+dans l'interface. Pour aller en dessous, on crée le lot (« Voir le lot » puis
+« Message », jamais « Acheter » ni « Faire une offre ») et on demande par écrit
+au vendeur de recréer **une annonce unique** au prix voulu, en taille de colis
+« petit ». La technique vient d'un vendeur (lothaire.gosset l'a proposée de
+lui-même le 22/09) et elle a l'avantage de fixer aussi la taille du colis.
+
+Côté navigateur : fenêtre Chrome masquée (`visibilityState: hidden`), le clic
+par `ref` sur « Voir le lot » n'a rien fait, mais **le clic par coordonnées a
+ouvert la fenêtre du lot**, et le bouton « Message » puis l'envoi du texte ont
+fonctionné. Seule la fenêtre d'offre reste bloquée quand Chrome est masqué.
+
+Vérifier un dressing de revendeur photo par photo, c'est indispensable :
+sur 44 jeux de gagadu98 absents de la collection, 14 étaient inacceptables
+(cartouches seules, boîtes UK, US ou espagnoles, un code au lieu d'une
+cartouche, et un « Best of Arcade Games » qui contenait « Best of Board Games »).
+La description (« En bon état ») n'en signalait aucun.
