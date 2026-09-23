@@ -5997,5 +5997,71 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_kirby-star-allies",
+    "t": "Kirby Star Allies",
+    "n": "kirby star allies",
+    "a": [
+      "Kirby Star Allies Switch"
+    ],
+    "f": "Kirby",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_kirby-le-pinceau-du-pouvoir",
+    "t": "Kirby : Le Pinceau du Pouvoir",
+    "n": "kirby le pinceau du pouvoir",
+    "a": [
+      "Kirby Canvas Curse",
+      "Kirby Power Paintbrush",
+      "Kirby Pinceau du Pouvoir"
+    ],
+    "f": "Kirby",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_kirby-les-souris-attaquent",
+    "t": "Kirby : Les Souris Attaquent",
+    "n": "kirby les souris attaquent",
+    "a": [
+      "Kirby Squeak Squad",
+      "Kirby Mouse Attack",
+      "Kirby Souris Attaquent"
+    ],
+    "f": "Kirby",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_kirby-s-return-to-dream-land-deluxe",
+    "t": "Kirby's Return to Dream Land Deluxe",
+    "n": "kirby s return to dream land deluxe",
+    "a": [
+      "Kirby Return to Dream Land Deluxe",
+      "Kirby's Adventure Wii Deluxe"
+    ],
+    "f": "Kirby",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch2_kirby-et-le-monde-oublie-nintendo-switch-2-edition-le-pays-des-etoiles-filantes",
+    "t": "Kirby et le Monde Oublié - Nintendo Switch 2 Edition + Le pays des étoiles filantes",
+    "n": "kirby et le monde oublie nintendo switch 2 edition le pays des etoiles filantes",
+    "a": [
+      "Kirby and the Forgotten Land Nintendo Switch 2 Edition",
+      "Kirby Star-Crossed World"
+    ],
+    "f": "Kirby",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

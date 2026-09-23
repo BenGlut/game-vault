@@ -1,55 +1,5 @@
 [
   {
-    "at": "2026-08-21T10:37:44.260Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gba_the-legend-of-spyro-the-eternal-night"
-  },
-  {
-    "at": "2026-08-21T10:37:47.210Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gamecube_spyro-enter-the-dragonfly"
-  },
-  {
-    "at": "2026-08-21T10:37:48.859Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gamecube_spyro-a-hero-s-tail"
-  },
-  {
-    "at": "2026-08-21T10:37:50.924Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_gamecube_the-legend-of-spyro-a-new-beginning"
-  },
-  {
-    "at": "2026-08-21T10:37:52.389Z",
-    "command": "add-inventory",
-    "message": "add inventory for game_switch_spyro-reignited-trilogy"
-  },
-  {
-    "at": "2026-08-21T10:41:54.278Z",
-    "command": "add-game",
-    "message": "add game Spyro Orange : La Conspiration de Cortex (gba)"
-  },
-  {
-    "at": "2026-08-21T10:41:55.504Z",
-    "command": "add-game",
-    "message": "add game The Legend of Spyro: The Eternal Night (wii)"
-  },
-  {
-    "at": "2026-08-21T10:41:58.735Z",
-    "command": "add-game",
-    "message": "add game The Legend of Spyro: Dawn of the Dragon (wii)"
-  },
-  {
-    "at": "2026-08-21T10:42:00.125Z",
-    "command": "add-game",
-    "message": "add game Skylanders: Spyro's Adventure (3ds)"
-  },
-  {
-    "at": "2026-08-21T10:43:04.679Z",
-    "command": "add-price",
-    "message": "price observation for Spyro Orange : La Conspiration de Cortex"
-  },
-  {
     "at": "2026-08-21T10:43:06.758Z",
     "command": "add-price",
     "message": "price observation for Spyro Orange : La Conspiration de Cortex"
@@ -2498,5 +2448,55 @@
     "at": "2026-09-23T10:52:31.811Z",
     "command": "add-inventory",
     "message": "add inventory for game_switch_mario-lapins-cretins-sparks-of-hope"
+  },
+  {
+    "at": "2026-09-23T13:14:11.586Z",
+    "command": "add-game",
+    "message": "add game Kirby Star Allies (switch)"
+  },
+  {
+    "at": "2026-09-23T13:14:18.188Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_kirby-star-allies"
+  },
+  {
+    "at": "2026-09-23T13:17:45.505Z",
+    "command": "add-game",
+    "message": "add game Kirby : Le Pinceau du Pouvoir (ds)"
+  },
+  {
+    "at": "2026-09-23T13:17:47.129Z",
+    "command": "add-game",
+    "message": "add game Kirby : Les Souris Attaquent (ds)"
+  },
+  {
+    "at": "2026-09-23T13:17:52.805Z",
+    "command": "add-game",
+    "message": "add game Kirby's Return to Dream Land Deluxe (switch)"
+  },
+  {
+    "at": "2026-09-23T13:17:58.133Z",
+    "command": "add-game",
+    "message": "add game Kirby et le Monde Oublié - Nintendo Switch 2 Edition + Le pays des étoiles filantes (switch2)"
+  },
+  {
+    "at": "2026-09-23T13:18:14.265Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_kirby-le-pinceau-du-pouvoir"
+  },
+  {
+    "at": "2026-09-23T13:18:16.313Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_kirby-les-souris-attaquent"
+  },
+  {
+    "at": "2026-09-23T13:18:19.200Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch_kirby-s-return-to-dream-land-deluxe"
+  },
+  {
+    "at": "2026-09-23T13:18:21.581Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_switch2_kirby-et-le-monde-oublie-nintendo-switch-2-edition-le-pays-des-etoiles-filantes"
   }
 ]

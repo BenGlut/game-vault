@@ -13251,5 +13251,139 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_kirby-star-allies",
+    "kind": "game",
+    "canonicalTitle": "Kirby Star Allies",
+    "normalizedTitle": "kirby star allies",
+    "aliases": [
+      "Kirby Star Allies Switch"
+    ],
+    "franchise": "Kirby",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2018,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_kirby-le-pinceau-du-pouvoir",
+    "kind": "game",
+    "canonicalTitle": "Kirby : Le Pinceau du Pouvoir",
+    "normalizedTitle": "kirby le pinceau du pouvoir",
+    "aliases": [
+      "Kirby Canvas Curse",
+      "Kirby Power Paintbrush",
+      "Kirby Pinceau du Pouvoir"
+    ],
+    "franchise": "Kirby",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2005,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_kirby-les-souris-attaquent",
+    "kind": "game",
+    "canonicalTitle": "Kirby : Les Souris Attaquent",
+    "normalizedTitle": "kirby les souris attaquent",
+    "aliases": [
+      "Kirby Squeak Squad",
+      "Kirby Mouse Attack",
+      "Kirby Souris Attaquent"
+    ],
+    "franchise": "Kirby",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_kirby-s-return-to-dream-land-deluxe",
+    "kind": "game",
+    "canonicalTitle": "Kirby's Return to Dream Land Deluxe",
+    "normalizedTitle": "kirby s return to dream land deluxe",
+    "aliases": [
+      "Kirby Return to Dream Land Deluxe",
+      "Kirby's Adventure Wii Deluxe"
+    ],
+    "franchise": "Kirby",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2023,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch2_kirby-et-le-monde-oublie-nintendo-switch-2-edition-le-pays-des-etoiles-filantes",
+    "kind": "game",
+    "canonicalTitle": "Kirby et le Monde Oublié - Nintendo Switch 2 Edition + Le pays des étoiles filantes",
+    "normalizedTitle": "kirby et le monde oublie nintendo switch 2 edition le pays des etoiles filantes",
+    "aliases": [
+      "Kirby and the Forgotten Land Nintendo Switch 2 Edition",
+      "Kirby Star-Crossed World"
+    ],
+    "franchise": "Kirby",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": "Nintendo Switch 2 Edition",
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

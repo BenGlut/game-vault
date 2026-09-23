@@ -38,6 +38,14 @@
   Tribulations 58 € (mareck86, 88 €, boîte FR vérifiée) et Animal Crossing New
   Horizons 22 € (lebazardugamer, 27 €, photo du dos demandée). gagadu98 a refusé
   le lot de 12 jeux à 75 €
+- Série Kirby complétée en wishlist (Kirby en boîte sur DS, 3DS, Switch et
+  Switch 2, hors ceux déjà possédés) : Kirby : Le Pinceau du Pouvoir et Kirby :
+  Les Souris Attaquent (DS), Kirby Star Allies et Kirby's Return to Dream Land
+  Deluxe (Switch), Kirby et le Monde Oublié Nintendo Switch 2 Edition (`playsOn`
+  switch + switch2). Offre de 21 € sur un Kirby Star Allies en boîte FR
+  (laurianne06220, 27 €, 31 jours en ligne). Les Kirby uniquement en
+  téléchargement (Fighters 2, Dream Buffet, Super Kirby Clash, Team Kirby Clash
+  Deluxe, Blowout Blast…) ne sont pas ajoutés : il n'en existe pas de boîte
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
