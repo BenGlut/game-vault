@@ -528,3 +528,32 @@ description.
 
 La méthode vaut aussi pour les lots de jeux seuls : c'est la même arithmétique
 sans la console.
+
+## Le message qui accompagne une offre
+
+Consigne de benglut, 2026-09-23 : **toute offre part avec un message court qui
+dit pourquoi ce montant**, sans étaler le raisonnement. Le modèle :
+
+> Bonjour, je vous propose ce lot de X jeux. J'ai remarqué que ces articles sont
+> en ligne depuis plus de 30 jours et que leurs prix sont au-dessus de la médiane
+> constatée en ce moment sur Vinted. C'est pourquoi je vous propose un ajustement
+> plus proche de la réalité du marché pour l'ensemble. Je règle dès votre accord.
+> Pouvez-vous prévoir la plus petite taille de colis possible ? Merci et bonne
+> journée.
+
+Ce que le message fait : il donne **deux faits vérifiables** (ancienneté de
+l'annonce, prix au-dessus de la médiane) et une conséquence. Le vendeur comprend
+que le montant n'est pas au hasard, sans qu'on lui récite un relevé.
+
+Ce qu'il ne fait jamais :
+
+- **citer un chiffre de médiane précis** — ça invite à la contre-expertise et ça
+  révèle qu'on a un plancher ;
+- **détailler jeu par jeu** — une offre de lot se défend en bloc ;
+- **s'excuser du montant** ou l'annoncer comme négociable ;
+- **révéler jusqu'où on peut monter**.
+
+Adapter à l'article seul : « cet article est en ligne depuis plus de 30 jours »
+au singulier. Quand l'annonce est récente, retirer la mention d'ancienneté et ne
+garder que le prix au-dessus du marché — ne jamais inventer une ancienneté, elle
+se vérifie en deux clics côté vendeur.
