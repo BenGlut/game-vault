@@ -64,6 +64,11 @@
 - Yoshi Touch & Go (DS) acheté chez justy013 à 10 € (14,08 € tout compris),
   complet PAL avec notice et cartouche ; marché n=106, médiane 17 €. Langue du
   dos de boîte non photographiée, à vérifier à réception
+- Kirby : Les Souris Attaquent (DS) acheté chez charlie.harper au prix affiché
+  64,99 € (72,13 € tout compris), seul exemplaire complet FR/multilingue de
+  Vinted. Synchronisation des statuts sur Vinted : 5 commandes passées en
+  `fulfilled`, 6 en `delivered` (Xenoblade 3D, Micro Maniacs, Sonic Mania Plus,
+  Hyrule Warriors Legends, Luigi's Mansion 3, Metroid Prime Hunters)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

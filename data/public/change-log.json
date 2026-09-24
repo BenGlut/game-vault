@@ -1,80 +1,5 @@
 [
   {
-    "at": "2026-08-21T10:50:52.216Z",
-    "command": "add-price",
-    "message": "price observation for game_gamecube_the-legend-of-spyro-a-new-beginning"
-  },
-  {
-    "at": "2026-08-21T10:50:54.267Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_spyro-season-of-ice"
-  },
-  {
-    "at": "2026-08-21T10:50:56.210Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_spyro-season-of-ice"
-  },
-  {
-    "at": "2026-08-21T10:50:57.671Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_spyro-2-season-of-flame"
-  },
-  {
-    "at": "2026-08-21T10:50:59.093Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_spyro-2-season-of-flame"
-  },
-  {
-    "at": "2026-08-21T10:51:00.706Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_spyro-fusion"
-  },
-  {
-    "at": "2026-08-21T10:51:02.511Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_spyro-fusion"
-  },
-  {
-    "at": "2026-08-21T10:51:03.685Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_the-legend-of-spyro-a-new-beginning"
-  },
-  {
-    "at": "2026-08-21T10:51:04.929Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_the-legend-of-spyro-a-new-beginning"
-  },
-  {
-    "at": "2026-08-21T10:51:06.008Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_the-legend-of-spyro-the-eternal-night"
-  },
-  {
-    "at": "2026-08-21T10:51:07.498Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_the-legend-of-spyro-the-eternal-night"
-  },
-  {
-    "at": "2026-08-21T10:51:08.655Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_spyro-reignited-trilogy"
-  },
-  {
-    "at": "2026-08-21T10:51:09.854Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_spyro-reignited-trilogy"
-  },
-  {
-    "at": "2026-08-21T19:00:30.995Z",
-    "command": "receive-order",
-    "message": "receive-order order_mswerxed"
-  },
-  {
-    "at": "2026-08-21T19:00:31.672Z",
-    "command": "receive-order",
-    "message": "receive-order order_msxxlp03"
-  },
-  {
     "at": "2026-08-21T19:00:32.365Z",
     "command": "receive-order",
     "message": "receive-order order_mswerwnt"
@@ -2498,5 +2423,80 @@
     "at": "2026-09-23T22:39:28.218Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-24T20:59:45.483Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-09-24T20:59:58.774Z",
+    "command": "ship-order",
+    "message": "ship-order order_mug0mfg7"
+  },
+  {
+    "at": "2026-09-24T21:00:00.615Z",
+    "command": "ship-order",
+    "message": "ship-order order_mueng54e"
+  },
+  {
+    "at": "2026-09-24T21:00:01.377Z",
+    "command": "ship-order",
+    "message": "ship-order order_mue6buny"
+  },
+  {
+    "at": "2026-09-24T21:00:02.359Z",
+    "command": "ship-order",
+    "message": "ship-order order_mue67hwq"
+  },
+  {
+    "at": "2026-09-24T21:00:03.419Z",
+    "command": "ship-order",
+    "message": "ship-order order_mud5ome2"
+  },
+  {
+    "at": "2026-09-24T21:00:04.245Z",
+    "command": "ship-order",
+    "message": "ship-order order_mub9n130"
+  },
+  {
+    "at": "2026-09-24T21:00:05.367Z",
+    "command": "ship-order",
+    "message": "ship-order order_mu94ln98"
+  },
+  {
+    "at": "2026-09-24T21:00:06.349Z",
+    "command": "ship-order",
+    "message": "ship-order order_muae8842"
+  },
+  {
+    "at": "2026-09-24T21:00:07.050Z",
+    "command": "receive-order",
+    "message": "receive-order order_mub9n130"
+  },
+  {
+    "at": "2026-09-24T21:00:07.781Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtt4do8g"
+  },
+  {
+    "at": "2026-09-24T21:00:08.696Z",
+    "command": "receive-order",
+    "message": "receive-order order_mu94ln98"
+  },
+  {
+    "at": "2026-09-24T21:00:09.858Z",
+    "command": "receive-order",
+    "message": "receive-order order_muae8842"
+  },
+  {
+    "at": "2026-09-24T21:00:10.821Z",
+    "command": "receive-order",
+    "message": "receive-order order_mu94lisr"
+  },
+  {
+    "at": "2026-09-24T21:00:11.576Z",
+    "command": "receive-order",
+    "message": "receive-order order_mu7qriip"
   }
 ]

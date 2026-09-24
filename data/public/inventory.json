@@ -7693,17 +7693,17 @@
   {
     "id": "inv_switch_sonic-mania",
     "gameId": "game_switch_sonic-mania",
-    "status": "ordered",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-24",
     "orderId": "order_mu94ln98",
-    "updatedAt": "2026-09-20T01:16:44.156Z"
+    "updatedAt": "2026-09-24T21:00:08.669Z"
   },
   {
     "id": "inv_switch_sonic-frontiers",
@@ -7757,7 +7757,7 @@
   {
     "id": "inv_switch_team-sonic-racing",
     "gameId": "game_switch_team-sonic-racing",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7767,7 +7767,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mue67hwq",
-    "updatedAt": "2026-09-23T14:00:34.157Z"
+    "updatedAt": "2026-09-24T21:00:02.310Z"
   },
   {
     "id": "inv_switch_sonic-x-shadow-generations",
@@ -8150,7 +8150,7 @@
   {
     "id": "inv_switch_metroid-prime-remastered",
     "gameId": "game_switch_metroid-prime-remastered",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -8160,7 +8160,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mue6buny",
-    "updatedAt": "2026-09-23T14:03:57.310Z"
+    "updatedAt": "2026-09-24T21:00:01.356Z"
   },
   {
     "id": "inv_switch_xenoblade-chronicles-3",
@@ -8913,17 +8913,17 @@
   {
     "id": "inv_3ds_hyrule-warriors-legends-2",
     "gameId": "game_3ds_hyrule-warriors-legends",
-    "status": "ordered",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-24",
     "orderId": "order_muae8842",
-    "updatedAt": "2026-09-20T22:34:00.338Z"
+    "updatedAt": "2026-09-24T21:00:09.836Z"
   },
   {
     "id": "inv_ds_sonic-classic-collection-2",
@@ -8958,17 +8958,17 @@
   {
     "id": "inv_switch_luigi-s-mansion-3-3",
     "gameId": "game_switch_luigi-s-mansion-3",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-24",
     "orderId": "order_mu94lisr",
-    "updatedAt": "2026-09-20T16:48:31.475Z"
+    "updatedAt": "2026-09-24T21:00:10.801Z"
   },
   {
     "id": "inv_switch_super-mario-odyssey-3",
@@ -11864,7 +11864,7 @@
   {
     "id": "inv_gbc_micro-maniacs",
     "gameId": "game_gbc_micro-maniacs",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "loose",
@@ -11873,11 +11873,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-24",
     "orderId": "order_mtt4do8g",
-    "updatedAt": "2026-09-15T22:12:44.580Z"
+    "updatedAt": "2026-09-24T21:00:07.760Z"
   },
   {
     "id": "inv_3ds_tekken-3d-prime-edition",
@@ -11900,17 +11900,17 @@
   {
     "id": "inv_ds_metroid-prime-hunters",
     "gameId": "game_ds_metroid-prime-hunters",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-24",
     "orderId": "order_mu7qriip",
-    "updatedAt": "2026-09-19T23:43:55.492Z"
+    "updatedAt": "2026-09-24T21:00:11.553Z"
   },
   {
     "id": "inv_ds_metroid-prime-pinball",
@@ -12029,7 +12029,7 @@
   {
     "id": "inv_ds_secret-files-tunguska",
     "gameId": "game_ds_secret-files-tunguska",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12039,7 +12039,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mud5ome2",
-    "updatedAt": "2026-09-22T20:58:07.337Z"
+    "updatedAt": "2026-09-24T21:00:03.387Z"
   },
   {
     "id": "inv_ds_hotel-dusk-room-215",
@@ -12164,7 +12164,7 @@
   {
     "id": "inv_ds_so-blonde-retour-sur-l-ile",
     "gameId": "game_ds_so-blonde-retour-sur-l-ile",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12178,7 +12178,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mud5ome2",
-    "updatedAt": "2026-09-22T20:58:07.323Z"
+    "updatedAt": "2026-09-24T21:00:03.389Z"
   },
   {
     "id": "inv_ds_away-shuffle-dungeon",
@@ -12240,7 +12240,7 @@
   {
     "id": "inv_3ds_xenoblade-chronicles-3d",
     "gameId": "game_3ds_xenoblade-chronicles-3d",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12250,11 +12250,11 @@
       "includesShipping": true
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-24",
     "orderId": "order_mub9n130",
-    "updatedAt": "2026-09-21T13:13:19.164Z"
+    "updatedAt": "2026-09-24T21:00:07.026Z"
   },
   {
     "id": "inv_ds_away-shuffle-dungeon-2",
@@ -12652,7 +12652,7 @@
   {
     "id": "inv_ds_kirby-les-souris-attaquent",
     "gameId": "game_ds_kirby-les-souris-attaquent",
-    "status": "wishlist",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12661,8 +12661,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-23T13:18:16.221Z"
+    "orderId": "order_mug0mfg7",
+    "updatedAt": "2026-09-24T20:59:58.754Z"
   },
   {
     "id": "inv_switch_kirby-s-return-to-dream-land-deluxe",
@@ -12712,7 +12712,7 @@
   {
     "id": "inv_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition",
     "gameId": "game_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12725,7 +12725,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mueng54e",
-    "updatedAt": "2026-09-23T22:03:10.959Z"
+    "updatedAt": "2026-09-24T21:00:00.590Z"
   },
   {
     "id": "inv_ds_yoshi-touch-go-2",
