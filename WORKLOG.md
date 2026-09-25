@@ -69,6 +69,10 @@
   Vinted. Synchronisation des statuts sur Vinted : 5 commandes passées en
   `fulfilled`, 6 en `delivered` (Xenoblade 3D, Micro Maniacs, Sonic Mania Plus,
   Hyrule Warriors Legends, Luigi's Mansion 3, Metroid Prime Hunters)
+- Apollo Justice: Ace Attorney (DS) créé au catalogue et mis en wishlist. Yoshi
+  Touch & Go et Mario Strikers passés en `fulfilled`. mareck86 a refusé 68 € pour
+  Phoenix Wright Trials and Tribulations ; mr.offspring vend la série Ace Attorney
+  DS complète, les trois boîtes vérifiées FR (multilingue pour AA et JFA, FR pour T&T)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

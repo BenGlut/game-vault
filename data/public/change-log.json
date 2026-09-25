@@ -1,25 +1,5 @@
 [
   {
-    "at": "2026-08-21T19:00:32.365Z",
-    "command": "receive-order",
-    "message": "receive-order order_mswerwnt"
-  },
-  {
-    "at": "2026-08-21T19:00:33.251Z",
-    "command": "receive-order",
-    "message": "receive-order order_msrxjkr8"
-  },
-  {
-    "at": "2026-08-21T19:00:33.924Z",
-    "command": "receive-order",
-    "message": "receive-order order_msmi1nvb"
-  },
-  {
-    "at": "2026-08-21T19:00:34.601Z",
-    "command": "ship-order",
-    "message": "ship-order order_mswcmos1"
-  },
-  {
     "at": "2026-08-21T19:32:32.854Z",
     "command": "set-status",
     "message": "set inv_3ds_nintendo-3ds-xl-edition-animal-crossing -> delivered"
@@ -2498,5 +2478,25 @@
     "at": "2026-09-24T21:00:11.576Z",
     "command": "receive-order",
     "message": "receive-order order_mu7qriip"
+  },
+  {
+    "at": "2026-09-25T12:25:41.491Z",
+    "command": "add-game",
+    "message": "add game Apollo Justice: Ace Attorney (ds)"
+  },
+  {
+    "at": "2026-09-25T12:26:38.563Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_ds_apollo-justice-ace-attorney"
+  },
+  {
+    "at": "2026-09-25T12:27:19.734Z",
+    "command": "ship-order",
+    "message": "ship-order order_mueoqt2h"
+  },
+  {
+    "at": "2026-09-25T12:27:22.931Z",
+    "command": "ship-order",
+    "message": "ship-order order_mueng7np"
   }
 ]

@@ -13439,5 +13439,31 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_ds_apollo-justice-ace-attorney",
+    "kind": "game",
+    "canonicalTitle": "Apollo Justice: Ace Attorney",
+    "normalizedTitle": "apollo justice ace attorney",
+    "aliases": [
+      "Ace Attorney Apollo Justice",
+      "Apollo Justice"
+    ],
+    "franchise": "Ace Attorney",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

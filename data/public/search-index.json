@@ -6088,5 +6088,18 @@
     "p": "switch2",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_ds_apollo-justice-ace-attorney",
+    "t": "Apollo Justice: Ace Attorney",
+    "n": "apollo justice ace attorney",
+    "a": [
+      "Ace Attorney Apollo Justice",
+      "Apollo Justice"
+    ],
+    "f": "Ace Attorney",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
