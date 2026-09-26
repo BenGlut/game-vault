@@ -1,75 +1,5 @@
 [
   {
-    "at": "2026-08-21T19:32:32.854Z",
-    "command": "set-status",
-    "message": "set inv_3ds_nintendo-3ds-xl-edition-animal-crossing -> delivered"
-  },
-  {
-    "at": "2026-08-21T19:32:33.621Z",
-    "command": "set-status",
-    "message": "set inv_3ds_tomodachi-life -> delivered"
-  },
-  {
-    "at": "2026-08-21T19:32:34.411Z",
-    "command": "set-status",
-    "message": "set inv_3ds_mario-kart-7-2 -> delivered"
-  },
-  {
-    "at": "2026-08-21T19:32:35.041Z",
-    "command": "set-status",
-    "message": "set inv_3ds_new-super-mario-bros-2-2 -> delivered"
-  },
-  {
-    "at": "2026-08-21T19:32:35.686Z",
-    "command": "set-status",
-    "message": "set inv_3ds_luigi-s-mansion-2-5 -> delivered"
-  },
-  {
-    "at": "2026-08-21T19:32:36.485Z",
-    "command": "set-status",
-    "message": "set inv_ds_lapin-malin-j-apprends-a-lire-et-a-ecrire-5-7-ans -> delivered"
-  },
-  {
-    "at": "2026-08-21T19:32:37.282Z",
-    "command": "set-status",
-    "message": "set inv_ds_totally-spies-3 -> delivered"
-  },
-  {
-    "at": "2026-08-21T19:32:37.919Z",
-    "command": "set-status",
-    "message": "set inv_ds_winx-club -> delivered"
-  },
-  {
-    "at": "2026-08-21T20:30:11.684Z",
-    "command": "receive-order",
-    "message": "receive-order order_mt0pak4w"
-  },
-  {
-    "at": "2026-08-21T20:30:48.705Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_shin-megami-tensei-v-vengeance"
-  },
-  {
-    "at": "2026-08-21T20:30:49.932Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_shin-megami-tensei-v-vengeance"
-  },
-  {
-    "at": "2026-08-21T20:30:51.109Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_ori-the-collection"
-  },
-  {
-    "at": "2026-08-21T20:30:52.024Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_ori-the-collection"
-  },
-  {
-    "at": "2026-08-21T20:30:53.984Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_paper-mario-la-porte-millenaire"
-  },
-  {
     "at": "2026-08-21T20:30:55.624Z",
     "command": "add-price",
     "message": "price observation for game_switch_paper-mario-la-porte-millenaire"
@@ -2498,5 +2428,75 @@
     "at": "2026-09-25T12:27:22.931Z",
     "command": "ship-order",
     "message": "ship-order order_mueng7np"
+  },
+  {
+    "at": "2026-09-26T23:36:06.260Z",
+    "command": "ship-order",
+    "message": "ship-order order_mu7krcms"
+  },
+  {
+    "at": "2026-09-26T23:36:07.315Z",
+    "command": "ship-order",
+    "message": "ship-order order_mu93w0tc"
+  },
+  {
+    "at": "2026-09-26T23:36:08.494Z",
+    "command": "ship-order",
+    "message": "ship-order order_muae84i6"
+  },
+  {
+    "at": "2026-09-26T23:36:09.274Z",
+    "command": "ship-order",
+    "message": "ship-order order_mue67crz"
+  },
+  {
+    "at": "2026-09-26T23:36:10.041Z",
+    "command": "ship-order",
+    "message": "ship-order order_mue6brss"
+  },
+  {
+    "at": "2026-09-26T23:36:10.921Z",
+    "command": "ship-order",
+    "message": "ship-order order_mueng9um"
+  },
+  {
+    "at": "2026-09-26T23:36:11.627Z",
+    "command": "receive-order",
+    "message": "receive-order order_mtz3box1"
+  },
+  {
+    "at": "2026-09-26T23:36:12.828Z",
+    "command": "receive-order",
+    "message": "receive-order order_mu64jli9"
+  },
+  {
+    "at": "2026-09-26T23:36:13.741Z",
+    "command": "receive-order",
+    "message": "receive-order order_mu7krcms"
+  },
+  {
+    "at": "2026-09-26T23:36:14.812Z",
+    "command": "receive-order",
+    "message": "receive-order order_mu93w0tc"
+  },
+  {
+    "at": "2026-09-26T23:36:15.598Z",
+    "command": "receive-order",
+    "message": "receive-order order_mu93w5la"
+  },
+  {
+    "at": "2026-09-26T23:36:16.284Z",
+    "command": "receive-order",
+    "message": "receive-order order_muae84i6"
+  },
+  {
+    "at": "2026-09-26T23:36:17.374Z",
+    "command": "receive-order",
+    "message": "receive-order order_mubbqyam"
+  },
+  {
+    "at": "2026-09-26T23:36:18.533Z",
+    "command": "receive-order",
+    "message": "receive-order order_mueng7np"
   }
 ]

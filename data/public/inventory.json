@@ -7449,17 +7449,17 @@
   {
     "id": "inv_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
     "gameId": "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
-    "status": "ordered",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_muae84i6",
-    "updatedAt": "2026-09-20T22:33:55.663Z"
+    "updatedAt": "2026-09-26T23:36:16.262Z"
   },
   {
     "id": "inv_3ds_layton-s-mystery-journey-katrielle-et-la-conspiration-des-millionnaires",
@@ -7742,17 +7742,17 @@
   {
     "id": "inv_switch_sonic-superstars",
     "gameId": "game_switch_sonic-superstars",
-    "status": "ordered",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_mu7krcms",
-    "updatedAt": "2026-09-18T23:13:31.828Z"
+    "updatedAt": "2026-09-26T23:36:13.709Z"
   },
   {
     "id": "inv_switch_team-sonic-racing",
@@ -8928,17 +8928,17 @@
   {
     "id": "inv_ds_sonic-classic-collection-2",
     "gameId": "game_ds_sonic-classic-collection",
-    "status": "ordered",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_mu93w0tc",
-    "updatedAt": "2026-09-20T00:56:48.673Z"
+    "updatedAt": "2026-09-26T23:36:14.782Z"
   },
   {
     "id": "inv_ds_the-legend-of-zelda-phantom-hourglass-2",
@@ -11930,17 +11930,17 @@
   {
     "id": "inv_3ds_metroid-prime-federation-force",
     "gameId": "game_3ds_metroid-prime-federation-force",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_mu64jli9",
-    "updatedAt": "2026-09-23T21:48:26.566Z"
+    "updatedAt": "2026-09-26T23:36:12.806Z"
   },
   {
     "id": "inv_switch_metroid-prime-4-beyond",
@@ -12313,7 +12313,7 @@
   {
     "id": "inv_switch_octopath-traveler",
     "gameId": "game_switch_octopath-traveler",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12322,11 +12322,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_mu93w5la",
-    "updatedAt": "2026-09-20T16:48:38.027Z"
+    "updatedAt": "2026-09-26T23:36:15.576Z"
   },
   {
     "id": "inv_3ds_resident-evil-the-mercenaries-3d-2",
@@ -12349,7 +12349,7 @@
   {
     "id": "inv_ds_star-fox-command",
     "gameId": "game_ds_star-fox-command",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12358,16 +12358,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_muae84i6",
-    "updatedAt": "2026-09-20T22:33:55.663Z"
+    "updatedAt": "2026-09-26T23:36:16.263Z"
   },
   {
     "id": "inv_switch_crash-bandicoot-n-sane-trilogy",
     "gameId": "game_switch_crash-bandicoot-n-sane-trilogy",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12376,16 +12376,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_muae84i6",
-    "updatedAt": "2026-09-20T22:33:55.664Z"
+    "updatedAt": "2026-09-26T23:36:16.263Z"
   },
   {
     "id": "inv_switch_super-monkey-ball-banana-blitz-hd",
     "gameId": "game_switch_super-monkey-ball-banana-blitz-hd",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12394,16 +12394,16 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_muae84i6",
-    "updatedAt": "2026-09-20T22:33:55.664Z"
+    "updatedAt": "2026-09-26T23:36:16.263Z"
   },
   {
     "id": "inv_3ds_heroes-of-ruin",
     "gameId": "game_3ds_heroes-of-ruin",
-    "status": "ordered",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12412,11 +12412,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_muae84i6",
-    "updatedAt": "2026-09-20T22:33:55.664Z"
+    "updatedAt": "2026-09-26T23:36:16.263Z"
   },
   {
     "id": "inv_switch_the-legend-of-zelda-skyward-sword-hd",
@@ -12439,7 +12439,7 @@
   {
     "id": "inv_switch_super-mario-odyssey-4",
     "gameId": "game_switch_super-mario-odyssey",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12448,11 +12448,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_mubbqyam",
-    "updatedAt": "2026-09-21T14:12:26.209Z"
+    "updatedAt": "2026-09-26T23:36:17.021Z"
   },
   {
     "id": "inv_switch_nintendo-switch",
@@ -12517,7 +12517,7 @@
   {
     "id": "inv_switch_kirby-et-le-monde-oublie",
     "gameId": "game_switch_kirby-et-le-monde-oublie",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12527,12 +12527,12 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mue6brss",
-    "updatedAt": "2026-09-23T14:03:53.596Z"
+    "updatedAt": "2026-09-26T23:36:10.019Z"
   },
   {
     "id": "inv_switch2_kirby-air-riders",
     "gameId": "game_switch2_kirby-air-riders",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12542,7 +12542,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mue67crz",
-    "updatedAt": "2026-09-23T14:00:27.506Z"
+    "updatedAt": "2026-09-26T23:36:09.248Z"
   },
   {
     "id": "inv_switch_professeur-layton-et-le-nouveau-monde-a-vapeur",
@@ -12592,17 +12592,17 @@
   {
     "id": "inv_switch_mario-strikers-battle-league-football",
     "gameId": "game_switch_mario-strikers-battle-league-football",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-27",
     "orderId": "order_mueng7np",
-    "updatedAt": "2026-09-25T12:27:22.902Z"
+    "updatedAt": "2026-09-26T23:36:18.499Z"
   },
   {
     "id": "inv_switch_mario-lapins-cretins-sparks-of-hope",
@@ -12622,7 +12622,7 @@
   {
     "id": "inv_switch_kirby-star-allies",
     "gameId": "game_switch_kirby-star-allies",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12632,7 +12632,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_mueng9um",
-    "updatedAt": "2026-09-23T22:03:17.087Z"
+    "updatedAt": "2026-09-26T23:36:10.892Z"
   },
   {
     "id": "inv_ds_kirby-le-pinceau-du-pouvoir",

@@ -73,6 +73,16 @@
   Touch & Go et Mario Strikers passés en `fulfilled`. mareck86 a refusé 68 € pour
   Phoenix Wright Trials and Tribulations ; mr.offspring vend la série Ace Attorney
   DS complète, les trois boîtes vérifiées FR (multilingue pour AA et JFA, FR pour T&T)
+- **Plus aucune fiche sans illustration** (`public/covers/`) : 9 packshots Switch
+  via l'eShop, puis 18 posées à la main avec `set-cover` — Sparks of Hope, Kirby Air
+  Riders, Metroid Prime 4 et Kirby Monde Oublié Switch 2 Edition depuis des photos
+  d'annonces Vinted de boîtes FR (l'eShop n'a pas de packshot Switch 2), So Blonde
+  recadrée depuis la photo de l'annonce achetée, et les 13 consoles et accessoires
+  depuis Wikimedia Commons (miniatures 960 px : la taille 800 px renvoie HTTP 400)
+- Statuts Vinted synchronisés le 27/09 : 8 commandes passent en `delivered`
+  (Castlevania, Federation Force, Sonic Superstars, Sonic Classic Collection,
+  Octopath Traveler, lot enzor944, Super Mario Odyssey, Mario Strikers), 3 en
+  `fulfilled` (Kirby Air Riders, Kirby Monde Oublié, Kirby Star Allies)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

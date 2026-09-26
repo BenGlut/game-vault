@@ -2979,7 +2979,7 @@
   {
     "id": "order_mtz3box1",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_ds_castlevania-dawn-of-sorrow"
@@ -2993,7 +2993,7 @@
     ],
     "orderedAt": "2026-09-13",
     "fulfilledAt": "2026-09-19",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3077,7 +3077,7 @@
   {
     "id": "order_mu64jli9",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_metroid-prime-federation-force"
@@ -3091,7 +3091,7 @@
     ],
     "orderedAt": "2026-09-17",
     "fulfilledAt": "2026-09-23",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3123,7 +3123,7 @@
   {
     "id": "order_mu7krcms",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_sonic-superstars"
@@ -3136,8 +3136,8 @@
       }
     ],
     "orderedAt": "2026-09-18",
-    "fulfilledAt": null,
-    "deliveredAt": null,
+    "fulfilledAt": "2026-09-27",
+    "deliveredAt": "2026-09-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3274,7 +3274,7 @@
   {
     "id": "order_mu93w0tc",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_ds_sonic-classic-collection"
@@ -3287,8 +3287,8 @@
       }
     ],
     "orderedAt": "2026-09-20",
-    "fulfilledAt": null,
-    "deliveredAt": null,
+    "fulfilledAt": "2026-09-27",
+    "deliveredAt": "2026-09-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3297,7 +3297,7 @@
   {
     "id": "order_mu93w5la",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_octopath-traveler"
@@ -3311,7 +3311,7 @@
     ],
     "orderedAt": "2026-09-20",
     "fulfilledAt": "2026-09-20",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3389,7 +3389,7 @@
   {
     "id": "order_muae84i6",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 5,
     "gameIds": [
       "game_3ds_professeur-layton-vs-phoenix-wright-ace-attorney",
@@ -3426,8 +3426,8 @@
       }
     ],
     "orderedAt": "2026-09-20",
-    "fulfilledAt": null,
-    "deliveredAt": null,
+    "fulfilledAt": "2026-09-27",
+    "deliveredAt": "2026-09-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3505,7 +3505,7 @@
   {
     "id": "order_mubbqyam",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_super-mario-odyssey"
@@ -3519,7 +3519,7 @@
     ],
     "orderedAt": "2026-09-21",
     "fulfilledAt": "2026-09-21",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3557,7 +3557,7 @@
   {
     "id": "order_mue67crz",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch2_kirby-air-riders"
@@ -3570,7 +3570,7 @@
       }
     ],
     "orderedAt": "2026-09-23",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-27",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3603,7 +3603,7 @@
   {
     "id": "order_mue6brss",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_kirby-et-le-monde-oublie"
@@ -3616,7 +3616,7 @@
       }
     ],
     "orderedAt": "2026-09-23",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-27",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3672,7 +3672,7 @@
   {
     "id": "order_mueng7np",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_mario-strikers-battle-league-football"
@@ -3686,7 +3686,7 @@
     ],
     "orderedAt": "2026-09-23",
     "fulfilledAt": "2026-09-25",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-27",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3695,7 +3695,7 @@
   {
     "id": "order_mueng9um",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_kirby-star-allies"
@@ -3708,7 +3708,7 @@
       }
     ],
     "orderedAt": "2026-09-24",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-09-27",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
