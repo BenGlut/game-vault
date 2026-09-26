@@ -85,6 +85,11 @@
   `fulfilled` (Kirby Air Riders, Kirby Monde Oublié, Kirby Star Allies)
 - The Legend of Zelda: Skyward Sword HD (Amazon, 403-5291269-6937148) passé en
   `delivered`, livré le 21/09 selon la page de commande Amazon
+- Jaquettes des 5 jeux Switch 2 remplacées par les packshots officiels des boîtes
+  françaises (fiches Amazon.fr, fond blanc, 800 px) : Kirby Air Riders, Metroid
+  Prime 4 et Kirby Monde Oublié Switch 2 Edition, Final Fantasy VII Rebirth et
+  Remake Intergrade. Les photos d'annonces Vinted posées la veille étaient de
+  travers et mal éclairées
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
