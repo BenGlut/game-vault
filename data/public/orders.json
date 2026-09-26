@@ -3459,7 +3459,7 @@
   {
     "id": "order_muaxodqi",
     "marketplace": "amazon",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_the-legend-of-zelda-skyward-sword-hd"
@@ -3473,7 +3473,7 @@
     ],
     "orderedAt": "2026-09-19",
     "fulfilledAt": "2026-09-20",
-    "deliveredAt": null,
+    "deliveredAt": "2026-09-21",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,

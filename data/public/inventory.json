@@ -12421,7 +12421,7 @@
   {
     "id": "inv_switch_the-legend-of-zelda-skyward-sword-hd",
     "gameId": "game_switch_the-legend-of-zelda-skyward-sword-hd",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12430,11 +12430,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-09-21",
     "orderId": "order_muaxodqi",
-    "updatedAt": "2026-09-21T07:38:40.844Z"
+    "updatedAt": "2026-09-26T23:47:02.768Z"
   },
   {
     "id": "inv_switch_super-mario-odyssey-4",

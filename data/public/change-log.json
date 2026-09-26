@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-21T20:30:55.624Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_paper-mario-la-porte-millenaire"
-  },
-  {
     "at": "2026-08-21T20:37:03.140Z",
     "command": "add-game",
     "message": "add game Tomb Raider IV-VI Remastered Starring Lara Croft (switch)"
@@ -2498,5 +2493,10 @@
     "at": "2026-09-26T23:36:18.533Z",
     "command": "receive-order",
     "message": "receive-order order_mueng7np"
+  },
+  {
+    "at": "2026-09-26T23:47:02.814Z",
+    "command": "receive-order",
+    "message": "receive-order order_muaxodqi"
   }
 ]

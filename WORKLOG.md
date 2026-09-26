@@ -83,6 +83,8 @@
   (Castlevania, Federation Force, Sonic Superstars, Sonic Classic Collection,
   Octopath Traveler, lot enzor944, Super Mario Odyssey, Mario Strikers), 3 en
   `fulfilled` (Kirby Air Riders, Kirby Monde Oublié, Kirby Star Allies)
+- The Legend of Zelda: Skyward Sword HD (Amazon, 403-5291269-6937148) passé en
+  `delivered`, livré le 21/09 selon la page de commande Amazon
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
