@@ -950,3 +950,25 @@ bande-son, World of Final Fantasy = version PS4. Seul le Kirby Air Riders à 30 
 de sountine était propre. **Un vendeur qui propose une remise spontanée a
 souvent un article que personne ne prend, pour une raison que la photo montre.**
 Ne jamais accepter une offre vendeur avant d'avoir vu toutes les photos.
+
+## 2026-09-27 — Envoyer un message sans la zone de saisie : l'API `replies`
+
+Onglet masqué, la page `/inbox/<id>` ne rend parfois ni la conversation ni la
+zone de message (pas de `textarea` après 20 s). L'envoi direct par l'API marche :
+
+- jeton CSRF : dans le HTML de n'importe quelle page Vinted, clé `CSRF_TOKEN`
+  (chaîne JSON échappée, 36 caractères) ;
+- anon id : cookie `anon_id` ;
+- `POST /api/v2/conversations/<id>/replies` en XHR, en-têtes `X-CSRF-Token`,
+  `X-Anon-Id`, `Locale: fr-FR`, `Content-Type: application/json`, corps
+  `{"reply":{"body":"…","photo_temp_uuids":null,"is_personal_data_sharing_check_skipped":false}}`
+  → `200` et le message apparaît dans `/api/v2/conversations/<id>`.
+
+Mêmes en-têtes pour `POST /api/v2/user_favourites/toggle` : plus besoin de capter
+une requête de la page pour mettre en favori.
+
+Balayage « nouveautés » de la wishlist du jour (29 titres, `order=newest_first`,
+plafond ≈ q1) : sur 21 descriptions lues, 2 affaires propres seulement (Sparks of
+Hope édition Cosmique à 9,58 €, Spyro Reignited Trilogy à 15 €). Tout le reste :
+code seul dans la boîte, boîte anglaise, version japonaise ou US, italien, boîte
+sans jeu. Sur les DS rares, le taux de piège reste proche de 100 %.
