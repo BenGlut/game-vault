@@ -90,6 +90,8 @@
   Prime 4 et Kirby Monde Oublié Switch 2 Edition, Final Fantasy VII Rebirth et
   Remake Intergrade. Les photos d'annonces Vinted posées la veille étaient de
   travers et mal éclairées
+- Console Nintendo Switch 2 : photo Wikimedia remplacée par la boîte officielle
+  (fiche Amazon.fr)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
