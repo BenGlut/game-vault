@@ -92,6 +92,13 @@
   travers et mal éclairées
 - Console Nintendo Switch 2 : photo Wikimedia remplacée par la boîte officielle
   (fiche Amazon.fr)
+- Deux achats du 27/09 : Spyro Reignited Trilogy (vt45100, offre 12 € acceptée,
+  16,18 € tout compris) et Mario + Lapins Crétins Sparks of Hope édition Cosmique
+  (ederiv, 9,58 €, 13,64 €). Code Name S.T.E.A.M. enfin remboursé (commande du
+  02/09, annulée le 27/09). Synchronisation du 30/09 : 6 commandes livrées
+  (Spyro Eternal Night, lot bonpoil52220, Metroid Prime Remastered, Metroid Prime
+  4, Yoshi Touch & Go, Kirby Les Souris Attaquent), RE Mercenaries et Spyro
+  Reignited expédiés. Kirby Le Pinceau du Pouvoir vendu à quelqu'un d'autre
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
