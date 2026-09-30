@@ -364,3 +364,12 @@ Last Window complet tourne à 35-44 €. Ces trois-là resteront chers.
   15 € gustavstadi boîte USK (dos non montré), 18 € sans boîte. So Blonde et Tunguska déjà en
   collection : à sortir de WATCHLIST.md. Offres : thesmil 16 € relancée le 25/09 sans réponse ;
   bastien-39 LM3 21 € en attente depuis le 17/09 alors que LM3 a été acheté chez reishi06.
+- 2026-09-30 — VEILLE (2e passage, tâche planifiée). **Nouveau : Zero Escape VLR 3DS 40 €** chez eltrall
+  (IT, 55731852, 57 avis 5/5) 6233597584 — boîte PAL PEGI 16, guide MAA-CTR-AKGP-UKV, cartouche
+  LNA-CTR-AKGP-UKV, en ligne depuis 519 j, vendeur vu le 18/09. Déjà en favori (le toggle l'a retiré
+  puis remis : l'état se lit sur `is_favourite` du wardrobe, la liste favoris ne le montrait pas).
+  PWAA au seuil pile 30 € : 9826483608 et 4967630144, complets multilingues FR. **Rejets** : VLR 30 €
+  9948319608 = JP (CERO, CTR-AKGJ-JPN) ; VLR 45 € 5392954492 = boîte allemande ; ZTD 90 € 7955520751
+  et 60 € = PS4 ; PWAA 25 € 9609422274 = cartouche nue ; JFA 25 € 7290790498 = PT, 30 € = DE ;
+  KH 358/2 28 € ×2 = sans boîte / JP. Offres : thesmil toujours muette (2 articles encore en vente) ;
+  mareck86 Trials : contre 78 € ferme du 25/09, offre 68 € en attente.

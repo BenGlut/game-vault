@@ -119,6 +119,10 @@
   ordered. Référence = identifiant de conversation 25451979223, l'API des
   transactions étant bloquée ce jour-là. Tous les Kirby Switch sont désormais
   possédés ou commandés
+- Sonic Superstars (chacharose18, commande 22408539195) : colis jamais retiré au
+  point relais, renvoyé à la vendeuse le 01/10, remboursement attendu. La base le
+  donne encore livré (erreur de la synchro du 30/09) ; passer `refund-order` dès
+  le remboursement
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
