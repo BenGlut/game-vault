@@ -114,6 +114,11 @@
   retenues Kirby RTDL Deluxe (35 € et 38 €, boîtes FR confirmées) et Hotel Dusk
   (20 €, boîte à vérifier) ; écartées les cartouches seules, boîtes étrangères,
   boîtes vides et jaquettes imprimées
+- Kirby's Return to Dream Land Deluxe (Switch) acheté le 30/09 chez
+  jonathan6273030 : 35 € (offre du vendeur), 40,33 € tout compris, statut
+  ordered. Référence = identifiant de conversation 25451979223, l'API des
+  transactions étant bloquée ce jour-là. Tous les Kirby Switch sont désormais
+  possédés ou commandés
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

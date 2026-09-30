@@ -3852,5 +3852,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 14.08
+  },
+  {
+    "id": "order_muo14hnt",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_kirby-s-return-to-dream-land-deluxe"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_kirby-s-return-to-dream-land-deluxe",
+        "inventoryId": "inv_switch_kirby-s-return-to-dream-land-deluxe",
+        "unitPrice": 40.33
+      }
+    ],
+    "orderedAt": "2026-09-30",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 40.33
   }
 ]
