@@ -6101,5 +6101,18 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_the-witcher-3-wild-hunt-complete-edition",
+    "t": "The Witcher 3: Wild Hunt - Complete Edition",
+    "n": "the witcher 3 wild hunt complete edition",
+    "a": [
+      "The Witcher 3 Wild Hunt Complete Edition",
+      "Witcher 3"
+    ],
+    "f": "The Witcher",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

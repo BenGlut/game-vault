@@ -13465,5 +13465,31 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_the-witcher-3-wild-hunt-complete-edition",
+    "kind": "game",
+    "canonicalTitle": "The Witcher 3: Wild Hunt - Complete Edition",
+    "normalizedTitle": "the witcher 3 wild hunt complete edition",
+    "aliases": [
+      "The Witcher 3 Wild Hunt Complete Edition",
+      "Witcher 3"
+    ],
+    "franchise": "The Witcher",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2019,
+    "genres": [],
+    "edition": "Complete Edition",
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

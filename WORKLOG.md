@@ -99,6 +99,11 @@
   (Spyro Eternal Night, lot bonpoil52220, Metroid Prime Remastered, Metroid Prime
   4, Yoshi Touch & Go, Kirby Les Souris Attaquent), RE Mercenaries et Spyro
   Reignited expédiés. Kirby Le Pinceau du Pouvoir vendu à quelqu'un d'autre
+- The Witcher 3: Wild Hunt - Complete Edition (Switch) créé au catalogue et
+  commandé d'occasion chez Micromania Toulouse-Fenouillet le 30/09 (commande
+  264780415, 44,99 €, retrait en magasin) ; illustration carrée de l'eShop faute
+  de packshot. Contre-offre de 140 € envoyée à mr.offspring pour le lot des 4 Ace
+  Attorney DS, après son refus de 125 €
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

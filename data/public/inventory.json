@@ -12756,5 +12756,23 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-09-25T12:26:38.534Z"
+  },
+  {
+    "id": "inv_switch_the-witcher-3-wild-hunt-complete-edition",
+    "gameId": "game_switch_the-witcher-3-wild-hunt-complete-edition",
+    "status": "ordered",
+    "quantity": 1,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": {
+      "amount": 44.99,
+      "currency": "EUR"
+    },
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": "order_muntvdza",
+    "updatedAt": "2026-09-30T08:12:55.560Z"
   }
 ]
