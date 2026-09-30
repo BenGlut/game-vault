@@ -972,3 +972,34 @@ plafond ≈ q1) : sur 21 descriptions lues, 2 affaires propres seulement (Sparks
 Hope édition Cosmique à 9,58 €, Spyro Reignited Trilogy à 15 €). Tout le reste :
 code seul dans la boîte, boîte anglaise, version japonaise ou US, italien, boîte
 sans jeu. Sur les DS rares, le taux de piège reste proche de 100 %.
+
+## 2026-09-30 — Ouvrir une discussion plutôt que poser une offre sèche
+
+Deux réactions de vendeurs, à trois jours d'écart, tranchent la question du ton.
+
+- mr.offspring, offre sèche à 125 € sur un lot affiché 178 € : « Ça fait un peu
+  énervé comme réduction ». Refus, puis il a fallu remonter à 140 €.
+- neeflex (Sonic Frontiers, 251 jours en ligne) écrit « souhaites-tu discuter du
+  prix ? ». Réponse envoyée : accepter la discussion, expliquer qu'on est
+  collectionneur, dire factuellement que l'annonce est en ligne depuis plusieurs
+  mois, demander son meilleur prix, promettre un paiement immédiat. **Aucun
+  chiffre.** benglut : « tu as super bien géré ».
+
+Ce que benglut retient, dans ses mots : être courtois, expliquer sans dénigrer
+l'annonce, dire que le jeu est là depuis un certain temps, et **ne pas proposer
+directement un prix mais ouvrir une discussion**. La demande de photo du dos
+n'est pas ce qui fait la qualité du message : c'est une vérification à part.
+
+Appliqué le même jour aux trois vendeurs de Kirby's Return to Dream Land Deluxe
+(jin202, julie190506, jonathan6273030). Annonces d'un jour : pas d'argument
+d'ancienneté.
+
+**Ouvrir une conversation sans passer par l'interface** :
+`POST /api/v2/conversations` corps
+`{"initiator_id":<moi>,"item_id":<annonce>,"opposite_user_id":<vendeur>}` → `200`
+et `conversation.id`, puis `POST /api/v2/conversations/<id>/replies` pour le
+message (mêmes en-têtes CSRF / anon id que plus haut).
+
+Un onglet Vinted resté longtemps en arrière-plan finit par ne plus répondre
+(`Runtime.evaluate` expire à 45 s même sur un script trivial). Ouvrir un onglet
+neuf plutôt que d'insister.
