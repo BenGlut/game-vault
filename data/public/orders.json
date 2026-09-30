@@ -3829,5 +3829,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 44.99
+  },
+  {
+    "id": "order_munyeu3s",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_sonic-frontiers"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_sonic-frontiers",
+        "inventoryId": "inv_switch_sonic-frontiers",
+        "unitPrice": 14.08
+      }
+    ],
+    "orderedAt": "2026-09-30",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 14.08
   }
 ]

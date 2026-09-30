@@ -349,3 +349,18 @@ lecture de la description.
 **Marché relevé.** Professeur Layton vs Phoenix Wright ne descend pas sous
 59,99 € (plancher sur 6 annonces) ; Time Hollow part de 30 € et grimpe à 105 € ;
 Last Window complet tourne à 35-44 €. Ces trois-là resteront chers.
+
+- 2026-09-30 — VEILLE watchlist (17 titres, HTML). **Passent les 3 filtres** : Hotel Dusk 19 € ×2
+  chez el_sales (BE) 9906694191 et 9907172153 — boîte NTR-AWIP-FHG (DE/FR/NL), notice, cartouche,
+  en ligne depuis 24 j ; Phoenix Wright AA boîte NTR-AGYP-FHUG (EN/FR/DE/NL) : rulius22 29 €
+  (10071102145, notice FR), cashexseraing 29,99 € (10008248037, liké), mr.offspring 28 €
+  (10039475294, déjà dans l'offre 140 € sur ses 4 Ace Attorney). **Rejets à ne pas réévaluer** :
+  Trials 45 € ibou07 (10031982424) = boîte allemande NTR-YG3X-NOE/USK ; Trials 36 € cartouche
+  seule, 31 € sans boîte ; SMT IV 95 € = US ; Chrono Trigger 80/90 € = JP, 90 € jap/us, 90 € sans
+  boîte, 79 € Modul seul ; TWEWY 25 € = NEO Switch, 35 € = Switch ; VLR 20 € (9782978251) =
+  cartouche nue UKV ; RE Deadly Silence 34,99 et 34,90 € = cartouches seules ; JFA 25 € sans
+  boîte, 26 € anglais, « Ace attorney » 24 € = JFA boîte USK ; PWAA 25 € oazard = cartouche nue,
+  12 € = JP ; Hotel Dusk 14 € sans boîte, 8 € JP, 10 € boîte seule, 15 € aro3544 cartouche nue,
+  15 € gustavstadi boîte USK (dos non montré), 18 € sans boîte. So Blonde et Tunguska déjà en
+  collection : à sortir de WATCHLIST.md. Offres : thesmil 16 € relancée le 25/09 sans réponse ;
+  bastien-39 LM3 21 € en attente depuis le 17/09 alors que LM3 a été acheté chez reishi06.

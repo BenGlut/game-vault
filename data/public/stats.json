@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T08:17:12.496Z",
+  "generatedAt": "2026-09-30T10:23:41.078Z",
   "totalGames": 554,
   "totalHardware": 13,
   "ownedHardware": 14,
@@ -10,8 +10,8 @@
     "wishlist": 0,
     "refunded": 15,
     "cancelled": 4,
-    "fulfilled": 1,
-    "ordered": 1
+    "ordered": 1,
+    "fulfilled": 1
   },
   "byPlatform": {
     "snes": 21,

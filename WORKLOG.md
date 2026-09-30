@@ -108,6 +108,12 @@
   (Switch, dernier Kirby manquant, médiane 41 € sur 53 annonces) et 209 annonces
   sur 24 autres titres de la wishlist DS/3DS/Switch, pour déclencher des offres
   vendeur
+- Sonic Frontiers (Switch) acheté le 30/09 chez neeflex après une discussion
+  ouverte par le vendeur : 10 € négociés, 14,08 € tout compris (commande
+  22739196750, statut ordered). Offres vendeur reçues après les favoris triées :
+  retenues Kirby RTDL Deluxe (35 € et 38 €, boîtes FR confirmées) et Hotel Dusk
+  (20 €, boîte à vérifier) ; écartées les cartouches seules, boîtes étrangères,
+  boîtes vides et jaquettes imprimées
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
