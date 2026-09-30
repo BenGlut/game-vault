@@ -123,6 +123,11 @@
   point relais, renvoyé à la vendeuse le 01/10, remboursement attendu. La base le
   donne encore livré (erreur de la synchro du 30/09) ; passer `refund-order` dès
   le remboursement
+- Lot des 4 Ace Attorney DS acheté le 01/10 chez mr.offspring (Phoenix Wright
+  Ace Attorney, Justice for All, Trials and Tribulations, Apollo Justice) : offre
+  de 140 € acceptée après un refus à 125 €, pour 178 € affichés ; 151,68 € tout
+  compris, réparti au prorata des prix affichés (commande 25320211450, statut
+  ordered)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
