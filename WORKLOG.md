@@ -104,6 +104,10 @@
   264780415, 44,99 €, retrait en magasin) ; illustration carrée de l'eShop faute
   de packshot. Contre-offre de 140 € envoyée à mr.offspring pour le lot des 4 Ace
   Attorney DS, après son refus de 125 €
+- Favoris en masse du 30/09 : 20 annonces Kirby's Return to Dream Land Deluxe
+  (Switch, dernier Kirby manquant, médiane 41 € sur 53 annonces) et 209 annonces
+  sur 24 autres titres de la wishlist DS/3DS/Switch, pour déclencher des offres
+  vendeur
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
