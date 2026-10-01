@@ -1003,3 +1003,22 @@ message (mêmes en-têtes CSRF / anon id que plus haut).
 Un onglet Vinted resté longtemps en arrière-plan finit par ne plus répondre
 (`Runtime.evaluate` expire à 45 s même sur un script trivial). Ouvrir un onglet
 neuf plutôt que d'insister.
+
+## 2026-10-02 — Tri des favoris et API
+
+- Sans `Accept: application/json`, les appels `/api/v2/…` renvoient une page
+  Cloudflare (403) ou du HTML (200). Avec l'en-tête, `my_orders`, `inbox`,
+  `users/<id>/items/favourites` et `user_favourites/toggle` répondent normalement.
+- Bascule de favoris : environ 90 appels acceptés par fenêtre de 40 s, puis `429`.
+  Envoyer par paquets de 5 en parallèle, s'arrêter au premier `429`, attendre 40 s.
+  Comme c'est une bascule, relire la liste des favoris avant chaque reprise et ne
+  basculer que les annonces encore présentes.
+- La recherche catalogue en HTML se fait bloquer si plusieurs recherches tournent
+  en parallèle (pages sans annonces). Une recherche à la fois, et reprendre à part
+  les titres restés vides.
+- Les minuteurs (`setTimeout`) sont bridés quand Chrome est caché : ne pas cadencer
+  avec des pauses, enchaîner les requêtes.
+- Filtre de plateforme indispensable : un favori n'est retiré que s'il correspond à
+  un jeu possédé sur la même plateforme ; pour les titres courts (2 mots ou moins)
+  ou partagés avec un jeu possédé (GoldenEye, Paper Mario, Luigi's Mansion), la
+  plateforme doit figurer dans le titre de l'annonce pour liker.

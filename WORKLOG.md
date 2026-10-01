@@ -136,6 +136,10 @@
   est possédée), Kirby et le Monde Oublié Switch 2 Edition (version Switch
   possédée), Paper Mario: The Thousand-Year Door (doublon anglais de La Porte
   Millénaire, GameCube)
+- Favoris Vinted du 02/10 : 363 favoris retirés sur des jeux déjà possédés ou
+  commandés (même plateforme), environ 510 ajoutés sur 103 titres de la wishlist,
+  dont une quinzaine pour Paper Mario : La Porte Millénaire GameCube. Leçons sur
+  les limites de l'API dans `.agents/skills/vinted-hunt/LEARNED.md`
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
