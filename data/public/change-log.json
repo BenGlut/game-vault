@@ -1,20 +1,5 @@
 [
   {
-    "at": "2026-08-22T12:59:42.854Z",
-    "command": "add-game",
-    "message": "add game Donkey Kong Country: Tropical Freeze (switch)"
-  },
-  {
-    "at": "2026-08-22T13:02:51.485Z",
-    "command": "add-game",
-    "message": "add game Super Mario RPG (switch)"
-  },
-  {
-    "at": "2026-08-22T13:02:52.295Z",
-    "command": "rate",
-    "message": "rate Mario vs. Donkey Kong"
-  },
-  {
     "at": "2026-08-22T13:02:53.028Z",
     "command": "rate",
     "message": "rate Mario & Luigi : L'Épopée Fraternelle"
@@ -2498,5 +2483,20 @@
     "at": "2026-10-01T20:10:02.050Z",
     "command": "ship-order",
     "message": "ship-order order_munyeu3s"
+  },
+  {
+    "at": "2026-10-01T21:30:18.366Z",
+    "command": "remove-inventory",
+    "message": "remove inv_switch_metroid-prime-4-beyond"
+  },
+  {
+    "at": "2026-10-01T21:30:19.113Z",
+    "command": "remove-inventory",
+    "message": "remove inv_switch2_kirby-et-le-monde-oublie-nintendo-switch-2-edition-le-pays-des-etoiles-filantes"
+  },
+  {
+    "at": "2026-10-01T21:30:26.117Z",
+    "command": "remove-inventory",
+    "message": "remove inv_gamecube_paper-mario-the-thousand-year-door"
   }
 ]

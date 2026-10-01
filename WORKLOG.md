@@ -132,6 +132,10 @@
   Kirby Air Riders, Team Sonic Racing, Kirby Star Allies, Kirby et le Monde
   Oublié, RE The Mercenaries 3D), 2 expédiées (Kirby's Return to Dream Land
   Deluxe, Sonic Frontiers)
+- Wishlist nettoyée de 3 doublons : Metroid Prime 4 (Switch, la Switch 2 Edition
+  est possédée), Kirby et le Monde Oublié Switch 2 Edition (version Switch
+  possédée), Paper Mario: The Thousand-Year Door (doublon anglais de La Porte
+  Millénaire, GameCube)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
