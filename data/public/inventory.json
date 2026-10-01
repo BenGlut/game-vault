@@ -7708,7 +7708,7 @@
   {
     "id": "inv_switch_sonic-frontiers",
     "gameId": "game_switch_sonic-frontiers",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -7718,7 +7718,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_munyeu3s",
-    "updatedAt": "2026-09-30T10:20:01.384Z"
+    "updatedAt": "2026-10-01T20:10:02.013Z"
   },
   {
     "id": "inv_switch_sonic-origins-plus",
@@ -7757,17 +7757,17 @@
   {
     "id": "inv_switch_team-sonic-racing",
     "gameId": "game_switch_team-sonic-racing",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-10-01",
     "orderId": "order_mue67hwq",
-    "updatedAt": "2026-09-24T21:00:02.310Z"
+    "updatedAt": "2026-10-01T20:09:56.246Z"
   },
   {
     "id": "inv_switch_sonic-x-shadow-generations",
@@ -9710,17 +9710,17 @@
   {
     "id": "inv_switch_spyro-reignited-trilogy",
     "gameId": "game_switch_spyro-reignited-trilogy",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-10-01",
     "orderId": "order_munc38mo",
-    "updatedAt": "2026-09-29T23:55:39.960Z"
+    "updatedAt": "2026-10-01T20:09:54.075Z"
   },
   {
     "id": "inv_gba_spyro-orange-la-conspiration-de-cortex",
@@ -12331,7 +12331,7 @@
   {
     "id": "inv_3ds_resident-evil-the-mercenaries-3d-2",
     "gameId": "game_3ds_resident-evil-the-mercenaries-3d",
-    "status": "fulfilled",
+    "status": "delivered",
     "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12340,11 +12340,11 @@
       "currency": "EUR"
     },
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-10-01",
     "orderId": "order_mu93w9fl",
-    "updatedAt": "2026-09-29T23:55:38.831Z"
+    "updatedAt": "2026-10-01T20:09:58.670Z"
   },
   {
     "id": "inv_ds_star-fox-command",
@@ -12517,32 +12517,32 @@
   {
     "id": "inv_switch_kirby-et-le-monde-oublie",
     "gameId": "game_switch_kirby-et-le-monde-oublie",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-10-01",
     "orderId": "order_mue6brss",
-    "updatedAt": "2026-09-26T23:36:10.019Z"
+    "updatedAt": "2026-10-01T20:09:59.670Z"
   },
   {
     "id": "inv_switch2_kirby-air-riders",
     "gameId": "game_switch2_kirby-air-riders",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-10-01",
     "orderId": "order_mue67crz",
-    "updatedAt": "2026-09-26T23:36:09.248Z"
+    "updatedAt": "2026-10-01T20:09:55.330Z"
   },
   {
     "id": "inv_switch_professeur-layton-et-le-nouveau-monde-a-vapeur",
@@ -12622,17 +12622,17 @@
   {
     "id": "inv_switch_kirby-star-allies",
     "gameId": "game_switch_kirby-star-allies",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-10-01",
     "orderId": "order_mueng9um",
-    "updatedAt": "2026-09-26T23:36:10.892Z"
+    "updatedAt": "2026-10-01T20:09:57.165Z"
   },
   {
     "id": "inv_ds_kirby-le-pinceau-du-pouvoir",
@@ -12667,7 +12667,7 @@
   {
     "id": "inv_switch_kirby-s-return-to-dream-land-deluxe",
     "gameId": "game_switch_kirby-s-return-to-dream-land-deluxe",
-    "status": "ordered",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12677,7 +12677,7 @@
     "quantityNeedsReview": false,
     "acquiredAt": null,
     "orderId": "order_muo14hnt",
-    "updatedAt": "2026-09-30T11:35:57.597Z"
+    "updatedAt": "2026-10-01T20:10:00.753Z"
   },
   {
     "id": "inv_switch2_kirby-et-le-monde-oublie-nintendo-switch-2-edition-le-pays-des-etoiles-filantes",

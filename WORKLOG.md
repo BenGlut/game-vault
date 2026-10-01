@@ -128,6 +128,10 @@
   de 140 € acceptée après un refus à 125 €, pour 178 € affichés ; 151,68 € tout
   compris, réparti au prorata des prix affichés (commande 25320211450, statut
   ordered)
+- Synchronisation du 01/10 : 6 commandes livrées (Spyro Reignited Trilogy,
+  Kirby Air Riders, Team Sonic Racing, Kirby Star Allies, Kirby et le Monde
+  Oublié, RE The Mercenaries 3D), 2 expédiées (Kirby's Return to Dream Land
+  Deluxe, Sonic Frontiers)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

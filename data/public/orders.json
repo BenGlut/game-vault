@@ -3320,7 +3320,7 @@
   {
     "id": "order_mu93w9fl",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_resident-evil-the-mercenaries-3d"
@@ -3334,7 +3334,7 @@
     ],
     "orderedAt": "2026-09-20",
     "fulfilledAt": "2026-09-30",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-01",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3557,7 +3557,7 @@
   {
     "id": "order_mue67crz",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch2_kirby-air-riders"
@@ -3571,7 +3571,7 @@
     ],
     "orderedAt": "2026-09-23",
     "fulfilledAt": "2026-09-27",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-01",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3580,7 +3580,7 @@
   {
     "id": "order_mue67hwq",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_team-sonic-racing"
@@ -3594,7 +3594,7 @@
     ],
     "orderedAt": "2026-09-23",
     "fulfilledAt": "2026-09-24",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-01",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3603,7 +3603,7 @@
   {
     "id": "order_mue6brss",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_kirby-et-le-monde-oublie"
@@ -3617,7 +3617,7 @@
     ],
     "orderedAt": "2026-09-23",
     "fulfilledAt": "2026-09-27",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-01",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3695,7 +3695,7 @@
   {
     "id": "order_mueng9um",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_kirby-star-allies"
@@ -3709,7 +3709,7 @@
     ],
     "orderedAt": "2026-09-24",
     "fulfilledAt": "2026-09-27",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-01",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3764,7 +3764,7 @@
   {
     "id": "order_munc38mo",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_spyro-reignited-trilogy"
@@ -3778,7 +3778,7 @@
     ],
     "orderedAt": "2026-09-27",
     "fulfilledAt": "2026-09-30",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-01",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3833,7 +3833,7 @@
   {
     "id": "order_munyeu3s",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_sonic-frontiers"
@@ -3846,7 +3846,7 @@
       }
     ],
     "orderedAt": "2026-09-30",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-10-01",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3856,7 +3856,7 @@
   {
     "id": "order_muo14hnt",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_kirby-s-return-to-dream-land-deluxe"
@@ -3869,7 +3869,7 @@
       }
     ],
     "orderedAt": "2026-09-30",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-10-01",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
