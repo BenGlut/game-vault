@@ -6114,5 +6114,296 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_super-mario-party",
+    "t": "Super Mario Party",
+    "n": "super mario party",
+    "a": [
+      "Mario Party Switch"
+    ],
+    "f": "Mario Party",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_super-mario-party-jamboree",
+    "t": "Super Mario Party Jamboree",
+    "n": "super mario party jamboree",
+    "a": [],
+    "f": "Mario Party",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch2_super-mario-party-jamboree-nintendo-switch-2-edition-jamboree-tv",
+    "t": "Super Mario Party Jamboree - Nintendo Switch 2 Edition + Jamboree TV",
+    "n": "super mario party jamboree nintendo switch 2 edition jamboree tv",
+    "a": [
+      "Jamboree TV",
+      "Super Mario Party Jamboree Switch 2"
+    ],
+    "f": "Mario Party",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_new-super-mario-bros-u-deluxe",
+    "t": "New Super Mario Bros. U Deluxe",
+    "n": "new super mario bros u deluxe",
+    "a": [],
+    "f": "Super Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_mario-tennis-aces",
+    "t": "Mario Tennis Aces",
+    "n": "mario tennis aces",
+    "a": [],
+    "f": "Mario Sports",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_mario-golf-super-rush",
+    "t": "Mario Golf: Super Rush",
+    "n": "mario golf super rush",
+    "a": [],
+    "f": "Mario Sports",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_mario-sonic-aux-jeux-olympiques-de-tokyo-2020",
+    "t": "Mario & Sonic aux Jeux Olympiques de Tokyo 2020",
+    "n": "mario sonic aux jeux olympiques de tokyo 2020",
+    "a": [
+      "Mario & Sonic Tokyo 2020"
+    ],
+    "f": "Mario & Sonic",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_princess-peach-showtime",
+    "t": "Princess Peach: Showtime!",
+    "n": "princess peach showtime",
+    "a": [],
+    "f": "Super Mario",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_luigi-s-mansion-2-hd",
+    "t": "Luigi's Mansion 2 HD",
+    "n": "luigi s mansion 2 hd",
+    "a": [],
+    "f": "Luigi's Mansion",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_hyrule-warriors-definitive-edition",
+    "t": "Hyrule Warriors: Definitive Edition",
+    "n": "hyrule warriors definitive edition",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_hyrule-warriors-l-ere-du-fleau",
+    "t": "Hyrule Warriors : L'Ère du Fléau",
+    "n": "hyrule warriors l ere du fleau",
+    "a": [
+      "Age of Calamity"
+    ],
+    "f": "The Legend of Zelda",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_the-legend-of-zelda-echoes-of-wisdom",
+    "t": "The Legend of Zelda: Echoes of Wisdom",
+    "n": "the legend of zelda echoes of wisdom",
+    "a": [],
+    "f": "The Legend of Zelda",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_donkey-kong-country-returns-hd",
+    "t": "Donkey Kong Country Returns HD",
+    "n": "donkey kong country returns hd",
+    "a": [],
+    "f": "Donkey Kong",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch2_mario-kart-world",
+    "t": "Mario Kart World",
+    "n": "mario kart world",
+    "a": [],
+    "f": "Mario Kart",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch2_donkey-kong-bananza",
+    "t": "Donkey Kong Bananza",
+    "n": "donkey kong bananza",
+    "a": [],
+    "f": "Donkey Kong",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch2_hyrule-warriors-les-chroniques-du-sceau",
+    "t": "Hyrule Warriors : Les Chroniques du Sceau",
+    "n": "hyrule warriors les chroniques du sceau",
+    "a": [
+      "Hyrule Warriors: Age of Imprisonment"
+    ],
+    "f": "The Legend of Zelda",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch2_mario-tennis-fever",
+    "t": "Mario Tennis Fever",
+    "n": "mario tennis fever",
+    "a": [],
+    "f": "Mario Sports",
+    "p": "switch2",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_mario-luigi-les-freres-du-temps",
+    "t": "Mario & Luigi : Les Frères du Temps",
+    "n": "mario luigi les freres du temps",
+    "a": [
+      "Mario & Luigi: Partners in Time"
+    ],
+    "f": "Mario & Luigi",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_mario-slam-basketball",
+    "t": "Mario Slam Basketball",
+    "n": "mario slam basketball",
+    "a": [
+      "Mario Hoops 3-on-3"
+    ],
+    "f": "Mario Sports",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_mario-sonic-aux-jeux-olympiques",
+    "t": "Mario & Sonic aux Jeux Olympiques",
+    "n": "mario sonic aux jeux olympiques",
+    "a": [
+      "Mario & Sonic Pékin 2008"
+    ],
+    "f": "Mario & Sonic",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_mario-sonic-aux-jeux-olympiques-d-hiver",
+    "t": "Mario & Sonic aux Jeux Olympiques d'Hiver",
+    "n": "mario sonic aux jeux olympiques d hiver",
+    "a": [
+      "Mario & Sonic Vancouver 2010"
+    ],
+    "f": "Mario & Sonic",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_super-princess-peach",
+    "t": "Super Princess Peach",
+    "n": "super princess peach",
+    "a": [],
+    "f": "Super Mario",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_donkey-kong-jungle-climber",
+    "t": "Donkey Kong: Jungle Climber",
+    "n": "donkey kong jungle climber",
+    "a": [],
+    "f": "Donkey Kong",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_mario-golf-world-tour",
+    "t": "Mario Golf: World Tour",
+    "n": "mario golf world tour",
+    "a": [],
+    "f": "Mario Sports",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_mario-sonic-aux-jeux-olympiques-de-rio-2016",
+    "t": "Mario & Sonic aux Jeux Olympiques de Rio 2016",
+    "n": "mario sonic aux jeux olympiques de rio 2016",
+    "a": [],
+    "f": "Mario & Sonic",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_mario-luigi-voyage-au-centre-de-bowser-l-epopee-de-bowser-jr",
+    "t": "Mario & Luigi : Voyage au centre de Bowser + L'Épopée de Bowser Jr.",
+    "n": "mario luigi voyage au centre de bowser l epopee de bowser jr",
+    "a": [
+      "Bowser's Inside Story + Bowser Jr.'s Journey"
+    ],
+    "f": "Mario & Luigi",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_3ds_puzzle-dragons-z-puzzle-dragons-super-mario-bros-edition",
+    "t": "Puzzle & Dragons Z + Puzzle & Dragons: Super Mario Bros. Edition",
+    "n": "puzzle dragons z puzzle dragons super mario bros edition",
+    "a": [],
+    "f": "Super Mario",
+    "p": "3ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

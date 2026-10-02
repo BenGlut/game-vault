@@ -13491,5 +13491,693 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_super-mario-party",
+    "kind": "game",
+    "canonicalTitle": "Super Mario Party",
+    "normalizedTitle": "super mario party",
+    "aliases": [
+      "Mario Party Switch"
+    ],
+    "franchise": "Mario Party",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2018,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_super-mario-party-jamboree",
+    "kind": "game",
+    "canonicalTitle": "Super Mario Party Jamboree",
+    "normalizedTitle": "super mario party jamboree",
+    "aliases": [],
+    "franchise": "Mario Party",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2024,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch2_super-mario-party-jamboree-nintendo-switch-2-edition-jamboree-tv",
+    "kind": "game",
+    "canonicalTitle": "Super Mario Party Jamboree - Nintendo Switch 2 Edition + Jamboree TV",
+    "normalizedTitle": "super mario party jamboree nintendo switch 2 edition jamboree tv",
+    "aliases": [
+      "Jamboree TV",
+      "Super Mario Party Jamboree Switch 2"
+    ],
+    "franchise": "Mario Party",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": "Nintendo Switch 2 Edition",
+    "playsOn": [
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_new-super-mario-bros-u-deluxe",
+    "kind": "game",
+    "canonicalTitle": "New Super Mario Bros. U Deluxe",
+    "normalizedTitle": "new super mario bros u deluxe",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2019,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_mario-tennis-aces",
+    "kind": "game",
+    "canonicalTitle": "Mario Tennis Aces",
+    "normalizedTitle": "mario tennis aces",
+    "aliases": [],
+    "franchise": "Mario Sports",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2018,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_mario-golf-super-rush",
+    "kind": "game",
+    "canonicalTitle": "Mario Golf: Super Rush",
+    "normalizedTitle": "mario golf super rush",
+    "aliases": [],
+    "franchise": "Mario Sports",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2021,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_mario-sonic-aux-jeux-olympiques-de-tokyo-2020",
+    "kind": "game",
+    "canonicalTitle": "Mario & Sonic aux Jeux Olympiques de Tokyo 2020",
+    "normalizedTitle": "mario sonic aux jeux olympiques de tokyo 2020",
+    "aliases": [
+      "Mario & Sonic Tokyo 2020"
+    ],
+    "franchise": "Mario & Sonic",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2019,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_princess-peach-showtime",
+    "kind": "game",
+    "canonicalTitle": "Princess Peach: Showtime!",
+    "normalizedTitle": "princess peach showtime",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2024,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_luigi-s-mansion-2-hd",
+    "kind": "game",
+    "canonicalTitle": "Luigi's Mansion 2 HD",
+    "normalizedTitle": "luigi s mansion 2 hd",
+    "aliases": [],
+    "franchise": "Luigi's Mansion",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2024,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_hyrule-warriors-definitive-edition",
+    "kind": "game",
+    "canonicalTitle": "Hyrule Warriors: Definitive Edition",
+    "normalizedTitle": "hyrule warriors definitive edition",
+    "aliases": [],
+    "franchise": "The Legend of Zelda",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2018,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_hyrule-warriors-l-ere-du-fleau",
+    "kind": "game",
+    "canonicalTitle": "Hyrule Warriors : L'Ère du Fléau",
+    "normalizedTitle": "hyrule warriors l ere du fleau",
+    "aliases": [
+      "Age of Calamity"
+    ],
+    "franchise": "The Legend of Zelda",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2020,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_the-legend-of-zelda-echoes-of-wisdom",
+    "kind": "game",
+    "canonicalTitle": "The Legend of Zelda: Echoes of Wisdom",
+    "normalizedTitle": "the legend of zelda echoes of wisdom",
+    "aliases": [],
+    "franchise": "The Legend of Zelda",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2024,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_donkey-kong-country-returns-hd",
+    "kind": "game",
+    "canonicalTitle": "Donkey Kong Country Returns HD",
+    "normalizedTitle": "donkey kong country returns hd",
+    "aliases": [],
+    "franchise": "Donkey Kong",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch2_mario-kart-world",
+    "kind": "game",
+    "canonicalTitle": "Mario Kart World",
+    "normalizedTitle": "mario kart world",
+    "aliases": [],
+    "franchise": "Mario Kart",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch2_donkey-kong-bananza",
+    "kind": "game",
+    "canonicalTitle": "Donkey Kong Bananza",
+    "normalizedTitle": "donkey kong bananza",
+    "aliases": [],
+    "franchise": "Donkey Kong",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch2_hyrule-warriors-les-chroniques-du-sceau",
+    "kind": "game",
+    "canonicalTitle": "Hyrule Warriors : Les Chroniques du Sceau",
+    "normalizedTitle": "hyrule warriors les chroniques du sceau",
+    "aliases": [
+      "Hyrule Warriors: Age of Imprisonment"
+    ],
+    "franchise": "The Legend of Zelda",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2025,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch2_mario-tennis-fever",
+    "kind": "game",
+    "canonicalTitle": "Mario Tennis Fever",
+    "normalizedTitle": "mario tennis fever",
+    "aliases": [],
+    "franchise": "Mario Sports",
+    "platformId": "switch2",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2026,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_mario-luigi-les-freres-du-temps",
+    "kind": "game",
+    "canonicalTitle": "Mario & Luigi : Les Frères du Temps",
+    "normalizedTitle": "mario luigi les freres du temps",
+    "aliases": [
+      "Mario & Luigi: Partners in Time"
+    ],
+    "franchise": "Mario & Luigi",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2005,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_mario-slam-basketball",
+    "kind": "game",
+    "canonicalTitle": "Mario Slam Basketball",
+    "normalizedTitle": "mario slam basketball",
+    "aliases": [
+      "Mario Hoops 3-on-3"
+    ],
+    "franchise": "Mario Sports",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_mario-sonic-aux-jeux-olympiques",
+    "kind": "game",
+    "canonicalTitle": "Mario & Sonic aux Jeux Olympiques",
+    "normalizedTitle": "mario sonic aux jeux olympiques",
+    "aliases": [
+      "Mario & Sonic Pékin 2008"
+    ],
+    "franchise": "Mario & Sonic",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2008,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_mario-sonic-aux-jeux-olympiques-d-hiver",
+    "kind": "game",
+    "canonicalTitle": "Mario & Sonic aux Jeux Olympiques d'Hiver",
+    "normalizedTitle": "mario sonic aux jeux olympiques d hiver",
+    "aliases": [
+      "Mario & Sonic Vancouver 2010"
+    ],
+    "franchise": "Mario & Sonic",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_super-princess-peach",
+    "kind": "game",
+    "canonicalTitle": "Super Princess Peach",
+    "normalizedTitle": "super princess peach",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_donkey-kong-jungle-climber",
+    "kind": "game",
+    "canonicalTitle": "Donkey Kong: Jungle Climber",
+    "normalizedTitle": "donkey kong jungle climber",
+    "aliases": [],
+    "franchise": "Donkey Kong",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2007,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_mario-golf-world-tour",
+    "kind": "game",
+    "canonicalTitle": "Mario Golf: World Tour",
+    "normalizedTitle": "mario golf world tour",
+    "aliases": [],
+    "franchise": "Mario Sports",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2014,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_mario-sonic-aux-jeux-olympiques-de-rio-2016",
+    "kind": "game",
+    "canonicalTitle": "Mario & Sonic aux Jeux Olympiques de Rio 2016",
+    "normalizedTitle": "mario sonic aux jeux olympiques de rio 2016",
+    "aliases": [],
+    "franchise": "Mario & Sonic",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2016,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_mario-luigi-voyage-au-centre-de-bowser-l-epopee-de-bowser-jr",
+    "kind": "game",
+    "canonicalTitle": "Mario & Luigi : Voyage au centre de Bowser + L'Épopée de Bowser Jr.",
+    "normalizedTitle": "mario luigi voyage au centre de bowser l epopee de bowser jr",
+    "aliases": [
+      "Bowser's Inside Story + Bowser Jr.'s Journey"
+    ],
+    "franchise": "Mario & Luigi",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2019,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_3ds_puzzle-dragons-z-puzzle-dragons-super-mario-bros-edition",
+    "kind": "game",
+    "canonicalTitle": "Puzzle & Dragons Z + Puzzle & Dragons: Super Mario Bros. Edition",
+    "normalizedTitle": "puzzle dragons z puzzle dragons super mario bros edition",
+    "aliases": [],
+    "franchise": "Super Mario",
+    "platformId": "3ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2015,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

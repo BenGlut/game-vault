@@ -143,6 +143,21 @@
 - Paper Mario: The Origami King (Switch) acheté le 02/10 chez rayou-57 : boîte FR
   complète vérifiée sur photos, 15 € (marché 20 €), 19,33 € tout compris
   (commande 22790626540, statut ordered)
+- Wishlist élargie le 02/10 (consigne : tout Mario, Zelda et Donkey Kong sur DS,
+  3DS, Switch et Switch 2) : 27 jeux créés au catalogue et ajoutés en wishlist.
+  Switch : Super Mario Party, Super Mario Party Jamboree, New Super Mario Bros. U
+  Deluxe, Mario Tennis Aces, Mario Golf: Super Rush, Mario & Sonic Tokyo 2020,
+  Princess Peach: Showtime!, Luigi's Mansion 2 HD, Hyrule Warriors: Definitive
+  Edition, Hyrule Warriors : L'Ère du Fléau, Zelda: Echoes of Wisdom, Donkey Kong
+  Country Returns HD. Switch 2 : Mario Kart World, Donkey Kong Bananza, Hyrule
+  Warriors : Les Chroniques du Sceau, Mario Tennis Fever, Super Mario Party
+  Jamboree – Switch 2 Edition. DS : Mario & Luigi : Les Frères du Temps, Mario
+  Slam Basketball, Mario & Sonic aux JO, Mario & Sonic aux JO d'Hiver, Super
+  Princess Peach, Donkey Kong: Jungle Climber. 3DS : Mario Golf: World Tour,
+  Mario & Sonic Rio 2016, Mario & Luigi : Voyage au centre de Bowser + L'Épopée
+  de Bowser Jr., Puzzle & Dragons Z + Super Mario Bros. Edition. Les éditions
+  Switch 2 de jeux déjà possédés (Zelda BotW / TotK, Mario Wonder) sont laissées
+  de côté. Jaquettes : eShop et libretro, Amazon.fr pour les 9 restantes
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

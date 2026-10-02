@@ -1,140 +1,5 @@
 [
   {
-    "at": "2026-08-22T13:02:54.252Z",
-    "command": "rate",
-    "message": "rate Donkey Kong Country: Tropical Freeze"
-  },
-  {
-    "at": "2026-08-22T13:02:55.074Z",
-    "command": "rate",
-    "message": "rate game_switch_super-mario-rpg"
-  },
-  {
-    "at": "2026-08-22T13:02:55.943Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_mario-vs-donkey-kong"
-  },
-  {
-    "at": "2026-08-22T13:02:57.444Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_mario-vs-donkey-kong"
-  },
-  {
-    "at": "2026-08-22T13:02:59.317Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_mario-luigi-l-epopee-fraternelle"
-  },
-  {
-    "at": "2026-08-22T13:03:00.555Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_mario-luigi-l-epopee-fraternelle"
-  },
-  {
-    "at": "2026-08-22T13:03:01.835Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_donkey-kong-country-tropical-freeze"
-  },
-  {
-    "at": "2026-08-22T13:03:02.705Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_donkey-kong-country-tropical-freeze"
-  },
-  {
-    "at": "2026-08-22T13:03:04.838Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_super-mario-rpg"
-  },
-  {
-    "at": "2026-08-22T13:03:06.399Z",
-    "command": "add-price",
-    "message": "price observation for game_switch_super-mario-rpg"
-  },
-  {
-    "at": "2026-08-22T13:13:02.109Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-22T13:13:08.480Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-22T13:13:10.614Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
-    "at": "2026-08-22T22:20:03.544Z",
-    "command": "add-game",
-    "message": "add game Kingdom Hearts 3D: Dream Drop Distance (3ds)"
-  },
-  {
-    "at": "2026-08-22T22:20:05.034Z",
-    "command": "add-game",
-    "message": "add game Kingdom Hearts 358/2 Days (ds)"
-  },
-  {
-    "at": "2026-08-22T22:20:07.697Z",
-    "command": "add-game",
-    "message": "add game Kingdom Hearts Re:coded (ds)"
-  },
-  {
-    "at": "2026-08-22T22:20:08.992Z",
-    "command": "add-game",
-    "message": "add game Kingdom Hearts: Chain of Memories (gba)"
-  },
-  {
-    "at": "2026-08-22T22:20:11.060Z",
-    "command": "add-game",
-    "message": "add game Kingdom Hearts: Melody of Memory (switch)"
-  },
-  {
-    "at": "2026-08-22T22:20:22.884Z",
-    "command": "add-price",
-    "message": "price observation for game_3ds_kingdom-hearts-3d-dream-drop-distance"
-  },
-  {
-    "at": "2026-08-22T22:20:24.043Z",
-    "command": "add-price",
-    "message": "price observation for game_3ds_kingdom-hearts-3d-dream-drop-distance"
-  },
-  {
-    "at": "2026-08-22T22:20:25.167Z",
-    "command": "rate",
-    "message": "rate game_3ds_kingdom-hearts-3d-dream-drop-distance"
-  },
-  {
-    "at": "2026-08-22T22:20:26.238Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_kingdom-hearts-358-2-days"
-  },
-  {
-    "at": "2026-08-22T22:20:27.198Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_kingdom-hearts-358-2-days"
-  },
-  {
-    "at": "2026-08-22T22:20:28.233Z",
-    "command": "rate",
-    "message": "rate game_ds_kingdom-hearts-358-2-days"
-  },
-  {
-    "at": "2026-08-22T22:20:29.315Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_kingdom-hearts-re-coded"
-  },
-  {
-    "at": "2026-08-22T22:20:30.456Z",
-    "command": "add-price",
-    "message": "price observation for game_ds_kingdom-hearts-re-coded"
-  },
-  {
-    "at": "2026-08-22T22:20:31.717Z",
-    "command": "rate",
-    "message": "rate game_ds_kingdom-hearts-re-coded"
-  },
-  {
     "at": "2026-08-22T22:20:32.747Z",
     "command": "add-price",
     "message": "price observation for game_gba_kingdom-hearts-chain-of-memories"
@@ -2498,5 +2363,140 @@
     "at": "2026-10-02T01:16:12.280Z",
     "command": "add-order",
     "message": "add order vinted"
+  },
+  {
+    "at": "2026-10-02T10:39:39.444Z",
+    "command": "add-game",
+    "message": "add game Super Mario Party (switch)"
+  },
+  {
+    "at": "2026-10-02T10:39:40.487Z",
+    "command": "add-game",
+    "message": "add game Super Mario Party Jamboree (switch)"
+  },
+  {
+    "at": "2026-10-02T10:39:41.540Z",
+    "command": "add-game",
+    "message": "add game Super Mario Party Jamboree - Nintendo Switch 2 Edition + Jamboree TV (switch2)"
+  },
+  {
+    "at": "2026-10-02T10:42:31.112Z",
+    "command": "add-game",
+    "message": "add game New Super Mario Bros. U Deluxe (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:32.678Z",
+    "command": "add-game",
+    "message": "add game Mario Tennis Aces (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:34.196Z",
+    "command": "add-game",
+    "message": "add game Mario Golf: Super Rush (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:35.912Z",
+    "command": "add-game",
+    "message": "add game Mario & Sonic aux Jeux Olympiques de Tokyo 2020 (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:37.424Z",
+    "command": "add-game",
+    "message": "add game Princess Peach: Showtime! (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:39.093Z",
+    "command": "add-game",
+    "message": "add game Luigi's Mansion 2 HD (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:52.148Z",
+    "command": "add-game",
+    "message": "add game Hyrule Warriors: Definitive Edition (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:53.882Z",
+    "command": "add-game",
+    "message": "add game Hyrule Warriors : L'Ère du Fléau (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:56.006Z",
+    "command": "add-game",
+    "message": "add game The Legend of Zelda: Echoes of Wisdom (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:57.432Z",
+    "command": "add-game",
+    "message": "add game Donkey Kong Country Returns HD (switch)"
+  },
+  {
+    "at": "2026-10-02T10:42:59.142Z",
+    "command": "add-game",
+    "message": "add game Mario Kart World (switch2)"
+  },
+  {
+    "at": "2026-10-02T10:43:01.160Z",
+    "command": "add-game",
+    "message": "add game Donkey Kong Bananza (switch2)"
+  },
+  {
+    "at": "2026-10-02T10:43:14.661Z",
+    "command": "add-game",
+    "message": "add game Hyrule Warriors : Les Chroniques du Sceau (switch2)"
+  },
+  {
+    "at": "2026-10-02T10:43:16.231Z",
+    "command": "add-game",
+    "message": "add game Mario Tennis Fever (switch2)"
+  },
+  {
+    "at": "2026-10-02T10:43:17.851Z",
+    "command": "add-game",
+    "message": "add game Mario & Luigi : Les Frères du Temps (ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:19.728Z",
+    "command": "add-game",
+    "message": "add game Mario Slam Basketball (ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:21.971Z",
+    "command": "add-game",
+    "message": "add game Mario & Sonic aux Jeux Olympiques (ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:25.184Z",
+    "command": "add-game",
+    "message": "add game Mario & Sonic aux Jeux Olympiques d'Hiver (ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:38.447Z",
+    "command": "add-game",
+    "message": "add game Super Princess Peach (ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:39.583Z",
+    "command": "add-game",
+    "message": "add game Donkey Kong: Jungle Climber (ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:40.785Z",
+    "command": "add-game",
+    "message": "add game Mario Golf: World Tour (3ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:42.009Z",
+    "command": "add-game",
+    "message": "add game Mario & Sonic aux Jeux Olympiques de Rio 2016 (3ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:43.574Z",
+    "command": "add-game",
+    "message": "add game Mario & Luigi : Voyage au centre de Bowser + L'Épopée de Bowser Jr. (3ds)"
+  },
+  {
+    "at": "2026-10-02T10:43:45.049Z",
+    "command": "add-game",
+    "message": "add game Puzzle & Dragons Z + Puzzle & Dragons: Super Mario Bros. Edition (3ds)"
   }
 ]
