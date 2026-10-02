@@ -1032,3 +1032,12 @@ neuf plutôt que d'insister.
   photo vers `curl`. Contournement propre : injecter les `<img>` dans l'onglet
   (`position:fixed`, plein écran) puis `computer{screenshot}` / `zoom` — fonctionne onglet
   masqué. Ne pas encoder les URLs pour passer le filtre.
+
+## 2026-10-02 — Annonces « sous le marché » sur les jeux récents
+
+Sur les jeux Switch / Switch 2 récents, presque toutes les annonces nettement sous
+la médiane sont des pièges : coque ou étui vendu sous le titre du jeu (« Funda »,
+« coque », « astuccio »), accessoires (raquette, visière, clubs, lanière, sacoche),
+cartouche seule dans un boîtier générique, boîte allemande (USK) ou italienne.
+Avant de liker en masse, exclure ces mots ; avant de proposer, ouvrir les photos.
+Attention : « puzzle » exclut aussi le jeu Puzzle & Dragons.

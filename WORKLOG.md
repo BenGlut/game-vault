@@ -158,6 +158,10 @@
   de Bowser Jr., Puzzle & Dragons Z + Super Mario Bros. Edition. Les éditions
   Switch 2 de jeux déjà possédés (Zelda BotW / TotK, Mario Wonder) sont laissées
   de côté. Jaquettes : eShop et libretro, Amazon.fr pour les 9 restantes
+- Chasse lancée sur ces 27 titres : environ 120 favoris posés (les moins chers par
+  jeu, accessoires et cartouches seules retirés après coup) ; aucune annonce sous
+  le marché ne passait la vérification photo (boîtes allemandes, cartouches
+  seules, coques et étuis vendus sous le nom du jeu)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
