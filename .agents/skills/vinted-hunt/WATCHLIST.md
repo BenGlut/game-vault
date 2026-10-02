@@ -23,14 +23,11 @@ titres, un prix très bas signale presque toujours un import ou une cartouche nu
 |---|---|---|---|---|---|
 | Shin Megami Tensei IV | 3DS | 20 | 125 € | 165 € | **100 €** |
 | Chrono Trigger | DS | 34 | 120 € | 150 € | **100 €** |
-| Phoenix Wright : Trials and Tribulations | DS | 23 | 60 € | 88 € | **50 €** |
 | The World Ends With You | DS | 21 | 60 € | 75 € | **45 €** |
 | Kirby Super Star Ultra | DS | 31 | 60 € | 80 € | **45 €** |
 | Resident Evil : Deadly Silence | DS | 35 | 45 € | 70 € | **40 €** |
 | Zero Escape : Virtue's Last Reward | 3DS | 1 | 30 € | 30 € | **45 €** |
 | Zero Escape : Zero Time Dilemma | 3DS | 0 | — | — | **toute annonce** |
-| Phoenix Wright : Ace Attorney | DS | 84 | 35 € | 45 € | **30 €** |
-| Phoenix Wright : Justice for All | DS | 42 | 35 € | 40 € | **30 €** |
 | Kingdom Hearts 358/2 Days | DS | 27 | 35 € | 60 € | **30 €** |
 | Kingdom Hearts Re:coded | DS | 16 | 25 € | 65 € | **25 €** |
 | Time Hollow | DS | 11 | 30 € | 80 € | **35 €** |
@@ -51,3 +48,5 @@ croiser. Toute annonce PAL complète doit être signalée le jour même.
   la série Layton est complète sur DS et 3DS
 - Metroid Prime Hunters, Federation Force — achetés
 - Hyrule Warriors Legends — acheté chez plumychou le 20/09
+- Phoenix Wright : Ace Attorney, Justice for All, Trials and Tribulations (+ Apollo
+  Justice) — lot mr.offspring commandé le 01/10 (order_muorhc3k, 151,68 €)

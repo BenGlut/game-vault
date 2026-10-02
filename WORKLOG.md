@@ -162,6 +162,9 @@
   jeu, accessoires et cartouches seules retirés après coup) ; aucune annonce sous
   le marché ne passait la vérification photo (boîtes allemandes, cartouches
   seules, coques et étuis vendus sous le nom du jeu)
+- The Witcher 3: Wild Hunt - Complete Edition récupéré chez Micromania
+  Toulouse-Fenouillet le 02/10 (commande 264780415 → delivered). Sparks of Hope
+  (ederiv) enfin expédié le 02/10
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

@@ -3787,7 +3787,7 @@
   {
     "id": "order_munc39ef",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_mario-lapins-cretins-sparks-of-hope"
@@ -3800,7 +3800,7 @@
       }
     ],
     "orderedAt": "2026-09-27",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-10-02",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3810,7 +3810,7 @@
   {
     "id": "order_muntvdza",
     "marketplace": "other",
-    "status": "ordered",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_the-witcher-3-wild-hunt-complete-edition"
@@ -3824,7 +3824,7 @@
     ],
     "orderedAt": "2026-09-30",
     "fulfilledAt": null,
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-02",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,

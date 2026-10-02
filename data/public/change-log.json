@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-22T22:20:32.747Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_kingdom-hearts-chain-of-memories"
-  },
-  {
-    "at": "2026-08-22T22:20:33.758Z",
-    "command": "add-price",
-    "message": "price observation for game_gba_kingdom-hearts-chain-of-memories"
-  },
-  {
     "at": "2026-08-22T22:20:34.806Z",
     "command": "rate",
     "message": "rate game_gba_kingdom-hearts-chain-of-memories"
@@ -2498,5 +2488,15 @@
     "at": "2026-10-02T10:43:45.049Z",
     "command": "add-game",
     "message": "add game Puzzle & Dragons Z + Puzzle & Dragons: Super Mario Bros. Edition (3ds)"
+  },
+  {
+    "at": "2026-10-02T19:48:55.284Z",
+    "command": "receive-order",
+    "message": "receive-order order_muntvdza"
+  },
+  {
+    "at": "2026-10-02T19:50:44.036Z",
+    "command": "ship-order",
+    "message": "ship-order order_munc39ef"
   }
 ]
