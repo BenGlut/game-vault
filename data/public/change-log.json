@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-22T13:02:53.028Z",
-    "command": "rate",
-    "message": "rate Mario & Luigi : L'Épopée Fraternelle"
-  },
-  {
     "at": "2026-08-22T13:02:54.252Z",
     "command": "rate",
     "message": "rate Donkey Kong Country: Tropical Freeze"
@@ -2498,5 +2493,10 @@
     "at": "2026-10-01T21:30:26.117Z",
     "command": "remove-inventory",
     "message": "remove inv_gamecube_paper-mario-the-thousand-year-door"
+  },
+  {
+    "at": "2026-10-02T01:16:12.280Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]

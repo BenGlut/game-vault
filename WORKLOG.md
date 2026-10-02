@@ -140,6 +140,9 @@
   commandés (même plateforme), environ 510 ajoutés sur 103 titres de la wishlist,
   dont une quinzaine pour Paper Mario : La Porte Millénaire GameCube. Leçons sur
   les limites de l'API dans `.agents/skills/vinted-hunt/LEARNED.md`
+- Paper Mario: The Origami King (Switch) acheté le 02/10 chez rayou-57 : boîte FR
+  complète vérifiée sur photos, 15 € (marché 20 €), 19,33 € tout compris
+  (commande 22790626540, statut ordered)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

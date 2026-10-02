@@ -3916,5 +3916,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 151.68
+  },
+  {
+    "id": "order_muq9v6mk",
+    "marketplace": "vinted",
+    "status": "ordered",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_paper-mario-the-origami-king"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_paper-mario-the-origami-king",
+        "inventoryId": "inv_switch_paper-mario-the-origami-king-2",
+        "unitPrice": 19.33
+      }
+    ],
+    "orderedAt": "2026-10-02",
+    "fulfilledAt": null,
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 19.33
   }
 ]

@@ -1022,3 +1022,13 @@ neuf plutôt que d'insister.
   un jeu possédé sur la même plateforme ; pour les titres courts (2 mots ou moins)
   ou partagés avec un jeu possédé (GoldenEye, Paper Mario, Luigi's Mansion), la
   plateforme doit figurer dans le titre de l'annonce pour liker.
+
+## 2026-10-02 — Veille : deux pièges techniques
+
+- `fetch('/api/v2/my_orders…')` sans en-tête renvoie du **HTML** (SyntaxError au `.json()`) :
+  passer `{headers:{Accept:'application/json'}}`, idem pour `/conversations` et `/wardrobe`.
+- L'extension Chrome **bloque toute sortie JS contenant une URL signée** (`?s=`) ou une
+  chaîne de requête (« BLOCKED: Cookie/query string data ») : impossible de sortir les URLs
+  photo vers `curl`. Contournement propre : injecter les `<img>` dans l'onglet
+  (`position:fixed`, plein écran) puis `computer{screenshot}` / `zoom` — fonctionne onglet
+  masqué. Ne pas encoder les URLs pour passer le filtre.
