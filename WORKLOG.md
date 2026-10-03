@@ -165,6 +165,8 @@
 - The Witcher 3: Wild Hunt - Complete Edition récupéré chez Micromania
   Toulouse-Fenouillet le 02/10 (commande 264780415 → delivered). Sparks of Hope
   (ederiv) enfin expédié le 02/10
+- Code Name: S.T.E.A.M. (3DS) remis en wishlist le 03/10 après le remboursement
+  de la commande annulée
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

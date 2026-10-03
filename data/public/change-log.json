@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-22T22:20:34.806Z",
-    "command": "rate",
-    "message": "rate game_gba_kingdom-hearts-chain-of-memories"
-  },
-  {
     "at": "2026-08-22T22:20:36.034Z",
     "command": "add-price",
     "message": "price observation for game_switch_kingdom-hearts-melody-of-memory"
@@ -2498,5 +2493,10 @@
     "at": "2026-10-02T19:50:44.036Z",
     "command": "ship-order",
     "message": "ship-order order_munc39ef"
+  },
+  {
+    "at": "2026-10-03T01:08:34.468Z",
+    "command": "add-inventory",
+    "message": "add inventory for game_3ds_code-name-s-t-e-a-m"
   }
 ]

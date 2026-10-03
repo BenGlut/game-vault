@@ -13127,5 +13127,20 @@
     "acquiredAt": null,
     "orderId": null,
     "updatedAt": "2026-10-02T10:43:45.014Z"
+  },
+  {
+    "id": "inv_3ds_code-name-s-t-e-a-m-2",
+    "gameId": "game_3ds_code-name-s-t-e-a-m",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "needs_review",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-10-03T01:08:34.442Z"
   }
 ]
