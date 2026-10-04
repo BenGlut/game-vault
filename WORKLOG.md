@@ -167,6 +167,9 @@
   (ederiv) enfin expédié le 02/10
 - Code Name: S.T.E.A.M. (3DS) remis en wishlist le 03/10 après le remboursement
   de la commande annulée
+- Deux achats Vinted du 03/10, expédiés le jour même : Yoshi's Crafted World
+  (lulu-croissant, offre de 30 € acceptée après photo du dos FR, 35,08 € tout
+  compris) et Code Name: S.T.E.A.M. neuf sous blister (emjc62, 1,50 €, 5,16 €)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

@@ -12645,7 +12645,7 @@
   {
     "id": "inv_switch_yoshi-s-crafted-world",
     "gameId": "game_switch_yoshi-s-crafted-world",
-    "status": "wishlist",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12654,8 +12654,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-23T13:50:52.505Z"
+    "orderId": "order_mut2566c",
+    "updatedAt": "2026-10-04T00:03:59.567Z"
   },
   {
     "id": "inv_switch2_metroid-prime-4-beyond-nintendo-switch-2-edition",
@@ -13131,7 +13131,7 @@
   {
     "id": "inv_3ds_code-name-s-t-e-a-m-2",
     "gameId": "game_3ds_code-name-s-t-e-a-m",
-    "status": "wishlist",
+    "status": "fulfilled",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -13140,7 +13140,7 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-10-03T01:08:34.442Z"
+    "orderId": "order_mut25hlv",
+    "updatedAt": "2026-10-04T00:04:09.908Z"
   }
 ]

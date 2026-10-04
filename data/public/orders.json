@@ -3939,5 +3939,51 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 19.33
+  },
+  {
+    "id": "order_mut2566c",
+    "marketplace": "vinted",
+    "status": "fulfilled",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_yoshi-s-crafted-world"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_yoshi-s-crafted-world",
+        "inventoryId": "inv_switch_yoshi-s-crafted-world",
+        "unitPrice": 35.08
+      }
+    ],
+    "orderedAt": "2026-10-03",
+    "fulfilledAt": "2026-10-03",
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 35.08
+  },
+  {
+    "id": "order_mut25hlv",
+    "marketplace": "vinted",
+    "status": "fulfilled",
+    "itemCount": 1,
+    "gameIds": [
+      "game_3ds_code-name-s-t-e-a-m"
+    ],
+    "items": [
+      {
+        "gameId": "game_3ds_code-name-s-t-e-a-m",
+        "inventoryId": "inv_3ds_code-name-s-t-e-a-m-2",
+        "unitPrice": 5.16
+      }
+    ],
+    "orderedAt": "2026-10-03",
+    "fulfilledAt": "2026-10-03",
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 5.16
   }
 ]
