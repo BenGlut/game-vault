@@ -14179,5 +14179,54 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_bravely-default-ii",
+    "kind": "game",
+    "canonicalTitle": "Bravely Default II",
+    "normalizedTitle": "bravely default ii",
+    "aliases": [],
+    "franchise": "Bravely",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2021,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_ds_yoshi-s-island-ds",
+    "kind": "game",
+    "canonicalTitle": "Yoshi's Island DS",
+    "normalizedTitle": "yoshi s island ds",
+    "aliases": [],
+    "franchise": "Yoshi",
+    "platformId": "ds",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2006,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

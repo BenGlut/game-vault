@@ -13142,5 +13142,35 @@
     "acquiredAt": null,
     "orderId": "order_mut25hlv",
     "updatedAt": "2026-10-04T00:04:09.908Z"
+  },
+  {
+    "id": "inv_switch_bravely-default-ii",
+    "gameId": "game_switch_bravely-default-ii",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-10-04T23:17:18.484Z"
+  },
+  {
+    "id": "inv_ds_yoshi-s-island-ds",
+    "gameId": "game_ds_yoshi-s-island-ds",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-10-04T23:17:20.015Z"
   }
 ]

@@ -6405,5 +6405,25 @@
     "p": "3ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_bravely-default-ii",
+    "t": "Bravely Default II",
+    "n": "bravely default ii",
+    "a": [],
+    "f": "Bravely",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_ds_yoshi-s-island-ds",
+    "t": "Yoshi's Island DS",
+    "n": "yoshi s island ds",
+    "a": [],
+    "f": "Yoshi",
+    "p": "ds",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

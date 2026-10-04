@@ -170,6 +170,10 @@
 - Deux achats Vinted du 03/10, expédiés le jour même : Yoshi's Crafted World
   (lulu-croissant, offre de 30 € acceptée après photo du dos FR, 35,08 € tout
   compris) et Code Name: S.T.E.A.M. neuf sous blister (emjc62, 1,50 €, 5,16 €)
+- Bravely Default II (Switch) et Yoshi's Island DS ajoutés au catalogue et en
+  wishlist le 05/10, avec jaquettes ; offre de lot à 50 € chez chriss-reims
+  (Hotel Dusk + ces deux jeux, 57 € affichés). Repli pour Bravely : 14,99 € en
+  occasion chez Micromania, retrait en magasin
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
