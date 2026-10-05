@@ -3989,7 +3989,7 @@
   {
     "id": "order_muuxjpev",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 3,
     "gameIds": [
       "game_ds_hotel-dusk-room-215",
@@ -4014,7 +4014,7 @@
       }
     ],
     "orderedAt": "2026-10-05",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-10-05",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
