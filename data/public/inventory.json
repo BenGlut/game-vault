@@ -12007,7 +12007,7 @@
   {
     "id": "inv_ds_hotel-dusk-room-215",
     "gameId": "game_ds_hotel-dusk-room-215",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -12016,8 +12016,8 @@
     "verificationStatus": "needs_review",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-09-13T10:44:42.381Z"
+    "orderId": "order_muuxjpev",
+    "updatedAt": "2026-10-05T07:30:12.199Z"
   },
   {
     "id": "inv_ds_last-window-le-secret-de-cape-west",
@@ -13086,7 +13086,7 @@
   {
     "id": "inv_3ds_mario-sonic-aux-jeux-olympiques-de-rio-2016",
     "gameId": "game_3ds_mario-sonic-aux-jeux-olympiques-de-rio-2016",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -13095,8 +13095,8 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-10-02T10:43:41.946Z"
+    "orderId": "order_muuxjq26",
+    "updatedAt": "2026-10-05T07:30:13.038Z"
   },
   {
     "id": "inv_3ds_mario-luigi-voyage-au-centre-de-bowser-l-epopee-de-bowser-jr",
@@ -13146,7 +13146,7 @@
   {
     "id": "inv_switch_bravely-default-ii",
     "gameId": "game_switch_bravely-default-ii",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -13155,13 +13155,13 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-10-04T23:17:18.484Z"
+    "orderId": "order_muuxjpev",
+    "updatedAt": "2026-10-05T07:30:12.203Z"
   },
   {
     "id": "inv_ds_yoshi-s-island-ds",
     "gameId": "game_ds_yoshi-s-island-ds",
-    "status": "wishlist",
+    "status": "ordered",
     "quantity": 0,
     "condition": "unknown",
     "completeness": "unknown",
@@ -13170,7 +13170,7 @@
     "verificationStatus": "verified",
     "quantityNeedsReview": false,
     "acquiredAt": null,
-    "orderId": null,
-    "updatedAt": "2026-10-04T23:17:20.015Z"
+    "orderId": "order_muuxjpev",
+    "updatedAt": "2026-10-05T07:30:12.203Z"
   }
 ]

@@ -174,6 +174,10 @@
   wishlist le 05/10, avec jaquettes ; offre de lot à 50 € chez chriss-reims
   (Hotel Dusk + ces deux jeux, 57 € affichés). Repli pour Bravely : 14,99 € en
   occasion chez Micromania, retrait en magasin
+- Lot chriss-reims accepté à 50 € et payé le 05/10 (Hotel Dusk, Bravely Default
+  II, Yoshi's Island DS ; 57,18 € tout compris, réparti au prorata, commande
+  22879496969). Mario & Sonic aux JO de Rio 2016 (3DS) acheté chez mikromania91
+  (5 €, 8,83 € tout compris, commande 22864776373)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

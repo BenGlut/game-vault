@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-23T00:03:16.400Z",
-    "command": "add-order",
-    "message": "add order amazon"
-  },
-  {
-    "at": "2026-08-23T23:13:01.317Z",
-    "command": "receive-order",
-    "message": "receive-order order_mt0olwlj"
-  },
-  {
     "at": "2026-08-23T23:13:02.465Z",
     "command": "refund-order",
     "message": "refund-order order_mt3sw0zp"
@@ -2498,5 +2488,15 @@
     "at": "2026-10-04T23:17:20.047Z",
     "command": "add-game",
     "message": "add game Yoshi's Island DS (ds)"
+  },
+  {
+    "at": "2026-10-05T07:30:12.230Z",
+    "command": "add-order",
+    "message": "add order vinted"
+  },
+  {
+    "at": "2026-10-05T07:30:13.068Z",
+    "command": "add-order",
+    "message": "add order vinted"
   }
 ]
