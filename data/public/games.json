@@ -14228,5 +14228,31 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_switch_return-to-monkey-island",
+    "kind": "game",
+    "canonicalTitle": "Return to Monkey Island",
+    "normalizedTitle": "return to monkey island",
+    "aliases": [],
+    "franchise": "Monkey Island",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2022,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

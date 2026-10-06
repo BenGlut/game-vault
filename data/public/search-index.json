@@ -6425,5 +6425,15 @@
     "p": "ds",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_switch_return-to-monkey-island",
+    "t": "Return to Monkey Island",
+    "n": "return to monkey island",
+    "a": [],
+    "f": "Monkey Island",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]

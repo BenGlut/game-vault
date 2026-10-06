@@ -178,6 +178,10 @@
   II, Yoshi's Island DS ; 57,18 € tout compris, réparti au prorata, commande
   22879496969). Mario & Sonic aux JO de Rio 2016 (3DS) acheté chez mikromania91
   (5 €, 8,83 € tout compris, commande 22864776373)
+- Return to Monkey Island (Switch) ajouté au catalogue et en wishlist le 06/10 :
+  seul Monkey Island sur console Nintendo (aucun sur DS / 3DS), édition physique
+  en tirage limité ; Vinted 55-105 €, Amazon import 85,50 € TTC, absent de
+  Micromania
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

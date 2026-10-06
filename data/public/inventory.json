@@ -13172,5 +13172,20 @@
     "acquiredAt": null,
     "orderId": "order_muuxjpev",
     "updatedAt": "2026-10-05T19:39:28.004Z"
+  },
+  {
+    "id": "inv_switch_return-to-monkey-island",
+    "gameId": "game_switch_return-to-monkey-island",
+    "status": "wishlist",
+    "quantity": 0,
+    "condition": "unknown",
+    "completeness": "unknown",
+    "purchasePrice": null,
+    "currentEstimate": null,
+    "verificationStatus": "verified",
+    "quantityNeedsReview": false,
+    "acquiredAt": null,
+    "orderId": null,
+    "updatedAt": "2026-10-06T01:15:07.470Z"
   }
 ]

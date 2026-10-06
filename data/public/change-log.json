@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-23T23:13:41.691Z",
-    "command": "add-order",
-    "message": "add order vinted"
-  },
-  {
     "at": "2026-08-23T23:13:42.449Z",
     "command": "ship-order",
     "message": "ship-order order_mt6fbew6"
@@ -2498,5 +2493,10 @@
     "at": "2026-10-05T19:39:28.027Z",
     "command": "ship-order",
     "message": "ship-order order_muuxjpev"
+  },
+  {
+    "at": "2026-10-06T01:15:07.504Z",
+    "command": "add-game",
+    "message": "add game Return to Monkey Island (switch)"
   }
 ]
