@@ -125,6 +125,9 @@ When it fires: fix the doc/data, never bypass.
   send the short message in the bundle's chat. The agent runs that path itself, but
   **only after benglut's explicit yes on that specific offer** (items + amount + seller):
   an accepted offer commits his money, so the decision stays his, one offer at a time.
+  Exception (benglut, 2026-10-06): when a seller asks « quel serait votre prix ? »,
+  the agent may answer by message with a figure lower than every other verified
+  offer or listing for the same game, without asking first. Buying stays his.
   The offer modal needs the Chrome window visible (`document.visibilityState` must not
   be `hidden`) — see `vinted-hunt/LEARNED.md` §2026-08-12.
 
