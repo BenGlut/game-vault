@@ -3966,7 +3966,7 @@
   {
     "id": "order_mut25hlv",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_code-name-s-t-e-a-m"
@@ -3980,7 +3980,7 @@
     ],
     "orderedAt": "2026-10-03",
     "fulfilledAt": "2026-10-03",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-07",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,

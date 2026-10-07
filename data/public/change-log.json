@@ -1,10 +1,5 @@
 [
   {
-    "at": "2026-08-24T19:06:57.398Z",
-    "command": "add-order",
-    "message": "add order amazon"
-  },
-  {
     "at": "2026-08-24T19:06:58.200Z",
     "command": "receive-order",
     "message": "receive-order order_mt7lxyhf"
@@ -2498,5 +2493,10 @@
     "at": "2026-10-07T14:25:06.693Z",
     "command": "ship-order",
     "message": "ship-order order_muy78n8b"
+  },
+  {
+    "at": "2026-10-07T23:25:06.648Z",
+    "command": "receive-order",
+    "message": "receive-order order_mut25hlv"
   }
 ]

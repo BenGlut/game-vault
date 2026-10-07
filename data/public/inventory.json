@@ -13131,17 +13131,17 @@
   {
     "id": "inv_3ds_code-name-s-t-e-a-m-2",
     "gameId": "game_3ds_code-name-s-t-e-a-m",
-    "status": "fulfilled",
-    "quantity": 0,
+    "status": "delivered",
+    "quantity": 1,
     "condition": "unknown",
     "completeness": "unknown",
     "purchasePrice": null,
     "currentEstimate": null,
-    "verificationStatus": "needs_review",
+    "verificationStatus": "verified",
     "quantityNeedsReview": false,
-    "acquiredAt": null,
+    "acquiredAt": "2026-10-07",
     "orderId": "order_mut25hlv",
-    "updatedAt": "2026-10-04T00:04:09.908Z"
+    "updatedAt": "2026-10-07T23:25:06.534Z"
   },
   {
     "id": "inv_switch_bravely-default-ii",

@@ -188,6 +188,7 @@
   (delivered) ; lot Ace Attorney expédié. 87 favoris Vinted retirés sur des jeux
   désormais possédés, 5 annonces Return to Monkey Island likées (édition Limited
   Run, dos trilingue anglais / français / espagnol)
+- Synchro du 08/10 : Code Name: S.T.E.A.M. récupéré (delivered)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
