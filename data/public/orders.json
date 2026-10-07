@@ -3787,7 +3787,7 @@
   {
     "id": "order_munc39ef",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_mario-lapins-cretins-sparks-of-hope"
@@ -3801,7 +3801,7 @@
     ],
     "orderedAt": "2026-09-27",
     "fulfilledAt": "2026-10-02",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-07",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3833,7 +3833,7 @@
   {
     "id": "order_munyeu3s",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_sonic-frontiers"
@@ -3847,7 +3847,7 @@
     ],
     "orderedAt": "2026-09-30",
     "fulfilledAt": "2026-10-01",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-07",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3856,7 +3856,7 @@
   {
     "id": "order_muo14hnt",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_kirby-s-return-to-dream-land-deluxe"
@@ -3870,7 +3870,7 @@
     ],
     "orderedAt": "2026-09-30",
     "fulfilledAt": "2026-10-01",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-07",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -3879,7 +3879,7 @@
   {
     "id": "order_muorhc3k",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 4,
     "gameIds": [
       "game_ds_phoenix-wright-ace-attorney",
@@ -3910,7 +3910,7 @@
       }
     ],
     "orderedAt": "2026-10-01",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-10-07",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -3943,7 +3943,7 @@
   {
     "id": "order_mut2566c",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 1,
     "gameIds": [
       "game_switch_yoshi-s-crafted-world"
@@ -3957,7 +3957,7 @@
     ],
     "orderedAt": "2026-10-03",
     "fulfilledAt": "2026-10-03",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-07",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,
@@ -4043,5 +4043,28 @@
     "cancelledAt": null,
     "refundedAt": null,
     "totalPaid": 8.83
+  },
+  {
+    "id": "order_muy78n8b",
+    "marketplace": "vinted",
+    "status": "fulfilled",
+    "itemCount": 1,
+    "gameIds": [
+      "game_switch_new-super-mario-bros-u-deluxe"
+    ],
+    "items": [
+      {
+        "gameId": "game_switch_new-super-mario-bros-u-deluxe",
+        "inventoryId": "inv_switch_new-super-mario-bros-u-deluxe",
+        "unitPrice": 29.83
+      }
+    ],
+    "orderedAt": "2026-10-06",
+    "fulfilledAt": "2026-10-06",
+    "deliveredAt": null,
+    "estimatedDeliveryAt": null,
+    "cancelledAt": null,
+    "refundedAt": null,
+    "totalPaid": 29.83
   }
 ]

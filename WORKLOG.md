@@ -182,6 +182,12 @@
   seul Monkey Island sur console Nintendo (aucun sur DS / 3DS), édition physique
   en tirage limité ; Vinted 55-105 €, Amazon import 85,50 € TTC, absent de
   Micromania
+- Synchro du 07/10 : New Super Mario Bros. U Deluxe acheté chez myms_64 (22 €
+  proposés, 25 € contre-proposés, 29,83 € tout compris, expédié) ; Kirby RTDL
+  Deluxe, Sonic Frontiers, Yoshi's Crafted World et Sparks of Hope récupérés
+  (delivered) ; lot Ace Attorney expédié. 87 favoris Vinted retirés sur des jeux
+  désormais possédés, 5 annonces Return to Monkey Island likées (édition Limited
+  Run, dos trilingue anglais / français / espagnol)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
