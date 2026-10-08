@@ -189,6 +189,12 @@
   désormais possédés, 5 annonces Return to Monkey Island likées (édition Limited
   Run, dos trilingue anglais / français / espagnol)
 - Synchro du 08/10 : Code Name: S.T.E.A.M. récupéré (delivered)
+- Wishlist du 09/10 : 5 Chevaliers de Baphomet (Broken Sword) en boîte sur
+  consoles Nintendo que la collection n'a pas : GBA (2002), Director's Cut Wii
+  (2009), La Malédiction du Serpent Switch (2018), L'Ombre des Templiers :
+  Reforged Switch (2024), Les Boucliers de Quetzalcoatl : Reforged Switch.
+  Jaquettes libretro et Amazon.fr. 13 annonces Return to Monkey Island de plus
+  en favoris Vinted (éditions standard et collector)
 
 ## Changed
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait

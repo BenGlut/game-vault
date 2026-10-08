@@ -14254,5 +14254,140 @@
     "externalIds": {},
     "qualityTier": null,
     "buyPriority": null
+  },
+  {
+    "id": "game_gba_les-chevaliers-de-baphomet",
+    "kind": "game",
+    "canonicalTitle": "Les Chevaliers de Baphomet",
+    "normalizedTitle": "les chevaliers de baphomet",
+    "aliases": [
+      "Broken Sword: The Shadow of the Templars"
+    ],
+    "franchise": "Les Chevaliers de Baphomet",
+    "platformId": "gba",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2002,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_wii_les-chevaliers-de-baphomet-director-s-cut",
+    "kind": "game",
+    "canonicalTitle": "Les Chevaliers de Baphomet: Director's Cut",
+    "normalizedTitle": "les chevaliers de baphomet director s cut",
+    "aliases": [
+      "Broken Sword: Shadow of the Templars - The Director's Cut"
+    ],
+    "franchise": "Les Chevaliers de Baphomet",
+    "platformId": "wii",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2009,
+    "genres": [],
+    "edition": null,
+    "playsOn": [],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_les-chevaliers-de-baphomet-la-malediction-du-serpent",
+    "kind": "game",
+    "canonicalTitle": "Les Chevaliers de Baphomet : La Malédiction du Serpent",
+    "normalizedTitle": "les chevaliers de baphomet la malediction du serpent",
+    "aliases": [
+      "Broken Sword 5: The Serpent's Curse",
+      "Les Chevaliers de Baphomet 5"
+    ],
+    "franchise": "Les Chevaliers de Baphomet",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2018,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_les-chevaliers-de-baphomet-reforged",
+    "kind": "game",
+    "canonicalTitle": "Les Chevaliers de Baphomet : Reforged",
+    "normalizedTitle": "les chevaliers de baphomet reforged",
+    "aliases": [
+      "Broken Sword - Shadow of the Templars: Reforged"
+    ],
+    "franchise": "Les Chevaliers de Baphomet",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": 2024,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
+  },
+  {
+    "id": "game_switch_les-chevaliers-de-baphomet-les-boucliers-de-quetzalcoatl-reforged",
+    "kind": "game",
+    "canonicalTitle": "Les Chevaliers de Baphomet - Les Boucliers de Quetzalcoatl : Reforged",
+    "normalizedTitle": "les chevaliers de baphomet les boucliers de quetzalcoatl reforged",
+    "aliases": [
+      "Broken Sword II: The Smoking Mirror Reforged"
+    ],
+    "franchise": "Les Chevaliers de Baphomet",
+    "platformId": "switch",
+    "region": "PAL-FR",
+    "languages": [
+      "fr"
+    ],
+    "publisher": null,
+    "developer": null,
+    "releaseYear": null,
+    "genres": [],
+    "edition": null,
+    "playsOn": [
+      "switch",
+      "switch2"
+    ],
+    "mediaType": "cartridge",
+    "externalIds": {},
+    "qualityTier": null,
+    "buyPriority": null
   }
 ]

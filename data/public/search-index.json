@@ -6435,5 +6435,66 @@
     "p": "switch",
     "r": "PAL-FR",
     "q": null
+  },
+  {
+    "id": "game_gba_les-chevaliers-de-baphomet",
+    "t": "Les Chevaliers de Baphomet",
+    "n": "les chevaliers de baphomet",
+    "a": [
+      "Broken Sword: The Shadow of the Templars"
+    ],
+    "f": "Les Chevaliers de Baphomet",
+    "p": "gba",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_wii_les-chevaliers-de-baphomet-director-s-cut",
+    "t": "Les Chevaliers de Baphomet: Director's Cut",
+    "n": "les chevaliers de baphomet director s cut",
+    "a": [
+      "Broken Sword: Shadow of the Templars - The Director's Cut"
+    ],
+    "f": "Les Chevaliers de Baphomet",
+    "p": "wii",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_les-chevaliers-de-baphomet-la-malediction-du-serpent",
+    "t": "Les Chevaliers de Baphomet : La Malédiction du Serpent",
+    "n": "les chevaliers de baphomet la malediction du serpent",
+    "a": [
+      "Broken Sword 5: The Serpent's Curse",
+      "Les Chevaliers de Baphomet 5"
+    ],
+    "f": "Les Chevaliers de Baphomet",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_les-chevaliers-de-baphomet-reforged",
+    "t": "Les Chevaliers de Baphomet : Reforged",
+    "n": "les chevaliers de baphomet reforged",
+    "a": [
+      "Broken Sword - Shadow of the Templars: Reforged"
+    ],
+    "f": "Les Chevaliers de Baphomet",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
+  },
+  {
+    "id": "game_switch_les-chevaliers-de-baphomet-les-boucliers-de-quetzalcoatl-reforged",
+    "t": "Les Chevaliers de Baphomet - Les Boucliers de Quetzalcoatl : Reforged",
+    "n": "les chevaliers de baphomet les boucliers de quetzalcoatl reforged",
+    "a": [
+      "Broken Sword II: The Smoking Mirror Reforged"
+    ],
+    "f": "Les Chevaliers de Baphomet",
+    "p": "switch",
+    "r": "PAL-FR",
+    "q": null
   }
 ]
