@@ -8,23 +8,24 @@
 
 Personal video-game collection manager. Two repos:
 
-- `benglut/game-vault` (public, this one) — code, read-only web UI, filtered public
-  export in `data/public/`, deployed to GitHub Pages.
+- `benglut/game-vault` (public, this one) — code of the CLI and of the private web app.
 - `benglut/game-vault-data` (private) — source of truth: `data/*.json` + `publish.config.json`.
   Local checkout expected at the path written in `LOCAL.md` (default `../game-vault-data`).
 
-**The public web UI never writes. All mutations go through `pnpm vault <cmd>`** (Zod
-validation, duplicate detection, dry-run diff, `--yes`, atomic write, backup,
-changelog). Commands and rules: `README.md`, `docs/data-model.md`, skills in
-`.agents/skills/`.
+**The agent's mutations go through `pnpm vault <cmd>`** (Zod validation, duplicate
+detection, dry-run diff, `--yes`, atomic write, backup, changelog). Commands and
+rules: `README.md`, `docs/data-model.md`, skills in `.agents/skills/`.
 
-**Private online copy (since 2026-10-09, benglut's order):** Cloudflare Pages project
-`gamevault` (https://gamevault-ehn.pages.dev) + D1 database `gamevault`. Every
-request needs a Google sign-in restricted to one address (secret `ALLOWED_EMAIL`).
-The API (`functions/api/`) validates each write with the same Zod schemas and logs
-it in D1's `change_log` (actor `web`). Edit screen: `/gestion` (`src/components/manage/`),
-built only when `GAMEVAULT_PRIVATE=true` (set by `pnpm deploy:cf`); the public build
-shows neither the link nor the editor. The JSON repo stays the source the CLI edits:
+**The web app is private and live (since 2026-10-09, benglut's order):** Cloudflare
+Pages project `gamevault` (https://gamevault-ehn.pages.dev) + D1 database `gamevault`.
+Every request needs a Google sign-in restricted to one address (secret
+`ALLOWED_EMAIL`). The app loads the whole base once (`GET /api/vault`) and every page
+reads it live; edits happen in the game panel and the Orders page. The API
+(`functions/api/`) validates each write with the same Zod schemas and logs it in D1's
+`change_log` (actor `web`). The collection is no longer public: GitHub Pages only
+serves the 35 000 catalog covers (`.github/workflows/deploy.yml`). `data/public/` is
+still exported by `vault publish` but no page reads it any more.
+The JSON repo stays the source the CLI edits:
 - **before** any `pnpm vault` mutation: `pnpm d1 pull` (brings online edits back);
 - **after** commit: `pnpm d1 push` (refuses if D1 holds edits not yet pulled);
 - redeploy the site: `pnpm deploy:cf` (catalog covers stay on GitHub Pages).
@@ -144,32 +145,45 @@ When it fires: fix the doc/data, never bypass.
 
 ## 9. UI/UX defaults
 
-Read-only, premium, dark. No edit affordances of any kind on the public site.
-Declutter; consistent components; no emoji in UI (inline SVG icons in
+Premium, dark, fluid (full redesign 2026-10-09, benglut's order: « interface moderne et
+fluide, stats, dashboard, courbes et graphiques »). Declutter; consistent components
+from `src/components/ui/primitives.tsx`; no emoji in UI (inline SVG icons in
 `src/components/icons.tsx` — user order, 2026-08-08); real icons sized by one
-dimension; visible active states; tighten dead space. Update the smallest unit —
-patch in place before swapping sections, full rebuild is last resort.
+dimension; visible active states; tighten dead space. Charts are in-house SVG
+(`src/components/charts/`) and follow the dataviz method: categorical palette
+validated against the card surface `#12141d` (fixed order, never cycled), brand amber
+only for single-series charts, one y-axis, hover tooltip on every chart, legend from
+2 series. Update the smallest unit — patch in place before swapping sections, full
+rebuild is last resort.
 
 ## 10. Architecture map
 
-Stack: Next.js 15 static export + TS strict + Tailwind 4 + Zod + Fuse.js;
-Vitest + Playwright; pnpm; GitHub Actions → Pages.
+Stack: Next.js 15 static export (client app) + Cloudflare Pages Functions + D1 +
+TS strict + Tailwind 4 + Zod + Fuse.js; Vitest + Playwright (API mocked); pnpm.
 
 ```
 src/lib/schema.ts        every Zod schema + types (SINGLE source of the data model)
 src/lib/normalize.ts     title normalization + deterministic ids
-src/lib/data.ts          build-time readers of data/public/ + labels + coverUrl
-src/app/…                pages (all read-only)
-src/components/…         ui.tsx (badges/cards), icons.tsx (SVG), *Explorer/Search (client)
+src/lib/collection.ts    possession rules (owned ≠ ordered, still wanted, in collection)
+src/lib/quotes.ts        latest quote per variant (same rule as the CLI)
+src/lib/stats.ts         every number and monthly series of the dashboard / stats
+src/app/…                thin pages, each rendering one view
+src/components/shell/    AppShell (sidebar, ⌘K palette, mobile tabs), nav
+src/components/vault/    VaultProvider (live base + writes), api client
+src/components/views/    Dashboard, Statistiques, Collection, Wishlist, Commandes,
+                         Catalogue, Estimateur, Historique, Jeu
+src/components/game/     GameDrawer/GameDetail (view + edit), cards, new-game dialog
+src/components/charts/   AreaChart, ColumnChart, BarList, StackedBar, Sparkline
 scripts/vault/           the CLI — index.ts (commands), lib/store.ts (atomic IO,
                          diff, backups, integrity), lib/publish.ts (filtered export)
 scripts/seed/            initial bootstrap (idempotent, --force to regen)
 scripts/covers/          libretro-thumbnails fetch + 3-tier title matching (collection)
 scripts/catalog/         full No-Intro DS/3DS reference catalog + ALL covers (160px,
                          stored locally in public/catalog-covers/ — user order)
-data/public/             committed filtered export — the ONLY data the static pages see
+data/public/             committed filtered export (no longer read by the app)
 functions/               Cloudflare Pages Functions: _middleware.ts (Google session
-                         gate on every path), api/auth/*, api/[collection]/[id]
+                         gate on every path), api/vault, api/auth/*,
+                         api/[collection]/[id], api/order-transition/[id]
 src/server/              API core: auth.ts (ID token + HMAC cookie), store.ts (D1
                          CRUD + integrity + change log), collections.ts
 migrations/              D1 schema (one table per data file, record kept as JSON)

@@ -192,18 +192,66 @@ export function PencilIcon(props: IconProps) {
   );
 }
 
+export function ChartIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+      <path d="m7 15 4-5 3 3 5-6" />
+    </svg>
+  );
+}
+
+export function PlusIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M12 5v14M5 12h14" />
+    </svg>
+  );
+}
+
+export function MenuIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  );
+}
+
+export function LogOutIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+      <path d="m16 17 5-5-5-5M21 12H9" />
+    </svg>
+  );
+}
+
+export function GridIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <rect x="3" y="3" width="7" height="7" rx="1.5" />
+      <rect x="14" y="3" width="7" height="7" rx="1.5" />
+      <rect x="3" y="14" width="7" height="7" rx="1.5" />
+      <rect x="14" y="14" width="7" height="7" rx="1.5" />
+    </svg>
+  );
+}
+
+export function ListIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+    </svg>
+  );
+}
+
 export const NAV_ICONS: Record<string, (p: IconProps) => React.JSX.Element> = {
-  "/gestion": PencilIcon,
   "/": DashboardIcon,
+  "/statistiques": ChartIcon,
   "/collection": LibraryIcon,
-  "/recherche": SearchIcon,
-  "/catalogue": CatalogIcon,
-  "/estimateur": TagIcon,
-  "/commandes": CartIcon,
   "/wishlist": StarIcon,
-  "/recommandations": SparkIcon,
-  "/doublons": LayersIcon,
-  "/plateformes": GamepadIcon,
-  "/valeur": CoinIcon,
+  "/catalogue": CatalogIcon,
+  "/commandes": CartIcon,
+  "/estimateur": TagIcon,
   "/historique": HistoryIcon,
 };

@@ -1,19 +1,19 @@
 # 🕹 GameVault
 
-**Site : https://benglut.github.io/game-vault/**
-
 Gestionnaire personnel de collection de jeux vidéo multi-marques et multi-plateformes,
-piloté par un agent IA. Interface web **strictement en lecture seule** ; toutes les
-mutations passent par la CLI `pnpm vault`.
+piloté par un agent IA. Application web **privée** (connexion Google) sur Cloudflare
+Pages + D1 : tableau de bord, statistiques et graphiques, collection, wishlist,
+commandes, modifications en direct. L'agent passe par la CLI `pnpm vault`.
 
-- **Repo public** (celui-ci) : code, interface, docs, export public filtré.
+- **Repo public** (celui-ci) : code de la CLI et de l'application, docs.
 - **Repo privé** [`benglut/game-vault-data`](https://github.com/benglut/game-vault-data) : source de vérité (inventaire, commandes, prix, vendeurs, notes).
 
 ## Démarrage
 
 ```bash
 pnpm install
-pnpm dev          # interface sur http://localhost:3000
+pnpm build && pnpm exec wrangler pages dev out   # application + API sur http://localhost:8788 (base D1 locale)
+pnpm d1 push --local                             # charger la base locale depuis le repo privé
 pnpm vault search "pokemon lune"
 ```
 

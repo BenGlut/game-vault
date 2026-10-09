@@ -2,7 +2,7 @@
 
 Tu pilotes GameVault : collection de jeux vidéo de benglut. **Deux repos** :
 
-- `benglut/game-vault` (public) — code + interface lecture seule + export filtré `data/public/`
+- `benglut/game-vault` (public) — code de la CLI et de l'application privée (Cloudflare Pages + D1)
 - `benglut/game-vault-data` (privé) — source de vérité `data/*.json` (cloné dans `../game-vault-data`)
 
 ## Règles absolues

@@ -1,5 +1,5 @@
 import type Fuse from "fuse.js";
-import type { SearchDoc } from "./data";
+import type { SearchDoc } from "./search";
 import { expandAbbreviations } from "./abbreviations";
 
 function norm(s: string): string {

@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import Fuse from "fuse.js";
 import { searchDocs } from "../src/lib/fuzzy";
-import type { SearchDoc } from "../src/lib/data";
+import type { SearchDoc } from "../src/lib/search";
 
 const docs: SearchDoc[] = [
   { id: "gb-rouge", t: "Pokémon Version Rouge", n: "pokemon version rouge", a: ["Pokemon Red Version"], f: "Pokémon", p: "gb" },

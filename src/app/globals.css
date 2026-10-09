@@ -114,3 +114,102 @@ body {
     transform: none;
   }
 }
+
+/* --- mouvements de l'application (courts, amortis, désactivés si l'utilisateur le demande) --- */
+@keyframes gv-pop {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes gv-sheet {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes gv-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.animate-pop {
+  animation: gv-pop 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-sheet {
+  animation: gv-sheet 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-toast {
+  animation: gv-pop 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-page {
+  animation: gv-fade-up 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* barres de défilement discrètes */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+/* listes horizontales de filtres sans barre visible */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pop,
+  .animate-sheet,
+  .animate-toast,
+  .animate-page {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes gv-drawer {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes gv-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-drawer {
+  animation: gv-drawer 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-fade {
+  animation: gv-fade 0.25s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-drawer,
+  .animate-fade {
+    animation: none;
+  }
+}

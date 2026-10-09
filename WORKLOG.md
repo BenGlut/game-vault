@@ -13,27 +13,42 @@
   `pnpm d1 push|pull` (`scripts/d1/sync.ts`) : push refuse d'écraser des
   modifications faites en ligne non rapatriées. Déploiement `pnpm deploy:cf`
   (`scripts/cloudflare/deploy.ts`) : les 35 000 jaquettes du catalogue restent
-  servies par GitHub Pages (`CATALOG_COVERS_BASE`), plafond Pages de 20 000
-  fichiers. Page de connexion `public/connexion/`. Client OAuth « GameVault
-  Web » dans le projet Google Cloud `gamevault-511106` du compte Gmail (audience
-  externe, mode test, seul utilisateur test benglut@gmail.com), identifiant dans
-  `GOOGLE_CLIENT_ID` (`wrangler.toml`)
-- **Écran de modification en ligne `/gestion`** (copie privée seulement,
-  `src/components/manage/`, `src/app/gestion/page.tsx`) : recherche des 602 jeux
-  par titre, autre nom ou franchise, filtres console et état (possédé, en route,
-  à acheter, catalogue seul) ; fiche du jeu éditable (titre, édition, franchise,
-  année, autres noms, qualité, priorité) ; chaque exemplaire éditable (statut,
-  état, complétude, prix, date, vérification, notes), ajout à la wishlist ou d'un
-  exemplaire possédé, suppression en deux clics ; onglet Commandes (expédiée,
-  reçue, annulée, remboursée à une date choisie, mêmes effets que
-  `vault deliver-order` etc. via `POST /api/order-transition/<id>`, commande et
-  exemplaires liés dans un seul batch) ; ajout d'un jeu au catalogue avec
-  détection de doublon ; historique des 200 dernières modifications. Lien
-  « Gestion » et pied de page adaptés seulement si `GAMEVAULT_PRIVATE=true`
-  (`PRIVATE_BUILD` dans `src/lib/data.ts`). Suppression d'un exemplaire refusée
-  côté serveur s'il figure dans une commande. Testé de bout en bout sur une base
-  D1 locale, puis `d1 pull` sur une copie du repo de données : diff limité aux
-  modifications faites, `validate` OK
+  servies par GitHub Pages, plafond Pages de 20 000 fichiers. Page de connexion
+  `public/connexion/`. Client OAuth « GameVault Web » dans le projet Google Cloud
+  `gamevault-511106` du compte Gmail (audience externe, mode test, seul
+  utilisateur test benglut@gmail.com), identifiant dans `GOOGLE_CLIENT_ID`
+  (`wrangler.toml`)
+- **Refonte complète de l'interface en application privée et en direct** (ordre
+  de benglut : « interface moderne et fluide, stats, dashboard, courbes et
+  graphiques » ; collection privée uniquement). Toute la base est chargée en une
+  requête (`GET /api/vault`, `functions/api/vault.ts`) dans `VaultProvider`
+  (`src/components/vault/`) : une modification se voit aussitôt sur toutes les
+  pages. Cadre `src/components/shell/` : menu latéral groupé, recherche globale
+  ⌘K / Ctrl+K / « / » (jeux, pages, « Nouveau jeu »), onglets du bas sur
+  téléphone, notifications. Pages (`src/components/views/`) : Tableau de bord
+  (valeur de la collection en chiffre phare, courbe valeur vs dépensé cumulé,
+  tuiles avec tendance, dépenses par mois, répartition par console, commandes
+  en route, à chasser, derniers arrivés, à faire, activité), Statistiques
+  (nouvelle : période 12/24 mois/tout, valeur et dépenses cumulées, taille de la
+  collection, arrivées par mois, exemplaires et valeur par console, complétude,
+  état, qualité, pièces les plus cotées, meilleures affaires), Ma collection
+  (grille ou liste, recherche, périmètre possédés/en route/tout, puces console,
+  complétude, tri, filtres « à vérifier », « sans cote », « doublons »),
+  Wishlist (budget estimé, priorités, groupes), Commandes (chiffres clés, en
+  cours avec expédiée/reçue/annulée à une date choisie via `POST
+  /api/order-transition/<id>`, dépenses par mois, plateformes et vendeurs,
+  historique filtrable dépliable), Catalogue (rapprochement avec la base calculé
+  dans le navigateur, ajout d'un jeu absent d'un clic), Estimateur, Historique
+  (par jour, en ligne ou agent), Jeu (`/jeu/?id=`). La modification se fait dans
+  le panneau du jeu (`src/components/game/`) : exemplaires, fiche, ajout à la
+  wishlist ou d'un exemplaire, cotes, estimateur, commandes liées. Graphiques
+  maison en SVG (`src/components/charts/`) : palette catégorielle validée sur le
+  fond `#12141d`, un seul axe, infobulle partout. Calculs purs et testés :
+  `src/lib/collection.ts`, `src/lib/quotes.ts`, `src/lib/stats.ts`
+  (`tests/stats.test.ts`). Tests e2e réécrits avec l'API simulée
+  (`e2e/fixtures/vault.ts`). Le site public GitHub Pages ne publie plus que les
+  jaquettes du catalogue (`.github/workflows/deploy.yml`). 11 pages exportées au
+  lieu de 618
 - **`pnpm vault inspect games --tier S --missing`** : deux filtres ajoutes a
   `inspect` (`scripts/vault/index.ts`). `--tier` filtre sur le niveau de qualite
   (S = incontournable, jusqu'a D), `--missing` ne garde que les titres dont aucun
@@ -608,6 +623,13 @@
   Rescue), Switch 1 404 icônes via 12 régions titledb
 
 ## Removed
+- **Site public de la collection** (GitHub Pages) et pages fusionnées dans la
+  refonte : Recherche (→ recherche globale ⌘K), Doublons, Valeur, Plateformes
+  (→ Statistiques et filtres de la collection), Recommandations (→ Wishlist),
+  Gestion (→ panneau du jeu et Commandes), les 602 pages statiques `/jeu/<id>`
+  (→ `/jeu/?id=`), `src/lib/data.ts` (lecture de l'export public au build) et les
+  anciens composants (`CollectionExplorer`, `WishlistClient`, `OrdersClient`,
+  `OrderDrawer`, `SearchClient`, `GameDrawer`, `GameCard`, `ui.tsx`)
 - Enrichissement post-audit mobile (inventaire du téléphone intact) : 94 jeux
   notés S-D + alias EN + 188 cotes loose/CIB ; jaquettes de collection 266/269
   (SNES/X360 ajoutés à fetch-covers, conversion sips validée par URL — les

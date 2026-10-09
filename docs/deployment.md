@@ -1,31 +1,27 @@
 # Déploiement
 
-## GitHub Pages (production)
+## Cloudflare Pages (application privée)
 
-- Workflow : `.github/workflows/deploy.yml` — à chaque push sur `main` :
-  `pnpm install → pnpm test → pnpm build (GITHUB_PAGES=true) → deploy-pages`.
-- `GITHUB_PAGES=true` active `basePath: /game-vault` dans `next.config.ts`.
-- URL : https://benglut.github.io/game-vault/
-- Source Pages : « GitHub Actions » (configuré via `gh api`).
+- Projet `gamevault`, URL : https://gamevault-ehn.pages.dev — connexion Google
+  réservée à une adresse (secret `ALLOWED_EMAIL`, cookie signé avec `SESSION_SECRET`).
+- Base D1 `gamevault` (schéma `migrations/`), API dans `functions/`.
+- Déployer : `pnpm deploy:cf` (build + envoi ; les jaquettes du catalogue restent
+  sur GitHub Pages, plafond de 20 000 fichiers par déploiement).
+- Données : `pnpm d1 pull` avant toute mutation CLI, `pnpm d1 push` après.
+
+## GitHub Pages (jaquettes du catalogue)
+
+- Workflow : `.github/workflows/deploy.yml` — publie seulement `public/catalog-covers/`
+  et une page d'accueil neutre. La collection n'y est plus publiée.
 
 ## CI (`.github/workflows/ci.yml`)
 
-Sur PR et push : lint, typecheck, tests Vitest, build. Playwright e2e sur le build.
+Sur PR et push : lint, typecheck, tests Vitest, build, Playwright (API simulée par
+`e2e/fixtures/vault.ts`).
 
 ## Local
 
 ```bash
-pnpm build                  # export statique dans out/
-node scripts/serve-out.mjs  # sert out/ sur http://localhost:4173
+pnpm build                          # export statique dans out/
+pnpm exec wrangler pages dev out    # application + API + D1 locale sur :8788
 ```
-
-## Mise à jour des données du site
-
-Le site n'affiche que `data/public/` (commité). Après mutation des données :
-
-```bash
-pnpm vault publish
-git add data/public && git commit -m "data(publish): refresh" && git push
-```
-
-Le deploy se déclenche automatiquement.

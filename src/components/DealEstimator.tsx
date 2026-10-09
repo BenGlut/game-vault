@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import Fuse from "fuse.js";
-import type { SearchDoc } from "@/lib/data";
+import type { SearchDoc } from "@/lib/search";
 import type { GameQuotes, Quote } from "@/lib/schema";
 import { evaluateDeal, VERDICT_COLORS } from "@/lib/deal";
 import { searchDocs } from "@/lib/fuzzy";
@@ -148,7 +148,7 @@ export default function DealEstimator({
               <div className="mt-1 truncate text-xs text-muted">alias : {selected.a.join(", ")}</div>
             ) : null}
             <div className="mt-2 flex gap-4 text-xs">
-              <Link href={`/jeu/${selected.id}/`} className="text-accent underline">
+              <Link href={`/jeu/?id=${encodeURIComponent(selected.id)}`} className="text-accent underline">
                 voir la fiche
               </Link>
               <button

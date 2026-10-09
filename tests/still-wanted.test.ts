@@ -1,6 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { stillWanted, inCollection } from "../src/lib/data";
-import type { GameRow, PublicInventoryItem } from "../src/lib/data";
+import { stillWanted, inCollection, type StatusLike } from "../src/lib/collection";
 
 /**
  * Règle métier posée par benglut le 2026-08-11 après avoir vu un jeu déjà acheté
@@ -8,13 +7,8 @@ import type { GameRow, PublicInventoryItem } from "../src/lib/data";
  * d'achat, et il n'y revient que si la commande tombe et qu'il ne reste rien en stock.
  */
 
-function row(...statuses: string[]): GameRow {
-  return {
-    game: { id: "g", platformId: "3ds" } as GameRow["game"],
-    items: statuses.map((status) => ({ status }) as PublicInventoryItem),
-    platform: undefined,
-    coverUrl: null,
-  };
+function row(...statuses: string[]): StatusLike[] {
+  return statuses.map((status) => ({ status }));
 }
 
 describe("stillWanted", () => {
@@ -51,21 +45,21 @@ describe("stillWanted", () => {
 describe("inCollection", () => {
   it("garde un jeu réellement possédé ou en route", () => {
     for (const s of ["owned", "delivered", "duplicate", "ordered", "fulfilled"]) {
-      expect(inCollection(row(s))).toBe(true);
+      expect(inCollection("game", row(s))).toBe(true);
     }
   });
 
   it("exclut un jeu dont les seules lignes sont annulées ou remboursées", () => {
-    expect(inCollection(row("refunded", "refunded", "wishlist"))).toBe(false);
-    expect(inCollection(row("cancelled"))).toBe(false);
-    expect(inCollection(row("sold"))).toBe(false);
+    expect(inCollection("game", row("refunded", "refunded", "wishlist"))).toBe(false);
+    expect(inCollection("game", row("cancelled"))).toBe(false);
+    expect(inCollection("game", row("sold"))).toBe(false);
   });
 
   it("exclut un jeu seulement souhaité", () => {
-    expect(inCollection(row("wishlist"))).toBe(false);
+    expect(inCollection("game", row("wishlist"))).toBe(false);
   });
 
   it("le fait entrer dès qu'un exemplaire réel s'ajoute aux lignes remboursées", () => {
-    expect(inCollection(row("refunded", "owned"))).toBe(true);
+    expect(inCollection("game", row("refunded", "owned"))).toBe(true);
   });
 });

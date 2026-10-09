@@ -1,14 +1,11 @@
-import fs from "node:fs";
-import path from "node:path";
 import { normalizeTitle } from "./normalize";
-import { POSSESSION, stillWanted } from "./data";
-import type { GameRow } from "./data";
+import { isOwned, stillWanted, type StatusLike } from "./collection";
 
 /**
  * Associe chaque entrée du catalogue No-Intro à un jeu de la base (possédé ou
- * wishlist) — matching 3 niveaux comme les jaquettes : titre normalisé exact,
- * mêmes mots réordonnés, puis mots du jeu ⊆ mots de l'entrée (sous-titres).
- * Calculé au build ; le client reçoit un simple mapping entryId → lien.
+ * wishlist) — matching 3 niveaux : titre normalisé exact, mêmes mots réordonnés,
+ * puis mots du jeu ⊆ mots de l'entrée (sous-titres). Calculé dans le navigateur à
+ * partir de la base en direct.
  */
 
 export interface CatalogGameLink {
@@ -18,9 +15,14 @@ export interface CatalogGameLink {
   quality: string | null;
 }
 
-interface CatalogEntryLite {
+export interface CatalogEntryLite {
   id: string;
   n: string;
+}
+
+export interface MatchRow {
+  game: { id: string; platformId: string; normalizedTitle: string; aliases: string[]; qualityTier: string | null };
+  items: StatusLike[];
 }
 
 function words(s: string): string[] {
@@ -30,20 +32,11 @@ function sortedKey(s: string): string {
   return [...words(s)].sort().join(" ");
 }
 
-export function buildEntryLinks(rows: GameRow[]): Record<string, CatalogGameLink> {
-  const catalogDir = path.join(process.cwd(), "public", "catalog");
-  if (!fs.existsSync(catalogDir)) return {};
-
+export function buildEntryLinks(
+  byPlatform: Map<string, CatalogEntryLite[]>,
+  rows: MatchRow[],
+): Record<string, CatalogGameLink> {
   const entryLinks: Record<string, CatalogGameLink> = {};
-  const byPlatform = new Map<string, CatalogEntryLite[]>();
-  for (const file of fs.readdirSync(catalogDir).filter((f) => f.endsWith(".json"))) {
-    const platformId = file.replace(/\.json$/, "");
-    byPlatform.set(
-      platformId,
-      JSON.parse(fs.readFileSync(path.join(catalogDir, file), "utf8")) as CatalogEntryLite[],
-    );
-  }
-
   for (const [platformId, entries] of byPlatform) {
     const exact = new Map<string, string>();
     const sorted = new Map<string, string>();
@@ -62,8 +55,8 @@ export function buildEntryLinks(rows: GameRow[]): Record<string, CatalogGameLink
       if (row.game.platformId !== basePlatformId) continue;
       const link: CatalogGameLink = {
         id: row.game.id,
-        owned: row.items.some((i) => POSSESSION.includes(i.status)),
-        wishlist: stillWanted(row),
+        owned: row.items.some(isOwned),
+        wishlist: stillWanted(row.items),
         quality: row.game.qualityTier,
       };
       const candidates = [row.game.normalizedTitle, ...row.game.aliases.map(normalizeTitle)];

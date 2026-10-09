@@ -1,8 +1,15 @@
 name: Deploy GitHub Pages
 
+# Depuis le 2026-10-09 la collection n'est plus publique : l'application vit sur
+# Cloudflare Pages (connexion Google). GitHub Pages ne sert plus que les 35 000
+# jaquettes du catalogue de référence, trop nombreuses pour un déploiement Cloudflare.
+
 on:
   push:
     branches: [main]
+    paths:
+      - "public/catalog-covers/**"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 permissions:
@@ -19,19 +26,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
-        with:
-          node-version: 22
-      - name: Activer pnpm (corepack)
-        run: corepack enable
-      - run: pnpm install --frozen-lockfile
-      - name: Build statique (basePath /game-vault)
-        run: pnpm build
-        env:
-          GITHUB_PAGES: "true"
+      - name: Jaquettes du catalogue seulement
+        run: |
+          mkdir -p site
+          cp -r public/catalog-covers site/catalog-covers
+          printf '%s\n' '<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="robots" content="noindex"><title>GameVault</title><body style="background:#08090d;color:#8a93a8;font:15px system-ui;display:grid;place-items:center;min-height:100vh;margin:0">Collection privée.</body></html>' > site/index.html
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: out
+          path: site
   deploy:
     needs: build
     runs-on: ubuntu-latest

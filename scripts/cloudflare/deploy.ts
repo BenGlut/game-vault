@@ -1,18 +1,17 @@
 /**
- * Build + déploiement Cloudflare Pages (projet « gamevault », site privé).
+ * Build + déploiement Cloudflare Pages (projet « gamevault », application privée).
  *
  *   pnpm deploy:cf
  *
  * Les 35 000 jaquettes du catalogue dépassent le plafond de 20 000 fichiers par
- * déploiement : le build les référence sur GitHub Pages et elles sont mises de
- * côté pendant l'envoi, puis remises en place.
+ * déploiement : l'application les lit sur GitHub Pages, elles sont mises de côté
+ * pendant l'envoi puis remises en place.
  */
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { REPO_ROOT } from "../vault/lib/store";
 
-const COVERS_ORIGIN = "https://benglut.github.io/game-vault";
 const bin = (name: string) => path.join(REPO_ROOT, "node_modules", ".bin", name);
 
 function run(cmd: string, args: string[], env: Record<string, string> = {}): void {
@@ -20,7 +19,7 @@ function run(cmd: string, args: string[], env: Record<string, string> = {}): voi
   if (res.status !== 0) throw new Error(`${path.basename(cmd)} ${args[0]} a échoué (code ${res.status})`);
 }
 
-run(bin("next"), ["build"], { CATALOG_COVERS_BASE: COVERS_ORIGIN, GAMEVAULT_PRIVATE: "true" });
+run(bin("next"), ["build"]);
 
 const covers = path.join(REPO_ROOT, "out", "catalog-covers");
 const parked = path.join(REPO_ROOT, ".catalog-covers-parked");

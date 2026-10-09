@@ -1,0 +1,160 @@
+/** Petite base fictive servie à la place de /api/vault pendant les tests e2e. */
+
+const game = (id: string, title: string, platformId: string, extra: Record<string, unknown> = {}) => ({
+  id,
+  kind: "game",
+  canonicalTitle: title,
+  normalizedTitle: title
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim(),
+  aliases: [],
+  franchise: null,
+  platformId,
+  region: "PAL-FR",
+  languages: ["fr"],
+  publisher: null,
+  developer: null,
+  releaseYear: null,
+  genres: [],
+  edition: null,
+  playsOn: [],
+  mediaType: "cartridge",
+  externalIds: {},
+  qualityTier: "A",
+  buyPriority: null,
+  ...extra,
+});
+
+const inv = (id: string, gameId: string, status: string, extra: Record<string, unknown> = {}) => ({
+  id,
+  gameId,
+  status,
+  quantity: status === "wishlist" ? 0 : 1,
+  condition: "unknown",
+  completeness: "CIB",
+  purchasePrice: null,
+  currentEstimate: null,
+  verificationStatus: "verified",
+  quantityNeedsReview: false,
+  evidenceIds: [],
+  orderId: null,
+  privateNotes: null,
+  acquiredAt: null,
+  createdAt: "2026-08-01T10:00:00.000Z",
+  updatedAt: "2026-08-01T10:00:00.000Z",
+  ...extra,
+});
+
+const platform = (id: string, name: string, shortName: string) => ({
+  id,
+  name,
+  shortName,
+  brand: "Nintendo",
+  mediaTypes: ["cartridge"],
+});
+
+export const VAULT = {
+  games: [
+    game("game_3ds_pokemon-lune", "Pokémon Lune", "3ds", { aliases: ["Pokémon Moon"], franchise: "Pokémon" }),
+    game("game_ds_super-mario-64-ds", "Super Mario 64 DS", "ds", { franchise: "Super Mario" }),
+    game("game_gba_the-legend-of-zelda-the-minish-cap", "The Legend of Zelda: The Minish Cap", "gba", {
+      qualityTier: "S",
+      buyPriority: "haute",
+    }),
+    game("game_ds_hotel-dusk-room-215", "Hotel Dusk : Room 215", "ds"),
+  ],
+  inventory: [
+    inv("inv_3ds_pokemon-lune", "game_3ds_pokemon-lune", "owned", {
+      purchasePrice: { amount: 12, currency: "EUR", includesShipping: true },
+      acquiredAt: "2026-08-15",
+    }),
+    inv("inv_ds_super-mario-64-ds", "game_ds_super-mario-64-ds", "delivered", {
+      orderId: "order_e2e_recu",
+      purchasePrice: { amount: 9.5, currency: "EUR", includesShipping: true },
+      acquiredAt: "2026-09-10",
+    }),
+    inv("inv_gba_the-legend-of-zelda-the-minish-cap", "game_gba_the-legend-of-zelda-the-minish-cap", "wishlist", {
+      completeness: "unknown",
+      verificationStatus: "needs_review",
+    }),
+    inv("inv_ds_hotel-dusk-room-215", "game_ds_hotel-dusk-room-215", "ordered", { orderId: "order_e2e_encours" }),
+  ],
+  orders: [
+    {
+      id: "order_e2e_recu",
+      marketplace: "vinted",
+      sellerId: "seller_e2e",
+      reference: "VNT-1",
+      status: "delivered",
+      items: [{ gameId: "game_ds_super-mario-64-ds", inventoryId: "inv_ds_super-mario-64-ds", quantity: 1, unitPrice: 9.5 }],
+      itemsTotal: 9.5,
+      shippingCost: 2,
+      buyerProtection: 0.5,
+      lotDiscount: null,
+      totalPaid: 9.5,
+      currency: "EUR",
+      orderedAt: "2026-09-05",
+      fulfilledAt: "2026-09-06",
+      deliveredAt: "2026-09-10",
+      estimatedDeliveryAt: null,
+      cancelledAt: null,
+      refundedAt: null,
+      listingIds: [],
+      evidenceIds: [],
+      privateNotes: null,
+    },
+    {
+      id: "order_e2e_encours",
+      marketplace: "vinted",
+      sellerId: "seller_e2e",
+      reference: "VNT-2",
+      status: "fulfilled",
+      items: [{ gameId: "game_ds_hotel-dusk-room-215", inventoryId: "inv_ds_hotel-dusk-room-215", quantity: 1, unitPrice: 20 }],
+      itemsTotal: 20,
+      shippingCost: null,
+      buyerProtection: null,
+      lotDiscount: null,
+      totalPaid: 20,
+      currency: "EUR",
+      orderedAt: "2026-10-05",
+      fulfilledAt: "2026-10-06",
+      deliveredAt: null,
+      estimatedDeliveryAt: null,
+      cancelledAt: null,
+      refundedAt: null,
+      listingIds: [],
+      evidenceIds: [],
+      privateNotes: null,
+    },
+  ],
+  platforms: [platform("3ds", "Nintendo 3DS", "3DS"), platform("ds", "Nintendo DS", "DS"), platform("gba", "Game Boy Advance", "GBA")],
+  sellers: [{ id: "seller_e2e", name: "vendeur-test", marketplace: "vinted", profileUrl: null, rating: null, privateNotes: null }],
+  priceObservations: [
+    {
+      id: "price_e2e_1",
+      gameId: "game_3ds_pokemon-lune",
+      variant: "cib",
+      low: 15,
+      median: 20,
+      high: 25,
+      currency: "EUR",
+      source: "test",
+      url: null,
+      observedAt: "2026-09-01",
+      notes: null,
+    },
+  ],
+  changeLog: [
+    {
+      id: "chg_e2e_1",
+      at: "2026-10-08T20:00:00.000Z",
+      actor: "agent",
+      command: "receive-order order_e2e_recu",
+      message: "Commande order_e2e_recu reçue",
+      affected: [{ file: "orders.json", ids: ["order_e2e_recu"] }],
+    },
+  ],
+};

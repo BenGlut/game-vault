@@ -1,12 +1,44 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
+import { VAULT } from "./fixtures/vault";
 
-test("le dashboard affiche les stats", async ({ page }) => {
+/**
+ * L'application lit et écrit l'API privée (Cloudflare + D1). Ici l'API est simulée :
+ * GET /api/vault sert une petite base fictive, les écritures renvoient ce qu'elles
+ * reçoivent, comme le serveur après validation.
+ */
+async function mockApi(page: Page, { unauthorized = false } = {}) {
+  const writes: { method: string; url: string; body: unknown }[] = [];
+  await page.route("**/api/**", async (route) => {
+    const req = route.request();
+    const url = new URL(req.url());
+    if (unauthorized) return route.fulfill({ status: 401, json: { error: "Connexion requise" } });
+    if (req.method() === "GET" && url.pathname === "/api/vault") return route.fulfill({ json: VAULT });
+    if (req.method() === "GET" && url.pathname === "/api/change-log") return route.fulfill({ json: VAULT.changeLog });
+    const body = req.postDataJSON() as Record<string, unknown> | null;
+    writes.push({ method: req.method(), url: url.pathname, body });
+    if (url.pathname.startsWith("/api/order-transition/")) {
+      const id = url.pathname.split("/").pop();
+      const order = VAULT.orders.find((o) => o.id === id)!;
+      const inventory = VAULT.inventory
+        .filter((i) => i.orderId === id)
+        .map((i) => ({ ...i, status: "delivered", acquiredAt: body?.date, quantity: 1 }));
+      return route.fulfill({ json: { order: { ...order, status: "delivered", deliveredAt: body?.date }, inventory } });
+    }
+    return route.fulfill({ json: body ?? { ok: true } });
+  });
+  return writes;
+}
+
+test("le tableau de bord affiche la valeur et les chiffres clés", async ({ page }) => {
+  await mockApi(page);
   await page.goto("/");
+  await expect(page.getByText("Valeur de la collection")).toBeVisible();
   await expect(page.getByText("Jeux possédés").first()).toBeVisible();
-  await expect(page.getByRole("heading", { name: "Tableau de bord" })).toBeVisible();
+  await expect(page.getByText("Hotel Dusk : Room 215").first()).toBeVisible();
 });
 
-test("la collection liste les jeux et filtre par plateforme", async ({ page }) => {
+test("la collection liste les jeux et filtre par console", async ({ page }) => {
+  await mockApi(page);
   await page.goto("/collection/");
   await expect(page.getByText("Pokémon Lune")).toBeVisible();
   await page.getByRole("button", { name: /^DS\b/ }).click();
@@ -14,35 +46,40 @@ test("la collection liste les jeux et filtre par plateforme", async ({ page }) =
   await expect(page.getByText("Pokémon Lune")).toHaveCount(0);
 });
 
-test("la recherche tolérante trouve un titre EN", async ({ page }) => {
-  await page.goto("/recherche/");
-  await page.getByRole("searchbox").fill("pokemon moon");
-  await expect(page.getByText("Pokémon Lune")).toBeVisible();
+test("la recherche globale trouve un titre par son nom anglais", async ({ page }) => {
+  await mockApi(page);
+  await page.goto("/");
+  await expect(page.getByText("Valeur de la collection")).toBeVisible();
+  await page.keyboard.press("Control+k");
+  await page.getByRole("combobox").fill("pokemon moon");
+  await expect(page.getByRole("option").filter({ hasText: "Pokémon Lune" })).toBeVisible();
 });
 
-test("la fiche jeu affiche possession et vérification", async ({ page }) => {
-  await page.goto("/jeu/game_3ds_pokemon-lune/");
-  await expect(page.getByRole("heading", { name: "Pokémon Lune" })).toBeVisible();
-  await expect(page.getByText("Possédé").first()).toBeVisible();
-  // badge de vérification présent, quel que soit son état (vérifié / à vérifier)
-  await expect(page.getByText(/vérifi/).first()).toBeVisible();
+test("le panneau du jeu modifie un exemplaire et l'enregistre", async ({ page }) => {
+  const writes = await mockApi(page);
+  await page.goto("/collection/");
+  await page.getByText("Pokémon Lune").click();
+  const panel = page.getByRole("dialog", { name: "Fiche du jeu" });
+  await expect(panel.getByRole("heading", { name: "Pokémon Lune" })).toBeVisible();
+  await panel.getByRole("button", { name: "Modifier", exact: true }).click();
+  await panel.getByRole("combobox").nth(3).selectOption("very_good");
+  await panel.getByRole("button", { name: "Enregistrer" }).click();
+  await expect(page.getByText("Exemplaire enregistré")).toBeVisible();
+  expect(writes[0]).toMatchObject({ method: "PUT", url: "/api/inventory/inv_3ds_pokemon-lune", body: { condition: "very_good" } });
 });
 
-test("le catalogue complet charge et la recherche fonctionne", async ({ page }) => {
-  await page.goto("/catalogue/");
-  await expect(page.getByText("sur", { exact: false }).first()).toBeVisible({ timeout: 10_000 });
-  await page.getByRole("searchbox").fill("pokemon platinum");
-  await expect(page.getByText("Pokemon - Platinum", { exact: false }).first()).toBeVisible();
+test("une commande reçue sort des commandes en cours", async ({ page }) => {
+  const writes = await mockApi(page);
+  await page.goto("/commandes/");
+  await expect(page.getByRole("heading", { name: "En cours" })).toBeVisible();
+  await page.getByRole("button", { name: "Reçue", exact: true }).click();
+  await expect(page.getByText("Commande reçue")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "En cours" })).toHaveCount(0);
+  expect(writes[0]).toMatchObject({ method: "POST", url: "/api/order-transition/order_e2e_encours", body: { action: "deliver" } });
 });
 
-test("aucune écriture possible depuis l'interface publique", async ({ page }) => {
-  // les boutons de FILTRE existent ; aucun formulaire ni contrôle d'édition de données
-  for (const url of ["/", "/collection/", "/jeu/game_3ds_pokemon-lune/", "/estimateur/"]) {
-    await page.goto(url);
-    await expect(page.locator("form")).toHaveCount(0);
-    await expect(page.locator('input[type="submit"], button[type="submit"]')).toHaveCount(0);
-    await expect(
-      page.getByRole("button", { name: /modifier|éditer|supprimer|ajouter|enregistrer|sauver/i }),
-    ).toHaveCount(0);
-  }
+test("sans session, l'application renvoie vers la connexion", async ({ page }) => {
+  await mockApi(page, { unauthorized: true });
+  await page.goto("/collection/");
+  await expect(page).toHaveURL(/\/connexion\/\?next=/);
 });
