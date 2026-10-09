@@ -1,4 +1,4 @@
-import { getGameRows, getQuotes, getOrdersByGame, BASE_PATH, type GameRow } from "@/lib/data";
+import { getGameRows, getQuotes, getOrdersByGame, BASE_PATH, CATALOG_COVERS_BASE, type GameRow } from "@/lib/data";
 import { buildEntryLinks } from "@/lib/catalog-match";
 import { PageTitle } from "@/components/ui";
 import { GameDrawerProvider } from "@/components/GameDrawer";
@@ -19,7 +19,7 @@ export default function CatalogPage() {
         sub="Tous les jeux jamais sortis sur les consoles Nintendo, sorties en boîte et dématérialisées séparées — recherche et comparaison avec la collection"
       />
       <GameDrawerProvider quotes={getQuotes()} orders={getOrdersByGame()}>
-        <CatalogClient basePath={BASE_PATH} links={entryLinks} rows={gameRows} />
+        <CatalogClient basePath={BASE_PATH} coversBase={CATALOG_COVERS_BASE} links={entryLinks} rows={gameRows} />
       </GameDrawerProvider>
     </div>
   );

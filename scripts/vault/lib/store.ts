@@ -164,6 +164,15 @@ export function integrityIssues(v: Vault): string[] {
   const orderIds = new Set(v.orders.map((o) => o.id));
   const sellerIds = new Set(v.sellers.map((s) => s.id));
 
+  // Un id en double passe Zod mais casse la clé primaire D1 et les liens commande → stock.
+  for (const key of Object.keys(DATA_FILES) as (keyof typeof DATA_FILES)[]) {
+    const seen = new Set<string>();
+    for (const { id } of v[key] as { id: string }[]) {
+      if (seen.has(id)) issues.push(`${DATA_FILES[key].file}: id en double ${id}`);
+      seen.add(id);
+    }
+  }
+
   const seenGameKey = new Map<string, string>();
   for (const g of v.games) {
     if (!platformIds.has(g.platformId)) issues.push(`${g.id}: plateforme inconnue ${g.platformId}`);

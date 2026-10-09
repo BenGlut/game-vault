@@ -70,10 +70,13 @@ const PLATFORM_CODES: Record<string, string> = {
  */
 export default function CatalogClient({
   basePath,
+  coversBase,
   links,
   rows,
 }: {
   basePath: string;
+  /** Origine des jaquettes du catalogue (35 000 fichiers, hors déploiement Cloudflare). */
+  coversBase: string;
   links: Record<string, CatalogGameLink>;
   rows: Record<string, GameRow>;
 }) {
@@ -98,7 +101,7 @@ export default function CatalogClient({
         coverUrl:
           row.coverUrl ??
           (e.img
-            ? `${basePath}/catalog-covers/${platformId}/${e.id.slice(platformId.length + 1)}.jpg`
+            ? `${coversBase}/catalog-covers/${platformId}/${e.id.slice(platformId.length + 1)}.jpg`
             : null),
       });
       return;
@@ -133,7 +136,7 @@ export default function CatalogClient({
         mediaTypes: ["cartridge"],
       } as never,
       coverUrl: e.img
-        ? `${basePath}/catalog-covers/${platformId}/${e.id.slice(platformId.length + 1)}.jpg`
+        ? `${coversBase}/catalog-covers/${platformId}/${e.id.slice(platformId.length + 1)}.jpg`
         : null,
       items: [],
       catalogOnly: !link,
@@ -328,7 +331,7 @@ export default function CatalogClient({
                     {e.img ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img
-                        src={`${basePath}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`}
+                        src={`${coversBase}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`}
                         alt={`Jaquette de ${e.t}`}
                         loading="lazy"
                       />

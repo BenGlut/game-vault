@@ -1,6 +1,21 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Copie privée en ligne sur Cloudflare** (https://gamevault-ehn.pages.dev) :
+  Pages + base D1 `gamevault` (Europe de l'Ouest), offre gratuite. Toute page et
+  toute requête passent par une connexion Google réservée à une seule adresse
+  (`functions/_middleware.ts`, `src/server/auth.ts` : ID token vérifié chez
+  Google, cookie de session signé HMAC 30 jours, écritures exigeant l'en-tête
+  `x-gv-request`). API `GET/POST /api/<collection>`, `GET/PUT/DELETE
+  /api/<collection>/<id>`, `GET /api/change-log` : validation Zod identique au
+  CLI, contrôle des références, journal `change_log` écrit dans le même batch
+  (`src/server/store.ts`). Schéma `migrations/0001_init.sql`. Synchronisation
+  `pnpm d1 push|pull` (`scripts/d1/sync.ts`) : push refuse d'écraser des
+  modifications faites en ligne non rapatriées. Déploiement `pnpm deploy:cf`
+  (`scripts/cloudflare/deploy.ts`) : les 35 000 jaquettes du catalogue restent
+  servies par GitHub Pages (`CATALOG_COVERS_BASE`), plafond Pages de 20 000
+  fichiers. Page de connexion `public/connexion/`. Reste à brancher
+  l'identifiant client OAuth Google (`GOOGLE_CLIENT_ID` dans `wrangler.toml`)
 - **`pnpm vault inspect games --tier S --missing`** : deux filtres ajoutes a
   `inspect` (`scripts/vault/index.ts`). `--tier` filtre sur le niveau de qualite
   (S = incontournable, jusqu'a D), `--missing` ne garde que les titres dont aucun
@@ -510,6 +525,14 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- **Identifiants en double dans la base** (révélés par la clé primaire D1) :
+  deux lignes remboursées réutilisaient l'id d'une ligne possédée
+  (`inv_3ds_luigi-s-mansion-2`, `inv_switch_super-mario-3d-all-stars-3`),
+  renommées `-3` et `-2` avec leurs commandes ; deux relevés de prix Oracle of
+  Seasons partageaient l'id de ceux d'Oracle of Ages (suffixe `-seasons`). Cause
+  côté CLI : le suffixe « nombre d'exemplaires + 1 » pouvait retomber sur un id
+  pris (`luigi-s-mansion` + `-2`) ; `freeInventoryId` prend désormais le premier
+  id libre, et `validate` signale tout id en double (`scripts/vault/lib/store.ts`)
 - **27 jeux livrés étaient comptés hors collection.** `deliver-order` ne mettait à jour
   que le statut de l'entrée d'inventaire, jamais sa quantité : une entrée créée depuis
   la wishlist (quantité 0) restait à 0 une fois le jeu physiquement reçu. Touchait

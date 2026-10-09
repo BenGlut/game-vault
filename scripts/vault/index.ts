@@ -95,6 +95,20 @@ function findInventory(v: Vault, ref: string): InventoryItem {
 }
 
 /**
+ * Premier id d'inventaire libre pour un jeu : inv_x, inv_x-2, inv_x-3… Compter
+ * les exemplaires ne suffit pas : `luigi-s-mansion` + `-2` tombait sur l'id déjà
+ * pris par `luigi-s-mansion-2` (doublons corrigés le 2026-10-09).
+ */
+function freeInventoryId(v: Vault, gameId: string): string {
+  const base = gameId.replace(/^game_/, "inv_");
+  const taken = new Set(v.inventory.map((i) => i.id));
+  if (!taken.has(base)) return base;
+  let n = 2;
+  while (taken.has(`${base}-${n}`)) n++;
+  return `${base}-${n}`;
+}
+
+/**
  * Référence de transaction fabriquée pour les achats sans identifiant fourni
  * (remise en main propre, vente de particulier hors plateforme). Horodatage en
  * base 36 + suffixe aléatoire : unique, trié chronologiquement, non devinable.
@@ -408,10 +422,9 @@ function main(): void {
               `${existing.length} entrée(s) déjà en stock pour ${game.id}: ${existing.map((i) => `${i.id} (${i.status})`).join(", ")} — nouvelle entrée créée (exemplaire distinct)`,
             );
           }
-          const suffix = existing.length ? `-${existing.length + 1}` : "";
           const price = optNum(options, "price");
           const item: InventoryItem = {
-            id: game.id.replace(/^game_/, "inv_") + suffix,
+            id: freeInventoryId(v, game.id),
             gameId: game.id,
             status,
             quantity: status === "wishlist" ? 0 : 1, // ERP : 1 article = 1 entree
@@ -524,10 +537,8 @@ function main(): void {
               it.inventoryId = wishlistItem.id;
               invIds.push(wishlistItem.id);
             } else {
-              const existing = v.inventory.filter((x) => x.gameId === it.gameId);
-              const suffix = existing.length ? `-${existing.length + 1}` : "";
               const inv: InventoryItem = {
-                id: it.gameId.replace(/^game_/, "inv_") + suffix,
+                id: freeInventoryId(v, it.gameId),
                 gameId: it.gameId,
                 status: "ordered",
                 quantity: 1,

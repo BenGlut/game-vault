@@ -13,10 +13,19 @@ Personal video-game collection manager. Two repos:
 - `benglut/game-vault-data` (private) — source of truth: `data/*.json` + `publish.config.json`.
   Local checkout expected at the path written in `LOCAL.md` (default `../game-vault-data`).
 
-**The web UI never writes. All mutations go through `pnpm vault <cmd>`** (Zod
+**The public web UI never writes. All mutations go through `pnpm vault <cmd>`** (Zod
 validation, duplicate detection, dry-run diff, `--yes`, atomic write, backup,
 changelog). Commands and rules: `README.md`, `docs/data-model.md`, skills in
 `.agents/skills/`.
+
+**Private online copy (since 2026-10-09, benglut's order):** Cloudflare Pages project
+`gamevault` (https://gamevault-ehn.pages.dev) + D1 database `gamevault`. Every
+request needs a Google sign-in restricted to one address (secret `ALLOWED_EMAIL`).
+The API (`functions/api/`) validates each write with the same Zod schemas and logs
+it in D1's `change_log` (actor `web`). The JSON repo stays the source the CLI edits:
+- **before** any `pnpm vault` mutation: `pnpm d1 pull` (brings online edits back);
+- **after** commit: `pnpm d1 push` (refuses if D1 holds edits not yet pulled);
+- redeploy the site: `pnpm deploy:cf` (catalog covers stay on GitHub Pages).
 
 ## 2. Machine-local truth → `LOCAL.md` (gitignored)
 
@@ -156,7 +165,14 @@ scripts/seed/            initial bootstrap (idempotent, --force to regen)
 scripts/covers/          libretro-thumbnails fetch + 3-tier title matching (collection)
 scripts/catalog/         full No-Intro DS/3DS reference catalog + ALL covers (160px,
                          stored locally in public/catalog-covers/ — user order)
-data/public/             committed filtered export — the ONLY data the site sees
+data/public/             committed filtered export — the ONLY data the static pages see
+functions/               Cloudflare Pages Functions: _middleware.ts (Google session
+                         gate on every path), api/auth/*, api/[collection]/[id]
+src/server/              API core: auth.ts (ID token + HMAC cookie), store.ts (D1
+                         CRUD + integrity + change log), collections.ts
+migrations/              D1 schema (one table per data file, record kept as JSON)
+scripts/d1/sync.ts       pnpm d1 push|pull — JSON repo ⇄ D1
+scripts/cloudflare/      deploy.ts — pnpm deploy:cf
 .agents/skills/          8 task-scoped skills (load only when needed)
 ```
 

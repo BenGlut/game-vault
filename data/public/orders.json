@@ -773,7 +773,7 @@
     "items": [
       {
         "gameId": "game_3ds_luigi-s-mansion",
-        "inventoryId": "inv_3ds_luigi-s-mansion-2",
+        "inventoryId": "inv_3ds_luigi-s-mansion-3",
         "unitPrice": 31.02
       },
       {
@@ -819,7 +819,7 @@
       },
       {
         "gameId": "game_switch_super-mario-3d-all-stars",
-        "inventoryId": "inv_switch_super-mario-3d-all-stars-3",
+        "inventoryId": "inv_switch_super-mario-3d-all-stars-2",
         "unitPrice": 42.52
       },
       {

@@ -8658,7 +8658,7 @@
     "updatedAt": "2026-09-11T20:16:48.356Z"
   },
   {
-    "id": "inv_3ds_luigi-s-mansion-2",
+    "id": "inv_3ds_luigi-s-mansion-3",
     "gameId": "game_3ds_luigi-s-mansion",
     "status": "refunded",
     "quantity": 1,
@@ -8730,7 +8730,7 @@
     "updatedAt": "2026-08-16T22:07:44.221Z"
   },
   {
-    "id": "inv_switch_super-mario-3d-all-stars-3",
+    "id": "inv_switch_super-mario-3d-all-stars-2",
     "gameId": "game_switch_super-mario-3d-all-stars",
     "status": "refunded",
     "quantity": 1,

@@ -1,0 +1,15 @@
+# Cloudflare Pages deployment of GameVault (private, Google sign-in).
+# Secrets (never committed): ALLOWED_EMAIL, SESSION_SECRET — `wrangler pages secret put`.
+name = "gamevault"
+pages_build_output_dir = "out"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Public OAuth web client id (Google Cloud → Google Auth Platform → Clients).
+GOOGLE_CLIENT_ID = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gamevault"
+database_id = "1bd499bb-c542-474e-92fc-e32705bd044d"
+migrations_dir = "migrations"

@@ -119,6 +119,12 @@ export function inCollection(row: GameRow): boolean {
 /** Préfixe de chemin (GitHub Pages sert le site sous /game-vault). */
 export const BASE_PATH = process.env.GITHUB_PAGES === "true" ? "/game-vault" : "";
 
+/**
+ * Origine des jaquettes du catalogue de référence. Le déploiement Cloudflare ne
+ * les embarque pas (35 000 fichiers > plafond de 20 000) : il pointe vers GitHub Pages.
+ */
+export const CATALOG_COVERS_BASE = process.env.CATALOG_COVERS_BASE ?? BASE_PATH;
+
 /** URL de la jaquette si elle existe dans public/covers/, sinon null. */
 export function coverUrl(gameId: string): string | null {
   const file = path.join(process.cwd(), "public", "covers", `${gameId}.jpg`);

@@ -22,3 +22,8 @@ coverage/
 
 # machine-local
 LOCAL.md
+
+# cloudflare
+.wrangler/
+.dev.vars
+.catalog-covers-parked/
