@@ -20,7 +20,7 @@ function run(cmd: string, args: string[], env: Record<string, string> = {}): voi
   if (res.status !== 0) throw new Error(`${path.basename(cmd)} ${args[0]} a échoué (code ${res.status})`);
 }
 
-run(bin("next"), ["build"], { CATALOG_COVERS_BASE: COVERS_ORIGIN });
+run(bin("next"), ["build"], { CATALOG_COVERS_BASE: COVERS_ORIGIN, GAMEVAULT_PRIVATE: "true" });
 
 const covers = path.join(REPO_ROOT, "out", "catalog-covers");
 const parked = path.join(REPO_ROOT, ".catalog-covers-parked");

@@ -22,7 +22,9 @@ changelog). Commands and rules: `README.md`, `docs/data-model.md`, skills in
 `gamevault` (https://gamevault-ehn.pages.dev) + D1 database `gamevault`. Every
 request needs a Google sign-in restricted to one address (secret `ALLOWED_EMAIL`).
 The API (`functions/api/`) validates each write with the same Zod schemas and logs
-it in D1's `change_log` (actor `web`). The JSON repo stays the source the CLI edits:
+it in D1's `change_log` (actor `web`). Edit screen: `/gestion` (`src/components/manage/`),
+built only when `GAMEVAULT_PRIVATE=true` (set by `pnpm deploy:cf`); the public build
+shows neither the link nor the editor. The JSON repo stays the source the CLI edits:
 - **before** any `pnpm vault` mutation: `pnpm d1 pull` (brings online edits back);
 - **after** commit: `pnpm d1 push` (refuses if D1 holds edits not yet pulled);
 - redeploy the site: `pnpm deploy:cf` (catalog covers stay on GitHub Pages).

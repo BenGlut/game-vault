@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { GamepadIcon, NAV_ICONS } from "@/components/icons";
+import { PRIVATE_BUILD } from "@/lib/data";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -21,7 +22,14 @@ const NAV = [
   { href: "/plateformes", label: "Plateformes" },
   { href: "/valeur", label: "Valeur" },
   { href: "/historique", label: "Historique" },
+  // copie privée seulement : le site public n'offre aucune modification
+  ...(PRIVATE_BUILD ? [{ href: "/gestion", label: "Gestion" }] : []),
 ];
+
+/** Barre mobile : 5 entrées, Gestion en tête sur la copie privée. */
+const MOBILE_NAV = PRIVATE_BUILD
+  ? [...NAV.filter((i) => i.href === "/gestion"), ...NAV.slice(1, 5)]
+  : NAV.slice(1, 6);
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -34,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <GamepadIcon size={22} className="text-accent" />
                 Game<span className="text-accent">Vault</span>
               </span>
-              <span className="mt-1 block text-xs text-muted">Lecture seule</span>
+              <span className="mt-1 block text-xs text-muted">{PRIVATE_BUILD ? "Collection privée" : "Lecture seule"}</span>
             </Link>
             <nav className="space-y-1">
               {NAV.map((item) => {
@@ -59,7 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Game<span className="text-accent">Vault</span>
               </Link>
               <nav className="flex gap-3 overflow-x-auto text-xs">
-                {NAV.slice(1, 6).map((i) => {
+                {MOBILE_NAV.map((i) => {
                   const Icon = NAV_ICONS[i.href];
                   return (
                     <Link
@@ -76,8 +84,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </header>
             <main className="px-4 py-6 md:px-8">{children}</main>
             <footer className="border-t border-border px-4 py-4 text-center text-xs text-muted md:px-8">
-              GameVault — interface publique en lecture seule. Les données sont modifiées uniquement
-              via la CLI agent.
+              {PRIVATE_BUILD
+                ? "GameVault — collection privée. Modifications depuis la page Gestion ou par l'agent."
+                : "GameVault — interface publique en lecture seule. Les données sont modifiées uniquement via la CLI agent."}
             </footer>
           </div>
         </div>

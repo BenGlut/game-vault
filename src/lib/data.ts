@@ -125,6 +125,12 @@ export const BASE_PATH = process.env.GITHUB_PAGES === "true" ? "/game-vault" : "
  */
 export const CATALOG_COVERS_BASE = process.env.CATALOG_COVERS_BASE ?? BASE_PATH;
 
+/**
+ * Build de la copie privée Cloudflare (connexion Google, API d'écriture). Le site
+ * public GitHub Pages reste sans aucune possibilité de modification.
+ */
+export const PRIVATE_BUILD = process.env.GAMEVAULT_PRIVATE === "true";
+
 /** URL de la jaquette si elle existe dans public/covers/, sinon null. */
 export function coverUrl(gameId: string): string | null {
   const file = path.join(process.cwd(), "public", "covers", `${gameId}.jpg`);

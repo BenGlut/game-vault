@@ -72,6 +72,13 @@ async function checkNotReferenced(db: D1Database, def: CollectionDef, id: string
     );
   }
   if (def.table === "orders") n += await count(db, "SELECT count(*) AS n FROM inventory WHERE order_id = ?", id);
+  if (def.table === "inventory") {
+    n += await count(
+      db,
+      "SELECT count(*) AS n FROM orders, json_each(orders.data, '$.items') AS it WHERE json_extract(it.value, '$.inventoryId') = ?",
+      id,
+    );
+  }
   if (def.table === "platforms") n += await count(db, "SELECT count(*) AS n FROM games WHERE platform_id = ?", id);
   if (n > 0) throw new ApiError(409, `Suppression refusée : ${n} enregistrement(s) y font encore référence`);
 }
@@ -143,4 +150,76 @@ export async function deleteRecord(db: D1Database, def: CollectionDef, id: strin
     db.prepare(`DELETE FROM ${def.table} WHERE id = ?`).bind(id),
     logStatement(db, def, id, `web delete ${def.table}`, message ?? `Suppression en ligne : ${id}`),
   ]);
+}
+
+export type OrderAction = "fulfill" | "deliver" | "cancel" | "refund";
+
+const ORDER_ACTIONS: Record<OrderAction, { status: string; dateField: string; from: string[] }> = {
+  fulfill: { status: "fulfilled", dateField: "fulfilledAt", from: ["ordered"] },
+  deliver: { status: "delivered", dateField: "deliveredAt", from: ["ordered", "fulfilled"] },
+  cancel: { status: "cancelled", dateField: "cancelledAt", from: ["ordered", "fulfilled"] },
+  refund: { status: "refunded", dateField: "refundedAt", from: ["ordered", "fulfilled", "delivered"] },
+};
+
+/**
+ * Same transitions as `pnpm vault fulfill|deliver|cancel|refund-order`: the order
+ * and every inventory row linked to it move together, in one D1 batch.
+ */
+export async function transitionOrder(db: D1Database, id: string, action: string, date: string): Promise<unknown> {
+  const rule = ORDER_ACTIONS[action as OrderAction];
+  if (!rule) throw new ApiError(400, `Action inconnue : ${action}`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new ApiError(422, "Date au format AAAA-MM-JJ attendue");
+  const ordersDef = collection("orders");
+  const invDef = collection("inventory");
+  const order = (await getRecord(db, ordersDef, id)) as Record<string, unknown> | null;
+  if (!order) throw new ApiError(404, `Introuvable : ${id}`);
+  if (!rule.from.includes(order.status as string)) {
+    throw new ApiError(409, `Commande au statut ${order.status as string} : action impossible`);
+  }
+  const nextOrder = validate(ordersDef, { ...order, status: rule.status, [rule.dateField]: date });
+
+  const { results } = await db
+    .prepare(`SELECT data FROM ${invDef.table} WHERE order_id = ?`)
+    .bind(id)
+    .all<{ data: string }>();
+  const now = new Date().toISOString();
+  const items = order.items as { inventoryId: string | null; quantity: number }[];
+  const nextInventory = results.map((r) => {
+    const inv = JSON.parse(r.data) as Record<string, unknown>;
+    const next: Record<string, unknown> = { ...inv, status: rule.status, updatedAt: now };
+    if (action === "deliver") {
+      // vu physiquement à la réception ; une ligne issue de la wishlist était à quantité 0
+      const line = items.find((it) => it.inventoryId === inv.id);
+      next.acquiredAt = date;
+      next.verificationStatus = "verified";
+      next.quantity = Math.max(inv.quantity as number, line?.quantity ?? 1);
+    }
+    return validate(invDef, next);
+  });
+
+  const labels: Record<OrderAction, string> = {
+    fulfill: "expédiée",
+    deliver: "reçue",
+    cancel: "annulée",
+    refund: "remboursée",
+  };
+  const entry = {
+    id: `chg_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`,
+    at: now,
+    actor: "web",
+    command: `web ${action}-order`,
+    message: `Commande ${id} ${labels[action as OrderAction]} le ${date}`,
+    affected: [
+      { file: ordersDef.file, ids: [id] },
+      { file: invDef.file, ids: nextInventory.map((i) => i.id as string) },
+    ],
+  };
+  await db.batch([
+    db.prepare(`UPDATE ${ordersDef.table} SET data = ? WHERE id = ?`).bind(JSON.stringify(nextOrder), id),
+    ...nextInventory.map((inv) =>
+      db.prepare(`UPDATE ${invDef.table} SET data = ? WHERE id = ?`).bind(JSON.stringify(inv), inv.id),
+    ),
+    db.prepare(`INSERT INTO ${CHANGE_LOG.table} (id, data) VALUES (?, ?)`).bind(entry.id, JSON.stringify(entry)),
+  ]);
+  return { order: nextOrder, inventory: nextInventory };
 }

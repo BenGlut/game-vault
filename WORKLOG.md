@@ -18,6 +18,22 @@
   Web » dans le projet Google Cloud `gamevault-511106` du compte Gmail (audience
   externe, mode test, seul utilisateur test benglut@gmail.com), identifiant dans
   `GOOGLE_CLIENT_ID` (`wrangler.toml`)
+- **Écran de modification en ligne `/gestion`** (copie privée seulement,
+  `src/components/manage/`, `src/app/gestion/page.tsx`) : recherche des 602 jeux
+  par titre, autre nom ou franchise, filtres console et état (possédé, en route,
+  à acheter, catalogue seul) ; fiche du jeu éditable (titre, édition, franchise,
+  année, autres noms, qualité, priorité) ; chaque exemplaire éditable (statut,
+  état, complétude, prix, date, vérification, notes), ajout à la wishlist ou d'un
+  exemplaire possédé, suppression en deux clics ; onglet Commandes (expédiée,
+  reçue, annulée, remboursée à une date choisie, mêmes effets que
+  `vault deliver-order` etc. via `POST /api/order-transition/<id>`, commande et
+  exemplaires liés dans un seul batch) ; ajout d'un jeu au catalogue avec
+  détection de doublon ; historique des 200 dernières modifications. Lien
+  « Gestion » et pied de page adaptés seulement si `GAMEVAULT_PRIVATE=true`
+  (`PRIVATE_BUILD` dans `src/lib/data.ts`). Suppression d'un exemplaire refusée
+  côté serveur s'il figure dans une commande. Testé de bout en bout sur une base
+  D1 locale, puis `d1 pull` sur une copie du repo de données : diff limité aux
+  modifications faites, `validate` OK
 - **`pnpm vault inspect games --tier S --missing`** : deux filtres ajoutes a
   `inspect` (`scripts/vault/index.ts`). `--tier` filtre sur le niveau de qualite
   (S = incontournable, jusqu'a D), `--missing` ne garde que les titres dont aucun
