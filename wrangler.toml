@@ -6,7 +6,7 @@ compatibility_date = "2026-10-01"
 
 [vars]
 # Public OAuth web client id (Google Cloud → Google Auth Platform → Clients).
-GOOGLE_CLIENT_ID = ""
+GOOGLE_CLIENT_ID = "1089970053244-3tjlmhp2fknradc6pqr3b6a6rta1lk4m.apps.googleusercontent.com"
 
 [[d1_databases]]
 binding = "DB"

@@ -14,8 +14,10 @@
   modifications faites en ligne non rapatriées. Déploiement `pnpm deploy:cf`
   (`scripts/cloudflare/deploy.ts`) : les 35 000 jaquettes du catalogue restent
   servies par GitHub Pages (`CATALOG_COVERS_BASE`), plafond Pages de 20 000
-  fichiers. Page de connexion `public/connexion/`. Reste à brancher
-  l'identifiant client OAuth Google (`GOOGLE_CLIENT_ID` dans `wrangler.toml`)
+  fichiers. Page de connexion `public/connexion/`. Client OAuth « GameVault
+  Web » dans le projet Google Cloud `gamevault-511106` du compte Gmail (audience
+  externe, mode test, seul utilisateur test benglut@gmail.com), identifiant dans
+  `GOOGLE_CLIENT_ID` (`wrangler.toml`)
 - **`pnpm vault inspect games --tier S --missing`** : deux filtres ajoutes a
   `inspect` (`scripts/vault/index.ts`). `--tier` filtre sur le niveau de qualite
   (S = incontournable, jusqu'a D), `--missing` ne garde que les titres dont aucun
