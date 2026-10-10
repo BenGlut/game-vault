@@ -6,6 +6,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import { GamepadIcon, LogOutIcon, MenuIcon, NAV_ICONS, PlusIcon, SearchIcon } from "@/components/icons";
 import { VaultGate, VaultProvider, useVaultMaybe } from "@/components/vault/VaultProvider";
 import { GameDrawerProvider } from "@/components/game/GameDrawer";
+import { CoverSourcesProvider } from "@/components/game/coverSources";
 import { NewGameProvider, useNewGame } from "@/components/game/NewGameForm";
 import { api } from "@/components/vault/api";
 import CommandPalette from "./CommandPalette";
@@ -18,11 +19,13 @@ import { MOBILE_TABS, NAV_ITEMS, isActive } from "./nav";
 export default function AppShell({ children }: { children: ReactNode }) {
   return (
     <VaultProvider>
-      <GameDrawerProvider>
-        <NewGameProvider>
-          <Frame>{children}</Frame>
-        </NewGameProvider>
-      </GameDrawerProvider>
+      <CoverSourcesProvider>
+        <GameDrawerProvider>
+          <NewGameProvider>
+            <Frame>{children}</Frame>
+          </NewGameProvider>
+        </GameDrawerProvider>
+      </CoverSourcesProvider>
     </VaultProvider>
   );
 }

@@ -6,7 +6,8 @@ import type { Order } from "@/lib/schema";
 import { euro } from "@/lib/labels";
 import { MARKETPLACE_LABELS, monthLabel } from "@/lib/stats";
 import ColumnChart from "@/components/charts/ColumnChart";
-import StackedBar from "@/components/charts/StackedBar";
+import BarList from "@/components/charts/BarList";
+import { MarketplaceTag } from "@/components/BrandLogos";
 import { compact, euroFmt, intFmt } from "@/components/charts/core";
 import { Card, Chip, EmptyState, PageHeader, StatTile, StatusBadge } from "@/components/ui/primitives";
 import { Button, Select, inputClass } from "@/components/ui/fields";
@@ -49,7 +50,7 @@ function OrderItems({ order }: { order: Order }) {
               className="flex w-full items-center gap-3 rounded-lg px-1 py-1 text-left text-sm transition hover:bg-surface-2"
             >
               <div className="w-7 shrink-0">
-                <GameCover gameId={it.gameId} title={row?.game.canonicalTitle ?? it.gameId} rounded="rounded" />
+                <GameCover gameId={it.gameId} title={row?.game.canonicalTitle ?? it.gameId} rounded="rounded" width={40} />
               </div>
               <span className="min-w-0 flex-1 truncate">{row?.game.canonicalTitle ?? it.gameId}</span>
               <span className="shrink-0 text-xs text-muted">{row?.platform?.shortName}</span>
@@ -84,7 +85,7 @@ function ActiveOrder({ order }: { order: Order }) {
         <div>
           <div className="flex items-center gap-2">
             <StatusBadge status={order.status} />
-            <span className="text-sm font-medium">{MARKETPLACE_LABELS[order.marketplace] ?? order.marketplace}</span>
+            <MarketplaceTag marketplace={order.marketplace} className="text-sm font-medium" />
             {seller ? <span className="text-sm text-muted">· {seller.name}</span> : null}
           </div>
           <p className="mt-1 text-xs text-muted">
@@ -200,9 +201,15 @@ export default function OrdersView() {
           />
         </Card>
         <Card title="Où j’achète" subtitle="Montant par plateforme" className="lg:col-span-2">
-          <StackedBar
-            segments={stats.byMarketplace.map((m) => ({ key: m.key, label: MARKETPLACE_LABELS[m.key] ?? m.key, value: m.value }))}
-            format={(v) => euroFmt.format(v)}
+          <BarList
+            items={stats.byMarketplace.map((m) => ({
+              key: m.key,
+              label: <MarketplaceTag marketplace={m.key} />,
+              value: m.value,
+              display: `${euroFmt.format(m.value)} · ${m.count} commande${m.count > 1 ? "s" : ""} · ${
+                stats.spentTotal ? Math.round((m.value / stats.spentTotal) * 100) : 0
+              } %`,
+            }))}
           />
           {stats.topSellers.length ? (
             <div className="mt-5">
@@ -269,7 +276,7 @@ export default function OrdersView() {
                     className="flex w-full items-center gap-3 px-4 py-3 text-left transition hover:bg-surface"
                   >
                     <div className="w-8 shrink-0">
-                      {first ? <GameCover gameId={first.id} title={first.canonicalTitle} rounded="rounded-md" /> : null}
+                      {first ? <GameCover gameId={first.id} title={first.canonicalTitle} rounded="rounded-md" width={40} /> : null}
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="truncate text-sm font-medium">
@@ -277,7 +284,7 @@ export default function OrdersView() {
                         {o.items.length > 1 ? <span className="text-muted"> + {o.items.length - 1}</span> : null}
                       </div>
                       <div className="truncate text-xs text-muted">
-                        {MARKETPLACE_LABELS[o.marketplace] ?? o.marketplace}
+                        <MarketplaceTag marketplace={o.marketplace} size={12} className="align-middle" />
                         {o.sellerId && sellers.get(o.sellerId) ? ` · ${sellers.get(o.sellerId)}` : ""} · {dateFr(o.orderedAt)}
                       </div>
                     </div>

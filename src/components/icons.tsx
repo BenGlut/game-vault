@@ -245,7 +245,16 @@ export function ListIcon(props: IconProps) {
   );
 }
 
+export function CodeIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="m8 7-5 5 5 5M16 7l5 5-5 5M13.5 4l-3 16" />
+    </svg>
+  );
+}
+
 export const NAV_ICONS: Record<string, (p: IconProps) => React.JSX.Element> = {
+  "/dev": CodeIcon,
   "/": DashboardIcon,
   "/statistiques": ChartIcon,
   "/collection": LibraryIcon,

@@ -172,8 +172,13 @@ src/components/shell/    AppShell (sidebar, ⌘K palette, mobile tabs), nav
 src/components/vault/    VaultProvider (live base + writes), api client
 src/components/views/    Dashboard, Statistiques, Collection, Wishlist, Commandes,
                          Catalogue, Estimateur, Historique, Jeu
-src/components/game/     GameDrawer/GameDetail (view + edit), cards, new-game dialog
-src/components/charts/   AreaChart, ColumnChart, BarList, StackedBar, Sparkline
+src/components/game/     GameDrawer/GameDetail (view + edit), cards, new-game dialog,
+                         CoverImage (original resized via wsrv.nl, local copy shown
+                         first), CoverHero (sheet header per console)
+src/lib/platform-format.ts  cover proportions / tint / case label per console
+src/components/charts/   AreaChart, ColumnChart, BarList, StackedBar, RankedShare, Sparkline
+src/components/BrandLogos.tsx  merchant + stack logos (simple-icons, or drawn marks)
+src/components/views/DevView.tsx  « </> Dev » page: out/dev-info.json + GET /api/dev
 scripts/vault/           the CLI — index.ts (commands), lib/store.ts (atomic IO,
                          diff, backups, integrity), lib/publish.ts (filtered export)
 scripts/seed/            initial bootstrap (idempotent, --force to regen)
@@ -188,7 +193,10 @@ src/server/              API core: auth.ts (ID token + HMAC cookie), store.ts (D
                          CRUD + integrity + change log), collections.ts
 migrations/              D1 schema (one table per data file, record kept as JSON)
 scripts/d1/sync.ts       pnpm d1 push|pull — JSON repo ⇄ D1
-scripts/cloudflare/      deploy.ts — pnpm deploy:cf
+scripts/cloudflare/      deploy.ts — pnpm deploy:cf (covers sources → build → dev-info
+                         → upload) ; dev-info.ts — technical snapshot for /dev
+scripts/catalog/add-source-urls.ts  adds the original cover URL (`u`) to catalog entries
+scripts/covers/build-sources.ts     public/covers/sources.json (collection → original cover)
 .agents/skills/          8 task-scoped skills (load only when needed)
 ```
 

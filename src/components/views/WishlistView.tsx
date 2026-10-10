@@ -10,6 +10,7 @@ import GameCard, { CardGrid } from "@/components/game/GameCard";
 import { useNewGame } from "@/components/game/NewGameForm";
 import { useVault } from "@/components/vault/VaultProvider";
 import { matches } from "@/components/vault/model";
+import { formatOf } from "@/lib/platform-format";
 
 type Priority = "all" | "haute" | "moyenne" | "basse";
 type Sort = "priority" | "quality" | "cheap" | "title";
@@ -70,6 +71,7 @@ export default function WishlistView() {
       key={r.game.id}
       row={r}
       showState={false}
+      ratio={platform ? formatOf(platform).ratio : undefined}
       badge={sort !== "priority" ? <PriorityBadge priority={r.game.buyPriority} /> : undefined}
       footer={
         target(r) !== null ? (

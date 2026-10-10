@@ -18,6 +18,37 @@
   `gamevault-511106` du compte Gmail (audience externe, mode test, seul
   utilisateur test benglut@gmail.com), identifiant dans `GOOGLE_CLIENT_ID`
   (`wrangler.toml`)
+- **Jaquettes nettes et fiches pensées par console** (retour de benglut : « tout est
+  flou » dans le catalogue). Cause : toutes les jaquettes étaient des copies de
+  160 px affichées à 200-400 px. Chaque entrée du catalogue porte désormais l'adresse
+  de son original (`u`, libretro pleine résolution ou packshot eShop, `sq` pour les
+  icônes carrées) via `scripts/catalog/add-source-urls.ts` (35 305 entrées) ; la
+  collection obtient les siennes par rapprochement (`scripts/covers/build-sources.ts`
+  → `public/covers/sources.json`, 507 jeux sur 602). `CoverImage` affiche la copie
+  locale tout de suite puis l'original redimensionné à la taille affichée (×2 Retina)
+  par wsrv.nl, en entier sur un fond flou de la même image (plus de recadrage).
+  Proportions mesurées par console (`src/lib/platform-format.ts` : Switch 0,62,
+  GameCube 0,71, GB/GBA 1, DS 1,11, 3DS 1,14, N64 1,43) : la grille filtrée sur une
+  console prend son format ; la fiche (`CoverHero`) dimensionne la jaquette selon le
+  format (paysage, carré, portrait), teinte le fond de la couleur de la gamme et
+  nomme le type de boîte. Nouvelle fiche catalogue (`CatalogEntryPanel`) pour un jeu
+  absent de la base : ajout à la wishlist en un clic ou avec détails. Badges du
+  catalogue déplacés sous la jaquette (le bandeau de la boîte reste lisible)
+- **Page « </> Dev »** (`/dev`) : architecture, stack avec logos et versions,
+  consommation face aux quotas gratuits Cloudflare (stockage D1, lignes lues et
+  écrites sur 24 h, fichiers par déploiement), mesures du navigateur, tables D1 en
+  direct (`GET /api/dev`), fichiers du repo de données, code par zone, catalogue,
+  pages, API, commandes, secrets et consoles d'administration. Fiche figée à chaque
+  déploiement par `scripts/cloudflare/dev-info.ts` (`out/dev-info.json`)
+- **Logos SVG** (`src/components/BrandLogos.tsx`) : officiels via simple-icons (Vinted,
+  eBay, Rakuten, Fnac et la stack), marques dessinées pour Amazon, Micromania,
+  Leboncoin, Cdiscount, Nintendo, Playwright. Places de marché affichées avec leur
+  logo (commandes, tableau de bord, fiche) ; la fiche jeu et la fiche catalogue
+  proposent Vinted, Micromania et Amazon côte à côte (règle de comparaison de prix)
+- **Statistiques lisibles** : Complétude et État ne sont plus des barres empilées
+  mais des listes ordonnées (du plus complet au moins complet, du neuf à l'abîmé),
+  part des exemplaires renseignés, non renseignés mis à part (`RankedShare`). Les
+  achats par plateforme passent en classement avec logos
 - **Refonte complète de l'interface en application privée et en direct** (ordre
   de benglut : « interface moderne et fluide, stats, dashboard, courbes et
   graphiques » ; collection privée uniquement). Toute la base est chargée en une

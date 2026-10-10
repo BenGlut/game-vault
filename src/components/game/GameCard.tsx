@@ -22,11 +22,14 @@ export default function GameCard({
   footer,
   badge,
   showState = true,
+  ratio,
 }: {
   row: GameRow;
   footer?: ReactNode;
   badge?: ReactNode;
   showState?: boolean;
+  /** proportions du cadre ; par défaut celles de la console du jeu */
+  ratio?: number;
 }) {
   const { open } = useGameDrawer();
   const status = STATE_STATUS[row.state];
@@ -37,7 +40,7 @@ export default function GameCard({
       className="group block w-full text-left focus-visible:outline-none"
     >
       <div className="relative overflow-hidden rounded-xl ring-1 ring-border transition duration-300 group-hover:-translate-y-1 group-hover:ring-accent/50 group-hover:shadow-[var(--shadow-hover)] group-focus-visible:ring-2 group-focus-visible:ring-accent">
-        <GameCover gameId={row.game.id} title={row.game.canonicalTitle} rounded="rounded-none" />
+        <GameCover gameId={row.game.id} title={row.game.canonicalTitle} rounded="rounded-none" ratio={ratio ?? 0.75} width={200} />
         <div className="absolute left-2 top-2 flex gap-1">
           <TierBadge tier={row.game.qualityTier} />
         </div>

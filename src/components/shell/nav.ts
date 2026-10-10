@@ -2,7 +2,7 @@
 export interface NavItem {
   href: string;
   label: string;
-  group: "Vue d’ensemble" | "Collection" | "Achats";
+  group: "Vue d’ensemble" | "Collection" | "Achats" | "Technique";
 }
 
 export const NAV_ITEMS: NavItem[] = [
@@ -14,6 +14,7 @@ export const NAV_ITEMS: NavItem[] = [
   { href: "/catalogue", label: "Catalogue", group: "Collection" },
   { href: "/commandes", label: "Commandes", group: "Achats" },
   { href: "/estimateur", label: "Estimateur", group: "Achats" },
+  { href: "/dev", label: "Dev", group: "Technique" },
 ];
 
 /** Barre du bas sur téléphone : 4 raccourcis + « Plus ». */

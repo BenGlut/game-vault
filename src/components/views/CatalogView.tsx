@@ -3,9 +3,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { CONSOLE_ICONS } from "@/components/ConsoleIcons";
 import { useGameDrawer } from "@/components/game/GameDrawer";
-import { useNewGame } from "@/components/game/NewGameForm";
 import { useVault } from "@/components/vault/VaultProvider";
-import { PageHeader } from "@/components/ui/primitives";
+import { PageHeader, StatusBadge } from "@/components/ui/primitives";
+import CoverImage from "@/components/game/CoverImage";
+import { formatOf } from "@/lib/platform-format";
+import CatalogEntryPanel from "./CatalogEntryPanel";
 import { inputClass } from "@/components/ui/fields";
 import { expandAbbreviations } from "@/lib/abbreviations";
 import { buildEntryLinks, type CatalogGameLink } from "@/lib/catalog-match";
@@ -14,11 +16,19 @@ import { buildEntryLinks, type CatalogGameLink } from "@/lib/catalog-match";
 const COVERS_BASE = "https://benglut.github.io/game-vault";
 
 const TIER_COLORS: Record<string, string> = {
-  S: "bg-[#f5b64225] text-[#f5b642]",
-  A: "bg-[#4ade8020] text-[#4ade80]",
-  B: "bg-[#60a5fa20] text-[#60a5fa]",
-  C: "bg-[#8a93a820] text-[#8a93a8]",
-  D: "bg-[#f8717120] text-[#f87171]",
+  S: "bg-accent text-bg",
+  A: "bg-ok text-bg",
+  B: "bg-info text-bg",
+  C: "bg-muted text-bg",
+  D: "bg-ko text-bg",
+};
+
+const TIER_LABELS: Record<string, string> = {
+  S: "incontournable",
+  A: "excellent",
+  B: "bon",
+  C: "moyen",
+  D: "faible",
 };
 
 interface CatalogEntry {
@@ -28,6 +38,10 @@ interface CatalogEntry {
   r: string[];
   img: boolean;
   q?: string;
+  /** jaquette originale (haute résolution) */
+  u?: string;
+  /** image carrée de l'eShop faute de photo de boîte */
+  sq?: boolean;
 }
 
 function norm(s: string): string {
@@ -77,8 +91,12 @@ export default function CatalogView() {
   const [quality, setQuality] = useState("");
   const [error, setError] = useState<string | null>(null);
   const drawer = useGameDrawer();
-  const { openNewGame } = useNewGame();
+  const [selected, setSelected] = useState<CatalogEntry | null>(null);
   const coversBase = COVERS_BASE;
+  // une console choisie : le cadre prend les proportions de ses jaquettes
+  const frameRatio = platform ? formatOf(platform).ratio : 0.75;
+  const localCover = (e: CatalogEntry) =>
+    `${coversBase}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`;
 
   const entries = useMemo(() => {
     if (!lists) return null;
@@ -93,13 +111,10 @@ export default function CatalogView() {
     [lists, stats.rows],
   );
 
-  /** jeu de la base : son panneau ; sinon proposition d'ajout pré-remplie */
+  /** jeu de la base : sa fiche ; sinon la fiche catalogue, avec ajout en un clic */
   const openDrawer = (e: CatalogEntry, link?: CatalogGameLink) => {
-    if (link) {
-      drawer.open(link.id);
-      return;
-    }
-    openNewGame({ title: e.t, platformId: platformOf(e).replace(/-digital$/, "") });
+    if (link) drawer.open(link.id);
+    else setSelected(e);
   };
 
   /**
@@ -280,77 +295,58 @@ export default function CatalogView() {
               ? ` — ${shown.length} affichés, affiner la recherche`
               : ""}
           </p>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+          <div
+            className={`grid gap-x-4 gap-y-6 ${
+              frameRatio > 1.25
+                ? "grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+                : "grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6"
+            }`}
+          >
             {shown.map((e) => {
               const link = linkFor(e);
               const tier = link?.quality ?? e.q;
-              const inner = (
-                <>
-                  <div className="poster">
-                    {e.img ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={`${coversBase}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`}
-                        alt={`Jaquette de ${e.t}`}
-                        loading="lazy"
-                      />
-                    ) : (
-                      <div className="flex h-full w-full items-center justify-center bg-surface-2 px-2 text-center text-xs text-muted">
-                        {e.t}
-                      </div>
-                    )}
-                    <div className="poster-veil" />
-
-                    <div className="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-2">
-                      <span
-                        className={`flex h-6 w-6 items-center justify-center rounded-md font-mono text-xs font-bold shadow-lg ${
-                          tier
-                            ? (TIER_COLORS[tier] ?? "")
-                            : "bg-black/50 text-white/70 backdrop-blur-sm"
-                        }`}
-                        title={tier ? `Qualité ${tier}` : "Qualité non notée"}
-                      >
-                        {tier ?? "?"}
-                      </span>
-                      {link?.owned ? (
-                        <span className="rounded-full bg-[#4ade8030] px-2 py-0.5 text-[10px] font-semibold text-[#4ade80] ring-1 ring-inset ring-[#4ade8050] backdrop-blur-sm">
-                          Possédé
-                        </span>
-                      ) : link?.wishlist ? (
-                        <span className="rounded-full bg-[#c084fc30] px-2 py-0.5 text-[10px] font-semibold text-[#c084fc] ring-1 ring-inset ring-[#c084fc50] backdrop-blur-sm">
-                          Wishlist
-                        </span>
-                      ) : null}
-                    </div>
-
-                    <div className="absolute inset-x-0 bottom-0 flex items-center gap-1.5 p-2">
-                      <span className="truncate text-[11px] text-white/70">
-                        {e.r.join(", ") || "région inconnue"}
-                      </span>
-                      <span className="ml-auto shrink-0 rounded bg-black/50 px-1.5 py-0.5 font-mono text-[10px] uppercase text-white/80 backdrop-blur-sm">
-                        {PLATFORM_CODES[platformOf(e)] ?? platformOf(e)}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="mt-2 px-0.5">
-                    <div
-                      className="truncate text-sm font-medium transition group-hover:text-accent"
-                      title={e.t}
-                    >
-                      {e.t}
-                    </div>
-                  </div>
-                </>
-              );
-              // toujours le panneau latéral : on garde ses filtres et on enchaîne
+              const pid = platformOf(e);
+              // toujours un panneau latéral : on garde ses filtres et on enchaîne
               return (
                 <button
                   key={e.id}
                   type="button"
                   onClick={() => openDrawer(e, link)}
-                  className="group block w-full text-left"
+                  className="group block w-full text-left focus-visible:outline-none"
                 >
-                  {inner}
+                  <div className="relative transition duration-300 group-hover:-translate-y-1">
+                    <CoverImage
+                      src={e.u}
+                      fallback={e.img ? localCover(e) : null}
+                      alt={`Jaquette de ${e.t}`}
+                      ratio={frameRatio}
+                      width={frameRatio > 1.25 ? 320 : 240}
+                      className="ring-1 ring-border transition group-hover:ring-accent/50 group-hover:shadow-[var(--shadow-hover)] group-focus-visible:ring-2 group-focus-visible:ring-accent"
+                    />
+                  </div>
+                  {/* infos sous la jaquette : la boîte reste lisible (bandeau console, PEGI) */}
+                  <div className="mt-2 px-0.5">
+                    <div className="flex items-start gap-1.5">
+                      {tier ? (
+                        <span
+                          className={`mt-px flex h-4 w-4 shrink-0 items-center justify-center rounded text-[10px] font-bold ${TIER_COLORS[tier] ?? ""}`}
+                          title={`Qualité ${tier} · ${TIER_LABELS[tier] ?? ""}`}
+                        >
+                          {tier}
+                        </span>
+                      ) : null}
+                      <span className="line-clamp-2 text-[13px] font-medium leading-snug transition group-hover:text-accent" title={e.t}>
+                        {e.t}
+                      </span>
+                    </div>
+                    <div className="mt-1 flex items-center gap-1.5">
+                      {link?.owned || link?.wishlist ? <StatusBadge status={link.owned ? "owned" : "wishlist"} /> : null}
+                      <span className="truncate text-xs text-muted">
+                        {platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}
+                        {e.r.join(", ") || "région inconnue"}
+                      </span>
+                    </div>
+                  </div>
                 </button>
               );
             })}
@@ -358,8 +354,19 @@ export default function CatalogView() {
         </>
       )}
       <p className="mt-6 text-xs text-muted">
-        Source : listes No-Intro (libretro-thumbnails). Un jeu absent de la base s’ajoute d’un clic sur sa jaquette.
+        Sources : listes No-Intro et jaquettes libretro-thumbnails, eShop Nintendo Europe pour la Switch. Un jeu absent de la base
+        s’ajoute depuis sa fiche.
       </p>
+      {selected ? (
+        <CatalogEntryPanel
+          entry={selected}
+          platformId={platformOf(selected)}
+          platformName={PLATFORM_LABELS[platformOf(selected)] ?? platformOf(selected)}
+          fallback={selected.img ? localCover(selected) : null}
+          tierLabel={selected.q ? `${selected.q} · ${TIER_LABELS[selected.q] ?? ""}` : null}
+          onClose={() => setSelected(null)}
+        />
+      ) : null}
     </div>
   );
 }

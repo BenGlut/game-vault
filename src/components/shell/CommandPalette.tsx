@@ -134,7 +134,7 @@ export default function CommandPalette({ open, onClose }: { open: boolean; onClo
                 >
                   {r.kind === "game" ? (
                     <div className="w-8 shrink-0">
-                      <GameCover gameId={r.id} title={r.title} rounded="rounded-md" />
+                      <GameCover gameId={r.id} title={r.title} rounded="rounded-md" width={40} />
                     </div>
                   ) : Icon ? (
                     <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-surface text-muted">

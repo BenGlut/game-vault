@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMemo } from "react";
 import { monthLabel } from "@/lib/stats";
-import { MARKETPLACE_LABELS } from "@/lib/stats";
+import { MarketplaceTag } from "@/components/BrandLogos";
 import AreaChart from "@/components/charts/AreaChart";
 import ColumnChart from "@/components/charts/ColumnChart";
 import BarList from "@/components/charts/BarList";
@@ -180,7 +180,7 @@ export default function DashboardView() {
                       <span className="min-w-0 flex-1">
                         <span className="block truncate text-sm">{titles.join(", ")}</span>
                         <span className="block text-xs text-muted">
-                          {MARKETPLACE_LABELS[o.marketplace] ?? o.marketplace}
+                          <MarketplaceTag marketplace={o.marketplace} size={12} className="align-middle" />
                           {o.sellerId && sellers.get(o.sellerId) ? ` · ${sellers.get(o.sellerId)}` : ""} · {dateFr(o.orderedAt)}
                         </span>
                       </span>

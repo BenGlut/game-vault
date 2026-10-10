@@ -7,7 +7,30 @@ import { monthLabel } from "@/lib/stats";
 import AreaChart from "@/components/charts/AreaChart";
 import ColumnChart from "@/components/charts/ColumnChart";
 import BarList from "@/components/charts/BarList";
-import StackedBar from "@/components/charts/StackedBar";
+import RankedShare from "@/components/charts/RankedShare";
+import type { Breakdown } from "@/lib/stats";
+
+/** Ordre logique, du plus complet au moins complet. */
+const COMPLETENESS_ORDER = [
+  { key: "sealed", label: "Sous blister", hint: "neuf, jamais ouvert" },
+  { key: "CIB", label: "Complet", hint: "boîte, notice et jeu" },
+  { key: "no_manual", label: "Sans notice", hint: "boîte et jeu" },
+  { key: "box_only", label: "Boîte seule", hint: "sans le jeu" },
+  { key: "loose", label: "Loose", hint: "jeu seul" },
+  { key: "code_in_box", label: "Code dans la boîte", hint: "pas de cartouche" },
+];
+
+/** Du neuf à l'abîmé. */
+const CONDITION_ORDER = [
+  { key: "new", label: "Neuf", hint: "" },
+  { key: "like_new", label: "Comme neuf", hint: "aucune trace" },
+  { key: "very_good", label: "Très bon", hint: "traces légères" },
+  { key: "good", label: "Bon", hint: "usure visible" },
+  { key: "acceptable", label: "Acceptable", hint: "défauts marqués" },
+  { key: "poor", label: "Abîmé", hint: "à remplacer" },
+];
+
+const countOf = (list: Breakdown[], key: string) => list.find((b) => b.key === key)?.count ?? 0;
 import { ACCENT, SERIES, compact, euroFmt, intFmt } from "@/components/charts/core";
 import { Card, PageHeader, Segmented, StatTile } from "@/components/ui/primitives";
 import GameCover from "@/components/game/GameCover";
@@ -111,7 +134,7 @@ export default function StatsView() {
             }))}
             format={(v) => `${intFmt.format(v)} exemplaire${v > 1 ? "s" : ""}`}
             axisFormat={(v) => compact(v)}
-            color={SERIES[2]}
+            color={SERIES[2]!}
           />
         </Card>
       </div>
@@ -132,7 +155,7 @@ export default function StatsView() {
         </Card>
         <Card title="Valeur par console" subtitle="À la cote, exemplaires possédés">
           <BarList
-            color={SERIES[0]}
+            color={SERIES[0]!}
             items={[...stats.byPlatform]
               .filter((p) => p.value > 0)
               .sort((a, b) => b.value - a.value)
@@ -148,11 +171,19 @@ export default function StatsView() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-3">
-        <Card title="Complétude" subtitle="Exemplaires possédés">
-          <StackedBar segments={stats.byCompleteness.map((b) => ({ key: b.key, label: b.label, value: b.count }))} format={(v) => intFmt.format(v)} />
+        <Card title="Complétude" subtitle="Ce qu’il y a dans la boîte, pour les exemplaires possédés">
+          <RankedShare
+            color={SERIES[0]!}
+            rows={COMPLETENESS_ORDER.map((c) => ({ ...c, count: countOf(stats.byCompleteness, c.key) }))}
+            unknown={countOf(stats.byCompleteness, "unknown")}
+          />
         </Card>
-        <Card title="État" subtitle="Exemplaires possédés">
-          <StackedBar segments={stats.byCondition.map((b) => ({ key: b.key, label: b.label, value: b.count }))} format={(v) => intFmt.format(v)} />
+        <Card title="État" subtitle="L’usure des exemplaires possédés, du neuf à l’abîmé">
+          <RankedShare
+            color={SERIES[2]!}
+            rows={CONDITION_ORDER.map((c) => ({ ...c, count: countOf(stats.byCondition, c.key) }))}
+            unknown={countOf(stats.byCondition, "unknown")}
+          />
         </Card>
         <Card title="Qualité des jeux" subtitle="Jeux possédés notés, de S (incontournable) à D">
           <BarList
@@ -170,7 +201,7 @@ export default function StatsView() {
                 <button type="button" onClick={() => open(r.game.id)} className="flex w-full items-center gap-3 py-2.5 text-left transition hover:opacity-80">
                   <span className="w-5 text-right text-xs tabular-nums text-muted">{i + 1}</span>
                   <div className="w-9 shrink-0">
-                    <GameCover gameId={r.game.id} title={r.game.canonicalTitle} rounded="rounded-md" />
+                    <GameCover gameId={r.game.id} title={r.game.canonicalTitle} rounded="rounded-md" width={40} />
                   </div>
                   <span className="min-w-0 flex-1">
                     <span className="block truncate text-sm">{r.game.canonicalTitle}</span>
@@ -188,7 +219,7 @@ export default function StatsView() {
               <li key={item.id}>
                 <button type="button" onClick={() => open(row.game.id)} className="flex w-full items-center gap-3 py-2.5 text-left transition hover:opacity-80">
                   <div className="w-9 shrink-0">
-                    <GameCover gameId={row.game.id} title={row.game.canonicalTitle} rounded="rounded-md" />
+                    <GameCover gameId={row.game.id} title={row.game.canonicalTitle} rounded="rounded-md" width={40} />
                   </div>
                   <span className="min-w-0 flex-1">
                     <span className="block truncate text-sm">{row.game.canonicalTitle}</span>

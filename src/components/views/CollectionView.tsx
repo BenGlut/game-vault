@@ -15,6 +15,7 @@ import { useGameDrawer } from "@/components/game/GameDrawer";
 import { useNewGame } from "@/components/game/NewGameForm";
 import { useVault } from "@/components/vault/VaultProvider";
 import { matches } from "@/components/vault/model";
+import { formatOf } from "@/lib/platform-format";
 
 type Scope = "owned" | "incoming" | "all";
 type Sort = "title" | "recent" | "value" | "paid" | "quality";
@@ -194,6 +195,7 @@ export default function CollectionView() {
               key={r.game.id}
               row={r}
               showState={scope !== "owned"}
+              ratio={platform ? formatOf(platform).ratio : undefined}
               footer={r.value !== null ? <span className="tabular-nums text-muted">{euroFmt.format(r.value)}</span> : null}
             />
           ))}
@@ -218,7 +220,7 @@ export default function CollectionView() {
                     <td className="px-4 py-2">
                       <div className="flex items-center gap-3">
                         <div className="w-8 shrink-0">
-                          <GameCover gameId={r.game.id} title={r.game.canonicalTitle} rounded="rounded-md" />
+                          <GameCover gameId={r.game.id} title={r.game.canonicalTitle} rounded="rounded-md" width={40} />
                         </div>
                         <div className="min-w-0">
                           <div className="flex items-center gap-1.5">

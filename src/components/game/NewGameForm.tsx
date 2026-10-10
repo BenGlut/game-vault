@@ -2,7 +2,8 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { REGIONS, type Game } from "@/lib/schema";
-import { gameId, normalizeTitle, slugify } from "@/lib/normalize";
+import { normalizeTitle } from "@/lib/normalize";
+import { findDuplicate, makeGame } from "@/components/vault/model";
 import { Button, Field, Select, inputClass } from "@/components/ui/fields";
 import { useVault } from "@/components/vault/VaultProvider";
 import { useGameDrawer } from "./GameDrawer";
@@ -70,51 +71,23 @@ function NewGameForm({ prefill, onDone }: { prefill: Prefill; onDone: () => void
 
   const platform = data.platforms.find((p) => p.id === platformId);
   const norm = normalizeTitle(title);
-  const duplicate = useMemo(
-    () =>
-      norm
-        ? data.games.find((g) => g.platformId === platformId && g.normalizedTitle === norm && (g.edition ?? "") === edition.trim())
-        : undefined,
-    [data.games, platformId, norm, edition],
-  );
-
-  function buildId(): string {
-    const base = gameId(platformId, title);
-    if (!data.games.some((g) => g.id === base)) return base;
-    const withEdition = edition.trim() ? `${base}-${slugify(edition)}` : `${base}-2`;
-    let id = withEdition;
-    let n = 2;
-    while (data.games.some((g) => g.id === id)) id = `${withEdition}-${n++}`;
-    return id;
-  }
+  const duplicate = useMemo(() => findDuplicate(data.games, { title, platformId, edition }), [data.games, platformId, title, edition]);
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
     if (!norm || duplicate || !platform) return;
-    const game: Game = {
-      id: buildId(),
-      kind: "game",
-      canonicalTitle: title.trim(),
-      normalizedTitle: norm,
+    const game = makeGame(data.games, data.platforms, {
+      title,
+      platformId,
+      edition,
+      year: year ? Number(year) : null,
+      franchise,
       aliases: aliases
         .split(",")
         .map((s) => s.trim())
         .filter(Boolean),
-      franchise: franchise.trim() || null,
-      platformId,
       region: region as Game["region"],
-      languages: ["fr"],
-      publisher: null,
-      developer: null,
-      releaseYear: year ? Number(year) : null,
-      genres: [],
-      edition: edition.trim() || null,
-      playsOn: [],
-      mediaType: platform.mediaTypes[0] ?? "cartridge",
-      externalIds: {},
-      qualityTier: null,
-      buyPriority: null,
-    };
+    });
     setBusy(true);
     const ok = await createGame(game, wishlist);
     setBusy(false);

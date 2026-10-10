@@ -1,47 +1,41 @@
 "use client";
 
-import { useState } from "react";
 import { coverUrl } from "@/components/vault/model";
+import CoverImage from "./CoverImage";
+import { useCoverSource } from "./coverSources";
 
-/** Jaquette du jeu ; repli élégant (initiales sur dégradé) si l'image manque. */
+/**
+ * Jaquette d'un jeu de la collection : original haute résolution quand le
+ * catalogue le connaît, copie locale sinon, toujours entière (jamais recadrée).
+ */
 export default function GameCover({
   gameId,
   title,
+  ratio = 0.75,
+  width = 200,
   className = "",
   rounded = "rounded-xl",
 }: {
   gameId: string;
   title: string;
+  /** proportions du cadre (largeur / hauteur) */
+  ratio?: number;
+  /** largeur affichée en px CSS */
+  width?: number;
   className?: string;
   rounded?: string;
 }) {
-  const [failed, setFailed] = useState(false);
-  if (failed) {
-    const initials = title
-      .replace(/[^\p{L}\p{N} ]/gu, "")
-      .split(" ")
-      .filter(Boolean)
-      .slice(0, 2)
-      .map((w) => w[0]?.toUpperCase())
-      .join("");
-    return (
-      <div
-        className={`flex aspect-[3/4] items-center justify-center bg-gradient-to-br from-surface-2 to-bg-elev ${rounded} ${className}`}
-        aria-label={`Pas de jaquette pour ${title}`}
-      >
-        <span className="text-2xl font-semibold text-muted/60">{initials || "?"}</span>
-      </div>
-    );
-  }
+  const source = useCoverSource(gameId);
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={coverUrl(gameId)}
+    <CoverImage
+      key={source?.u ?? "local"}
+      src={source?.u}
+      fallback={coverUrl(gameId)}
       alt={`Jaquette de ${title}`}
-      loading="lazy"
-      decoding="async"
-      onError={() => setFailed(true)}
-      className={`aspect-[3/4] w-full bg-surface-2 object-cover ${rounded} ${className}`}
+      ratio={ratio}
+      width={width}
+      rounded={rounded}
+      className={className}
     />
   );
 }

@@ -6,11 +6,14 @@ import type { Game } from "@/lib/schema";
 import { euro } from "@/lib/labels";
 import { isOwned } from "@/lib/collection";
 import { MARKETPLACE_LABELS } from "@/lib/stats";
+import BrandLogo, { MarketplaceTag } from "@/components/BrandLogos";
 import MiniEstimator from "@/components/MiniEstimator";
 import { StatusBadge, TierBadge, PriorityBadge } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/fields";
 import { useVault } from "@/components/vault/VaultProvider";
-import GameCover from "./GameCover";
+import { coverUrl } from "@/components/vault/model";
+import CoverHero from "./CoverHero";
+import { useCoverSource } from "./coverSources";
 import GameSheet from "./GameSheet";
 import InventoryEditor from "./InventoryEditor";
 
@@ -23,6 +26,21 @@ function searchText(s: string): string {
 /** MobyGames connaît le titre anglais : premier alias sans accent, sinon le titre. */
 function englishTitle(game: Game): string {
   return game.aliases.find((a) => !/[À-ÿ]/.test(a) && a !== game.canonicalTitle) ?? game.canonicalTitle;
+}
+
+/** Recherches prêtes à l'emploi chez les marchands de référence. */
+function shopLinks(game: Game, platform: string): { brand: string; label: string; href: string }[] {
+  const q = searchText(`${game.canonicalTitle} ${platform}`);
+  return [
+    { brand: "vinted", label: "Vinted", href: `https://www.vinted.fr/catalog?search_text=${encodeURIComponent(q)}` },
+    {
+      brand: "micromania",
+      label: "Micromania",
+      href: `https://www.micromania.fr/on/demandware.store/Sites-Micromania-Site/fr_FR/Search-Show?q=${encodeURIComponent(q)}`,
+    },
+    { brand: "amazon", label: "Amazon", href: `https://www.amazon.fr/s?k=${encodeURIComponent(q)}&i=videogames` },
+    { brand: "moby", label: "Notes", href: `https://www.mobygames.com/search/?q=${encodeURIComponent(searchText(englishTitle(game)))}` },
+  ];
 }
 
 function Section({ title, children, aside }: { title: string; children: React.ReactNode; aside?: React.ReactNode }) {
@@ -42,6 +60,7 @@ export default function GameDetail({ gameId, onNavigate }: { gameId: string; onN
   const { rowById, data, addItem } = useVault();
   const [busy, setBusy] = useState(false);
   const [showArchive, setShowArchive] = useState(false);
+  const source = useCoverSource(gameId);
   const row = rowById.get(gameId);
   if (!row) return <p className="p-6 text-sm text-muted">Ce jeu n’existe plus dans la base.</p>;
   const { game, platform, quotes } = row;
@@ -74,18 +93,19 @@ export default function GameDetail({ gameId, onNavigate }: { gameId: string; onN
 
   return (
     <div>
-      {/* en-tête : jaquette nette sur fond flouté */}
-      <div className="relative overflow-hidden">
-        <div className="absolute inset-0 scale-125 opacity-35 blur-3xl" aria-hidden>
-          <GameCover gameId={game.id} title={game.canonicalTitle} rounded="rounded-none" className="h-full" />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-bg-elev/40 via-bg-elev/80 to-bg-elev" aria-hidden />
-        <div className="relative flex gap-4 px-5 pb-5 pt-6">
-          <div className="w-28 shrink-0 sm:w-32">
-            <GameCover gameId={game.id} title={game.canonicalTitle} className="shadow-[0_20px_45px_-15px_rgba(0,0,0,0.9)] ring-1 ring-border-strong" />
-          </div>
-          <div className="min-w-0 pt-1">
-            <div className="flex flex-wrap items-center gap-1.5">
+      {/* en-tête pensé par console : proportions, teinte et type de boîte */}
+      <CoverHero
+        platformId={game.platformId}
+        platformName={platform?.name ?? game.platformId}
+        src={source?.u}
+        fallback={coverUrl(game.id)}
+        title={game.canonicalTitle}
+        square={source?.sq}
+      />
+      <div className="relative">
+        <div className="px-5 pb-5 text-center">
+          <div className="min-w-0">
+            <div className="flex flex-wrap items-center justify-center gap-1.5">
               <TierBadge tier={game.qualityTier} />
               {statuses.map((s) => (
                 <StatusBadge key={s} status={s} count={active.filter((i) => i.status === s).length} />
@@ -98,23 +118,20 @@ export default function GameDetail({ gameId, onNavigate }: { gameId: string; onN
               {game.releaseYear ? ` · ${game.releaseYear}` : ""}
               {game.edition ? ` · ${game.edition}` : ""}
             </p>
-            <div className="mt-3 flex flex-wrap gap-1.5">
-              <a
-                href={`https://www.vinted.fr/catalog?search_text=${encodeURIComponent(searchText(`${game.canonicalTitle} ${platform?.shortName ?? ""}`))}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-lg border border-border bg-surface/80 px-2.5 py-1 text-xs transition hover:border-accent/50 hover:text-accent"
-              >
-                Vinted ↗
-              </a>
-              <a
-                href={`https://www.mobygames.com/search/?q=${encodeURIComponent(searchText(englishTitle(game)))}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-lg border border-border bg-surface/80 px-2.5 py-1 text-xs transition hover:border-accent/50 hover:text-accent"
-              >
-                Notes et fiche ↗
-              </a>
+            {/* comparer avant d'acheter : Vinted, Micromania occasion, Amazon neuf */}
+            <div className="mt-3 flex flex-wrap justify-center gap-1.5">
+              {shopLinks(game, platform?.shortName ?? "").map((l) => (
+                <a
+                  key={l.brand}
+                  href={l.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-surface/80 px-2.5 py-1.5 text-xs transition hover:border-accent/50 hover:text-accent"
+                >
+                  {l.brand !== "moby" ? <BrandLogo brand={l.brand} size={14} /> : null}
+                  {l.label} ↗
+                </a>
+              ))}
             </div>
           </div>
         </div>
@@ -220,7 +237,7 @@ export default function GameDetail({ gameId, onNavigate }: { gameId: string; onN
                   <span className="flex min-w-0 items-center gap-2">
                     <StatusBadge status={o.status} />
                     <span className="truncate text-muted">
-                      {MARKETPLACE_LABELS[o.marketplace] ?? o.marketplace}
+                      <MarketplaceTag marketplace={o.marketplace} size={12} className="align-middle" />
                       {o.sellerId && sellers.get(o.sellerId) ? ` · ${sellers.get(o.sellerId)}` : ""} · {o.orderedAt}
                     </span>
                   </span>

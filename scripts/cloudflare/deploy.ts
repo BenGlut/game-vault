@@ -3,6 +3,7 @@
  *
  *   pnpm deploy:cf
  *
+ * Étapes : sources des jaquettes → build → fiche technique (out/dev-info.json) → envoi.
  * Les 35 000 jaquettes du catalogue dépassent le plafond de 20 000 fichiers par
  * déploiement : l'application les lit sur GitHub Pages, elles sont mises de côté
  * pendant l'envoi puis remises en place.
@@ -19,7 +20,11 @@ function run(cmd: string, args: string[], env: Record<string, string> = {}): voi
   if (res.status !== 0) throw new Error(`${path.basename(cmd)} ${args[0]} a échoué (code ${res.status})`);
 }
 
+// jaquettes originales de la collection (rapprochement avec le catalogue)
+run(bin("tsx"), ["scripts/covers/build-sources.ts"]);
 run(bin("next"), ["build"]);
+// fiche technique de la page « </> Dev » (après le build : tailles du bundle connues)
+run(bin("tsx"), ["scripts/cloudflare/dev-info.ts"]);
 
 const covers = path.join(REPO_ROOT, "out", "catalog-covers");
 const parked = path.join(REPO_ROOT, ".catalog-covers-parked");
