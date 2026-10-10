@@ -1041,3 +1041,16 @@ la médiane sont des pièges : coque ou étui vendu sous le titre du jeu (« Fun
 cartouche seule dans un boîtier générique, boîte allemande (USK) ou italienne.
 Avant de liker en masse, exclure ces mots ; avant de proposer, ouvrir les photos.
 Attention : « puzzle » exclut aussi le jeu Puzzle & Dragons.
+
+## 2026-10-10 — Plateforme d'une annonce et limite de débit
+- La plateforme d'une annonce est dans le HTML de `/items/<id>` : bloc
+  `"video_game_platform"`, champ `"value"` (« Nintendo Switch », « Nintendo 3DS »).
+  Identifiants : Switch = 1273, 3DS = 1265 (paramètre de recherche
+  `video_game_platform_ids[]=1273`).
+- **Ne jamais enchaîner des dizaines de lectures de pages d'annonce** : après ~60
+  pages en quelques minutes, Vinted affiche « You are rate limited » pour tout
+  l'ordinateur, y compris la navigation de benglut. Plafond : une vingtaine de
+  pages, espacées de 2 s ou plus ; trier d'abord par titre et par ancienneté.
+- Une annonce dont l'id est inférieur à ~4,5 milliards date d'avant juin 2024 :
+  pour Luigi's Mansion 2, ce ne peut pas être la version HD Switch (sortie le
+  27 juin 2024).
