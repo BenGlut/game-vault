@@ -109,6 +109,12 @@ When it fires: fix the doc/data, never bypass.
 - Conversation with benglut: **French**. Code identifiers: English. Docs and UI
   copy: **French** (explicit project requirement from the initial spec — deviation
   from the generic template, ratified 2026-08-08).
+- **EVERY message to benglut is written in French — no exception** (benglut, 2026-10-10,
+  after four replies slipped into English the same day: « Parle-moi en français, mets
+  ça dans tes règles »). This covers end-of-task reports, Vinted reports, tables,
+  comparisons and progress notes between tool calls. The risk is highest after a long
+  run of tool calls: re-read the language of the reply before sending it. Only code,
+  commands, file paths and quoted foreign text stay as they are.
 - **pnpm only. npm/npx are forbidden** (user order, 2026-08-07 — an `npm install -g`
   once failed on permissions and npm is banned from this machine's workflow).
 - **Standing authorisation since 2026-08-11**: benglut has granted blanket permission
