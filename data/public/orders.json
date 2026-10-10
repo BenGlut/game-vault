@@ -3879,7 +3879,7 @@
   {
     "id": "order_muorhc3k",
     "marketplace": "vinted",
-    "status": "fulfilled",
+    "status": "delivered",
     "itemCount": 4,
     "gameIds": [
       "game_ds_phoenix-wright-ace-attorney",
@@ -3911,7 +3911,7 @@
     ],
     "orderedAt": "2026-10-01",
     "fulfilledAt": "2026-10-07",
-    "deliveredAt": null,
+    "deliveredAt": "2026-10-10",
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
     "refundedAt": null,

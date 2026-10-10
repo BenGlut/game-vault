@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-10T17:44:16.945Z",
+  "generatedAt": "2026-10-10T18:01:09.937Z",
   "totalGames": 589,
   "totalHardware": 13,
   "ownedHardware": 14,
-  "ownedItems": 496,
+  "ownedItems": 500,
   "byStatus": {
     "owned": 263,
-    "delivered": 247,
+    "delivered": 251,
     "wishlist": 0,
     "refunded": 15,
     "cancelled": 4,
@@ -29,6 +29,6 @@
     "xbox360": 2,
     "xboxone": 1
   },
-  "needsReview": 161,
+  "needsReview": 157,
   "estimateTotal": 6847.13
 }
