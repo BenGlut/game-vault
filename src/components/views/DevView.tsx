@@ -76,6 +76,64 @@ const STACK: { brand: string; name: string; pkg?: string; role: string }[] = [
   { brand: "github", name: "GitHub", role: "2 dépôts, CI, Pages pour les jaquettes du catalogue" },
 ];
 
+/** Hébergement : un service par ligne, offre et coût réels (octobre 2026). */
+const HOSTING: { brand?: string; service: string; role: string; where: string; plan: string; cost: string }[] = [
+  {
+    brand: "cloudflare",
+    service: "Cloudflare Pages",
+    role: "Site, API (Functions), connexion",
+    where: "Réseau mondial Cloudflare · gamevault-ehn.pages.dev",
+    plan: "Gratuite : pages et fichiers illimités, 100 000 requêtes aux Functions par jour, 20 000 fichiers par déploiement",
+    cost: "0 €",
+  },
+  {
+    brand: "sqlite",
+    service: "Cloudflare D1",
+    role: "Base de données en ligne",
+    where: "Europe de l’Ouest (WEUR)",
+    plan: "Gratuite : 5 Go, 5 millions de lignes lues et 100 000 écrites par jour",
+    cost: "0 €",
+  },
+  {
+    brand: "github",
+    service: "GitHub",
+    role: "2 dépôts (code public, données privées), CI, jaquettes du catalogue (Pages)",
+    where: "États-Unis",
+    plan: "Gratuite : dépôts illimités, Actions gratuites pour un dépôt public, Pages jusqu’à 1 Go",
+    cost: "0 €",
+  },
+  {
+    brand: "google",
+    service: "Google Cloud",
+    role: "Client de connexion Google (projet gamevault-511106)",
+    where: "Google",
+    plan: "Gratuite, aucune facturation activée sur le projet",
+    cost: "0 €",
+  },
+  {
+    service: "wsrv.nl",
+    role: "Jaquettes redimensionnées à la volée",
+    where: "Réseau Cloudflare (service libre)",
+    plan: "Gratuit, sans compte",
+    cost: "0 €",
+  },
+  {
+    service: "libretro, eShop Nintendo",
+    role: "Images d’origine des jaquettes",
+    where: "Sources publiques",
+    plan: "Lecture seule, sans compte",
+    cost: "0 €",
+  },
+  {
+    brand: "claude",
+    service: "Mac de benglut",
+    role: "Agent, CLI, repo de données local, déploiement",
+    where: "Local",
+    plan: "—",
+    cost: "—",
+  },
+];
+
 const ROUTES: [string, string][] = [
   ["/", "Tableau de bord"],
   ["/statistiques", "Courbes et répartitions"],
@@ -246,6 +304,60 @@ export default function DevView() {
             </div>
           ))}
         </div>
+      </Card>
+
+      <Card title="Hébergement et coûts" subtitle="Où tourne chaque morceau, sur quelle offre, et ce que ça coûte">
+        <div className="mb-4 flex flex-wrap items-end justify-between gap-4 rounded-xl border border-ok/30 bg-ok/10 p-4">
+          <div>
+            <div className="text-xs text-muted">Coût mensuel total</div>
+            <div className="text-3xl font-semibold tracking-tight text-ok">0 €</div>
+          </div>
+          <p className="max-w-xl text-xs text-muted">
+            Tout tourne sur des offres gratuites. Sur l’offre gratuite Cloudflare, un dépassement de quota bloque des requêtes au lieu
+            de facturer, tant qu’aucune offre payante n’est souscrite. L’abonnement Claude de l’agent n’est pas compté ici.
+          </p>
+        </div>
+        <div className="overflow-x-auto">
+          <table className="w-full min-w-[640px] text-sm">
+            <thead className="text-left text-xs text-muted">
+              <tr>
+                <th className="pb-2 font-medium">Service</th>
+                <th className="pb-2 font-medium">Rôle</th>
+                <th className="pb-2 font-medium">Où</th>
+                <th className="pb-2 font-medium">Offre et limites</th>
+                <th className="pb-2 text-right font-medium">Coût</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-border align-top">
+              {HOSTING.map((h) => (
+                <tr key={h.service}>
+                  <td className="py-2.5 pr-3">
+                    <span className="flex items-center gap-2 font-medium">
+                      {h.brand ? <BrandLogo brand={h.brand} size={16} /> : null}
+                      {h.service}
+                    </span>
+                  </td>
+                  <td className="py-2.5 pr-3 text-muted">{h.role}</td>
+                  <td className="py-2.5 pr-3 text-muted">{h.where}</td>
+                  <td className="py-2.5 pr-3 text-xs text-muted">{h.plan}</td>
+                  <td className="py-2.5 text-right font-medium tabular-nums">{h.cost}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <h3 className="mb-2 mt-5 text-xs font-semibold uppercase tracking-wider text-muted">Ce qui ferait payer</h3>
+        <ul className="space-y-1.5 text-sm text-muted">
+          <li>
+            · Dépasser durablement les quotas gratuits de Cloudflare (lectures en base, requêtes aux Functions) : passage à l’offre
+            Workers Paid, <span className="text-text">5 $ par mois</span>, base D1 et Pages inclus. Aujourd’hui la marge est de plus de 99 %.
+          </li>
+          <li>
+            · Un nom de domaine personnel à la place de gamevault-ehn.pages.dev : <span className="text-text">environ 10 € par an</span>,
+            facultatif.
+          </li>
+          <li>· Rendre privé le dépôt de code : GitHub Pages ne serait plus gratuit pour les jaquettes du catalogue (il faudrait les déplacer).</li>
+        </ul>
       </Card>
 
       <Card title="Stack technique" subtitle={info ? `Node ${info.runtime.node} · pnpm ${info.runtime.pnpm}` : undefined}>

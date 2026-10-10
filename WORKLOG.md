@@ -38,7 +38,9 @@
   consommation face aux quotas gratuits Cloudflare (stockage D1, lignes lues et
   écrites sur 24 h, fichiers par déploiement), mesures du navigateur, tables D1 en
   direct (`GET /api/dev`), fichiers du repo de données, code par zone, catalogue,
-  pages, API, commandes, secrets et consoles d'administration. Fiche figée à chaque
+  pages, API, commandes, secrets et consoles d'administration, et une carte
+  « Hébergement et coûts » (chaque service, où il tourne, offre et limites, coût :
+  0 € par mois ; ce qui ferait payer). Fiche figée à chaque
   déploiement par `scripts/cloudflare/dev-info.ts` (`out/dev-info.json`)
 - **Logos SVG** (`src/components/BrandLogos.tsx`) : officiels via simple-icons (Vinted,
   eBay, Rakuten, Fnac et la stack), marques dessinées pour Amazon, Micromania,
