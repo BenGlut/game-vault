@@ -3920,7 +3920,7 @@
   {
     "id": "order_muq9v6mk",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_switch_paper-mario-the-origami-king"
@@ -3933,7 +3933,7 @@
       }
     ],
     "orderedAt": "2026-10-02",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-10-08",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,
@@ -4024,7 +4024,7 @@
   {
     "id": "order_muuxjq26",
     "marketplace": "vinted",
-    "status": "ordered",
+    "status": "fulfilled",
     "itemCount": 1,
     "gameIds": [
       "game_3ds_mario-sonic-aux-jeux-olympiques-de-rio-2016"
@@ -4037,7 +4037,7 @@
       }
     ],
     "orderedAt": "2026-10-05",
-    "fulfilledAt": null,
+    "fulfilledAt": "2026-10-09",
     "deliveredAt": null,
     "estimatedDeliveryAt": null,
     "cancelledAt": null,

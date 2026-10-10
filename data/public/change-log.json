@@ -1,15 +1,5 @@
 [
   {
-    "at": "2026-08-24T20:26:31.701Z",
-    "command": "add-game",
-    "message": "add game Burnout Legends (ds)"
-  },
-  {
-    "at": "2026-08-24T20:26:32.555Z",
-    "command": "add-game",
-    "message": "add game Bratz : Le Film (ds)"
-  },
-  {
     "at": "2026-08-24T20:26:33.344Z",
     "command": "add-game",
     "message": "add game Imagine : Fashion Designer (ds)"
@@ -2498,5 +2488,15 @@
     "at": "2026-10-08T22:28:08.100Z",
     "command": "add-game",
     "message": "add game Les Chevaliers de Baphomet - Les Boucliers de Quetzalcoatl : Reforged (switch)"
+  },
+  {
+    "at": "2026-10-10T17:43:53.737Z",
+    "command": "fulfill-order",
+    "message": "fulfill-order order_muq9v6mk"
+  },
+  {
+    "at": "2026-10-10T17:43:57.295Z",
+    "command": "fulfill-order",
+    "message": "fulfill-order order_muuxjq26"
   }
 ]
