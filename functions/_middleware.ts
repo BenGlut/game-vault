@@ -2,8 +2,10 @@
  * Everything on the Cloudflare deployment is private: without a valid session,
  * pages redirect to /connexion/ and the API answers 401. Writes must carry the
  * custom header `x-gv-request` (forces a CORS preflight, so no cross-site write).
+ * The local MCP server reaches /api/ only, with `Authorization: Bearer MCP_TOKEN`;
+ * its writes are logged with actor "mcp".
  */
-import { sessionEmail } from "../src/server/auth";
+import { mcpTokenValid, sessionEmail } from "../src/server/auth";
 import { json, type PagesFunction } from "../src/server/cf";
 
 const PUBLIC_PATHS = ["/connexion/", "/api/auth/login", "/api/auth/config", "/favicon.ico"];
@@ -12,7 +14,12 @@ export const onRequest: PagesFunction = async (ctx) => {
   const url = new URL(ctx.request.url);
   if (PUBLIC_PATHS.some((p) => url.pathname === p || url.pathname.startsWith(p))) return ctx.next();
 
-  const email = await sessionEmail(ctx.request, ctx.env);
+  let email = await sessionEmail(ctx.request, ctx.env);
+  ctx.data.actor = "web";
+  if (!email && url.pathname.startsWith("/api/") && mcpTokenValid(ctx.request, ctx.env)) {
+    email = ctx.env.ALLOWED_EMAIL;
+    ctx.data.actor = "mcp";
+  }
   if (!email) {
     if (url.pathname.startsWith("/api/")) return json({ error: "Connexion requise" }, 401);
     const next = encodeURIComponent(url.pathname + url.search);

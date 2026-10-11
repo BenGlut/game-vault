@@ -1,5 +1,5 @@
 # Cloudflare Pages deployment of GameVault (private, Google sign-in).
-# Secrets (never committed): ALLOWED_EMAIL, SESSION_SECRET — `wrangler pages secret put`.
+# Secrets (never committed): ALLOWED_EMAIL, SESSION_SECRET, MCP_TOKEN (docs/mcp.md) — `wrangler pages secret put`.
 name = "gamevault"
 pages_build_output_dir = "out"
 compatibility_date = "2026-10-01"

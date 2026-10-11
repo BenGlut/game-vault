@@ -1,6 +1,18 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Serveur MCP GameVault** (`scripts/mcp/server.ts`, `docs/mcp.md`) : un agent lit
+  et écrit la base en ligne sans `d1 pull/push`. Outils `search_games`, `inspect`,
+  `get_record`, `add_order`, `transition_order`, `update_record`, `create_record`,
+  `change_log`. Accès par `Authorization: Bearer` limité à `/api/`, secret Pages
+  `MCP_TOKEN` (≥ 32 caractères, comparaison en temps constant, `src/server/auth.ts`,
+  `functions/_middleware.ts`) ; écritures journalisées avec l'auteur `mcp` (paramètre
+  `actor` de `src/server/store.ts`). Nouveau `POST /api/add-order`
+  (`functions/api/add-order.ts`) : commande, lignes d'inventaire et vendeur en un seul
+  batch D1. `add-order` de la CLI et de l'API partagent `src/lib/orders.ts`
+  (`planAddOrder`, `freeInventoryId`, `referenceSynthetique`). Tests
+  `tests/orders.test.ts`, `tests/mcp-auth.test.ts`. Dépendance de dev
+  `@modelcontextprotocol/sdk`
 - **Copie privée en ligne sur Cloudflare** (https://gamevault-ehn.pages.dev) :
   Pages + base D1 `gamevault` (Europe de l'Ouest), offre gratuite. Toute page et
   toute requête passent par une connexion Google réservée à une seule adresse

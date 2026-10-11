@@ -30,6 +30,11 @@ The JSON repo stays the source the CLI edits:
 - **after** commit: `pnpm d1 push` (refuses if D1 holds edits not yet pulled);
 - redeploy the site: `pnpm deploy:cf` (catalog covers stay on GitHub Pages).
 
+**MCP server `gamevault`** (`scripts/mcp/server.ts`, `docs/mcp.md`, since 2026-10-11):
+when its tools are loaded, prefer them for reading and writing the live base — they
+hit the API directly (same Zod checks, actor `mcp` in the change log), no `d1 pull/push`.
+The JSON repo then lags behind D1: `pnpm d1 pull` before any `pnpm vault` command.
+
 ## 2. Machine-local truth → `LOCAL.md` (gitignored)
 
 No absolute paths in committed files. Sibling-repo location, credentials notes and
@@ -199,6 +204,8 @@ src/server/              API core: auth.ts (ID token + HMAC cookie), store.ts (D
                          CRUD + integrity + change log), collections.ts
 migrations/              D1 schema (one table per data file, record kept as JSON)
 scripts/d1/sync.ts       pnpm d1 push|pull — JSON repo ⇄ D1
+scripts/mcp/server.ts    MCP server (stdio) → live API with Bearer MCP_TOKEN
+src/lib/orders.ts        add-order planning shared by CLI and API
 scripts/cloudflare/      deploy.ts — pnpm deploy:cf (covers sources → build → dev-info
                          → upload) ; dev-info.ts — technical snapshot for /dev
 scripts/catalog/add-source-urls.ts  adds the original cover URL (`u`) to catalog entries

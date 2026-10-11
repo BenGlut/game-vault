@@ -27,6 +27,8 @@ export interface Env {
   /** Secrets (wrangler pages secret put). */
   ALLOWED_EMAIL: string;
   SESSION_SECRET: string;
+  /** Jeton du serveur MCP local (en-tête Authorization: Bearer). Absent = accès désactivé. */
+  MCP_TOKEN?: string;
   ASSETS: { fetch(request: Request): Promise<Response> };
 }
 

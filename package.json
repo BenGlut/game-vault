@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.6",
+    "@modelcontextprotocol/sdk": "^1.32.1",
     "@playwright/test": "^1.54.0",
     "@tailwindcss/postcss": "^4.1.0",
     "@types/node": "^26.2.0",

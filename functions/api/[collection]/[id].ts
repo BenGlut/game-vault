@@ -1,6 +1,6 @@
 import { json, type PagesFunction } from "../../../src/server/cf";
 import { changeMessage, handle, readBody } from "../../../src/server/handler";
-import { ApiError, collection, deleteRecord, getRecord, replaceRecord } from "../../../src/server/store";
+import { ApiError, collection, deleteRecord, getRecord, replaceRecord, type Actor } from "../../../src/server/store";
 
 type P = "collection" | "id";
 
@@ -11,14 +11,16 @@ export const onRequestGet: PagesFunction<P> = ({ env, params }) =>
     return json(rec);
   });
 
-export const onRequestPut: PagesFunction<P> = ({ env, params, request }) =>
+export const onRequestPut: PagesFunction<P> = ({ env, params, request, data }) =>
   handle(async () => {
     const def = collection(params.collection);
-    return json(await replaceRecord(env.DB, def, params.id, await readBody(request), changeMessage(request)));
+    return json(
+      await replaceRecord(env.DB, def, params.id, await readBody(request), changeMessage(request), data.actor as Actor),
+    );
   });
 
-export const onRequestDelete: PagesFunction<P> = ({ env, params, request }) =>
+export const onRequestDelete: PagesFunction<P> = ({ env, params, request, data }) =>
   handle(async () => {
-    await deleteRecord(env.DB, collection(params.collection), params.id, changeMessage(request));
+    await deleteRecord(env.DB, collection(params.collection), params.id, changeMessage(request), data.actor as Actor);
     return json({ ok: true });
   });

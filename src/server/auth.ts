@@ -75,6 +75,30 @@ export async function sessionEmail(request: Request, env: Env): Promise<string |
   }
 }
 
+/** Longueur minimale du jeton MCP : en dessous, l'accès par jeton reste fermé. */
+export const MCP_TOKEN_MIN_LENGTH = 32;
+
+/** Comparaison en temps constant (la durée ne révèle pas le préfixe commun). */
+export function safeEqual(a: string, b: string): boolean {
+  const x = enc.encode(a);
+  const y = enc.encode(b);
+  let diff = x.length ^ y.length;
+  for (let i = 0; i < Math.max(x.length, y.length); i++) diff |= (x[i] ?? 0) ^ (y[i] ?? 0);
+  return diff === 0;
+}
+
+/**
+ * Accès du serveur MCP local : `Authorization: Bearer <MCP_TOKEN>`. Un en-tête
+ * Authorization ne part jamais tout seul d'un autre site, donc pas de CSRF.
+ */
+export function mcpTokenValid(request: Request, env: Env): boolean {
+  const secret = env.MCP_TOKEN ?? "";
+  if (secret.length < MCP_TOKEN_MIN_LENGTH) return false;
+  const header = request.headers.get("authorization") ?? "";
+  const match = /^Bearer\s+(\S+)$/i.exec(header);
+  return match ? safeEqual(match[1]!, secret) : false;
+}
+
 function isAllowed(env: Env, email: string): boolean {
   return email.toLowerCase() === (env.ALLOWED_EMAIL ?? "").trim().toLowerCase();
 }

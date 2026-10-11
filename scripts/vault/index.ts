@@ -39,6 +39,7 @@ import {
   type Order,
 } from "../../src/lib/schema";
 import { evaluateDeal } from "../../src/lib/deal";
+import { freeInventoryId, planAddOrder } from "../../src/lib/orders";
 import { latestQuotes } from "./lib/quotes";
 
 interface CliResult {
@@ -92,42 +93,6 @@ function findInventory(v: Vault, ref: string): InventoryItem {
   if (items.length > 1)
     throw new Error(`Plusieurs items d'inventaire pour ${game.id}: ${items.map((i) => i.id).join(", ")}`);
   throw new Error(`Aucun item d'inventaire pour ${game.id}`);
-}
-
-/**
- * Premier id d'inventaire libre pour un jeu : inv_x, inv_x-2, inv_x-3… Compter
- * les exemplaires ne suffit pas : `luigi-s-mansion` + `-2` tombait sur l'id déjà
- * pris par `luigi-s-mansion-2` (doublons corrigés le 2026-10-09).
- */
-function freeInventoryId(v: Vault, gameId: string): string {
-  const base = gameId.replace(/^game_/, "inv_");
-  const taken = new Set(v.inventory.map((i) => i.id));
-  if (!taken.has(base)) return base;
-  let n = 2;
-  while (taken.has(`${base}-${n}`)) n++;
-  return `${base}-${n}`;
-}
-
-/**
- * Référence de transaction fabriquée pour les achats sans identifiant fourni
- * (remise en main propre, vente de particulier hors plateforme). Horodatage en
- * base 36 + suffixe aléatoire : unique, trié chronologiquement, non devinable.
- * Ex. `LBC-msxt6x24-4f71`.
- */
-const CODES_MARKETPLACE: Record<string, string> = {
-  vinted: "VNT",
-  leboncoin: "LBC",
-  ebay: "EBY",
-  amazon: "AMZ",
-};
-
-function referenceSynthetique(marketplace: string): string {
-  const code = CODES_MARKETPLACE[marketplace] ?? marketplace.slice(0, 3).toUpperCase();
-  const horodatage = Date.now().toString(36);
-  const alea = Math.floor(Math.random() * 0xffff)
-    .toString(16)
-    .padStart(4, "0");
-  return `${code}-${horodatage}-${alea}`;
 }
 
 function findOrder(v: Vault, ref: string): Order {
@@ -424,7 +389,7 @@ function main(): void {
           }
           const price = optNum(options, "price");
           const item: InventoryItem = {
-            id: freeInventoryId(v, game.id),
+            id: freeInventoryId(new Set(v.inventory.map((i) => i.id)), game.id),
             gameId: game.id,
             status,
             quantity: status === "wishlist" ? 0 : 1, // ERP : 1 article = 1 entree
@@ -521,89 +486,43 @@ function main(): void {
           throw new Error('usage: pnpm vault add-order --marketplace vinted --items "game_id[:prix],game_id" [--total 25] [--shipping 4] [--protection 1.5] [--discount 2] [--seller nom] [--reference ...] [--date 2026-08-07]');
         runMutation("add-order", yes, `add order ${marketplace}`, (v) => {
           const mp = MarketplaceSchema.parse(marketplace);
-          const orderId = `order_${Date.now().toString(36)}`;
-          const parsedItems = itemsSpec.split(",").map((spec) => {
+          const items = itemsSpec.split(",").map((spec) => {
             const [ref, price] = spec.trim().split(":");
-            const game = findGame(v, ref!);
-            return { gameId: game.id, unitPrice: price ? Number(price) : null, quantity: 1, inventoryId: null as string | null };
+            return { gameId: findGame(v, ref!).id, unitPrice: price ? Number(price) : null };
           });
-          const invIds: string[] = [];
-          for (const it of parsedItems) {
-            const wishlistItem = v.inventory.find((x) => x.gameId === it.gameId && x.status === "wishlist");
-            if (wishlistItem) {
-              wishlistItem.status = "ordered";
-              wishlistItem.orderId = orderId;
-              wishlistItem.updatedAt = nowIso();
-              it.inventoryId = wishlistItem.id;
-              invIds.push(wishlistItem.id);
-            } else {
-              const inv: InventoryItem = {
-                id: freeInventoryId(v, it.gameId),
-                gameId: it.gameId,
-                status: "ordered",
-                quantity: 1,
-                condition: "unknown",
-                completeness: "unknown",
-                purchasePrice: it.unitPrice !== null ? { amount: it.unitPrice, currency: "EUR" } : null,
-                currentEstimate: null,
-                verificationStatus: "needs_review",
-                quantityNeedsReview: false,
-                evidenceIds: [],
-                orderId,
-                privateNotes: null,
-                acquiredAt: null,
-                createdAt: nowIso(),
-                updatedAt: nowIso(),
-              };
-              v.inventory.push(inv);
-              it.inventoryId = inv.id;
-              invIds.push(inv.id);
-            }
-          }
-          let sellerId: string | null = null;
           const sellerName = optStr(options, "seller");
-          if (sellerName) {
-            const existing = v.sellers.find((s) => s.name === sellerName && s.marketplace === mp);
-            if (existing) sellerId = existing.id;
-            else {
-              sellerId = `seller_${normalizeTitle(sellerName).replace(/\s+/g, "-")}`;
-              v.sellers.push({ id: sellerId, name: sellerName, marketplace: mp, profileUrl: null, rating: null, privateNotes: null });
-            }
+          const plan = planAddOrder(
+            {
+              marketplace: mp,
+              items,
+              seller: sellerName,
+              reference: optStr(options, "reference"),
+              total: optNum(options, "total"),
+              shipping: optNum(options, "shipping"),
+              protection: optNum(options, "protection"),
+              discount: optNum(options, "discount"),
+              date: optStr(options, "date"),
+              eta: optStr(options, "eta"),
+              notes: optStr(options, "notes"),
+            },
+            {
+              wishlist: v.inventory.filter((x) => x.status === "wishlist"),
+              takenInventoryIds: new Set(v.inventory.map((i) => i.id)),
+              existingSeller: v.sellers.find((s) => s.name === sellerName && s.marketplace === mp) ?? null,
+            },
+          );
+          for (const line of plan.updatedInventory) {
+            Object.assign(v.inventory.find((x) => x.id === line.id)!, line);
           }
-          const order: Order = {
-            id: orderId,
-            marketplace: mp,
-            sellerId,
-            // Toute commande de place de marché doit porter une référence : sans elle
-            // la réconciliation retombe sur vendeur + date + montant et la commande peut
-            // rester invisible des semaines (cas jerome80250, 2026-08-13). Les achats en
-            // main propre n'ont pas d'identifiant de transaction : on en fabrique un,
-            // horodaté et aléatoire, donc unique et non devinable.
-            reference: optStr(options, "reference") ?? referenceSynthetique(mp),
-            status: "ordered",
-            items: parsedItems,
-            itemsTotal: parsedItems.every((i) => i.unitPrice !== null)
-              ? parsedItems.reduce((s, i) => s + (i.unitPrice ?? 0), 0)
-              : null,
-            shippingCost: optNum(options, "shipping") ?? null,
-            buyerProtection: optNum(options, "protection") ?? null,
-            lotDiscount: optNum(options, "discount") ?? null,
-            totalPaid: optNum(options, "total") ?? null,
-            currency: "EUR",
-            orderedAt: optStr(options, "date") ?? today(),
-            fulfilledAt: null,
-            deliveredAt: null,
-            estimatedDeliveryAt: optStr(options, "eta") ?? null,
-            cancelledAt: null,
-            refundedAt: null,
-            listingIds: [],
-            evidenceIds: [],
-            privateNotes: optStr(options, "notes") ?? null,
-          };
-          v.orders.push(order);
+          v.inventory.push(...plan.newInventory);
+          if (plan.newSeller) v.sellers.push(plan.newSeller);
+          v.orders.push(plan.order);
           return {
-            result: order,
-            affectedIds: { "orders.json": [orderId], "inventory.json": invIds },
+            result: plan.order,
+            affectedIds: {
+              "orders.json": [plan.order.id],
+              "inventory.json": [...plan.updatedInventory, ...plan.newInventory].map((i) => i.id),
+            },
           };
         });
         break;
