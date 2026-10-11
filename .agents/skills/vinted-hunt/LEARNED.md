@@ -1054,3 +1054,12 @@ Attention : « puzzle » exclut aussi le jeu Puzzle & Dragons.
 - Une annonce dont l'id est inférieur à ~4,5 milliards date d'avant juin 2024 :
   pour Luigi's Mansion 2, ce ne peut pas être la version HD Switch (sortie le
   27 juin 2024).
+
+## 2026-10-10 — La frappe dans le chat Vinted perd des caractères
+
+Message à morgane13032011 tapé avec `computer type` : « Luig's », « boîe », « bonn journée » sont arrivés amputés. Relire le texte dans la zone de saisie (zoom) AVANT de cliquer la flèche, ou le saisir en plusieurs morceaux courts.
+**Solution qui marche (même soir, message à ursullabuffay)** : remplir la `textarea` en JS avec le setter natif (`Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype,"value").set.call(ta, txt)` puis `dispatchEvent(new Event("input",{bubbles:true}))`), zoomer pour relire, puis cliquer la flèche par coordonnées. Texte arrivé intact.
+
+## 2026-10-11 — La recherche catalogue HTML a aussi un plafond
+
+Sept `fetch(/catalog?…)` enchaînés sans pause → 429 « rate limited » dès la huitième (page de 1,6 Ko, aucune annonce). Les boucles qui renvoient « 0 résultat » en série sont le symptôme : tester `r.status` et `/rate limit/` dans le HTML, et s’arrêter au premier 429. Espacer les recherches d’au moins 3 s et ne pas dépasser une dizaine par passe.
