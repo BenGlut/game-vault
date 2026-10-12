@@ -18,7 +18,11 @@
   `scripts/catalog/switch-curation.json` et `quality-map.json`, appliquées par
   `scripts/catalog/curate-switch.ts` (idempotent, aussi appelé en fin de
   `fetch-eshop-catalog.ts`). Catalogue : pastille sous la jaquette, filtre « Boîte »
-  (paramètre d'URL `boite`), mention sur la fiche
+  (paramètre d'URL `boite`), mention sur la fiche. Les cartes affichent désormais
+  tous les états des exemplaires (Possédé, Reçu, Expédié, Commandé, Wishlist…) et
+  plus seulement Possédé/Wishlist : un jeu commandé n'apparaissait sans aucune
+  pastille (retour de benglut sur Xenoblade 3). `displayStatuses` dans
+  `src/lib/catalog-match.ts`, test `tests/catalog-statuses.test.ts`
 - **Serveur MCP GameVault** (`scripts/mcp/server.ts`, `docs/mcp.md`) : un agent lit
   et écrit la base en ligne sans `d1 pull/push`. Outils `search_games`, `inspect`,
   `get_record`, `add_order`, `transition_order`, `update_record`, `create_record`,

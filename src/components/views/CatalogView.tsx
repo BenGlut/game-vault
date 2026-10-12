@@ -368,8 +368,8 @@ export default function CatalogView() {
                         {e.t}
                       </span>
                     </div>
-                    <div className="mt-1 flex items-center gap-1.5">
-                      {link?.owned || link?.wishlist ? <StatusBadge status={link.owned ? "owned" : "wishlist"} /> : null}
+                    <div className="mt-1 flex flex-wrap items-center gap-1.5">
+                      {link?.statuses.map((s) => <StatusBadge key={s} status={s} />)}
                       <BoxBadge code={e.b} />
                       <span className="truncate text-xs text-muted">
                         {platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}

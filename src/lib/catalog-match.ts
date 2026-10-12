@@ -12,7 +12,19 @@ export interface CatalogGameLink {
   id: string;
   owned: boolean;
   wishlist: boolean;
+  /** états distincts des exemplaires, du plus avancé au moins avancé (pastilles du catalogue) */
+  statuses: string[];
   quality: string | null;
+}
+
+/** Ordre d'affichage ; annulé et remboursé ne sont que de l'historique. */
+const STATUS_ORDER = ["owned", "delivered", "duplicate", "fulfilled", "ordered", "wishlist", "sold"];
+
+export function displayStatuses(items: StatusLike[]): string[] {
+  const present = new Set(items.map((i) => i.status));
+  // une wishlist couverte par une commande ou un exemplaire n'est plus à acheter
+  if (!stillWanted(items)) present.delete("wishlist");
+  return STATUS_ORDER.filter((s) => present.has(s));
 }
 
 export interface CatalogEntryLite {
@@ -57,6 +69,7 @@ export function buildEntryLinks(
         id: row.game.id,
         owned: row.items.some(isOwned),
         wishlist: stillWanted(row.items),
+        statuses: displayStatuses(row.items),
         quality: row.game.qualityTier,
       };
       const candidates = [row.game.normalizedTitle, ...row.game.aliases.map(normalizeTitle)];
