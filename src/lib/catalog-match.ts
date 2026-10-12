@@ -44,6 +44,8 @@ function sortedKey(s: string): string {
   return [...words(s)].sort().join(" ");
 }
 
+const NS2_EDITION = /\bswitch 2 edition\b/;
+
 export function buildEntryLinks(
   byPlatform: Map<string, CatalogEntryLite[]>,
   rows: MatchRow[],
@@ -91,8 +93,11 @@ export function buildEntryLinks(
         for (const cand of candidates) {
           const cw = new Set(words(cand));
           if (cw.size < 2) continue;
+          // une « Nintendo Switch 2 Edition » n'est pas le jeu Switch d'origine (autre jaquette, autre support)
+          const candNs2 = NS2_EDITION.test(cand);
           for (const e of entries) {
             const ew = words(e.n);
+            if (NS2_EDITION.test(e.n) && !candNs2) continue;
             if (![...cw].every((w) => ew.includes(w))) continue;
             const extra = ew.filter((w) => !cw.has(w)).length;
             if (extra > 6) continue;

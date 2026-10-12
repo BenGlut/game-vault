@@ -686,6 +686,16 @@
   - recherche ⌘K trop large (« persona » remontait Sonic Superstars) : le fuzzy ne
     complète plus qu'avec des quasi-homonymes quand des titres contiennent les mots,
     et le dernier mot en cours de frappe suffit (« perso ») (`src/lib/fuzzy.ts`).
+- **Jaquette de Xenoblade Chronicles 3 (Switch)** : la fiche montrait la jaquette de
+  l'édition Switch 2, l'eShop rangeant les « Nintendo Switch 2 Edition » aussi en
+  Switch dématérialisé. Le rapprochement par mots ne rattache plus une édition Switch 2
+  à un jeu qui n'en est pas une (`src/lib/catalog-match.ts`), ni pour les jaquettes
+  (`scripts/covers/build-sources.ts`) ni pour les pastilles du catalogue.
+- **Historique lisible et cliquable** : les identifiants techniques (`order_…`,
+  `inv_…`, `game_…`), les dates ISO et les transitions de statut anglaises sont traduits
+  en clair à l'affichage (« Commande Vinted chez chriss-reims reçue le 12/10/2026 ») ;
+  une ligne de commande ouvre le jeu qu'elle contient (`src/lib/activity.ts`,
+  `ActivityList.tsx`, test `tests/activity.test.ts`).
 - **Catalogue** : un jeu absent de la base s'ajoute directement à la collection
   (« Je l'ai : ajouter à ma collection »), plus seulement à la wishlist
   (`CatalogEntryPanel.tsx`, `createGame(game, "wishlist" | "owned" | null)`) ; les
