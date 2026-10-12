@@ -151,6 +151,11 @@ When it fires: fix the doc/data, never bypass.
   Exception (benglut, 2026-10-06): when a seller asks « quel serait votre prix ? »,
   the agent may answer by message with a figure lower than every other verified
   offer or listing for the same game, without asking first. Buying stays his.
+  **Superseded 2026-10-11 (benglut: « tu peux négocier dur et sans moi, ensuite je
+  validerai »)**: the agent negotiates on its own — messages, offers, counter-offers —
+  starting around -20 % and harder on old listings, never above the median CIB quote
+  or 40 €/item without asking. benglut validates the outcome; the agent never accepts
+  a seller's offer, never clicks Buy, never pays.
   The offer modal needs the Chrome window visible (`document.visibilityState` must not
   be `hidden`) — see `vinted-hunt/LEARNED.md` §2026-08-12.
 

@@ -1063,3 +1063,13 @@ Message à morgane13032011 tapé avec `computer type` : « Luig's », « boîe �
 ## 2026-10-11 — La recherche catalogue HTML a aussi un plafond
 
 Sept `fetch(/catalog?…)` enchaînés sans pause → 429 « rate limited » dès la huitième (page de 1,6 Ko, aucune annonce). Les boucles qui renvoient « 0 résultat » en série sont le symptôme : tester `r.status` et `/rate limit/` dans le HTML, et s’arrêter au premier 429. Espacer les recherches d’au moins 3 s et ne pas dépasser une dizaine par passe.
+
+## 2026-10-11 — Favoris en masse : plafond ~90 et piège du test
+
+`POST /api/v2/user_favourites/toggle` (en-têtes `X-CSRF-Token` tiré du HTML + `X-Anon-Id` = cookie `anon_id`, `Locale`, `Platform: web`) marche fenêtre masquée, sans capturer d’XHR. Enchaîné sans pause : **429 au 90e appel environ**. Reprendre après 60 s, espacé de 1,5 s. Vérifier l’état sur `/api/v2/items/<id>/details` → `is_favourite` (vivant), la liste des favoris est en cache.
+
+**Piège** : l’id liké pendant le test n’était pas dans l’ensemble « déjà likés » → la série l’a re-basculé, donc retiré. Ajouter tout id testé à cet ensemble avant de lancer la série.
+
+## 2026-10-11 — Limite Vinted : 25 offres par jour
+
+Au-delà, la fenêtre d’offre affiche « Limite d’offres atteinte. Tu peux faire 25 offres par jour… ». Le compteur « Offre(s) restante(s) » de la fenêtre n’est pas fiable (il indiquait encore 1). Quand la limite est atteinte : négocier par message (`/replies`) en annonçant le prix voulu et en demandant au vendeur d’envoyer lui-même l’offre. Réserver les offres du jour aux annonces prioritaires.
