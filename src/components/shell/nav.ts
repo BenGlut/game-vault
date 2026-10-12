@@ -2,14 +2,16 @@
 export interface NavItem {
   href: string;
   label: string;
+  /** libellé court des onglets du bas (téléphone) */
+  short?: string;
   group: "Vue d’ensemble" | "Collection" | "Achats" | "Technique";
 }
 
 export const NAV_ITEMS: NavItem[] = [
-  { href: "/", label: "Tableau de bord", group: "Vue d’ensemble" },
+  { href: "/", label: "Tableau de bord", short: "Accueil", group: "Vue d’ensemble" },
   { href: "/statistiques", label: "Statistiques", group: "Vue d’ensemble" },
   { href: "/historique", label: "Historique", group: "Vue d’ensemble" },
-  { href: "/collection", label: "Ma collection", group: "Collection" },
+  { href: "/collection", label: "Ma collection", short: "Collection", group: "Collection" },
   { href: "/wishlist", label: "Wishlist", group: "Collection" },
   { href: "/catalogue", label: "Catalogue", group: "Collection" },
   { href: "/commandes", label: "Commandes", group: "Achats" },
@@ -19,6 +21,10 @@ export const NAV_ITEMS: NavItem[] = [
 
 /** Barre du bas sur téléphone : 4 raccourcis + « Plus ». */
 export const MOBILE_TABS = ["/", "/collection", "/wishlist", "/commandes"];
+
+export function shortLabel(item: NavItem): string {
+  return item.short ?? item.label;
+}
 
 export function isActive(pathname: string, href: string): boolean {
   const p = pathname.replace(/\/$/, "") || "/";

@@ -32,7 +32,7 @@ export default function StackedBar({
     ? [...head, { key: "__other", label: "Autres", value: rest.reduce((s, x) => s + x.value, 0) }]
     : head;
   const total = parts.reduce((s, p) => s + p.value, 0) || 1;
-  const colorOf = (p: Segment, i: number) => (p.key === "__other" ? "#4b5265" : colors?.[p.key] ?? SERIES[i] ?? "#4b5265");
+  const colorOf = (p: Segment, i: number) => (p.key === "__other" ? "var(--muted)" : colors?.[p.key] ?? SERIES[i] ?? "var(--muted)");
 
   return (
     <div>

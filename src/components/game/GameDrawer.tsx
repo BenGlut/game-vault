@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { createContext, useCallback, useContext, useState, type ReactNode } from "react";
 import GameDetail from "./GameDetail";
-import SidePanel from "./SidePanel";
+import SidePanel, { panelActionClass } from "./SidePanel";
 
 interface DrawerCtx {
   open: (gameId: string) => void;
@@ -47,7 +47,7 @@ export function GameDrawerProvider({ children }: { children: ReactNode }) {
             <Link
               href={`/jeu/?id=${encodeURIComponent(gameId)}`}
               onClick={close}
-              className="rounded-full bg-black/40 px-3 py-1.5 text-xs text-white/80 backdrop-blur transition hover:bg-black/60 hover:text-white"
+              className={panelActionClass}
             >
               Pleine page
             </Link>

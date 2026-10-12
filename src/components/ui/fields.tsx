@@ -1,15 +1,27 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { useId, type ReactNode } from "react";
+import { cx } from "./primitives";
 
+export { Button } from "./primitives";
+
+/** Champ de saisie standard (36 px, contour, anneau de focus ambre). */
 export const inputClass =
-  "w-full rounded-lg border border-border bg-bg-elev px-3 py-2 text-sm text-text outline-none transition focus:border-accent";
+  "h-9 w-full rounded-lg border border-border bg-surface px-3 text-[13px] text-text shadow-[var(--shadow-sm)] outline-none transition placeholder:text-muted hover:border-border-strong focus:border-accent focus:ring-2 focus:ring-accent/20 disabled:opacity-50";
 
-export function Field({ label, children, className }: { label: string; children: ReactNode; className?: string }) {
+export const textareaClass = inputClass.replace("h-9", "min-h-20 py-2");
+
+/** Classe de champ avec largeur imposée (sans le w-full par défaut, qui l'emporterait). */
+export function sizedInput(width: string): string {
+  return cx(inputClass.replace("w-full ", ""), width);
+}
+
+export function Field({ label, children, className, hint }: { label: string; children: ReactNode; className?: string; hint?: ReactNode }) {
   return (
-    <label className={`block ${className ?? ""}`}>
-      <span className="mb-1 block text-xs text-muted">{label}</span>
+    <label className={cx("block min-w-0", className)}>
+      <span className="mb-1.5 block text-xs font-medium text-text-2">{label}</span>
       {children}
+      {hint ? <span className="mt-1 block text-[11px] text-muted">{hint}</span> : null}
     </label>
   );
 }
@@ -20,15 +32,20 @@ export function Select({
   onChange,
   labels,
   allowEmpty,
+  label,
+  className = "",
 }: {
   value: string | null;
   options: readonly string[];
   onChange: (v: string) => void;
   labels?: Record<string, string>;
   allowEmpty?: string;
+  /** libellé accessible quand le sélecteur n'est pas dans un <Field> */
+  label?: string;
+  className?: string;
 }) {
   return (
-    <select className={inputClass} value={value ?? ""} onChange={(e) => onChange(e.target.value)}>
+    <select aria-label={label} className={cx(className ? sizedInput(className) : inputClass, "gv-select cursor-pointer")} value={value ?? ""} onChange={(e) => onChange(e.target.value)}>
       {allowEmpty !== undefined ? <option value="">{allowEmpty}</option> : null}
       {options.map((o) => (
         <option key={o} value={o}>
@@ -39,32 +56,13 @@ export function Select({
   );
 }
 
-export function Button({
-  children,
-  onClick,
-  variant = "secondary",
-  disabled,
-  type = "button",
-}: {
-  children: ReactNode;
-  onClick?: () => void;
-  variant?: "primary" | "secondary" | "danger";
-  disabled?: boolean;
-  type?: "button" | "submit";
-}) {
-  const styles = {
-    primary: "bg-accent text-bg hover:bg-accent-2",
-    secondary: "border border-border bg-surface-2 text-text hover:border-border-strong",
-    danger: "border border-[#f8717150] bg-[#f8717115] text-ko hover:bg-[#f8717125]",
-  }[variant];
+/** Case à cocher stylée, libellé cliquable. */
+export function Checkbox({ checked, onChange, children }: { checked: boolean; onChange: (v: boolean) => void; children: ReactNode }) {
+  const id = useId();
   return (
-    <button
-      type={type}
-      onClick={onClick}
-      disabled={disabled}
-      className={`inline-flex items-center justify-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50 ${styles}`}
-    >
+    <label htmlFor={id} className="inline-flex cursor-pointer items-center gap-2.5 text-[13px] text-text-2">
+      <input id={id} type="checkbox" checked={checked} onChange={(e) => onChange(e.target.checked)} className="h-4 w-4 cursor-pointer rounded accent-[var(--brand)]" />
       {children}
-    </button>
+    </label>
   );
 }

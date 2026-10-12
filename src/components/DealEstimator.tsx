@@ -5,8 +5,11 @@ import Link from "next/link";
 import Fuse from "fuse.js";
 import type { SearchDoc } from "@/lib/search";
 import type { GameQuotes, Quote } from "@/lib/schema";
-import { evaluateDeal, VERDICT_COLORS } from "@/lib/deal";
+import { evaluateDeal } from "@/lib/deal";
 import { searchDocs } from "@/lib/fuzzy";
+import { ChevronRightIcon, TagIcon, XIcon } from "@/components/icons";
+import { Card, EmptyState, Segmented, TONE_PANEL, TONE_TEXT, TierBadge, VERDICT_TONES, cx } from "@/components/ui/primitives";
+import { inputClass } from "@/components/ui/fields";
 
 function norm(s: string): string {
   return s
@@ -19,6 +22,32 @@ function norm(s: string): string {
 
 function euro(n: number): string {
   return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(n);
+}
+
+/** Fourchette de cote basse → haute avec la médiane et le prix saisi. */
+function QuoteRange({ quote, price }: { quote: Quote; price: number | null }) {
+  const lo = Math.min(quote.low, price ?? quote.low) * 0.9;
+  const hi = Math.max(quote.high, price ?? quote.high) * 1.08;
+  const pos = (v: number) => `${((v - lo) / (hi - lo || 1)) * 100}%`;
+  return (
+    <div className="pt-6" aria-hidden>
+      <div className="relative h-2 rounded-full bg-surface-3">
+        <div className="absolute inset-y-0 rounded-full bg-ok/35" style={{ left: pos(quote.low), width: `calc(${pos(quote.high)} - ${pos(quote.low)})` }} />
+        <div className="absolute -top-1 h-4 w-0.5 rounded bg-text-2" style={{ left: pos(quote.median) }} />
+        {price !== null ? (
+          <div className="absolute -top-6 -translate-x-1/2 text-center" style={{ left: pos(price) }}>
+            <span className="rounded bg-text px-1.5 py-0.5 text-[11px] font-semibold tabular-nums text-bg">{euro(price)}</span>
+            <span className="mx-auto mt-0.5 block h-3 w-0.5 bg-text" />
+          </div>
+        ) : null}
+      </div>
+      <div className="mt-2 flex justify-between text-[11px] tabular-nums text-muted">
+        <span>basse {euro(quote.low)}</span>
+        <span>médiane {euro(quote.median)}</span>
+        <span>haute {euro(quote.high)}</span>
+      </div>
+    </div>
+  );
 }
 
 /**
@@ -38,6 +67,7 @@ export default function DealEstimator({
   const [selected, setSelected] = useState<SearchDoc | null>(null);
   const [state, setState] = useState<"cib" | "loose">("cib");
   const [price, setPrice] = useState("");
+  const [cursor, setCursor] = useState(0);
 
   const fuse = useMemo(
     () =>
@@ -60,198 +90,183 @@ export default function DealEstimator({
   }, [fuse, docs, query, selected]);
 
   const quote: Quote | undefined = selected ? quotes[selected.id]?.[state] : undefined;
-  const fallbackQuote: Quote | undefined = selected
-    ? quotes[selected.id]?.[state === "cib" ? "loose" : "cib"]
-    : undefined;
+  const fallbackQuote: Quote | undefined = selected ? quotes[selected.id]?.[state === "cib" ? "loose" : "cib"] : undefined;
   const priceNum = Number(price.replace(",", "."));
-  const result = quote && price && !Number.isNaN(priceNum) ? evaluateDeal(priceNum, quote) : null;
+  const validPrice = price && !Number.isNaN(priceNum) ? priceNum : null;
+  const result = quote && validPrice !== null ? evaluateDeal(validPrice, quote) : null;
+  const tone = result ? VERDICT_TONES[result.verdict] ?? "neutral" : "neutral";
 
-  const input =
-    "rounded-lg border border-border bg-surface px-3 py-2 text-text focus:border-accent focus:outline-none";
+  function pick(doc: SearchDoc) {
+    setSelected(doc);
+    setCursor(0);
+  }
 
   return (
-    <div className="mx-auto max-w-xl">
-      <div className="relative">
-        <input
-          type="search"
-          placeholder="Quel jeu ? Ex.: pokemon perle, zelda albw…"
-          value={selected ? selected.t : query}
-          onChange={(e) => {
-            setSelected(null);
-            setQuery(e.target.value);
-          }}
-          className={`${input} w-full text-lg`}
-        />
-        {suggestions.length ? (
-          <div className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg border border-border bg-surface-2 shadow-xl">
-            {suggestions.map((s) => (
-              <button
-                key={s.item.id}
-                type="button"
-                onClick={() => setSelected(s.item)}
-                className="flex w-full items-center gap-3 px-3 py-2 text-left text-sm hover:bg-surface"
-              >
-                {covers[s.item.id] ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={covers[s.item.id]}
-                    alt=""
-                    loading="lazy"
-                    className="h-12 w-10 shrink-0 rounded object-cover"
-                  />
-                ) : (
-                  <div className="flex h-12 w-10 shrink-0 items-center justify-center rounded bg-surface text-xs text-muted">
-                    ?
-                  </div>
-                )}
-                <span className="min-w-0 truncate">{s.item.t}</span>
-                <span className="ml-auto shrink-0 font-mono text-xs uppercase text-muted">
-                  {s.item.p}
-                </span>
-              </button>
-            ))}
-          </div>
-        ) : null}
-      </div>
-
-      {selected ? (
-        <div className="mt-4 flex items-center gap-4 rounded-xl border border-accent/40 bg-surface p-4">
-          {covers[selected.id] ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={covers[selected.id]}
-              alt={`Jaquette de ${selected.t}`}
-              className="w-20 shrink-0 rounded-lg border border-border shadow-lg"
-            />
-          ) : (
-            <div className="flex h-24 w-20 shrink-0 items-center justify-center rounded-lg bg-surface-2 text-xs text-muted">
-              pas de jaquette
-            </div>
-          )}
-          <div className="min-w-0">
-            <div className="flex items-center gap-2">
-              <span className="truncate text-lg font-semibold">{selected.t}</span>
-              {selected.q ? (
-                <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded bg-accent-soft font-mono text-xs font-bold text-accent">
-                  {selected.q}
-                </span>
-              ) : null}
-            </div>
-            <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-muted">
-              <span className="rounded bg-surface-2 px-1.5 py-0.5 font-mono uppercase">
-                {selected.p}
-              </span>
-              {selected.r ? <span>{selected.r}</span> : null}
-              {selected.f ? <span>{selected.f}</span> : null}
-            </div>
-            {selected.a.length ? (
-              <div className="mt-1 truncate text-xs text-muted">alias : {selected.a.join(", ")}</div>
-            ) : null}
-            <div className="mt-2 flex gap-4 text-xs">
-              <Link href={`/jeu/?id=${encodeURIComponent(selected.id)}`} className="text-accent underline">
-                voir la fiche
-              </Link>
+    <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+      <Card title="L’annonce" subtitle="Le jeu, son état et le prix demandé">
+        <div className="space-y-4">
+          {selected ? (
+            <div className="flex items-center gap-3 rounded-xl border border-border bg-surface-2/60 p-3">
+              {covers[selected.id] ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={covers[selected.id]} alt={`Jaquette de ${selected.t}`} className="w-14 shrink-0 rounded-md ring-1 ring-[var(--cover-ring)]" />
+              ) : (
+                <div className="flex h-16 w-14 shrink-0 items-center justify-center rounded-md bg-surface-3 text-[10px] text-muted">sans jaquette</div>
+              )}
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center gap-1.5">
+                  <TierBadge tier={selected.q} size="sm" />
+                  <span className="truncate text-sm font-semibold">{selected.t}</span>
+                </div>
+                <div className="mt-0.5 text-xs uppercase text-muted">
+                  {selected.p}
+                  {selected.r ? <span className="normal-case"> · {selected.r}</span> : null}
+                </div>
+                <Link href={`/jeu/?id=${encodeURIComponent(selected.id)}`} className="mt-1 inline-flex items-center gap-0.5 text-xs font-medium text-accent hover:underline">
+                  Voir la fiche <ChevronRightIcon size={12} />
+                </Link>
+              </div>
               <button
                 type="button"
                 onClick={() => {
                   setSelected(null);
                   setQuery("");
                 }}
-                className="text-muted underline hover:text-text"
+                aria-label="Changer de jeu"
+                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-muted transition hover:bg-surface-3 hover:text-text"
               >
-                changer de jeu
+                <XIcon size={16} />
               </button>
             </div>
-          </div>
-        </div>
-      ) : null}
-
-      <div className="mt-4 flex gap-2">
-        {(
-          [
-            ["cib", "Avec boîte (CIB)"],
-            ["loose", "Cartouche seule"],
-          ] as const
-        ).map(([value, label]) => (
-          <button
-            key={value}
-            type="button"
-            onClick={() => setState(value)}
-            className={`flex-1 rounded-lg border px-3 py-2 text-sm transition ${
-              state === value
-                ? "border-accent bg-accent-soft text-accent"
-                : "border-border bg-surface text-muted hover:text-text"
-            }`}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
-
-      <input
-        type="number"
-        inputMode="decimal"
-        min="0"
-        step="0.5"
-        placeholder="Prix affiché en € (port inclus idéalement)"
-        value={price}
-        onChange={(e) => setPrice(e.target.value)}
-        className={`${input} mt-4 w-full text-lg`}
-      />
-
-      <div className="mt-6">
-        {!selected ? (
-          <p className="text-center text-sm text-muted">Choisis un jeu pour commencer.</p>
-        ) : !quote ? (
-          <div className="rounded-lg border border-border bg-surface px-4 py-6 text-center text-sm text-muted">
-            Pas encore de cote {state === "cib" ? "avec boîte" : "loose"} pour ce jeu.
-            {fallbackQuote ? (
-              <span className="mt-1 block">
-                (Cote {state === "cib" ? "loose" : "CIB"} connue : {euro(fallbackQuote.low)} /{" "}
-                {euro(fallbackQuote.median)} / {euro(fallbackQuote.high)})
-              </span>
-            ) : (
-              <span className="mt-1 block">
-                L&apos;agent peut l&apos;ajouter : <code className="font-mono text-xs">pnpm vault add-price</code>
-              </span>
-            )}
-          </div>
-        ) : (
-          <>
-            <div className="flex justify-between rounded-t-lg border border-border bg-surface px-4 py-2 text-sm">
-              <span className="text-muted">
-                Cote {state === "cib" ? "avec boîte" : "cartouche seule"}
-              </span>
-              <span className="font-mono">
-                {euro(quote.low)} · <span className="text-accent">{euro(quote.median)}</span> ·{" "}
-                {euro(quote.high)}
-              </span>
+          ) : (
+            <div className="relative">
+              <label className="mb-1.5 block text-xs font-medium text-text-2" htmlFor="estimateur-jeu">
+                Quel jeu ?
+              </label>
+              <input
+                id="estimateur-jeu"
+                type="search"
+                placeholder="Ex. : pokemon perle, zelda albw…"
+                value={query}
+                autoComplete="off"
+                role="combobox"
+                aria-expanded={suggestions.length > 0}
+                aria-controls="estimateur-suggestions"
+                aria-activedescendant={suggestions.length ? `estimateur-opt-${cursor}` : undefined}
+                onChange={(e) => {
+                  setQuery(e.target.value);
+                  setCursor(0);
+                }}
+                onKeyDown={(e) => {
+                  if (!suggestions.length) return;
+                  if (e.key === "ArrowDown") {
+                    e.preventDefault();
+                    setCursor((c) => Math.min(suggestions.length - 1, c + 1));
+                  } else if (e.key === "ArrowUp") {
+                    e.preventDefault();
+                    setCursor((c) => Math.max(0, c - 1));
+                  } else if (e.key === "Enter") {
+                    e.preventDefault();
+                    pick(suggestions[cursor]!.item);
+                  }
+                }}
+                className={cx(inputClass.replace("h-9", "h-11"), "text-[15px]")}
+              />
+              {suggestions.length ? (
+                <ul id="estimateur-suggestions" role="listbox" className="animate-pop absolute z-20 mt-1.5 w-full overflow-hidden rounded-xl border border-border-strong bg-bg-elev p-1 shadow-[var(--shadow-pop)]">
+                  {suggestions.map((s, i) => (
+                    <li
+                      key={s.item.id}
+                      id={`estimateur-opt-${i}`}
+                      role="option"
+                      aria-selected={i === cursor}
+                      onMouseMove={() => setCursor(i)}
+                      onClick={() => pick(s.item)}
+                      className={cx("flex cursor-pointer items-center gap-3 rounded-lg px-2.5 py-2 text-[13px]", i === cursor && "bg-surface-2")}
+                    >
+                      {covers[s.item.id] ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={covers[s.item.id]} alt="" loading="lazy" className="h-10 w-8 shrink-0 rounded object-cover ring-1 ring-[var(--cover-ring)]" />
+                      ) : (
+                        <div className="h-10 w-8 shrink-0 rounded bg-surface-3" />
+                      )}
+                      <span className="min-w-0 flex-1 truncate font-medium">{s.item.t}</span>
+                      <span className="shrink-0 text-xs uppercase text-muted">{s.item.p}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </div>
+          )}
+
+          <div>
+            <span className="mb-1.5 block text-xs font-medium text-text-2">État</span>
+            <Segmented<"cib" | "loose">
+              label="État de l’annonce"
+              value={state}
+              onChange={setState}
+              options={[
+                { value: "cib", label: "Avec boîte" },
+                { value: "loose", label: "Cartouche seule" },
+              ]}
+            />
+          </div>
+
+          <label className="block">
+            <span className="mb-1.5 block text-xs font-medium text-text-2">Prix affiché, port compris si possible</span>
+            <span className="relative block">
+              <input
+                type="number"
+                inputMode="decimal"
+                min="0"
+                step="0.5"
+                placeholder="0"
+                value={price}
+                onChange={(e) => setPrice(e.target.value)}
+                className={cx(inputClass.replace("h-9", "h-11"), "pr-8 text-[15px] tabular-nums")}
+              />
+              <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-sm text-muted">€</span>
+            </span>
+          </label>
+        </div>
+      </Card>
+
+      <section aria-live="polite" aria-label="Verdict">
+        {!selected ? (
+          <EmptyState title="Choisissez un jeu pour commencer" icon={<TagIcon size={18} />}>
+            Tapez quelques lettres du titre : les fautes et abréviations sont comprises.
+          </EmptyState>
+        ) : !quote ? (
+          <Card>
+            <p className="text-sm font-medium">Pas encore de cote {state === "cib" ? "avec boîte" : "en loose"} pour ce jeu.</p>
+            <p className="mt-1 text-[13px] text-muted">
+              {fallbackQuote
+                ? `Cote ${state === "cib" ? "loose" : "avec boîte"} connue : ${euro(fallbackQuote.low)} · ${euro(fallbackQuote.median)} · ${euro(fallbackQuote.high)}.`
+                : "Aucune cote relevée pour l’instant."}
+            </p>
+          </Card>
+        ) : (
+          <div className={cx("rounded-xl border p-5 shadow-[var(--shadow-card)] transition-colors", result ? TONE_PANEL[tone] : "border-border bg-surface")}>
+            <div className="text-xs font-medium text-muted">Verdict</div>
             {result ? (
-              <div
-                className="rounded-b-lg border border-t-0 border-border px-4 py-6 text-center"
-                style={{ backgroundColor: `${VERDICT_COLORS[result.verdict]}18` }}
-              >
-                <div className="text-3xl font-bold" style={{ color: VERDICT_COLORS[result.verdict] }}>
-                  {result.label}
-                </div>
-                <div className="mt-1 text-sm text-muted">
+              <>
+                <div className={cx("mt-1 text-[32px] font-semibold leading-tight tracking-[-0.02em]", TONE_TEXT[tone])}>{result.label}</div>
+                <div className="mt-1 text-sm text-text-2">
                   {result.deltaPct > 0 ? "+" : ""}
                   {result.deltaPct} % par rapport à la médiane
                 </div>
-              </div>
+              </>
             ) : (
-              <div className="rounded-b-lg border border-t-0 border-border bg-surface px-4 py-6 text-center text-sm text-muted">
-                Saisis le prix affiché pour obtenir le verdict.
-              </div>
+              <div className="mt-1 text-[15px] font-medium text-text-2">Saisissez le prix affiché pour obtenir le verdict.</div>
             )}
-            <p className="mt-3 text-center text-xs text-muted">
-              Source : {quote.source} ({quote.observedAt}) — une cote est une observation datée,
-              jamais une valeur absolue.
+            <QuoteRange quote={quote} price={validPrice} />
+            <p className="mt-4 border-t border-border pt-3 text-[11px] text-muted">
+              Cote {state === "cib" ? "avec boîte" : "cartouche seule"} · {quote.source}, relevé du {quote.observedAt}. Une cote est une observation datée, jamais
+              une valeur absolue.
             </p>
-          </>
+          </div>
         )}
-      </div>
+      </section>
     </div>
   );
 }

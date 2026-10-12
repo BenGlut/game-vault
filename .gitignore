@@ -27,3 +27,6 @@ LOCAL.md
 .wrangler/
 .dev.vars
 .catalog-covers-parked/
+
+# captures de revue de design (pnpm e2e avec DESIGN_REVIEW)
+design-review/

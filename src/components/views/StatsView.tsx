@@ -32,7 +32,8 @@ const CONDITION_ORDER = [
 
 const countOf = (list: Breakdown[], key: string) => list.find((b) => b.key === key)?.count ?? 0;
 import { ACCENT, SERIES, compact, euroFmt, intFmt } from "@/components/charts/core";
-import { Card, PageHeader, Segmented, StatTile } from "@/components/ui/primitives";
+import { Card, PageHeader, Segmented, StatGrid, StatTile } from "@/components/ui/primitives";
+import { CalendarIcon, CartIcon, CoinIcon, TrendUpIcon } from "@/components/icons";
 import GameCover from "@/components/game/GameCover";
 import { useGameDrawer } from "@/components/game/GameDrawer";
 import { useVault } from "@/components/vault/VaultProvider";
@@ -80,20 +81,28 @@ export default function StatsView() {
         }
       />
 
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-        <StatTile label="Valeur à la cote" value={euroFmt.format(stats.collectionValue)} detail={`${intFmt.format(stats.valuedItems)} exemplaires cotés`} tone="accent" />
-        <StatTile label="Payé (exemplaires possédés)" value={euroFmt.format(stats.costOfOwned)} detail={`${intFmt.format(stats.pricedItems)} prix connus`} />
+      <StatGrid>
         <StatTile
+          label="Valeur à la cote"
+          icon={<CoinIcon size={14} />}
+          value={euroFmt.format(stats.collectionValue)}
+          detail={`${intFmt.format(stats.valuedItems)} exemplaires cotés`}
+          tone="accent"
+        />
+        <StatTile label="Payé (possédés)" icon={<CartIcon size={14} />} value={euroFmt.format(stats.costOfOwned)} detail={`${intFmt.format(stats.pricedItems)} prix connus`} />
+        <StatTile
+          icon={<TrendUpIcon size={14} />}
           label="Plus-value latente"
           value={`${gain >= 0 ? "+" : ""}${euroFmt.format(gain)}`}
           detail={stats.costOfOwned ? `${gain >= 0 ? "+" : ""}${Math.round((gain / stats.costOfOwned) * 100)} % sur les prix payés` : undefined}
         />
         <StatTile
           label="Sur la période"
+          icon={<CalendarIcon size={14} />}
           value={euroFmt.format(spentInPeriod)}
           detail={`${intFmt.format(arrivedInPeriod)} exemplaires arrivés`}
         />
-      </div>
+      </StatGrid>
 
       <Card
         title="Valeur et dépenses cumulées"
@@ -195,16 +204,16 @@ export default function StatsView() {
 
       <div className="grid gap-4 lg:grid-cols-2">
         <Card title="Les pièces les plus cotées">
-          <ul className="divide-y divide-border">
+          <ul className="space-y-px">
             {stats.topValue.slice(0, 8).map((r, i) => (
               <li key={r.game.id}>
-                <button type="button" onClick={() => open(r.game.id)} className="flex w-full items-center gap-3 py-2.5 text-left transition hover:opacity-80">
+                <button type="button" onClick={() => open(r.game.id)} className="group -mx-2 flex w-[calc(100%+1rem)] items-center gap-3 rounded-lg px-2 py-2 text-left transition hover:bg-surface-2/70">
                   <span className="w-5 text-right text-xs tabular-nums text-muted">{i + 1}</span>
                   <div className="w-9 shrink-0">
-                    <GameCover gameId={r.game.id} title={r.game.canonicalTitle} rounded="rounded-md" width={40} />
+                    <GameCover gameId={r.game.id} title={r.game.canonicalTitle} rounded="rounded" width={40} />
                   </div>
                   <span className="min-w-0 flex-1">
-                    <span className="block truncate text-sm">{r.game.canonicalTitle}</span>
+                    <span className="block truncate text-[13px] font-medium group-hover:text-accent">{r.game.canonicalTitle}</span>
                     <span className="block text-xs text-muted">{r.platform?.shortName}</span>
                   </span>
                   <span className="text-sm font-semibold tabular-nums">{euroFmt.format(r.value ?? 0)}</span>
@@ -214,15 +223,15 @@ export default function StatsView() {
           </ul>
         </Card>
         <Card title="Les meilleures affaires" subtitle="Cote actuelle moins prix payé">
-          <ul className="divide-y divide-border">
+          <ul className="space-y-px">
             {stats.bestGains.slice(0, 8).map(({ row, item, value, gain: g }) => (
               <li key={item.id}>
-                <button type="button" onClick={() => open(row.game.id)} className="flex w-full items-center gap-3 py-2.5 text-left transition hover:opacity-80">
+                <button type="button" onClick={() => open(row.game.id)} className="group -mx-2 flex w-[calc(100%+1rem)] items-center gap-3 rounded-lg px-2 py-2 text-left transition hover:bg-surface-2/70">
                   <div className="w-9 shrink-0">
-                    <GameCover gameId={row.game.id} title={row.game.canonicalTitle} rounded="rounded-md" width={40} />
+                    <GameCover gameId={row.game.id} title={row.game.canonicalTitle} rounded="rounded" width={40} />
                   </div>
                   <span className="min-w-0 flex-1">
-                    <span className="block truncate text-sm">{row.game.canonicalTitle}</span>
+                    <span className="block truncate text-[13px] font-medium group-hover:text-accent">{row.game.canonicalTitle}</span>
                     <span className="block text-xs text-muted">
                       payé {euro(item.purchasePrice?.amount)} · coté {euro(value)}
                     </span>

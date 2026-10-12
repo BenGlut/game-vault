@@ -312,6 +312,53 @@
   en favoris Vinted (éditions standard et collector)
 
 ## Changed
+- **Refonte complète de l'interface, niveau application grand public, en thème clair
+  ET sombre** (demande de benglut, 12/10). Design system unique : jetons de couleur des
+  deux thèmes dans `src/app/globals.css` (fonds, textes, ambre de marque en aplat et
+  ambre « texte » plus foncé en clair, couleurs d'état, ombres, anneau de focus, palette
+  des graphiques par thème), contrastes AA vérifiés par un test qui lit la feuille de
+  style (`tests/theme-contrast.test.ts` : texte ≥ 4,5:1 sur toutes les surfaces, pastilles
+  sur leur propre teinte, tiers S–D, séries ≥ 3:1 sur la surface des cartes). Thème :
+  suit le système par défaut, sélecteur Clair / Sombre / Système dans le menu latéral et
+  dans la feuille « Plus » sur téléphone, choix mémorisé (`gv-theme`), appliqué avant
+  l'affichage par un script bloquant en tête de `<body>` (`src/components/theme.ts`,
+  `src/components/shell/ThemeSwitcher.tsx`) ; page de connexion aux deux thèmes.
+  Primitives réécrites (`src/components/ui/primitives.tsx`, `fields.tsx`) : boutons
+  (primaire, secondaire, discret, danger, tailles), `IconButton`, `ButtonLink`, `Kbd`,
+  `Badge` (tons, tailles), pastilles d'état / tier / priorité / boîte (`BoxBadge` sorti du
+  catalogue), `PageHeader`, `SectionHeader`, `Card`, `StatTile` (icône), `StatGrid`,
+  `Chip`/`ChipRow`, `Segmented`, `SearchField` (effacement), `FilterBar` collante,
+  `ActiveFilter`, styles de tableau, `EmptyState`, `ErrorState`, `Skeleton`,
+  `CoverGridSkeleton`, `Dialog` et `useFocusTrap` ; `Checkbox`, `sizedInput`. Plus de
+  couleur en dur dans les vues. Graphiques (`src/components/charts/`) : couleurs en
+  variables CSS (suivent le thème sans re-rendu), infobulle commune, lecture au clavier
+  (flèches). Cadre : menu latéral avec « Nouveau jeu » en tête, recherche ⌘K, page active
+  marquée, onglets du bas repensés, feuille « Plus » avec thème et déconnexion, lien
+  d'évitement « Aller au contenu ». Palette ⌘K groupée (Jeux, Pages, Actions), tier
+  affiché, navigation clavier annoncée. Panneau latéral et fenêtres : focus piégé puis
+  rendu, Échap. Pages : tableau de bord (chiffres clés, valeur + courbe, consoles,
+  raccourcis « à faire », dépenses, activité, commandes en route avec suivi en 3 étapes,
+  à chasser, derniers arrivés), collection et wishlist (barre de filtres compacte et
+  collante, grille ou liste aussi sur téléphone, tableau à largeurs fixes), catalogue
+  (consoles en pastilles, filtres en barre, squelette de chargement, état d'erreur avec
+  réessai, toutes les fonctions et paramètres d'URL conservés), commandes (suivi
+  commandée → expédiée → reçue avec dates, détail des montants, historique dépliable),
+  fiche jeu (chiffres en bandeau, liens marchands, édition), estimateur (verdict coloré,
+  fourchette de cote avec le prix placé), historique (frise par jour), page Dev (encarts
+  aux jetons). Toasts avec icône et fermeture. Fichiers : `src/app/globals.css`,
+  `src/app/layout.tsx`, `src/components/theme.ts`, `src/components/icons.tsx`,
+  `src/components/ui/*`, `src/components/shell/*`, `src/components/charts/*`,
+  `src/components/game/*` (GameCard, CoverImage, CoverHero, SidePanel, GameDrawer,
+  GameDetail, GameSheet, InventoryEditor, NewGameForm), `src/components/views/*`
+  (dont `orderParts.tsx`, nouveau), `src/components/DealEstimator.tsx`,
+  `src/components/MiniEstimator.tsx`, `src/components/vault/VaultProvider.tsx`,
+  `public/connexion/index.html`. Corrigé au passage : le support s'affichait en anglais
+  dans la fiche (« cartridge »). Tests : base de démonstration réaliste
+  (`e2e/fixtures/demo-vault.ts`, 50 jeux, commandes à tous les statuts), API simulée
+  partagée (`e2e/fixtures/mock-api.ts`), parcours clés (`e2e/journeys.spec.ts` : thème,
+  navigation, téléphone sans défilement horizontal, filtres du catalogue, fiche au
+  clavier, commandes), captures de revue à la demande (`e2e/design-review.spec.ts`,
+  `DESIGN_REVIEW=avant|apres pnpm e2e design-review`, dossier `design-review/`)
 - Neuf jeux passent en **rang S** (`data/games.json`), leur `qualityTier` etait
   vide : Super Mario Galaxy, Super Mario Galaxy 2, Twilight Princess et Metroid
   Prime 3 (Wii), The Last of Us et GTA V (PS3), Xenoblade Chronicles 3D (3DS),

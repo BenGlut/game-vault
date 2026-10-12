@@ -2,9 +2,8 @@
 
 import { useMemo, useState } from "react";
 import { normalizeTitle } from "@/lib/normalize";
-import { EmptyState, PageHeader, Segmented } from "@/components/ui/primitives";
-import { inputClass } from "@/components/ui/fields";
-import { SearchIcon } from "@/components/icons";
+import { HistoryIcon } from "@/components/icons";
+import { Badge, EmptyState, FilterBar, PageHeader, SearchField, Segmented } from "@/components/ui/primitives";
 import { useGameDrawer } from "@/components/game/GameDrawer";
 import { useVault } from "@/components/vault/VaultProvider";
 import ActivityList, { relativeDay } from "./ActivityList";
@@ -20,9 +19,7 @@ export default function HistoryView() {
   const days = useMemo(() => {
     const q = normalizeTitle(query);
     const list = data.changeLog.filter(
-      (e) =>
-        (actor === "all" || (actor === "web" ? e.actor === "web" : e.actor !== "web")) &&
-        (!q || normalizeTitle(`${e.message} ${e.command}`).includes(q)),
+      (e) => (actor === "all" || (actor === "web" ? e.actor === "web" : e.actor !== "web")) && (!q || normalizeTitle(`${e.message} ${e.command}`).includes(q)),
     );
     const groups = new Map<string, typeof list>();
     for (const e of list) {
@@ -35,38 +32,42 @@ export default function HistoryView() {
   return (
     <div className="animate-page">
       <PageHeader title="Historique" subtitle={`Les ${data.changeLog.length} dernières modifications, en ligne et par l’agent`} />
-      <div className="mb-6 flex flex-wrap items-center gap-2">
-        <div className="relative min-w-0 flex-1 basis-56">
-          <SearchIcon size={16} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted" />
-          <input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Chercher une modification…" className={`${inputClass} pl-9`} />
-        </div>
-        <Segmented<Actor>
-          label="Origine"
-          value={actor}
-          onChange={setActor}
-          options={[
-            { value: "all", label: "Tout" },
-            { value: "web", label: "En ligne" },
-            { value: "agent", label: "Agent" },
-          ]}
-        />
-      </div>
+      <FilterBar
+        top={
+          <>
+            <SearchField className="basis-full sm:flex-1 sm:basis-56" value={query} onChange={setQuery} placeholder="Chercher une modification…" />
+            <Segmented<Actor>
+              label="Origine"
+              value={actor}
+              onChange={setActor}
+              options={[
+                { value: "all", label: "Tout" },
+                { value: "web", label: "En ligne" },
+                { value: "agent", label: "Agent" },
+              ]}
+            />
+          </>
+        }
+      />
       {days.length === 0 ? (
-        <EmptyState title="Aucune modification trouvée" />
+        <EmptyState title="Aucune modification trouvée" icon={<HistoryIcon size={18} />}>
+          Essayez un autre mot ou une autre origine.
+        </EmptyState>
       ) : (
-        <div className="space-y-6">
+        <ol className="relative space-y-6 border-l border-border pl-5 sm:ml-2">
           {days.map(([day, entries]) => (
-            <section key={day}>
-              <h2 className="sticky top-[57px] z-10 mb-2 bg-bg/90 py-1 text-sm font-semibold backdrop-blur lg:top-0">
+            <li key={day} className="relative">
+              <span className="absolute -left-[25px] top-1.5 h-2.5 w-2.5 rounded-full border-2 border-bg bg-border-strong" aria-hidden />
+              <h2 className="mb-2 flex items-center gap-2 text-[13px] font-semibold">
                 {relativeDay(`${day}T12:00:00`)}
-                <span className="ml-2 font-normal text-muted">{entries.length}</span>
+                <Badge>{entries.length}</Badge>
               </h2>
-              <div className="rounded-2xl border border-border bg-surface p-2">
+              <div className="rounded-xl border border-border bg-surface px-3 py-1.5 shadow-[var(--shadow-card)]">
                 <ActivityList entries={entries} onOpenGame={open} />
               </div>
-            </section>
+            </li>
           ))}
-        </div>
+        </ol>
       )}
     </div>
   );

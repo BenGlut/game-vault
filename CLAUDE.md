@@ -161,16 +161,26 @@ When it fires: fix the doc/data, never bypass.
 
 ## 9. UI/UX defaults
 
-Premium, dark, fluid (full redesign 2026-10-09, benglut's order: « interface moderne et
-fluide, stats, dashboard, courbes et graphiques »). Declutter; consistent components
-from `src/components/ui/primitives.tsx`; no emoji in UI (inline SVG icons in
+Premium, fluid, **light AND dark themes** (redesign 2026-10-12, benglut's order; follows
+the system by default, Clair/Sombre/Système switch, choice in localStorage `gv-theme`,
+applied by the blocking script of `src/components/theme.ts` at the top of `<body>` —
+never touch `<head>` before hydration, React would regenerate the whole document).
+Every colour is a token of `src/app/globals.css` (both themes); no hex in components.
+Text-coloured amber is `accent` (darker in light), filled amber is `brand` + `brand-ink`.
+AA contrasts are enforced by `tests/theme-contrast.test.ts`: add a token there when you
+add one. Declutter; every page composes `src/components/ui/primitives.tsx` (+ `fields.tsx`):
+never re-style a primitive with conflicting utilities (`hidden` vs `inline-flex`,
+`w-full` vs a width…) — add a variant/size/prop instead (`danger-ghost`, Badge `size`,
+`sizedInput`, `max-sm:hidden`). No emoji in UI (inline SVG icons in
 `src/components/icons.tsx` — user order, 2026-08-08); real icons sized by one
 dimension; visible active states; tighten dead space. Charts are in-house SVG
-(`src/components/charts/`) and follow the dataviz method: categorical palette
-validated against the card surface `#12141d` (fixed order, never cycled), brand amber
-only for single-series charts, one y-axis, hover tooltip on every chart, legend from
-2 series. Update the smallest unit — patch in place before swapping sections, full
-rebuild is last resort.
+(`src/components/charts/`) and follow the dataviz method: categorical palette per theme
+(`--series-1…8`, validated ≥ 3:1 against each theme's card surface, fixed order, never
+cycled), applied through `style` so `var()` resolves; brand amber (`ACCENT`) only for
+single-series charts, one y-axis, hover + keyboard tooltip on every chart, legend from
+2 series. Review captures: `DESIGN_REVIEW=apres pnpm e2e design-review` after
+`pnpm build` (demo base `e2e/fixtures/demo-vault.ts`). Update the smallest unit — patch
+in place before swapping sections, full rebuild is last resort.
 
 ## 10. Architecture map
 
@@ -184,7 +194,9 @@ src/lib/collection.ts    possession rules (owned ≠ ordered, still wanted, in c
 src/lib/quotes.ts        latest quote per variant (same rule as the CLI)
 src/lib/stats.ts         every number and monthly series of the dashboard / stats
 src/app/…                thin pages, each rendering one view
-src/components/shell/    AppShell (sidebar, ⌘K palette, mobile tabs), nav
+src/components/shell/    AppShell (sidebar, ⌘K palette, mobile tabs), nav, ThemeSwitcher
+src/components/ui/       design-system primitives (primitives.tsx, fields.tsx)
+src/components/theme.ts  light/dark/system theme: pre-render script + useTheme
 src/components/vault/    VaultProvider (live base + writes), api client
 src/components/views/    Dashboard, Statistiques, Collection, Wishlist, Commandes,
                          Catalogue, Estimateur, Historique, Jeu

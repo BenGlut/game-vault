@@ -3,8 +3,9 @@
 import { useState } from "react";
 import { COMPLETENESS, CONDITIONS, INVENTORY_STATUSES, type InventoryItem } from "@/lib/schema";
 import { COMPLETENESS_LABELS, CONDITION_LABELS, STATUS_LABELS, euro } from "@/lib/labels";
-import { StatusBadge } from "@/components/ui/primitives";
-import { Button, Field, Select, inputClass } from "@/components/ui/fields";
+import { CheckCircleIcon, AlertIcon, PencilIcon } from "@/components/icons";
+import { Button, StatusBadge, cx } from "@/components/ui/primitives";
+import { Field, Select, inputClass, textareaClass } from "@/components/ui/fields";
 import { useVault } from "@/components/vault/VaultProvider";
 
 const dateFr = (d: string) => new Date(`${d}T12:00:00`).toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric" });
@@ -46,39 +47,42 @@ export default function InventoryEditor({ item, orderLabel }: { item: InventoryI
     item.purchasePrice ? euro(item.purchasePrice.amount) : null,
     item.acquiredAt ? `arrivé le ${dateFr(item.acquiredAt)}` : null,
   ].filter(Boolean);
+  const verified = item.verificationStatus === "verified";
 
   return (
-    <div className="rounded-xl border border-border bg-surface">
-      <div className="flex items-start justify-between gap-3 p-3">
+    <div className={cx("rounded-xl border bg-surface transition", editing ? "border-accent/40 shadow-[var(--shadow-card)]" : "border-border")}>
+      <div className="flex items-start justify-between gap-3 p-3.5">
         <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-1.5">
+          <div className="flex flex-wrap items-center gap-2">
             <StatusBadge status={item.status} />
             {item.status !== "wishlist" ? (
-              <span className={`text-[11px] ${item.verificationStatus === "verified" ? "text-ok" : "text-accent"}`}>
-                {item.verificationStatus === "verified" ? "vérifié" : "à vérifier"}
+              <span className={cx("inline-flex items-center gap-1 text-[11px] font-medium", verified ? "text-ok" : "text-accent")}>
+                {verified ? <CheckCircleIcon size={12} /> : <AlertIcon size={12} />}
+                {verified ? "Vérifié" : "À vérifier"}
               </span>
             ) : null}
           </div>
-          <p className="mt-1.5 text-xs text-muted">{facts.length ? facts.join(" · ") : "Détails non renseignés"}</p>
+          <p className="mt-1.5 text-[13px] text-text-2">{facts.length ? facts.join(" · ") : "Détails non renseignés"}</p>
           {orderLabel ? <p className="mt-1 text-xs text-muted">{orderLabel}</p> : null}
-          {item.privateNotes && !editing ? <p className="mt-1.5 line-clamp-2 text-xs text-muted/80">{item.privateNotes}</p> : null}
+          {item.privateNotes && !editing ? <p className="mt-1.5 line-clamp-2 text-xs text-muted">{item.privateNotes}</p> : null}
         </div>
         {!editing ? (
-          <button
-            type="button"
+          <Button
+            size="sm"
+            variant="ghost"
+            icon={<PencilIcon size={12} />}
             onClick={() => {
               setDraft(item);
               setEditing(true);
             }}
-            className="shrink-0 rounded-lg px-2.5 py-1.5 text-xs font-medium text-accent transition hover:bg-accent-soft"
           >
             Modifier
-          </button>
+          </Button>
         ) : null}
       </div>
 
       {editing ? (
-        <div className="border-t border-border p-3">
+        <div className="border-t border-border p-3.5">
           <div className="grid grid-cols-2 gap-3">
             <Field label="Statut">
               <Select value={draft.status} options={INVENTORY_STATUSES} labels={STATUS_LABELS} onChange={(v) => setStatus(v as InventoryItem["status"])} />
@@ -114,15 +118,17 @@ export default function InventoryEditor({ item, orderLabel }: { item: InventoryI
               <input className={inputClass} type="date" value={draft.acquiredAt ?? ""} onChange={(e) => set("acquiredAt", e.target.value || null)} />
             </Field>
             <Field label="Notes privées" className="col-span-2">
-              <textarea className={`${inputClass} min-h-16`} value={draft.privateNotes ?? ""} onChange={(e) => set("privateNotes", e.target.value || null)} />
+              <textarea className={textareaClass} value={draft.privateNotes ?? ""} onChange={(e) => set("privateNotes", e.target.value || null)} />
             </Field>
           </div>
-          <div className="mt-3 flex flex-wrap items-center justify-end gap-2">
+          <div className="mt-4 flex flex-wrap items-center justify-end gap-2">
             {item.orderId ? (
               <span className="mr-auto text-xs text-muted">Liée à une commande : suivie depuis Commandes.</span>
             ) : confirmDelete ? (
               <>
-                <span className="mr-auto basis-full text-xs text-ko">Supprimer définitivement cette ligne ?</span>
+                <span role="alert" className="mr-auto basis-full text-xs font-medium text-ko">
+                  Supprimer définitivement cette ligne ?
+                </span>
                 <Button onClick={() => setConfirmDelete(false)}>Garder</Button>
                 <Button variant="danger" disabled={busy} onClick={() => run(() => deleteItem(item))}>
                   Supprimer
@@ -130,7 +136,7 @@ export default function InventoryEditor({ item, orderLabel }: { item: InventoryI
               </>
             ) : (
               <span className="mr-auto">
-                <Button variant="danger" onClick={() => setConfirmDelete(true)}>
+                <Button variant="danger-ghost" onClick={() => setConfirmDelete(true)}>
                   Supprimer
                 </Button>
               </span>

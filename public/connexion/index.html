@@ -4,57 +4,139 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
-    <title>Connexion — GameVault</title>
+    <meta name="theme-color" content="#0a0b10" />
+    <title>Connexion · GameVault</title>
+    <script>
+      // même choix de thème que l'application (clé gv-theme), appliqué avant le rendu
+      (function () {
+        var d = document.documentElement,
+          p = "system";
+        try {
+          var s = localStorage.getItem("gv-theme");
+          if (s === "light" || s === "dark") p = s;
+        } catch (e) {}
+        var light = p === "light" || (p === "system" && window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches);
+        d.setAttribute("data-theme", light ? "light" : "dark");
+        d.setAttribute("data-theme-pref", p);
+      })();
+    </script>
     <style>
-      :root {
+      :root,
+      [data-theme="dark"] {
         color-scheme: dark;
-        --bg: #08090d;
+        --bg: #0a0b10;
         --surface: #12141d;
         --border: #232838;
         --text: #eef1f7;
-        --muted: #8a93a8;
-        --accent: #f5b642;
-        --danger: #f87171;
+        --muted: #8f98ad;
+        --brand: #f5b642;
+        --brand-ink: #1b1305;
+        --ko: #f87171;
+        --halo: rgb(245 182 66 / 0.08);
+        --shadow: 0 24px 60px -24px rgb(0 0 0 / 0.85);
       }
-      * { box-sizing: border-box; }
+      [data-theme="light"] {
+        color-scheme: light;
+        --bg: #f5f6f8;
+        --surface: #ffffff;
+        --border: #e2e5eb;
+        --text: #11131a;
+        --muted: #5a6274;
+        --ko: #c22b2b;
+        --halo: rgb(245 182 66 / 0.14);
+        --shadow: 0 24px 60px -24px rgb(16 24 40 / 0.25);
+      }
+      * {
+        box-sizing: border-box;
+      }
       body {
         margin: 0;
         min-height: 100vh;
+        min-height: 100dvh;
         display: grid;
         place-items: center;
         padding: 16px;
-        background: var(--bg);
+        background: var(--bg) radial-gradient(90% 60% at 50% -10%, var(--halo), transparent 65%) no-repeat;
         color: var(--text);
-        font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+        font: 14px/1.5 "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        -webkit-font-smoothing: antialiased;
       }
       main {
         width: 100%;
-        max-width: 360px;
-        padding: 32px 28px;
+        max-width: 380px;
+        padding: 36px 28px 28px;
         border: 1px solid var(--border);
         border-radius: 16px;
         background: var(--surface);
+        box-shadow: var(--shadow);
         text-align: center;
       }
-      h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: -0.01em; }
-      h1 span { color: var(--accent); }
-      p { margin: 0 0 24px; color: var(--muted); font-size: 14px; }
-      #button { display: flex; justify-content: center; min-height: 44px; }
-      #message { margin: 16px 0 0; min-height: 1.5em; font-size: 14px; }
-      #message.error { color: var(--danger); }
+      .logo {
+        width: 44px;
+        height: 44px;
+        margin: 0 auto 16px;
+        display: grid;
+        place-items: center;
+        border-radius: 12px;
+        background: var(--brand);
+        color: var(--brand-ink);
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+      }
+      p {
+        margin: 0 0 24px;
+        color: var(--muted);
+      }
+      #button {
+        display: flex;
+        justify-content: center;
+        min-height: 44px;
+      }
+      #message {
+        margin: 16px 0 0;
+        min-height: 1.5em;
+        font-size: 13px;
+      }
+      #message.error {
+        color: var(--ko);
+      }
+      footer {
+        margin-top: 20px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border);
+        font-size: 12px;
+        color: var(--muted);
+      }
     </style>
   </head>
   <body>
     <main>
-      <h1>Game<span>Vault</span></h1>
-      <p>Collection privée. Connectez-vous avec votre compte Google.</p>
+      <div class="logo" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 12h4m-2-2v4" />
+          <circle cx="15.5" cy="11" r="1" fill="currentColor" stroke="none" />
+          <circle cx="18" cy="13.5" r="1" fill="currentColor" stroke="none" />
+          <path
+            d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5Z"
+          />
+        </svg>
+      </div>
+      <h1>GameVault</h1>
+      <p>Votre collection privée. Connectez-vous avec votre compte Google pour y accéder.</p>
       <div id="button"></div>
       <p id="message" role="status"></p>
+      <footer>Accès réservé au propriétaire de la collection.</footer>
     </main>
     <script>
       const message = document.getElementById("message");
       const next = new URLSearchParams(location.search).get("next");
       const target = next && next.startsWith("/") && !next.startsWith("//") ? next : "/";
+      const light = document.documentElement.getAttribute("data-theme") === "light";
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", light ? "#f5f6f8" : "#0a0b10");
 
       function show(text, isError) {
         message.textContent = text;
@@ -77,14 +159,16 @@
       }
 
       async function start() {
-        const config = await fetch("/api/auth/config").then((r) => r.json()).catch(() => ({}));
+        const config = await fetch("/api/auth/config")
+          .then((r) => r.json())
+          .catch(() => ({}));
         if (!config.googleClientId) {
-          show("Connexion Google pas encore configurée.", true);
+          show("La connexion Google n’est pas encore disponible.", true);
           return;
         }
         google.accounts.id.initialize({ client_id: config.googleClientId, callback: onCredential });
         google.accounts.id.renderButton(document.getElementById("button"), {
-          theme: "filled_black",
+          theme: light ? "outline" : "filled_black",
           size: "large",
           shape: "pill",
           text: "signin_with",

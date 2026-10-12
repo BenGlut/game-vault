@@ -6,6 +6,8 @@ import { quotesByGame } from "@/lib/quotes";
 import { computeStats, type CollectionStats, type GameRow } from "@/lib/stats";
 import { ApiFailure, api, type VaultData } from "./api";
 import { newInventoryLine } from "./model";
+import { AlertIcon, CheckCircleIcon, XIcon } from "@/components/icons";
+import { ErrorState, Skeleton } from "@/components/ui/primitives";
 
 export type OrderAction = "fulfill" | "deliver" | "cancel" | "refund";
 
@@ -49,14 +51,10 @@ export function VaultGate({ children }: { children: ReactNode }) {
   const error = useContext(ErrorCtx);
   if (error) {
     return (
-      <div className="flex min-h-[60vh] items-center justify-center p-6">
-        <div className="max-w-md rounded-2xl border border-border bg-surface p-6 text-center">
-          <p className="font-medium">La base est inaccessible</p>
-          <p className="mt-1 text-sm text-muted">{error.message}</p>
-          <button type="button" onClick={() => location.reload()} className="mt-4 rounded-lg bg-accent px-4 py-2 text-sm font-medium text-bg">
-            Réessayer
-          </button>
-        </div>
+      <div className="flex min-h-[60vh] items-center justify-center">
+        <ErrorState title="La collection n’a pas pu être chargée" onRetry={() => location.reload()}>
+          {error.message}. Vérifiez la connexion puis réessayez.
+        </ErrorState>
       </div>
     );
   }
@@ -198,16 +196,28 @@ export function VaultProvider({ children }: { children: ReactNode }) {
   return (
     <ErrorCtx.Provider value={error}>
       <Ctx.Provider value={value}>{children}</Ctx.Provider>
-      <div className="pointer-events-none fixed inset-x-0 bottom-20 z-[70] flex flex-col items-center gap-2 px-4 md:bottom-6">
+      <div
+        aria-live="polite"
+        className="pointer-events-none fixed inset-x-0 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-[70] flex flex-col items-center gap-2 px-4 lg:bottom-6 lg:left-60"
+      >
         {toasts.map((t) => (
           <div
             key={t.id}
-            role="status"
-            className={`animate-toast pointer-events-auto w-full max-w-sm rounded-xl border px-4 py-3 text-sm shadow-[var(--shadow-card)] backdrop-blur ${
-              t.kind === "ok" ? "border-ok/30 bg-[#0f1f16]/95 text-ok" : "border-ko/30 bg-[#241214]/95 text-ko"
-            }`}
+            role={t.kind === "error" ? "alert" : "status"}
+            className="animate-toast pointer-events-auto flex w-full max-w-sm items-start gap-2.5 rounded-xl border border-border-strong bg-bg-elev px-3.5 py-3 text-[13px] text-text shadow-[var(--shadow-pop)]"
           >
-            {t.text}
+            <span className={`mt-px shrink-0 ${t.kind === "ok" ? "text-ok" : "text-ko"}`}>
+              {t.kind === "ok" ? <CheckCircleIcon size={16} /> : <AlertIcon size={16} />}
+            </span>
+            <span className="min-w-0 flex-1">{t.text}</span>
+            <button
+              type="button"
+              aria-label="Fermer la notification"
+              onClick={() => setToasts((all) => all.filter((x) => x.id !== t.id))}
+              className="-m-1 shrink-0 rounded p-1 text-muted transition hover:text-text"
+            >
+              <XIcon size={14} />
+            </button>
           </div>
         ))}
       </div>
@@ -218,13 +228,16 @@ export function VaultProvider({ children }: { children: ReactNode }) {
 function LoadingScreen() {
   return (
     <div className="space-y-6" aria-busy="true" aria-label="Chargement de la collection">
-      <div className="h-8 w-56 animate-pulse rounded-lg bg-surface-2" />
+      <div>
+        <Skeleton className="h-7 w-56" />
+        <Skeleton className="mt-2 h-4 w-40" />
+      </div>
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
         {[0, 1, 2, 3].map((i) => (
-          <div key={i} className="h-28 animate-pulse rounded-2xl bg-surface" />
+          <Skeleton key={i} className="h-[104px] rounded-xl" />
         ))}
       </div>
-      <div className="h-72 animate-pulse rounded-2xl bg-surface" />
+      <Skeleton className="h-72 rounded-xl" />
     </div>
   );
 }

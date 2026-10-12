@@ -46,7 +46,7 @@ export default function CoverImage({
     <div className={`relative overflow-hidden bg-surface-2 ${rounded} ${className}`} style={{ aspectRatio: String(ratio) }}>
       {blur ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={blur} alt="" aria-hidden className="absolute inset-0 h-full w-full scale-125 object-cover opacity-50 blur-xl" />
+        <img src={blur} alt="" aria-hidden className="absolute inset-0 h-full w-full scale-125 object-cover opacity-60 blur-xl" />
       ) : null}
       {showLocal ? (
         // eslint-disable-next-line @next/next/no-img-element
@@ -80,8 +80,8 @@ export default function CoverImage({
         />
       ) : null}
       {!showRemote && localFailed ? (
-        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-surface-2 to-bg-elev p-2 text-center">
-          <span className="line-clamp-3 text-xs font-medium text-muted/70">{alt.replace(/^Jaquette de /, "")}</span>
+        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-surface-2 to-surface-3 p-2 text-center">
+          <span className="line-clamp-3 text-xs font-medium text-muted">{alt.replace(/^Jaquette de /, "")}</span>
         </div>
       ) : null}
     </div>

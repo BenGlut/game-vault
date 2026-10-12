@@ -4,49 +4,31 @@ import { useEffect, useMemo, useState } from "react";
 import { CONSOLE_ICONS } from "@/components/ConsoleIcons";
 import { useGameDrawer } from "@/components/game/GameDrawer";
 import { useVault } from "@/components/vault/VaultProvider";
-import { PageHeader, StatusBadge } from "@/components/ui/primitives";
+import {
+  BOX_BADGES,
+  BoxBadge,
+  Button,
+  CoverGridSkeleton,
+  EmptyState,
+  ErrorState,
+  FilterBar,
+  PageHeader,
+  SearchField,
+  StatusBadge,
+  TIER_LABELS,
+  TierBadge,
+  cx,
+} from "@/components/ui/primitives";
+import { CatalogIcon, GridIcon } from "@/components/icons";
 import CoverImage from "@/components/game/CoverImage";
 import { formatOf } from "@/lib/platform-format";
 import CatalogEntryPanel from "./CatalogEntryPanel";
-import { inputClass } from "@/components/ui/fields";
+import { sizedInput } from "@/components/ui/fields";
 import { expandAbbreviations } from "@/lib/abbreviations";
 import { buildEntryLinks, type CatalogGameLink } from "@/lib/catalog-match";
 
 /** Les 35 000 jaquettes du catalogue restent servies par GitHub Pages (plafond Cloudflare). */
 const COVERS_BASE = "https://benglut.github.io/game-vault";
-
-const TIER_COLORS: Record<string, string> = {
-  S: "bg-accent text-bg",
-  A: "bg-ok text-bg",
-  B: "bg-info text-bg",
-  C: "bg-muted text-bg",
-  D: "bg-ko text-bg",
-};
-
-const TIER_LABELS: Record<string, string> = {
-  S: "incontournable",
-  A: "excellent",
-  B: "bon",
-  C: "moyen",
-  D: "faible",
-};
-
-/** Pastille boîte des jeux Switch (switch-curation.json) */
-const BOX_BADGES: Record<string, { label: string; title: string; className: string }> = {
-  fr: { label: "FR", title: "Boîte française", className: "border-ok/40 text-ok" },
-  eu: { label: "EU", title: "Boîte européenne multilingue : jeu en français, jaquette à vérifier (dos)", className: "border-info/40 text-info" },
-  etr: { label: "ÉTR", title: "Jaquette étrangère seulement (import)", className: "border-ko/40 text-ko" },
-};
-
-function BoxBadge({ code }: { code?: string }) {
-  const badge = code ? BOX_BADGES[code] : undefined;
-  if (!badge) return null;
-  return (
-    <span className={`shrink-0 rounded border px-1 text-[10px] font-semibold leading-4 ${badge.className}`} title={badge.title}>
-      {badge.label}
-    </span>
-  );
-}
 
 interface CatalogEntry {
   id: string;
@@ -88,13 +70,15 @@ const PLATFORM_LABELS: Record<string, string> = {
 /** ids de plateforme, du plus long au plus court (préfixes imbriqués) */
 const PLATFORM_IDS = Object.keys(PLATFORM_LABELS).sort((a, b) => b.length - a.length);
 
-/** code court affiché sur la jaquette (« SWITCH-DIGITAL » déborderait) */
+/** code court affiché sous la jaquette (« SWITCH-DIGITAL » déborderait) */
 const PLATFORM_CODES: Record<string, string> = {
   gamecube: "NGC",
   switch: "SWITCH",
   "switch-digital": "SW DIGITAL",
   switch2: "SWITCH 2",
 };
+
+const selectClass = cx(sizedInput("w-[calc(50%-4px)] sm:w-auto"), "gv-select cursor-pointer");
 
 /**
  * Catalogue de référence No-Intro complet (tous les jeux sortis), pour la recherche.
@@ -110,13 +94,13 @@ export default function CatalogView() {
   const [quality, setQuality] = useState("");
   const [box, setBox] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [attempt, setAttempt] = useState(0);
   const drawer = useGameDrawer();
   const [selected, setSelected] = useState<CatalogEntry | null>(null);
   const coversBase = COVERS_BASE;
   // une console choisie : le cadre prend les proportions de ses jaquettes
   const frameRatio = platform ? formatOf(platform).ratio : 0.75;
-  const localCover = (e: CatalogEntry) =>
-    `${coversBase}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`;
+  const localCover = (e: CatalogEntry) => `${coversBase}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`;
 
   const entries = useMemo(() => {
     if (!lists) return null;
@@ -126,10 +110,7 @@ export default function CatalogView() {
   }, [lists, platform]);
 
   // rapprochement catalogue ↔ base, recalculé à chaque modification de la base
-  const links = useMemo<Record<string, CatalogGameLink>>(
-    () => (lists ? buildEntryLinks(lists, stats.rows) : {}),
-    [lists, stats.rows],
-  );
+  const links = useMemo<Record<string, CatalogGameLink>>(() => (lists ? buildEntryLinks(lists, stats.rows) : {}), [lists, stats.rows]);
 
   /** jeu de la base : sa fiche ; sinon la fiche catalogue, avec ajout en un clic */
   const openDrawer = (e: CatalogEntry, link?: CatalogGameLink) => {
@@ -141,8 +122,7 @@ export default function CatalogView() {
    * Plateforme d'une entrée, déduite de son id (`gba-slug`, `switch-digital-slug`…).
    * Le préfixe le plus long gagne : `switch-digital` avant `switch`.
    */
-  const platformOf = (e: CatalogEntry): string =>
-    PLATFORM_IDS.find((id) => e.id.startsWith(`${id}-`)) ?? e.id.slice(0, e.id.indexOf("-"));
+  const platformOf = (e: CatalogEntry): string => PLATFORM_IDS.find((id) => e.id.startsWith(`${id}-`)) ?? e.id.slice(0, e.id.indexOf("-"));
   // links est indexé par id d'entrée catalogue (matching 3 niveaux fait au build)
   const linkFor = (e: CatalogEntry): CatalogGameLink | undefined => links[e.id];
 
@@ -196,7 +176,7 @@ export default function CatalogView() {
     return () => {
       cancelled = true;
     };
-  }, [platform]);
+  }, [platform, attempt]);
 
   const regions = useMemo(() => {
     if (!entries) return [];
@@ -224,168 +204,153 @@ export default function CatalogView() {
   }, [entries, query, possession, links, region, quality, box]);
 
   const shown = filtered.slice(0, 200);
-  const select = `${inputClass.replace("w-full ", "")} w-auto`;
+  const anyFilter = !!(query || possession || region || quality || box);
+  const clearFilters = () => {
+    setQuery("");
+    setPossession("");
+    setRegion("");
+    setQuality("");
+    setBox("");
+  };
 
   return (
     <div className="animate-page">
-      <PageHeader
-        title="Catalogue"
-        subtitle="Tous les jeux sortis sur les consoles Nintendo, comparés à la collection en direct"
-      />
-      <div className="no-scrollbar -mx-1 mb-4 flex gap-2 overflow-x-auto px-1 pb-1">
-        <button
-          type="button"
-          onClick={() => setPlatform("")}
-          aria-pressed={platform === ""}
-          className={`flex w-24 shrink-0 flex-col items-center justify-center gap-1.5 rounded-2xl border px-2 py-3 transition ${
-            platform === ""
-              ? "border-accent bg-accent-soft text-accent"
-              : "border-border bg-surface text-muted hover:border-border-strong hover:text-text"
-          }`}
-        >
-          <span className="text-xl font-semibold leading-7">∀</span>
-          <span className="text-xs font-medium">Toutes</span>
-        </button>
-        {Object.entries(PLATFORM_LABELS).map(([id, label]) => {
-          const Icon = CONSOLE_ICONS[id];
+      <PageHeader title="Catalogue" subtitle="Tous les jeux sortis sur les consoles Nintendo, comparés à la collection en direct" />
+
+      {/* choix de la console */}
+      <div role="group" aria-label="Console" className="no-scrollbar -mx-4 mb-1 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0">
+        {[["", "Toutes"] as const, ...Object.entries(PLATFORM_LABELS)].map(([id, label]) => {
+          const Icon = id ? CONSOLE_ICONS[id] : null;
           const active = platform === id;
           return (
             <button
-              key={id}
+              key={id || "all"}
               type="button"
               onClick={() => setPlatform(id)}
               aria-pressed={active}
-              className={`flex w-24 shrink-0 flex-col items-center gap-1.5 rounded-2xl border px-2 py-3 transition ${
+              className={cx(
+                "flex h-10 shrink-0 items-center gap-2 rounded-lg border px-3 text-[13px] font-medium transition",
                 active
-                  ? "border-accent bg-accent-soft text-accent"
-                  : "border-border bg-surface text-muted hover:border-border-strong hover:text-text"
-              }`}
+                  ? "border-accent/50 bg-accent/10 text-text shadow-[var(--shadow-sm)]"
+                  : "border-border bg-surface text-text-2 hover:border-border-strong hover:text-text",
+              )}
             >
-              {Icon ? <Icon size={28} /> : null}
-              <span className="text-center text-xs font-medium leading-tight">{label}</span>
+              <span className={active ? "text-accent" : "text-muted"}>{Icon ? <Icon size={20} /> : <GridIcon size={16} />}</span>
+              {label}
             </button>
           );
         })}
       </div>
-      <div className="mb-4 flex flex-wrap gap-2">
-        <input
-          type="search"
-          placeholder="Chercher dans tous les jeux sortis…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          className={`${inputClass} md:w-80`}
-        />
-        <select
-          value={possession}
-          onChange={(e) => setPossession(e.target.value)}
-          className={select}
-        >
-          <option value="">Tous</option>
-          <option value="owned">Dans ma collection</option>
-          <option value="missing">Pas dans ma collection</option>
-        </select>
-        <select value={region} onChange={(e) => setRegion(e.target.value)} className={select}>
-          <option value="">Toutes régions</option>
-          {regions.map((r) => (
-            <option key={r} value={r}>
-              {r}
-            </option>
-          ))}
-        </select>
-        <select value={quality} onChange={(e) => setQuality(e.target.value)} className={select}>
-          <option value="">Qualité (toutes)</option>
-          <option value="S">S — incontournable</option>
-          <option value="A">A — excellent</option>
-          <option value="B">B — bon</option>
-          <option value="C">C — moyen</option>
-          <option value="D">D — faible</option>
-        </select>
-        <select value={box} onChange={(e) => setBox(e.target.value)} className={select}>
-          <option value="">Boîte (toutes)</option>
-          <option value="fr">FR — boîte française</option>
-          <option value="eu">EU — multilingue, FR à vérifier</option>
-          <option value="etr">ÉTR — import seulement</option>
-        </select>
-      </div>
+
+      <FilterBar
+        top={
+          <>
+            <SearchField className="basis-full lg:flex-1 lg:basis-64" value={query} onChange={setQuery} placeholder="Chercher dans tous les jeux sortis…" />
+            <select aria-label="Possession" value={possession} onChange={(e) => setPossession(e.target.value)} className={selectClass}>
+              <option value="">Possédés ou non</option>
+              <option value="owned">Dans ma collection</option>
+              <option value="missing">Pas dans ma collection</option>
+            </select>
+            <select aria-label="Région" value={region} onChange={(e) => setRegion(e.target.value)} className={selectClass}>
+              <option value="">Toutes régions</option>
+              {regions.map((r) => (
+                <option key={r} value={r}>
+                  {r}
+                </option>
+              ))}
+            </select>
+            <select aria-label="Qualité" value={quality} onChange={(e) => setQuality(e.target.value)} className={selectClass}>
+              <option value="">Toute qualité</option>
+              {Object.entries(TIER_LABELS).map(([t, label]) => (
+                <option key={t} value={t}>
+                  {t} — {label}
+                </option>
+              ))}
+            </select>
+            <select aria-label="Boîte" value={box} onChange={(e) => setBox(e.target.value)} className={selectClass}>
+              <option value="">Toute boîte</option>
+              <option value="fr">FR — boîte française</option>
+              <option value="eu">EU — multilingue, FR à vérifier</option>
+              <option value="etr">ÉTR — import seulement</option>
+            </select>
+          </>
+        }
+      />
 
       {error ? (
-        <div className="rounded-lg border border-border bg-surface px-4 py-8 text-center text-muted">
-          Catalogue indisponible ({error}).
-        </div>
+        <ErrorState title="Le catalogue n’a pas pu être chargé" onRetry={() => setAttempt((a) => a + 1)}>
+          {error}
+        </ErrorState>
       ) : !entries ? (
-        <div className="rounded-lg border border-border bg-surface px-4 py-8 text-center text-muted">
-          Chargement du catalogue…
-        </div>
+        <CoverGridSkeleton />
       ) : (
         <>
-          <p className="mb-3 text-sm text-muted">
-            {filtered.length} jeu{filtered.length > 1 ? "x" : ""} sur {entries.length} référencés
-            {shown.length < filtered.length
-              ? ` — ${shown.length} affichés, affiner la recherche`
-              : ""}
-          </p>
-          <div
-            className={`grid gap-x-4 gap-y-6 ${
-              frameRatio > 1.25
-                ? "grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
-                : "grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6"
-            }`}
-          >
-            {shown.map((e) => {
-              const link = linkFor(e);
-              const tier = link?.quality ?? e.q;
-              const pid = platformOf(e);
-              // toujours un panneau latéral : on garde ses filtres et on enchaîne
-              return (
-                <button
-                  key={e.id}
-                  type="button"
-                  onClick={() => openDrawer(e, link)}
-                  className="group block w-full text-left focus-visible:outline-none"
-                >
-                  <div className="relative transition duration-300 group-hover:-translate-y-1">
-                    <CoverImage
-                      src={e.u}
-                      fallback={e.img ? localCover(e) : null}
-                      alt={`Jaquette de ${e.t}`}
-                      ratio={frameRatio}
-                      width={frameRatio > 1.25 ? 320 : 240}
-                      className="ring-1 ring-border transition group-hover:ring-accent/50 group-hover:shadow-[var(--shadow-hover)] group-focus-visible:ring-2 group-focus-visible:ring-accent"
-                    />
-                  </div>
-                  {/* infos sous la jaquette : la boîte reste lisible (bandeau console, PEGI) */}
-                  <div className="mt-2 px-0.5">
-                    <div className="flex items-start gap-1.5">
-                      {tier ? (
-                        <span
-                          className={`mt-px flex h-4 w-4 shrink-0 items-center justify-center rounded text-[10px] font-bold ${TIER_COLORS[tier] ?? ""}`}
-                          title={`Qualité ${tier} · ${TIER_LABELS[tier] ?? ""}`}
-                        >
-                          {tier}
-                        </span>
-                      ) : null}
-                      <span className="line-clamp-2 text-[13px] font-medium leading-snug transition group-hover:text-accent" title={e.t}>
-                        {e.t}
-                      </span>
-                    </div>
-                    <div className="mt-1 flex flex-wrap items-center gap-1.5">
-                      {link?.statuses.map((s) => <StatusBadge key={s} status={s} />)}
-                      <BoxBadge code={e.b} />
-                      <span className="truncate text-xs text-muted">
-                        {platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}
-                        {e.r.join(", ") || "région inconnue"}
-                      </span>
-                    </div>
-                  </div>
-                </button>
-              );
-            })}
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-2 text-[13px] text-muted" aria-live="polite">
+            <span>
+              <span className="font-medium text-text">{filtered.length.toLocaleString("fr-FR")}</span> jeu{filtered.length > 1 ? "x" : ""} sur{" "}
+              {entries.length.toLocaleString("fr-FR")} référencés
+              {shown.length < filtered.length ? ` · ${shown.length} affichés, affinez la recherche` : ""}
+            </span>
+            {anyFilter ? (
+              <Button size="sm" variant="ghost" onClick={clearFilters}>
+                Effacer les filtres
+              </Button>
+            ) : null}
           </div>
+          {shown.length === 0 ? (
+            <EmptyState title="Aucun jeu ne correspond" icon={<CatalogIcon size={18} />}>
+              Essayez une autre console, un autre mot ou moins de filtres.
+            </EmptyState>
+          ) : (
+            <div
+              className={cx(
+                "grid gap-x-3 gap-y-6 sm:gap-x-4",
+                frameRatio > 1.25 ? "grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5" : "grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6",
+              )}
+            >
+              {shown.map((e) => {
+                const link = linkFor(e);
+                const tier = link?.quality ?? e.q;
+                const pid = platformOf(e);
+                // toujours un panneau latéral : on garde ses filtres et on enchaîne
+                return (
+                  <button key={e.id} type="button" onClick={() => openDrawer(e, link)} className="group block w-full min-w-0 rounded-lg text-left focus-visible:outline-offset-4">
+                    <div className="cover-lift overflow-hidden rounded-lg ring-1 ring-[var(--cover-ring)]">
+                      <CoverImage
+                        src={e.u}
+                        fallback={e.img ? localCover(e) : null}
+                        alt={`Jaquette de ${e.t}`}
+                        ratio={frameRatio}
+                        width={frameRatio > 1.25 ? 320 : 240}
+                        rounded="rounded-none"
+                      />
+                    </div>
+                    {/* infos sous la jaquette : la boîte reste lisible (bandeau console, PEGI) */}
+                    <div className="mt-2 px-0.5">
+                      <div className="flex items-start gap-1.5">
+                        {tier ? <TierBadge tier={tier} size="sm" className="mt-px" /> : null}
+                        <span className="line-clamp-2 text-[13px] font-medium leading-snug transition group-hover:text-accent" title={e.t}>
+                          {e.t}
+                        </span>
+                      </div>
+                      <div className="mt-1.5 flex flex-wrap items-center gap-1">
+                        {link?.statuses.map((s) => <StatusBadge key={s} status={s} />)}
+                        <BoxBadge code={e.b} />
+                        <span className="min-w-0 truncate text-xs text-muted">
+                          {platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}
+                          {e.r.join(", ") || "région inconnue"}
+                        </span>
+                      </div>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </>
       )}
-      <p className="mt-6 text-xs text-muted">
-        Sources : listes No-Intro et jaquettes libretro-thumbnails, eShop Nintendo Europe pour la Switch. Un jeu absent de la base
-        s’ajoute depuis sa fiche.
+      <p className="mt-8 text-xs text-muted">
+        Sources : listes No-Intro et jaquettes libretro-thumbnails, eShop Nintendo Europe pour la Switch. Un jeu absent de la base s’ajoute depuis sa fiche.
       </p>
       {selected ? (
         <CatalogEntryPanel

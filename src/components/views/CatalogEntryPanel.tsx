@@ -2,9 +2,10 @@
 
 import { useCallback, useState } from "react";
 import type { Game } from "@/lib/schema";
-import { Button } from "@/components/ui/fields";
-import BrandLogo from "@/components/BrandLogos";
+import { Badge, Button } from "@/components/ui/primitives";
+import { StarIcon } from "@/components/icons";
 import CoverHero from "@/components/game/CoverHero";
+import { ShopLinks, shopLinks } from "@/components/game/GameDetail";
 import SidePanel from "@/components/game/SidePanel";
 import { useGameDrawer } from "@/components/game/GameDrawer";
 import { useNewGame } from "@/components/game/NewGameForm";
@@ -18,10 +19,6 @@ interface Entry {
   q?: string;
   u?: string;
   sq?: boolean;
-}
-
-function searchText(s: string): string {
-  return s.replace(/[:–—_/]+/g, " ").replace(/\s+/g, " ").trim();
 }
 
 /** Fiche d'un jeu du catalogue absent de la base : jaquette au format de la console, ajout en un clic. */
@@ -75,26 +72,33 @@ export default function CatalogEntryPanel({
   return (
     <SidePanel label={`Fiche catalogue de ${entry.t}`} visible={visible} onClose={close}>
       <CoverHero platformId={platformId} platformName={platformName} src={entry.u} fallback={fallback} title={entry.t} square={entry.sq} />
-      <div className="space-y-6 px-5 pb-8">
+      <div className="space-y-6 px-5 pb-10">
         <div className="text-center">
-          <h2 className="text-xl font-semibold leading-tight tracking-tight">{entry.t}</h2>
-          <p className="mt-1 text-xs text-muted">
+          <h2 className="text-xl font-semibold leading-tight tracking-[-0.02em]">{entry.t}</h2>
+          <p className="mt-1 text-[13px] text-muted">
             {platformName} · {entry.r.join(", ") || "région inconnue"}
           </p>
-          {tierLabel ? <p className="mt-2 text-xs text-accent">Qualité {tierLabel}</p> : null}
-          {boxLabel ? <p className="mt-1 text-xs text-muted">{boxLabel}</p> : null}
+          {tierLabel || boxLabel ? (
+            <div className="mt-3 flex flex-wrap justify-center gap-1.5">
+              {tierLabel ? <Badge tone="accent">Qualité {tierLabel}</Badge> : null}
+              {boxLabel ? <Badge>{boxLabel}</Badge> : null}
+            </div>
+          ) : null}
+          <div className="mt-4">
+            <ShopLinks links={shopLinks(entry.t, platformName)} />
+          </div>
         </div>
 
-        <section className="rounded-2xl border border-border bg-surface p-4">
+        <section className="rounded-xl border border-border bg-surface p-4 shadow-[var(--shadow-card)]">
           <h3 className="text-sm font-semibold">Pas encore dans la base</h3>
-          <p className="mt-1 text-xs text-muted">
-            Ajoute-le à la wishlist pour le suivre dans les chasses, ou complète sa fiche (édition, région, franchise).
-          </p>
+          <p className="mt-1 text-[13px] text-muted">Ajoutez-le à la wishlist pour le suivre dans les chasses, ou complétez sa fiche (édition, région, franchise).</p>
           {duplicate ? (
-            <p className="mt-3 text-xs text-accent">Un jeu du même titre existe déjà sur cette console : {duplicate.canonicalTitle}.</p>
+            <p role="alert" className="mt-3 text-xs font-medium text-accent">
+              Un jeu du même titre existe déjà sur cette console : {duplicate.canonicalTitle}.
+            </p>
           ) : null}
           <div className="mt-4 flex flex-wrap gap-2">
-            <Button variant="primary" disabled={busy || !known || !!duplicate} onClick={addToWishlist}>
+            <Button variant="primary" icon={<StarIcon size={14} />} disabled={busy || !known || !!duplicate} onClick={addToWishlist}>
               {busy ? "Ajout…" : "Ajouter à la wishlist"}
             </Button>
             <Button
@@ -109,31 +113,6 @@ export default function CatalogEntryPanel({
           </div>
           {!known ? <p className="mt-2 text-xs text-muted">Console absente de la base : ajout impossible depuis l’interface.</p> : null}
         </section>
-
-        {/* comparer avant d'acheter : Vinted, Micromania occasion, Amazon neuf */}
-        <div className="grid grid-cols-2 gap-2">
-          {[
-            ["vinted", "Vinted", `https://www.vinted.fr/catalog?search_text=${encodeURIComponent(searchText(`${entry.t} ${platformName}`))}`],
-            [
-              "micromania",
-              "Micromania",
-              `https://www.micromania.fr/on/demandware.store/Sites-Micromania-Site/fr_FR/Search-Show?q=${encodeURIComponent(searchText(entry.t))}`,
-            ],
-            ["amazon", "Amazon", `https://www.amazon.fr/s?k=${encodeURIComponent(searchText(`${entry.t} ${platformName}`))}&i=videogames`],
-            ["", "Notes et fiche", `https://www.mobygames.com/search/?q=${encodeURIComponent(searchText(entry.t))}`],
-          ].map(([brand, label, href]) => (
-            <a
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 rounded-xl border border-border bg-surface px-3 py-2.5 text-sm transition hover:border-accent/50 hover:text-accent"
-            >
-              {brand ? <BrandLogo brand={brand} size={16} /> : null}
-              {label} ↗
-            </a>
-          ))}
-        </div>
       </div>
     </SidePanel>
   );

@@ -16,13 +16,13 @@ export default function Sparkline({ values, width = 96, height = 28 }: { values:
       <polyline
         points={values.map((v, i) => `${x(i)},${y(v)}`).join(" ")}
         fill="none"
-        stroke={CHART.muted}
+        style={{ stroke: CHART.muted }}
         strokeOpacity={0.6}
         strokeWidth={1.5}
         strokeLinejoin="round"
         strokeLinecap="round"
       />
-      <circle cx={x(last)} cy={y(values[last] ?? 0)} r={3} fill={ACCENT} stroke={CHART.surface} strokeWidth={1.5} />
+      <circle cx={x(last)} cy={y(values[last] ?? 0)} r={3} style={{ fill: ACCENT, stroke: CHART.surface }} strokeWidth={1.5} />
     </svg>
   );
 }

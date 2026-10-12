@@ -264,3 +264,124 @@ export const NAV_ICONS: Record<string, (p: IconProps) => React.JSX.Element> = {
   "/estimateur": TagIcon,
   "/historique": HistoryIcon,
 };
+
+/* --- interface : thème, navigation, états --- */
+
+export function SunIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+    </svg>
+  );
+}
+
+export function MoonIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+    </svg>
+  );
+}
+
+export function MonitorIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <rect x="2" y="3" width="20" height="14" rx="2" />
+      <path d="M8 21h8M12 17v4" />
+    </svg>
+  );
+}
+
+export function ChevronRightIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="m9 18 6-6-6-6" />
+    </svg>
+  );
+}
+
+export function ChevronDownIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="m6 9 6 6 6-6" />
+    </svg>
+  );
+}
+
+export function ArrowLeftIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="m12 19-7-7 7-7M19 12H5" />
+    </svg>
+  );
+}
+
+export function ExternalIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M7 17 17 7M8 7h9v9" />
+    </svg>
+  );
+}
+
+export function TruckIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2M15 18H9M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14" />
+      <circle cx="17" cy="18" r="2" />
+      <circle cx="7" cy="18" r="2" />
+    </svg>
+  );
+}
+
+export function InboxIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M22 12h-6l-2 3h-4l-2-3H2" />
+      <path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
+    </svg>
+  );
+}
+
+export function FilterIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M3 6h18M7 12h10M10 18h4" />
+    </svg>
+  );
+}
+
+export function SortIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="m3 16 4 4 4-4M7 20V4M21 8l-4-4-4 4M17 4v16" />
+    </svg>
+  );
+}
+
+export function TrendUpIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="m22 7-8.5 8.5-5-5L2 17" />
+      <path d="M16 7h6v6" />
+    </svg>
+  );
+}
+
+export function RefreshIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5M21 12a9 9 0 0 1-15 6.7L3 16M3 21v-5h5" />
+    </svg>
+  );
+}
+
+export function CalendarIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <rect x="3" y="4" width="18" height="18" rx="2" />
+      <path d="M16 2v4M8 2v4M3 10h18" />
+    </svg>
+  );
+}

@@ -171,7 +171,7 @@ const CLI: [string, string][] = [
 
 function Meter({ label, used, limit, format, note }: { label: string; used: number | null; limit: number; format: (n: number) => string; note?: string }) {
   const pct = used === null ? 0 : Math.min(100, (used / limit) * 100);
-  const tone = pct > 80 ? "bg-ko" : pct > 50 ? "bg-accent" : "bg-ok";
+  const tone = pct > 80 ? "bg-ko" : pct > 50 ? "bg-brand" : "bg-ok";
   return (
     <div>
       <div className="flex items-baseline justify-between gap-3 text-sm">
@@ -289,7 +289,7 @@ export default function DevView() {
               logos: ["google"],
             },
           ].map((b) => (
-            <div key={b.title} className="rounded-xl border border-border bg-bg-elev p-4">
+            <div key={b.title} className="rounded-lg border border-border bg-surface-2/60 p-4">
               <div className="mb-2 flex items-center gap-2">
                 {b.logos.map((l) => (
                   <BrandLogo key={l} brand={l} size={18} />
@@ -346,7 +346,7 @@ export default function DevView() {
             </tbody>
           </table>
         </div>
-        <h3 className="mb-2 mt-5 text-xs font-semibold uppercase tracking-wider text-muted">Ce qui ferait payer</h3>
+        <h3 className="mb-2 mt-5 text-xs font-medium text-muted">Ce qui ferait payer</h3>
         <ul className="space-y-1.5 text-sm text-muted">
           <li>
             · Dépasser durablement les quotas gratuits de Cloudflare (lectures en base, requêtes aux Functions) : passage à l’offre
@@ -363,7 +363,7 @@ export default function DevView() {
       <Card title="Stack technique" subtitle={info ? `Node ${info.runtime.node} · pnpm ${info.runtime.pnpm}` : undefined}>
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {STACK.map((s) => (
-            <div key={s.name} className="flex items-start gap-3 rounded-xl border border-border bg-bg-elev p-3">
+            <div key={s.name} className="flex items-start gap-3 rounded-lg border border-border bg-surface-2/60 p-3">
               <span className="mt-0.5 shrink-0">
                 <BrandLogo brand={s.brand} size={22} />
               </span>
@@ -428,7 +428,7 @@ export default function DevView() {
               ["Requête de mesure D1", live ? `${live.queryMs} ms` : "—"],
               ["Tables en base", live ? String(live.tables.length) : "—"],
             ].map(([k, v]) => (
-              <div key={k} className="rounded-xl border border-border bg-bg-elev p-3">
+              <div key={k} className="rounded-lg border border-border bg-surface-2/60 p-3">
                 <dt className="text-xs text-muted">{k}</dt>
                 <dd className="mt-0.5 font-medium tabular-nums">{v}</dd>
               </div>
@@ -505,14 +505,14 @@ export default function DevView() {
         </Card>
         <Card title="Images et catalogue">
           <dl className="mb-4 grid grid-cols-2 gap-3 text-sm">
-            <div className="rounded-xl border border-border bg-bg-elev p-3">
+            <div className="rounded-lg border border-border bg-surface-2/60 p-3">
               <dt className="text-xs text-muted">Jaquettes de la collection</dt>
               <dd className="mt-0.5 font-medium">
                 {intFmt.format(info?.assets.covers.files ?? 0)} · {bytes(info?.assets.covers.bytes)}
               </dd>
               <dd className="text-xs text-muted">{intFmt.format(info?.assets.covers.withHiResSource ?? 0)} avec original haute résolution</dd>
             </div>
-            <div className="rounded-xl border border-border bg-bg-elev p-3">
+            <div className="rounded-lg border border-border bg-surface-2/60 p-3">
               <dt className="text-xs text-muted">Copies locales du catalogue</dt>
               <dd className="mt-0.5 font-medium">
                 {intFmt.format(info?.assets.catalogCovers.files ?? 0)} · {bytes(info?.assets.catalogCovers.bytes)}
@@ -593,7 +593,7 @@ export default function DevView() {
               <span className="text-muted"> à la racine du repo (contrat complet, à lire en premier).</span>
             </li>
           </ul>
-          <h3 className="mb-2 mt-5 text-xs font-semibold uppercase tracking-wider text-muted">Consoles d’administration</h3>
+          <h3 className="mb-2 mt-5 text-xs font-medium text-muted">Consoles d’administration</h3>
           <ul className="grid gap-2 text-sm sm:grid-cols-2">
             {[
               ["cloudflare", "Cloudflare Pages", `https://dash.cloudflare.com/${CLOUDFLARE_ACCOUNT}/workers-and-pages`],
@@ -608,7 +608,7 @@ export default function DevView() {
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 rounded-xl border border-border bg-bg-elev px-3 py-2 transition hover:border-accent/50 hover:text-accent"
+                  className="flex items-center gap-2 rounded-lg border border-border bg-surface-2/60 px-3 py-2 transition hover:border-accent/50 hover:text-accent"
                 >
                   <BrandLogo brand={brand!} size={16} />
                   {label} ↗

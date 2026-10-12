@@ -52,7 +52,7 @@ export default function CoverHero({
           width={width}
           eager
           rounded="rounded-2xl"
-          className="shadow-[0_25px_60px_-20px_rgba(0,0,0,0.95)] ring-1 ring-white/10"
+          className="shadow-[var(--shadow-pop)] ring-1 ring-[var(--cover-ring)]"
         />
         <div className="mt-3 flex items-center justify-center gap-1.5 text-[11px] text-muted">
           {Icon ? <Icon size={16} /> : null}

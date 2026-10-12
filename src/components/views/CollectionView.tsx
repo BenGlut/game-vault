@@ -6,9 +6,22 @@ import { COMPLETENESS_LABELS, euro } from "@/lib/labels";
 import { isOwned } from "@/lib/collection";
 import type { GameRow } from "@/lib/stats";
 import { euroFmt, intFmt } from "@/components/charts/core";
-import { Chip, EmptyState, PageHeader, Segmented, StatusBadge, TierBadge } from "@/components/ui/primitives";
-import { Button, Select, inputClass } from "@/components/ui/fields";
-import { GridIcon, ListIcon, SearchIcon } from "@/components/icons";
+import {
+  ActiveFilter,
+  Button,
+  Chip,
+  ChipRow,
+  EmptyState,
+  FilterBar,
+  PageHeader,
+  SearchField,
+  Segmented,
+  StatusBadge,
+  TierBadge,
+  table,
+} from "@/components/ui/primitives";
+import { Select } from "@/components/ui/fields";
+import { GridIcon, ListIcon, LibraryIcon, PlusIcon } from "@/components/icons";
 import GameCard, { CardGrid } from "@/components/game/GameCard";
 import GameCover from "@/components/game/GameCover";
 import { useGameDrawer } from "@/components/game/GameDrawer";
@@ -21,7 +34,7 @@ type Scope = "owned" | "incoming" | "all";
 type Sort = "title" | "recent" | "value" | "paid" | "quality";
 
 const SORTS: Record<Sort, string> = {
-  title: "Titre",
+  title: "Titre (A → Z)",
   recent: "Arrivée récente",
   value: "Cote la plus haute",
   paid: "Prix payé",
@@ -91,66 +104,71 @@ export default function CollectionView() {
 
   const totalValue = results.reduce((s, r) => s + (r.value ?? 0), 0);
   const resetLimit = () => setLimit(PAGE);
+  const filtered = !!(query || platform || completeness || special);
 
   return (
     <div className="animate-page">
       <PageHeader
         title="Ma collection"
-        subtitle={`${intFmt.format(stats.ownedGames)} jeux possédés · ${intFmt.format(stats.ownedItems)} exemplaires · ${euroFmt.format(stats.collectionValue)}`}
+        subtitle={`${intFmt.format(stats.ownedGames)} jeux possédés · ${intFmt.format(stats.ownedItems)} exemplaires · ${euroFmt.format(stats.collectionValue)} à la cote`}
         actions={
-          <Button variant="primary" onClick={() => openNewGame()}>
+          <Button variant="primary" icon={<PlusIcon size={15} />} onClick={() => openNewGame()} className="max-sm:hidden">
             Nouveau jeu
           </Button>
         }
       />
 
-      <div className="sticky top-[57px] z-20 -mx-4 mb-5 space-y-3 border-b border-border bg-bg/90 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6 lg:top-0 lg:-mx-10 lg:px-10">
-        <div className="flex flex-wrap items-center gap-2">
-          <div className="relative min-w-0 flex-1 basis-56">
-            <SearchIcon size={16} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted" />
-            <input
-              type="search"
+      <FilterBar
+        top={
+          <>
+            <SearchField
+              className="basis-full sm:flex-1 sm:basis-56"
               value={query}
-              onChange={(e) => {
-                setQuery(e.target.value);
+              onChange={(v) => {
+                setQuery(v);
                 resetLimit();
               }}
               placeholder="Titre, autre nom, franchise…"
-              className={`${inputClass} pl-9`}
+              label="Chercher dans la collection"
             />
-          </div>
-          <Segmented<Scope>
-            label="Périmètre"
-            value={scope}
-            onChange={(v) => {
-              setScope(v);
-              resetLimit();
-            }}
-            options={[
-              { value: "owned", label: "Possédés" },
-              { value: "incoming", label: "En route" },
-              { value: "all", label: "Tout" },
-            ]}
-          />
-          <div className="w-40">
-            <Select value={completeness} options={Object.keys(COMPLETENESS_LABELS)} labels={COMPLETENESS_LABELS} allowEmpty="Toute complétude" onChange={setCompleteness} />
-          </div>
-          <div className="w-44">
-            <Select value={sort} options={Object.keys(SORTS)} labels={SORTS} onChange={(v) => setSort(v as Sort)} />
-          </div>
-          <div className="hidden sm:block">
-            <Segmented
-              label="Affichage"
-              value={view}
-              onChange={setView}
+            <Segmented<Scope>
+              label="Périmètre"
+              value={scope}
+              onChange={(v) => {
+                setScope(v);
+                resetLimit();
+              }}
               options={[
-                { value: "grid", label: <GridIcon size={15} /> },
-                { value: "list", label: <ListIcon size={15} /> },
+                { value: "owned", label: "Possédés" },
+                { value: "incoming", label: "En route" },
+                { value: "all", label: "Tout" },
               ]}
             />
-          </div>
-        </div>
-        <div className="no-scrollbar -mx-1 flex gap-1.5 overflow-x-auto px-1">
+            <Select
+              label="Complétude"
+              className="w-[calc(50%-4px)] sm:w-44"
+              value={completeness}
+              options={Object.keys(COMPLETENESS_LABELS)}
+              labels={COMPLETENESS_LABELS}
+              allowEmpty="Toute complétude"
+              onChange={setCompleteness}
+            />
+            <Select label="Trier par" className="w-[calc(50%-4px)] sm:w-44" value={sort} options={Object.keys(SORTS)} labels={SORTS} onChange={(v) => setSort(v as Sort)} />
+            <span className="ml-auto sm:ml-0">
+              <Segmented
+                label="Affichage"
+                value={view}
+                onChange={setView}
+                options={[
+                  { value: "grid", label: <GridIcon size={15} />, title: "Grille de jaquettes" },
+                  { value: "list", label: <ListIcon size={15} />, title: "Liste" },
+                ]}
+              />
+            </span>
+          </>
+        }
+      >
+        <ChipRow label="Console">
           <Chip active={!platform} onClick={() => setPlatform("")} count={inScope.length}>
             Toutes
           </Chip>
@@ -167,80 +185,102 @@ export default function CollectionView() {
               {label}
             </Chip>
           ))}
-        </div>
-      </div>
+        </ChipRow>
+      </FilterBar>
 
-      <div className="mb-4 flex flex-wrap items-center justify-between gap-2 text-sm text-muted">
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-2 text-[13px] text-muted" aria-live="polite">
         <span>
-          {intFmt.format(results.length)} jeu{results.length > 1 ? "x" : ""}
+          <span className="font-medium text-text">{intFmt.format(results.length)}</span> jeu{results.length > 1 ? "x" : ""}
           {totalValue > 0 ? ` · ${euroFmt.format(totalValue)} à la cote` : ""}
         </span>
-        {special ? (
-          <button
-            type="button"
-            onClick={() => router.replace("/collection")}
-            className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1 text-xs font-medium text-accent"
-          >
-            {SPECIAL[special]!.label} <span aria-hidden>×</span>
-          </button>
-        ) : null}
+        {special ? <ActiveFilter onClear={() => router.replace("/collection")}>{SPECIAL[special]!.label}</ActiveFilter> : null}
       </div>
 
       {results.length === 0 ? (
-        <EmptyState title="Aucun jeu ne correspond">Essayez une autre console ou un autre mot.</EmptyState>
+        <EmptyState
+          title="Aucun jeu ne correspond"
+          icon={<LibraryIcon size={18} />}
+          action={
+            filtered ? (
+              <Button
+                onClick={() => {
+                  setQuery("");
+                  setPlatform("");
+                  setCompleteness("");
+                  if (special) router.replace("/collection");
+                }}
+              >
+                Effacer les filtres
+              </Button>
+            ) : null
+          }
+        >
+          Essayez une autre console ou un autre mot.
+        </EmptyState>
       ) : view === "grid" ? (
-        <CardGrid>
+        <CardGrid wide={!!platform && formatOf(platform).ratio > 1.25}>
           {results.slice(0, limit).map((r) => (
             <GameCard
               key={r.game.id}
               row={r}
               showState={scope !== "owned"}
               ratio={platform ? formatOf(platform).ratio : undefined}
-              footer={r.value !== null ? <span className="tabular-nums text-muted">{euroFmt.format(r.value)}</span> : null}
+              footer={r.value !== null ? euroFmt.format(r.value) : null}
             />
           ))}
         </CardGrid>
       ) : (
-        <div className="overflow-hidden rounded-2xl border border-border">
-          <table className="w-full text-sm">
-            <thead className="bg-surface text-left text-xs text-muted">
+        <div className={table.wrap}>
+          {/* largeurs fixes : le titre se tronque au lieu de pousser la cote hors de l'écran */}
+          <table className={`${table.table} table-fixed`}>
+            <thead className={table.head}>
               <tr>
-                <th className="px-4 py-2.5 font-medium">Jeu</th>
-                <th className="hidden px-3 py-2.5 font-medium md:table-cell">Console</th>
-                <th className="hidden px-3 py-2.5 font-medium lg:table-cell">Complétude</th>
-                <th className="px-3 py-2.5 text-right font-medium">Payé</th>
-                <th className="px-4 py-2.5 text-right font-medium">Cote</th>
+                <th className={table.th}>Jeu</th>
+                <th className={`${table.th} hidden w-24 md:table-cell`}>Console</th>
+                <th className={`${table.th} hidden w-44 lg:table-cell`}>Complétude</th>
+                <th className={`${table.th} hidden w-24 text-right sm:table-cell`}>Payé</th>
+                <th className={`${table.th} w-24 text-right`}>Cote</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-border">
+            <tbody className={table.body}>
               {results.slice(0, limit).map((r) => {
                 const owned = r.items.filter(isOwned);
                 return (
-                  <tr key={r.game.id} onClick={() => open(r.game.id)} className="cursor-pointer bg-bg-elev transition hover:bg-surface">
-                    <td className="px-4 py-2">
+                  <tr key={r.game.id} className={`${table.row} cursor-pointer`} onClick={() => open(r.game.id)}>
+                    <td className={table.td}>
                       <div className="flex items-center gap-3">
                         <div className="w-8 shrink-0">
-                          <GameCover gameId={r.game.id} title={r.game.canonicalTitle} rounded="rounded-md" width={40} />
+                          <GameCover gameId={r.game.id} title={r.game.canonicalTitle} rounded="rounded" width={40} />
                         </div>
                         <div className="min-w-0">
                           <div className="flex items-center gap-1.5">
-                            <TierBadge tier={r.game.qualityTier} />
-                            <span className="truncate font-medium">{r.game.canonicalTitle}</span>
+                            <TierBadge tier={r.game.qualityTier} size="sm" />
+                            {/* bouton réel : la ligne s'ouvre aussi au clavier */}
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                open(r.game.id);
+                              }}
+                              className="min-w-0 truncate text-left font-medium hover:text-accent"
+                            >
+                              {r.game.canonicalTitle}
+                            </button>
                           </div>
-                          {r.state !== "owned" ? (
-                            <div className="mt-0.5">
-                              <StatusBadge status={r.state === "incoming" ? "ordered" : "wishlist"} />
-                            </div>
-                          ) : null}
+                          <div className="mt-0.5 flex items-center gap-1.5 text-xs text-muted">
+                            <span className="md:hidden">{r.platform?.shortName ?? r.game.platformId}</span>
+                            {r.state !== "owned" ? <StatusBadge status={r.state === "incoming" ? "ordered" : "wishlist"} /> : null}
+                            {r.ownedCount > 1 ? <span>×{r.ownedCount}</span> : null}
+                          </div>
                         </div>
                       </div>
                     </td>
-                    <td className="hidden px-3 py-2 text-muted md:table-cell">{r.platform?.shortName ?? r.game.platformId}</td>
-                    <td className="hidden px-3 py-2 text-muted lg:table-cell">
+                    <td className={`${table.td} hidden text-text-2 md:table-cell`}>{r.platform?.shortName ?? r.game.platformId}</td>
+                    <td className={`${table.td} hidden text-text-2 lg:table-cell`}>
                       {[...new Set(owned.map((i) => COMPLETENESS_LABELS[i.completeness]))].join(", ") || "—"}
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-muted">{r.cost > 0 ? euro(r.cost) : "—"}</td>
-                    <td className="px-4 py-2 text-right font-medium tabular-nums">{r.value !== null ? euro(r.value) : "—"}</td>
+                    <td className={`${table.td} hidden text-right tabular-nums text-text-2 sm:table-cell`}>{r.cost > 0 ? euro(r.cost) : "—"}</td>
+                    <td className={`${table.td} text-right font-medium tabular-nums`}>{r.value !== null ? euro(r.value) : "—"}</td>
                   </tr>
                 );
               })}

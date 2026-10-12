@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import type { GameQuotes } from "@/lib/schema";
-import { evaluateDeal, VERDICT_COLORS } from "@/lib/deal";
+import { evaluateDeal } from "@/lib/deal";
+import { Badge, Segmented, VERDICT_TONES } from "@/components/ui/primitives";
 
 function euro(n: number): string {
   return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(n);
@@ -15,54 +16,42 @@ export default function MiniEstimator({ quotes }: { quotes: GameQuotes }) {
   const quote = quotes[state];
   const priceNum = Number(price.replace(",", "."));
   const result = quote && price && !Number.isNaN(priceNum) ? evaluateDeal(priceNum, quote) : null;
+  const options = (
+    [
+      ["cib", "Boîte"],
+      ["loose", "Loose"],
+    ] as const
+  )
+    .filter(([v]) => quotes[v])
+    .map(([value, label]) => ({ value, label }));
 
   return (
-    <div className="mt-3 rounded-lg border border-border bg-surface-2 p-3">
-      <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">
-        Estimer une annonce
-      </div>
+    <div className="mt-3 rounded-xl border border-border bg-surface-2/60 p-3">
+      <div className="mb-2 text-xs font-medium text-text-2">Estimer une annonce</div>
       <div className="flex flex-wrap items-center gap-2">
-        <div className="flex overflow-hidden rounded-lg border border-border">
-          {(
-            [
-              ["cib", "Boîte"],
-              ["loose", "Loose"],
-            ] as const
-          ).map(([value, label]) => (
-            <button
-              key={value}
-              type="button"
-              onClick={() => setState(value)}
-              disabled={!quotes[value]}
-              className={`px-3 py-1.5 text-xs transition disabled:opacity-40 ${
-                state === value ? "bg-accent-soft text-accent" : "bg-surface text-muted hover:text-text"
-              }`}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
-        <input
-          type="number"
-          inputMode="decimal"
-          min="0"
-          step="0.5"
-          placeholder="Prix €"
-          value={price}
-          onChange={(e) => setPrice(e.target.value)}
-          className="w-24 rounded-lg border border-border bg-surface px-2 py-1.5 text-sm focus:border-accent focus:outline-none"
-        />
+        <Segmented<"cib" | "loose"> label="État de l’annonce" value={state} onChange={setState} options={options} />
+        <label className="relative">
+          <span className="sr-only">Prix affiché en euros</span>
+          <input
+            type="number"
+            inputMode="decimal"
+            min="0"
+            step="0.5"
+            placeholder="Prix"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+            className="h-9 w-24 rounded-lg border border-border bg-surface pl-3 pr-6 text-[13px] outline-none transition placeholder:text-muted focus:border-accent focus:ring-2 focus:ring-accent/20"
+          />
+          <span className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-muted">€</span>
+        </label>
         {result ? (
-          <span
-            className="rounded-full px-3 py-1 text-sm font-bold"
-            style={{ color: VERDICT_COLORS[result.verdict], backgroundColor: `${VERDICT_COLORS[result.verdict]}20` }}
-          >
-            {result.label} ({result.deltaPct > 0 ? "+" : ""}
-            {result.deltaPct} %)
-          </span>
+          <Badge tone={VERDICT_TONES[result.verdict]} size="lg" strong>
+            {result.label} · {result.deltaPct > 0 ? "+" : ""}
+            {result.deltaPct} %
+          </Badge>
         ) : quote ? (
           <span className="text-xs text-muted">
-            cote : {euro(quote.low)} / {euro(quote.median)} / {euro(quote.high)}
+            cote {euro(quote.low)} · {euro(quote.median)} · {euro(quote.high)}
           </span>
         ) : null}
       </div>

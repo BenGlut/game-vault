@@ -4,21 +4,28 @@ import { useEffect, useRef, useState } from "react";
 
 /**
  * Socle des graphiques maison (SVG) : mesure responsive, graduations propres,
- * palette catégorielle validée pour le fond sombre (#12141d) — ordre fixe, jamais cyclé.
+ * palette catégorielle par thème (jetons --series-1…8 de globals.css), validée contre la
+ * surface des cartes de chaque thème (≥ 3:1, tests/theme-contrast.test.ts) — ordre fixe,
+ * jamais cyclé. Ce sont des var() CSS : elles suivent le thème sans re-rendu et
+ * s'appliquent par `style` (fill / stroke) dans les SVG.
  */
 
-export const SERIES = ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767"];
+export const SERIES = [1, 2, 3, 4, 5, 6, 7, 8].map((i) => `var(--series-${i})`);
 
 /** Couleur de marque pour un graphique à série unique (pas de légende, le titre nomme la série). */
-export const ACCENT = "#f5b642";
+export const ACCENT = "var(--chart-accent)";
 
 export const CHART = {
-  grid: "#1f2432",
-  baseline: "#2f364a",
-  ink: "#eef1f7",
-  muted: "#8a93a8",
-  surface: "#12141d",
+  grid: "var(--chart-grid)",
+  baseline: "var(--chart-baseline)",
+  ink: "var(--text)",
+  muted: "var(--muted)",
+  surface: "var(--surface)",
 };
+
+/** Infobulle commune des graphiques. */
+export const TOOLTIP_CLASS =
+  "pointer-events-none absolute z-10 rounded-lg border border-border-strong bg-bg-elev/95 px-3 py-2 text-xs shadow-[var(--shadow-pop)] backdrop-blur";
 
 export function useWidth<T extends HTMLElement>(): [React.RefObject<T | null>, number] {
   const ref = useRef<T>(null);

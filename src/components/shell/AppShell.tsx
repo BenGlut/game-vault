@@ -9,8 +9,10 @@ import { GameDrawerProvider } from "@/components/game/GameDrawer";
 import { CoverSourcesProvider } from "@/components/game/coverSources";
 import { NewGameProvider, useNewGame } from "@/components/game/NewGameForm";
 import { api } from "@/components/vault/api";
+import { Button, IconButton, Kbd, cx, useFocusTrap } from "@/components/ui/primitives";
 import CommandPalette from "./CommandPalette";
-import { MOBILE_TABS, NAV_ITEMS, isActive } from "./nav";
+import ThemeSwitcher from "./ThemeSwitcher";
+import { MOBILE_TABS, NAV_ITEMS, isActive, shortLabel } from "./nav";
 
 /**
  * Cadre de l'application privée : menu latéral groupé, recherche globale (⌘K),
@@ -30,6 +32,17 @@ export default function AppShell({ children }: { children: ReactNode }) {
   );
 }
 
+function Logo({ compact = false }: { compact?: boolean }) {
+  return (
+    <Link href="/" className="flex items-center gap-2.5 rounded-lg" aria-label="GameVault, tableau de bord">
+      <span className={cx("flex items-center justify-center rounded-lg bg-brand text-brand-ink shadow-[var(--shadow-sm)]", compact ? "h-7 w-7" : "h-8 w-8")}>
+        <GamepadIcon size={compact ? 16 : 18} />
+      </span>
+      <span className="text-[15px] font-semibold tracking-[-0.02em]">GameVault</span>
+    </Link>
+  );
+}
+
 function Frame({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const vault = useVaultMaybe();
@@ -40,7 +53,7 @@ function Frame({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      const typing = e.target instanceof HTMLElement && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+      const typing = e.target instanceof HTMLElement && (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable);
       if ((e.key === "k" && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
         e.preventDefault();
         setPaletteOpen(true);
@@ -54,33 +67,34 @@ function Frame({ children }: { children: ReactNode }) {
 
   const logout = () => api.logout().finally(() => location.assign("/connexion/"));
   const groups = [...new Set(NAV_ITEMS.map((n) => n.group))];
+  const moreActive = NAV_ITEMS.some((n) => !MOBILE_TABS.includes(n.href) && isActive(pathname, n.href));
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-dvh">
       {/* menu latéral (ordinateur) */}
-      <aside className="fixed inset-y-0 left-0 z-30 hidden w-60 flex-col border-r border-border bg-bg-elev/80 px-3 py-5 backdrop-blur lg:flex">
-        <Link href="/" className="mb-6 flex items-center gap-2.5 px-3">
-          <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-accent-soft text-accent ring-1 ring-accent/30">
-            <GamepadIcon size={18} />
-          </span>
-          <span className="text-[17px] font-semibold tracking-tight">
-            Game<span className="text-accent">Vault</span>
-          </span>
-        </Link>
-        <button
-          type="button"
-          onClick={() => setPaletteOpen(true)}
-          className="mb-5 flex items-center gap-2 rounded-xl border border-border bg-surface px-3 py-2 text-sm text-muted transition hover:border-border-strong hover:text-text"
-        >
-          <SearchIcon size={15} />
-          <span className="flex-1 text-left">Rechercher</span>
-          <kbd className="rounded-md border border-border px-1.5 text-[10px]">⌘K</kbd>
-        </button>
-        <nav className="flex-1 space-y-5 overflow-y-auto">
+      <aside className="fixed inset-y-0 left-0 z-30 hidden w-60 flex-col border-r border-border bg-bg-elev lg:flex" aria-label="Menu principal">
+        <div className="flex h-14 items-center px-4">
+          <Logo />
+        </div>
+        <div className="space-y-2 px-3 pb-4 pt-1">
+          <Button variant="primary" className="w-full" icon={<PlusIcon size={16} />} disabled={!vault} onClick={() => openNewGame()}>
+            Nouveau jeu
+          </Button>
+          <button
+            type="button"
+            onClick={() => setPaletteOpen(true)}
+            className="flex h-9 w-full items-center gap-2 rounded-lg border border-border bg-surface px-3 text-[13px] text-muted shadow-[var(--shadow-sm)] transition hover:border-border-strong hover:text-text"
+          >
+            <SearchIcon size={15} />
+            <span className="flex-1 text-left">Rechercher</span>
+            <Kbd>⌘K</Kbd>
+          </button>
+        </div>
+        <nav className="flex-1 space-y-5 overflow-y-auto px-3 pb-4" aria-label="Pages">
           {groups.map((group) => (
             <div key={group}>
-              <div className="mb-1 px-3 text-[11px] font-medium uppercase tracking-wider text-muted/70">{group}</div>
-              <ul className="space-y-0.5">
+              <div className="mb-1 px-2.5 text-[11px] font-medium text-muted">{group}</div>
+              <ul className="space-y-px">
                 {NAV_ITEMS.filter((n) => n.group === group).map((n) => {
                   const Icon = NAV_ICONS[n.href];
                   const active = isActive(pathname, n.href);
@@ -88,14 +102,19 @@ function Frame({ children }: { children: ReactNode }) {
                     <li key={n.href}>
                       <Link
                         href={n.href}
-                        className={`group flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm transition ${
-                          active ? "bg-surface-2 font-medium text-text" : "text-muted hover:bg-surface hover:text-text"
-                        }`}
+                        aria-current={active ? "page" : undefined}
+                        className={cx(
+                          "group relative flex h-8 items-center gap-2.5 rounded-md px-2.5 text-[13px] transition",
+                          active ? "bg-surface-2 font-medium text-text" : "text-text-2 hover:bg-surface-2/70 hover:text-text",
+                        )}
                       >
-                        {Icon ? <Icon size={17} className={active ? "text-accent" : "opacity-80"} /> : null}
+                        {active ? <span className="absolute -left-3 top-1.5 bottom-1.5 w-[3px] rounded-r bg-brand" aria-hidden /> : null}
+                        {Icon ? <Icon size={16} className={active ? "text-accent" : "text-muted transition group-hover:text-text-2"} /> : null}
                         <span className="flex-1">{n.label}</span>
                         {n.href === "/commandes" && incoming ? (
-                          <span className="rounded-full bg-info/15 px-1.5 text-[11px] font-semibold text-info">{incoming}</span>
+                          <span className="rounded-full bg-info/12 px-1.5 text-[11px] font-semibold tabular-nums text-info" aria-label={`${incoming} en cours`}>
+                            {incoming}
+                          </span>
                         ) : null}
                       </Link>
                     </li>
@@ -105,59 +124,44 @@ function Frame({ children }: { children: ReactNode }) {
             </div>
           ))}
         </nav>
-        <div className="space-y-1 border-t border-border pt-3">
-          <button
-            type="button"
-            onClick={() => openNewGame()}
-            disabled={!vault}
-            className="flex w-full items-center justify-center gap-2 rounded-xl bg-accent px-3 py-2 text-sm font-medium text-bg transition hover:bg-accent-2 disabled:opacity-50"
-          >
-            <PlusIcon size={16} /> Nouveau jeu
-          </button>
-          <button
-            type="button"
-            onClick={logout}
-            className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-text"
-          >
-            <LogOutIcon size={16} /> Se déconnecter
-          </button>
+        <div className="flex items-center justify-between gap-2 border-t border-border px-3 py-3">
+          <ThemeSwitcher />
+          <IconButton label="Se déconnecter" onClick={logout} size="sm">
+            <LogOutIcon size={15} />
+          </IconButton>
         </div>
       </aside>
 
       {/* en-tête (téléphone, tablette) */}
-      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-border bg-bg/85 px-4 py-3 backdrop-blur lg:hidden">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-accent-soft text-accent">
-            <GamepadIcon size={16} />
-          </span>
-          <span className="font-semibold">
-            Game<span className="text-accent">Vault</span>
-          </span>
-        </Link>
+      <header className="sticky top-0 z-30 flex h-14 items-center justify-between border-b border-border bg-bg/85 px-4 backdrop-blur-md lg:hidden">
+        <Logo compact />
         <div className="flex items-center gap-1">
-          <button type="button" aria-label="Rechercher" onClick={() => setPaletteOpen(true)} className="rounded-xl p-2 text-muted hover:text-text">
-            <SearchIcon size={20} />
-          </button>
+          <IconButton label="Rechercher" onClick={() => setPaletteOpen(true)}>
+            <SearchIcon size={19} />
+          </IconButton>
           <button
             type="button"
             aria-label="Nouveau jeu"
             disabled={!vault}
             onClick={() => openNewGame()}
-            className="rounded-xl p-2 text-accent disabled:opacity-50"
+            className="ml-1 flex h-9 w-9 items-center justify-center rounded-lg bg-brand text-brand-ink shadow-[var(--shadow-sm)] transition hover:bg-brand-strong disabled:opacity-45"
           >
-            <PlusIcon size={20} />
+            <PlusIcon size={18} />
           </button>
         </div>
       </header>
 
-      <main className="px-4 pb-28 pt-5 sm:px-6 lg:ml-60 lg:px-10 lg:pb-12 lg:pt-8">
-        <div className="mx-auto max-w-7xl">
+      <main id="contenu" tabIndex={-1} className="px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 outline-none sm:px-6 lg:ml-60 lg:px-10 lg:pb-14 lg:pt-8">
+        <div className="mx-auto max-w-[1280px]">
           <VaultGate>{children}</VaultGate>
         </div>
       </main>
 
       {/* onglets du bas (téléphone) */}
-      <nav className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-bg-elev/95 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden" aria-label="Navigation principale">
+      <nav
+        className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-bg-elev/92 pb-[env(safe-area-inset-bottom)] backdrop-blur-md lg:hidden"
+        aria-label="Navigation principale"
+      >
         <ul className="grid grid-cols-5">
           {MOBILE_TABS.map((href) => {
             const item = NAV_ITEMS.find((n) => n.href === href)!;
@@ -165,54 +169,88 @@ function Frame({ children }: { children: ReactNode }) {
             const active = isActive(pathname, href);
             return (
               <li key={href}>
-                <Link href={href} className={`relative flex flex-col items-center gap-1 py-2.5 text-[11px] ${active ? "text-accent" : "text-muted"}`}>
-                  {Icon ? <Icon size={20} /> : null}
-                  {item.label.replace("Tableau de bord", "Accueil").replace("Ma collection", "Collection")}
+                <Link
+                  href={href}
+                  aria-current={active ? "page" : undefined}
+                  className={cx("relative flex h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-medium transition", active ? "text-text" : "text-muted")}
+                >
+                  {active ? <span className="absolute top-0 h-0.5 w-8 rounded-b bg-brand" aria-hidden /> : null}
+                  {Icon ? <Icon size={20} className={active ? "text-accent" : ""} /> : null}
+                  {shortLabel(item)}
                   {href === "/commandes" && incoming ? (
-                    <span className="absolute right-[22%] top-1.5 h-2 w-2 rounded-full bg-info" aria-label={`${incoming} en cours`} />
+                    <span className="absolute right-[24%] top-2 h-2 w-2 rounded-full bg-info ring-2 ring-bg-elev" aria-label={`${incoming} en cours`} />
                   ) : null}
                 </Link>
               </li>
             );
           })}
           <li>
-            <button type="button" onClick={() => setMoreOpen(true)} className="flex w-full flex-col items-center gap-1 py-2.5 text-[11px] text-muted">
-              <MenuIcon size={20} />
+            <button
+              type="button"
+              onClick={() => setMoreOpen(true)}
+              aria-expanded={moreOpen}
+              className={cx("relative flex h-14 w-full flex-col items-center justify-center gap-0.5 text-[11px] font-medium", moreActive ? "text-text" : "text-muted")}
+            >
+              {moreActive ? <span className="absolute top-0 h-0.5 w-8 rounded-b bg-brand" aria-hidden /> : null}
+              <MenuIcon size={20} className={moreActive ? "text-accent" : ""} />
               Plus
             </button>
           </li>
         </ul>
       </nav>
 
-      {moreOpen ? (
-        <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true" aria-label="Plus de pages">
-          <div className="absolute inset-0 bg-black/60" onClick={() => setMoreOpen(false)} />
-          <div className="animate-sheet absolute inset-x-0 bottom-0 rounded-t-3xl border-t border-border-strong bg-bg-elev p-4 pb-[calc(1rem+env(safe-area-inset-bottom))]">
-            <div className="mx-auto mb-4 h-1 w-10 rounded-full bg-border-strong" />
-            <ul className="grid grid-cols-3 gap-2">
-              {NAV_ITEMS.filter((n) => !MOBILE_TABS.includes(n.href)).map((n) => {
-                const Icon = NAV_ICONS[n.href];
-                return (
-                  <li key={n.href}>
-                    <Link href={n.href} className="flex flex-col items-center gap-2 rounded-2xl bg-surface px-2 py-4 text-xs">
-                      {Icon ? <Icon size={22} className="text-accent" /> : null}
-                      {n.label}
-                    </Link>
-                  </li>
-                );
-              })}
-              <li>
-                <button type="button" onClick={logout} className="flex w-full flex-col items-center gap-2 rounded-2xl bg-surface px-2 py-4 text-xs text-muted">
-                  <LogOutIcon size={22} />
-                  Déconnexion
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      ) : null}
+      {moreOpen ? <MoreSheet pathname={pathname} onClose={() => setMoreOpen(false)} onLogout={logout} /> : null}
 
       {vault ? <CommandPalette open={paletteOpen} onClose={() => setPaletteOpen(false)} /> : null}
+    </div>
+  );
+}
+
+/** Feuille « Plus » (téléphone) : autres pages, thème, déconnexion. */
+function MoreSheet({ pathname, onClose, onLogout }: { pathname: string; onClose: () => void; onLogout: () => void }) {
+  const ref = useFocusTrap<HTMLDivElement>(true);
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [onClose]);
+  return (
+    <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true" aria-label="Plus de pages">
+      <div className="animate-fade absolute inset-0 bg-[var(--overlay)]" onClick={onClose} />
+      <div
+        ref={ref}
+        className="animate-sheet absolute inset-x-0 bottom-0 rounded-t-2xl border-t border-border-strong bg-bg-elev p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] shadow-[var(--shadow-pop)]"
+      >
+        <div className="mx-auto mb-4 h-1 w-10 rounded-full bg-border-strong" aria-hidden />
+        <ul className="grid grid-cols-3 gap-2">
+          {NAV_ITEMS.filter((n) => !MOBILE_TABS.includes(n.href)).map((n) => {
+            const Icon = NAV_ICONS[n.href];
+            const active = isActive(pathname, n.href);
+            return (
+              <li key={n.href}>
+                <Link
+                  href={n.href}
+                  aria-current={active ? "page" : undefined}
+                  className={cx(
+                    "flex flex-col items-center gap-2 rounded-xl border px-2 py-3.5 text-xs font-medium transition",
+                    active ? "border-accent/40 bg-accent/10 text-text" : "border-border bg-surface text-text-2",
+                  )}
+                >
+                  {Icon ? <Icon size={20} className="text-accent" /> : null}
+                  {n.label}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+        <div className="mt-4 flex items-center justify-between gap-3 rounded-xl border border-border bg-surface px-3 py-2.5">
+          <span className="text-[13px] font-medium">Thème</span>
+          <ThemeSwitcher withLabels />
+        </div>
+        <Button variant="ghost" className="mt-2 w-full" icon={<LogOutIcon size={16} />} onClick={onLogout}>
+          Se déconnecter
+        </Button>
+      </div>
     </div>
   );
 }

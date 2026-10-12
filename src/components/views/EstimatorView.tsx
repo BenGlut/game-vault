@@ -21,7 +21,7 @@ export default function EstimatorView() {
 
   return (
     <div className="animate-page">
-      <PageHeader title="Estimateur" subtitle="Bon plan ou pas ? Le jeu, l’état et le prix affiché donnent un verdict immédiat" />
+      <PageHeader title="Estimateur" subtitle="Bon plan ou pas ? Le jeu, l’état et le prix affiché donnent un verdict immédiat." />
       <DealEstimator docs={docs} quotes={quotes} covers={covers} />
     </div>
   );
