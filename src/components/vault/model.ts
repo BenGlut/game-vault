@@ -3,6 +3,7 @@
  */
 import type { Game, InventoryItem, InventoryStatus, Platform } from "@/lib/schema";
 import { gameId, normalizeTitle, slugify } from "@/lib/normalize";
+import { AMIIBO_PLATFORM } from "@/lib/amiibo";
 
 export interface NewGameInput {
   title: string;
@@ -35,7 +36,7 @@ export function makeGame(games: Game[], platforms: Platform[], input: NewGameInp
   const platform = platforms.find((p) => p.id === input.platformId);
   return {
     id,
-    kind: "game",
+    kind: input.platformId === AMIIBO_PLATFORM ? "amiibo" : "game",
     canonicalTitle: input.title.trim(),
     normalizedTitle: normalizeTitle(input.title),
     aliases: input.aliases ?? [],

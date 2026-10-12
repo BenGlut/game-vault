@@ -137,6 +137,7 @@ export interface CollectionStats {
   ownedGames: number;
   ownedItems: number;
   ownedHardware: number;
+  ownedAmiibo: number;
   wishlist: number;
   wishlistHigh: number;
   incomingOrders: Order[];
@@ -169,9 +170,11 @@ export function computeStats(
   today = new Date().toISOString().slice(0, 10),
 ): CollectionStats {
   const rows = buildRows(v);
-  const games = rows.filter((r) => r.game.kind !== "hardware");
+  // objets de collection (jeux + amiibo) : valeur, coût, exemplaires ; les compteurs « jeux » ne gardent que les jeux
+  const collectibles = rows.filter((r) => r.game.kind !== "hardware");
+  const games = rows.filter((r) => r.game.kind === "game");
   const ownedRows = games.filter((r) => r.ownedCount > 0);
-  const ownedItems = games.flatMap((r) => r.items.filter(isOwned).map((item) => ({ row: r, item })));
+  const ownedItems = collectibles.flatMap((r) => r.items.filter(isOwned).map((item) => ({ row: r, item })));
   const liveOrders = v.orders.filter(LIVE_ORDER);
   const incomingOrders = v.orders
     .filter((o) => o.status === "ordered" || o.status === "fulfilled")
@@ -289,6 +292,7 @@ export function computeStats(
     ownedGames: ownedRows.length,
     ownedItems: ownedItems.length,
     ownedHardware: rows.filter((r) => r.game.kind === "hardware" && r.ownedCount > 0).length,
+    ownedAmiibo: rows.filter((r) => r.game.kind === "amiibo" && r.ownedCount > 0).length,
     wishlist: games.filter((r) => stillWanted(r.items)).length,
     wishlistHigh: games.filter((r) => stillWanted(r.items) && r.game.buyPriority === "haute").length,
     incomingOrders,

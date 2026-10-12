@@ -1,6 +1,21 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Amiibo** (demande de benglut, 13/10) : nouveau type d'entrée `amiibo` (`ENTRY_KINDS`,
+  `src/lib/schema.ts`) et console `amiibo` (créée dans D1 via le MCP ; `pnpm d1 pull`
+  avant toute commande `pnpm vault`). Les amiibo se possèdent, se mettent en wishlist et
+  se valorisent comme les jeux, mais ne comptent pas dans « jeux possédés » ni dans la
+  wishlist de jeux (`stats.ts` : `collectibles` / `games`, compteur `ownedAmiibo`).
+  Catalogue complet des 950 amiibo (figurines, cartes, laine, bracelets, blocs) et table
+  de compatibilité avec 132 jeux Switch / Switch 2 / 3DS / Wii U, depuis AmiiboAPI
+  (`scripts/catalog/fetch-amiibo.ts` → `public/catalog/amiibo.json`, `amiibo-compat.json`).
+  Rapprochement jeux de la base ↔ titres anglais d'AmiiboAPI : titre, alias, table FR → EN,
+  suffixe « Nintendo Switch 2 Edition » ignoré (`src/lib/amiibo.ts`, test
+  `tests/amiibo.test.ts`). Interface : onglet amiibo du Catalogue (hors « Toutes ») avec
+  filtres « Compatible avec… » (mes jeux d'abord) et Série ; fiche d'un amiibo = jeux
+  compatibles et ce qu'il débloque ; fiche d'un jeu = amiibo compatibles, possédés en tête
+  (`src/components/game/AmiiboCompat.tsx`, `CatalogView.tsx`, `CatalogEntryPanel.tsx`,
+  `GameDetail.tsx`). CLI : `--kind amiibo`.
 - **Catalogue Switch : jeux en boîte manquants, tiers S à D, pastille boîte FR**
   (demande de benglut, 12/10). L'eShop range en « dématérialisé » des jeux sortis en
   cartouche (Persona 5 Royal, Return to Monkey Island, Les Chevaliers de Baphomet 5,

@@ -34,6 +34,7 @@ import {
   QualityTierSchema,
   BuyPrioritySchema,
   POSSESSION_STATUSES,
+  ENTRY_KINDS,
   type Game,
   type InventoryItem,
   type Order,
@@ -276,9 +277,9 @@ function main(): void {
       case "add-game": {
         const title = optStr(options, "title");
         const platform = optStr(options, "platform");
-        if (!title || !platform) throw new Error("usage: pnpm vault add-game --title ... --platform ds|3ds|... [--kind game|hardware] [--region PAL-FR] [--media cartridge] [--franchise ...] [--aliases 'a|b'] [--edition ...] [--plays-on switch,switch2] [--year 2015] [--ean 0045496…]");
+        if (!title || !platform) throw new Error("usage: pnpm vault add-game --title ... --platform ds|3ds|... [--kind game|hardware|amiibo] [--region PAL-FR] [--media cartridge] [--franchise ...] [--aliases 'a|b'] [--edition ...] [--plays-on switch,switch2] [--year 2015] [--ean 0045496…]");
         const kind = (optStr(options, "kind") ?? "game") as Game["kind"];
-        if (kind !== "game" && kind !== "hardware") throw new Error("--kind attend game ou hardware");
+        if (!ENTRY_KINDS.includes(kind)) throw new Error("--kind attend game, hardware ou amiibo");
         runMutation("add-game", yes, `add game ${title} (${platform})`, (v) => {
           if (!v.platforms.some((p) => p.id === platform)) throw new Error(`Plateforme inconnue: ${platform}`);
           const id = makeGameId(platform, title);

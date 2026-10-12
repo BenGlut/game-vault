@@ -26,6 +26,7 @@ import CatalogEntryPanel from "./CatalogEntryPanel";
 import { sizedInput } from "@/components/ui/fields";
 import { expandAbbreviations } from "@/lib/abbreviations";
 import { buildEntryLinks, type CatalogGameLink } from "@/lib/catalog-match";
+import { AMIIBO_PLATFORM, COMPAT_PLATFORM_LABELS, compatGameIndexes, type AmiiboCompat } from "@/lib/amiibo";
 
 /** Les 35 000 jaquettes du catalogue restent servies par GitHub Pages (plafond Cloudflare). */
 const COVERS_BASE = "https://benglut.github.io/game-vault";
@@ -43,6 +44,10 @@ interface CatalogEntry {
   sq?: boolean;
   /** boîte : fr, eu (multilingue) ou etr (import) — Switch seulement */
   b?: string;
+  /** amiibo : série, type (Figurine, Carte…), sortie européenne */
+  s?: string;
+  ty?: string;
+  d?: string;
 }
 
 function norm(s: string): string {
@@ -65,7 +70,11 @@ const PLATFORM_LABELS: Record<string, string> = {
   switch: "Switch",
   "switch-digital": "Switch digital",
   switch2: "Switch 2",
+  amiibo: "amiibo",
 };
+
+/** « Toutes » = toutes les consoles de jeux ; les amiibo ont leur propre onglet */
+const GAME_PLATFORM_IDS = Object.keys(PLATFORM_LABELS).filter((id) => id !== AMIIBO_PLATFORM);
 
 /** ids de plateforme, du plus long au plus court (préfixes imbriqués) */
 const PLATFORM_IDS = Object.keys(PLATFORM_LABELS).sort((a, b) => b.length - a.length);
@@ -76,6 +85,7 @@ const PLATFORM_CODES: Record<string, string> = {
   switch: "SWITCH",
   "switch-digital": "SW DIGITAL",
   switch2: "SWITCH 2",
+  amiibo: "AMIIBO",
 };
 
 const selectClass = cx(sizedInput("w-[calc(50%-4px)] sm:w-auto"), "gv-select cursor-pointer");
@@ -93,6 +103,11 @@ export default function CatalogView() {
   const [region, setRegion] = useState("");
   const [quality, setQuality] = useState("");
   const [box, setBox] = useState("");
+  // amiibo : jeu compatible (index dans amiibo-compat.json) et série
+  const [compatGame, setCompatGame] = useState("");
+  const [series, setSeries] = useState("");
+  const [compat, setCompat] = useState<AmiiboCompat | null>(null);
+  const isAmiibo = platform === AMIIBO_PLATFORM;
   const [error, setError] = useState<string | null>(null);
   const [attempt, setAttempt] = useState(0);
   const drawer = useGameDrawer();
@@ -139,6 +154,8 @@ export default function CatalogView() {
     read("region", setRegion);
     read("qualite", setQuality);
     read("boite", setBox);
+    read("jeu", setCompatGame);
+    read("serie", setSeries);
   }, []);
 
   // reflète chaque sélection dans l'URL
@@ -150,15 +167,26 @@ export default function CatalogView() {
     if (region) params.set("region", region);
     if (quality) params.set("qualite", quality);
     if (box) params.set("boite", box);
+    if (compatGame) params.set("jeu", compatGame);
+    if (series) params.set("serie", series);
     const qs = params.toString();
     window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [platform, query, possession, region, quality, box]);
+  }, [platform, query, possession, region, quality, box, compatGame, series]);
+
+  // table de compatibilité, chargée au premier passage sur les amiibo
+  useEffect(() => {
+    if (!isAmiibo || compat) return;
+    fetch("/catalog/amiibo-compat.json")
+      .then((r) => (r.ok ? (r.json() as Promise<AmiiboCompat>) : null))
+      .then((c) => c && setCompat(c))
+      .catch(() => undefined);
+  }, [isAmiibo, compat]);
 
   useEffect(() => {
     let cancelled = false;
     setLists(null);
     setError(null);
-    const ids = platform ? [platform] : Object.keys(PLATFORM_LABELS);
+    const ids = platform ? [platform] : GAME_PLATFORM_IDS;
     Promise.all(
       ids.map((id) =>
         fetch(`/catalog/${id}.json`).then((r) => {
@@ -185,6 +213,24 @@ export default function CatalogView() {
     return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([r]) => r);
   }, [entries]);
 
+  // filtre amiibo « Compatible avec » : les jeux de ta collection (possédés ou en route) d'abord
+  const compatOptions = useMemo(() => {
+    if (!compat) return null;
+    const mine = new Set<number>();
+    for (const r of stats.rows) {
+      if (r.game.kind !== "game" || (r.ownedCount === 0 && r.state !== "incoming")) continue;
+      for (const i of compatGameIndexes(r.game, compat)) mine.add(i);
+    }
+    const all = compat.games
+      .map((g, i) => ({ i, label: `${g.t} (${COMPAT_PLATFORM_LABELS[g.p] ?? g.p})`, mine: mine.has(i) }))
+      .sort((a, b) => a.label.localeCompare(b.label, "fr"));
+    return { mine: all.filter((o) => o.mine), others: all.filter((o) => !o.mine) };
+  }, [compat, stats.rows]);
+  const seriesList = useMemo(
+    () => (isAmiibo && entries ? [...new Set(entries.map((e) => e.s).filter((s): s is string => !!s))].sort((a, b) => a.localeCompare(b, "fr")) : []),
+    [isAmiibo, entries],
+  );
+
   const filtered = useMemo(() => {
     if (!entries) return [];
     // « dqm 2 » doit trouver « Dragon Quest Monsters - Joker 2 »
@@ -198,19 +244,23 @@ export default function CatalogView() {
       const tier = links[e.id]?.quality ?? e.q ?? null;
       if (quality && tier !== quality) return false;
       if (box && e.b !== box) return false;
+      if (isAmiibo && series && e.s !== series) return false;
+      if (isAmiibo && compatGame && compat && !(compat.links[e.id] ?? []).some(([g]) => String(g) === compatGame)) return false;
       if (qWords.length && !qWords.every((w) => e.n.includes(w))) return false;
       return true;
     });
-  }, [entries, query, possession, links, region, quality, box]);
+  }, [entries, query, possession, links, region, quality, box, isAmiibo, series, compatGame, compat]);
 
   const shown = filtered.slice(0, 200);
-  const anyFilter = !!(query || possession || region || quality || box);
+  const anyFilter = !!(query || possession || region || quality || box || compatGame || series);
   const clearFilters = () => {
     setQuery("");
     setPossession("");
     setRegion("");
     setQuality("");
     setBox("");
+    setCompatGame("");
+    setSeries("");
   };
 
   return (
@@ -245,12 +295,52 @@ export default function CatalogView() {
       <FilterBar
         top={
           <>
-            <SearchField className="basis-full lg:flex-1 lg:basis-64" value={query} onChange={setQuery} placeholder="Chercher dans tous les jeux sortis…" />
+            <SearchField
+              className="basis-full lg:flex-1 lg:basis-64"
+              value={query}
+              onChange={setQuery}
+              placeholder={isAmiibo ? "Chercher un amiibo…" : "Chercher dans tous les jeux sortis…"}
+            />
             <select aria-label="Possession" value={possession} onChange={(e) => setPossession(e.target.value)} className={selectClass}>
               <option value="">Possédés ou non</option>
               <option value="owned">Dans ma collection</option>
               <option value="missing">Pas dans ma collection</option>
             </select>
+            {isAmiibo ? (
+              <>
+                <select aria-label="Jeu compatible" value={compatGame} onChange={(e) => setCompatGame(e.target.value)} className={selectClass}>
+                  <option value="">Compatible avec…</option>
+                  {compatOptions?.mine.length ? (
+                    <optgroup label="Mes jeux">
+                      {compatOptions.mine.map((o) => (
+                        <option key={o.i} value={o.i}>
+                          {o.label}
+                        </option>
+                      ))}
+                    </optgroup>
+                  ) : null}
+                  {compatOptions ? (
+                    <optgroup label="Autres jeux">
+                      {compatOptions.others.map((o) => (
+                        <option key={o.i} value={o.i}>
+                          {o.label}
+                        </option>
+                      ))}
+                    </optgroup>
+                  ) : null}
+                </select>
+                <select aria-label="Série" value={series} onChange={(e) => setSeries(e.target.value)} className={selectClass}>
+                  <option value="">Toutes les séries</option>
+                  {seriesList.map((s) => (
+                    <option key={s} value={s}>
+                      {s}
+                    </option>
+                  ))}
+                </select>
+              </>
+            ) : null}
+            {isAmiibo ? null : (
+              <>
             <select aria-label="Région" value={region} onChange={(e) => setRegion(e.target.value)} className={selectClass}>
               <option value="">Toutes régions</option>
               {regions.map((r) => (
@@ -273,6 +363,8 @@ export default function CatalogView() {
               <option value="eu">EU — multilingue, FR à vérifier</option>
               <option value="etr">ÉTR — import seulement</option>
             </select>
+              </>
+            )}
           </>
         }
       />
@@ -287,7 +379,7 @@ export default function CatalogView() {
         <>
           <div className="mb-4 flex flex-wrap items-center justify-between gap-2 text-[13px] text-muted" aria-live="polite">
             <span>
-              <span className="font-medium text-text">{filtered.length.toLocaleString("fr-FR")}</span> jeu{filtered.length > 1 ? "x" : ""} sur{" "}
+              <span className="font-medium text-text">{filtered.length.toLocaleString("fr-FR")}</span> {isAmiibo ? "amiibo" : `jeu${filtered.length > 1 ? "x" : ""}`} sur{" "}
               {entries.length.toLocaleString("fr-FR")} référencés
               {shown.length < filtered.length ? ` · ${shown.length} affichés, affinez la recherche` : ""}
             </span>
@@ -351,8 +443,9 @@ export default function CatalogView() {
                       </span>
                       <div className="mt-1">
                         <span className="block min-w-0 truncate text-xs text-muted">
-                          {platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}
-                          {e.r.join(", ") || "région inconnue"}
+                          {e.s
+                            ? `${e.ty ?? "amiibo"} · ${e.s}`
+                            : `${platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}${e.r.join(", ") || "région inconnue"}`}
                         </span>
                       </div>
                     </div>

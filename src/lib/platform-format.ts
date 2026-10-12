@@ -48,6 +48,7 @@ export const PLATFORM_FORMATS: Record<string, PlatformFormat> = {
   psp: F(0.57, "#111827", "Boîtier PSP"),
   x360: F(0.71, "#15803d", "Boîtier Xbox 360"),
   xone: F(0.81, "#15803d", "Boîtier Xbox One"),
+  amiibo: F(1, "#c8102e", "Figurine amiibo"),
 };
 
 export const DEFAULT_FORMAT: PlatformFormat = F(0.75, "#f5b642", "Boîte");

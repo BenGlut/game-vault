@@ -104,8 +104,10 @@ export const PlatformSchema = z.object({
  * Nature de l'entrée. Une console ou un accessoire partage la même table que les
  * jeux — donc le même inventaire, les mêmes commandes, le même historique d'achat —
  * mais ne doit jamais être compté comme un jeu ni valorisé avec les cotes de jeux.
+ * Un amiibo (console `amiibo`) est un objet de collection : possédé, en wishlist et
+ * valorisé comme un jeu, mais compté à part (jamais dans « jeux possédés »).
  */
-export const ENTRY_KINDS = ["game", "hardware"] as const;
+export const ENTRY_KINDS = ["game", "hardware", "amiibo"] as const;
 export const EntryKindSchema = z.enum(ENTRY_KINDS);
 
 export const GameSchema = z.object({

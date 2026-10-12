@@ -5,6 +5,8 @@ import type { Game } from "@/lib/schema";
 import { Badge, Button } from "@/components/ui/primitives";
 import { CheckIcon, StarIcon } from "@/components/icons";
 import CoverHero from "@/components/game/CoverHero";
+import { AmiiboGames } from "@/components/game/AmiiboCompat";
+import { AMIIBO_PLATFORM } from "@/lib/amiibo";
 import { ShopLinks, shopLinks } from "@/components/game/GameDetail";
 import SidePanel from "@/components/game/SidePanel";
 import { useGameDrawer } from "@/components/game/GameDrawer";
@@ -116,6 +118,7 @@ export default function CatalogEntryPanel({
           </div>
           {!known ? <p className="mt-2 text-xs text-muted">Console absente de la base : ajout impossible depuis l’interface.</p> : null}
         </section>
+        {platformId === AMIIBO_PLATFORM ? <AmiiboGames title={entry.t} catalogId={entry.id} /> : null}
       </div>
     </SidePanel>
   );

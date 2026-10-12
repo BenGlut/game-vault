@@ -11,6 +11,7 @@ import { ChevronDownIcon, ChevronRightIcon, ExternalIcon, PlusIcon, StarIcon } f
 import { Button, StatusBadge, TierBadge, PriorityBadge, cx } from "@/components/ui/primitives";
 import { useVault } from "@/components/vault/VaultProvider";
 import { coverUrl } from "@/components/vault/model";
+import { AmiiboGames, GameAmiibo } from "./AmiiboCompat";
 import CoverHero from "./CoverHero";
 import { useCoverSource } from "./coverSources";
 import GameSheet from "./GameSheet";
@@ -197,6 +198,7 @@ export default function GameDetail({ gameId, onNavigate }: { gameId: string; onN
           </div>
         </PanelSection>
 
+        {game.kind === "amiibo" ? <AmiiboGames title={game.canonicalTitle} /> : <GameAmiibo game={game} />}
         <PanelSection title="Cotes">
           <div className="overflow-hidden rounded-xl border border-border bg-surface">
             {(
