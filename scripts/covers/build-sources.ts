@@ -29,7 +29,9 @@ interface Entry extends CatalogEntryLite {
 const games = JSON.parse(fs.readFileSync(path.join(DATA_REPO, "data", "games.json"), "utf8")) as Game[];
 const byPlatform = new Map<string, Entry[]>();
 for (const file of fs.readdirSync(CATALOG_DIR).filter((f) => f.endsWith(".json"))) {
-  byPlatform.set(file.replace(/\.json$/, ""), JSON.parse(fs.readFileSync(path.join(CATALOG_DIR, file), "utf8")) as Entry[]);
+  const content: unknown = JSON.parse(fs.readFileSync(path.join(CATALOG_DIR, file), "utf8"));
+  // les tables annexes (amiibo-compat.json…) ne sont pas des listes d'entrées
+  if (Array.isArray(content)) byPlatform.set(file.replace(/\.json$/, ""), content as Entry[]);
 }
 const entries = new Map([...byPlatform.values()].flat().map((e) => [e.id, e]));
 

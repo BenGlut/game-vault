@@ -97,8 +97,10 @@ const catalog = fs.existsSync(catalogDir)
   ? fs
       .readdirSync(catalogDir)
       .filter((f) => f.endsWith(".json"))
-      .map((f) => {
-        const entries = JSON.parse(fs.readFileSync(path.join(catalogDir, f), "utf8")) as { u?: string }[];
+      .flatMap((f) => {
+        const entries: unknown = JSON.parse(fs.readFileSync(path.join(catalogDir, f), "utf8"));
+        // les tables annexes (amiibo-compat.json…) ne sont pas des listes d'entrées
+        if (!Array.isArray(entries)) return [];
         return {
           platform: f.replace(/\.json$/, ""),
           entries: entries.length,
