@@ -1073,3 +1073,7 @@ Sept `fetch(/catalog?…)` enchaînés sans pause → 429 « rate limited » dè
 ## 2026-10-11 — Limite Vinted : 25 offres par jour
 
 Au-delà, la fenêtre d’offre affiche « Limite d’offres atteinte. Tu peux faire 25 offres par jour… ». Le compteur « Offre(s) restante(s) » de la fenêtre n’est pas fiable (il indiquait encore 1). Quand la limite est atteinte : négocier par message (`/replies`) en annonçant le prix voulu et en demandant au vendeur d’envoyer lui-même l’offre. Réserver les offres du jour aux annonces prioritaires.
+
+## 2026-10-12 — l'API répond en HTML sans en-tête Accept
+
+`fetch("/api/v2/…")` sans en-tête renvoie maintenant une page HTML (statut 200) pour `inbox` et `items/<id>/details`. Toujours passer `headers: { Accept: "application/json, text/plain, */*" }` ; `my_orders` et `conversations/<id>` répondent alors en JSON. Les envois groupés (`/replies`) dépassent les 45 s de l'outil JavaScript : le script continue dans l'onglet, vérifier ensuite le dernier message de chaque conversation au lieu de relancer (sinon doublons).

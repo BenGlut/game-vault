@@ -405,3 +405,13 @@ Last Window complet tourne à 35-44 €. Ces trois-là resteront chers.
 - 2026-10-11 — RtMI craken82 : offre à 55 € impossible (limite Vinted de 25 offres/jour atteinte) → message en espagnol proposant 55 € et lui demandant d’envoyer l’offre (conv 25582626898). L’acceptation de son offre reste à benglut. Vu dans son dressing : Mario vs. Donkey Kong (Switch), Super Mario Bros. Wonder, Castlevania.
 - 2026-10-12 — VÉRIF base ↔ Vinted : tout concorde (4 commandes du 11/10 « bordereau envoyé » = ordered ; Rio et Origami fulfilled ; lot chriss-reims fulfilled en attente de confirmation benglut ; Amazon Baphomet ×2 ordered). CORRIGÉ via MCP : Sonic Superstars (22408539195) delivered → fulfilled, acquiredAt vidé (colis retourné, non remboursé) ; relance polie envoyée à chacharose18 (annonce pas encore republiée, dressing vide). Négos : craken82 RtMI offre 55 € bien partie (« En attente ») malgré le message de limite ; mrjeuxdesociete Golf « boîtier en français », photo demain ; sarah-771 a refusé. Série de likes relancée (Golf → BotW S2) + retrait favoris SMP, Xeno3, HW Fléau.
 - 2026-10-12 — Série de likes terminée : 417 likés (Golf 30, Tokyo 22, Peach 71, LM2 HD 51, Echoes 80, MK World 15, Bananza 88, Tennis Fever 44, Jamboree S2 11, BotW S2 5), 97 retirés (SMP 49, Xeno3 46, HW 2) ; Chroniques du Sceau abandonné (pages vides). LM2 HD : morgane13032011 (10307459080) et officialshyguyshop (10321617671) VENDUS ; paulinelison 9894055776 28 € toujours dispo, offre 22,40 € sans réponse depuis 2 j → relance (conv 25632093820). Nouvelles propositions : Mario Golf gabset45 25 € (conv 500308911356), lebazard_alex (conv 500308381002).
+
+## 2026-10-12 — contre-offres par message (17)
+
+- Mario Golf Super Rush : accord à 17 € demandé à mrjeuxdesociete (boîte FR confirmée).
+- Luigi's Mansion 2 HD : 24 € à thejokerknight (29,80) et by_basant (31,82), 27 € à zedga14 (neuf, 33,50).
+- Mario Tennis Aces : 13 € à kriskiman (14,90) et priscillia.2002 (15). titibault7 a refusé 14 €.
+- Mario Tennis Fever (NS2) : 35 € à ninjabyte (40, scellé) et andreaaless1 (42, Italie), 36 € à belzebuthh (45).
+- Persona 5 Royal : 34 € le lot P5R + Rune Factory à page_book (40), 30 € à nostalgiaz (35).
+- SMP Jamboree 33 € (by_basant 41,32), Peach Showtime 22 € (sarah-771 26), Animal Crossing 22 € (leshopfamilial 26, tommyyy38 27), Zelda Echoes of Wisdom 26 € (sams91600 30), Kingdom Hearts MoM 18 € (marylovestosleep 30, cote 17).
+- Photo du dos demandée partout où la boîte n'était pas vérifiée. craken82 a accepté 55 € (Return to Monkey Island) : achat à faire par benglut.
