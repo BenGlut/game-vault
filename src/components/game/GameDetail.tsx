@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useState } from "react";
 import type { Game } from "@/lib/schema";
 import { euro } from "@/lib/labels";
-import { isOwned } from "@/lib/collection";
 import { MARKETPLACE_LABELS } from "@/lib/stats";
 import BrandLogo, { MarketplaceTag } from "@/components/BrandLogos";
 import MiniEstimator from "@/components/MiniEstimator";
@@ -95,8 +94,8 @@ export default function GameDetail({ gameId, onNavigate }: { gameId: string; onN
     .filter((o) => o.items.some((it) => it.gameId === game.id))
     .sort((a, b) => b.orderedAt.localeCompare(a.orderedAt));
   const sellers = new Map(data.sellers.map((s) => [s.id, s.name]));
-  const ownedPaid = row.items.filter(isOwned).reduce((s, i) => s + (i.purchasePrice?.amount ?? 0), 0);
-  const gain = row.value !== null && ownedPaid > 0 ? row.value - ownedPaid : null;
+  // prix de l'exemplaire, sinon celui de sa commande (exemplaires possédés ou en route)
+  const gain = row.value !== null && row.cost > 0 ? row.value - row.cost : null;
 
   async function add(status: "wishlist" | "owned") {
     setBusy(true);
@@ -115,7 +114,7 @@ export default function GameDetail({ gameId, onNavigate }: { gameId: string; onN
 
   const figures: { label: string; value: string; tone?: "ok" | "ko" }[] = [
     { label: "Cote en boîte", value: quotes?.cib ? euro(quotes.cib.median) : "—" },
-    { label: "Payé", value: ownedPaid > 0 ? euro(ownedPaid) : "—" },
+    { label: "Payé", value: row.paid !== null ? euro(row.paid) : "—" },
     { label: "Plus-value", value: gain === null ? "—" : `${gain >= 0 ? "+" : ""}${euro(gain)}`, tone: gain === null ? undefined : gain >= 0 ? "ok" : "ko" },
   ];
 

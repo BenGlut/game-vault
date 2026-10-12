@@ -672,6 +672,26 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- **Revue de l'interface en ligne, clic par clic** (retour de benglut : « on ne peut
+  pas cliquer sur Switch 2 dans le catalogue ») :
+  - consoles du catalogue coupées après « Switch » (Switch digital et Switch 2
+    inaccessibles, rangée sans barre de défilement) : la rangée passe à la ligne dès
+    la tablette, et la rangée de puces partagée (`ChipRow`, Collection, Wishlist) aussi ;
+  - premier clic perdu juste après la fermeture d'une fiche : le voile du panneau
+    laissait encore les clics pendant l'animation (`SidePanel.tsx`) ;
+  - « Payé » vide pour les jeux achetés par commande : le prix est maintenant lu dans
+    la ligne de commande quand l'exemplaire n'en porte pas (`orderPrices`, `paidFor`
+    et `GameRow.paid` dans `src/lib/stats.ts`), fiche jeu, liste de la collection et
+    statistiques comprises ;
+  - recherche ⌘K trop large (« persona » remontait Sonic Superstars) : le fuzzy ne
+    complète plus qu'avec des quasi-homonymes quand des titres contiennent les mots,
+    et le dernier mot en cours de frappe suffit (« perso ») (`src/lib/fuzzy.ts`).
+- **Catalogue** : un jeu absent de la base s'ajoute directement à la collection
+  (« Je l'ai : ajouter à ma collection »), plus seulement à la wishlist
+  (`CatalogEntryPanel.tsx`, `createGame(game, "wishlist" | "owned" | null)`) ; les
+  pastilles tier, boîte et état sont posées sur la jaquette, le texte dessous se limite
+  au titre et à la console (`CatalogView.tsx`). Tests `tests/fuzzy.test.ts`,
+  `tests/stats.test.ts`, parcours `e2e/journeys.spec.ts`.
 - **Identifiants en double dans la base** (révélés par la clé primaire D1) :
   deux lignes remboursées réutilisaient l'id d'une ligne possédée
   (`inv_3ds_luigi-s-mansion-2`, `inv_switch_super-mario-3d-all-stars-3`),

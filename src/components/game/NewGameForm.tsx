@@ -75,7 +75,7 @@ function NewGameForm({ prefill, onDone }: { prefill: Prefill; onDone: () => void
       region: region as Game["region"],
     });
     setBusy(true);
-    const ok = await createGame(game, wishlist);
+    const ok = await createGame(game, wishlist ? "wishlist" : null);
     setBusy(false);
     if (ok) {
       onDone();

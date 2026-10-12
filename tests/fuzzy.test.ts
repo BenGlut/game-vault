@@ -49,3 +49,18 @@ describe("abréviations de collectionneurs", () => {
     expect(searchDocs(docs2, f2, "dqm joker", 5)[0]?.item.id).toBe("ds-dqm");
   });
 });
+
+describe("pas de faux amis quand des résultats par mots existent", () => {
+  const docs3: SearchDoc[] = [
+    { id: "sw-p5r", t: "Persona 5 Royal", n: "persona 5 royal", a: [], f: "Persona", p: "switch" },
+    { id: "sw-sonic", t: "Sonic Superstars", n: "sonic superstars", a: [], f: "Sonic", p: "switch" },
+    { id: "sw-mps", t: "Mario Party Superstars", n: "mario party superstars", a: [], f: "Mario Party", p: "switch" },
+  ];
+  const f3 = new Fuse(docs3, { keys: ["n", "a", "t", "f"], threshold: 0.38, ignoreLocation: true, includeScore: true });
+  it("« persona » ne remonte que Persona", () => {
+    expect(searchDocs(docs3, f3, "persona", 8).map((r) => r.item.id)).toEqual(["sw-p5r"]);
+  });
+  it("le dernier mot en cours de frappe suffit (« perso »)", () => {
+    expect(searchDocs(docs3, f3, "perso", 8)[0]?.item.id).toBe("sw-p5r");
+  });
+});

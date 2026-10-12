@@ -471,10 +471,10 @@ export function Chip({
   );
 }
 
-/** Rangée de puces qui défile horizontalement sans barre visible. */
+/** Rangée de puces : défile au doigt sur téléphone, passe à la ligne dès la tablette (jamais coupée). */
 export function ChipRow({ children, label }: { children: ReactNode; label: string }) {
   return (
-    <div role="group" aria-label={label} className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+    <div role="group" aria-label={label} className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
       {children}
     </div>
   );

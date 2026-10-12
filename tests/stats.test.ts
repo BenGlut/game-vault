@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { quotesByGame } from "../src/lib/quotes";
-import { computeStats, monthRange } from "../src/lib/stats";
+import { buildRows, computeStats, monthRange } from "../src/lib/stats";
 import type { Game, InventoryItem, Order, PriceObservation } from "../src/lib/schema";
 
 const game = (id: string, platformId = "ds", extra: Partial<Game> = {}): Game => ({
@@ -150,5 +150,40 @@ describe("computeStats", () => {
 describe("monthRange", () => {
   it("franchit le changement d'année", () => {
     expect(monthRange("2025-11", "2026-02")).toEqual(["2025-11", "2025-12", "2026-01", "2026-02"]);
+  });
+});
+
+describe("prix payé lu dans la commande", () => {
+  const withLine = (o: Order, inventoryId: string, unitPrice: number): Order => ({
+    ...o,
+    items: [{ gameId: "game_a", inventoryId, quantity: 1, unitPrice }],
+  });
+  const slice = (orders: Order[], items: InventoryItem[]) => ({
+    games: [game("game_a")],
+    inventory: items,
+    orders,
+    platforms: [],
+    quotes: new Map(),
+  });
+
+  it("un exemplaire sans prix prend celui de sa ligne de commande", () => {
+    const rows = buildRows(slice([withLine(order("o1", "delivered", "2026-09-01", 35), "inv_a", 35.08)], [item("inv_a", "game_a", "owned")]));
+    expect(rows[0]?.cost).toBe(35.08);
+    expect(rows[0]?.paid).toBe(35.08);
+  });
+
+  it("le prix de l'exemplaire l'emporte, et un jeu commandé affiche aussi son prix", () => {
+    const owned = item("inv_a", "game_a", "owned", { purchasePrice: { amount: 12, currency: "EUR" } });
+    const incoming = item("inv_b", "game_a", "ordered");
+    const rows = buildRows(
+      slice([withLine(order("o1", "delivered", "2026-09-01", 99), "inv_a", 99), withLine(order("o2", "ordered", "2026-10-01", 20), "inv_b", 20)], [owned, incoming]),
+    );
+    expect(rows[0]?.cost).toBe(12);
+    expect(rows[0]?.paid).toBe(32);
+  });
+
+  it("une commande annulée ne donne pas de prix", () => {
+    const rows = buildRows(slice([withLine(order("o1", "cancelled", "2026-09-01", 35), "inv_a", 35)], [item("inv_a", "game_a", "owned")]));
+    expect(rows[0]?.paid).toBeNull();
   });
 });

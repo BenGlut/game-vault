@@ -138,3 +138,30 @@ test("la page Commandes suit les commandes en cours et déplie l'historique", as
   await expect(row).toHaveAttribute("aria-expanded", "true");
   await expect(page.getByText("Cartouche ne démarrait pas")).toBeVisible();
 });
+
+test("chaque console du catalogue est visible et cliquable sur ordinateur, y compris Switch 2", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await mockApi(page);
+  await page.goto("/catalogue/");
+  await expect(page.getByText(/jeux? sur/)).toBeVisible({ timeout: 20_000 });
+  const consoles = page.getByRole("group", { name: "Console" }).getByRole("button");
+  const viewport = page.viewportSize()!;
+  for (const button of await consoles.all()) {
+    const box = (await button.boundingBox())!;
+    expect(box.x + box.width, `${await button.innerText()} déborde de l'écran`).toBeLessThanOrEqual(viewport.width);
+  }
+  await consoles.filter({ hasText: "Switch 2" }).click();
+  await expect(page).toHaveURL(/plateforme=switch2/);
+});
+
+test("un jeu du catalogue absent de la base peut être ajouté directement à la collection", async ({ page }) => {
+  await mockApi(page);
+  await page.goto("/catalogue/?plateforme=switch2");
+  await expect(page.getByText(/jeux? sur/)).toBeVisible({ timeout: 20_000 });
+  await page.getByLabel("Possession").selectOption("missing");
+  const firstCard = page.getByRole("button", { name: /Jaquette de/ }).first();
+  await firstCard.click();
+  const panel = page.getByRole("dialog");
+  await expect(panel.getByRole("button", { name: /ajouter à ma collection/ })).toBeVisible();
+  await expect(panel.getByRole("button", { name: "Ajouter à la wishlist" })).toBeVisible();
+});

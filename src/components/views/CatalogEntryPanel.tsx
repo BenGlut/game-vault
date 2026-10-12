@@ -3,7 +3,7 @@
 import { useCallback, useState } from "react";
 import type { Game } from "@/lib/schema";
 import { Badge, Button } from "@/components/ui/primitives";
-import { StarIcon } from "@/components/icons";
+import { CheckIcon, StarIcon } from "@/components/icons";
 import CoverHero from "@/components/game/CoverHero";
 import { ShopLinks, shopLinks } from "@/components/game/GameDetail";
 import SidePanel from "@/components/game/SidePanel";
@@ -43,7 +43,7 @@ export default function CatalogEntryPanel({
   const { open } = useGameDrawer();
   const { openNewGame } = useNewGame();
   const [visible, setVisible] = useState(true);
-  const [busy, setBusy] = useState(false);
+  const [busy, setBusy] = useState<"wishlist" | "owned" | null>(null);
   const basePlatform = platformId.replace(/-digital$/, "");
   const known = data.platforms.some((p) => p.id === basePlatform);
   const duplicate = findDuplicate(data.games, { title: entry.t, platformId: basePlatform });
@@ -53,16 +53,16 @@ export default function CatalogEntryPanel({
     window.setTimeout(onClose, 280);
   }, [onClose]);
 
-  async function addToWishlist() {
-    setBusy(true);
+  async function add(initial: "wishlist" | "owned") {
+    setBusy(initial);
     const game = makeGame(data.games, data.platforms, {
       title: entry.t,
       platformId: basePlatform,
       qualityTier: (entry.q ?? null) as Game["qualityTier"],
       region: entry.r.includes("France") || entry.r.includes("Europe") ? "PAL-FR" : "other",
     });
-    const ok = await createGame(game, true);
-    setBusy(false);
+    const ok = await createGame(game, initial);
+    setBusy(null);
     if (ok) {
       onClose();
       open(game.id);
@@ -91,15 +91,18 @@ export default function CatalogEntryPanel({
 
         <section className="rounded-xl border border-border bg-surface p-4 shadow-[var(--shadow-card)]">
           <h3 className="text-sm font-semibold">Pas encore dans la base</h3>
-          <p className="mt-1 text-[13px] text-muted">Ajoutez-le à la wishlist pour le suivre dans les chasses, ou complétez sa fiche (édition, région, franchise).</p>
+          <p className="mt-1 text-[13px] text-muted">Vous l’avez déjà ? Ajoutez-le à votre collection. Sinon, mettez-le en wishlist pour le suivre dans les chasses.</p>
           {duplicate ? (
             <p role="alert" className="mt-3 text-xs font-medium text-accent">
               Un jeu du même titre existe déjà sur cette console : {duplicate.canonicalTitle}.
             </p>
           ) : null}
           <div className="mt-4 flex flex-wrap gap-2">
-            <Button variant="primary" icon={<StarIcon size={14} />} disabled={busy || !known || !!duplicate} onClick={addToWishlist}>
-              {busy ? "Ajout…" : "Ajouter à la wishlist"}
+            <Button variant="primary" icon={<CheckIcon size={14} />} disabled={!!busy || !known || !!duplicate} onClick={() => add("owned")}>
+              {busy === "owned" ? "Ajout…" : "Je l’ai : ajouter à ma collection"}
+            </Button>
+            <Button icon={<StarIcon size={14} />} disabled={!!busy || !known || !!duplicate} onClick={() => add("wishlist")}>
+              {busy === "wishlist" ? "Ajout…" : "Ajouter à la wishlist"}
             </Button>
             <Button
               disabled={!known}

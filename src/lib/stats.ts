@@ -3,7 +3,7 @@
  * bord, la page Statistiques et les tests.
  */
 import type { Game, GameQuotes, InventoryItem, Order, Platform } from "./schema";
-import { gameState, isOwned, stillWanted, type GameState } from "./collection";
+import { gameState, isIncoming, isOwned, stillWanted, type GameState } from "./collection";
 import { referenceValue } from "./quotes";
 
 export interface GameRow {
@@ -17,6 +17,8 @@ export interface GameRow {
   value: number | null;
   /** prix payés des exemplaires possédés */
   cost: number;
+  /** prix payés des exemplaires possédés ou en route (null si aucun n'est connu) */
+  paid: number | null;
   /** date d'arrivée la plus récente d'un exemplaire possédé */
   lastAcquired: string | null;
 }
@@ -29,7 +31,26 @@ export interface VaultSlice {
   quotes: Map<string, GameQuotes>;
 }
 
+/**
+ * Prix de chaque exemplaire lu dans sa ligne de commande (commandes non annulées) :
+ * un jeu acheté via une commande n'a souvent pas de prix sur l'exemplaire lui-même.
+ */
+export function orderPrices(orders: Order[]): Map<string, number> {
+  const prices = new Map<string, number>();
+  for (const o of orders) {
+    if (o.status === "cancelled" || o.status === "refunded") continue;
+    for (const line of o.items) if (line.inventoryId && line.unitPrice !== null) prices.set(line.inventoryId, line.unitPrice);
+  }
+  return prices;
+}
+
+/** Prix payé d'un exemplaire : le sien, sinon celui de sa commande. */
+export function paidFor(item: InventoryItem, prices: Map<string, number>): number | null {
+  return item.purchasePrice?.amount ?? prices.get(item.id) ?? null;
+}
+
 export function buildRows(v: VaultSlice): GameRow[] {
+  const prices = orderPrices(v.orders);
   const byGame = new Map<string, InventoryItem[]>();
   for (const i of v.inventory) byGame.set(i.gameId, [...(byGame.get(i.gameId) ?? []), i]);
   const platforms = new Map(v.platforms.map((p) => [p.id, p]));
@@ -47,10 +68,16 @@ export function buildRows(v: VaultSlice): GameRow[] {
       state: gameState(items),
       ownedCount: owned.length,
       value: known.length ? known.reduce((s, x) => s + x, 0) : null,
-      cost: owned.reduce((s, i) => s + (i.purchasePrice?.amount ?? 0), 0),
+      cost: owned.reduce((s, i) => s + (paidFor(i, prices) ?? 0), 0),
+      paid: sumKnown(items.filter((i) => isOwned(i) || isIncoming(i)).map((i) => paidFor(i, prices))),
       lastAcquired: owned.map((i) => i.acquiredAt ?? "").sort().pop() || null,
     };
   });
+}
+
+function sumKnown(values: (number | null)[]): number | null {
+  const known = values.filter((x): x is number => x !== null);
+  return known.length ? known.reduce((s, x) => s + x, 0) : null;
 }
 
 const LIVE_ORDER = (o: Order) => o.status !== "cancelled" && o.status !== "refunded";
@@ -156,16 +183,18 @@ export function computeStats(
   let costOfOwned = 0;
   let pricedItems = 0;
   const gains: CollectionStats["bestGains"] = [];
+  const prices = orderPrices(v.orders);
   for (const { row, item } of ownedItems) {
     const value = referenceValue(row.quotes, item.completeness);
+    const paid = paidFor(item, prices);
     if (value !== null) {
       collectionValue += value;
       valuedItems++;
     }
-    if (item.purchasePrice) {
-      costOfOwned += item.purchasePrice.amount;
+    if (paid !== null) {
+      costOfOwned += paid;
       pricedItems++;
-      if (value !== null) gains.push({ row, item, value, gain: value - item.purchasePrice.amount });
+      if (value !== null) gains.push({ row, item, value, gain: value - paid });
     }
   }
 

@@ -218,7 +218,7 @@ export default function CatalogView() {
       <PageHeader title="Catalogue" subtitle="Tous les jeux sortis sur les consoles Nintendo, comparés à la collection en direct" />
 
       {/* choix de la console */}
-      <div role="group" aria-label="Console" className="no-scrollbar -mx-4 mb-1 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0">
+      <div role="group" aria-label="Console" className="no-scrollbar -mx-4 mb-1 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
         {[["", "Toutes"] as const, ...Object.entries(PLATFORM_LABELS)].map(([id, label]) => {
           const Icon = id ? CONSOLE_ICONS[id] : null;
           const active = platform === id;
@@ -315,7 +315,7 @@ export default function CatalogView() {
                 // toujours un panneau latéral : on garde ses filtres et on enchaîne
                 return (
                   <button key={e.id} type="button" onClick={() => openDrawer(e, link)} className="group block w-full min-w-0 rounded-lg text-left focus-visible:outline-offset-4">
-                    <div className="cover-lift overflow-hidden rounded-lg ring-1 ring-[var(--cover-ring)]">
+                    <div className="cover-lift relative overflow-hidden rounded-lg ring-1 ring-[var(--cover-ring)]">
                       <CoverImage
                         src={e.u}
                         fallback={e.img ? localCover(e) : null}
@@ -324,19 +324,33 @@ export default function CatalogView() {
                         width={frameRatio > 1.25 ? 320 : 240}
                         rounded="rounded-none"
                       />
+                      {/* pastilles posées sur la jaquette (même logique que les cartes de la collection) */}
+                      {tier ? (
+                        <div className="absolute left-1.5 top-1.5">
+                          <TierBadge tier={tier} className="shadow-[var(--shadow-sm)]" />
+                        </div>
+                      ) : null}
+                      {e.b ? (
+                        <div className="absolute right-1.5 top-1.5 rounded-md bg-bg-elev/90 shadow-[var(--shadow-sm)] backdrop-blur-sm">
+                          <BoxBadge code={e.b} />
+                        </div>
+                      ) : null}
+                      {link?.statuses.length ? (
+                        <div className="absolute inset-x-1.5 bottom-1.5 flex flex-wrap gap-1">
+                          {link.statuses.map((s) => (
+                            <span key={s} className="rounded-md bg-bg-elev/90 shadow-[var(--shadow-sm)] backdrop-blur-sm">
+                              <StatusBadge status={s} />
+                            </span>
+                          ))}
+                        </div>
+                      ) : null}
                     </div>
-                    {/* infos sous la jaquette : la boîte reste lisible (bandeau console, PEGI) */}
                     <div className="mt-2 px-0.5">
-                      <div className="flex items-start gap-1.5">
-                        {tier ? <TierBadge tier={tier} size="sm" className="mt-px" /> : null}
-                        <span className="line-clamp-2 text-[13px] font-medium leading-snug transition group-hover:text-accent" title={e.t}>
-                          {e.t}
-                        </span>
-                      </div>
-                      <div className="mt-1.5 flex flex-wrap items-center gap-1">
-                        {link?.statuses.map((s) => <StatusBadge key={s} status={s} />)}
-                        <BoxBadge code={e.b} />
-                        <span className="min-w-0 truncate text-xs text-muted">
+                      <span className="line-clamp-2 text-[13px] font-medium leading-snug transition group-hover:text-accent" title={e.t}>
+                        {e.t}
+                      </span>
+                      <div className="mt-1">
+                        <span className="block min-w-0 truncate text-xs text-muted">
                           {platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}
                           {e.r.join(", ") || "région inconnue"}
                         </span>

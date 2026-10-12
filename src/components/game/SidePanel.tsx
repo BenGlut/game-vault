@@ -35,7 +35,8 @@ export default function SidePanel({
   }, [onClose]);
 
   return (
-    <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label={label}>
+    // en cours de fermeture : le voile laisse passer les clics (sinon le premier clic suivant est perdu)
+    <div className={cx("fixed inset-0 z-50", !visible && "pointer-events-none")} role="dialog" aria-modal="true" aria-label={label}>
       <div
         className={cx("animate-fade absolute inset-0 bg-[var(--overlay)] backdrop-blur-[2px] transition-opacity duration-300", visible ? "opacity-100" : "opacity-0")}
         onClick={onClose}

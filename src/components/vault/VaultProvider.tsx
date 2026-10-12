@@ -22,7 +22,8 @@ interface VaultCtx {
   stats: CollectionStats;
   rowById: Map<string, GameRow>;
   saveGame: (next: Game) => Promise<boolean>;
-  createGame: (game: Game, wishlist: boolean) => Promise<boolean>;
+  /** `initial` : premier exemplaire créé avec la fiche (wishlist, possédé) ou aucun */
+  createGame: (game: Game, initial: "wishlist" | "owned" | null) => Promise<boolean>;
   saveItem: (next: InventoryItem) => Promise<boolean>;
   addItem: (gameId: string, status: "wishlist" | "owned") => Promise<boolean>;
   deleteItem: (item: InventoryItem) => Promise<boolean>;
@@ -145,19 +146,21 @@ export function VaultProvider({ children }: { children: ReactNode }) {
           const saved = await api.replace("games", next, `Fiche modifiée en ligne : ${next.canonicalTitle}`);
           setData((d) => d && { ...d, games: upsert(d.games, saved) });
         }, "Fiche enregistrée"),
-      createGame: (game, wishlist) =>
+      createGame: (game, initial) =>
         write(async () => {
           const saved = await api.create("games", game, `Jeu ajouté en ligne : ${game.canonicalTitle}`);
           setData((d) => d && { ...d, games: [...d.games, saved] });
-          if (wishlist) {
+          if (initial) {
             const line = await api.create(
               "inventory",
-              newInventoryLine(data.inventory, saved.id, "wishlist"),
-              `Ajouté à la wishlist en ligne : ${game.canonicalTitle}`,
+              newInventoryLine(data.inventory, saved.id, initial),
+              initial === "wishlist"
+                ? `Ajouté à la wishlist en ligne : ${game.canonicalTitle}`
+                : `Exemplaire possédé ajouté en ligne : ${game.canonicalTitle}`,
             );
             setData((d) => d && { ...d, inventory: [...d.inventory, line] });
           }
-        }, wishlist ? "Jeu ajouté au catalogue et à la wishlist" : "Jeu ajouté au catalogue"),
+        }, initial === "wishlist" ? "Jeu ajouté à la wishlist" : initial === "owned" ? "Jeu ajouté à la collection" : "Jeu ajouté au catalogue"),
       saveItem: (next) =>
         write(async () => {
           const saved = await api.replace("inventory", next, `Exemplaire modifié en ligne : ${title(next.gameId)}`);

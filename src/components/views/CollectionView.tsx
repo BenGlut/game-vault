@@ -96,7 +96,7 @@ export default function CollectionView() {
     return filtered.sort((a, b) => {
       if (sort === "recent") return (b.lastAcquired ?? "").localeCompare(a.lastAcquired ?? "");
       if (sort === "value") return (b.value ?? -1) - (a.value ?? -1);
-      if (sort === "paid") return b.cost - a.cost;
+      if (sort === "paid") return (b.paid ?? 0) - (a.paid ?? 0);
       if (sort === "quality") return tierRank(a.game.qualityTier) - tierRank(b.game.qualityTier);
       return a.game.canonicalTitle.localeCompare(b.game.canonicalTitle, "fr");
     });
@@ -279,7 +279,7 @@ export default function CollectionView() {
                     <td className={`${table.td} hidden text-text-2 lg:table-cell`}>
                       {[...new Set(owned.map((i) => COMPLETENESS_LABELS[i.completeness]))].join(", ") || "—"}
                     </td>
-                    <td className={`${table.td} hidden text-right tabular-nums text-text-2 sm:table-cell`}>{r.cost > 0 ? euro(r.cost) : "—"}</td>
+                    <td className={`${table.td} hidden text-right tabular-nums text-text-2 sm:table-cell`}>{r.paid !== null ? euro(r.paid) : "—"}</td>
                     <td className={`${table.td} text-right font-medium tabular-nums`}>{r.value !== null ? euro(r.value) : "—"}</td>
                   </tr>
                 );
