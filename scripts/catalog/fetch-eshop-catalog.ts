@@ -14,6 +14,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import { normalizeTitle } from "../../src/lib/normalize";
+import { curateSwitch } from "./curate-switch";
 
 const execFileP = promisify(execFile);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -177,6 +178,8 @@ async function main(): Promise<void> {
     }
   }
 
+  // cartouches mal classées par l'eShop, pastille boîte FR, tiers S à D
+  summary.curation = curateSwitch();
   console.log(JSON.stringify({ ok: true, summary }, null, 2));
 }
 

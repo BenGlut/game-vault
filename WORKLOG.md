@@ -1,6 +1,24 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Catalogue Switch : jeux en boîte manquants, tiers S à D, pastille boîte FR**
+  (demande de benglut, 12/10). L'eShop range en « dématérialisé » des jeux sortis en
+  cartouche (Persona 5 Royal, Return to Monkey Island, Les Chevaliers de Baphomet 5,
+  Stardew Valley…). En croisant `switch-digital` avec nswdb (cartouches) et
+  quelques vérifications manuelles, 341 jeux remontent dans `switch` (1 396 → 1 738),
+  jaquette comprise. Les Boucliers de Quetzalcoatl : Reforged, encore absent de l'eShop,
+  est ajouté à la main. Chaque jeu Switch physique porte une pastille `b` :
+  `fr` (boîte française, 1 402), `eu` (boîte européenne multilingue, jeu en français,
+  jaquette à vérifier au dos, 127), `etr` (import seulement, 209). Seules les vraies
+  cartouches nswdb comptent (série `LA-H-`) : la base recense aussi des copies eShop. Tiers repris sur le
+  consensus Metacritic/OpenCritic (S ≥ 90, A 85-89, B 78-84, C 70-77, D < 70) :
+  237 jeux Switch et 51 jeux Switch 2 (auparavant 30, Switch seule). Corrections au
+  passage : Xenoblade 3, Metroid Dread et Hollow Knight de S à A ; Splatoon 2/3,
+  Xenoblade 2, Octopath Traveler et Pokémon Arceus de A à B. Données
+  `scripts/catalog/switch-curation.json` et `quality-map.json`, appliquées par
+  `scripts/catalog/curate-switch.ts` (idempotent, aussi appelé en fin de
+  `fetch-eshop-catalog.ts`). Catalogue : pastille sous la jaquette, filtre « Boîte »
+  (paramètre d'URL `boite`), mention sur la fiche
 - **Serveur MCP GameVault** (`scripts/mcp/server.ts`, `docs/mcp.md`) : un agent lit
   et écrit la base en ligne sans `d1 pull/push`. Outils `search_games`, `inspect`,
   `get_record`, `add_order`, `transition_order`, `update_record`, `create_record`,

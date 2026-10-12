@@ -31,6 +31,23 @@ const TIER_LABELS: Record<string, string> = {
   D: "faible",
 };
 
+/** Pastille boîte des jeux Switch (switch-curation.json) */
+const BOX_BADGES: Record<string, { label: string; title: string; className: string }> = {
+  fr: { label: "FR", title: "Boîte française", className: "border-ok/40 text-ok" },
+  eu: { label: "EU", title: "Boîte européenne multilingue : jeu en français, jaquette à vérifier (dos)", className: "border-info/40 text-info" },
+  etr: { label: "ÉTR", title: "Jaquette étrangère seulement (import)", className: "border-ko/40 text-ko" },
+};
+
+function BoxBadge({ code }: { code?: string }) {
+  const badge = code ? BOX_BADGES[code] : undefined;
+  if (!badge) return null;
+  return (
+    <span className={`shrink-0 rounded border px-1 text-[10px] font-semibold leading-4 ${badge.className}`} title={badge.title}>
+      {badge.label}
+    </span>
+  );
+}
+
 interface CatalogEntry {
   id: string;
   t: string;
@@ -42,6 +59,8 @@ interface CatalogEntry {
   u?: string;
   /** image carrée de l'eShop faute de photo de boîte */
   sq?: boolean;
+  /** boîte : fr, eu (multilingue) ou etr (import) — Switch seulement */
+  b?: string;
 }
 
 function norm(s: string): string {
@@ -89,6 +108,7 @@ export default function CatalogView() {
   const [possession, setPossession] = useState("");
   const [region, setRegion] = useState("");
   const [quality, setQuality] = useState("");
+  const [box, setBox] = useState("");
   const [error, setError] = useState<string | null>(null);
   const drawer = useGameDrawer();
   const [selected, setSelected] = useState<CatalogEntry | null>(null);
@@ -138,6 +158,7 @@ export default function CatalogView() {
     read("possession", setPossession);
     read("region", setRegion);
     read("qualite", setQuality);
+    read("boite", setBox);
   }, []);
 
   // reflète chaque sélection dans l'URL
@@ -148,9 +169,10 @@ export default function CatalogView() {
     if (possession) params.set("possession", possession);
     if (region) params.set("region", region);
     if (quality) params.set("qualite", quality);
+    if (box) params.set("boite", box);
     const qs = params.toString();
     window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [platform, query, possession, region, quality]);
+  }, [platform, query, possession, region, quality, box]);
 
   useEffect(() => {
     let cancelled = false;
@@ -195,10 +217,11 @@ export default function CatalogView() {
       if (region && !e.r.includes(region)) return false;
       const tier = links[e.id]?.quality ?? e.q ?? null;
       if (quality && tier !== quality) return false;
+      if (box && e.b !== box) return false;
       if (qWords.length && !qWords.every((w) => e.n.includes(w))) return false;
       return true;
     });
-  }, [entries, query, possession, links, region, quality]);
+  }, [entries, query, possession, links, region, quality, box]);
 
   const shown = filtered.slice(0, 200);
   const select = `${inputClass.replace("w-full ", "")} w-auto`;
@@ -277,6 +300,12 @@ export default function CatalogView() {
           <option value="C">C — moyen</option>
           <option value="D">D — faible</option>
         </select>
+        <select value={box} onChange={(e) => setBox(e.target.value)} className={select}>
+          <option value="">Boîte (toutes)</option>
+          <option value="fr">FR — boîte française</option>
+          <option value="eu">EU — multilingue, FR à vérifier</option>
+          <option value="etr">ÉTR — import seulement</option>
+        </select>
       </div>
 
       {error ? (
@@ -341,6 +370,7 @@ export default function CatalogView() {
                     </div>
                     <div className="mt-1 flex items-center gap-1.5">
                       {link?.owned || link?.wishlist ? <StatusBadge status={link.owned ? "owned" : "wishlist"} /> : null}
+                      <BoxBadge code={e.b} />
                       <span className="truncate text-xs text-muted">
                         {platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}
                         {e.r.join(", ") || "région inconnue"}
@@ -364,6 +394,7 @@ export default function CatalogView() {
           platformName={PLATFORM_LABELS[platformOf(selected)] ?? platformOf(selected)}
           fallback={selected.img ? localCover(selected) : null}
           tierLabel={selected.q ? `${selected.q} · ${TIER_LABELS[selected.q] ?? ""}` : null}
+          boxLabel={selected.b ? (BOX_BADGES[selected.b]?.title ?? null) : null}
           onClose={() => setSelected(null)}
         />
       ) : null}

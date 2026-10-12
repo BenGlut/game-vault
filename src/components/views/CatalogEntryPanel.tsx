@@ -31,6 +31,7 @@ export default function CatalogEntryPanel({
   platformName,
   fallback,
   tierLabel,
+  boxLabel = null,
   onClose,
 }: {
   entry: Entry;
@@ -38,6 +39,7 @@ export default function CatalogEntryPanel({
   platformName: string;
   fallback: string | null;
   tierLabel: string | null;
+  boxLabel?: string | null;
   onClose: () => void;
 }) {
   const { data, createGame } = useVault();
@@ -80,6 +82,7 @@ export default function CatalogEntryPanel({
             {platformName} · {entry.r.join(", ") || "région inconnue"}
           </p>
           {tierLabel ? <p className="mt-2 text-xs text-accent">Qualité {tierLabel}</p> : null}
+          {boxLabel ? <p className="mt-1 text-xs text-muted">{boxLabel}</p> : null}
         </div>
 
         <section className="rounded-2xl border border-border bg-surface p-4">
