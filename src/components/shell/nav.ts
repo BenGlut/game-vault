@@ -13,6 +13,7 @@ export const NAV_ITEMS: NavItem[] = [
   { href: "/historique", label: "Historique", group: "Vue d’ensemble" },
   { href: "/collection", label: "Ma collection", short: "Collection", group: "Collection" },
   { href: "/wishlist", label: "Wishlist", group: "Collection" },
+  { href: "/amiibo", label: "Amiibo", group: "Collection" },
   { href: "/catalogue", label: "Catalogue", group: "Collection" },
   { href: "/commandes", label: "Commandes", group: "Achats" },
   { href: "/estimateur", label: "Estimateur", group: "Achats" },

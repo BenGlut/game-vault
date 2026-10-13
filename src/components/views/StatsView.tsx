@@ -58,7 +58,7 @@ export default function StatsView() {
   const withYear = months.length > 14;
 
   const tiers = useMemo(() => {
-    const owned = stats.rows.filter((r) => r.ownedCount > 0 && r.game.kind !== "hardware");
+    const owned = stats.rows.filter((r) => r.ownedCount > 0 && r.game.kind === "game");
     return ["S", "A", "B", "C", "D"].map((t) => ({ tier: t, n: owned.filter((r) => r.game.qualityTier === t).length }));
   }, [stats.rows]);
 

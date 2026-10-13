@@ -14,7 +14,7 @@ import {
 import { useVault } from "@/components/vault/VaultProvider";
 import { Badge } from "@/components/ui/primitives";
 
-interface AmiiboEntry {
+export interface AmiiboEntry {
   id: string;
   t: string;
   n: string;
@@ -35,7 +35,7 @@ function loadAmiibo() {
   return cache;
 }
 
-function useAmiiboData() {
+export function useAmiiboData() {
   const [data, setData] = useState<{ compat: AmiiboCompat; amiibo: AmiiboEntry[] } | null>(null);
   useEffect(() => {
     let alive = true;

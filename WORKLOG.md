@@ -15,7 +15,12 @@
   filtres « Compatible avec… » (mes jeux d'abord) et Série ; fiche d'un amiibo = jeux
   compatibles et ce qu'il débloque ; fiche d'un jeu = amiibo compatibles, possédés en tête
   (`src/components/game/AmiiboCompat.tsx`, `CatalogView.tsx`, `CatalogEntryPanel.tsx`,
-  `GameDetail.tsx`). CLI : `--kind amiibo`.
+  `GameDetail.tsx`). CLI : `--kind amiibo`. Page **Amiibo** à part dans le menu
+  (retour de benglut : « il faut séparer les amiibo des jeux ») : possédés, en route,
+  wishlist, et pour chacun les jeux de la collection où il sert
+  (`src/app/amiibo/page.tsx`, `AmiiboView.tsx`, icône `AmiiboIcon`) ; Collection,
+  Wishlist, tableau de bord et statistiques ne montrent plus que les jeux
+  (`kind === "game"`).
 - **Catalogue Switch : jeux en boîte manquants, tiers S à D, pastille boîte FR**
   (demande de benglut, 12/10). L'eShop range en « dématérialisé » des jeux sortis en
   cartouche (Persona 5 Royal, Return to Monkey Island, Les Chevaliers de Baphomet 5,

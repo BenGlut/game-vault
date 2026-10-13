@@ -65,7 +65,7 @@ export default function CollectionView() {
   const [limit, setLimit] = useState(PAGE);
   const special = Object.keys(SPECIAL).find((k) => params.get(k)) ?? null;
 
-  const games = useMemo(() => stats.rows.filter((r) => r.game.kind !== "hardware"), [stats.rows]);
+  const games = useMemo(() => stats.rows.filter((r) => r.game.kind === "game"), [stats.rows]);
   const inScope = useMemo(
     () =>
       games.filter((r) =>

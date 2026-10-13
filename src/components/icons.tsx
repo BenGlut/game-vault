@@ -67,6 +67,17 @@ export function PackageIcon(props: IconProps) {
   );
 }
 
+/** Figurine sur son socle rond. */
+export function AmiiboIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <circle cx="12" cy="5.5" r="2.5" />
+      <path d="M8.5 15v-3.5a3.5 3.5 0 0 1 7 0V15" />
+      <ellipse cx="12" cy="18" rx="7" ry="2.5" />
+    </svg>
+  );
+}
+
 export function StarIcon(props: IconProps) {
   return (
     <svg {...base(props)}>
@@ -259,6 +270,7 @@ export const NAV_ICONS: Record<string, (p: IconProps) => React.JSX.Element> = {
   "/statistiques": ChartIcon,
   "/collection": LibraryIcon,
   "/wishlist": StarIcon,
+  "/amiibo": AmiiboIcon,
   "/catalogue": CatalogIcon,
   "/commandes": CartIcon,
   "/estimateur": TagIcon,

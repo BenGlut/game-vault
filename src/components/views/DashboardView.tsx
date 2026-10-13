@@ -31,7 +31,7 @@ export default function DashboardView() {
   const gain = stats.collectionValue - stats.costOfOwned;
   const gainPct = stats.costOfOwned ? Math.round((gain / stats.costOfOwned) * 100) : null;
   const wanted = stats.rows
-    .filter((r) => r.state === "wanted" && r.game.kind !== "hardware")
+    .filter((r) => r.state === "wanted" && r.game.kind === "game")
     .sort(
       (a, b) =>
         ["haute", "moyenne", "basse", null].indexOf(a.game.buyPriority) - ["haute", "moyenne", "basse", null].indexOf(b.game.buyPriority) ||

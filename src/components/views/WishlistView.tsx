@@ -54,7 +54,7 @@ export default function WishlistView() {
   const [priority, setPriority] = useState<Priority>("all");
   const [sort, setSort] = useState<Sort>("priority");
 
-  const wanted = useMemo(() => stats.rows.filter((r) => r.state === "wanted" && r.game.kind !== "hardware"), [stats.rows]);
+  const wanted = useMemo(() => stats.rows.filter((r) => r.state === "wanted" && r.game.kind === "game"), [stats.rows]);
   const budget = wanted.reduce((s, r) => s + (target(r) ?? 0), 0);
   const quoted = wanted.filter((r) => target(r) !== null).length;
 
