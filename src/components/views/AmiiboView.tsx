@@ -105,7 +105,11 @@ export default function AmiiboView() {
               <SectionHeader title={title} meta={`${rows.length}`} />
               <CardGrid>
                 {rows.map((r) => (
-                  <GameCard key={r.game.id} row={r} ratio={1} footer={footer(r)} />
+                  // la ligne de jeux compatibles passe sous la carte : le pied de carte, lui, ne revient pas à la ligne
+                  <div key={r.game.id} className="min-w-0">
+                    <GameCard row={r} ratio={1} />
+                    <div className="mt-1 px-0.5">{footer(r)}</div>
+                  </div>
                 ))}
               </CardGrid>
             </section>
