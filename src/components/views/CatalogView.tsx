@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/primitives";
 import { CatalogIcon, GridIcon } from "@/components/icons";
 import CoverImage from "@/components/game/CoverImage";
+import { formatEuro, useAmazonPrices } from "@/components/game/AmiiboCompat";
 import { formatOf } from "@/lib/platform-format";
 import CatalogEntryPanel from "./CatalogEntryPanel";
 import { sizedInput } from "@/components/ui/fields";
@@ -132,6 +133,7 @@ export default function CatalogView() {
   const [amiiboType, setAmiiboType] = useState<AmiiboTypeGroup>(DEFAULT_AMIIBO_TYPE);
   const [limit, setLimit] = useState(PAGE);
   const [compat, setCompat] = useState<AmiiboCompat | null>(null);
+  const amazon = useAmazonPrices();
   const isAmiibo = platform === AMIIBO_PLATFORM;
   const [error, setError] = useState<string | null>(null);
   const [attempt, setAttempt] = useState(0);
@@ -508,6 +510,9 @@ export default function CatalogView() {
                             ? `${e.ty ?? "amiibo"} · ${e.s}${e.d && isUpcoming(e.d) ? " · à venir" : ""}`
                             : `${platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}${e.r.join(", ") || "région inconnue"}`}
                         </span>
+                        {amazon?.prices[e.id] ? (
+                          <span className="mt-0.5 block text-xs font-medium text-accent">Amazon {formatEuro(amazon.prices[e.id]!.p)}</span>
+                        ) : null}
                       </div>
                     </div>
                   </button>

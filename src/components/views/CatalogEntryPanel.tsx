@@ -5,7 +5,7 @@ import type { Game } from "@/lib/schema";
 import { Badge, Button } from "@/components/ui/primitives";
 import { CheckIcon, StarIcon } from "@/components/icons";
 import CoverHero from "@/components/game/CoverHero";
-import { AmiiboGames } from "@/components/game/AmiiboCompat";
+import { AmazonPrice, AmiiboGames } from "@/components/game/AmiiboCompat";
 import { AMIIBO_PLATFORM, formatRelease, isUpcoming } from "@/lib/amiibo";
 import { ShopLinks, shopLinks } from "@/components/game/GameDetail";
 import SidePanel from "@/components/game/SidePanel";
@@ -93,6 +93,7 @@ export default function CatalogEntryPanel({
             </p>
           )}
           {entry.note ? <p className="mt-1 text-xs text-muted">{entry.note}</p> : null}
+          {platformId === AMIIBO_PLATFORM ? <AmazonPrice catalogId={entry.id} /> : null}
           {tierLabel || boxLabel ? (
             <div className="mt-3 flex flex-wrap justify-center gap-1.5">
               {tierLabel ? <Badge tone="accent">Qualité {tierLabel}</Badge> : null}

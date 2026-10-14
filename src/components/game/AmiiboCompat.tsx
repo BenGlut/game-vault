@@ -42,7 +42,47 @@ export function useAmiiboData() {
   return data;
 }
 
-const listClass = "divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface";
+/** Prix Amazon.fr relevés (scripts/catalog/amazon-amiibo.ts), par id de catalogue. */
+export interface AmazonPrices {
+  at: string;
+  prices: Record<string, { p: number; asin: string; imp?: true }>;
+}
+let amazonCache: Promise<AmazonPrices | null> | null = null;
+export function useAmazonPrices() {
+  const [data, setData] = useState<AmazonPrices | null>(null);
+  useEffect(() => {
+    let alive = true;
+    amazonCache ??= fetch("/catalog/amiibo-amazon.json")
+      .then((r) => (r.ok ? (r.json() as Promise<AmazonPrices>) : null))
+      .catch(() => null);
+    void amazonCache.then((d) => alive && setData(d));
+    return () => {
+      alive = false;
+    };
+  }, []);
+  return data;
+}
+
+export const formatEuro = (n: number) => n.toLocaleString("fr-FR", { style: "currency", currency: "EUR" });
+
+/** Fiche catalogue d'un amiibo : prix Amazon.fr relevé, avec le lien vers l'offre. */
+export function AmazonPrice({ catalogId }: { catalogId: string }) {
+  const data = useAmazonPrices();
+  const offer = data?.prices[catalogId];
+  if (!data || !offer) return null;
+  return (
+    <p className="mt-2 text-[13px]">
+      <a href={`https://www.amazon.fr/dp/${offer.asin}`} target="_blank" rel="noreferrer" className="font-medium text-accent hover:underline">
+        Amazon.fr : {formatEuro(offer.p)}
+      </a>
+      <span className="text-muted">
+        {offer.imp ? " · import japonais" : ""} · relevé le {new Date(data.at).toLocaleDateString("fr-FR")}
+      </span>
+    </p>
+  );
+}
+
+const listClass ="divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface";
 
 /** Fiche d'un jeu : les amiibo qui débloquent quelque chose dedans, ceux de la collection en tête. */
 export function GameAmiibo({ game }: { game: CompatGameLike }) {

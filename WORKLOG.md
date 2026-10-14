@@ -1,6 +1,14 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Prix Amazon.fr des amiibo** (demande de benglut, 14/10) : relevé des pages de résultats
+  Amazon.fr (`scripts/catalog/amazon-amiibo-raw.tsv`), correspondance ASIN → amiibo vérifiée
+  à la main (`amazon-amiibo-map.json`, lots et accessoires exclus, imports japonais marqués),
+  `scripts/catalog/amazon-amiibo.ts` → `public/catalog/amiibo-amazon.json` (152 amiibo ; version
+  européenne préférée à un import). Affiché sous chaque carte du catalogue amiibo et dans la
+  fiche (lien vers l'offre, date du relevé) : `useAmazonPrices` / `AmazonPrice`
+  (`AmiiboCompat.tsx`), `CatalogView.tsx`, `CatalogEntryPanel.tsx`. Cotes `amazon-fr` (neuf)
+  ajoutées dans la base pour les amiibo suivis.
 - **Amiibo** (demande de benglut, 13/10) : nouveau type d'entrée `amiibo` (`ENTRY_KINDS`,
   `src/lib/schema.ts`) et console `amiibo` (créée dans D1 via le MCP ; `pnpm d1 pull`
   avant toute commande `pnpm vault`). Les amiibo se possèdent, se mettent en wishlist et
