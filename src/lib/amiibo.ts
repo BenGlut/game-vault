@@ -79,6 +79,121 @@ export function gamesForAmiibo(id: string, compat: AmiiboCompat): { t: string; p
 
 export const AMIIBO_PLATFORM = "amiibo";
 
+/** Entrée de public/catalog/amiibo.json (écrite par scripts/catalog/fetch-amiibo.ts). */
+export interface AmiiboCatalogEntry {
+  id: string;
+  /** nom affiché (français officiel quand il existe) */
+  t: string;
+  /** t normalisé */
+  n: string;
+  r: string[];
+  /** copie locale dans public/catalog-covers/amiibo/ */
+  img: boolean;
+  u?: string;
+  /** série */
+  s: string;
+  /** type : Figurine, Carte, Laine, Bracelet, Bloc */
+  ty: string;
+  /** sortie européenne (ou annoncée : « 2027 » si seule l'année est connue) */
+  d?: string;
+  /** autres titres normalisés (anglais, ancien titre) : recherche et rapprochement avec la base */
+  a?: string[];
+  /** précision affichée sur la fiche (édition spéciale…) */
+  note?: string;
+}
+
+/** Tous les titres normalisés sous lesquels un amiibo peut être cherché ou enregistré. */
+export function entryKeys(e: { n: string; a?: string[] }): string[] {
+  return [e.n, ...(e.a ?? [])];
+}
+
+/**
+ * Groupes de type du catalogue : les figurines d'abord (choix par défaut), les cartes
+ * à part pour qu'elles ne noient pas les figurines, le reste (laine, bracelets Power-Up,
+ * blocs en bois) ensemble.
+ */
+export const AMIIBO_TYPE_GROUPS = [
+  { id: "figurine", label: "Figurines", types: ["Figurine"] },
+  { id: "carte", label: "Cartes", types: ["Carte"] },
+  { id: "autre", label: "Autres", types: ["Laine", "Bracelet", "Bloc"] },
+  { id: "tous", label: "Tous", types: [] as string[] },
+] as const;
+
+export type AmiiboTypeGroup = (typeof AMIIBO_TYPE_GROUPS)[number]["id"];
+export const DEFAULT_AMIIBO_TYPE: AmiiboTypeGroup = "figurine";
+
+export function isAmiiboTypeGroup(v: string | null | undefined): v is AmiiboTypeGroup {
+  return AMIIBO_TYPE_GROUPS.some((g) => g.id === v);
+}
+
+/** Groupe d'un type d'amiibo (un type inconnu compte comme « autre »). */
+export function typeGroupOf(type: string | undefined): Exclude<AmiiboTypeGroup, "tous"> {
+  if (!type || type === "Figurine") return "figurine";
+  return type === "Carte" ? "carte" : "autre";
+}
+
+export function inTypeGroup(type: string | undefined, group: AmiiboTypeGroup): boolean {
+  return group === "tous" || typeGroupOf(type) === group;
+}
+
+/** Rang d'affichage : figurines, autres objets, puis cartes. */
+export function typeRank(type: string | undefined): number {
+  return { figurine: 0, autre: 1, carte: 2 }[typeGroupOf(type)];
+}
+
+/** Amiibo annoncé mais pas encore sorti (date future ou année seule à venir). */
+export function isUpcoming(d: string | undefined, today = new Date().toISOString().slice(0, 10)): boolean {
+  if (!d) return false;
+  return d.length === 4 ? d > today.slice(0, 4) : d > today;
+}
+
+/** « 12 nov. 2026 », ou l'année seule quand la date exacte n'est pas annoncée. */
+export function formatRelease(d: string): string {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) return d;
+  return new Date(`${d}T00:00:00Z`).toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+}
+
+/**
+ * Titres affichés, sans homonymes : même nom → série entre parenthèses (Mario de
+ * Super Mario / de Super Smash Bros.) ; même nom et même série → le type pour ce qui
+ * n'est pas une figurine (Luke figurine / Luke carte) ; encore homonymes (cartes
+ * Street Fighter 6 des deux vagues) → numéro de vague dans l'ordre de sortie.
+ */
+export function displayTitles(drafts: { id: string; name: string; series: string; type: string; release?: string }[]): Map<string, string> {
+  type D = (typeof drafts)[number];
+  const counts = (keyOf: (d: D) => string) => {
+    const m = new Map<string, number>();
+    for (const d of drafts) m.set(keyOf(d), (m.get(keyOf(d)) ?? 0) + 1);
+    return (d: D) => m.get(keyOf(d)) ?? 0;
+  };
+  const sameName = counts((d) => d.name);
+  const sameSeries = counts((d) => `${d.name}|${d.series}`);
+  const sameType = counts((d) => `${d.name}|${d.series}|${d.type}`);
+  const qualifiers = (d: D): string[] => {
+    if (sameName(d) < 2) return [];
+    const q = [d.series];
+    if (sameSeries(d) > 1 && sameType(d) < sameSeries(d) && d.type !== "Figurine") q.push(d.type.toLowerCase());
+    return q;
+  };
+  const base = (d: D) => {
+    const q = qualifiers(d);
+    return q.length ? `${d.name} (${q.join(", ")})` : d.name;
+  };
+  const groups = new Map<string, D[]>();
+  for (const d of drafts) groups.set(base(d), [...(groups.get(base(d)) ?? []), d]);
+  const out = new Map<string, string>();
+  for (const [t, list] of groups) {
+    if (list.length === 1) {
+      out.set(list[0]!.id, t);
+      continue;
+    }
+    list
+      .sort((x, y) => (x.release ?? "9999").localeCompare(y.release ?? "9999") || x.id.localeCompare(y.id))
+      .forEach((d, i) => out.set(d.id, t.endsWith(")") ? `${t.slice(0, -1)}, vague ${i + 1})` : `${t} (vague ${i + 1})`));
+  }
+  return out;
+}
+
 /** Libellés des consoles d'AmiiboAPI. */
 export const COMPAT_PLATFORM_LABELS: Record<string, string> = {
   switch2: "Switch 2",

@@ -3,10 +3,22 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { GameRow } from "@/lib/stats";
-import { amiiboForGame, gamesForAmiibo, compatGameIndexes } from "@/lib/amiibo";
+import {
+  AMIIBO_TYPE_GROUPS,
+  DEFAULT_AMIIBO_TYPE,
+  amiiboForGame,
+  compatGameIndexes,
+  entryKeys,
+  gamesForAmiibo,
+  inTypeGroup,
+  typeGroupOf,
+  typeRank,
+  type AmiiboCatalogEntry,
+  type AmiiboTypeGroup,
+} from "@/lib/amiibo";
 import { normalizeTitle } from "@/lib/normalize";
 import { AmiiboIcon, CatalogIcon } from "@/components/icons";
-import { Button, EmptyState, FilterBar, PageHeader, SearchField, SectionHeader, StatGrid, StatTile } from "@/components/ui/primitives";
+import { Button, Chip, ChipRow, EmptyState, FilterBar, PageHeader, SearchField, SectionHeader, StatGrid, StatTile } from "@/components/ui/primitives";
 import GameCard, { CardGrid } from "@/components/game/GameCard";
 import { useAmiiboData } from "@/components/game/AmiiboCompat";
 import { useVault } from "@/components/vault/VaultProvider";
@@ -26,9 +38,37 @@ export default function AmiiboView() {
   const { stats } = useVault();
   const data = useAmiiboData();
   const [query, setQuery] = useState("");
+  // comme le catalogue : figurines par défaut, les cartes à part
+  const [typeGroup, setTypeGroup] = useState<AmiiboTypeGroup>(DEFAULT_AMIIBO_TYPE);
 
   const amiibo = useMemo(() => stats.rows.filter((r) => r.game.kind === "amiibo"), [stats.rows]);
-  const shown = amiibo.filter((r) => matches(r.game, query));
+
+  // entrée du catalogue de chaque amiibo de la base (titre, alias anglais ou ancien titre)
+  const entryOf = useMemo(() => {
+    const out = new Map<string, AmiiboCatalogEntry>();
+    if (!data) return out;
+    const byKey = new Map<string, AmiiboCatalogEntry>();
+    for (const a of data.amiibo) for (const k of entryKeys(a)) if (!byKey.has(k)) byKey.set(k, a);
+    for (const r of amiibo) {
+      const hit = [r.game.normalizedTitle, ...r.game.aliases.map(normalizeTitle)].map((k) => byKey.get(k)).find(Boolean);
+      if (hit) out.set(r.game.id, hit);
+    }
+    return out;
+  }, [data, amiibo]);
+
+  // figurines et cartes séparées dès que la collection contient plusieurs types
+  const typeCounts = useMemo(() => {
+    const counts: Record<string, number> = { figurine: 0, carte: 0, autre: 0, tous: amiibo.length };
+    for (const r of amiibo) {
+      const g = typeGroupOf(entryOf.get(r.game.id)?.ty);
+      counts[g] = (counts[g] ?? 0) + 1;
+    }
+    return counts;
+  }, [amiibo, entryOf]);
+  const severalTypes = ["figurine", "carte", "autre"].filter((g) => typeCounts[g]).length > 1;
+  // un seul type dans la collection : pas de puces ; puce choisie vide : tout montrer
+  const activeType = severalTypes && typeCounts[typeGroup] ? typeGroup : "tous";
+  const shown = amiibo.filter((r) => matches(r.game, query) && inTypeGroup(entryOf.get(r.game.id)?.ty, activeType));
 
   // jeux de la collection (possédés ou en route) avec lesquels chaque amiibo fonctionne
   const myGamesFor = useMemo(() => {
@@ -40,8 +80,7 @@ export default function AmiiboView() {
       for (const i of compatGameIndexes(r.game, data.compat)) mine.set(i, r.game.canonicalTitle);
     }
     for (const r of amiibo) {
-      const keys = new Set([r.game.normalizedTitle, ...r.game.aliases.map(normalizeTitle)]);
-      const entry = data.amiibo.find((a) => keys.has(a.n));
+      const entry = entryOf.get(r.game.id);
       if (!entry) continue;
       const titles = gamesForAmiibo(entry.id, data.compat)
         .map((g) => mine.get(g.index))
@@ -49,7 +88,7 @@ export default function AmiiboView() {
       out.set(r.game.id, [...new Set(titles)]);
     }
     return out;
-  }, [data, stats.rows, amiibo]);
+  }, [data, stats.rows, amiibo, entryOf]);
 
   // jeux de la collection qui acceptent des amiibo : la raison d'en chercher
   const gamesWithAmiibo = useMemo(() => {
@@ -60,7 +99,12 @@ export default function AmiiboView() {
   const group = (key: (typeof SECTIONS)[number]["key"]) =>
     shown
       .filter((r) => r.state === key)
-      .sort((a, b) => a.game.canonicalTitle.localeCompare(b.game.canonicalTitle, "fr"));
+      // « Tous » : figurines, puis autres objets, puis cartes
+      .sort(
+        (a, b) =>
+          typeRank(entryOf.get(a.game.id)?.ty) - typeRank(entryOf.get(b.game.id)?.ty) ||
+          a.game.canonicalTitle.localeCompare(b.game.canonicalTitle, "fr"),
+      );
 
   const footer = (r: GameRow) => {
     const games = myGamesFor.get(r.game.id) ?? [];
@@ -90,7 +134,17 @@ export default function AmiiboView() {
         <StatTile label="Mes jeux compatibles" value={String(gamesWithAmiibo)} detail="jeux possédés qui acceptent des amiibo" />
       </StatGrid>
 
-      <FilterBar top={<SearchField className="basis-full sm:flex-1" value={query} onChange={setQuery} placeholder="Chercher un amiibo…" />} />
+      <FilterBar top={<SearchField className="basis-full sm:flex-1" value={query} onChange={setQuery} placeholder="Chercher un amiibo…" />}>
+        {severalTypes ? (
+          <ChipRow label="Type d’amiibo">
+            {AMIIBO_TYPE_GROUPS.filter((g) => typeCounts[g.id]).map((g) => (
+              <Chip key={g.id} active={activeType === g.id} onClick={() => setTypeGroup(g.id)} count={typeCounts[g.id]}>
+                {g.label}
+              </Chip>
+            ))}
+          </ChipRow>
+        ) : null}
+      </FilterBar>
 
       {amiibo.length === 0 ? (
         <EmptyState title="Aucun amiibo pour l’instant" icon={<AmiiboIcon size={18} />}>

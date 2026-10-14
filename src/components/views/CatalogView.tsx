@@ -8,6 +8,8 @@ import {
   BOX_BADGES,
   BoxBadge,
   Button,
+  Chip,
+  ChipRow,
   CoverGridSkeleton,
   EmptyState,
   ErrorState,
@@ -26,7 +28,21 @@ import CatalogEntryPanel from "./CatalogEntryPanel";
 import { sizedInput } from "@/components/ui/fields";
 import { expandAbbreviations } from "@/lib/abbreviations";
 import { buildEntryLinks, type CatalogGameLink } from "@/lib/catalog-match";
-import { AMIIBO_PLATFORM, COMPAT_PLATFORM_LABELS, compatGameIndexes, type AmiiboCompat } from "@/lib/amiibo";
+import {
+  AMIIBO_PLATFORM,
+  AMIIBO_TYPE_GROUPS,
+  COMPAT_PLATFORM_LABELS,
+  DEFAULT_AMIIBO_TYPE,
+  compatGameIndexes,
+  entryKeys,
+  inTypeGroup,
+  isAmiiboTypeGroup,
+  isUpcoming,
+  typeGroupOf,
+  typeRank,
+  type AmiiboCompat,
+  type AmiiboTypeGroup,
+} from "@/lib/amiibo";
 
 /** Les 35 000 jaquettes du catalogue restent servies par GitHub Pages (plafond Cloudflare). */
 const COVERS_BASE = "https://benglut.github.io/game-vault";
@@ -48,7 +64,13 @@ interface CatalogEntry {
   s?: string;
   ty?: string;
   d?: string;
+  /** amiibo : autres titres normalisés (nom anglais, ancien titre) */
+  a?: string[];
+  note?: string;
 }
+
+/** Cartes affichées par page (le bouton « Afficher plus » en ajoute autant). */
+const PAGE = 200;
 
 function norm(s: string): string {
   return s
@@ -106,6 +128,9 @@ export default function CatalogView() {
   // amiibo : jeu compatible (index dans amiibo-compat.json) et série
   const [compatGame, setCompatGame] = useState("");
   const [series, setSeries] = useState("");
+  // amiibo : figurines par défaut, les cartes à part
+  const [amiiboType, setAmiiboType] = useState<AmiiboTypeGroup>(DEFAULT_AMIIBO_TYPE);
+  const [limit, setLimit] = useState(PAGE);
   const [compat, setCompat] = useState<AmiiboCompat | null>(null);
   const isAmiibo = platform === AMIIBO_PLATFORM;
   const [error, setError] = useState<string | null>(null);
@@ -116,11 +141,15 @@ export default function CatalogView() {
   // une console choisie : le cadre prend les proportions de ses jaquettes
   const frameRatio = platform ? formatOf(platform).ratio : 0.75;
   const localCover = (e: CatalogEntry) => `${coversBase}/catalog-covers/${platformOf(e)}/${e.id.slice(platformOf(e).length + 1)}.jpg`;
+  /** original à redimensionner, sauf s'il n'est que la copie locale elle-même (amiibo) */
+  const remoteCover = (e: CatalogEntry) => (e.img && e.u?.startsWith(`${coversBase}/`) ? null : e.u);
 
   const entries = useMemo(() => {
     if (!lists) return null;
     const all = [...lists.values()].flat();
     if (!platform) all.sort((a, b) => a.t.localeCompare(b.t, "fr"));
+    // amiibo (onglet « Tous ») : figurines d'abord, puis laine / bracelets / blocs, puis cartes
+    if (platform === AMIIBO_PLATFORM) all.sort((a, b) => typeRank(a.ty) - typeRank(b.ty) || a.t.localeCompare(b.t, "fr"));
     return all;
   }, [lists, platform]);
 
@@ -156,6 +185,8 @@ export default function CatalogView() {
     read("boite", setBox);
     read("jeu", setCompatGame);
     read("serie", setSeries);
+    const type = params.get("type");
+    if (isAmiiboTypeGroup(type)) setAmiiboType(type);
   }, []);
 
   // reflète chaque sélection dans l'URL
@@ -169,9 +200,10 @@ export default function CatalogView() {
     if (box) params.set("boite", box);
     if (compatGame) params.set("jeu", compatGame);
     if (series) params.set("serie", series);
+    if (platform === AMIIBO_PLATFORM) params.set("type", amiiboType);
     const qs = params.toString();
     window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [platform, query, possession, region, quality, box, compatGame, series]);
+  }, [platform, query, possession, region, quality, box, compatGame, series, amiiboType]);
 
   // table de compatibilité, chargée au premier passage sur les amiibo
   useEffect(() => {
@@ -226,12 +258,19 @@ export default function CatalogView() {
       .sort((a, b) => a.label.localeCompare(b.label, "fr"));
     return { mine: all.filter((o) => o.mine), others: all.filter((o) => !o.mine) };
   }, [compat, stats.rows]);
+  // séries du type d'amiibo affiché : les séries de cartes n'encombrent pas la liste des figurines
   const seriesList = useMemo(
-    () => (isAmiibo && entries ? [...new Set(entries.map((e) => e.s).filter((s): s is string => !!s))].sort((a, b) => a.localeCompare(b, "fr")) : []),
-    [isAmiibo, entries],
+    () =>
+      isAmiibo && entries
+        ? [...new Set(entries.filter((e) => inTypeGroup(e.ty, amiiboType)).map((e) => e.s).filter((s): s is string => !!s))].sort((a, b) =>
+            a.localeCompare(b, "fr"),
+          )
+        : [],
+    [isAmiibo, entries, amiiboType],
   );
 
-  const filtered = useMemo(() => {
+  // tous les filtres sauf le type d'amiibo : sert aussi aux compteurs des puces de type
+  const matching = useMemo(() => {
     if (!entries) return [];
     // « dqm 2 » doit trouver « Dragon Quest Monsters - Joker 2 »
     const q = expandAbbreviations(norm(query));
@@ -246,12 +285,24 @@ export default function CatalogView() {
       if (box && e.b !== box) return false;
       if (isAmiibo && series && e.s !== series) return false;
       if (isAmiibo && compatGame && compat && !(compat.links[e.id] ?? []).some(([g]) => String(g) === compatGame)) return false;
-      if (qWords.length && !qWords.every((w) => e.n.includes(w))) return false;
+      // amiibo : le nom anglais (alias) et la série (« metroid » trouve Sylux) se cherchent aussi
+      if (qWords.length && !(e.s ? [...entryKeys(e).map((k) => `${k} ${norm(e.s!)}`)] : [e.n]).some((k) => qWords.every((w) => k.includes(w)))) return false;
       return true;
     });
   }, [entries, query, possession, links, region, quality, box, isAmiibo, series, compatGame, compat]);
 
-  const shown = filtered.slice(0, 200);
+  const typeCounts = useMemo(() => {
+    const counts: Record<string, number> = { figurine: 0, carte: 0, autre: 0, tous: matching.length };
+    if (isAmiibo) for (const e of matching) counts[typeGroupOf(e.ty)] = (counts[typeGroupOf(e.ty)] ?? 0) + 1;
+    return counts;
+  }, [matching, isAmiibo]);
+
+  const filtered = useMemo(() => (isAmiibo ? matching.filter((e) => inTypeGroup(e.ty, amiiboType)) : matching), [matching, isAmiibo, amiiboType]);
+
+  // nouvelle sélection : on repart de la première page
+  useEffect(() => setLimit(PAGE), [filtered]);
+
+  const shown = filtered.slice(0, limit);
   const anyFilter = !!(query || possession || region || quality || box || compatGame || series);
   const clearFilters = () => {
     setQuery("");
@@ -367,7 +418,17 @@ export default function CatalogView() {
             )}
           </>
         }
-      />
+      >
+        {isAmiibo ? (
+          <ChipRow label="Type d’amiibo">
+            {AMIIBO_TYPE_GROUPS.map((g) => (
+              <Chip key={g.id} active={amiiboType === g.id} onClick={() => setAmiiboType(g.id)} count={entries ? typeCounts[g.id] : undefined}>
+                {g.label}
+              </Chip>
+            ))}
+          </ChipRow>
+        ) : null}
+      </FilterBar>
 
       {error ? (
         <ErrorState title="Le catalogue n’a pas pu être chargé" onRetry={() => setAttempt((a) => a + 1)}>
@@ -381,7 +442,7 @@ export default function CatalogView() {
             <span>
               <span className="font-medium text-text">{filtered.length.toLocaleString("fr-FR")}</span> {isAmiibo ? "amiibo" : `jeu${filtered.length > 1 ? "x" : ""}`} sur{" "}
               {entries.length.toLocaleString("fr-FR")} référencés
-              {shown.length < filtered.length ? ` · ${shown.length} affichés, affinez la recherche` : ""}
+              {shown.length < filtered.length ? ` · ${shown.length} affichés` : ""}
             </span>
             {anyFilter ? (
               <Button size="sm" variant="ghost" onClick={clearFilters}>
@@ -390,8 +451,8 @@ export default function CatalogView() {
             ) : null}
           </div>
           {shown.length === 0 ? (
-            <EmptyState title="Aucun jeu ne correspond" icon={<CatalogIcon size={18} />}>
-              Essayez une autre console, un autre mot ou moins de filtres.
+            <EmptyState title={isAmiibo ? "Aucun amiibo ne correspond" : "Aucun jeu ne correspond"} icon={<CatalogIcon size={18} />}>
+              {isAmiibo ? "Essayez un autre type, un autre mot ou moins de filtres." : "Essayez une autre console, un autre mot ou moins de filtres."}
             </EmptyState>
           ) : (
             <div
@@ -409,7 +470,7 @@ export default function CatalogView() {
                   <button key={e.id} type="button" onClick={() => openDrawer(e, link)} className="group block w-full min-w-0 rounded-lg text-left focus-visible:outline-offset-4">
                     <div className="cover-lift relative overflow-hidden rounded-lg ring-1 ring-[var(--cover-ring)]">
                       <CoverImage
-                        src={e.u}
+                        src={remoteCover(e)}
                         fallback={e.img ? localCover(e) : null}
                         alt={`Jaquette de ${e.t}`}
                         ratio={frameRatio}
@@ -444,7 +505,7 @@ export default function CatalogView() {
                       <div className="mt-1">
                         <span className="block min-w-0 truncate text-xs text-muted">
                           {e.s
-                            ? `${e.ty ?? "amiibo"} · ${e.s}`
+                            ? `${e.ty ?? "amiibo"} · ${e.s}${e.d && isUpcoming(e.d) ? " · à venir" : ""}`
                             : `${platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}${e.r.join(", ") || "région inconnue"}`}
                         </span>
                       </div>
@@ -454,10 +515,19 @@ export default function CatalogView() {
               })}
             </div>
           )}
+          {shown.length < filtered.length ? (
+            <div className="mt-8 flex justify-center">
+              <Button onClick={() => setLimit((l) => l + PAGE)}>
+                Afficher {Math.min(PAGE, filtered.length - shown.length).toLocaleString("fr-FR")} de plus
+              </Button>
+            </div>
+          ) : null}
         </>
       )}
       <p className="mt-8 text-xs text-muted">
-        Sources : listes No-Intro et jaquettes libretro-thumbnails, eShop Nintendo Europe pour la Switch. Un jeu absent de la base s’ajoute depuis sa fiche.
+        {isAmiibo
+          ? "Sources : AmiiboAPI et Nintendo (noms français, images et amiibo annoncés). Un amiibo absent de la base s’ajoute depuis sa fiche."
+          : "Sources : listes No-Intro et jaquettes libretro-thumbnails, eShop Nintendo Europe pour la Switch. Un jeu absent de la base s’ajoute depuis sa fiche."}
       </p>
       {selected ? (
         <CatalogEntryPanel

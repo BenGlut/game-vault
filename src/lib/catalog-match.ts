@@ -30,6 +30,8 @@ export function displayStatuses(items: StatusLike[]): string[] {
 export interface CatalogEntryLite {
   id: string;
   n: string;
+  /** autres titres normalisés (amiibo : nom anglais, ancien titre) */
+  a?: string[];
 }
 
 export interface MatchRow {
@@ -58,6 +60,14 @@ export function buildEntryLinks(
       if (!exact.has(e.n)) exact.set(e.n, e.id);
       const key = sortedKey(e.n);
       if (!sorted.has(key)) sorted.set(key, e.id);
+    }
+    // alias ensuite : un titre principal l'emporte toujours sur l'alias d'une autre entrée
+    for (const e of entries) {
+      for (const alias of e.a ?? []) {
+        if (!exact.has(alias)) exact.set(alias, e.id);
+        const key = sortedKey(alias);
+        if (!sorted.has(key)) sorted.set(key, e.id);
+      }
     }
 
     // Le drapeau « sorti en boîte » de l'eShop est européen : un titre acheté en

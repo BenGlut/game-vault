@@ -7,21 +7,16 @@ import {
   COMPAT_PLATFORM_LABELS,
   amiiboForGame,
   compatGameIndexes,
+  entryKeys,
   gamesForAmiibo,
+  type AmiiboCatalogEntry,
   type AmiiboCompat,
   type CompatGameLike,
 } from "@/lib/amiibo";
 import { useVault } from "@/components/vault/VaultProvider";
 import { Badge } from "@/components/ui/primitives";
 
-export interface AmiiboEntry {
-  id: string;
-  t: string;
-  n: string;
-  u?: string;
-  s?: string;
-  ty?: string;
-}
+export type AmiiboEntry = AmiiboCatalogEntry;
 
 /** Catalogue amiibo + table de compatibilité, chargés une fois pour toute la session. */
 let cache: Promise<{ compat: AmiiboCompat; amiibo: AmiiboEntry[] } | null> | null = null;
@@ -64,7 +59,7 @@ export function GameAmiibo({ game }: { game: CompatGameLike }) {
     return amiiboForGame(game, data.compat)
       .map((x) => ({ ...x, a: byId.get(x.id) }))
       .filter((x): x is typeof x & { a: AmiiboEntry } => !!x.a)
-      .map((x) => ({ ...x, mine: owned.has(x.a.n) }))
+      .map((x) => ({ ...x, mine: entryKeys(x.a).some((k) => owned.has(k)) }))
       .sort((x, y) => Number(y.mine) - Number(x.mine) || x.a.t.localeCompare(y.a.t, "fr"));
   }, [data, game, owned]);
   if (!list.length) return null;
@@ -115,7 +110,8 @@ export function AmiiboGames({ title, catalogId }: { title: string; catalogId?: s
   const { stats } = useVault();
   const list = useMemo(() => {
     if (!data) return [];
-    const id = catalogId ?? data.amiibo.find((a) => a.n === normalizeTitle(title))?.id;
+    const key = normalizeTitle(title);
+    const id = catalogId ?? data.amiibo.find((a) => entryKeys(a).includes(key))?.id;
     if (!id) return [];
     const mine = new Set<number>();
     for (const r of stats.rows) {

@@ -6,7 +6,7 @@ import { Badge, Button } from "@/components/ui/primitives";
 import { CheckIcon, StarIcon } from "@/components/icons";
 import CoverHero from "@/components/game/CoverHero";
 import { AmiiboGames } from "@/components/game/AmiiboCompat";
-import { AMIIBO_PLATFORM } from "@/lib/amiibo";
+import { AMIIBO_PLATFORM, formatRelease, isUpcoming } from "@/lib/amiibo";
 import { ShopLinks, shopLinks } from "@/components/game/GameDetail";
 import SidePanel from "@/components/game/SidePanel";
 import { useGameDrawer } from "@/components/game/GameDrawer";
@@ -21,6 +21,11 @@ interface Entry {
   q?: string;
   u?: string;
   sq?: boolean;
+  /** amiibo : série, type, sortie, précision */
+  s?: string;
+  ty?: string;
+  d?: string;
+  note?: string;
 }
 
 /** Fiche d'un jeu du catalogue absent de la base : jaquette au format de la console, ajout en un clic. */
@@ -77,9 +82,17 @@ export default function CatalogEntryPanel({
       <div className="space-y-6 px-5 pb-10">
         <div className="text-center">
           <h2 className="text-xl font-semibold leading-tight tracking-[-0.02em]">{entry.t}</h2>
-          <p className="mt-1 text-[13px] text-muted">
-            {platformName} · {entry.r.join(", ") || "région inconnue"}
-          </p>
+          {entry.s ? (
+            <p className="mt-1 text-[13px] text-muted">
+              {entry.ty ?? "amiibo"} · {entry.s}
+              {entry.d ? ` · ${isUpcoming(entry.d) ? "sortie prévue" : "sorti"} ${entry.d.length === 4 ? "en" : "le"} ${formatRelease(entry.d)}` : ""}
+            </p>
+          ) : (
+            <p className="mt-1 text-[13px] text-muted">
+              {platformName} · {entry.r.join(", ") || "région inconnue"}
+            </p>
+          )}
+          {entry.note ? <p className="mt-1 text-xs text-muted">{entry.note}</p> : null}
           {tierLabel || boxLabel ? (
             <div className="mt-3 flex flex-wrap justify-center gap-1.5">
               {tierLabel ? <Badge tone="accent">Qualité {tierLabel}</Badge> : null}

@@ -692,6 +692,42 @@
 - Jaquettes du catalogue rangées par plateforme (`public/catalog-covers/<plateforme>/`)
 
 ## Fixed
+- **Catalogue amiibo : images, exhaustivité, noms français, figurines séparées des cartes**
+  (retour de benglut, 14/10 : « incomplet, mauvaises images »). Images : les 950 images
+  d'AmiiboAPI répondent toutes (aucune 404, aucun doublon), mais 9 figurines ont un fond
+  opaque noir ou vert (Mio, Noah, Pasquale/Angie/Raimi de 2023, Ganondorf et Zelda
+  Tears of the Kingdom, Byleth, bracelet Power-Up doré), 2 sont des WebP servis en
+  `.png`, et le tout passait par wsrv.nl puis raw.githubusercontent.com à chaque
+  affichage. Désormais copie locale de chaque image (`public/catalog-covers/amiibo/`,
+  957 JPEG de 400 px, 17 Ko en moyenne, 16,8 Mo, servis par GitHub Pages comme les
+  autres consoles) : figurine posée sur un fond gris très clair uni (identique en thème
+  clair et sombre), cartes simplement aplaties ; images défectueuses remplacées par les
+  photos officielles nintendo.com (fond de studio retiré). `u` pointe vers la copie
+  locale : plus de dépendance à AmiiboAPI à l'affichage. Exhaustivité : comparaison avec
+  la gamme officielle nintendo.com (264 figurines) et l'index Nintendo Europe FR
+  (257 fiches) : AmiiboAPI est à jour pour tout ce qui est sorti ; ajout des 9 amiibo
+  annoncés qu'il n'a pas encore (Kirby Épée et Dragoon, DaDiDou Noir et Hydra — 12/11/2026 ;
+  Samus, Samus combinaison Metroid, Statue Chozo — Metroid Ravenous, 28/01/2027 ; Link
+  enfant et Zelda enfant — Ocarina of Time, 2027 ; Mega Man et Proto Man — Mega Man:
+  Dual Override, 2027, sans visuel officiel individuel) avec leurs jeux compatibles.
+  Noms : 130 noms français officiels (relevés sur l'index Nintendo Europe, fiches EN/FR
+  jointes) — Villageois, Marie, Roi DaDiDou, Harmonie, Ayo/Oly, Link loup… — le nom
+  anglais reste un alias de recherche et de rapprochement avec la base (les amiibo déjà
+  enregistrés sous leur titre anglais restent reconnus) ; libellés de série en français ;
+  homonymes départagés par série, type puis vague (cartes Street Fighter 6). Le tout dans
+  la curation versionnée `scripts/catalog/amiibo-extras.json` (`names`, `series`,
+  `images`, `add`), fusionnée par `scripts/catalog/fetch-amiibo.ts` (qui signale les
+  entrées devenues inutiles ; `--refresh-curated` régénère les images curées).
+  Catalogue : puces de type avec compteurs — Figurines (par défaut), Cartes, Autres
+  (laine, bracelets, blocs), Tous — persistées dans l'URL (`&type=figurine`) ; en
+  « Tous », figurines puis autres puis cartes ; liste des séries limitée au type affiché ;
+  recherche sur le nom anglais et la série (« metroid » trouve Sylux) ; « à venir » sous
+  les amiibo annoncés ; bouton « Afficher plus » au-delà de 200 cartes. Page Amiibo :
+  mêmes puces dès que la collection mélange figurines et cartes. Fiche : type, série,
+  date de sortie (ou prévue). Fichiers : `src/lib/amiibo.ts` (`displayTitles`,
+  `AMIIBO_TYPE_GROUPS`, `entryKeys`, `isUpcoming`…), `src/lib/catalog-match.ts` (alias
+  `a`), `CatalogView.tsx`, `CatalogEntryPanel.tsx`, `AmiiboView.tsx`, `AmiiboCompat.tsx`,
+  `tests/amiibo.test.ts` (titres, types, alias, cohérence du catalogue publié).
 - **Revue de l'interface en ligne, clic par clic** (retour de benglut : « on ne peut
   pas cliquer sur Switch 2 dans le catalogue ») :
   - consoles du catalogue coupées après « Switch » (Switch digital et Switch 2
