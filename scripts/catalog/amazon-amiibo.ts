@@ -1,7 +1,7 @@
 #!/usr/bin/env tsx
 /**
  * Prix Amazon.fr des amiibo, à partir d'un relevé des pages de résultats
- * (`amazon-amiibo-raw.tsv` : ASIN, prix affiché, prix « autres offres », titre) et
+ * (`amazon-amiibo-raw.tsv` : ASIN, prix affiché HT, prix « autres offres », titre) et
  * d'une correspondance ASIN → amiibo vérifiée à la main (`amazon-amiibo-map.json`).
  *
  *   pnpm exec tsx scripts/catalog/amazon-amiibo.ts [AAAA-MM-JJ du relevé]
@@ -27,7 +27,9 @@ const catalog = new Set(
   (JSON.parse(fs.readFileSync(path.join(ROOT, "public", "catalog", "amiibo.json"), "utf8")) as { id: string }[]).map((e) => e.id),
 );
 
-const num = (s?: string) => (s && s !== "-" ? Number(s) : NaN);
+// relevé fait depuis un compte Amazon Business : prix affichés hors taxes, on stocke le TTC
+const VAT = 1.2;
+const num = (s?: string) => (s && s !== "-" ? Math.round(Number(s) * VAT * 100) / 100 : NaN);
 const best = new Map<string, { p: number; asin: string; imp?: true }>();
 const unknown: string[] = [];
 for (const line of fs.readFileSync(path.join(DIR, "amazon-amiibo-raw.tsv"), "utf8").split("\n")) {

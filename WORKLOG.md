@@ -4,8 +4,9 @@
 - **Prix Amazon.fr des amiibo** (demande de benglut, 14/10) : relevé des pages de résultats
   Amazon.fr (`scripts/catalog/amazon-amiibo-raw.tsv`), correspondance ASIN → amiibo vérifiée
   à la main (`amazon-amiibo-map.json`, lots et accessoires exclus, imports japonais marqués),
-  `scripts/catalog/amazon-amiibo.ts` → `public/catalog/amiibo-amazon.json` (152 amiibo ; version
-  européenne préférée à un import). Affiché sous chaque carte du catalogue amiibo et dans la
+  `scripts/catalog/amazon-amiibo.ts` → `public/catalog/amiibo-amazon.json` (156 amiibo ; version
+  européenne préférée à un import ; relevé fait sur un compte Amazon Business, donc HT : le
+  script stocke le TTC, ×1,2). Affiché sous chaque carte du catalogue amiibo et dans la
   fiche (lien vers l'offre, date du relevé) : `useAmazonPrices` / `AmazonPrice`
   (`AmiiboCompat.tsx`), `CatalogView.tsx`, `CatalogEntryPanel.tsx`. Cotes `amazon-fr` (neuf)
   ajoutées dans la base pour les amiibo suivis.
