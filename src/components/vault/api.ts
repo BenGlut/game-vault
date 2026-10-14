@@ -6,6 +6,7 @@ import type {
   ChangeLogEntry,
   Game,
   InventoryItem,
+  Listing,
   Order,
   Platform,
   PriceObservation,
@@ -44,6 +45,7 @@ export interface VaultData {
   platforms: Platform[];
   sellers: Seller[];
   priceObservations: PriceObservation[];
+  listings?: Listing[];
   changeLog: ChangeLogEntry[];
 }
 

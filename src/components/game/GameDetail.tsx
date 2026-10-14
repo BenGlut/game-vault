@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import type { Game } from "@/lib/schema";
+import type { Game, Listing } from "@/lib/schema";
 import { euro } from "@/lib/labels";
 import { MARKETPLACE_LABELS } from "@/lib/stats";
 import BrandLogo, { MarketplaceTag } from "@/components/BrandLogos";
@@ -78,6 +78,56 @@ export function PanelSection({ title, children, aside }: { title: string; childr
 }
 
 /** Contenu complet d'un jeu : partagé par le panneau latéral et la page /jeu. */
+const LISTING_STATUS: Record<Listing["status"], string> = {
+  watching: "suivie",
+  purchased: "achetée",
+  expired: "close",
+  ignored: "écartée",
+};
+
+/** Annonces repérées pendant les chasses : lien, prix affiché, date du relevé. Il reste à vérifier qu'elles sont encore en ligne. */
+function ListingsSection({ listings }: { listings: Listing[] }) {
+  if (!listings.length) return null;
+  const sorted = [...listings].sort(
+    (a, b) => Number(a.status !== "watching") - Number(b.status !== "watching") || (a.askingPrice ?? Infinity) - (b.askingPrice ?? Infinity),
+  );
+  return (
+    <PanelSection title="Annonces suivies">
+      <div className="overflow-hidden rounded-xl border border-border bg-surface">
+        {sorted.map((l) => {
+          const body = (
+            <>
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-[13px] font-medium">{l.title}</span>
+                <span className="mt-0.5 block text-xs text-muted">
+                  <MarketplaceTag marketplace={l.marketplace} size={12} className="align-middle" /> · relevée le{" "}
+                  {new Date(l.capturedAt).toLocaleDateString("fr-FR")}
+                  {l.status !== "watching" ? ` · ${LISTING_STATUS[l.status]}` : ""}
+                  {l.privateNotes ? ` · ${l.privateNotes}` : ""}
+                </span>
+              </span>
+              <span className={cx("shrink-0 text-[13px] font-semibold tabular-nums", l.status !== "watching" && "text-muted line-through")}>
+                {l.askingPrice != null ? euro(l.askingPrice) : "—"}
+              </span>
+              {l.url ? <ExternalIcon size={13} className="shrink-0 text-muted" /> : null}
+            </>
+          );
+          const row = "flex items-center gap-3 border-b border-border px-3.5 py-2.5 last:border-0";
+          return l.url ? (
+            <a key={l.id} href={l.url} target="_blank" rel="noreferrer" className={cx(row, "transition hover:bg-surface-2")}>
+              {body}
+            </a>
+          ) : (
+            <div key={l.id} className={row}>
+              {body}
+            </div>
+          );
+        })}
+      </div>
+    </PanelSection>
+  );
+}
+
 export default function GameDetail({ gameId, onNavigate }: { gameId: string; onNavigate?: () => void }) {
   const { rowById, data, addItem } = useVault();
   const [busy, setBusy] = useState(false);
@@ -199,6 +249,7 @@ export default function GameDetail({ gameId, onNavigate }: { gameId: string; onN
         </PanelSection>
 
         {game.kind === "amiibo" ? <AmiiboGames title={game.canonicalTitle} /> : <GameAmiibo game={game} />}
+        <ListingsSection listings={(data?.listings ?? []).filter((l) => l.gameIds.includes(game.id))} />
         <PanelSection title="Cotes">
           <div className="overflow-hidden rounded-xl border border-border bg-surface">
             {(

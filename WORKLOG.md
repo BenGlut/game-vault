@@ -1,6 +1,12 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Annonces suivies dans la fiche** (demande de benglut, 14/10) : la collection `listings`
+  (déjà servie par `GET /api/vault`) est typée dans `VaultData` (`api.ts`) et affichée dans
+  la fiche d'un jeu ou d'un amiibo (`ListingsSection`, `GameDetail.tsx`) : lien vers l'annonce
+  Vinted/Amazon, prix affiché, date du relevé, note ; les annonces closes ou écartées
+  passent en fin de liste, prix barré. Les chasses y notent désormais chaque annonce
+  repérée : il ne reste qu'à vérifier si elle est encore en ligne.
 - **Prix Amazon.fr des amiibo** (demande de benglut, 14/10) : relevé des pages de résultats
   Amazon.fr (`scripts/catalog/amazon-amiibo-raw.tsv`), correspondance ASIN → amiibo vérifiée
   à la main (`amazon-amiibo-map.json`, lots et accessoires exclus, imports japonais marqués),
