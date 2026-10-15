@@ -1,6 +1,10 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Amiibo polyvalents** (demande de benglut, 15/10) : sous chaque carte amiibo du catalogue,
+  le nombre de jeux compatibles et combien sont dans la collection (« 43 jeux · 16 des
+  miens ») ; nouveau tri « Les plus polyvalents » / « Compatibles avec mes jeux » (paramètre
+  `tri` dans l'URL). `CatalogView.tsx` : `myCompatGames`, `compatCounts`.
 - **Annonces suivies dans la fiche** (demande de benglut, 14/10) : la collection `listings`
   (déjà servie par `GET /api/vault`) est typée dans `VaultData` (`api.ts`) et affichée dans
   la fiche d'un jeu ou d'un amiibo (`ListingsSection`, `GameDetail.tsx`) : lien vers l'annonce

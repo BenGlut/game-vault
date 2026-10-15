@@ -129,6 +129,8 @@ export default function CatalogView() {
   // amiibo : jeu compatible (index dans amiibo-compat.json) et série
   const [compatGame, setCompatGame] = useState("");
   const [series, setSeries] = useState("");
+  // amiibo : tri par nom ou par nombre de jeux compatibles
+  const [sort, setSort] = useState<"" | "polyvalents" | "mes-jeux">("");
   // amiibo : figurines par défaut, les cartes à part
   const [amiiboType, setAmiiboType] = useState<AmiiboTypeGroup>(DEFAULT_AMIIBO_TYPE);
   const [limit, setLimit] = useState(PAGE);
@@ -187,6 +189,8 @@ export default function CatalogView() {
     read("boite", setBox);
     read("jeu", setCompatGame);
     read("serie", setSeries);
+    const tri = params.get("tri");
+    if (tri === "polyvalents" || tri === "mes-jeux") setSort(tri);
     const type = params.get("type");
     if (isAmiiboTypeGroup(type)) setAmiiboType(type);
   }, []);
@@ -202,10 +206,11 @@ export default function CatalogView() {
     if (box) params.set("boite", box);
     if (compatGame) params.set("jeu", compatGame);
     if (series) params.set("serie", series);
+    if (sort) params.set("tri", sort);
     if (platform === AMIIBO_PLATFORM) params.set("type", amiiboType);
     const qs = params.toString();
     window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [platform, query, possession, region, quality, box, compatGame, series, amiiboType]);
+  }, [platform, query, possession, region, quality, box, compatGame, series, amiiboType, sort]);
 
   // table de compatibilité, chargée au premier passage sur les amiibo
   useEffect(() => {
@@ -248,18 +253,33 @@ export default function CatalogView() {
   }, [entries]);
 
   // filtre amiibo « Compatible avec » : les jeux de ta collection (possédés ou en route) d'abord
-  const compatOptions = useMemo(() => {
-    if (!compat) return null;
+  const myCompatGames = useMemo(() => {
     const mine = new Set<number>();
+    if (!compat) return mine;
     for (const r of stats.rows) {
       if (r.game.kind !== "game" || (r.ownedCount === 0 && r.state !== "incoming")) continue;
       for (const i of compatGameIndexes(r.game, compat)) mine.add(i);
     }
+    return mine;
+  }, [compat, stats.rows]);
+  // nombre de jeux compatibles par amiibo (tous, et ceux de la collection)
+  const compatCounts = useMemo(() => {
+    const out = new Map<string, { all: number; mine: number }>();
+    if (!compat) return out;
+    for (const [id, pairs] of Object.entries(compat.links)) {
+      const games = new Set(pairs.map(([g]) => g));
+      out.set(id, { all: games.size, mine: [...games].filter((g) => myCompatGames.has(g)).length });
+    }
+    return out;
+  }, [compat, myCompatGames]);
+  const compatOptions = useMemo(() => {
+    if (!compat) return null;
+    const mine = myCompatGames;
     const all = compat.games
       .map((g, i) => ({ i, label: `${g.t} (${COMPAT_PLATFORM_LABELS[g.p] ?? g.p})`, mine: mine.has(i) }))
       .sort((a, b) => a.label.localeCompare(b.label, "fr"));
     return { mine: all.filter((o) => o.mine), others: all.filter((o) => !o.mine) };
-  }, [compat, stats.rows]);
+  }, [compat, myCompatGames]);
   // séries du type d'amiibo affiché : les séries de cartes n'encombrent pas la liste des figurines
   const seriesList = useMemo(
     () =>
@@ -299,7 +319,15 @@ export default function CatalogView() {
     return counts;
   }, [matching, isAmiibo]);
 
-  const filtered = useMemo(() => (isAmiibo ? matching.filter((e) => inTypeGroup(e.ty, amiiboType)) : matching), [matching, isAmiibo, amiiboType]);
+  const filtered = useMemo(() => {
+    if (!isAmiibo) return matching;
+    const list = matching.filter((e) => inTypeGroup(e.ty, amiiboType));
+    if (!sort) return list;
+    const key = (e: CatalogEntry) => compatCounts.get(e.id) ?? { all: 0, mine: 0 };
+    return [...list].sort((a, b) =>
+      sort === "mes-jeux" ? key(b).mine - key(a).mine || key(b).all - key(a).all : key(b).all - key(a).all || key(b).mine - key(a).mine,
+    );
+  }, [matching, isAmiibo, amiiboType, sort, compatCounts]);
 
   // nouvelle sélection : on repart de la première page
   useEffect(() => setLimit(PAGE), [filtered]);
@@ -389,6 +417,11 @@ export default function CatalogView() {
                       {s}
                     </option>
                   ))}
+                </select>
+                <select aria-label="Tri" value={sort} onChange={(e) => setSort(e.target.value as typeof sort)} className={selectClass}>
+                  <option value="">Tri par nom</option>
+                  <option value="polyvalents">Les plus polyvalents</option>
+                  <option value="mes-jeux">Compatibles avec mes jeux</option>
                 </select>
               </>
             ) : null}
@@ -510,6 +543,12 @@ export default function CatalogView() {
                             ? `${e.ty ?? "amiibo"} · ${e.s}${e.d && isUpcoming(e.d) ? " · à venir" : ""}`
                             : `${platform ? "" : `${PLATFORM_CODES[pid] ?? pid.toUpperCase()} · `}${e.r.join(", ") || "région inconnue"}`}
                         </span>
+                        {isAmiibo && compatCounts.get(e.id) ? (
+                          <span className="mt-0.5 block text-xs text-muted">
+                            {compatCounts.get(e.id)!.all} jeu{compatCounts.get(e.id)!.all > 1 ? "x" : ""}
+                            {compatCounts.get(e.id)!.mine ? ` · ${compatCounts.get(e.id)!.mine} des miens` : ""}
+                          </span>
+                        ) : null}
                         {amazon?.prices[e.id] ? (
                           <span className="mt-0.5 block text-xs font-medium text-accent">Amazon {formatEuro(amazon.prices[e.id]!.p)}</span>
                         ) : null}
