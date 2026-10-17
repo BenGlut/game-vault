@@ -91,10 +91,11 @@ describe("titres et types du catalogue amiibo", () => {
     expect(titles.get("k1")).toBe("Kirby");
   });
 
-  it("range les types en figurines, cartes et autres", () => {
+  it("range les types en figurines (laine comprise), cartes et autres", () => {
     expect(typeGroupOf("Figurine")).toBe("figurine");
     expect(typeGroupOf("Carte")).toBe("carte");
-    expect(["Laine", "Bracelet", "Bloc"].map(typeGroupOf)).toEqual(["autre", "autre", "autre"]);
+    expect(typeGroupOf("Laine")).toBe("figurine");
+    expect(["Bracelet", "Bloc"].map(typeGroupOf)).toEqual(["autre", "autre"]);
     expect(inTypeGroup("Carte", "figurine")).toBe(false);
     expect(inTypeGroup("Carte", "tous")).toBe(true);
     expect(typeRank("Figurine")).toBeLessThan(typeRank("Bracelet"));

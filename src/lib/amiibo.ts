@@ -109,13 +109,13 @@ export function entryKeys(e: { n: string; a?: string[] }): string[] {
 
 /**
  * Groupes de type du catalogue : les figurines d'abord (choix par défaut), les cartes
- * à part pour qu'elles ne noient pas les figurines, le reste (laine, bracelets Power-Up,
- * blocs en bois) ensemble.
+ * à part pour qu'elles ne noient pas les figurines (laine comprise), le reste (bracelets
+ * Power-Up, blocs en bois) ensemble.
  */
 export const AMIIBO_TYPE_GROUPS = [
-  { id: "figurine", label: "Figurines", types: ["Figurine"] },
+  { id: "figurine", label: "Figurines", types: ["Figurine", "Laine"] },
   { id: "carte", label: "Cartes", types: ["Carte"] },
-  { id: "autre", label: "Autres", types: ["Laine", "Bracelet", "Bloc"] },
+  { id: "autre", label: "Autres", types: ["Bracelet", "Bloc"] },
   { id: "tous", label: "Tous", types: [] as string[] },
 ] as const;
 
@@ -128,7 +128,8 @@ export function isAmiiboTypeGroup(v: string | null | undefined): v is AmiiboType
 
 /** Groupe d'un type d'amiibo (un type inconnu compte comme « autre »). */
 export function typeGroupOf(type: string | undefined): Exclude<AmiiboTypeGroup, "tous"> {
-  if (!type || type === "Figurine") return "figurine";
+  // les Yoshi de laine et Poochy sont des statuettes comme les autres, juste en tissu
+  if (!type || type === "Figurine" || type === "Laine") return "figurine";
   return type === "Carte" ? "carte" : "autre";
 }
 

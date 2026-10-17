@@ -1,6 +1,11 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Amiibo en laine = figurines** (demande de benglut, 17/10) : les Yoshi de laine, le Méga
+  Yoshi et Poochy passent dans le groupe « Figurines » du catalogue et de la page Amiibo
+  (`AMIIBO_TYPE_GROUPS`, `typeGroupOf`, `src/lib/amiibo.ts`) ; « Autres » ne garde que les
+  bracelets Power-Up et les blocs en bois. Nabiru renommé « Navirou », son nom français
+  (curation `amiibo-extras.json`, alias « nabiru » conservé pour la recherche).
 - **Amiibo polyvalents** (demande de benglut, 15/10) : sous chaque carte amiibo du catalogue,
   le nombre de jeux compatibles et combien sont dans la collection (« 43 jeux · 16 des
   miens ») ; nouveau tri « Les plus polyvalents » / « Compatibles avec mes jeux » (paramètre
