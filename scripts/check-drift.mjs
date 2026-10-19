@@ -25,7 +25,13 @@ if (!topVersion) {
 }
 
 // 2. chemins cités dans les docs → doivent exister
-const docFiles = ["README.md", "CLAUDE.md", "AGENTS.md", ...fs.readdirSync(path.join(ROOT, "docs")).filter((f) => f.endsWith(".md")).map((f) => `docs/${f}`)];
+const docFiles = [
+  "README.md",
+  "CLAUDE.md",
+  "AGENTS.md",
+  ...fs.readdirSync(path.join(ROOT, "docs")).filter((f) => f.endsWith(".md")).map((f) => `docs/${f}`),
+  ...fs.readdirSync(path.join(ROOT, ".agents", "rules")).filter((f) => f.endsWith(".md")).map((f) => `.agents/rules/${f}`),
+];
 const pathRe = /(?:`|\()((?:src|scripts|docs|data|public|\.agents|\.github|\.claude)\/[A-Za-z0-9_\-./[\]]+?)(?:`|\))/g;
 for (const doc of docFiles) {
   const content = fs.readFileSync(path.join(ROOT, doc), "utf8");
@@ -34,6 +40,15 @@ for (const doc of docFiles) {
     if (!fs.existsSync(path.join(ROOT, p))) errors.push(`${doc} : chemin cité introuvable — ${p}`);
   }
 }
+
+// 2b. règles : une par fichier dans .agents/rules/, toutes citées dans l'index (§8 de CLAUDE.md)
+// et rien d'autre ; une règle hors index n'est jamais lue.
+const RULES_DIR = path.join(ROOT, ".agents", "rules");
+const claudeMd = fs.readFileSync(path.join(ROOT, "CLAUDE.md"), "utf8");
+const indexed = new Set([...claudeMd.matchAll(/\.agents\/rules\/([a-z0-9-]+\.md)/g)].map((m) => m[1]));
+const ruleFiles = fs.existsSync(RULES_DIR) ? fs.readdirSync(RULES_DIR).filter((f) => f.endsWith(".md")) : [];
+for (const f of ruleFiles) if (!indexed.has(f)) errors.push(`règle absente de l'index de CLAUDE.md — .agents/rules/${f}`);
+for (const f of indexed) if (!ruleFiles.includes(f)) errors.push(`CLAUDE.md cite une règle introuvable — .agents/rules/${f}`);
 
 // 3. cohérence de l'export public
 const pub = (name) => JSON.parse(fs.readFileSync(path.join(ROOT, "data/public", name), "utf8"));

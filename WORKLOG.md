@@ -1,6 +1,13 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Règles de l'agent : une règle = un fichier** (demande de benglut, 19/10) : `.agents/rules/`
+  (langue, pnpm, shell, attribution, données, possession, rien d'inventé, secrets, vérifier,
+  Vinted) ; le §8 de `CLAUDE.md` devient l'index, sans historique « superseded » ; `AGENTS.md`
+  renvoie à l'index au lieu de recopier des règles périmées (« jamais d'édition des JSON »,
+  « jamais de push sans ordre », workflow git d'avant D1). `check-drift` échoue si une règle
+  manque à l'index ou si l'index cite un fichier absent, et vérifie les chemins cités dans
+  les règles.
 - **Jeton d'API Cloudflare de la CLI** (demande de benglut, 19/10) : `CLOUDFLARE_API_TOKEN` et
   `CLOUDFLARE_ACCOUNT_ID` dans `.env` (ignoré par git) remplacent `wrangler login`, qui
   expirait ; signalé sur la page « </> Dev » (carte Sécurité, `DevView.tsx`), dans

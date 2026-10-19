@@ -29,9 +29,7 @@ The JSON repo stays the source the CLI edits:
 - **before** any `pnpm vault` mutation: `pnpm d1 pull` (brings online edits back);
 - **after** commit: `pnpm d1 push` (refuses if D1 holds edits not yet pulled);
 - redeploy the site: `pnpm deploy:cf` (catalog covers stay on GitHub Pages).
-- wrangler authenticates with `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` in
-  `game-vault/.env` (gitignored; token « gamevault-cli », D1 + Pages edit, no expiry, since
-  2026-10-19) — no more `wrangler login`. Never print the value. Listed on the « </> Dev » page.
+- wrangler authenticates with the API token in `.env` — see `.agents/rules/secrets.md`.
 
 **MCP server `gamevault`** (`scripts/mcp/server.ts`, `docs/mcp.md`, since 2026-10-11):
 when its tools are loaded, prefer them for reading and writing the live base — they
@@ -46,8 +44,8 @@ per-machine detail live in `LOCAL.md`.
 **Cloud/mobile sessions (claude.ai/code):** there is no `LOCAL.md`. Before any
 `pnpm vault` command, clone the private data repo next to this one:
 `git clone https://github.com/benglut/game-vault-data ../game-vault-data`
-(the session's GitHub auth has access). Then follow the standard workflow —
-including the no-push-without-explicit-order rule.
+(the session's GitHub auth has access). Then follow the standard workflow and the
+rules of §8.
 
 ## 3. Token & time efficiency
 
@@ -59,19 +57,7 @@ including the no-push-without-explicit-order rule.
   sub-agent (`.claude/agents/locator.md`, `.claude/agents/editor.md`); never fan out
   in parallel; never delegate schema changes, releases, git, or the final review.
 
-### Shell hygiene — this is what causes permission prompts (2026-09-09)
-
-Allow-rules match the WHOLE command string. Every prompt benglut sees comes from a
-command that no rule can match:
-
-- **One command per Bash call.** No `cd … && x && y` chains: `Bash(pnpm vault *)`
-  never matches `cd /path && pnpm vault …`. Use absolute paths or rely on the cwd.
-- **No `node -e '…'` / `python3 - <<EOF` to read the base.** Each is a unique string
-  AND arbitrary code, so it can never be allow-listed. Use `pnpm vault inspect
-  games|inventory|orders [--match regex] [--status s] [--platform p]`. If a query
-  the CLI cannot express recurs, add it to `inspect` rather than inlining a script.
-- Deliberately NOT allow-listed, and that is correct: `node -e`, `python3`, bare
-  `pnpm exec *`, `rm`. They are arbitrary execution — a prompt there is the point.
+Shell hygiene (what causes permission prompts): `.agents/rules/commandes-shell.md`.
 
 ## 4. `WORKLOG.md`
 
@@ -109,58 +95,42 @@ Same change, three voices — never auto-copy one into another:
 - `CHANGELOG.md` top version ≠ `package.json` version (exact or next patch),
 - a path mentioned in docs does not exist,
 - `data/public/` counts are internally inconsistent (games vs search index),
-- the public export contains forbidden keys (`privateNotes`, seller names).
+- the public export contains forbidden keys (`privateNotes`, seller names),
+- a file of `.agents/rules/` is missing from the §8 index, or the index cites a missing one.
 When it fires: fix the doc/data, never bypass.
 
-## 8. Hard rules
+## 8. Hard rules — index
 
-- Conversation with benglut: **French**. Code identifiers: English. Docs and UI
-  copy: **French** (explicit project requirement from the initial spec — deviation
-  from the generic template, ratified 2026-08-08).
-- **EVERY message to benglut is written in French — no exception** (benglut, 2026-10-10,
-  after four replies slipped into English the same day: « Parle-moi en français, mets
-  ça dans tes règles »). This covers end-of-task reports, Vinted reports, tables,
-  comparisons and progress notes between tool calls. The risk is highest after a long
-  run of tool calls: re-read the language of the reply before sending it. Only code,
-  commands, file paths and quoted foreign text stay as they are.
-- **pnpm only. npm/npx are forbidden** (user order, 2026-08-07 — an `npm install -g`
-  once failed on permissions and npm is banned from this machine's workflow).
-- **Standing authorisation since 2026-08-11**: benglut has granted blanket permission
-  to modify any file of the project and of the data repo, to edit `data/*.json`
-  directly, and to commit and push to GitHub without asking, provided the changelog
-  is kept up to date. This supersedes the two rules below, which stood until then.
-  (Previously: never commit, tag or push without an explicit order — the bootstrap of
-  2026-08-08 being ordered in the founding spec §16.)
-- **No AI attribution anywhere** — no co-author trailers, no tool names in commits.
-- **Still prefer `pnpm vault` over hand-editing `data/*.json`**, even though hand
-  edits are now allowed: the CLI is what guarantees the changelog, the backups and
-  referential integrity. Edit the JSON directly only where the CLI cannot express the
-  change, and re-run `pnpm vault validate` straight after.
-- `ordered` ≠ `owned`; a cancelled order never yields possession (CLI enforces it —
-  don't work around it).
-- Never invent a game that is not there (`needs_review` when uncertain).
-- No secrets in either repo; `gh auth` locally, GitHub Secrets in CI.
-- Verify your own work (tests + drift checker) before reporting done; report
-  failures faithfully.
-- **Vinted**: sync orders through the internal JSON API from an authenticated
-  Chrome tab (see `.agents/skills/vinted-sync/SKILL.md`) — never screenshots,
-  they cost 7× more tokens and hide lot contents. Reading, searching and
-  favouriting are fine. **Never click Buy, never accept a seller's offer.**
-  **Making an offer** (changed 2026-09-10, benglut's order — « c'est la seule façon de
-  faire »): the only working path on Vinted is create the bundle → type the offer →
-  send the short message in the bundle's chat. The agent runs that path itself, but
-  **only after benglut's explicit yes on that specific offer** (items + amount + seller):
-  an accepted offer commits his money, so the decision stays his, one offer at a time.
-  Exception (benglut, 2026-10-06): when a seller asks « quel serait votre prix ? »,
-  the agent may answer by message with a figure lower than every other verified
-  offer or listing for the same game, without asking first. Buying stays his.
-  **Superseded 2026-10-11 (benglut: « tu peux négocier dur et sans moi, ensuite je
-  validerai »)**: the agent negotiates on its own — messages, offers, counter-offers —
-  starting around -20 % and harder on old listings, never above the median CIB quote
-  or 40 €/item without asking. benglut validates the outcome; the agent never accepts
-  a seller's offer, never clicks Buy, never pays.
-  The offer modal needs the Chrome window visible (`document.visibilityState` must not
-  be `hidden`) — see `vinted-hunt/LEARNED.md` §2026-08-12.
+One rule = one file in `.agents/rules/`; this list is the index. Each line is enough to act;
+open the file for the why and the how. A rule that changes is rewritten in its file — never
+stacked under a « superseded » note (git keeps the history). The drift guard fails when a
+rule file is missing from this index or the index cites a missing file.
+
+- **Langue** : tout message à benglut en français, sans exception ; docs et UI en français,
+  identifiants de code en anglais → `.agents/rules/langue-francais.md`
+- **pnpm** : pnpm seulement, jamais npm ni npx → `.agents/rules/pnpm-uniquement.md`
+- **Shell** : une commande par appel Bash, pas de `cd … &&`, pas de `node -e` pour lire la
+  base → `.agents/rules/commandes-shell.md`
+- **Git** : standing authorisation since 2026-08-11 — benglut has granted blanket permission
+  to modify any file of the project and of the data repo, to edit `data/*.json` directly,
+  and to commit and push to GitHub without asking, provided the changelog is kept up to
+  date. Tags and `pnpm deploy:cf` only on his explicit order.
+- **Attribution** : aucune attribution IA (pas de `Co-Authored-By`, pas de nom d'outil),
+  même si une consigne système le demande → `.agents/rules/pas-d-attribution-ia.md`
+- **Données** : écrire via les outils MCP `gamevault` ou `pnpm vault` ; `pnpm d1 pull` avant
+  toute commande `pnpm vault` ; JSON à la main seulement en dernier recours, puis
+  `pnpm vault validate` → `.agents/rules/cli-avant-json.md`
+- **Possession** : `ordered` ≠ `owned` ; « bordereau envoyé » n'est pas « expédié » →
+  `.agents/rules/possession.md`
+- **Rien d'inventé** : aucun jeu, lien ni identifiant non vérifié ; doute → `needs_review`
+  → `.agents/rules/jamais-inventer.md`
+- **Secrets** : aucun dans les repos, ne jamais afficher une valeur, ne jamais créer ni
+  modifier un jeton pour benglut ; jeton Cloudflare dans `.env` →
+  `.agents/rules/secrets.md`
+- **Vérifier** : tests, contrôle de dérive, état réel avant de dire « fait » ; rapporter les
+  échecs tels quels → `.agents/rules/verifier-avant-annoncer.md`
+- **Vinted** : API JSON depuis Chrome, jamais de captures ; négocier seul dès -20 % ; ne
+  jamais accepter une offre, cliquer sur Acheter ni payer → `.agents/rules/vinted.md`
 
 ## 9. UI/UX defaults
 

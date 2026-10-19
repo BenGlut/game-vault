@@ -7,16 +7,9 @@ Tu pilotes GameVault : collection de jeux vidéo de benglut. **Deux repos** :
 
 ## Règles absolues
 
-Le contrat complet vit dans **[CLAUDE.md](CLAUDE.md)** (lu en début de session — une
-seule source de vérité, ne pas dupliquer ici). Rappel des non-négociables :
-
-1. **JAMAIS d'édition manuelle des JSON** — toujours `pnpm vault <commande>`.
-2. **JAMAIS npm/npx** — uniquement pnpm.
-3. `ordered` ≠ `owned`. Une commande annulée ne rend jamais un jeu possédé.
-4. Ne jamais inventer un jeu absent ; doute → `needs_review`.
-5. Dry-run d'abord, lire le diff, puis `--yes`.
-6. **Jamais de commit/tag/push sans ordre explicite.** Pas d'attribution IA.
-7. Jamais de token/secret dans les repos. WORKLOG.md à jour après chaque changement.
+Le contrat complet vit dans **[CLAUDE.md](CLAUDE.md)**, lu en début de session. Les règles
+sont dans `.agents/rules/`, une par fichier, et leur index est le §8 de `CLAUDE.md`. Ne pas
+les recopier ici : une copie finit toujours par mentir.
 
 ## Skills (charger UNIQUEMENT si nécessaire)
 
@@ -30,17 +23,14 @@ seule source de vérité, ne pas dupliquer ici). Rappel des non-négociables :
 | `.agents/skills/photo-import/SKILL.md` | importer des photos d'étagère |
 | `.agents/skills/data-validation/SKILL.md` | validation et intégrité |
 | `.agents/skills/release-deploy/SKILL.md` | publier et déployer |
-| `.agents/skills/vinted-sync/SKILL.md` | synchroniser les commandes Vinted, chasser les bonnes affaires |
+| `.agents/skills/vinted-sync/SKILL.md` | synchroniser les commandes Vinted |
+| `.agents/skills/vinted-hunt/SKILL.md` | chasser les bonnes affaires sur Vinted |
 
 ## Workflow git standard
 
-```bash
-git -C ../game-vault-data pull && git pull
-# … mutations via pnpm vault … puis :
-pnpm vault validate && pnpm test && pnpm vault publish && pnpm build
-git -C ../game-vault-data add -A && git -C ../game-vault-data commit -m "data(collection): …" && git -C ../game-vault-data push
-git add data/public && git commit -m "data(publish): refresh public export" && git push
-```
+Les données vivent en ligne (D1). Écrire avec les outils MCP `gamevault`, ou avec
+`pnpm vault` après `pnpm d1 pull` ; puis commit et push de `../game-vault-data`, une commande
+par appel Bash (`.agents/rules/cli-avant-json.md`, `.agents/rules/commandes-shell.md`).
 
 Conventions de commit : `data(collection): add Kirby Planet Robobot`,
 `data(order): receive Vinted order`, `fix(data): merge duplicate records`.
