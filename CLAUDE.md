@@ -29,6 +29,9 @@ The JSON repo stays the source the CLI edits:
 - **before** any `pnpm vault` mutation: `pnpm d1 pull` (brings online edits back);
 - **after** commit: `pnpm d1 push` (refuses if D1 holds edits not yet pulled);
 - redeploy the site: `pnpm deploy:cf` (catalog covers stay on GitHub Pages).
+- wrangler authenticates with `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` in
+  `game-vault/.env` (gitignored; token « gamevault-cli », D1 + Pages edit, no expiry, since
+  2026-10-19) — no more `wrangler login`. Never print the value. Listed on the « </> Dev » page.
 
 **MCP server `gamevault`** (`scripts/mcp/server.ts`, `docs/mcp.md`, since 2026-10-11):
 when its tools are loaded, prefer them for reading and writing the live base — they

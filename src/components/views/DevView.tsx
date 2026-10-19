@@ -583,6 +583,21 @@ export default function DevView() {
               <Mono>GOOGLE_CLIENT_ID</Mono>
             </li>
             <li>
+              <span className="font-medium">Jeton d’API Cloudflare</span> <Mono>CLOUDFLARE_API_TOKEN</Mono> <Mono>CLOUDFLARE_ACCOUNT_ID</Mono>
+              <span className="text-muted"> dans </span>
+              <Mono>game-vault/.env</Mono>
+              <span className="text-muted">
+                {" "}
+                (ignoré par git, sur le Mac uniquement) : jeton « gamevault-cli » créé le 19/10/2026, droits D1 et Pages en écriture, sans expiration. Il remplace{" "}
+              </span>
+              <Mono>wrangler login</Mono>
+              <span className="text-muted"> pour </span>
+              <Mono>pnpm d1 pull|push</Mono>
+              <span className="text-muted"> et </span>
+              <Mono>pnpm deploy:cf</Mono>
+              <span className="text-muted">. À révoquer ou régénérer dans Cloudflare › My Profile › API Tokens.</span>
+            </li>
+            <li>
               <span className="font-medium">Écritures</span>
               <span className="text-muted"> : validées par les schémas Zod, références contrôlées, journal dans le même lot que la modification.</span>
             </li>

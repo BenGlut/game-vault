@@ -1,6 +1,10 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Jeton d'API Cloudflare de la CLI** (demande de benglut, 19/10) : `CLOUDFLARE_API_TOKEN` et
+  `CLOUDFLARE_ACCOUNT_ID` dans `.env` (ignoré par git) remplacent `wrangler login`, qui
+  expirait ; signalé sur la page « </> Dev » (carte Sécurité, `DevView.tsx`), dans
+  `.env.example` et `CLAUDE.md`.
 - **Amiibo en laine = figurines** (demande de benglut, 17/10) : les Yoshi de laine, le Méga
   Yoshi et Poochy passent dans le groupe « Figurines » du catalogue et de la page Amiibo
   (`AMIIBO_TYPE_GROUPS`, `typeGroupOf`, `src/lib/amiibo.ts`) ; « Autres » ne garde que les
