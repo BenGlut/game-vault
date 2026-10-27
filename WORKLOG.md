@@ -1,6 +1,9 @@
 # Worklog — v0.1.1 (in progress)
 
 ## Added
+- **Skill vinted-sync : ouvrir le suivi du colis avant de le déclarer bloqué** (benglut,
+  27/10) : l'API `shipment` ne montre que les étapes Vinted, les scans du transporteur sont
+  dans « Suivre le colis » ; vérifier aussi le pays du vendeur (`.agents/skills/vinted-sync/SKILL.md`).
 - **Règles de l'agent : une règle = un fichier** (demande de benglut, 19/10) : `.agents/rules/`
   (langue, pnpm, shell, attribution, données, possession, rien d'inventé, secrets, vérifier,
   Vinted) ; le §8 de `CLAUDE.md` devient l'index, sans historique « superseded » ; `AGENTS.md`

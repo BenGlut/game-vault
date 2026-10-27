@@ -39,6 +39,18 @@ qu'on a détecté un Mario 3D All Stars commandé en double chez deux vendeurs.
    Répartir l'écart au prorata des prix affichés.
 5. Appliquer avec `pnpm vault add-order` / `update-order` / `fulfill-order` /
    `deliver-order` / `refund-order`, puis `validate` + `publish`.
+6. **Colis qui semble bloqué : ouvrir le suivi AVANT de conclure ou d'écrire au vendeur.**
+   `shipment.status` et `shipment.status_updated_at` de l'API ne changent qu'aux étapes
+   Vinted (envoyé, livré) : un colis en transit depuis une semaine y paraît figé alors que
+   le transporteur a scanné plusieurs étapes. Dans la conversation, bouton
+   **« Suivre le colis »** → fenêtre « Suivi du colis » avec chaque scan du transporteur
+   (centre de tri, départ…) et la fenêtre de livraison estimée. Vérifier aussi le pays du
+   vendeur (en-tête de la conversation) : un envoi depuis le Portugal ou l'Espagne prend
+   5 à 8 jours. Ne relancer le vendeur que si ce suivi n'a vraiment aucun scan récent ou si
+   la livraison estimée est dépassée.
+   Origine : 27/10/2026, lot xdoudoux29 (Portugal) annoncé « bloqué depuis le 20/10 » d'après
+   l'API, message inutile au vendeur alors que le suivi montrait des scans les 21, 22 et
+   27/10 (benglut : « pense à cliquer sur le suivi du colis »).
 
 ## Chasse aux bonnes affaires
 
